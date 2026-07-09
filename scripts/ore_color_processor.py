@@ -5,6 +5,7 @@
 从types表中提取所有矿石，根据图标名称分组，计算每个图标的主色调，并保存到数据库
 """
 
+from utils.single_db import get_db_path
 import sqlite3
 import os
 from pathlib import Path
@@ -410,24 +411,10 @@ def process_all_languages(config):
     icons_dir = project_root / "custom_icons"
     languages = config.get("languages", ["en"])
     
-    all_success = True
-    
-    for language in languages:
-        print(f"\n[+] 处理语言: {language}")
-        db_path = db_output_path / f"item_db_{language}.sqlite"
-        
-        if not db_path.exists():
-            print(f"[!] 数据库文件不存在: {db_path}，跳过")
-            continue
-        
-        success = ore_color_process(str(db_path), str(icons_dir))
-        if not success:
-            print(f"[x] 语言 {language} 的矿石主题色处理失败")
-            all_success = False
-        else:
-            print(f"[+] 语言 {language} 的矿石主题色处理完成")
-    
-    return all_success
+    db_path = get_db_path(config)
+    db_path.parent.mkdir(parents=True, exist_ok=True)
+    print(f"\n[+] 处理矿石主题色: {db_path}")
+    return ore_color_process(str(db_path), str(icons_dir))
 
 
 def main(config=None):

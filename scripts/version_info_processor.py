@@ -5,6 +5,7 @@
 用于在所有语言的数据库中创建版本信息表，记录SDE的build number
 """
 
+from utils.single_db import get_db_path
 import sqlite3
 import json
 from pathlib import Path
@@ -77,11 +78,7 @@ class VersionInfoProcessor:
         print(f"[+] 开始处理版本信息，语言: {language}")
         
         # 数据库文件路径
-        db_path = self.db_output_path / f"item_db_{language}.sqlite"
-        
-        if not db_path.exists():
-            print(f"[!] 数据库文件不存在: {db_path}")
-            return False
+        db_path = get_db_path(self.config)
         
         try:
             # 连接数据库
@@ -112,13 +109,7 @@ class VersionInfoProcessor:
         """
         print("[+] 开始处理版本信息")
         
-        success_count = 0
-        for language in self.languages:
-            if self.process_version_info_for_language(language, build_number, release_date, build_key):
-                success_count += 1
-        
-        print(f"[+] 版本信息处理完成，成功处理 {success_count}/{len(self.languages)} 个语言")
-        return success_count > 0
+        return self.process_version_info_for_language(language, build_number, release_date, build_key)
 
 
 def main(config=None, build_number=None, release_date=None, build_key=None):

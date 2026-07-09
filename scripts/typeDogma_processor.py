@@ -7,6 +7,7 @@
 功能: 处理物品属性详情数据，创建typeAttributes、typeEffects和planetResourceHarvest表
 """
 
+from utils.single_db import get_db_path
 import json
 import sqlite3
 from pathlib import Path
@@ -222,11 +223,7 @@ class TypeDogmaProcessor:
             return False
         
         # 数据库文件路径
-        db_path = self.db_output_path / f"item_db_{language}.sqlite"
-        
-        if not db_path.exists():
-            print(f"[!] 数据库文件不存在: {db_path}")
-            return False
+        db_path = get_db_path(self.config)
         
         try:
             # 连接数据库
@@ -257,13 +254,7 @@ class TypeDogmaProcessor:
         """
         print("[+] 开始处理typeDogma数据")
         
-        success_count = 0
-        for language in self.languages:
-            if self.process_type_dogma_for_language(language):
-                success_count += 1
-        
-        print(f"[+] typeDogma数据处理完成，成功处理 {success_count}/{len(self.languages)} 个语言")
-        return success_count > 0
+        return self.process_type_dogma_for_language(language)
 
 
 def main(config=None):

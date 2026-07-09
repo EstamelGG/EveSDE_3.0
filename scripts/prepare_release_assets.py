@@ -4,6 +4,7 @@
 Prepare release assets for GitHub Actions.
 """
 
+from utils.single_db import get_db_path
 import argparse
 import json
 import os
@@ -92,7 +93,7 @@ def create_release_archives(config: Dict[str, Any], extra_langs: List[str]) -> D
 
     db_dir = output_sde / "db"
     extra_dbs = {
-        lang: db_dir / f"item_db_{lang}.sqlite"
+        lang: db_dir / get_db_path(config).name
         for lang in extra_langs
     }
     missing = [str(path) for path in extra_dbs.values() if not path.exists()]

@@ -5,6 +5,7 @@ NPC公司处理器模块
 处理EVE NPC公司数据并存储到数据库
 """
 
+from utils.single_db import get_db_path
 import json
 import sqlite3
 import time
@@ -383,7 +384,7 @@ class NpcCorporationsProcessor:
         
         # 为每种语言的数据库分别插入相同的数据
         for lang in languages:
-            db_filename = db_output_path / f'item_db_{lang}.sqlite'
+            db_filename = get_db_path(config)
             
             print(f"\n[+] 处理数据库: {db_filename}")
             

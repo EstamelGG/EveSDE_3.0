@@ -7,6 +7,7 @@
 解决macOS和Windows上生成的SQLite数据库MD5不同的问题
 """
 
+from utils.single_db import get_db_path
 import sqlite3
 import tempfile
 import os
@@ -135,23 +136,13 @@ class DatabaseNormalizer:
         """标准化所有数据库文件，确保跨平台一致性"""
         print("[+] 开始标准化所有数据库文件...")
         
-        success_count = 0
-        total_count = 0
-        
-        # 处理所有语言的数据库
-        for lang in self.languages:
-            db_path = self.db_output_path / f'item_db_{lang}.sqlite'
-            
-            if not db_path.exists():
-                print(f"[!] 数据库文件不存在: {db_path}")
-                continue
-            
-            total_count += 1
-            if self.normalize_single_database(db_path):
-                success_count += 1
-        
-        print(f"[+] 数据库标准化完成: {success_count}/{total_count} 个成功")
-        return success_count == total_count
+        db_path = get_db_path(self.config)
+        if not db_path.exists():
+            print(f"[!] 数据库文件不存在: {db_path}")
+            return False
+        ok = self.normalize_single_database(db_path)
+        print(f"[+] 数据库标准化完成: {1 if ok else 0}/1")
+        return ok
 
 
 def normalize_all_databases(config: Dict[str, Any]) -> bool:

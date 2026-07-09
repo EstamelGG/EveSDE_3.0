@@ -5,6 +5,7 @@ EVE SDE 处理器 - 主入口
 用于处理EVE Online静态数据导出(SDE)的主程序
 """
 
+from utils.single_db import get_db_path
 import json
 import sys
 import os
@@ -601,13 +602,13 @@ def main():
     
     # 提取英文版物品详细信息
     print("[+] 提取英文版物品详细信息")
-    en_db_path = Path(config["paths"]["db_output"]) / "item_db_en.sqlite"
+    en_db_path = get_db_path(config)
     en_output_dir = "item_detail_en"
     en_success = item_detail_extractor.item_detail_extract(str(en_db_path), str(en_output_dir))
     
     # 提取中文版物品详细信息
     print("[+] 提取中文版物品详细信息")
-    zh_db_path = Path(config["paths"]["db_output"]) / "item_db_zh.sqlite"
+    zh_db_path = get_db_path(config)
     zh_output_dir = "item_detail_zh"
     zh_success = item_detail_extractor.item_detail_extract(str(zh_db_path), str(zh_output_dir))
     

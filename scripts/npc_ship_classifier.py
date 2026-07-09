@@ -7,6 +7,7 @@ NPC船只分类处理器模块
 功能: 在types_processor之后，专门处理npc_ship_scene, npc_ship_faction, npc_ship_type, npc_ship_faction_icon字段
 """
 
+from utils.single_db import get_db_path
 import sqlite3
 import json
 from pathlib import Path
@@ -311,7 +312,7 @@ class NPCShipClassifier:
         从数据库加载所有需要的数据到内存
         返回包含所有NPC船只数据、属性缓存、groups缓存的字典
         """
-        db_path = self.db_output_path / f"item_db_{language}.sqlite"
+        db_path = get_db_path(self.config)
         
         if not db_path.exists():
             print(f"[!] 数据库文件不存在: {db_path}")
@@ -583,11 +584,7 @@ class NPCShipClassifier:
         """
         将分类结果批量写入数据库
         """
-        db_path = self.db_output_path / f"item_db_{language}.sqlite"
-        
-        if not db_path.exists():
-            print(f"[!] 数据库文件不存在: {db_path}")
-            return False
+        db_path = get_db_path(self.config)
         
         try:
             conn = sqlite3.connect(str(db_path))
@@ -665,13 +662,7 @@ class NPCShipClassifier:
         """
         print("[+] 开始分类NPC船只")
         
-        success_count = 0
-        for language in self.languages:
-            if self.classify_npc_ships_for_language(language):
-                success_count += 1
-        
-        print(f"[+] NPC船只分类完成，成功处理 {success_count}/{len(self.languages)} 个语言")
-        return success_count > 0
+        return self.classify_npc_ships_for_language("en")
 
 
 def main(config=None):

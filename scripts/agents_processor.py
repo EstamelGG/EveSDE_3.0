@@ -9,6 +9,7 @@
 agent字段包含agentTypeID、divisionID、isLocator、level等信息
 """
 
+from utils.single_db import get_db_path
 import json
 import sqlite3
 import time
@@ -180,27 +181,18 @@ class AgentsProcessor:
         # 加载代理人数据
         self.load_agents_data()
         
-        # 为每种语言创建数据库并处理数据
-        for lang in languages:
-            db_filename = db_output_path / f'item_db_{lang}.sqlite'
-            
-            print(f"\n[+] 处理数据库: {db_filename}")
-            
-            try:
-                conn = sqlite3.connect(str(db_filename))
-                cursor = conn.cursor()
-                
-                # 处理代理人数据
-                self.process_agents_data(cursor, lang)
-                
-                # 提交事务
-                conn.commit()
-                conn.close()
-                
-                print(f"[+] 数据库 {lang} 更新完成")
-                
-            except Exception as e:
-                print(f"[x] 处理数据库 {db_filename} 时出错: {e}")
+        db_file = get_db_path(config)
+        db_file.parent.mkdir(parents=True, exist_ok=True)
+        print(f"\n[+] 处理数据库: {db_file}")
+        try:
+            conn = sqlite3.connect(str(db_file))
+            cursor = conn.cursor()
+            self.process_agents_data(cursor, 'en')
+            conn.commit()
+            conn.close()
+            print("[+] 单库更新完成")
+        except Exception as e:
+            print(f"[x] 处理数据库 {db_file} 时出错: {e}")
 
 
 def main(config=None):

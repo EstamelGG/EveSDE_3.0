@@ -5,6 +5,7 @@
 如果某个分组的图标为category_default.png，则使用该分组中第一个物品的图标替代
 """
 
+from utils.single_db import get_db_path
 import sqlite3
 import sys
 from pathlib import Path
@@ -67,26 +68,18 @@ def update_all_icons(config: Dict[str, Any]):
     db_output_path = project_root / config["paths"]["db_output"]
     languages = config.get("languages", ["en"])
     
-    for lang in languages:
-        db_filename = db_output_path / f'item_db_{lang}.sqlite'
-        
-        print(f"\n[+] 处理数据库: {db_filename}")
-        
-        try:
-            conn = sqlite3.connect(str(db_filename))
-            cursor = conn.cursor()
-            
-            # 更新分组图标
-            update_groups_with_icon_filename(cursor)
-            
-            # 提交事务
-            conn.commit()
-            conn.close()
-            
-            print(f"[+] 数据库 {lang} 分组图标更新完成")
-            
-        except Exception as e:
-            print(f"[x] 处理数据库 {db_filename} 时出错: {e}")
+    db_file = get_db_path(config)
+    db_file.parent.mkdir(parents=True, exist_ok=True)
+    print(f"\n[+] 处理数据库: {db_file}")
+    try:
+        conn = sqlite3.connect(str(db_file))
+        cursor = conn.cursor()
+        update_groups_with_icon_filename(cursor)
+        conn.commit()
+        conn.close()
+        print("[+] 分组图标单库更新完成")
+    except Exception as e:
+        print(f"[x] 处理数据库 {db_file} 时出错: {e}")
 
 
 def main(config=None):

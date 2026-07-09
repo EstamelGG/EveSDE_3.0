@@ -8,6 +8,7 @@
 功能: 完全按照old版本的逻辑实现agent name的本地化处理
 """
 
+from utils.single_db import get_db_path
 import json
 import sqlite3
 import os
@@ -110,7 +111,7 @@ class AgentLocalizationProcessor:
         agents_without_names = set()
         
         for lang in self.languages:
-            db_filename = self.db_output_path / f'item_db_{lang}.sqlite'
+            db_filename = get_db_path(self.config)
             if db_filename.exists():
                 try:
                     conn = sqlite3.connect(str(db_filename))
@@ -154,7 +155,7 @@ class AgentLocalizationProcessor:
         success_count = 0
         
         for lang in self.languages:
-            db_filename = self.db_output_path / f'item_db_{lang}.sqlite'
+            db_filename = get_db_path(self.config)
             
             if not db_filename.exists():
                 print(f"[-] 数据库文件 {db_filename} 不存在，跳过")
