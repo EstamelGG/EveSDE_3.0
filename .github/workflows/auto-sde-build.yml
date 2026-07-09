@@ -1,0 +1,270 @@
+name: Auto SDE Build and Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      build_patch:
+        description: '构建补丁包（即使已存在相同build_number的release也重新构建）'
+        required: false
+        default: false
+        type: boolean
+      debug:
+        description: '调试模式（只执行构建，不创建release、不commit、不push）'
+        required: false
+        default: false
+        type: boolean
+      skip_version_check:
+        description: '跳过版本一致性检查（允许 sde_binary 和 sde_update 版本号不一致时继续构建）'
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    - cron: '20 11 * * *' # 北京时间 19:20
+    - cron: '40 11 * * *' # 北京时间 19:40
+    - cron: '0 13 * * *'  # 北京时间 21:00
+    - cron: '0 0 * * *'   # 北京时间 8:00
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+jobs:
+  get-build-info:
+    name: 获取SDE版本信息
+    runs-on: ubuntu-latest
+    outputs:
+      build-number: ${{ steps.info.outputs.build-number }}
+      release-date: ${{ steps.info.outputs.release-date }}
+      build-key: ${{ steps.info.outputs.build-key }}
+      new-build: ${{ steps.info.outputs.new-build }}
+      patch-version: ${{ steps.info.outputs.patch-version }}
+      final-build-number: ${{ steps.info.outputs.final-build-number }}
+      debug-mode: ${{ steps.info.outputs.debug-mode }}
+
+    steps:
+      - name: 获取版本并选择构建号
+        id: info
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
+          DEBUG_MODE: ${{ github.event.inputs.debug }}
+          BUILD_PATCH: ${{ github.event.inputs.build_patch }}
+        run: |
+          set -euo pipefail
+
+          SDE_INFO=$(curl -fsSL "https://developers.eveonline.com/static-data/tranquility/latest.jsonl")
+          BUILD_NUMBER=$(jq -r '.buildNumber // .build_number' <<< "$SDE_INFO")
+          RELEASE_DATE=$(jq -r '.releaseDate' <<< "$SDE_INFO")
+          BUILD_KEY=$(jq -r '._key' <<< "$SDE_INFO")
+
+          DEBUG_MODE="${DEBUG_MODE:-false}"
+          BUILD_PATCH="${BUILD_PATCH:-false}"
+          FINAL_BUILD_NUMBER="$BUILD_NUMBER"
+          PATCH_VERSION=0
+          NEW_BUILD=true
+
+          release_exists() {
+            gh release view "sde-build-$1" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1
+          }
+
+          if [ "$DEBUG_MODE" = "true" ]; then
+            echo "[+] 调试模式：跳过 Release 检查"
+          elif [ "$BUILD_PATCH" = "true" ] && release_exists "$BUILD_NUMBER"; then
+            for patch in $(seq 1 99); do
+              PATCH_STR=$(printf "%02d" "$patch")
+              CANDIDATE="${BUILD_NUMBER}.${PATCH_STR}"
+              if ! release_exists "$CANDIDATE"; then
+                FINAL_BUILD_NUMBER="$CANDIDATE"
+                PATCH_VERSION="$patch"
+                break
+              fi
+            done
+
+            if [ "$FINAL_BUILD_NUMBER" = "$BUILD_NUMBER" ]; then
+              echo "[x] 已达到补丁版本上限（99）"
+              exit 1
+            fi
+          elif release_exists "$BUILD_NUMBER"; then
+            NEW_BUILD=false
+          fi
+
+          {
+            echo "build-number=$BUILD_NUMBER"
+            echo "release-date=$RELEASE_DATE"
+            echo "build-key=$BUILD_KEY"
+            echo "new-build=$NEW_BUILD"
+            echo "patch-version=$PATCH_VERSION"
+            echo "final-build-number=$FINAL_BUILD_NUMBER"
+            echo "debug-mode=$DEBUG_MODE"
+          } >> "$GITHUB_OUTPUT"
+
+          echo "[+] build=$BUILD_NUMBER final=$FINAL_BUILD_NUMBER patch=$PATCH_VERSION new=$NEW_BUILD"
+
+  build-sde:
+    name: 构建SDE数据库
+    runs-on: ubuntu-latest
+    needs: [get-build-info]
+    if: needs.get-build-info.outputs.new-build == 'true'
+    outputs:
+      item-detail-extracted: ${{ steps.build.outputs.item-detail-extracted }}
+      whats-new-exists: ${{ steps.whats-new.outputs.whats-new-exists }}
+      whats-new-name: ${{ steps.whats-new.outputs.whats-new-name }}
+      whats-new-basename: ${{ steps.whats-new.outputs.whats-new-basename }}
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置Python环境
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 生成 whats_new 报告
+        id: whats-new
+        env:
+          BUILD_NUMBER: ${{ needs.get-build-info.outputs.build-number }}
+          FINAL_BUILD_NUMBER: ${{ needs.get-build-info.outputs.final-build-number }}
+        run: python -u scripts/generate_whats_new.py
+
+      - name: 执行SDE构建
+        id: build
+        env:
+          FINAL_BUILD_NUMBER: ${{ needs.get-build-info.outputs.final-build-number }}
+          PATCH_VERSION: ${{ needs.get-build-info.outputs.patch-version }}
+          SKIP_VERSION_CHECK: ${{ github.event.inputs.skip_version_check }}
+        run: |
+          set -euo pipefail
+          EXTRA_ARGS=""
+          if [ "${SKIP_VERSION_CHECK:-false}" = "true" ]; then
+            EXTRA_ARGS="--skip-version-check"
+          fi
+
+          python -u main.py $EXTRA_ARGS
+
+          if [ -d "item_detail_en" ] && [ -d "item_detail_zh" ]; then
+            echo "item-detail-extracted=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "item-detail-extracted=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 上传构建产物
+        uses: actions/upload-artifact@v4
+        with:
+          name: sde-output-${{ needs.get-build-info.outputs.final-build-number }}
+          path: |
+            output_sde/
+            output_icons/
+            item_detail_en/
+            item_detail_zh/
+            release_compare_${{ needs.get-build-info.outputs.final-build-number }}.md
+            whats_new/
+          retention-days: 5
+
+  create-release:
+    name: 创建Release
+    runs-on: ubuntu-latest
+    needs: [get-build-info, build-sde]
+    if: needs.get-build-info.outputs.new-build == 'true' && needs.get-build-info.outputs.debug-mode != 'true'
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 下载构建产物
+        uses: actions/download-artifact@v4
+        with:
+          name: sde-output-${{ needs.get-build-info.outputs.final-build-number }}
+          path: ./
+
+      - name: 准备Release文件
+        id: release-assets
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
+        run: |
+          python -u scripts/prepare_release_assets.py \
+            --build-number "${{ needs.get-build-info.outputs.build-number }}" \
+            --final-build-number "${{ needs.get-build-info.outputs.final-build-number }}" \
+            --patch-version "${{ needs.get-build-info.outputs.patch-version }}" \
+            --release-date "${{ needs.get-build-info.outputs.release-date }}" \
+            --github-repository "$GITHUB_REPOSITORY"
+
+      - name: 创建Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ${{ steps.release-assets.outputs.release-files }}
+          tag_name: sde-build-${{ needs.get-build-info.outputs.final-build-number }}
+          name: EVE SDE Build ${{ needs.get-build-info.outputs.final-build-number }}
+          body_path: ${{ steps.release-assets.outputs.release-notes }}
+          draft: false
+          prerelease: false
+          fail_on_unmatched_files: true
+          generate_release_notes: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: 检出代码用于提交历史记录
+        if: steps.release-assets.outputs.compare-exists == 'true' || needs.build-sde.outputs.whats-new-exists == 'true' || needs.build-sde.outputs.item-detail-extracted == 'true'
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: repo
+          token: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: 提交历史记录和物品详情
+        if: steps.release-assets.outputs.compare-exists == 'true' || needs.build-sde.outputs.whats-new-exists == 'true' || needs.build-sde.outputs.item-detail-extracted == 'true'
+        run: |
+          set -euo pipefail
+
+          cd repo
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          if [ "${{ steps.release-assets.outputs.compare-exists }}" = "true" ]; then
+            mkdir -p history
+            cp "${{ steps.release-assets.outputs.compare-path }}" "history/${{ steps.release-assets.outputs.compare-new-filename }}"
+            git add "history/${{ steps.release-assets.outputs.compare-new-filename }}"
+          fi
+
+          WHATS_NEW="${{ needs.build-sde.outputs.whats-new-name }}"
+          if [ "${{ needs.build-sde.outputs.whats-new-exists }}" = "true" ] && [ -n "$WHATS_NEW" ]; then
+            mkdir -p whats_new
+            cp "../$WHATS_NEW" "whats_new/$(basename "$WHATS_NEW")"
+            git add "whats_new/$(basename "$WHATS_NEW")"
+          fi
+
+          for detail_dir in item_detail_en item_detail_zh; do
+            if [ -d "../$detail_dir" ]; then
+              rm -rf "$detail_dir"
+              cp -R "../$detail_dir" "$detail_dir"
+              git add "$detail_dir"
+            fi
+          done
+
+          if git diff --staged --quiet; then
+            echo "[+] 没有新的变更需要提交"
+            exit 0
+          fi
+
+          git commit -m "Update SDE data for build ${{ needs.get-build-info.outputs.final-build-number }} [skip ci]"
+          git push origin main
+
+  notify-completion:
+    name: 通知完成
+    runs-on: ubuntu-latest
+    needs: [get-build-info, build-sde]
+    if: always() && needs.get-build-info.outputs.new-build == 'true'
+
+    steps:
+      - name: 构建状态通知
+        run: |
+          if [ "${{ needs.build-sde.result }}" = "success" ]; then
+            echo "[+] SDE 构建成功：${{ needs.get-build-info.outputs.final-build-number }}"
+          else
+            echo "[x] SDE 构建失败：${{ needs.get-build-info.outputs.final-build-number }}"
+            exit 1
+          fi

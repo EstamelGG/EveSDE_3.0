@@ -1,0 +1,19 @@
+{
+  "paths": {
+    "sde_input": "./sde_jsonl",
+    "icons_input": "./icons_input",
+    "sde_zip": "./sde_jsonl_zip",
+    "icons_output": "./output_icons",
+    "map_output": "./output_sde/maps",
+    "db_output": "./output_sde/db",
+    "localization": "./localization/",
+    "sde_jsonl": "./sde_jsonl"
+  },
+  "urls": {
+    "sde_binary": "https://binaries.eveonline.com/eveclient_TQ.json",
+    "sde_update": "https://developers.eveonline.com/static-data/tranquility/latest.jsonl",
+    "sde_download_template": "https://developers.eveonline.com/static-data/tranquility/eve-online-static-data-{build_number}-jsonl.zip"
+  },
+  "languages": ["en", "de", "es", "fr", "ja", "ko", "ru", "zh"],
+  "github_repo": "estamelgg/EveSDE_2.0"
+}
