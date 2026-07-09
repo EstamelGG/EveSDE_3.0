@@ -17,16 +17,10 @@ import time
 class ItemDetailExtractor:
     """物品详细信息提取器"""
     
-    def __init__(self, db_path: str, output_dir: str):
-        """
-        初始化提取器
-        
-        Args:
-            db_path: 数据库文件路径
-            output_dir: 输出目录路径
-        """
+    def __init__(self, db_path: str, output_dir: str, lang: str = "en"):
         self.db_path = Path(db_path)
         self.output_dir = Path(output_dir)
+        self.lang = lang
         
         # 检查数据库文件是否存在
         if not self.db_path.exists():
@@ -92,26 +86,42 @@ class ItemDetailExtractor:
         cursor = conn.cursor()
         
         try:
-            query = """
+            if self.lang == "zh":
+                name_sql = "t.zh_name"
+                desc_sql = "t.zh_description"
+                group_sql = "t.group_zh_name"
+                cat_sql = "t.category_zh_name"
+                attr_display_sql = "da.zh_name"
+                trait_content_sql = "tr.zh_content"
+                unit_sql = "da.unit_zh_name"
+            else:
+                name_sql = "t.en_name"
+                desc_sql = "t.en_description"
+                group_sql = "t.group_en_name"
+                cat_sql = "t.category_en_name"
+                attr_display_sql = "da.en_name"
+                trait_content_sql = "tr.en_content"
+                unit_sql = "da.unit_en_name"
+            query = f"""
             SELECT 
                 json_object(
                     'type_id', t.type_id,
-                    'name', t.name,
-                    'description', t.description,
+                    'name', {name_sql},
+                    'description', {desc_sql},
                     'volume', t.volume,
                     'repackaged_volume', t.repackaged_volume,
                     'capacity', t.capacity,
                     'mass', t.mass,
-                    'category_name', t.category_name,
-                    'group_name', t.group_name,
+                    'category_name', {cat_sql},
+                    'group_name', {group_sql},
                     'attributes', (
                         SELECT json_group_array(
                             json_object(
-                                'attribute_name', da.name,
+                                'attribute_name', da.attribute_key,
                                 'value', ta.value,
                                 'categoryID', da.categoryID,
-                                'display_name', da.display_name,
-                                'unit_name', da.unitName
+                                'display_name', {attr_display_sql},
+                                'unit_name', {unit_sql}
                             )
                         )
                         FROM typeAttributes ta
@@ -120,18 +130,18 @@ class ItemDetailExtractor:
                         ORDER BY ta.attribute_id
                     ),
                     'traits', (
-                        SELECT json_group_array(json_object('content', content))
-                        FROM traits 
-                        WHERE typeid = ?
+                        SELECT json_group_array(json_object('content', {trait_content_sql}))
+                        FROM traits tr
+                        WHERE tr.typeid = ?
                         ORDER BY 
                             CASE 
-                                WHEN bonus_type = 'roleBonuses' THEN 1
-                                WHEN bonus_type = 'typeBonuses' THEN 2  
-                                WHEN bonus_type = 'miscBonuses' THEN 3
+                                WHEN tr.bonus_type = 'roleBonuses' THEN 1
+                                WHEN tr.bonus_type = 'typeBonuses' THEN 2  
+                                WHEN tr.bonus_type = 'miscBonuses' THEN 3
                                 ELSE 4
                             END,
-                            COALESCE(importance, 999) ASC,
-                            content ASC
+                            COALESCE(tr.importance, 999) ASC,
+                            {trait_content_sql} ASC
                     )
                 ) as item_data
             FROM types t
@@ -225,25 +235,10 @@ class ItemDetailExtractor:
     
 
 
-def item_detail_extract(db_path: str, output_dir: str) -> bool:
-    """
-    物品详细信息提取主函数
-    
-    Args:
-        db_path: 数据库文件路径
-        output_dir: 输出目录路径
-    
-    Returns:
-        bool: 提取是否成功
-    """
+def item_detail_extract(db_path: str, output_dir: str, lang: str = "en") -> bool:
     try:
-        extractor = ItemDetailExtractor(db_path, output_dir)
-        
-        # 提取所有物品详细信息
-        success = extractor.extract_all_items()
-        
-        return success
-        
+        extractor = ItemDetailExtractor(db_path, output_dir, lang=lang)
+        return extractor.extract_all_items()
     except Exception as e:
         print(f"[x] 物品详细信息提取失败: {e}")
         return False

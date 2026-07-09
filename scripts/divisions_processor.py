@@ -8,6 +8,7 @@ NPC公司部门数据处理器模块
 """
 
 from utils.single_db import get_db_path
+from utils.wide_i18n import wide_texts, names_row
 import json
 import sqlite3
 from pathlib import Path
@@ -71,7 +72,14 @@ class DivisionsProcessor:
         cursor.execute('''
         CREATE TABLE IF NOT EXISTS divisions (
             division_id INTEGER NOT NULL PRIMARY KEY,
-            name TEXT
+            de_name TEXT,
+            en_name TEXT,
+            es_name TEXT,
+            fr_name TEXT,
+            ja_name TEXT,
+            ko_name TEXT,
+            ru_name TEXT,
+            zh_name TEXT
         )
         ''')
         print("[+] 创建divisions表")
@@ -89,19 +97,13 @@ class DivisionsProcessor:
         for division_id, division_data in divisions_data.items():
             # 获取当前语言的名称
             # 新版本使用'name'字段，包含多语言映射
-            name = ''
-            if 'name' in division_data:
-                name = division_data['name'].get(language, division_data['name'].get('en', ''))
-            
-            # 插入数据
+            names = wide_texts(division_data.get('name'))
             cursor.execute('''
-                INSERT OR REPLACE INTO divisions 
-                (division_id, name)
-                VALUES (?, ?)
-            ''', (
-                division_id, 
-                name
-            ))
+                INSERT OR REPLACE INTO divisions (
+                    division_id,
+                    de_name, en_name, es_name, fr_name, ja_name, ko_name, ru_name, zh_name
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ''', (division_id, *names_row(names)))
             
             processed_count += 1
         
@@ -151,7 +153,7 @@ class DivisionsProcessor:
         """
         print("[+] 开始处理divisions数据")
         
-        return self.process_divisions_for_language(language)
+        return self.process_divisions_for_language('en')
 
 
 def main(config=None):

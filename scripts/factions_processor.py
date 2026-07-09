@@ -6,6 +6,7 @@
 """
 
 from utils.single_db import get_db_path
+from utils.wide_i18n import wide_texts, names_row
 import json
 import sqlite3
 import time
@@ -121,7 +122,6 @@ class FactionsProcessor:
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS factions (
                 id INTEGER NOT NULL PRIMARY KEY,
-                name TEXT,
                 de_name TEXT,
                 en_name TEXT,
                 es_name TEXT,
@@ -130,8 +130,22 @@ class FactionsProcessor:
                 ko_name TEXT,
                 ru_name TEXT,
                 zh_name TEXT,
-                description TEXT,
-                shortDescription TEXT,
+                de_description TEXT,
+                en_description TEXT,
+                es_description TEXT,
+                fr_description TEXT,
+                ja_description TEXT,
+                ko_description TEXT,
+                ru_description TEXT,
+                zh_description TEXT,
+                de_short_description TEXT,
+                en_short_description TEXT,
+                es_short_description TEXT,
+                fr_short_description TEXT,
+                ja_short_description TEXT,
+                ko_short_description TEXT,
+                ru_short_description TEXT,
+                zh_short_description TEXT,
                 iconName TEXT
             )
         ''')
@@ -146,60 +160,35 @@ class FactionsProcessor:
         factions_batch = []
         batch_size = 100
         
+        _faction_sql = '''
+            INSERT OR REPLACE INTO factions (
+                id,
+                de_name, en_name, es_name, fr_name, ja_name, ko_name, ru_name, zh_name,
+                de_description, en_description, es_description, fr_description,
+                ja_description, ko_description, ru_description, zh_description,
+                de_short_description, en_short_description, es_short_description, fr_short_description,
+                ja_short_description, ko_short_description, ru_short_description, zh_short_description,
+                iconName
+            ) VALUES ({ph})
+        '''.format(ph=", ".join(["?"] * 26))
+
         for faction_id, faction_data in self.factions_data.items():
-            # 获取当前语言的名称作为主要name
-            name_data = faction_data.get('name', {})
-            name = name_data.get(lang, name_data.get('en', ''))
-            
-            # 获取所有语言的名称
-            names = {
-                'de': name_data.get('de', name),
-                'en': name_data.get('en', name),
-                'es': name_data.get('es', name),
-                'fr': name_data.get('fr', name),
-                'ja': name_data.get('ja', name),
-                'ko': name_data.get('ko', name),
-                'ru': name_data.get('ru', name),
-                'zh': name_data.get('zh', name)
-            }
-            
-            # 获取当前语言的描述信息
-            description_data = faction_data.get('description', {})
-            description = description_data.get(lang, description_data.get('en', ''))
-            
-            # 获取当前语言的简短描述信息
-            short_description_data = faction_data.get('shortDescription', {})
-            short_description = short_description_data.get(lang, short_description_data.get('en', ''))
-            
-            # 设置图标文件名
+            names = wide_texts(faction_data.get('name'))
+            descs = wide_texts(faction_data.get('description'))
+            shorts = wide_texts(faction_data.get('shortDescription'))
             icon_name = f"faction_{faction_id}.png"
-            
+
             factions_batch.append((
-                faction_id, name, names['de'], names['en'], names['es'],
-                names['fr'], names['ja'], names['ko'], names['ru'], names['zh'],
-                description, short_description, icon_name
+                faction_id, *names_row(names), *names_row(descs), *names_row(shorts), icon_name
             ))
             
             # 批量插入
             if len(factions_batch) >= batch_size:
-                cursor.executemany('''
-                    INSERT OR REPLACE INTO factions (
-                        id, name, de_name, en_name, es_name, fr_name, 
-                        ja_name, ko_name, ru_name, zh_name, description, 
-                        shortDescription, iconName
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                ''', factions_batch)
+                cursor.executemany(_faction_sql, factions_batch)
                 factions_batch = []
-        
-        # 处理剩余数据
+
         if factions_batch:
-            cursor.executemany('''
-                INSERT OR REPLACE INTO factions (
-                    id, name, de_name, en_name, es_name, fr_name, 
-                    ja_name, ko_name, ru_name, zh_name, description, 
-                    shortDescription, iconName
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-            ''', factions_batch)
+            cursor.executemany(_faction_sql, factions_batch)
         
         # 统计信息
         cursor.execute('SELECT COUNT(*) FROM factions')

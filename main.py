@@ -58,7 +58,6 @@ import scripts.update_categories_icons as update_categories_icons
 import scripts.map_generator as map_generator
 import scripts.version_info_processor as version_info_processor
 import scripts.release_compare_processor as release_compare_processor
-from brackets_decode.parse_brackets_standalone import main as parse_brackets_main
 import clean
 
 # 本地化处理通过调用localization/main.py完成
@@ -600,17 +599,13 @@ def main():
     print("=" * 30)
     import scripts.item_detail_extractor as item_detail_extractor
     
-    # 提取英文版物品详细信息
+    db_path = get_db_path(config)
+
     print("[+] 提取英文版物品详细信息")
-    en_db_path = get_db_path(config)
-    en_output_dir = "item_detail_en"
-    en_success = item_detail_extractor.item_detail_extract(str(en_db_path), str(en_output_dir))
-    
-    # 提取中文版物品详细信息
+    en_success = item_detail_extractor.item_detail_extract(str(db_path), "item_detail_en", lang="en")
+
     print("[+] 提取中文版物品详细信息")
-    zh_db_path = get_db_path(config)
-    zh_output_dir = "item_detail_zh"
-    zh_success = item_detail_extractor.item_detail_extract(str(zh_db_path), str(zh_output_dir))
+    zh_success = item_detail_extractor.item_detail_extract(str(db_path), "item_detail_zh", lang="zh")
     
     if en_success and zh_success:
         print("[+] 物品详细信息提取完成")

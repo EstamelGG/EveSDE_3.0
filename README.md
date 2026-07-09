@@ -48,9 +48,8 @@ python main.py
 
 ## 输出数据
 
-- `output/db/item_db_en.sqlite.zip`: 英文sde数据库
-- `output/db/item_db_zh.sqlite.zip`: 中文sde数据库
-- `output/icons/icons.zip`: 图标包
+- `output_sde/db/item_db.sqlite`: 单库全语言宽列（`en_name` / `zh_description` 等，无裸 `name`/`description` 列）
+- `output_icons/icons.zip`: 图标包
 - `output/localization/accountingentrytypes_localized.json`: 会计条目类型本地化
 - `output/maps/regions_data.json`: (地图)星域位置数据
 - `output/maps/systems_data.json`: (地图)星系位置数据

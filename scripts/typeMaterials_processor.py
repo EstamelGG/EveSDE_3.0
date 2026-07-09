@@ -9,6 +9,7 @@
 """
 
 from utils.single_db import get_db_path
+from utils.wide_i18n import LANGS, names_ddl, name_cols_sql
 import json
 import sqlite3
 from pathlib import Path
@@ -69,7 +70,7 @@ class TypeMaterialsProcessor:
         """
         创建typeMaterials表
         """
-        cursor.execute('''
+        cursor.execute(f'''
         CREATE TABLE IF NOT EXISTS typeMaterials (
             typeid INTEGER NOT NULL,
             categoryid INTEGER,
@@ -78,7 +79,7 @@ class TypeMaterialsProcessor:
             output_material_categoryid INTEGER,
             output_material_groupid INTEGER,
             output_quantity INTEGER,
-            output_material_name TEXT,
+            {names_ddl("output_material")},
             output_material_icon TEXT,
             PRIMARY KEY (typeid, output_material)
         )
@@ -106,27 +107,30 @@ class TypeMaterialsProcessor:
         从缓存或数据库获取物品的所有相关信息
         """
         if type_id not in type_info_cache:
-            cursor.execute('SELECT name, icon_filename, categoryID, groupID, process_size FROM types WHERE type_id = ?', (type_id,))
+            cursor.execute(
+                f'SELECT {name_cols_sql()}, icon_filename, categoryID, groupID, process_size FROM types WHERE type_id = ?',
+                (type_id,),
+            )
             result = cursor.fetchone()
             if result:
                 type_info_cache[type_id] = {
-                    'name': result[0],
-                    'icon': result[1],
-                    'categoryid': result[2],
-                    'groupID': result[3],
-                    'process_size': result[4]
+                    'names': result[:8],
+                    'icon': result[8],
+                    'categoryid': result[9],
+                    'groupID': result[10],
+                    'process_size': result[11],
                 }
             else:
                 type_info_cache[type_id] = {
-                    'name': None,
+                    'names': tuple("" for _ in LANGS),
                     'icon': None,
                     'categoryid': None,
                     'groupID': None,
-                    'process_size': None
+                    'process_size': None,
                 }
         return type_info_cache[type_id]
-    
-    def process_type_materials_to_db(self, type_materials_data: Dict[str, Any], cursor: sqlite3.Cursor, lang: str):
+
+    def process_type_materials_to_db(self, type_materials_data: Dict[str, Any], cursor: sqlite3.Cursor):
         """
         处理typeMaterials数据并写入数据库
         完全按照old版本的逻辑
@@ -144,9 +148,14 @@ class TypeMaterialsProcessor:
         # 用于存储批量插入的数据
         batch_data = []
         batch_randomized_data = []
-        batch_size = 1000  # 每批处理的记录数
-        
-        # 处理每个物品的材料数据
+        batch_size = 1000
+        out_name_cols = ", ".join(f"output_material_{lang}_name" for lang in LANGS)
+        insert_sql = f'''
+            INSERT OR REPLACE INTO typeMaterials
+            (typeid, categoryid, process_size, output_material, output_material_categoryid,
+             output_material_groupid, output_quantity, {out_name_cols}, output_material_icon)
+            VALUES (?, ?, ?, ?, ?, ?, ?, {", ".join(["?"] * 8)}, ?)
+        '''
         for type_id, type_data in type_materials_data.items():
             if 'materials' in type_data:
                 # 获取物品的信息
@@ -161,20 +170,14 @@ class TypeMaterialsProcessor:
                     
                     # 添加到批量数据
                     batch_data.append((
-                        type_id, category_id, process_size, material_type_id, 
-                        material_info['categoryid'], material_info['groupID'], 
-                        quantity, material_info['name'], material_info['icon']
+                        type_id, category_id, process_size, material_type_id,
+                        material_info['categoryid'], material_info['groupID'],
+                        quantity, *material_info['names'], material_info['icon'],
                     ))
                     
-                    # 当达到批处理大小时执行插入
                     if len(batch_data) >= batch_size:
-                        cursor.executemany('''
-                            INSERT OR REPLACE INTO typeMaterials 
-                            (typeid, categoryid, process_size, output_material, output_material_categoryid, 
-                             output_material_groupid, output_quantity, output_material_name, output_material_icon) 
-                            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-                        ''', batch_data)
-                        batch_data = []  # 清空批处理列表
+                        cursor.executemany(insert_sql, batch_data)
+                        batch_data = []
             
             # 处理randomizedMaterials数据
             if 'randomizedMaterials' in type_data and isinstance(type_data['randomizedMaterials'], list):
@@ -200,12 +203,7 @@ class TypeMaterialsProcessor:
         
         # 处理剩余的数据
         if batch_data:
-            cursor.executemany('''
-                INSERT OR REPLACE INTO typeMaterials 
-                (typeid, categoryid, process_size, output_material, output_material_categoryid, 
-                 output_material_groupid, output_quantity, output_material_name, output_material_icon) 
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-            ''', batch_data)
+            cursor.executemany(insert_sql, batch_data)
         
         # 处理剩余的randomizedMaterials数据
         if batch_randomized_data:
@@ -219,8 +217,8 @@ class TypeMaterialsProcessor:
         cursor.execute('SELECT COUNT(*) FROM typeRandomizedMaterials')
         randomized_count = cursor.fetchone()[0]
         
-        print(f"[+] 已处理 {len(type_materials_data)} 个物品的材料数据，语言: {lang}")
-        print(f"[+] 已处理 {randomized_count} 条随机材料数据，语言: {lang}")
+        print(f"[+] 已处理 {len(type_materials_data)} 个物品的材料数据")
+        print(f"[+] 已处理 {randomized_count} 条随机材料数据")
     
     def process_type_materials_for_language(self, language: str) -> bool:
         """
@@ -243,7 +241,7 @@ class TypeMaterialsProcessor:
             cursor = conn.cursor()
             
             # 处理数据
-            self.process_type_materials_to_db(type_materials_data, cursor, language)
+            self.process_type_materials_to_db(type_materials_data, cursor)
             
             # 提交更改
             conn.commit()
@@ -263,7 +261,7 @@ class TypeMaterialsProcessor:
         """
         print("[+] 开始处理typeMaterials数据")
         
-        return self.process_type_materials_for_language(language)
+        return self.process_type_materials_for_language('en')
 
 
 def main(config=None):

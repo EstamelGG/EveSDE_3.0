@@ -9,6 +9,7 @@
 """
 
 from utils.single_db import get_db_path
+from utils.wide_i18n import LANGS, wide_texts, names_row, names_ddl
 import json
 import sqlite3
 from pathlib import Path
@@ -119,17 +120,31 @@ class DogmaAttributesProcessor:
         创建dogmaAttributes表
         完全按照old版本的数据库结构
         """
-        cursor.execute('''
+        cursor.execute(f'''
         CREATE TABLE IF NOT EXISTS dogmaAttributes (
             attribute_id INTEGER NOT NULL PRIMARY KEY,
             categoryID INTEGER,
-            name TEXT,
-            display_name TEXT,
-            tooltipDescription TEXT,
+            attribute_key TEXT,
+            de_name TEXT,
+            en_name TEXT,
+            es_name TEXT,
+            fr_name TEXT,
+            ja_name TEXT,
+            ko_name TEXT,
+            ru_name TEXT,
+            zh_name TEXT,
+            de_tooltip_description TEXT,
+            en_tooltip_description TEXT,
+            es_tooltip_description TEXT,
+            fr_tooltip_description TEXT,
+            ja_tooltip_description TEXT,
+            ko_tooltip_description TEXT,
+            ru_tooltip_description TEXT,
+            zh_tooltip_description TEXT,
             iconID INTEGER,
             icon_filename TEXT,
             unitID INTEGER,
-            unitName TEXT,
+            {names_ddl("unit")},
             highIsGood BOOLEAN,
             defaultValue REAL,
             stackable BOOLEAN
@@ -176,34 +191,36 @@ class DogmaAttributesProcessor:
         batch_data = []
         batch_size = 1000  # 每批处理的记录数
         
+        _attr_sql = '''
+            INSERT OR REPLACE INTO dogmaAttributes (
+                attribute_id, categoryID, attribute_key,
+                de_name, en_name, es_name, fr_name, ja_name, ko_name, ru_name, zh_name,
+                de_tooltip_description, en_tooltip_description, es_tooltip_description, fr_tooltip_description,
+                ja_tooltip_description, ko_tooltip_description, ru_tooltip_description, zh_tooltip_description,
+                iconID, icon_filename, unitID,
+                unit_de_name, unit_en_name, unit_es_name, unit_fr_name,
+                unit_ja_name, unit_ko_name, unit_ru_name, unit_zh_name,
+                highIsGood, defaultValue, stackable
+            ) VALUES ({ph})
+        '''.format(ph=", ".join(["?"] * 33))
+
         processed_count = 0
         for key, attr_data in attributes_data.items():
             # 新版本：attributeID字段已移除，使用_key作为attribute_id
             attribute_id = key  # 使用_key作为attribute_id
             # 新版本：categoryID重命名为attributeCategoryID
             category_id = attr_data.get('attributeCategoryID', attr_data.get('categoryID', 0))
-            name = attr_data.get('name', None)
-            
-            # 多语言字段处理
-            display_name = None
-            if 'displayName' in attr_data and isinstance(attr_data['displayName'], dict):
-                display_name = attr_data['displayName'].get(language, None)
-            
-            tooltip_description = None
-            if 'tooltipDescription' in attr_data and isinstance(attr_data['tooltipDescription'], dict):
-                tooltip_description = attr_data['tooltipDescription'].get(language, None)
-            
+            attribute_key = str(attr_data.get('name') or '')
+            names = wide_texts(attr_data.get('displayName'))
+            tooltips = wide_texts(attr_data.get('tooltipDescription'))
             icon_id = attr_data.get('iconID', 0)
             icon_filename = self.get_icon_filename(icon_id)
             
             unit_id = attr_data.get('unitID', None)
-            unit_name = None
-            
-            # 处理单位名称 - 从dogmaUnits数据中获取
+            unit_names = {lang: "" for lang in LANGS}
             if unit_id is not None and unit_id in self.units_data:
                 unit_data = self.units_data[unit_id]
-                if 'displayName' in unit_data and isinstance(unit_data['displayName'], dict):
-                    unit_name = unit_data['displayName'].get(language, unit_data['displayName'].get('en', None))
+                unit_names = wide_texts(unit_data.get('displayName'))
             
             high_is_good = attr_data.get('highIsGood', None)
             default_value = attr_data.get('defaultValue', None)
@@ -211,8 +228,9 @@ class DogmaAttributesProcessor:
             
             # 添加到批处理列表
             batch_data.append((
-                attribute_id, category_id, name, display_name,
-                tooltip_description, icon_id, icon_filename, unit_id, unit_name, 
+                attribute_id, category_id, attribute_key,
+                *names_row(names), *names_row(tooltips),
+                icon_id, icon_filename, unit_id, *names_row(unit_names),
                 high_is_good, default_value, stackable
             ))
             
@@ -220,24 +238,11 @@ class DogmaAttributesProcessor:
             
             # 当达到批处理大小时执行插入
             if len(batch_data) >= batch_size:
-                cursor.executemany('''
-                    INSERT OR REPLACE INTO dogmaAttributes (
-                        attribute_id, categoryID, name, display_name, 
-                        tooltipDescription, iconID, icon_filename, unitID, unitName, 
-                        highIsGood, defaultValue, stackable
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                ''', batch_data)
-                batch_data = []  # 清空批处理列表
-        
-        # 处理剩余的数据
+                cursor.executemany(_attr_sql, batch_data)
+                batch_data = []
+
         if batch_data:
-            cursor.executemany('''
-                INSERT OR REPLACE INTO dogmaAttributes (
-                    attribute_id, categoryID, name, display_name, 
-                    tooltipDescription, iconID, icon_filename, unitID, unitName, 
-                    highIsGood, defaultValue, stackable
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-            ''', batch_data)
+            cursor.executemany(_attr_sql, batch_data)
         
         print(f"[+] 成功处理 {processed_count} 个dogmaAttributes记录")
         print(f"[+] 图标缓存统计: 缓存了 {len(self.icon_cache)} 个唯一图标")

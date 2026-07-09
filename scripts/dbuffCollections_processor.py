@@ -107,9 +107,9 @@ class DbuffCollectionsProcessor:
         
         # 获取所有warfare buff相关的attribute_id
         cursor.execute('''
-            SELECT da.attribute_id, name 
-            FROM dogmaAttributes AS da 
-            WHERE name like "warfareBuff%"
+            SELECT da.attribute_id, attribute_key
+            FROM dogmaAttributes AS da
+            WHERE attribute_key LIKE 'warfareBuff%'
         ''')
         
         warfare_attributes = cursor.fetchall()

@@ -6,6 +6,7 @@
 """
 
 from utils.single_db import get_db_path
+from utils.wide_i18n import wide_texts, names_row
 import json
 import sqlite3
 import time
@@ -42,7 +43,14 @@ class PlanetSchematicsProcessor:
             CREATE TABLE IF NOT EXISTS planetSchematics (
                 schematic_id INTEGER NOT NULL,
                 output_typeid INTEGER NOT NULL PRIMARY KEY,
-                name TEXT,
+                de_name TEXT,
+                en_name TEXT,
+                es_name TEXT,
+                fr_name TEXT,
+                ja_name TEXT,
+                ko_name TEXT,
+                ru_name TEXT,
+                zh_name TEXT,
                 facilitys TEXT,
                 cycle_time INTEGER,
                 output_value INTEGER,
@@ -77,10 +85,7 @@ class PlanetSchematicsProcessor:
             cycle_time = schematic_data.get('cycleTime', 0)
             
             # 获取多语言名称
-            name_dict = schematic_data.get('name', {})
-            name = name_dict.get(lang, name_dict.get('en', ''))
-            
-            # 获取设施列表
+            names = wide_texts(schematic_data.get('name'))
             pins = schematic_data.get('pins', [])
             facilitys = ','.join(map(str, pins))
             
@@ -108,27 +113,27 @@ class PlanetSchematicsProcessor:
             input_value_str = ','.join(input_values)
             
             schematics_batch.append((
-                schematic_id, output_typeid, name, facilitys, 
+                schematic_id, output_typeid, *names_row(names), facilitys,
                 cycle_time, output_value, input_typeid_str, input_value_str
             ))
             
-            # 批量插入
             if len(schematics_batch) >= batch_size:
                 cursor.executemany('''
                     INSERT OR REPLACE INTO planetSchematics (
-                        schematic_id, output_typeid, name, facilitys, cycle_time, 
-                        output_value, input_typeid, input_value
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+                        schematic_id, output_typeid,
+                        de_name, en_name, es_name, fr_name, ja_name, ko_name, ru_name, zh_name,
+                        facilitys, cycle_time, output_value, input_typeid, input_value
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 ''', schematics_batch)
                 schematics_batch = []
-        
-        # 处理剩余的数据
+
         if schematics_batch:
             cursor.executemany('''
                 INSERT OR REPLACE INTO planetSchematics (
-                    schematic_id, output_typeid, name, facilitys, cycle_time, 
-                    output_value, input_typeid, input_value
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+                    schematic_id, output_typeid,
+                    de_name, en_name, es_name, fr_name, ja_name, ko_name, ru_name, zh_name,
+                    facilitys, cycle_time, output_value, input_typeid, input_value
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ''', schematics_batch)
         
         # 统计信息

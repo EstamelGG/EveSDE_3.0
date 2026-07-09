@@ -11,6 +11,7 @@
 """
 
 from utils.single_db import get_db_path
+from utils.wide_i18n import LANGS, names_ddl, names_row
 import json
 import sqlite3
 import roman
@@ -195,18 +196,24 @@ class CelestialNamesProcessor:
             print(f"[!] 生成月球名称失败: {e}")
             return f"Moon_{moon_data.get('_key', 'Unknown')}"
     
+    def generate_planet_names(self, planet_data: Dict[str, Any]) -> Dict[str, str]:
+        return {lang: self.generate_planet_name(planet_data, lang) for lang in LANGS}
+
+    def generate_moon_names(self, moon_data: Dict[str, Any]) -> Dict[str, str]:
+        return {lang: self.generate_moon_name(moon_data, lang) for lang in LANGS}
+
     def create_celestial_names_table(self, cursor: sqlite3.Cursor):
         """创建天体名称表"""
-        cursor.execute('''
+        cursor.execute(f'''
         CREATE TABLE IF NOT EXISTS celestialNames (
             itemID INTEGER NOT NULL PRIMARY KEY,
-            itemName TEXT
+            {names_ddl()}
         )
         ''')
         print("[+] 创建celestialNames表")
-    
-    def process_celestial_names_to_db(self, cursor: sqlite3.Cursor, lang: str):
-        """处理天体名称数据并写入数据库"""
+
+    def process_celestial_names_to_db(self, cursor: sqlite3.Cursor):
+        """处理天体名称数据并写入数据库（全语言宽列）"""
         try:
             # 创建表
             self.create_celestial_names_table(cursor)
@@ -218,110 +225,60 @@ class CelestialNamesProcessor:
             planets_batch = []
             batch_size = 1000
             
-            print(f"[+] 开始处理行星名称数据，语言: {lang}")
+            name_cols = ", ".join(f"{lang}_name" for lang in LANGS)
+            insert_sql = f'''
+                INSERT OR REPLACE INTO celestialNames (itemID, {name_cols})
+                VALUES (?, {", ".join(["?"] * 8)})
+            '''
+
+            print("[+] 开始处理行星名称数据")
             for planet_id, planet_data in self.planets_data.items():
-                planet_name = self.generate_planet_name(planet_data, lang)
-                
-                planets_batch.append((
-                    planet_id, planet_name
-                ))
-                
+                planets_batch.append((planet_id, *names_row(self.generate_planet_names(planet_data))))
                 if len(planets_batch) >= batch_size:
-                    cursor.executemany('''
-                        INSERT OR REPLACE INTO celestialNames (
-                            itemID, itemName
-                        ) VALUES (?, ?)
-                    ''', planets_batch)
+                    cursor.executemany(insert_sql, planets_batch)
                     planets_batch = []
-            
-            # 处理剩余行星数据
             if planets_batch:
-                cursor.executemany('''
-                    INSERT OR REPLACE INTO celestialNames (
-                        itemID, itemName
-                    ) VALUES (?, ?)
-                ''', planets_batch)
-            
+                cursor.executemany(insert_sql, planets_batch)
             print(f"[+] 已处理 {len(self.planets_data)} 个行星名称")
-            
-            # 处理月球数据
+
             moons_batch = []
-            print(f"[+] 开始处理月球名称数据，语言: {lang}")
+            print("[+] 开始处理月球名称数据")
             for moon_id, moon_data in self.moons_data.items():
-                moon_name = self.generate_moon_name(moon_data, lang)
-                
-                moons_batch.append((
-                    moon_id, moon_name
-                ))
-                
+                moons_batch.append((moon_id, *names_row(self.generate_moon_names(moon_data))))
                 if len(moons_batch) >= batch_size:
-                    cursor.executemany('''
-                        INSERT OR REPLACE INTO celestialNames (
-                            itemID, itemName
-                        ) VALUES (?, ?)
-                    ''', moons_batch)
+                    cursor.executemany(insert_sql, moons_batch)
                     moons_batch = []
-            
-            # 处理剩余月球数据
             if moons_batch:
-                cursor.executemany('''
-                    INSERT OR REPLACE INTO celestialNames (
-                        itemID, itemName
-                    ) VALUES (?, ?)
-                ''', moons_batch)
-            
+                cursor.executemany(insert_sql, moons_batch)
             print(f"[+] 已处理 {len(self.moons_data)} 个月球名称")
-            
-            # 统计信息
+
             cursor.execute('SELECT COUNT(*) FROM celestialNames')
             total_count = cursor.fetchone()[0]
-            print(f"[+] 天体名称数据处理完成，总计: {total_count} 个，语言: {lang}")
+            print(f"[+] 天体名称数据处理完成，总计: {total_count} 个")
             
         except Exception as e:
             print(f"[x] 处理过程中出错: {str(e)}")
             raise
     
-    def process_celestial_names_for_language(self, language: str) -> bool:
-        """为指定语言处理天体名称数据"""
-        print(f"[+] 开始处理天体名称数据，语言: {language}")
-        
-        # 数据库文件路径
-        db_path = get_db_path(self.config)
-        
-        try:
-            # 连接数据库
-            conn = sqlite3.connect(str(db_path))
-            cursor = conn.cursor()
-            
-            # 处理数据
-            self.process_celestial_names_to_db(cursor, language)
-            
-            # 提交更改
-            conn.commit()
-            print(f"[+] 天体名称数据处理完成，语言: {language}")
-            return True
-            
-        except Exception as e:
-            print(f"[x] 处理天体名称数据时出错: {e}")
-            return False
-        finally:
-            if 'conn' in locals():
-                conn.close()
-    
     def process_all_languages(self) -> bool:
-        """为所有语言处理天体名称数据"""
         print("[+] 开始处理天体名称数据")
-        
-        # 加载数据
         self.planets_data = self.read_planets_jsonl()
         self.moons_data = self.read_moons_jsonl()
         self.solar_systems_data = self.read_solar_systems_jsonl()
-        
         if not self.planets_data or not self.moons_data or not self.solar_systems_data:
             print("[x] 无法加载必要的数据文件")
             return False
-        
-        return self.process_celestial_names_for_language(language)
+        db_path = get_db_path(self.config)
+        try:
+            conn = sqlite3.connect(str(db_path))
+            cursor = conn.cursor()
+            self.process_celestial_names_to_db(cursor)
+            conn.commit()
+            conn.close()
+            return True
+        except Exception as e:
+            print(f"[x] 处理天体名称数据时出错: {e}")
+            return False
 
 
 def main(config=None):

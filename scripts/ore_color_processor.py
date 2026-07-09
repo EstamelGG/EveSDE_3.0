@@ -55,8 +55,8 @@ class OreColorProcessor:
         
         try:
             query = """
-            SELECT type_id, name, icon_filename 
-            FROM types 
+            SELECT type_id, en_name, icon_filename
+            FROM types
             WHERE categoryID = 25 
             AND published = 1 
             AND NOT en_name LIKE '%Compressed%'

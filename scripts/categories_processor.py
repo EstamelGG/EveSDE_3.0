@@ -6,6 +6,7 @@
 """
 
 from utils.single_db import get_db_path
+from utils.wide_i18n import wide_texts, names_row
 import json
 import sqlite3
 import time
@@ -173,7 +174,6 @@ class CategoriesProcessor:
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS categories (
                 category_id INTEGER NOT NULL PRIMARY KEY,
-                name TEXT,
                 de_name TEXT,
                 en_name TEXT,
                 es_name TEXT,
@@ -215,25 +215,9 @@ class CategoriesProcessor:
             if not name_dict:
                 continue
             
-            # 获取当前语言的名称作为主要name
-            name = name_dict.get(lang, name_dict.get('en', ''))
-            
-            # 获取所有语言的名称
-            names = {
-                'de': name_dict.get('de', name),
-                'en': name_dict.get('en', name),
-                'es': name_dict.get('es', name),
-                'fr': name_dict.get('fr', name),
-                'ja': name_dict.get('ja', name),
-                'ko': name_dict.get('ko', name),
-                'ru': name_dict.get('ru', name),
-                'zh': name_dict.get('zh', name)
-            }
-            
-            if not name:
+            names = wide_texts(name_dict)
+            if not names.get('en'):
                 continue
-            
-            # 获取其他字段
             published = category_data.get('published', False)
             iconID = category_data.get('iconID', 0)
             
@@ -247,9 +231,7 @@ class CategoriesProcessor:
                 icon_filename = self.download_default_category_icon()
             
             categories_batch.append((
-                category_id, name,
-                names['de'], names['en'], names['es'], names['fr'],
-                names['ja'], names['ko'], names['ru'], names['zh'],
+                category_id, *names_row(names),
                 icon_filename, iconID, published
             ))
             
@@ -257,11 +239,11 @@ class CategoriesProcessor:
             if len(categories_batch) >= batch_size:
                 cursor.executemany('''
                     INSERT OR REPLACE INTO categories (
-                        category_id, name,
+                        category_id,
                         de_name, en_name, es_name, fr_name,
                         ja_name, ko_name, ru_name, zh_name,
                         icon_filename, iconID, published
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 ''', categories_batch)
                 categories_batch = []
         
@@ -269,11 +251,11 @@ class CategoriesProcessor:
         if categories_batch:
             cursor.executemany('''
                 INSERT OR REPLACE INTO categories (
-                    category_id, name,
+                    category_id,
                     de_name, en_name, es_name, fr_name,
                     ja_name, ko_name, ru_name, zh_name,
                     icon_filename, iconID, published
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ''', categories_batch)
         
         # 统计信息

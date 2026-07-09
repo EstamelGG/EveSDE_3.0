@@ -240,47 +240,48 @@ class ReleaseCompareProcessor:
             # 确保sqldiff有执行权限
             sqldiff_path.chmod(0o755)
             
-            for lang in self.languages:
-                self.write_md(f"### {lang.upper()} 数据库\n\n")
-                
-                # 当前版本数据库
-                current_db = self.output_sde_path / "db" / f"item_db_{lang}.sqlite"
-                # 旧版本数据库：GitHub Actions压缩时是平铺结构，文件直接在sde_old根目录
-                old_db = self.temp_dir / "sde_old" / "db" / f"item_db_{lang}.sqlite"
-                
-                if not current_db.exists():
-                    self.write_md(f"当前版本数据库不存在\n\n")
-                    continue
-                
-                if not old_db.exists():
-                    self.write_md(f"旧版本数据库不存在\n\n")
-                    continue
-                
-                # 执行sqldiff比较
-                try:
-                    result = subprocess.run(
-                        [str(sqldiff_path), '--primarykey', str(old_db), str(current_db)],
-                        capture_output=True,
-                        text=True,
-                        timeout=300
-                    )
-                    
-                    if result.returncode == 0:
-                        if result.stdout.strip():
-                            self.write_md("**数据库差异**:\n")
-                            self.write_md("```sql\n")
-                            for line in result.stdout.strip().split('\n'):
-                                self.write_md(f"{line}\n")
-                            self.write_md("```\n\n")
-                        else:
-                            self.write_md("数据库无差异\n\n")
+            from utils.single_db import get_db_path
+
+            current_db = get_db_path(self.config)
+            old_db = self.temp_dir / "sde_old" / "db" / current_db.name
+            # 兼容旧版多库命名
+            if not old_db.exists():
+                old_db = self.temp_dir / "sde_old" / "db" / "item_db_en.sqlite"
+
+            self.write_md("### 单库 (item_db.sqlite)\n\n")
+
+            if not current_db.exists():
+                self.write_md("当前版本数据库不存在\n\n")
+                return False
+
+            if not old_db.exists():
+                self.write_md("旧版本数据库不存在\n\n")
+                return False
+
+            try:
+                result = subprocess.run(
+                    [str(sqldiff_path), '--primarykey', str(old_db), str(current_db)],
+                    capture_output=True,
+                    text=True,
+                    timeout=300
+                )
+
+                if result.returncode == 0:
+                    if result.stdout.strip():
+                        self.write_md("**数据库差异**:\n")
+                        self.write_md("```sql\n")
+                        for line in result.stdout.strip().split('\n'):
+                            self.write_md(f"{line}\n")
+                        self.write_md("```\n\n")
                     else:
-                        self.write_md(f"sqldiff执行失败: {result.stderr}\n\n")
-                        
-                except subprocess.TimeoutExpired:
-                    self.write_md(f"sqldiff执行超时\n\n")
-                except Exception as e:
-                    self.write_md(f"sqldiff执行异常: {e}\n\n")
+                        self.write_md("数据库无差异\n\n")
+                else:
+                    self.write_md(f"sqldiff执行失败: {result.stderr}\n\n")
+
+            except subprocess.TimeoutExpired:
+                self.write_md("sqldiff执行超时\n\n")
+            except Exception as e:
+                self.write_md(f"sqldiff执行异常: {e}\n\n")
             
             return True
             

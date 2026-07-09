@@ -6,6 +6,7 @@ NPC公司处理器模块
 """
 
 from utils.single_db import get_db_path
+from utils.wide_i18n import wide_texts, names_row
 import json
 import sqlite3
 import time
@@ -208,7 +209,6 @@ class NpcCorporationsProcessor:
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS npcCorporations (
                 corporation_id INTEGER NOT NULL PRIMARY KEY,
-                name TEXT,
                 de_name TEXT,
                 en_name TEXT,
                 es_name TEXT,
@@ -217,7 +217,14 @@ class NpcCorporationsProcessor:
                 ko_name TEXT,
                 ru_name TEXT,
                 zh_name TEXT,
-                description TEXT,
+                de_description TEXT,
+                en_description TEXT,
+                es_description TEXT,
+                fr_description TEXT,
+                ja_description TEXT,
+                ko_description TEXT,
+                ru_description TEXT,
+                zh_description TEXT,
                 faction_id INTEGER,
                 militia_faction INTEGER,
                 icon_filename TEXT
@@ -250,30 +257,21 @@ class NpcCorporationsProcessor:
         
         # 用于存储批量插入的数据
         batch_data = []
-        batch_size = 1000  # 每批处理的记录数
-        
+        batch_size = 1000
+        _corp_sql = '''
+            INSERT OR REPLACE INTO npcCorporations (
+                corporation_id,
+                de_name, en_name, es_name, fr_name,
+                ja_name, ko_name, ru_name, zh_name,
+                de_description, en_description, es_description, fr_description,
+                ja_description, ko_description, ru_description, zh_description,
+                faction_id, militia_faction, icon_filename
+            ) VALUES ({ph})
+        '''.format(ph=", ".join(["?"] * 20))
+
         for corp_id, corp_info in self.corporations_data.items():
-            # 获取当前语言的名称作为主要name
-            name_data = corp_info.get('name', {})
-            name = name_data.get(lang, name_data.get('en', ''))
-            
-            # 获取所有语言的名称
-            names = {
-                'de': name_data.get('de', name),
-                'en': name_data.get('en', name),
-                'es': name_data.get('es', name),
-                'fr': name_data.get('fr', name),
-                'ja': name_data.get('ja', name),
-                'ko': name_data.get('ko', name),
-                'ru': name_data.get('ru', name),
-                'zh': name_data.get('zh', name)
-            }
-            
-            # 获取描述，如果没有对应语言的就用英文
-            description_data = corp_info.get('description', {})
-            description = description_data.get(lang, description_data.get('en', ''))
-            
-            # 获取其他信息
+            names = wide_texts(corp_info.get('name'))
+            descs = wide_texts(corp_info.get('description'))
             faction_id = corp_info.get('factionID', 500021)
             
             # 获取卫队军团faction_id（如果存在）
@@ -285,16 +283,8 @@ class NpcCorporationsProcessor:
             # 添加到批处理列表
             batch_data.append((
                 corp_id,
-                name,
-                names['de'],
-                names['en'],
-                names['es'],
-                names['fr'],
-                names['ja'],
-                names['ko'],
-                names['ru'],
-                names['zh'],
-                description,
+                *names_row(names),
+                *names_row(descs),
                 faction_id,
                 militia_faction,
                 icon_filename
@@ -302,34 +292,11 @@ class NpcCorporationsProcessor:
             
             # 当达到批处理大小时执行插入
             if len(batch_data) >= batch_size:
-                cursor.executemany('''
-                    INSERT OR REPLACE INTO npcCorporations (
-                        corporation_id,
-                        name,
-                        de_name, en_name, es_name, fr_name,
-                        ja_name, ko_name, ru_name, zh_name,
-                        description,
-                        faction_id,
-                        militia_faction,
-                        icon_filename
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                ''', batch_data)
-                batch_data = []  # 清空批处理列表
-        
-        # 处理剩余的数据
+                cursor.executemany(_corp_sql, batch_data)
+                batch_data = []
+
         if batch_data:
-            cursor.executemany('''
-                INSERT OR REPLACE INTO npcCorporations (
-                    corporation_id,
-                    name,
-                    de_name, en_name, es_name, fr_name,
-                    ja_name, ko_name, ru_name, zh_name,
-                    description,
-                    faction_id,
-                    militia_faction,
-                    icon_filename
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-            ''', batch_data)
+            cursor.executemany(_corp_sql, batch_data)
         
         # 统计信息
         cursor.execute('SELECT COUNT(*) FROM npcCorporations')

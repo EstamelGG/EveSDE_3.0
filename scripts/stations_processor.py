@@ -6,6 +6,7 @@
 """
 
 from utils.single_db import get_db_path
+from utils.wide_i18n import LANGS, names_ddl, names_row
 import json
 import sqlite3
 import time
@@ -139,11 +140,11 @@ class StationsProcessor:
         """创建空间站相关表"""
         
         # 空间站表（简化版，只保留必要字段）
-        cursor.execute('''
+        cursor.execute(f'''
             CREATE TABLE IF NOT EXISTS stations (
                 stationID INTEGER NOT NULL PRIMARY KEY,
                 stationTypeID INTEGER,
-                stationName TEXT,
+                {names_ddl()},
                 regionID INTEGER,
                 solarSystemID INTEGER,
                 security REAL
@@ -153,9 +154,12 @@ class StationsProcessor:
         # 创建索引
         cursor.execute('CREATE INDEX IF NOT EXISTS idx_stations_solarSystemID ON stations(solarSystemID)')
     
-    def process_npc_stations_to_db(self, cursor: sqlite3.Cursor, lang: str = 'en'):
-        """处理NPC空间站数据并插入数据库"""
-        print(f"[+] 开始处理NPC空间站数据 (语言: {lang})...")
+    def generate_station_names(self, station_data: Dict[str, Any]) -> Dict[str, str]:
+        return {lang: self.generate_station_name(station_data, lang) for lang in LANGS}
+
+    def process_npc_stations_to_db(self, cursor: sqlite3.Cursor):
+        """处理NPC空间站数据并插入数据库（全语言宽列）"""
+        print("[+] 开始处理NPC空间站数据...")
         
         # 清空现有数据
         cursor.execute('DELETE FROM stations')
@@ -168,8 +172,7 @@ class StationsProcessor:
             solar_system_id = station_data.get('solarSystemID', 0)
             station_type_id = station_data.get('typeID', 0)
             
-            # 生成空间站名称
-            station_name = self.generate_station_name(station_data, lang)
+            station_names = self.generate_station_names(station_data)
             
             # 获取regionID和security（从星系数据中）
             region_id = 0
@@ -180,27 +183,27 @@ class StationsProcessor:
                 security = system_data.get('securityStatus', 0.0)
             
             stations_batch.append((
-                station_id, station_type_id, station_name,
+                station_id, station_type_id, *names_row(station_names),
                 region_id, solar_system_id, security
             ))
             
             # 批量插入
             if len(stations_batch) >= batch_size:
-                cursor.executemany('''
+                cursor.executemany(f'''
                     INSERT OR REPLACE INTO stations (
-                        stationID, stationTypeID, stationName,
+                        stationID, stationTypeID, {", ".join(f"{lang}_name" for lang in LANGS)},
                         regionID, solarSystemID, security
-                    ) VALUES (?, ?, ?, ?, ?, ?)
+                    ) VALUES (?, ?, {", ".join(["?"] * 8)}, ?, ?, ?)
                 ''', stations_batch)
                 stations_batch = []
         
         # 处理剩余数据
         if stations_batch:
-            cursor.executemany('''
+            cursor.executemany(f'''
                 INSERT OR REPLACE INTO stations (
-                    stationID, stationTypeID, stationName,
+                    stationID, stationTypeID, {", ".join(f"{lang}_name" for lang in LANGS)},
                     regionID, solarSystemID, security
-                ) VALUES (?, ?, ?, ?, ?, ?)
+                ) VALUES (?, ?, {", ".join(["?"] * 8)}, ?, ?, ?)
             ''', stations_batch)
         
         # 统计信息
@@ -210,22 +213,11 @@ class StationsProcessor:
     
     
     
-    def process_stations_to_db(self, cursor: sqlite3.Cursor, lang: str = 'en'):
-        """
-        处理所有空间站数据并插入数据库
-        
-        Args:
-            cursor: 数据库游标
-            lang: 数据库使用的语言代码
-        """
-        print(f"[+] 开始处理空间站数据 (语言: {lang})...")
+    def process_stations_to_db(self, cursor: sqlite3.Cursor):
+        print("[+] 开始处理空间站数据...")
         start_time = time.time()
-        
-        # 创建表
         self.create_stations_tables(cursor)
-        
-        # 处理空间站数据
-        self.process_npc_stations_to_db(cursor, lang)
+        self.process_npc_stations_to_db(cursor)
         
         end_time = time.time()
         print(f"[+] 空间站数据处理完成，耗时: {end_time - start_time:.2f} 秒")
@@ -245,7 +237,7 @@ class StationsProcessor:
         try:
             conn = sqlite3.connect(str(db_file))
             cursor = conn.cursor()
-            self.process_stations_to_db(cursor, 'en')
+            self.process_stations_to_db(cursor)
             conn.commit()
             conn.close()
             print("[+] 单库更新完成")

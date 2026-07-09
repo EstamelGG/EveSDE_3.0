@@ -9,6 +9,7 @@
 """
 
 from utils.single_db import get_db_path
+from utils.wide_i18n import LANGS, NAME_COLS, names_row
 import json
 import sqlite3
 import os
@@ -110,32 +111,25 @@ class AgentLocalizationProcessor:
         all_agent_ids = set()
         agents_without_names = set()
         
-        for lang in self.languages:
-            db_filename = get_db_path(self.config)
-            if db_filename.exists():
-                try:
-                    conn = sqlite3.connect(str(db_filename))
-                    cursor = conn.cursor()
-                    
-                    # 检查agents表是否存在
-                    cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='agents'")
-                    if not cursor.fetchone():
-                        print(f"[-] 数据库 {db_filename} 中不存在agents表，跳过")
-                        conn.close()
-                        continue
-                    
-                    # 获取所有agent_id
-                    cursor.execute("SELECT agent_id FROM agents")
-                    agent_ids = [row[0] for row in cursor.fetchall()]
-                    all_agent_ids.update(agent_ids)
-                    
-                    # 检查哪些agent没有名称（agent_name为NULL或空字符串）
-                    cursor.execute("SELECT agent_id FROM agents WHERE agent_name IS NULL OR agent_name = ''")
-                    agents_without_names.update([row[0] for row in cursor.fetchall()])
-                    
+        db_filename = get_db_path(self.config)
+        if db_filename.exists():
+            try:
+                conn = sqlite3.connect(str(db_filename))
+                cursor = conn.cursor()
+                cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='agents'")
+                if not cursor.fetchone():
+                    print(f"[-] 数据库 {db_filename} 中不存在agents表，跳过")
                     conn.close()
-                except Exception as e:
-                    print(f"[x] 读取数据库 {db_filename} 时出错: {e}")
+                    return False
+                cursor.execute("SELECT agent_id FROM agents")
+                all_agent_ids.update(row[0] for row in cursor.fetchall())
+                cursor.execute(
+                    f"SELECT agent_id FROM agents WHERE en_name IS NULL OR en_name = ''"
+                )
+                agents_without_names.update(row[0] for row in cursor.fetchall())
+                conn.close()
+            except Exception as e:
+                print(f"[x] 读取数据库 {db_filename} 时出错: {e}")
         
         if not all_agent_ids:
             print("[x] 没有找到任何agent记录")
@@ -152,98 +146,81 @@ class AgentLocalizationProcessor:
         else:
             print("[+] 所有agent都有名称，无需从ESI获取")
         
+        db_filename = get_db_path(self.config)
+        if not db_filename.exists():
+            print(f"[-] 数据库文件 {db_filename} 不存在，跳过")
+            return False
+
+        print(f"[+] 处理数据库: {db_filename}")
         success_count = 0
-        
-        for lang in self.languages:
-            db_filename = get_db_path(self.config)
-            
-            if not db_filename.exists():
-                print(f"[-] 数据库文件 {db_filename} 不存在，跳过")
-                continue
-                
-            print(f"[+] 处理数据库: {db_filename}, 语言代码: {lang}")
-            
-            try:
-                # 连接数据库
-                conn = sqlite3.connect(str(db_filename))
-                cursor = conn.cursor()
-                
-                # 检查agents表是否存在
-                cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='agents'")
-                if not cursor.fetchone():
-                    print(f"[-] 数据库 {db_filename} 中不存在agents表，跳过")
-                    conn.close()
-                    continue
-                
-                # 检查agent_name列是否存在，如果不存在则添加
-                cursor.execute("PRAGMA table_info(agents)")
-                columns = [column[1] for column in cursor.fetchall()]
-                if 'agent_name' not in columns:
-                    print(f"[+] 在数据库 {db_filename} 中添加agent_name列")
-                    cursor.execute("ALTER TABLE agents ADD COLUMN agent_name TEXT")
-                
-                # 只获取没有名称的agents记录
-                cursor.execute("SELECT agent_id FROM agents WHERE agent_name IS NULL OR agent_name = ''")
-                agents_without_names = cursor.fetchall()
-                
-                if not agents_without_names:
-                    print(f"[+] 数据库 {db_filename} 中所有agent都有名称，无需更新")
-                    conn.close()
-                    continue
-                
-                print(f"[+] 找到 {len(agents_without_names)} 个没有名称的代理人记录")
-                
-                # 更新每条没有名称的记录
-                updated_count = 0
-                not_found_count = 0
-                esi_not_found_count = 0
-                
-                for (agent_id,) in agents_without_names:
-                    # 从ESI获取的名称中查找英文名称
-                    if agent_id in agent_names:
-                        english_name = agent_names[agent_id]
-                        
-                        # 查找对应的本地化文本
-                        if english_name in localization_mapping and lang in localization_mapping[english_name]:
-                            localized_name = localization_mapping[english_name][lang]
-                            
-                            # 更新agent_name
-                            cursor.execute("""
-                                UPDATE agents 
-                                SET agent_name = ? 
-                                WHERE agent_id = ?
-                            """, (localized_name, agent_id))
-                            
-                            updated_count += 1
-                        else:
-                            # 如果找不到本地化文本，使用原始英文名称
-                            cursor.execute("""
-                                UPDATE agents 
-                                SET agent_name = ? 
-                                WHERE agent_id = ?
-                            """, (english_name, agent_id))
-                            
-                            not_found_count += 1
-                    else:
-                        # 如果ESI中找不到，使用agent_id作为名称
-                        cursor.execute("""
-                            UPDATE agents 
-                            SET agent_name = ? 
-                            WHERE agent_id = ?
-                        """, (f"Agent {agent_id}", agent_id))
-                        
-                        esi_not_found_count += 1
-                
-                # 提交更改
-                conn.commit()
-                print(f"[+] 成功更新了 {updated_count} 条记录（使用本地化映射），{not_found_count} 条记录使用原始英文名称，{esi_not_found_count} 条记录使用默认名称")
-                success_count += 1
-                
-            except Exception as e:
-                print(f"[x] 处理数据库 {db_filename} 时出错: {e}")
-            finally:
-                if 'conn' in locals():
-                    conn.close()
+
+        try:
+            conn = sqlite3.connect(str(db_filename))
+            cursor = conn.cursor()
+
+            cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='agents'")
+            if not cursor.fetchone():
+                print(f"[-] 数据库 {db_filename} 中不存在agents表，跳过")
+                conn.close()
+                return False
+
+            cursor.execute("PRAGMA table_info(agents)")
+            columns = [column[1] for column in cursor.fetchall()]
+            for col in NAME_COLS:
+                if col not in columns:
+                    cursor.execute(f"ALTER TABLE agents ADD COLUMN {col} TEXT")
+
+            cursor.execute(
+                f"SELECT agent_id FROM agents WHERE en_name IS NULL OR en_name = ''"
+            )
+            agents_to_update = cursor.fetchall()
+
+            if not agents_to_update:
+                print(f"[+] 所有 agent 已有名称，无需更新")
+                conn.close()
+                return True
+
+            print(f"[+] 找到 {len(agents_to_update)} 个没有名称的代理人记录")
+            updated_count = 0
+            not_found_count = 0
+            esi_not_found_count = 0
+
+            for (agent_id,) in agents_to_update:
+                if agent_id in agent_names:
+                    english_name = agent_names[agent_id]
+                    texts = {lang: english_name for lang in LANGS}
+                    mapping = localization_mapping.get(english_name, {})
+                    for lang in LANGS:
+                        texts[lang] = mapping.get(lang, english_name)
+                    if english_name not in localization_mapping:
+                        not_found_count += 1
+                    set_clause = ", ".join(f"{col}=?" for col in NAME_COLS)
+                    cursor.execute(
+                        f"UPDATE agents SET {set_clause} WHERE agent_id = ?",
+                        (*names_row(texts), agent_id),
+                    )
+                    updated_count += 1
+                else:
+                    fallback = {lang: f"Agent {agent_id}" for lang in LANGS}
+                    set_clause = ", ".join(f"{col}=?" for col in NAME_COLS)
+                    cursor.execute(
+                        f"UPDATE agents SET {set_clause} WHERE agent_id = ?",
+                        (*names_row(fallback), agent_id),
+                    )
+                    esi_not_found_count += 1
+
+            conn.commit()
+            print(
+                f"[+] 成功更新 {updated_count} 条（含本地化），"
+                f"{not_found_count} 条使用英文，{esi_not_found_count} 条使用默认名称"
+            )
+            success_count = 1
+
+        except Exception as e:
+            print(f"[x] 处理数据库 {db_filename} 时出错: {e}")
+        finally:
+            if 'conn' in locals():
+                conn.close()
         
         print(f"[+] 本地化更新完成，成功处理了 {success_count} 个数据库")
         print(f"[+] 数据来源统计:")

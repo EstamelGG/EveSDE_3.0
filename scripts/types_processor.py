@@ -9,6 +9,7 @@
 """
 
 from utils.single_db import get_db_path
+from utils.wide_i18n import wide_texts, names_row, name_cols_sql, LANGS
 import json
 import sqlite3
 import shutil
@@ -150,7 +151,6 @@ class TypesProcessor:
         cursor.execute('''
         CREATE TABLE types (
             type_id INTEGER NOT NULL PRIMARY KEY,
-            name TEXT,
             de_name TEXT,
             en_name TEXT,
             es_name TEXT,
@@ -159,7 +159,14 @@ class TypesProcessor:
             ko_name TEXT,
             ru_name TEXT,
             zh_name TEXT,
-            description TEXT,
+            de_description TEXT,
+            en_description TEXT,
+            es_description TEXT,
+            fr_description TEXT,
+            ja_description TEXT,
+            ko_description TEXT,
+            ru_description TEXT,
+            zh_description TEXT,
             icon_filename TEXT,
             bpc_icon_filename TEXT,
             published BOOLEAN,
@@ -171,9 +178,23 @@ class TypesProcessor:
             metaGroupID INTEGER,
             iconID INTEGER,
             groupID INTEGER,
-            group_name TEXT,
+            group_de_name TEXT,
+            group_en_name TEXT,
+            group_es_name TEXT,
+            group_fr_name TEXT,
+            group_ja_name TEXT,
+            group_ko_name TEXT,
+            group_ru_name TEXT,
+            group_zh_name TEXT,
             categoryID INTEGER,
-            category_name TEXT,
+            category_de_name TEXT,
+            category_en_name TEXT,
+            category_es_name TEXT,
+            category_fr_name TEXT,
+            category_ja_name TEXT,
+            category_ko_name TEXT,
+            category_ru_name TEXT,
+            category_zh_name TEXT,
             pg_need REAL,
             cpu_need REAL,
             rig_cost INTEGER,
@@ -205,8 +226,22 @@ class TypesProcessor:
         cursor.execute('''
         CREATE TABLE IF NOT EXISTS wormholes (
             type_id INTEGER NOT NULL PRIMARY KEY,
-            name TEXT,
-            description TEXT,
+            de_name TEXT,
+            en_name TEXT,
+            es_name TEXT,
+            fr_name TEXT,
+            ja_name TEXT,
+            ko_name TEXT,
+            ru_name TEXT,
+            zh_name TEXT,
+            de_description TEXT,
+            en_description TEXT,
+            es_description TEXT,
+            fr_description TEXT,
+            ja_description TEXT,
+            ko_description TEXT,
+            ru_description TEXT,
+            zh_description TEXT,
             icon TEXT,
             target_value INTEGER,
             target TEXT,
@@ -218,36 +253,38 @@ class TypesProcessor:
         ''')
         print("[+] 创建wormholes表")
     
-    def fetch_and_process_data(self, cursor: sqlite3.Cursor) -> Tuple[Dict[int, int], Dict[int, str], Dict[int, str]]:
-        """
-        获取并处理组和分类数据
-        """
+    def fetch_and_process_data(self, cursor: sqlite3.Cursor):
+        """获取组/分类多语名称映射"""
         group_to_category = {}
-        category_id_to_name = {}
-        group_id_to_name = {}
-        
+        category_id_to_names: Dict[int, Dict[str, str]] = {}
+        group_id_to_names: Dict[int, Dict[str, str]] = {}
+        unknown = {lang: "Unknown" for lang in LANGS}
+
         try:
-            # 获取组信息
-            cursor.execute('''
-                SELECT group_id, name, categoryID 
+            cursor.execute(f'''
+                SELECT group_id, {name_cols_sql()}, categoryID
                 FROM groups
             ''')
-            for group_id, name, category_id in cursor.fetchall():
+            for row in cursor.fetchall():
+                group_id, *name_vals, category_id = row
                 group_to_category[group_id] = category_id
-                group_id_to_name[group_id] = name
-            
-            # 获取分类信息
-            cursor.execute('''
-                SELECT category_id, name 
+                group_id_to_names[group_id] = {
+                    LANGS[i]: name_vals[i] for i in range(len(LANGS))
+                }
+
+            cursor.execute(f'''
+                SELECT category_id, {name_cols_sql()}
                 FROM categories
             ''')
-            for category_id, name in cursor.fetchall():
-                category_id_to_name[category_id] = name
-                
+            for row in cursor.fetchall():
+                category_id, *name_vals = row
+                category_id_to_names[category_id] = {
+                    LANGS[i]: name_vals[i] for i in range(len(LANGS))
+                }
         except Exception as e:
             print(f"[!] 获取组和分类信息时出错: {e}")
-        
-        return group_to_category, category_id_to_name, group_id_to_name
+
+        return group_to_category, category_id_to_names, group_id_to_names, unknown
     
     def calculate_file_md5(self, file_path: Path) -> str:
         """
@@ -509,46 +546,49 @@ class TypesProcessor:
 
         return "Unknown"
     
-    def process_wormhole_data(self, cursor: sqlite3.Cursor, type_id: int, name: str, description: str, icon_filename: Optional[str], lang: str):
-        """
-        处理虫洞数据
-        完全按照old版本的逻辑实现
-        """
+    def process_wormhole_data(
+        self,
+        cursor: sqlite3.Cursor,
+        type_id: int,
+        names: Dict[str, str],
+        descs: Dict[str, str],
+        icon_filename: Optional[str],
+        lang: str,
+    ):
+        """处理虫洞数据（宽列 name / description）"""
         try:
-            # 获取虫洞属性
             attributes = self.get_attributes_value(cursor, type_id, [1381, 1382, 1383, 1385])
             target_value, stable_time, max_stable_mass, max_jump_mass = attributes
 
-            # 处理目标
-            target = self.get_wormhole_target(target_value, name, lang)
+            target = self.get_wormhole_target(target_value, names['en'], lang)
 
-            # 先进行数值计算
             if stable_time:
-                stable_time = float(stable_time) / 60  # 转换为小时
+                stable_time = float(stable_time) / 60
             if max_stable_mass:
-                max_stable_mass = float(max_stable_mass)  # 转换为浮点数
+                max_stable_mass = float(max_stable_mass)
             if max_jump_mass:
-                max_jump_mass = float(max_jump_mass)  # 转换为浮点数
+                max_jump_mass = float(max_jump_mass)
 
-            # 获取尺寸类型（在格式化之前）
             size_type = self.get_wormhole_size_type(max_jump_mass, lang)
 
-            # 格式化并添加单位
             stable_time = self.format_number(stable_time, "h") if stable_time else None
             max_stable_mass = self.format_number(max_stable_mass, "Kg") if max_stable_mass else None
             max_jump_mass = self.format_number(max_jump_mass, "Kg") if max_jump_mass else None
 
-            # 插入数据
             cursor.execute('''
                 INSERT OR IGNORE INTO wormholes (
-                    type_id, name, description, icon, target_value, target, stable_time, 
+                    type_id,
+                    de_name, en_name, es_name, fr_name, ja_name, ko_name, ru_name, zh_name,
+                    de_description, en_description, es_description, fr_description,
+                    ja_description, ko_description, ru_description, zh_description,
+                    icon, target_value, target, stable_time,
                     max_stable_mass, max_jump_mass, size_type
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ''', (
-                type_id, name, description, icon_filename, target_value, target, stable_time,
-                max_stable_mass, max_jump_mass, size_type
+                type_id, *names_row(names), *names_row(descs),
+                icon_filename, target_value, target, stable_time,
+                max_stable_mass, max_jump_mass, size_type,
             ))
-            
         except Exception as e:
             print(f"[!] 处理虫洞数据时出错 type_id={type_id}: {e}")
     
@@ -567,7 +607,7 @@ class TypesProcessor:
         
         create_types_table(cursor)
         create_wormholes_table(cursor)  # 创建虫洞表
-        group_to_category, category_id_to_name, group_id_to_name = fetch_and_process_data(cursor)
+        group_to_category, category_id_to_names, group_id_to_names, unknown_names = fetch_and_process_data(cursor)
 
         # 读取repackaged_volumes数据
         repackaged_volumes = read_repackaged_volumes()
@@ -579,27 +619,31 @@ class TypesProcessor:
             for type_id, item in types_data.items():
                 type_en_name_cache[type_id] = item['name'].get('en', "")
 
-        # 用于存储批量插入的数据
         batch_data = []
-        batch_size = 1000  # 每批处理的记录数
+        batch_size = 1000
+        _types_insert_sql = '''
+            INSERT OR REPLACE INTO types (
+                type_id,
+                de_name, en_name, es_name, fr_name, ja_name, ko_name, ru_name, zh_name,
+                de_description, en_description, es_description, fr_description,
+                ja_description, ko_description, ru_description, zh_description,
+                icon_filename, bpc_icon_filename, published, volume, repackaged_volume, capacity, mass,
+                marketGroupID, metaGroupID, iconID, groupID,
+                group_de_name, group_en_name, group_es_name, group_fr_name,
+                group_ja_name, group_ko_name, group_ru_name, group_zh_name,
+                categoryID,
+                category_de_name, category_en_name, category_es_name, category_fr_name,
+                category_ja_name, category_ko_name, category_ru_name, category_zh_name,
+                pg_need, cpu_need, rig_cost, em_damage, them_damage, kin_damage, exp_damage,
+                high_slot, mid_slot, low_slot, rig_slot, gun_slot, miss_slot, variationParentTypeID,
+                process_size, npc_ship_scene, npc_ship_faction, npc_ship_type, npc_ship_faction_icon
+            ) VALUES ({ph})
+        '''.format(ph=", ".join(["?"] * 64))
 
         for type_id, item in types_data.items():
-            # 获取当前语言的名称作为主要name
-            name = item['name'].get(lang, item['name'].get('en', ""))
-
-            # 获取所有语言的名称
-            names = {
-                'de': item['name'].get('de', name),
-                'en': item['name'].get('en', name),
-                'es': item['name'].get('es', name),
-                'fr': item['name'].get('fr', name),
-                'ja': item['name'].get('ja', name),
-                'ko': item['name'].get('ko', name),
-                'ru': item['name'].get('ru', name),
-                'zh': item['name'].get('zh', name)
-            }
-
-            description = item.get('description', {}).get(lang, item.get('description', {}).get('en', ""))
+            # 多语名称与描述（宽列，单库一次写入）
+            names = wide_texts(item.get('name'))
+            descs = wide_texts(item.get('description'))
             published = item.get('published', False)
             volume = item.get('volume', None)
             # 获取重新打包体积
@@ -612,9 +656,9 @@ class TypesProcessor:
             capacity = item.get('capacity', None)
             mass = item.get('mass', None)
             variationParentTypeID = item.get('variationParentTypeID', None)
-            group_name = group_id_to_name.get(groupID, 'Unknown')
+            group_names = group_id_to_names.get(groupID, unknown_names)
             category_id = group_to_category.get(groupID, 0)
-            category_name = category_id_to_name.get(category_id, 'Unknown')
+            category_names = category_id_to_names.get(category_id, unknown_names)
 
             # NPC船只分类字段将在后续的npc_ship_classifier阶段处理，这里先设置为null
             npc_ship_scene = None
@@ -630,47 +674,29 @@ class TypesProcessor:
 
             # 处理虫洞数据
             if groupID == 988:
-                process_wormhole_data(cursor, type_id, name, description, copied_file, lang)
+                process_wormhole_data(cursor, type_id, names, descs, copied_file, lang)
 
-            # 添加到批处理列表
             batch_data.append((
-                type_id, name,
-                names['de'], names['en'], names['es'], names['fr'],
-                names['ja'], names['ko'], names['ru'], names['zh'],
-                description, copied_file, bpc_copied_file, published, volume, repackaged_volume, capacity, mass,
+                type_id,
+                *names_row(names),
+                *names_row(descs),
+                copied_file, bpc_copied_file, published, volume, repackaged_volume, capacity, mass,
                 marketGroupID,
-                metaGroupID, iconID, groupID, group_name, category_id, category_name,
+                metaGroupID, iconID, groupID,
+                *names_row(group_names),
+                category_id,
+                *names_row(category_names),
                 pg_need, cpu_need, rig_cost, em_damage, them_damage, kin_damage, exp_damage,
                 high_slot, mid_slot, low_slot, rig_slot, gun_slot, miss_slot, variationParentTypeID,
                 process_size, npc_ship_scene, npc_ship_faction, npc_ship_type, npc_ship_faction_icon
             ))
 
-            # 当达到批处理大小时执行插入
             if len(batch_data) >= batch_size:
-                cursor.executemany('''
-                    INSERT OR REPLACE INTO types (
-                        type_id, name, de_name, en_name, es_name, fr_name, ja_name, ko_name, ru_name, zh_name,
-                        description, icon_filename, bpc_icon_filename, published, volume, repackaged_volume, capacity, mass,
-                        marketGroupID, metaGroupID, iconID, groupID, group_name, categoryID, category_name,
-                        pg_need, cpu_need, rig_cost, em_damage, them_damage, kin_damage, exp_damage,
-                        high_slot, mid_slot, low_slot, rig_slot, gun_slot, miss_slot, variationParentTypeID,
-                        process_size, npc_ship_scene, npc_ship_faction, npc_ship_type, npc_ship_faction_icon
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                ''', batch_data)
+                cursor.executemany(_types_insert_sql, batch_data)
                 batch_data = []
 
-        # 处理剩余的数据
         if batch_data:
-            cursor.executemany('''
-                INSERT OR REPLACE INTO types (
-                    type_id, name, de_name, en_name, es_name, fr_name, ja_name, ko_name, ru_name, zh_name,
-                    description, icon_filename, bpc_icon_filename, published, volume, repackaged_volume, capacity, mass,
-                    marketGroupID, metaGroupID, iconID, groupID, group_name, categoryID, category_name,
-                    pg_need, cpu_need, rig_cost, em_damage, them_damage, kin_damage, exp_damage,
-                    high_slot, mid_slot, low_slot, rig_slot, gun_slot, miss_slot, variationParentTypeID,
-                    process_size, npc_ship_scene, npc_ship_faction, npc_ship_type, npc_ship_faction_icon
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-            ''', batch_data)
+            cursor.executemany(_types_insert_sql, batch_data)
         
         print(f"[+] 成功处理 {len(types_data)} 个types记录")
         
@@ -718,7 +744,8 @@ class TypesProcessor:
         """
         print("[+] 开始处理types数据")
         
-        return self.process_types_for_language(language)
+        # 单库宽列：一次写入全部 name / description 列
+        return self.process_types_for_language('en')
 
 
 def main(config=None):

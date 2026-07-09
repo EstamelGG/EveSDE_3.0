@@ -6,6 +6,7 @@
 """
 
 from utils.single_db import get_db_path
+from utils.wide_i18n import wide_texts, names_row
 import json
 import sqlite3
 import time
@@ -56,7 +57,6 @@ class GroupsProcessor:
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS groups (
                 group_id INTEGER NOT NULL PRIMARY KEY,
-                name TEXT,
                 de_name TEXT,
                 en_name TEXT,
                 es_name TEXT,
@@ -102,21 +102,8 @@ class GroupsProcessor:
             name_dict = group_data.get('name', {})
             if not name_dict:
                 continue
-            
-            # 获取英语名称作为回退值
-            en_name = name_dict.get('en', '')
-            
-            # 获取所有语言的名称，如果不存在则回退到英语
-            names = {
-                'de': name_dict.get('de', en_name),
-                'en': en_name,
-                'es': name_dict.get('es', en_name),
-                'fr': name_dict.get('fr', en_name),
-                'ja': name_dict.get('ja', en_name),
-                'ko': name_dict.get('ko', en_name),
-                'ru': name_dict.get('ru', en_name),
-                'zh': name_dict.get('zh', en_name)
-            }
+
+            names = wide_texts(name_dict)
             
             # 为特定group_id添加后缀
             suffix = ""
@@ -137,10 +124,8 @@ class GroupsProcessor:
                     if names[key]:  # 只有当名称不为空时才添加后缀
                         names[key] = names[key] + suffix
             
-            # 获取当前语言的名称作为主要name，如果不存在则回退到英语
-            name = names.get(lang, en_name)
-            
-            # 获取其他字段
+            if not names.get('en'):
+                continue
             categoryID = group_data.get('categoryID', 0)
             iconID = group_data.get('iconID', 0)
             anchorable = group_data.get('anchorable', False)
@@ -153,9 +138,7 @@ class GroupsProcessor:
             icon_filename = self.groups_icon_mapping.get(group_id, "category_default.png")
             
             groups_batch.append((
-                group_id, name,
-                names['de'], names['en'], names['es'], names['fr'],
-                names['ja'], names['ko'], names['ru'], names['zh'],
+                group_id, *names_row(names),
                 iconID, categoryID, anchorable, anchored, fittableNonSingleton,
                 published, useBasePrice, icon_filename
             ))
@@ -164,12 +147,12 @@ class GroupsProcessor:
             if len(groups_batch) >= batch_size:
                 cursor.executemany('''
                     INSERT OR REPLACE INTO groups (
-                        group_id, name,
+                        group_id,
                         de_name, en_name, es_name, fr_name,
                         ja_name, ko_name, ru_name, zh_name,
                         iconID, categoryID, anchorable, anchored,
                         fittableNonSingleton, published, useBasePrice, icon_filename
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 ''', groups_batch)
                 groups_batch = []
         
@@ -177,12 +160,12 @@ class GroupsProcessor:
         if groups_batch:
             cursor.executemany('''
                 INSERT OR REPLACE INTO groups (
-                    group_id, name,
+                    group_id,
                     de_name, en_name, es_name, fr_name,
                     ja_name, ko_name, ru_name, zh_name,
                     iconID, categoryID, anchorable, anchored,
                     fittableNonSingleton, published, useBasePrice, icon_filename
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ''', groups_batch)
         
         # 统计信息

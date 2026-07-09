@@ -8,6 +8,7 @@
 """
 
 from utils.single_db import get_db_path
+from utils.wide_i18n import wide_texts, names_row
 import json
 import sqlite3
 from collections import defaultdict
@@ -108,7 +109,14 @@ class MarketGroupsProcessor:
         cursor.execute('''
         CREATE TABLE IF NOT EXISTS marketGroups (
             group_id INTEGER NOT NULL PRIMARY KEY,
-            name TEXT,
+            de_name TEXT,
+            en_name TEXT,
+            es_name TEXT,
+            fr_name TEXT,
+            ja_name TEXT,
+            ko_name TEXT,
+            ru_name TEXT,
+            zh_name TEXT,
             icon_name TEXT,
             parentgroup_id INTEGER,
             show BOOLEAN DEFAULT 1
@@ -399,12 +407,12 @@ class MarketGroupsProcessor:
         # 处理每个市场组
         insert_data = []
         for group_id, group_data in market_groups_data.items():
-            # 获取当前语言的名称和描述，如果为空则使用英语
-            name = group_data.get('name', {}).get(lang, '')
-            if not name:  # 如果当前语言的name为空，尝试获取英语的name
-                name = group_data.get('name', {}).get('en', '')
-            if str(group_id) in CUSTOM_GROUP_EXPAND.keys():
-                name += CUSTOM_GROUP_EXPAND[str(group_id)]
+            names = wide_texts(group_data.get('name'))
+            if str(group_id) in CUSTOM_GROUP_EXPAND:
+                suffix = CUSTOM_GROUP_EXPAND[str(group_id)]
+                for key in names:
+                    if names[key]:
+                        names[key] += suffix
 
             # 获取图标ID并查找对应的图标文件名
             icon_id = group_data.get('iconID')
@@ -414,13 +422,15 @@ class MarketGroupsProcessor:
             parentgroup_id = group_data.get('parentGroupID')
             
             # 收集插入数据
-            insert_data.append((group_id, name, icon_name, parentgroup_id))
+            insert_data.append((group_id, *names_row(names), icon_name, parentgroup_id))
         
         # 批量插入数据
         cursor.executemany('''
-            INSERT OR REPLACE INTO marketGroups 
-            (group_id, name, icon_name, parentgroup_id)
-            VALUES (?, ?, ?, ?)
+            INSERT OR REPLACE INTO marketGroups (
+                group_id,
+                de_name, en_name, es_name, fr_name, ja_name, ko_name, ru_name, zh_name,
+                icon_name, parentgroup_id
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ''', insert_data)
         
         # 构建缓存数据

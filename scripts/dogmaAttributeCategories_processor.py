@@ -8,6 +8,7 @@
 """
 
 from utils.single_db import get_db_path
+from utils.wide_i18n import wide_texts, names_row
 import json
 import sqlite3
 from pathlib import Path
@@ -184,8 +185,22 @@ class DogmaAttributeCategoriesProcessor:
         cursor.execute('''
         CREATE TABLE IF NOT EXISTS dogmaAttributeCategories (
             attribute_category_id INTEGER NOT NULL PRIMARY KEY,
-            name TEXT,
-            description TEXT
+            de_name TEXT,
+            en_name TEXT,
+            es_name TEXT,
+            fr_name TEXT,
+            ja_name TEXT,
+            ko_name TEXT,
+            ru_name TEXT,
+            zh_name TEXT,
+            de_description TEXT,
+            en_description TEXT,
+            es_description TEXT,
+            fr_description TEXT,
+            ja_description TEXT,
+            ko_description TEXT,
+            ru_description TEXT,
+            zh_description TEXT
         )
         ''')
         print("[+] 创建dogmaAttributeCategories表")
@@ -199,20 +214,20 @@ class DogmaAttributeCategoriesProcessor:
         processed_count = 0
         for category_id, category_data in categories_data.items():
             # 获取字段
-            name = category_data.get('name', "")
-            description = category_data.get('description', "")
-            
-            # 应用语言映射
-            if name in self.language_map.keys():
-                if language in self.language_map[name]:
-                    name = self.language_map[name][language]
-            
-            # 插入数据
+            names = wide_texts(category_data.get('name'))
+            descs = wide_texts(category_data.get('description'))
+            if names['en'] in self.language_map and language in self.language_map[names['en']]:
+                mapped = self.language_map[names['en']][language]
+                names[language] = mapped
+
             cursor.execute('''
                 INSERT OR REPLACE INTO dogmaAttributeCategories (
-                    attribute_category_id, name, description
-                ) VALUES (?, ?, ?)
-            ''', (category_id, name, description))
+                    attribute_category_id,
+                    de_name, en_name, es_name, fr_name, ja_name, ko_name, ru_name, zh_name,
+                    de_description, en_description, es_description, fr_description,
+                    ja_description, ko_description, ru_description, zh_description
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ''', (category_id, *names_row(names), *names_row(descs)))
             
             processed_count += 1
         

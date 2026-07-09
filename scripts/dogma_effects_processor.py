@@ -7,6 +7,7 @@ Dogma效果处理器模块
 """
 
 from utils.single_db import get_db_path
+from utils.wide_i18n import wide_texts, names_row
 import json
 import sqlite3
 import time
@@ -44,8 +45,22 @@ class DogmaEffectsProcessor:
                 effect_id INTEGER NOT NULL PRIMARY KEY,
                 effect_category INTEGER,
                 effect_name TEXT,
-                display_name TEXT,
-                description TEXT,
+                de_name TEXT,
+                en_name TEXT,
+                es_name TEXT,
+                fr_name TEXT,
+                ja_name TEXT,
+                ko_name TEXT,
+                ru_name TEXT,
+                zh_name TEXT,
+                de_description TEXT,
+                en_description TEXT,
+                es_description TEXT,
+                fr_description TEXT,
+                ja_description TEXT,
+                ko_description TEXT,
+                ru_description TEXT,
+                zh_description TEXT,
                 published BOOLEAN,
                 is_assistance BOOLEAN,
                 is_offensive BOOLEAN,
@@ -76,10 +91,26 @@ class DogmaEffectsProcessor:
         effects_batch = []
         batch_size = 1000
         
+        _fx_sql = '''
+            INSERT OR REPLACE INTO dogmaEffects (
+                effect_id, effect_category, effect_name,
+                de_name, en_name, es_name, fr_name,
+                ja_name, ko_name, ru_name, zh_name,
+                de_description, en_description, es_description, fr_description,
+                ja_description, ko_description, ru_description, zh_description,
+                published, is_assistance, is_offensive, resistance_attribute_id, modifier_info
+            ) VALUES ({ph})
+        '''.format(ph=", ".join(["?"] * 24))
+
         for effect_id, effect_data in self.dogma_effects_data.items():
             # 获取基本字段
             # 新版本：effectName重命名为name
             effect_name = effect_data.get('name', effect_data.get('effectName', None))
+            if isinstance(effect_name, dict):
+                effect_name = effect_name.get('en', '')
+
+            displays = wide_texts(effect_data.get('displayName'))
+            descs = wide_texts(effect_data.get('description'))
             
             # 效果分类特殊处理
             if effect_name == "online":  # 打补丁修复
@@ -98,35 +129,19 @@ class DogmaEffectsProcessor:
             modifier_info_json = json.dumps(modifier_info) if modifier_info is not None else None
             
             # 多语言字段处理
-            display_name_dict = effect_data.get('displayName', {})
-            description_dict = effect_data.get('description', {})
-            
-            display_name = display_name_dict.get(lang, "")
-            description = description_dict.get(lang, description_dict.get('en', ''))
-            
             effects_batch.append((
-                effect_id, effect_category, effect_name, display_name, description,
+                effect_id, effect_category, effect_name,
+                *names_row(displays), *names_row(descs),
                 published, is_assistance, is_offensive, resistance_attribute_id, modifier_info_json
             ))
             
             # 批量插入
             if len(effects_batch) >= batch_size:
-                cursor.executemany('''
-                    INSERT OR REPLACE INTO dogmaEffects (
-                        effect_id, effect_category, effect_name, display_name, description,
-                        published, is_assistance, is_offensive, resistance_attribute_id, modifier_info
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                ''', effects_batch)
+                cursor.executemany(_fx_sql, effects_batch)
                 effects_batch = []
-        
-        # 处理剩余的效果数据
+
         if effects_batch:
-            cursor.executemany('''
-                INSERT OR REPLACE INTO dogmaEffects (
-                    effect_id, effect_category, effect_name, display_name, description,
-                    published, is_assistance, is_offensive, resistance_attribute_id, modifier_info
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-            ''', effects_batch)
+            cursor.executemany(_fx_sql, effects_batch)
         
         # 统计信息
         cursor.execute('SELECT COUNT(*) FROM dogmaEffects')

@@ -324,7 +324,7 @@ class NPCShipClassifier:
             
             # 1. 获取所有categoryID为11的NPC船只
             cursor.execute('''
-                SELECT type_id, en_name, zh_name, group_name, categoryID, groupID, icon_filename
+                SELECT type_id, en_name, zh_name, group_en_name, group_zh_name, categoryID, groupID, icon_filename
                 FROM types
                 WHERE categoryID = 11
             ''')
@@ -404,15 +404,16 @@ class NPCShipClassifier:
             npc_classification_cache.clear()
             unmatched_items = []  # 记录未命中的物品
             
-            for type_id, en_name, zh_name, group_name, category_id, group_id, icon_filename in npc_ships:
-                # 计算分类
-                npc_ship_scene_en = self.get_npc_ship_scene(group_name, 'en')
-                npc_ship_scene_zh = self.get_npc_ship_scene(group_name, 'zh')
-                npc_ship_faction_en = self.get_npc_ship_faction(group_name, 'en')
-                npc_ship_faction_zh = self.get_npc_ship_faction(group_name, 'zh')
-                npc_ship_type_en = self.get_npc_ship_type(type_id, group_name, en_name, group_id, category_id, 'en',
+            for type_id, en_name, zh_name, group_en_name, group_zh_name, category_id, group_id, icon_filename in npc_ships:
+                group_name_en = group_en_name or ''
+                group_name_zh = group_zh_name or group_en_name or ''
+                npc_ship_scene_en = self.get_npc_ship_scene(group_name_en, 'en')
+                npc_ship_scene_zh = self.get_npc_ship_scene(group_name_zh, 'zh')
+                npc_ship_faction_en = self.get_npc_ship_faction(group_name_en, 'en')
+                npc_ship_faction_zh = self.get_npc_ship_faction(group_name_zh, 'zh')
+                npc_ship_type_en = self.get_npc_ship_type(type_id, group_name_en, en_name, group_id, category_id, 'en',
                                                       type_attributes_cache, groups_cache)
-                npc_ship_type_zh = self.get_npc_ship_type(type_id, group_name, en_name, group_id, category_id, 'zh',
+                npc_ship_type_zh = self.get_npc_ship_type(type_id, group_name_zh, zh_name or en_name, group_id, category_id, 'zh',
                                                       type_attributes_cache, groups_cache)
                 npc_ship_faction_icon = self.get_faction_icon(npc_ship_faction_en)
                 
@@ -462,7 +463,7 @@ class NPCShipClassifier:
             
             updated_count = 0
             
-            for type_id, en_name, zh_name, group_name, category_id, group_id, icon_filename in npc_ships:
+            for type_id, en_name, zh_name, group_en_name, group_zh_name, category_id, group_id, icon_filename in npc_ships:
                 if type_id in npc_classification_cache:
                     cached_data = npc_classification_cache[type_id]
                     

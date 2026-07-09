@@ -10,6 +10,7 @@ agent字段包含agentTypeID、divisionID、isLocator、level等信息
 """
 
 from utils.single_db import get_db_path
+from utils.wide_i18n import wide_texts, names_row, names_ddl, NAME_COLS
 import json
 import sqlite3
 import time
@@ -64,7 +65,7 @@ class AgentsProcessor:
     
     def create_agents_table(self, cursor: sqlite3.Cursor):
         """创建agents表"""
-        cursor.execute('''
+        cursor.execute(f'''
             CREATE TABLE IF NOT EXISTS agents (
                 agent_id INTEGER NOT NULL PRIMARY KEY,
                 agent_type INTEGER,
@@ -74,7 +75,7 @@ class AgentsProcessor:
                 level INTEGER,
                 locationID INTEGER,
                 solarSystemID INTEGER,
-                agent_name TEXT
+                {names_ddl()}
             )
         ''')
         
@@ -83,9 +84,9 @@ class AgentsProcessor:
         cursor.execute('CREATE INDEX IF NOT EXISTS idx_agents_locationID ON agents(locationID)')
         cursor.execute('CREATE INDEX IF NOT EXISTS idx_agents_corporationID ON agents(corporationID)')
     
-    def process_agents_to_db(self, cursor: sqlite3.Cursor, lang: str = 'en'):
-        """处理代理人数据并插入数据库"""
-        print(f"[+] 开始处理代理人数据 (语言: {lang})...")
+    def process_agents_to_db(self, cursor: sqlite3.Cursor):
+        """处理代理人数据并插入数据库（全语言宽列）"""
+        print("[+] 开始处理代理人数据...")
         
         # 清空现有数据
         cursor.execute('DELETE FROM agents')
@@ -115,36 +116,31 @@ class AgentsProcessor:
             corporation_id = agent_data.get('corporationID')
             location_id = agent_data.get('locationID')
             
-            # 获取多语言名称
-            agent_name = None
-            if 'name' in agent_data and isinstance(agent_data['name'], dict):
-                agent_name = agent_data['name'].get(lang, agent_data['name'].get('en', None))
-            
-            # 如果代理在太空中，获取其太阳系ID，否则为NULL
+            names = wide_texts(agent_data.get('name'))
             solar_system_id = agents_solar_systems.get(agent_id)
             
             agents_batch.append((
                 agent_id, agent_type, corporation_id, division_id,
-                is_locator, level, location_id, solar_system_id, agent_name
+                is_locator, level, location_id, solar_system_id, *names_row(names)
             ))
             
-            # 批量插入
             if len(agents_batch) >= batch_size:
-                cursor.executemany('''
+                cursor.executemany(f'''
                     INSERT OR REPLACE INTO agents (
                         agent_id, agent_type, corporationID, divisionID,
-                        isLocator, level, locationID, solarSystemID, agent_name
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+                        isLocator, level, locationID, solarSystemID,
+                        {", ".join(NAME_COLS)}
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, {", ".join(["?"] * 8)})
                 ''', agents_batch)
                 agents_batch = []
         
-        # 处理剩余数据
         if agents_batch:
-            cursor.executemany('''
+            cursor.executemany(f'''
                 INSERT OR REPLACE INTO agents (
                     agent_id, agent_type, corporationID, divisionID,
-                    isLocator, level, locationID, solarSystemID, agent_name
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    isLocator, level, locationID, solarSystemID,
+                    {", ".join(NAME_COLS)}
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, {", ".join(["?"] * 8)})
             ''', agents_batch)
         
         # 统计信息
@@ -152,22 +148,11 @@ class AgentsProcessor:
         agents_count = cursor.fetchone()[0]
         print(f"[+] 代理人数据处理完成: {agents_count} 个代理人")
     
-    def process_agents_data(self, cursor: sqlite3.Cursor, lang: str = 'en'):
-        """
-        处理所有代理人数据并插入数据库
-        
-        Args:
-            cursor: 数据库游标
-            lang: 数据库使用的语言代码
-        """
-        print(f"[+] 开始处理代理人数据 (语言: {lang})...")
+    def process_agents_data(self, cursor: sqlite3.Cursor):
+        print("[+] 开始处理代理人数据...")
         start_time = time.time()
-        
-        # 创建表
         self.create_agents_table(cursor)
-        
-        # 处理代理人数据
-        self.process_agents_to_db(cursor, lang)
+        self.process_agents_to_db(cursor)
         
         end_time = time.time()
         print(f"[+] 代理人数据处理完成，耗时: {end_time - start_time:.2f} 秒")
@@ -187,7 +172,7 @@ class AgentsProcessor:
         try:
             conn = sqlite3.connect(str(db_file))
             cursor = conn.cursor()
-            self.process_agents_data(cursor, 'en')
+            self.process_agents_data(cursor)
             conn.commit()
             conn.close()
             print("[+] 单库更新完成")

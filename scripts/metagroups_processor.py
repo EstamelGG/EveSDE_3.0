@@ -6,6 +6,7 @@ MetaGroups处理器模块
 """
 
 from utils.single_db import get_db_path
+from utils.wide_i18n import wide_texts, names_row
 import json
 import sqlite3
 import time
@@ -44,7 +45,14 @@ class MetaGroupsProcessor:
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS metaGroups (
                 metagroup_id INTEGER NOT NULL PRIMARY KEY,
-                name TEXT
+                de_name TEXT,
+                en_name TEXT,
+                es_name TEXT,
+                fr_name TEXT,
+                ja_name TEXT,
+                ko_name TEXT,
+                ru_name TEXT,
+                zh_name TEXT
             )
         ''')
     
@@ -59,17 +67,16 @@ class MetaGroupsProcessor:
         
         for metagroup_id, metagroup_data in self.metagroups_data.items():
             # 获取多语言名称
-            name_dict = metagroup_data.get('name', {})
-            name = name_dict.get(lang, name_dict.get('en', ''))
-            
-            metagroups_batch.append((metagroup_id, name))
+            names = wide_texts(metagroup_data.get('name'))
+            metagroups_batch.append((metagroup_id, *names_row(names)))
         
         # 批量插入数据
         if metagroups_batch:
             cursor.executemany('''
                 INSERT OR REPLACE INTO metaGroups (
-                    metagroup_id, name
-                ) VALUES (?, ?)
+                    metagroup_id,
+                    de_name, en_name, es_name, fr_name, ja_name, ko_name, ru_name, zh_name
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
             ''', metagroups_batch)
         
         # 统计信息
