@@ -184,7 +184,6 @@ def check_network_connectivity():
     test_urls = [
         "https://images.evetech.net/corporations/500001/logo",
         "https://binaries.eveonline.com/eveclient_TQ.json",
-        "https://evemaps.dotlan.net/svg/New_Eden.svg",
         "https://jambeeno.com/jo.txt",
         "https://esi.evetech.net/status"
     ]
