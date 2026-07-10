@@ -11,7 +11,6 @@ import sqlite3
 import time
 import re
 from pathlib import Path
-from utils.http_client import get
 from typing import List, Dict, Any, Set
 from scripts.jsonl_loader import load_jsonl
 
@@ -52,29 +51,14 @@ class UniverseProcessor:
         self.cache_dir.mkdir(exist_ok=True)
     
     def fetch_jove_systems(self) -> Set[str]:
-        """从网络获取Jove星系列表，使用缓存"""
-        jo_url = "https://jambeeno.com/jo.txt"
-        local_file = self.cache_dir / "jo.txt"
-        
-        # 检查缓存文件是否存在
+        """从项目内置的 Jove 星系列表读取（data/jo.txt）"""
+        local_file = self.project_root / "data" / "jo.txt"
+
         if not local_file.exists():
-            try:
-                print(f"[+] 从网络获取Jove星系列表: {jo_url}")
-                response = get(jo_url, timeout=30, verify=False)
-                
-                # 保存到缓存目录
-                with open(local_file, 'w', encoding='utf-8') as f:
-                    f.write(response.text)
-                print(f"[+] Jove星系列表已缓存到: {local_file}")
-                
-            except Exception as e:
-                print(f"[!] 从网络获取Jove星系列表失败: {e}")
-                return set()
-        else:
-            print(f"[+] 使用缓存的Jove星系列表: {local_file}")
-        
-        # 从缓存文件读取
-        jove_systems = set()
+            print(f"[!] Jove 星系列表不存在: {local_file}")
+            return set()
+
+        jove_systems: Set[str] = set()
         try:
             with open(local_file, 'r', encoding='utf-8') as f:
                 for line_num, line in enumerate(f, 1):
@@ -84,12 +68,10 @@ class UniverseProcessor:
                         if len(parts) >= 2:
                             system_name = parts[1].strip()
                             jove_systems.add(system_name)
-            
-            print(f"[+] 从缓存文件读取了 {len(jove_systems)} 个Jove星系")
-            
+            print(f"[+] 从 {local_file.name} 读取了 {len(jove_systems)} 个 Jove 星系")
         except Exception as e:
-            print(f"[!] 读取Jove星系缓存文件失败: {e}")
-        
+            print(f"[!] 读取 Jove 星系列表失败: {e}")
+
         return jove_systems
     
     def load_universe_data(self):
