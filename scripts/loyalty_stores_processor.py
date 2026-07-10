@@ -175,7 +175,7 @@ class LoyaltyStoresProcessor:
                 required_type_id INTEGER NOT NULL,
                 required_quantity INTEGER NOT NULL,
                 PRIMARY KEY (offer_id, required_type_id)
-            )
+            ) WITHOUT ROWID
         ''')
         
         # 2. 创建忠诚点商店商品输出表（每个offer_id对应的输出，以offer_id为索引）
@@ -196,7 +196,7 @@ class LoyaltyStoresProcessor:
                 corporation_id INTEGER NOT NULL,
                 offer_id INTEGER NOT NULL,
                 PRIMARY KEY (corporation_id, offer_id)
-            )
+            ) WITHOUT ROWID
         ''')
         
         # 创建索引

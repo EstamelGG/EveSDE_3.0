@@ -77,7 +77,7 @@ class TypeDogmaProcessor:
             value REAL,
             unitID INTEGER,
             PRIMARY KEY (type_id, attribute_id)
-        )
+        ) WITHOUT ROWID
         ''')
         
         # 创建typeEffects表
@@ -87,7 +87,7 @@ class TypeDogmaProcessor:
             effect_id INTEGER NOT NULL,
             is_default BOOLEAN,
             PRIMARY KEY (type_id, effect_id)
-        )
+        ) WITHOUT ROWID
         ''')
         
         # 创建planetResourceHarvest表
@@ -96,7 +96,7 @@ class TypeDogmaProcessor:
             typeid INTEGER NOT NULL,
             harvest_typeid INTEGER NOT NULL,
             PRIMARY KEY (typeid, harvest_typeid)
-        )
+        ) WITHOUT ROWID
         ''')
         
         print("[+] 创建typeAttributes、typeEffects和planetResourceHarvest表")

@@ -236,15 +236,49 @@ class TypesProcessor:
 
     def create_texts_table(self, cursor: sqlite3.Cursor):
         """创建全局文本池表，对 description 做跨行去重。
-        去重在 Python 层用 set 完成，不加 UNIQUE 约束以避免隐式索引膨胀。"""
+        id 从 0 开始，与 JSON 数组索引一致。
+        构建末尾会调用 export_texts_to_json 将 texts 拆分为独立 JSON 文件。"""
         cursor.execute('DROP TABLE IF EXISTS texts')
         cursor.execute('''
             CREATE TABLE texts (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                id INTEGER PRIMARY KEY,
                 content TEXT
-            )
+            ) WITHOUT ROWID
         ''')
         print("[+] 创建texts表（description 文本池）")
+
+    def export_texts_to_json(self, conn: sqlite3.Connection):
+        """将 texts 表导出为 zip 压缩的 JSON 文件并从数据库中移除。
+        iOS 端加载 .zip → 解压 texts.json → JSON 解码 → 通过 desc_id 直接索引。"""
+        import zipfile
+
+        cur = conn.cursor()
+        cur.execute("SELECT id, content FROM texts ORDER BY id")
+        all_rows = cur.fetchall()
+        if not all_rows:
+            return
+
+        # 导出为 JSON 数组（index = id，0-based）
+        texts_list = [content if content else "" for _, content in all_rows]
+        json_bytes = json.dumps(texts_list, ensure_ascii=False).encode('utf-8')
+
+        # 写入 zip 压缩文件（内部文件名为 texts.json）
+        zip_path = self.db_output_path.parent / "texts.zip"
+        with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED, compresslevel=9) as zf:
+            zf.writestr("texts.json", json_bytes)
+
+        zip_size = zip_path.stat().st_size
+        raw_size = len(json_bytes)
+
+        # 从数据库中删除 texts 表
+        cur.execute('DROP TABLE texts')
+        cur.execute('DROP TABLE IF EXISTS _zstd_dict')
+        conn.commit()
+
+        ratio = (1 - zip_size / raw_size) * 100
+        print(f"[+] texts 导出: {len(texts_list):,} 条 → {zip_path.name}")
+        print(f"    {raw_size/(1024*1024):.1f} MB → {zip_size/(1024*1024):.1f} MB (zip {ratio:.0f}%)")
+        print(f"    已从数据库移除 texts 表")
     
     def create_wormholes_table(self, cursor: sqlite3.Cursor):
         """
@@ -562,9 +596,11 @@ class TypesProcessor:
             for lang in LANGS:
                 if descs[lang]:
                     all_texts.add(descs[lang])
-        if all_texts:
-            cursor.executemany('INSERT INTO texts (content) VALUES (?)', [(t,) for t in all_texts])
-        text_to_id = {content: id_ for content, id_ in cursor.execute('SELECT content, id FROM texts')}
+        sorted_texts = sorted(all_texts)
+        if sorted_texts:
+            cursor.executemany('INSERT INTO texts (id, content) VALUES (?, ?)',
+                                [(i, t) for i, t in enumerate(sorted_texts)])
+        text_to_id = {content: i for i, content in enumerate(sorted_texts)}
         print(f"[+] 文本池去重: {len(text_to_id):,} 个唯一描述文本")
 
         # 如果是英文数据库，建立英文名称映射
@@ -679,9 +715,14 @@ class TypesProcessor:
             
             # 处理数据
             self.process_types_to_db(types_data, cursor, language)
-            
+
             # 提交更改
             conn.commit()
+
+            # 将 texts 表拆分为独立 JSON 文件
+            self.export_texts_to_json(conn)
+            conn.commit()
+
             print(f"[+] types数据处理完成，语言: {language}")
             return True
             

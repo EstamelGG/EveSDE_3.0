@@ -82,7 +82,7 @@ class TypeMaterialsProcessor:
             {names_ddl("output_material")},
             output_material_icon TEXT,
             PRIMARY KEY (typeid, output_material)
-        )
+        ) WITHOUT ROWID
         ''')
         print("[+] 创建typeMaterials表")
     
@@ -98,7 +98,7 @@ class TypeMaterialsProcessor:
             quantityMin INTEGER,
             quantityMax INTEGER,
             PRIMARY KEY (type_id, materialTypeID)
-        )
+        ) WITHOUT ROWID
         ''')
         print("[+] 创建typeRandomizedMaterials表")
     

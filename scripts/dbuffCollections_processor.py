@@ -91,7 +91,7 @@ class DbuffCollectionsProcessor:
             aggregateMode TEXT,
             modifier_info TEXT,
             PRIMARY KEY (dbuff_id, type_id)
-        )
+        ) WITHOUT ROWID
         ''')
         print("[+] 创建dbuffCollection表")
     

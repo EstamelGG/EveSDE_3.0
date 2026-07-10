@@ -50,7 +50,7 @@ class FacilityRigEffectsProcessor:
             category INTEGER NOT NULL,
             group_id INTEGER NOT NULL,
             PRIMARY KEY (id, category, group_id)
-        )
+        ) WITHOUT ROWID
         ''')
         print("[+] 创建facility_rig_effects表")
     

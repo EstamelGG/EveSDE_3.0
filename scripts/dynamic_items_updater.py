@@ -53,7 +53,7 @@ def create_dynamic_items_tables(cursor: sqlite3.Cursor):
             min_value REAL,
             max_value REAL,
             PRIMARY KEY (type_id, attribute_id)
-        )
+        ) WITHOUT ROWID
     ''')
 
     # 创建动态物品映射表
@@ -63,7 +63,7 @@ def create_dynamic_items_tables(cursor: sqlite3.Cursor):
             applicable_type INTEGER,
             resulting_type INTEGER,
             PRIMARY KEY (type_id, applicable_type)
-        )
+        ) WITHOUT ROWID
     ''')
     
     print("[+] 动态物品数据表创建完成")

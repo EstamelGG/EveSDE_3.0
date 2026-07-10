@@ -86,7 +86,7 @@ class TypeTraitsProcessor:
                 bonus_type TEXT,
                 {contents_ddl()},
                 PRIMARY KEY (typeid, skill, bonus_type, importance)
-            )
+            ) WITHOUT ROWID
         ''')
 
     def process_traits_to_db(self, cursor: sqlite3.Cursor):

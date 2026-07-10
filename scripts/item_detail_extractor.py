@@ -21,10 +21,22 @@ class ItemDetailExtractor:
         self.db_path = Path(db_path)
         self.output_dir = Path(output_dir)
         self.lang = lang
-        
+
         # 检查数据库文件是否存在
         if not self.db_path.exists():
             raise FileNotFoundError(f"数据库文件不存在: {self.db_path}")
+
+        # 加载 texts.zip（desc_id = 数组索引，0-based）
+        import zipfile
+        texts_zip = self.db_path.parent / "texts.zip"
+        if texts_zip.exists():
+            with zipfile.ZipFile(texts_zip, 'r') as zf:
+                with zf.open("texts.json") as f:
+                    self.texts = json.load(f)
+            print(f"[+] 加载 texts.zip: {len(self.texts):,} 条文本")
+        else:
+            self.texts = None
+            print(f"[!] texts.zip 不存在: {texts_zip}")
         
         # 清空并重新创建输出目录
         if self.output_dir.exists():
@@ -84,11 +96,20 @@ class ItemDetailExtractor:
         conn = sqlite3.connect(str(self.db_path))
         conn.row_factory = sqlite3.Row
         cursor = conn.cursor()
-        
+
+        # 注册文本查找函数（desc_id → 文本，从内存 texts.json 查找）
+        if self.texts:
+            _texts = self.texts
+            def _get_text(desc_id):
+                if desc_id is not None and 0 <= desc_id < len(_texts):
+                    return _texts[desc_id]
+                return None
+            conn.create_function("get_text", 1, _get_text)
+
         try:
             if self.lang == "zh":
                 name_sql = "t.zh_name"
-                desc_sql = "(SELECT content FROM texts WHERE id = t.zh_desc_id)"
+                desc_sql = "get_text(t.zh_desc_id)"
                 group_sql = "t.group_zh_name"
                 cat_sql = "t.category_zh_name"
                 attr_display_sql = "da.zh_name"
@@ -96,7 +117,7 @@ class ItemDetailExtractor:
                 unit_sql = "da.unit_zh_name"
             else:
                 name_sql = "t.en_name"
-                desc_sql = "(SELECT content FROM texts WHERE id = t.en_desc_id)"
+                desc_sql = "get_text(t.en_desc_id)"
                 group_sql = "t.group_en_name"
                 cat_sql = "t.category_en_name"
                 attr_display_sql = "da.en_name"

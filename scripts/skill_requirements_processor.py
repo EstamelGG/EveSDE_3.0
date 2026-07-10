@@ -36,7 +36,7 @@ class SkillRequirementsProcessor:
             required_skill_id INTEGER NOT NULL,
             required_skill_level INTEGER,
             PRIMARY KEY (typeid, required_skill_id)
-        )
+        ) WITHOUT ROWID
         ''')
         print("[+] 创建typeSkillRequirement表")
 
