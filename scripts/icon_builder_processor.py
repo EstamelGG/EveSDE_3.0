@@ -27,14 +27,13 @@ class IconBuilderProcessor:
         self.project_root = Path(__file__).parent.parent
         self.eve_icon_builder_path = self.project_root / "eve_icon_builder"
         self.icons_input_path = self.project_root / config["paths"]["icons_input"]
-        self.icons_zip_dir = self.project_root / "icons_zip"
-        
+
         # 确保目录存在
         self.icons_input_path.mkdir(parents=True, exist_ok=True)
-        self.icons_zip_dir.mkdir(exist_ok=True)
-        
-        # 输出文件路径
-        self.output_zip = self.icons_zip_dir / "icons_generated.zip"
+
+        # 输出文件路径（格式化命名的图标包）
+        self.output_zip = self.project_root / "output_icons" / "icons.zip"
+        self.output_zip.parent.mkdir(parents=True, exist_ok=True)
         
         # 统计信息
         self.stats = {
@@ -119,7 +118,7 @@ class IconBuilderProcessor:
             
             print("[+] 开始构造图标...")
             added, removed = build_icon_export(
-                output_mode='service_bundle',
+                output_mode='iec',
                 skip_output_if_fresh=False,
                 data=icon_build_data,
                 cache=cache,
@@ -197,12 +196,12 @@ class IconBuilderProcessor:
             print(f"    - PNG图标文件: {len(png_files)} 个")
             print(f"    - JSON元数据文件: {len(json_files)} 个")
             
-            # 查找service_metadata.json
-            metadata_files = list(self.icons_input_path.glob("**/service_metadata.json"))
-            if metadata_files:
-                print(f"[+] 找到service_metadata.json: {metadata_files[0]}")
+            # 查找icon_index.json
+            index_files = list(self.icons_input_path.glob("**/icon_index.json"))
+            if index_files:
+                print(f"[+] 找到icon_index.json: {index_files[0]}")
             else:
-                print("[!] 未找到service_metadata.json文件")
+                print("[!] 未找到icon_index.json文件")
             
             return True
             

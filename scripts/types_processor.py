@@ -71,31 +71,25 @@ class TypesProcessor:
         # 确保目录存在
         self.custom_icons_path.mkdir(parents=True, exist_ok=True)
 
-        # 加载图标元数据（type_id → icon 文件名映射）
+        # 加载图标索引（type_id → icon 文件名映射，已去重）
         self.icon_metadata = self._load_icon_metadata()
 
         # 初始化图标查找器（用于下载默认图标）
         self.icon_finder = icon_finder.IconFinder(config)
 
     def _load_icon_metadata(self) -> Dict[str, str]:
-        """从 icons_input/service_metadata.json 加载 type_id → icon 文件名映射"""
-        metadata_file = self.icons_input_path / "service_metadata.json"
-        if not metadata_file.exists():
-            print(f"[!] 图标元数据文件不存在: {metadata_file}")
+        """从 icons_input/icon_index.json 加载 type_id → icon 文件名映射"""
+        index_file = self.icons_input_path / "icon_index.json"
+        if not index_file.exists():
+            print(f"[!] 图标索引文件不存在: {index_file}")
             return {}
         try:
-            with open(metadata_file, 'r', encoding='utf-8') as f:
-                raw = json.load(f)
-            # 展平为 type_id(str) → icon 文件名
-            metadata = {}
-            for type_id, info in raw.items():
-                icon = info.get('icon') if isinstance(info, dict) else None
-                if icon:
-                    metadata[str(type_id)] = icon
-            print(f"[+] 加载图标元数据: {len(metadata):,} 个映射")
+            with open(index_file, 'r', encoding='utf-8') as f:
+                metadata = json.load(f)
+            print(f"[+] 加载图标索引: {len(metadata):,} 个映射")
             return metadata
         except Exception as e:
-            print(f"[!] 加载图标元数据失败: {e}")
+            print(f"[!] 加载图标索引失败: {e}")
             return {}
     
     def read_types_jsonl(self) -> Dict[str, Any]:
@@ -365,46 +359,35 @@ class TypesProcessor:
             return default_icon_filename
     
     def copy_and_rename_icon(self, type_id: int, category_id: int = None) -> Tuple[Optional[str], Optional[str]]:
-        """
-        从 icons_input 目录获取图标文件，复制到 custom_icons 目录。
-        图标文件名通过 service_metadata.json 映射获取（MD5 命名，天然去重）。
+        """从 icons_input 复制已去重、已命名的图标到 custom_icons 目录。
+
+        图标在 eve_icon_builder 构造阶段已完成去重和命名（type_{id}.png），
+        此处仅做透传复制，无需额外去重或重命名。
 
         参数:
         - type_id: 物品类型ID
-        - category_id: 物品分类ID，如果为91或2118则直接使用默认图标
+        - category_id: 物品分类ID，91/2118 无图标
         """
-        # 特定分类直接使用默认图标
         if category_id in [91, 2118]:
-            default_icon = self.download_default_icon()
-            return default_icon, None
+            return None, None
 
-        custom_icons_dir = self.custom_icons_path
-        custom_icons_dir.mkdir(parents=True, exist_ok=True)
-
-        # 从 metadata 查找图标文件名
         icon_filename = self.icon_metadata.get(str(type_id))
         if not icon_filename:
-            return self.download_default_icon(), None
+            return None, None
 
         input_path = self.icons_input_path / icon_filename
         if not input_path.exists():
-            return self.download_default_icon(), None
+            return None, None
 
-        # 源文件已是 MD5 命名，相同内容天然共享文件名，无需额外去重
-        output_path = custom_icons_dir / icon_filename
+        output_path = self.custom_icons_path / icon_filename
         try:
             if not output_path.exists():
                 shutil.copy2(input_path, output_path)
         except Exception as e:
             print(f"[!] 复制图标失败 type_id={type_id}: {e}")
-            return self.download_default_icon(), None
+            return None, None
 
         return icon_filename, None
-    
-    def print_icon_dedup_stats(self):
-        """打印图标统计信息"""
-        unique_icons = len(set(self.icon_metadata.values()))
-        print(f"[+] 图标统计: {len(self.icon_metadata):,} 个映射, {unique_icons:,} 个唯一图标文件")
     
     def get_attributes_value(self, cursor: sqlite3.Cursor, type_id: int, attribute_ids: List[int]) -> Tuple:
         """
@@ -672,9 +655,7 @@ class TypesProcessor:
             cursor.executemany(_types_insert_sql, batch_data)
         
         print(f"[+] 成功处理 {len(types_data)} 个types记录")
-        
-        # 打印图标去重统计信息
-        self.print_icon_dedup_stats()
+        print(f"[+] 图标索引: {len(self.icon_metadata):,} 个映射（已在构造阶段去重）")
     
     def process_types_for_language(self, language: str) -> bool:
         """

@@ -566,25 +566,29 @@ def _generate_output(output_mode: str, output_params: dict, icon_dir: Path,
         out_path.parent.mkdir(parents=True, exist_ok=True)
         if log_file:
             log_file.write(f"写入IEC归档到 {out_path}\n")
-        
+
+        # 去重：相同源文件(hash)的图标共享首个 type 的输出文件名
+        hash_to_output: Dict[str, str] = {}
+        icon_index: Dict[str, str] = {}
+
         with ZipFile(out_path, 'w', ZIP_STORED) as zf:
             for type_id, icons in service_metadata.items():
-                for icon_kind, filename in icons.items():
-                    if icon_kind == IconKind.ICON:
-                        output_name = f"{type_id}_64.png"
-                        if log_file:
-                            log_file.write(f"\t{filename} -> {output_name}\n")
-                        zf.write(icon_dir / filename, output_name)
-                    elif icon_kind == IconKind.BLUEPRINT_COPY:
-                        output_name = f"{type_id}_bpc_64.png"
-                        if log_file:
-                            log_file.write(f"\t{filename} -> {output_name}\n")
-                        zf.write(icon_dir / filename, output_name)
-                    elif icon_kind == IconKind.RENDER:
-                        output_name = f"{type_id}_512.jpg"
-                        if log_file:
-                            log_file.write(f"\t{filename} -> {output_name}\n")
-                        zf.write(icon_dir / filename, output_name)
+                if IconKind.ICON not in icons:
+                    continue
+                filename = icons[IconKind.ICON]
+                if filename not in hash_to_output:
+                    output_name = f"type_{type_id}.png"
+                    hash_to_output[filename] = output_name
+                    if log_file:
+                        log_file.write(f"\t{filename} -> {output_name}\n")
+                    zf.write(icon_dir / filename, output_name)
+                icon_index[str(type_id)] = hash_to_output[filename]
+
+            # 写入图标索引（type_id → 文件名映射）
+            zf.writestr('icon_index.json', json.dumps(icon_index, ensure_ascii=False))
+
+        if not silent_mode:
+            print(f"\t输出 {len(hash_to_output)} 个唯一图标，索引 {len(icon_index)} 个映射")
     
     elif output_mode == 'web_dir':
         out_dir = Path(output_params['out'])

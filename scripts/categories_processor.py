@@ -122,12 +122,13 @@ class CategoriesProcessor:
                     return self.download_default_category_icon()
             
             elif icon_source.startswith("type_"):
-                # 从output/icons目录复制
-                source_path = self.project_root / "output_icons" / icon_source
+                # 从 custom_icons 目录复制已生成的 type 图标
+                # icon_source 格式为 type_{id}_64.png，提取 type_id
+                type_id = icon_source.replace("type_", "").replace("_64.png", "")
+                source_path = self.custom_icons_path / f"type_{type_id}.png"
                 if source_path.exists():
                     import shutil
                     shutil.copy2(source_path, target_path)
-                    print(f"[+] 复制分类图标: {category_id} -> {target_filename}")
                     return target_filename
                 else:
                     print(f"[!] 找不到type图标文件: {source_path}")
