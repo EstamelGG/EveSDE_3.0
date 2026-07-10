@@ -2,9 +2,9 @@ name: Remove old artifacts
 
 on:
   workflow_dispatch:
-  schedule:
-    # Every day at 1am
-    - cron: '0 1 * * *'
+  # 定时清理已暂时禁用；需要时取消下方 schedule 注释
+  # schedule:
+  #   - cron: '0 1 * * *'
 
 jobs:
   remove-old-artifacts:
