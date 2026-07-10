@@ -88,7 +88,7 @@ class ItemDetailExtractor:
         try:
             if self.lang == "zh":
                 name_sql = "t.zh_name"
-                desc_sql = "t.zh_description"
+                desc_sql = "(SELECT content FROM texts WHERE id = t.zh_desc_id)"
                 group_sql = "t.group_zh_name"
                 cat_sql = "t.category_zh_name"
                 attr_display_sql = "da.zh_name"
@@ -96,7 +96,7 @@ class ItemDetailExtractor:
                 unit_sql = "da.unit_zh_name"
             else:
                 name_sql = "t.en_name"
-                desc_sql = "t.en_description"
+                desc_sql = "(SELECT content FROM texts WHERE id = t.en_desc_id)"
                 group_sql = "t.group_en_name"
                 cat_sql = "t.category_en_name"
                 attr_display_sql = "da.en_name"
