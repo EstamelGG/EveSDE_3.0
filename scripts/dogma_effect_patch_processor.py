@@ -110,7 +110,7 @@ class DogmaEffectPatchProcessor:
             print(f"[!] 修补文件不存在: {self.patch_file_path}")
             return False
         
-        return self.process_dogma_effect_patch_for_language(language)
+        return self.process_dogma_effect_patch_for_language('en')
 
 
 def main(config=None):

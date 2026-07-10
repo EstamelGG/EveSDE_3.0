@@ -23,14 +23,16 @@ class SkillRequirementsProcessor:
     def create_skill_requirements_table(self, cursor: sqlite3.Cursor):
         type_cols = name_cols_sql("type")
         category_cols = name_cols_sql("category")
+        type_cols_fmt = type_cols.replace(", ", ",\n            ")
+        category_cols_fmt = category_cols.replace(", ", ",\n            ")
         cursor.execute(f'''
         CREATE TABLE IF NOT EXISTS typeSkillRequirement (
             typeid INTEGER NOT NULL,
             typeicon TEXT,
             published BOOLEAN,
             categoryID INTEGER,
-            {type_cols.replace(", ", ",\n            ")},
-            {category_cols.replace(", ", ",\n            ")},
+            {type_cols_fmt},
+            {category_cols_fmt},
             required_skill_id INTEGER NOT NULL,
             required_skill_level INTEGER,
             PRIMARY KEY (typeid, required_skill_id)

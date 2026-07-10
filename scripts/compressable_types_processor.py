@@ -128,7 +128,7 @@ class CompressableTypesProcessor:
             print("[x] 未能读取到可压缩物品数据，处理终止")
             return False
         
-        return self.process_compressable_data_for_language(compressible_data, language)
+        return self.process_compressable_data_for_language(compressible_data, 'en')
 
 
 def main(config=None):

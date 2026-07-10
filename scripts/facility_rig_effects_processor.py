@@ -228,7 +228,7 @@ class FacilityRigEffectsProcessor:
         """为所有语言处理设施装配效果数据"""
         print("[+] 开始处理设施装配效果数据")
         
-        return self.process_facility_rig_effects_for_language(language)
+        return self.process_facility_rig_effects_for_language('en')
 
 
 def main(config=None):

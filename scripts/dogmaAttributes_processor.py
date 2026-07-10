@@ -297,7 +297,7 @@ class DogmaAttributesProcessor:
         """
         print("[+] 开始处理dogmaAttributes数据")
         
-        return self.process_dogma_attributes_for_language(language)
+        return self.process_dogma_attributes_for_language('en')
 
 
 def main(config=None):

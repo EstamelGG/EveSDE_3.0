@@ -85,19 +85,27 @@ class IconBuilderProcessor:
             sys.path.insert(0, str(self.eve_icon_builder_path))
             
             # 导入必要的模块
-            from cache import CacheDownloader, CacheError
+            from cache import CacheError
             from sde import update_sde, read_types, read_group_categories, read_icons, read_graphics, read_skin_materials
             from icons import IconBuildData, build_icon_export, IconError
             
             print("[+] 初始化缓存...")
-            cache = CacheDownloader(
-                self.eve_icon_builder_path / "cache",
-                "EVE-SDE-Builder/1.0",
-                use_macos_build=False
-            )
+            cache = self.config.get("eve_client")
+            if cache is None:
+                from utils.eve_client import EveClient
+                cache = EveClient.from_tq(self.project_root / "client_cache")
             
             print("[+] 加载SDE数据...")
-            sde = update_sde(silent_mode=False)
+            build_number = self.config.get("sde_build_number")
+            sde_zip_dir = self.project_root / self.config["paths"]["sde_zip"]
+            source_zip = None
+            if build_number:
+                source_zip = sde_zip_dir / f"eve-online-static-data-{build_number}-jsonl.zip"
+            sde = update_sde(
+                silent_mode=False,
+                build_number=build_number,
+                source_zip=source_zip,
+            )
             
             icon_build_data = IconBuildData(
                 types=read_types(sde, silent_mode=False),

@@ -51,20 +51,32 @@ class RetryableHTTPClient:
         Raises:
             requests.RequestException: 所有重试都失败后抛出异常
         """
-        # 设置默认超时时间
         if 'timeout' not in kwargs:
             kwargs['timeout'] = self.default_timeout
         
-        # 设置默认verify
         if 'verify' not in kwargs:
             kwargs['verify'] = self.verify
-        
+
+        return_stream = kwargs.pop('stream', False)
         last_exception = None
         
         for attempt in range(self.max_retries):
             try:
+                if return_stream:
+                    response = self.session.get(url, **kwargs)
+                    response.raise_for_status()
+                    return response
+
+                # 非流式调用：内部仍用 stream 读取，避免 LibreSSL 下大文件假死
+                kwargs['stream'] = True
                 response = self.session.get(url, **kwargs)
                 response.raise_for_status()
+                chunks = []
+                for chunk in response.iter_content(chunk_size=65536):
+                    if chunk:
+                        chunks.append(chunk)
+                response._content = b''.join(chunks)
+                response.close()
                 return response
             except requests.RequestException as e:
                 last_exception = e
@@ -77,7 +89,6 @@ class RetryableHTTPClient:
                     print(f"[x] 请求失败，已达到最大重试次数 ({self.max_retries}): {url}")
                     print(f"[x] 最后错误: {str(e)}")
         
-        # 所有重试都失败，抛出异常
         raise last_exception
     
     def head(self, url: str, **kwargs) -> requests.Response:

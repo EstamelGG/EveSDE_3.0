@@ -10,34 +10,27 @@ import re
 import pickle
 import json
 import shutil
-import platform
 import hashlib
 from pathlib import Path
 from collections import defaultdict, Counter
 from typing import Dict, Any, List, Optional, Tuple
-from utils.http_client import create_session
+from utils.eve_client import EveClient, get_eve_client
 
 class LocalizationExtractor:
-    def __init__(self, project_root: Path):
+    def __init__(self, project_root: Path, eve_client: Optional[EveClient] = None):
         self.project_root = project_root
         self.localization_dir = project_root / "localization"
         self.raw_dir = self.localization_dir / "raw"
         self.extra_dir = self.localization_dir / "extra"
         self.output_dir = self.localization_dir / "output"
-
-        # 网络下载相关
-        self.session = create_session(verify=False)  # 禁用SSL验证
-        self.build_info = None
-        self.resfile_index_map = {}
+        self.eve_client = eve_client or get_eve_client(project_root / "client_cache")
         
         # 创建必要的目录
         self._create_directories()
     
     def _create_directories(self):
-        """创建必要的目录结构"""
         for directory in [self.raw_dir, self.extra_dir, self.output_dir]:
             directory.mkdir(parents=True, exist_ok=True)
-            print(f"[+] 创建目录: {directory}")
     
     def _calculate_file_hash(self, file_path: Path) -> Optional[str]:
         """计算文件的MD5哈希值"""
@@ -52,223 +45,62 @@ class LocalizationExtractor:
             return None
     
     
-    def _get_build_info(self) -> Optional[Dict]:
-        """获取EVE客户端的最新构建信息"""
-        if self.build_info:
-            return self.build_info
-        
-        try:
-            print("[+] 获取EVE客户端构建信息...")
-            response = self.session.get("https://binaries.eveonline.com/eveclient_TQ.json")
-            self.build_info = response.json()
-            print(f"[+] 当前构建版本: {self.build_info.get('build')}")
-            return self.build_info
-        except Exception as e:
-            print(f"[x] 获取构建信息失败: {e}")
-            return None
-    
-    def _get_resfile_index_content(self) -> Optional[str]:
-        """从在线服务器获取resfileindex.txt内容"""
-        build_info = self._get_build_info()
-        if not build_info:
-            return None
-        
-        build_number = build_info.get('build')
-        if not build_number:
-            return None
-        
-        try:
-            print("[+] 从在线服务器获取resfileindex...")
-            installer_url = f"https://binaries.eveonline.com/eveonline_{build_number}.txt"
-            response = self.session.get(installer_url)
-            
-            # 解析installer文件找到resfileindex
-            resfileindex_path = None
-            for line in response.text.split('\n'):
-                if not line.strip():
-                    continue
-                
-                parts = line.split(',')
-                if len(parts) >= 2 and parts[0] == "app:/resfileindex.txt":
-                    resfileindex_path = parts[1]
-                    break
-            
-            if not resfileindex_path:
-                print("[x] 在installer文件中未找到resfileindex路径")
-                return None
-            
-            # 下载resfileindex文件内容
-            resfile_url = f"https://binaries.eveonline.com/{resfileindex_path}"
-            response = self.session.get(resfile_url)
-            
-            print("[+] resfileindex获取完成")
-            return response.text
-            
-        except Exception as e:
-            print(f"[x] 获取resfileindex失败: {e}")
-            return None
-    
-    def get_resfileindex_path(self) -> Optional[str]:
-        """
-        从在线服务器获取EVE Online的resfileindex.txt文件
-        """
-        # 从在线服务器获取
-        resfile_content = self._get_resfile_index_content()
-        if resfile_content:
-            # 将在线内容保存到临时文件
-            temp_file = self.raw_dir / "resfileindex.txt"
-            try:
-                with open(temp_file, 'w', encoding='utf-8') as f:
-                    f.write(resfile_content)
-                print(f"[+] 在线resfileindex已保存到: {temp_file}")
-                return str(temp_file)
-            except Exception as e:
-                print(f"[x] 保存在线resfileindex失败: {e}")
-                return None
-        else:
-            print("[x] 无法从在线服务器获取resfileindex")
-            return None
-    
-    def _download_pickle_file(self, lang_code: str, file_path: str) -> Optional[bytes]:
-        """从网络下载pickle文件内容"""
-        try:
-            # 从EVE资源服务器获取
-            download_url = f"https://resources.eveonline.com/{file_path}"
-            print(f"[+] 开始下载 {lang_code}...")
-            print(f"[+] 下载URL: {download_url}")
-            
-            response = self.session.get(download_url, timeout=60)
-            
-            print(f"[+] {lang_code} 下载完成")
-            return response.content
-            
-        except Exception as e:
-            print(f"[x] 下载本地化文件失败 {lang_code}: {e}")
-            return None
-    
     def get_localization_pickles(self) -> Dict[str, str]:
         """
-        从resfileindex.txt文件中搜索本地化pickle文件的信息
-        仅从网络下载，不依赖本地客户端文件
-        支持文件哈希验证
+        从 resfileindex 搜索本地化 pickle 并下载到 raw 目录
         """
-        resfileindex_path = self.get_resfileindex_path()
-        if not resfileindex_path:
-            print("[x] 无法获取resfileindex.txt文件路径")
+        pattern = re.compile(r"^res:/localizationfsd/localization_fsd_([\w-]+)\.pickle$", re.I)
+        matches = []
+        for res_path, entry in self.eve_client.grep(r"^res:/localizationfsd/localization_fsd_"):
+            m = pattern.match(res_path)
+            if not m:
+                continue
+            lang_code = m.group(1)
+            if lang_code.lower() == "main":
+                continue
+            if lang_code == "en-us":
+                lang_code = "en"
+            matches.append((lang_code, res_path, entry.hash))
+
+        if not matches:
+            print("[!] 未找到有效的本地化pickle文件")
             return {}
-        
-        # 正则表达式模式，匹配localization_fsd_[\w-]+.pickle格式的文件，包含哈希值
-        # resfileindex格式通常是: 文件路径,哈希值,大小,其他信息
-        pattern = r'res:/localizationfsd/localization_fsd_([\w-]+)\.pickle,([^,]+),([^,]+)'
-        
+
+        print(f"[+] 本地化 pickle: {len(matches)} 个语言包")
+        res_paths = [res_path for _, res_path, _ in matches]
+        self.eve_client.ensure_resources(res_paths, label="本地化")
+
         result = {}
-        
-        try:
-            with open(resfileindex_path, 'r', encoding='utf-8') as f:
-                content = f.read()
-            
-            matches = re.findall(pattern, content)
-            
-            # 过滤掉"main"语言并标准化语言代码
-            valid_matches = []
-            for lang_code, file_path, file_hash in matches:
-                if lang_code.lower() != "main":
-                    if lang_code == "en-us":
-                        lang_code = "en"
-                    valid_matches.append((lang_code, file_path, file_hash))
-            
-            if not valid_matches:
-                print("[!] 未找到有效的本地化pickle文件")
-                return {}
-            
-            print(f"[+] 找到 {len(valid_matches)} 个本地化文件，检查下载状态和文件完整性...")
-            
-            # 统计变量
-            downloaded_count = 0
-            skipped_count = 0
-            re_downloaded_count = 0
-            
-            # 检查并下载缺失的文件
-            for lang_code, file_path, expected_hash in valid_matches:
-                target_file = self.raw_dir / f"localization_fsd_{lang_code}.pickle"
-                
-                # 检查文件是否已存在且哈希值正确
-                if target_file.exists():
-                    # 计算现有文件的哈希值
-                    current_hash = self._calculate_file_hash(target_file)
-                    if current_hash and current_hash.lower() == expected_hash.lower():
-                        print(f"[+] 文件已存在且哈希值正确，跳过下载: {target_file}")
-                        result[lang_code] = str(target_file)
-                        skipped_count += 1
-                    else:
-                        print(f"[!] 文件存在但哈希值不匹配，需要重新下载: {target_file}")
-                        print(f"    期望哈希: {expected_hash}")
-                        print(f"    实际哈希: {current_hash}")
-                        # 删除旧文件并重新下载
-                        target_file.unlink()
-                        # 继续到下载逻辑
-                        pickle_content = self._download_pickle_file(lang_code, file_path)
-                        if pickle_content:
-                            try:
-                                with open(target_file, 'wb') as f:
-                                    f.write(pickle_content)
-                                result[lang_code] = str(target_file)
-                                print(f"[+] 重新下载的pickle文件已保存: {target_file}")
-                                re_downloaded_count += 1
-                            except Exception as e:
-                                print(f"[x] 保存重新下载的pickle文件失败: {e}")
-                        else:
-                            print(f"[!] 无法重新下载本地化pickle文件: {lang_code}")
-                else:
-                    # 从网络下载pickle文件
-                    print(f"[+] 文件不存在，开始下载: {lang_code}")
-                    pickle_content = self._download_pickle_file(lang_code, file_path)
-                    if pickle_content:
-                        # 保存到raw目录
-                        try:
-                            with open(target_file, 'wb') as f:
-                                f.write(pickle_content)
-                            result[lang_code] = str(target_file)
-                            print(f"[+] 网络下载的pickle文件已保存: {target_file}")
-                            downloaded_count += 1
-                        except Exception as e:
-                            print(f"[x] 保存网络下载的pickle文件失败: {e}")
-                    else:
-                        print(f"[!] 无法下载本地化pickle文件: {lang_code}")
-            
-            # 显示下载统计
-            print(f"[+] 下载统计: 新下载 {downloaded_count} 个文件，重新下载 {re_downloaded_count} 个文件，跳过 {skipped_count} 个正确文件")
-            
-            return result
-        
-        except Exception as e:
-            print(f"[x] 处理resfileindex.txt文件时出错: {e}")
-            return {}
+        downloaded_count = skipped_count = re_downloaded_count = 0
+
+        for lang_code, res_path, expected_hash in matches:
+            target_file = self.raw_dir / f"localization_fsd_{lang_code}.pickle"
+            entry = self.eve_client.lookup(res_path)
+            if not entry:
+                continue
+            cached = self.eve_client.cache_dir / entry.path
+            if not cached.exists():
+                continue
+
+            if target_file.exists():
+                current_hash = self._calculate_file_hash(target_file)
+                if current_hash and current_hash.lower() == expected_hash.lower():
+                    result[lang_code] = str(target_file)
+                    skipped_count += 1
+                    continue
+                target_file.unlink(missing_ok=True)
+                re_downloaded_count += 1
+            else:
+                downloaded_count += 1
+            shutil.copy2(cached, target_file)
+            result[lang_code] = str(target_file)
+
+        if downloaded_count or re_downloaded_count or skipped_count:
+            print(f"[+] 本地化: 新 {downloaded_count} / 重下 {re_downloaded_count} / 跳过 {skipped_count}")
+        return result
     
     def copy_localization_pickles_to_raw(self) -> Dict[str, str]:
-        """
-        从网络下载本地化pickle文件到项目的raw目录
-        仅使用网络下载，不依赖本地客户端文件
-        检查现有文件完整性，通过哈希验证确保文件正确性
-        """
-        # 创建raw目录（如果不存在）
-        self.raw_dir.mkdir(parents=True, exist_ok=True)
-        print(f"[+] 确保raw目录存在: {self.raw_dir}")
-        
-        # 获取本地化pickle文件（仅网络下载）
-        localization_pickles = self.get_localization_pickles()
-        if not localization_pickles:
-            print("[x] 未找到本地化pickle文件")
-            return {}
-        
-        result = {}
-        
-        for lang_code, source_path in localization_pickles.items():
-            # 所有文件都是从网络下载到raw目录的，直接使用
-            result[lang_code] = source_path
-            print(f"[+] 已下载本地化pickle文件: {source_path}")
-        
-        return result
+        return self.get_localization_pickles()
     
     def unpickle_localization_files(self) -> Dict[str, Dict[str, Any]]:
         """
@@ -416,65 +248,38 @@ class LocalizationExtractor:
         return en_to_multi_lang
     
     def save_json_file(self, data: Any, file_path: Path) -> bool:
-        """
-        保存JSON文件
-        """
         try:
             with open(file_path, 'w', encoding='utf-8') as f:
                 json.dump(data, f, ensure_ascii=False, indent=2)
-            print(f"[+] 成功保存到 {file_path}")
             return True
         except Exception as e:
-            print(f"[x] 保存到 {file_path} 时出错: {e}")
+            print(f"[x] 保存失败 {file_path}: {e}")
             return False
-    
+
     def extract_all(self) -> bool:
-        """
-        执行完整的本地化数据提取流程
-        """
-        print("[+] 开始本地化数据提取流程...")
-        
-        # 步骤1: 复制pickle文件到raw目录
-        print("\n[+] 步骤1: 复制本地化pickle文件...")
         copied_files = self.copy_localization_pickles_to_raw()
         if not copied_files:
-            print("[x] 无法复制pickle文件，请检查EVE客户端是否已安装")
+            print("[x] 未找到本地化 pickle 文件")
             return False
-        
-        # 步骤2: 解包pickle文件
-        print("\n[+] 步骤2: 解包本地化pickle文件...")
+
         unpickled_data = self.unpickle_localization_files()
         if not unpickled_data:
-            print("[x] 解包pickle文件失败")
+            print("[x] 解包 pickle 失败")
             return False
-        
-        # 步骤3: 创建合并后的本地化数据
-        print("\n[+] 步骤3: 创建合并后的本地化数据...")
+
         combined_data = self.create_combined_localization(unpickled_data)
-        
-        # 保存合并后的JSON文件
-        combined_file = self.output_dir / "combined_localization.json"
-        self.save_json_file(combined_data, combined_file)
-        
-        # 创建英文到多种语言的映射
-        print("\n[+] 步骤4: 创建英文到多种语言的映射...")
+        self.save_json_file(combined_data, self.output_dir / "combined_localization.json")
+
         en_multi_lang_mapping = self.create_en_multi_lang_mapping(combined_data)
-        
-        # 保存英文到多种语言的映射
-        en_multi_lang_file = self.output_dir / "en_multi_lang_mapping.json"
-        self.save_json_file(en_multi_lang_mapping, en_multi_lang_file)
-        
-        print(f"\n[+] 本地化数据提取完成！")
-        print(f"    - 处理了 {len(combined_data)} 个条目")
-        print(f"    - 支持 {len(unpickled_data)} 种语言")
-        print(f"    - 生成了 {len(en_multi_lang_mapping)} 个英文映射")
-        
+        self.save_json_file(en_multi_lang_mapping, self.output_dir / "en_multi_lang_mapping.json")
+
+        print(f"[+] 本地化完成: {len(combined_data)} 条目, {len(unpickled_data)} 语言")
         return True
 
-def main():
+def main(eve_client=None):
     """主函数"""
     project_root = Path(__file__).parent.parent
-    extractor = LocalizationExtractor(project_root)
+    extractor = LocalizationExtractor(project_root, eve_client=eve_client)
     
     success = extractor.extract_all()
     

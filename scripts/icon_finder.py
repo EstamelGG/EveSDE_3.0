@@ -8,13 +8,10 @@
 
 import json
 import os
-import platform
-import tempfile
-import shutil
 import hashlib
 from pathlib import Path
-from utils.http_client import create_session
-from typing import Dict, Optional, Tuple
+from typing import Dict, List, Optional, Tuple
+from utils.eve_client import EveClient, get_eve_client
 import scripts.jsonl_loader as jsonl_loader
 
 
@@ -26,47 +23,18 @@ class IconFinder:
         self.config = config or {}
         self.project_root = Path(__file__).parent.parent
         
-        # 缓存数据
-        self.icon_id_to_path_map = {}  # iconID -> iconFile路径
-        self.resfile_index_map = {}    # 资源路径 -> (本地文件路径, 哈希值, 文件大小)
-        
-        # 本地缓存哈希表：MD5 -> (文件名, 文件路径)
-        self.local_cache_map = {}      # MD5哈希值 -> (文件名, 完整路径)
+        self.icon_id_to_path_map = {}
+        self.resfile_index_map = {}
+        self.local_cache_map = {}
         self.cache_file = self.project_root / "icon_cache.json"
         
-        # 在线服务器配置
-        self.session = create_session(verify=False)  # 禁用SSL验证
-        self.build_info = None
+        self.eve_client: EveClient = self.config.get("eve_client") or get_eve_client(
+            self.project_root / "client_cache"
+        )
         
-        # 平台相关路径（保留作为备用）
-        self.eve_client_paths = self._get_eve_client_paths()
-        
-        # 加载数据
         self._load_icon_mappings()
         self._load_resfile_index()
         self._load_local_cache()
-    
-    def _get_eve_client_paths(self) -> Dict[str, Optional[str]]:
-        """获取EVE客户端路径（根据操作系统）"""
-        system = platform.system().lower()
-        
-        if system == "darwin":  # macOS
-            base_path = Path.home() / "Library/Application Support/EVE Online/SharedCache/"
-            return {
-                "resfileindex": str(base_path / "tq/EVE.app/Contents/Resources/build/resfileindex.txt"),
-                "resfiles": str(base_path / "ResFiles")
-            }
-        elif system == "windows":
-            # Windows路径暂时留空，后续实现
-            return {
-                "resfileindex": None,
-                "resfiles": None
-            }
-        else:
-            return {
-                "resfileindex": None, 
-                "resfiles": None
-            }
     
     def _load_icon_mappings(self):
         """加载icons.jsonl，建立iconID到文件路径的映射"""
@@ -93,110 +61,9 @@ class IconFinder:
         except Exception as e:
             print(f"[x] 加载图标映射时出错: {e}")
     
-    def _get_build_info(self) -> Optional[Dict]:
-        """获取EVE客户端的最新构建信息"""
-        if self.build_info:
-            return self.build_info
-        
-        try:
-            print("[+] 获取EVE客户端构建信息...")
-            response = self.session.get("https://binaries.eveonline.com/eveclient_TQ.json")
-            self.build_info = response.json()
-            print(f"[+] 当前构建版本: {self.build_info.get('build')}")
-            return self.build_info
-        except Exception as e:
-            print(f"[x] 获取构建信息失败: {e}")
-            return None
-    
-    def _get_resfile_index_content(self) -> Optional[str]:
-        """从在线服务器获取resfileindex.txt内容"""
-        build_info = self._get_build_info()
-        if not build_info:
-            return None
-        
-        build_number = build_info.get('build')
-        if not build_number:
-            return None
-        
-        try:
-            print("[+] 从在线服务器获取resfileindex...")
-            installer_url = f"https://binaries.eveonline.com/eveonline_{build_number}.txt"
-            response = self.session.get(installer_url)
-            
-            # 解析installer文件找到resfileindex
-            resfileindex_path = None
-            for line in response.text.split('\n'):
-                if not line.strip():
-                    continue
-                
-                parts = line.split(',')
-                if len(parts) >= 2 and parts[0] == "app:/resfileindex.txt":
-                    resfileindex_path = parts[1]
-                    break
-            
-            if not resfileindex_path:
-                print("[x] 在installer文件中未找到resfileindex路径")
-                return None
-            
-            # 下载resfileindex文件内容
-            resfile_url = f"https://binaries.eveonline.com/{resfileindex_path}"
-            response = self.session.get(resfile_url)
-            
-            print("[+] resfileindex获取完成")
-            return response.text
-            
-        except Exception as e:
-            print(f"[x] 获取resfileindex失败: {e}")
-            return None
-    
     def _load_resfile_index(self):
-        """加载EVE客户端的resfileindex.txt文件"""
-        # 首先尝试从在线服务器获取
-        resfile_content = self._get_resfile_index_content()
-        
-        # 如果在线获取失败，尝试本地客户端路径
-        if not resfile_content:
-            resfileindex_path = self.eve_client_paths.get("resfileindex")
-            
-            if not resfileindex_path or not os.path.exists(resfileindex_path):
-                print("[-] 无法获取resfileindex文件（在线和本地都失败）")
-                return
-            
-            try:
-                with open(resfileindex_path, 'r', encoding='utf-8') as f:
-                    resfile_content = f.read()
-            except Exception as e:
-                print(f"[x] 读取本地resfileindex失败: {e}")
-                return
-        
-        print("[+] 解析资源索引...")
-        
-        try:
-            for line_num, line in enumerate(resfile_content.split('\n'), 1):
-                line = line.strip()
-                if not line:
-                    continue
-                
-                parts = line.split(',')
-                if len(parts) >= 3:
-                    resource_path = parts[0].lower()  # 资源路径，转小写
-                    file_path = parts[1]              # 本地文件路径
-                    file_hash = parts[2]              # 文件哈希值
-                    file_size = parts[3] if len(parts) > 3 else "0"  # 文件大小
-                    self.resfile_index_map[resource_path] = (file_path, file_hash, file_size)
-                elif len(parts) >= 2:
-                    # 兼容旧格式（没有哈希值）
-                    resource_path = parts[0].lower()
-                    file_path = parts[1]
-                    self.resfile_index_map[resource_path] = (file_path, "", "0")
-                else:
-                    if line_num <= 10:  # 只显示前10行的警告
-                        print(f"[!] 第{line_num}行格式不正确: {line}")
-            
-            print(f"[+] 加载了 {len(self.resfile_index_map)} 个资源映射")
-            
-        except Exception as e:
-            print(f"[x] 解析资源索引时出错: {e}")
+        for res_path, entry in self.eve_client.res_index.items():
+            self.resfile_index_map[res_path] = (entry.path, entry.hash, str(entry.size))
     
     def _load_local_cache(self):
         """加载本地缓存哈希表"""
@@ -294,25 +161,24 @@ class IconFinder:
             print(f"[!] 计算文件哈希失败: {e}")
             return False
     
+    def prefetch_resources(self, resource_paths: List[str], label: str = "资源") -> None:
+        unique = list(dict.fromkeys(resource_paths))
+        self.eve_client.ensure_resources(unique, label=label)
+
+    def prefetch_icon_ids(self, icon_ids: list, label: str = "图标") -> None:
+        paths = [
+            self.icon_id_to_path_map[icon_id]
+            for icon_id in icon_ids
+            if icon_id in self.icon_id_to_path_map
+        ]
+        self.prefetch_resources(paths, label=label)
+
     def _get_icon_file_content(self, resource_path: str) -> Optional[bytes]:
-        """从在线服务器获取图标文件内容"""
         if resource_path not in self.resfile_index_map:
             return None
-        
-        remote_file_path, _, _ = self.resfile_index_map[resource_path]
-        
         try:
-            # 从EVE资源服务器获取
-            download_url = f"https://resources.eveonline.com/{remote_file_path}"
-            print(f"[+] 获取图标: {download_url}")
-            
-            response = self.session.get(download_url)
-            
-            print(f"[+] 图标获取完成: {resource_path}")
-            return response.content
-            
-        except Exception as e:
-            print(f"[x] 获取图标失败 {resource_path}: {e}")
+            return self.eve_client.fetch(resource_path)
+        except Exception:
             return None
     
     def get_icon_file_content(self, icon_id: int) -> Optional[bytes]:
@@ -341,48 +207,24 @@ class IconFinder:
                     cached_filename, cached_path = cached_info
                     if os.path.exists(cached_path):
                         try:
-                            with open(cached_path, 'rb') as f:
-                                print(f"[+] 使用缓存图标文件: {icon_id} -> {cached_filename}")
-                                return f.read()
-                        except Exception as e:
-                            print(f"[!] 读取缓存图标文件失败 {cached_path}: {e}")
-                    else:
-                        print(f"[!] 缓存文件不存在，从缓存中移除: {cached_path}")
-                        # 从缓存中移除不存在的文件
-                        del self.local_cache_map[expected_hash.lower()]
-        
-        # 其次检查本地客户端文件（如果可用）
+                            return Path(cached_path).read_bytes()
+                        except Exception:
+                            del self.local_cache_map[expected_hash.lower()]
+
         if resource_path in self.resfile_index_map:
             remote_file_path, expected_hash, _ = self.resfile_index_map[resource_path]
-            resfiles_dir = self.eve_client_paths.get("resfiles")
-            
-            if resfiles_dir:
-                local_full_path = os.path.join(resfiles_dir, remote_file_path)
-                
-                # 检查本地文件完整性
-                if self._check_local_file_integrity(resource_path, local_full_path):
-                    try:
-                        with open(local_full_path, 'rb') as f:
-                            content = f.read()
-                            print(f"[+] 使用本地客户端图标文件: {icon_id}")
-                            
-                            # 将文件添加到缓存
-                            if expected_hash:
-                                filename = f"icon_{icon_id}.png"
-                                self._add_to_cache(expected_hash, filename, local_full_path)
-                            
-                            return content
-                    except Exception as e:
-                        print(f"[!] 读取本地图标文件失败 {local_full_path}: {e}")
-                else:
-                    print(f"[!] 本地图标文件损坏或不完整: {local_full_path}")
-        
-        # 最后从在线服务器获取
+            cached_path = self.eve_client.cache_dir / remote_file_path
+            if cached_path.exists() and self._check_local_file_integrity(resource_path, str(cached_path)):
+                try:
+                    content = cached_path.read_bytes()
+                    if expected_hash:
+                        self._add_to_cache(expected_hash, f"icon_{icon_id}.png", str(cached_path))
+                    return content
+                except Exception:
+                    pass
+
         online_content = self._get_icon_file_content(resource_path)
         if online_content:
-            print(f"[+] 从在线获取图标: {icon_id}")
-            
-            # 将下载的内容添加到缓存
             if resource_path in self.resfile_index_map:
                 _, expected_hash, _ = self.resfile_index_map[resource_path]
                 if expected_hash:
@@ -396,34 +238,15 @@ class IconFinder:
         return None
     
     def find_icon_file_path(self, icon_id: int) -> Optional[str]:
-        """
-        根据iconID查找本地图标文件路径（仅用于本地客户端文件）
-        
-        Args:
-            icon_id: 图标ID
-            
-        Returns:
-            本地图标文件的完整路径，如果未找到则返回None
-        """
+        """根据 iconID 查找已缓存的图标文件路径"""
         if not icon_id or icon_id not in self.icon_id_to_path_map:
             return None
-        
-        # 获取资源路径
         resource_path = self.icon_id_to_path_map[icon_id]
-        
-        # 仅检查本地客户端文件
         if resource_path not in self.resfile_index_map:
             return None
-        
         remote_file_path, _, _ = self.resfile_index_map[resource_path]
-        resfiles_dir = self.eve_client_paths.get("resfiles")
-        
-        if resfiles_dir:
-            full_path = os.path.join(resfiles_dir, remote_file_path)
-            if os.path.exists(full_path):
-                return full_path
-        
-        return None
+        cached_path = self.eve_client.cache_dir / remote_file_path
+        return str(cached_path) if cached_path.exists() else None
     
     def get_icon_info(self, icon_id: int) -> Dict[str, Optional[str]]:
         """
@@ -543,21 +366,18 @@ class IconFinder:
                             try:
                                 import shutil
                                 shutil.copy2(cached_path, target_path)
-                                print(f"[+] 从缓存复制图标: {icon_id} -> {target_filename}")
                                 return True
-                            except Exception as e:
-                                print(f"[!] 从缓存复制失败: {e}")
+                            except Exception:
+                                pass
         
         # 获取图标内容（在线或本地）
         content = self.get_icon_file_content(icon_id)
         if not content:
-            print(f"[-] 无法获取图标内容: {icon_id}")
             return False
-        
+
         try:
             with open(target_path, 'wb') as f:
                 f.write(content)
-            print(f"[+] 保存图标: {icon_id} -> {target_filename}")
             
             # 将新保存的文件添加到缓存
             if icon_id in self.icon_id_to_path_map:
@@ -573,31 +393,12 @@ class IconFinder:
             return False
     
     def get_icon_batch(self, icon_ids: list) -> Dict[int, bool]:
-        """
-        批量获取图标文件内容
-        
-        Args:
-            icon_ids: 图标ID列表
-            
-        Returns:
-            iconID -> 是否获取成功的字典
-        """
-        print(f"[+] 开始批量获取 {len(icon_ids)} 个图标...")
-        
+        self.prefetch_icon_ids(icon_ids)
         results = {}
-        success_count = 0
-        
-        for i, icon_id in enumerate(icon_ids, 1):
-            print(f"[+] 处理图标 {i}/{len(icon_ids)}: {icon_id}")
-            
-            content = self.get_icon_file_content(icon_id)
-            if content:
-                results[icon_id] = True
-                success_count += 1
-            else:
-                results[icon_id] = False
-        
-        print(f"[+] 批量获取完成: 成功 {success_count}/{len(icon_ids)} 个")
+        for icon_id in icon_ids:
+            results[icon_id] = self.get_icon_file_content(icon_id) is not None
+        ok = sum(results.values())
+        print(f"[+] 图标批量获取: {ok}/{len(icon_ids)}")
         return results
     
     def generate_groups_icon_mapping(self, groups_data: Dict) -> Dict[int, str]:
@@ -610,8 +411,13 @@ class IconFinder:
         Returns:
             group_id -> icon_filename的映射
         """
-        print("[+] 生成groups图标映射...")
-        
+        icon_ids = [
+            group_info.get('iconID', 0)
+            for group_info in groups_data.values()
+            if group_info.get('iconID', 0)
+        ]
+        self.prefetch_icon_ids(icon_ids, label="组图标")
+
         icon_mapping = {}
         found_count = 0
         missing_count = 0

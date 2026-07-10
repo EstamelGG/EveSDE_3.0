@@ -119,16 +119,19 @@ def extract_sde(config, zip_path):
         print(f"[x] 解压失败: {e}")
         return False
 
-def main(config=None):
+def main(config=None, build_number=None):
     """
     主函数
+    
+    Args:
+        config: 配置字典
+        build_number: 已确定的 SDE 构建号（由 main.py 版本比对后传入）
     
     Returns:
         bool: True表示SDE下载和解压成功，False表示失败
     """
     print("[+] SDE下载器启动")
     
-    # 如果没有传入配置，则尝试加载本地配置（用于独立运行）
     if config is None:
         config_path = Path(__file__).parent.parent / "config.json"
         try:
@@ -138,13 +141,14 @@ def main(config=None):
             print(f"[x] 加载配置文件失败: {e}")
             return False
     
-    # 获取最新构建信息
-    build_number, release_date = get_latest_build_info(config)
     if not build_number:
-        print("[x] 无法获取构建信息，退出")
-        return False
+        build_number, _ = get_latest_build_info(config)
+        if not build_number:
+            print("[x] 无法获取构建信息，退出")
+            return False
+    else:
+        print(f"[+] 使用已确定的 SDE 构建号: {build_number}")
     
-    # 检查是否已下载
     exists, zip_path = check_existing_download(config, build_number)
     
     if not exists:

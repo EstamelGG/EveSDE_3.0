@@ -12,6 +12,7 @@
 /localization/raw
 /custom_icons
 /cache
+/client_cache
 /mapGenerator/maps
 tools/sqlite_comparison_report_item_db_zh_vs_item_db_zh.txt
 tools/sqlite_field_diff_item_db_zh_vs_item_db_zh.txt
@@ -24,3 +25,5 @@ brackets_decode/brackets_output.json
 /tmp
 /temp_whats_new
 /ref
+/output_icons
+/output_sde

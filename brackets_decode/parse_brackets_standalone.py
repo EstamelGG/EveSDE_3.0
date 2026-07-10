@@ -18,7 +18,8 @@ import re
 from contextlib import contextmanager
 import sys
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
-from utils.http_client import get
+from pathlib import Path
+from utils.eve_client import EveClient, get_eve_client
 
 # ============================================================================
 # 基础结构体定义
@@ -790,201 +791,52 @@ def fsd_to_dict(obj, visited=None):
 # 在线下载功能
 # ============================================================================
 
-def _get_build_info():
-    """获取EVE客户端的最新构建信息"""
-    try:
-        print("[+] 获取EVE客户端构建信息...")
-        url = "https://binaries.eveonline.com/eveclient_TQ.json"
-        response = get(url, timeout=30, verify=False)
-        build_info = response.json()
-        print("[+] 当前构建版本: %s" % build_info.get('build'))
-        return build_info
-    except Exception as e:
-        print("[x] 获取构建信息失败: %s" % str(e))
-        return None
+# ============================================================================
+# brackets 资源下载（通过 EveClient）
+# ============================================================================
+
+BRACKETS_RESOURCES = {
+    'brackets': 'res:/staticdata/brackets.static',
+    'bracketsByCategory': 'res:/staticdata/bracketsbycategory.static',
+    'bracketsByGroup': 'res:/staticdata/bracketsbygroup.static',
+    'bracketsByType': 'res:/staticdata/bracketsbytype.static',
+}
 
 
-def _get_resfile_index_content():
-    """从在线服务器获取resfileindex.txt内容"""
-    build_info = _get_build_info()
-    if not build_info:
-        return None
-    
-    build_number = build_info.get('build')
-    if not build_number:
-        return None
-    
-    try:
-        print("[+] 从在线服务器获取resfileindex...")
-        
-        # 下载 installer 文件
-        installer_url = "https://binaries.eveonline.com/eveonline_%s.txt" % build_number
-        response = get(installer_url, timeout=30, verify=False)
-        installer_content = response.text
-        
-        # 解析installer文件找到resfileindex
-        resfileindex_path = None
-        for line in installer_content.split('\n'):
-            if not line.strip():
-                continue
-            parts = line.split(',')
-            if len(parts) >= 2 and parts[0] == "app:/resfileindex.txt":
-                resfileindex_path = parts[1]
-                break
-        
-        if not resfileindex_path:
-            print("[x] 在installer文件中未找到resfileindex路径")
-            return None
-        
-        # 下载resfileindex文件内容
-        resfile_url = "https://binaries.eveonline.com/%s" % resfileindex_path
-        response = get(resfile_url, timeout=60, verify=False)
-        resfile_content = response.text
-        
-        print("[+] resfileindex获取完成")
-        return resfile_content
-        
-    except Exception as e:
-        print("[x] 获取resfileindex失败: %s" % str(e))
-        import traceback
-        traceback.print_exc()
-        return None
-
-
-def _parse_brackets_files_from_resfileindex(resfile_content):
-    """从resfileindex内容中解析brackets文件的路径信息"""
-    brackets_files = {
-        'brackets': 'res:/staticdata/brackets.static',
-        'bracketsByCategory': 'res:/staticdata/bracketsbycategory.static',
-        'bracketsByGroup': 'res:/staticdata/bracketsbygroup.static',
-        'bracketsByType': 'res:/staticdata/bracketsbytype.static'
-    }
-    
-    result = {}
-    
-    for name, res_path in brackets_files.items():
-        # 在resfileindex中查找对应的行
-        pattern = re.escape(res_path) + r',([^,]+),([^,]+)'
-        match = re.search(pattern, resfile_content)
-        if match:
-            file_path = match.group(1)
-            file_hash = match.group(2)
-            result[name] = {
-                'res_path': res_path,
-                'file_path': file_path,
-                'hash': file_hash
-            }
-            print("[+] 找到 %s: %s" % (name, file_path))
-        else:
-            print("[x] 在resfileindex中未找到 %s" % name)
-    
-    return result
-
-
-def _download_static_file(file_path):
-    """从EVE资源服务器下载static文件"""
-    try:
-        download_url = "https://resources.eveonline.com/%s" % file_path
-        print("[+] 开始下载: %s" % download_url)
-        
-        response = get(download_url, timeout=60, verify=False)
-        file_data = response.content
-        
-        print("[+] 下载完成，大小: %s" % sizeof_fmt(len(file_data)))
-        return file_data
-        
-    except Exception as e:
-        print("[x] 下载文件失败 %s: %s" % (file_path, str(e)))
-        import traceback
-        traceback.print_exc()
-        return None
-
-
-def download_and_parse_brackets_files(use_cache=True):
-    """从在线服务器下载并解析brackets文件"""
+def download_and_parse_brackets_files(eve_client=None):
+    """通过 EveClient 下载并解析 brackets 文件"""
     print("\n" + "=" * 60)
-    print("从在线服务器下载 brackets 文件...")
+    print("下载并解析 brackets 文件...")
     print("=" * 60)
-    
-    # 获取resfileindex内容
-    resfile_content = _get_resfile_index_content()
-    if not resfile_content:
-        return {"error": "无法获取resfileindex"}
-    
-    # 解析brackets文件路径
-    brackets_info = _parse_brackets_files_from_resfileindex(resfile_content)
-    if not brackets_info:
-        return {"error": "在resfileindex中未找到brackets文件"}
-    
+
+    if eve_client is None:
+        project_root = Path(__file__).parent.parent
+        eve_client = get_eve_client(project_root / "client_cache")
+
+    resources = list(BRACKETS_RESOURCES.values())
+    eve_client.ensure_resources(resources, label="brackets")
+
     result = {}
-    
-    # 创建临时目录用于缓存（可选）
-    cache_dir = None
-    if use_cache:
-        script_dir = os.path.dirname(os.path.abspath(__file__))
-        cache_dir = os.path.join(script_dir, 'raw')
-        os.makedirs(cache_dir, exist_ok=True)
-    
-    print("\n开始下载和解析 brackets 文件...")
-    print("=" * 60)
-    
-    for name, file_info in brackets_info.items():
+    for name, res_path in BRACKETS_RESOURCES.items():
         print("\n正在处理: %s" % name)
-        file_path = file_info['file_path']
-        file_hash = file_info['hash']
-        
-        # 检查缓存
-        file_data = None
-        if use_cache and cache_dir:
-            cache_file = os.path.join(cache_dir, os.path.basename(file_path))
-            if os.path.exists(cache_file):
-                print("[+] 使用缓存文件: %s" % cache_file)
-                try:
-                    with open(cache_file, 'rb') as f:
-                        file_data = f.read()
-                except Exception as e:
-                    print("[!] 读取缓存文件失败: %s" % str(e))
-        
-        # 如果缓存不存在，则下载
-        if file_data is None:
-            file_data = _download_static_file(file_path)
-            if file_data is None:
-                result[name] = {"error": "下载失败: %s" % file_path}
-                continue
-            
-            # 保存到缓存
-            if use_cache and cache_dir:
-                cache_file = os.path.join(cache_dir, os.path.basename(file_path))
-                try:
-                    with open(cache_file, 'wb') as f:
-                        f.write(file_data)
-                    print("[+] 已保存到缓存: %s" % cache_file)
-                except Exception as e:
-                    print("[!] 保存缓存失败: %s" % str(e))
-        
-        # 解析文件
+        if not eve_client.lookup(res_path):
+            result[name] = {"error": "索引中未找到: %s" % res_path}
+            continue
         try:
+            file_data = eve_client.fetch(res_path)
             print("[+] 正在解析 %s..." % name)
             data = LoadFSDDataInPython(None, dataBytes=file_data)
-            print("[+] 正在转换为字典格式...")
             dict_data = fsd_to_dict(data)
-            
             if isinstance(dict_data, dict):
                 print("[+] 条目数量: %d" % len(dict_data))
-                if dict_data:
-                    sample_keys = list(dict_data.keys())[:5]
-                    print("[+] 示例键: %s" % sample_keys)
-            
             result[name] = dict_data
             print("[+] ✓ %s 解析成功" % name)
-            
         except Exception as e:
-            error_msg = "[x] ✗ %s 解析失败: %s" % (name, str(e))
-            print(error_msg)
+            print("[x] ✗ %s 失败: %s" % (name, e))
             import traceback
             traceback.print_exc()
             result[name] = {"error": str(e)}
-    
+
     return result
 
 
@@ -1051,16 +903,15 @@ def parse_brackets_files(staticdata_dir):
     return result
 
 
-def main():
+def main(eve_client=None):
     """主函数"""
     print("=" * 60)
     print("EVE Online Brackets Static 文件解析工具 (独立版)")
     print("=" * 60)
 
     try:
-        # 优先尝试在线下载
-        print("\n[+] 尝试从在线服务器下载文件...")
-        all_data = download_and_parse_brackets_files(use_cache=True)
+        print("\n[+] 下载 brackets 文件...")
+        all_data = download_and_parse_brackets_files(eve_client=eve_client)
         
         # 如果在线下载失败，回退到本地文件
         # 检查是否有错误或结果为空

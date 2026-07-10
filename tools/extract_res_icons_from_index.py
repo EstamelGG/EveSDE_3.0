@@ -19,10 +19,23 @@ project_root = script_path.parent.parent
 if str(project_root) not in sys.path:
     sys.path.insert(0, str(project_root))
 
-from utils.http_client import create_session
+from utils.eve_client import EveClient
 
 
-# 图片文件类型的魔数（文件头）
+def load_resfile_index(keyword: Optional[str] = None) -> List[Tuple[str, str]]:
+    """从 EveClient 加载 resfileindex 文件列表"""
+    client = EveClient.from_tq(project_root / "client_cache")
+    file_list = []
+    for res_path, entry in client.res_index.items():
+        if keyword and keyword.lower() not in res_path.lower():
+            continue
+        file_list.append((res_path, entry.path))
+    print(f"[+] 加载了 {len(file_list)} 个资源文件")
+    if keyword:
+        print(f"[+] 过滤关键词: {keyword}")
+    return file_list
+
+
 IMAGE_SIGNATURES = {
     # PNG: 89 50 4E 47 0D 0A 1A 0A
     b'\x89\x50\x4E\x47\x0D\x0A\x1A\x0A': 'png',
@@ -103,122 +116,6 @@ def get_eve_resfiles_path() -> Optional[Path]:
     else:
         print(f"[x] 当前系统不支持: {system}")
         return None
-
-
-def get_eve_resfileindex_path() -> Optional[Path]:
-    """获取EVE客户端resfileindex.txt文件路径"""
-    system = platform.system().lower()
-    
-    if system == "darwin":  # macOS
-        base_path = Path.home() / "Library/Application Support/EVE Online/SharedCache/tq/EVE.app/Contents/Resources/build/resfileindex.txt"
-        return base_path
-    else:
-        return None
-
-
-def get_resfile_index_content() -> Optional[str]:
-    """从在线服务器获取resfileindex.txt内容"""
-    try:
-        session = create_session(verify=False)
-        print("[+] 获取EVE客户端构建信息...")
-        response = session.get("https://binaries.eveonline.com/eveclient_TQ.json")
-        build_info = response.json()
-        build_number = build_info.get('build')
-        
-        if not build_number:
-            return None
-        
-        print(f"[+] 当前构建版本: {build_number}")
-        print("[+] 从在线服务器获取resfileindex...")
-        
-        installer_url = f"https://binaries.eveonline.com/eveonline_{build_number}.txt"
-        response = session.get(installer_url)
-        
-        # 解析installer文件找到resfileindex
-        resfileindex_path = None
-        for line in response.text.split('\n'):
-            if not line.strip():
-                continue
-            
-            parts = line.split(',')
-            if len(parts) >= 2 and parts[0] == "app:/resfileindex.txt":
-                resfileindex_path = parts[1]
-                break
-        
-        if not resfileindex_path:
-            print("[x] 在installer文件中未找到resfileindex路径")
-            return None
-        
-        # 下载resfileindex文件内容
-        resfile_url = f"https://binaries.eveonline.com/{resfileindex_path}"
-        response = session.get(resfile_url)
-        
-        print("[+] resfileindex获取完成")
-        return response.text
-        
-    except Exception as e:
-        print(f"[x] 获取resfileindex失败: {e}")
-        return None
-
-
-def load_resfile_index(keyword: Optional[str] = None) -> List[Tuple[str, str]]:
-    """
-    加载resfileindex，返回文件列表
-    
-    Args:
-        keyword: 可选的关键词，用于过滤资源路径
-        
-    Returns:
-        [(resource_path, file_path), ...] 列表
-    """
-    file_list = []
-    
-    # 首先尝试从在线服务器获取
-    resfile_content = get_resfile_index_content()
-    
-    # 如果在线获取失败，尝试本地客户端路径
-    if not resfile_content:
-        resfileindex_path = get_eve_resfileindex_path()
-        
-        if not resfileindex_path or not resfileindex_path.exists():
-            print("[-] 无法获取resfileindex文件（在线和本地都失败）")
-            return file_list
-        
-        try:
-            with open(resfileindex_path, 'r', encoding='utf-8') as f:
-                resfile_content = f.read()
-        except Exception as e:
-            print(f"[x] 读取本地resfileindex失败: {e}")
-            return file_list
-    
-    print("[+] 解析资源索引...")
-    
-    try:
-        for line_num, line in enumerate(resfile_content.split('\n'), 1):
-            line = line.strip()
-            if not line:
-                continue
-            
-            parts = line.split(',')
-            if len(parts) >= 2:
-                resource_path = parts[0]  # 资源路径，如 res:/ui/texture/icon.png
-                file_path = parts[1]       # 本地文件路径，如 res/ui/texture/icon.png
-                
-                # 如果提供了关键词，检查资源路径是否包含关键词
-                if keyword:
-                    if keyword.lower() not in resource_path.lower():
-                        continue
-                
-                file_list.append((resource_path, file_path))
-        
-        print(f"[+] 加载了 {len(file_list)} 个资源文件")
-        if keyword:
-            print(f"[+] 过滤关键词: {keyword}")
-        
-    except Exception as e:
-        print(f"[x] 解析资源索引时出错: {e}")
-    
-    return file_list
 
 
 def extract_icons_from_index(resfiles_dir: Path, output_dir: Path, keyword: Optional[str] = None):

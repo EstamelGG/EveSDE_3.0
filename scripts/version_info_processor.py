@@ -109,7 +109,7 @@ class VersionInfoProcessor:
         """
         print("[+] 开始处理版本信息")
         
-        return self.process_version_info_for_language(language, build_number, release_date, build_key)
+        return self.process_version_info_for_language('en', build_number, release_date, build_key)
 
 
 def main(config=None, build_number=None, release_date=None, build_key=None):

@@ -340,7 +340,7 @@ class DbuffCollectionsProcessor:
         """
         print("[+] 开始处理dbuffCollections数据")
         
-        return self.process_dbuff_collections_for_language(language)
+        return self.process_dbuff_collections_for_language('en')
 
 
 def main(config=None):

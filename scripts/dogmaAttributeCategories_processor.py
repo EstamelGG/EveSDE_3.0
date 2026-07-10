@@ -216,9 +216,9 @@ class DogmaAttributeCategoriesProcessor:
             # 获取字段
             names = wide_texts(category_data.get('name'))
             descs = wide_texts(category_data.get('description'))
-            if names['en'] in self.language_map and language in self.language_map[names['en']]:
-                mapped = self.language_map[names['en']][language]
-                names[language] = mapped
+            if names['en'] in self.language_map:
+                for lang, mapped in self.language_map[names['en']].items():
+                    names[lang] = mapped
 
             cursor.execute('''
                 INSERT OR REPLACE INTO dogmaAttributeCategories (
@@ -277,7 +277,7 @@ class DogmaAttributeCategoriesProcessor:
         """
         print("[+] 开始处理dogmaAttributeCategories数据")
         
-        return self.process_dogma_attribute_categories_for_language(language)
+        return self.process_dogma_attribute_categories_for_language('en')
 
 
 def main(config=None):

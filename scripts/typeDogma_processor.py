@@ -254,7 +254,7 @@ class TypeDogmaProcessor:
         """
         print("[+] 开始处理typeDogma数据")
         
-        return self.process_type_dogma_for_language(language)
+        return self.process_type_dogma_for_language('en')
 
 
 def main(config=None):

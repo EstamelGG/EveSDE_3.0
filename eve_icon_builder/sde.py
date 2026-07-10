@@ -8,9 +8,8 @@ import os
 from pathlib import Path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 from utils.http_client import get
-from typing import Dict, Optional, Tuple
+from typing import Dict, Optional
 from zipfile import ZipFile
-import io
 
 
 class TypeInfo:
@@ -23,25 +22,30 @@ class TypeInfo:
         self.meta_group_id = meta_group_id
 
 
+SDE_DOWNLOAD_TEMPLATE = (
+    "https://developers.eveonline.com/static-data/tranquility/"
+    "eve-online-static-data-{build_number}-jsonl.zip"
+)
+
+
 def get_sde_version() -> int:
-    """获取最新的SDE版本号"""
+    """从客户端 build 信息获取当前 SDE 版本号"""
     response = get("https://binaries.eveonline.com/eveclient_TQ.json")
     data = response.json()
     build = data.get("build_number") or data.get("buildNumber")
     if build is None:
         raise ValueError("未找到SDE版本信息")
+    return int(build)
 
-    return build
 
-
-def download_sde(dest_path: Path):
-    """下载SDE数据包"""
-    response = get("https://developers.eveonline.com/static-data/eve-online-static-data-latest-jsonl.zip", 
-                          stream=True)
-    
+def download_sde(dest_path: Path, build_number: int):
+    """按指定 build 号下载 SDE 数据包"""
+    url = SDE_DOWNLOAD_TEMPLATE.format(build_number=build_number)
+    response = get(url, stream=True, timeout=120, verify=False)
     with open(dest_path, 'wb') as f:
         for chunk in response.iter_content(chunk_size=8192):
-            f.write(chunk)
+            if chunk:
+                f.write(chunk)
 
 
 def parse_version(content: str) -> int:
@@ -49,33 +53,40 @@ def parse_version(content: str) -> int:
     for line in content.strip().split('\n'):
         data = json.loads(line)
         if data.get('_key') == 'sde':
-            return data.get('build_number', data.get('buildNumber'))
+            return int(data.get('build_number', data.get('buildNumber')))
     raise ValueError("未找到SDE版本信息")
 
 
-def update_sde(silent_mode: bool = False) -> ZipFile:
-    """更新SDE数据，返回打开的ZIP文件对象"""
+def update_sde(
+    silent_mode: bool = False,
+    build_number: Optional[int] = None,
+    source_zip: Optional[Path] = None,
+) -> ZipFile:
+    """打开指定版本的 SDE 数据，返回 ZIP 文件对象"""
+    if source_zip and source_zip.exists():
+        if not silent_mode:
+            print(f"[+] 使用已下载的 SDE: {source_zip.name}")
+        return ZipFile(source_zip, 'r')
+
     cache_dir = Path("./cache")
     cache_dir.mkdir(exist_ok=True)
     sde_path = cache_dir / "sde.zip"
-    
+
+    target_build = int(build_number) if build_number else get_sde_version()
     download = True
-    new_version = get_sde_version()
-    
+
     if sde_path.exists():
         with ZipFile(sde_path, 'r') as zf:
-            version_content = zf.read('_sde.jsonl').decode('utf-8')
-            current_version = parse_version(version_content)
-            download = (current_version != new_version)
-    
+            current_version = parse_version(zf.read('_sde.jsonl').decode('utf-8'))
+            download = current_version != target_build
+
     if download:
         if not silent_mode:
-            print("正在下载新的SDE数据...")
-        download_sde(sde_path)
-    
-    if not silent_mode:
-        print("SDE数据已是最新!")
-    
+            print(f"[+] 下载 SDE build {target_build}...")
+        download_sde(sde_path, target_build)
+    elif not silent_mode:
+        print("[+] SDE 数据已是最新")
+
     return ZipFile(sde_path, 'r')
 
 
@@ -100,7 +111,6 @@ def read_types(sde: ZipFile, silent_mode: bool = False) -> Dict[int, TypeInfo]:
             meta_group_id=data.get('metaGroupID')
         )
         
-        # 过滤：只保留有图标或图形ID的物品，或特定的SKIN组
         if (type_info.graphic_id is not None or 
             type_info.icon_id is not None or 
             (1950 <= type_info.group_id <= 1955) or 
@@ -175,7 +185,6 @@ def read_skin_materials(sde: ZipFile, silent_mode: bool = False) -> Dict[int, in
     if not silent_mode:
         print("\t加载皮肤信息...")
     
-    # 读取皮肤许可证
     license_skins = {}
     content = sde.read('skinLicenses.jsonl').decode('utf-8')
     for line in content.strip().split('\n'):
@@ -187,7 +196,6 @@ def read_skin_materials(sde: ZipFile, silent_mode: bool = False) -> Dict[int, in
         if skin_id is not None:
             license_skins[license_id] = skin_id
     
-    # 读取皮肤材质
     skin_materials = {}
     content = sde.read('skinMaterials.jsonl').decode('utf-8')
     for line in content.strip().split('\n'):
@@ -199,7 +207,6 @@ def read_skin_materials(sde: ZipFile, silent_mode: bool = False) -> Dict[int, in
         if material_id is not None:
             skin_materials[skin_id] = material_id
     
-    # 映射许可证到材质
     license_materials = {}
     for license_id, skin_id in license_skins.items():
         if skin_id in skin_materials:

@@ -8,7 +8,7 @@ import os
 import shutil
 from enum import Enum
 from pathlib import Path
-from typing import Dict, Set, Optional, Tuple
+from typing import Dict, Set, Optional, Tuple, List
 from zipfile import ZipFile, ZIP_STORED
 from PIL import Image, ImageChops
 import numpy as np
@@ -59,6 +59,71 @@ def techicon_resource_for_metagroup(metagroup_id: int) -> Optional[str]:
         54: "res:/ui/texture/shared/structureoverlay.png",
     }
     return mapping.get(metagroup_id)
+
+
+def _maybe_add_resource(cache: SharedCache, resources: Set[str], resource: Optional[str]) -> None:
+    if resource and cache.has_resource(resource):
+        resources.add(resource)
+
+
+def collect_required_resources(
+    data: "IconBuildData",
+    cache: SharedCache,
+    skip_skins: bool = False,
+    test_type_id: Optional[int] = None,
+) -> List[str]:
+    resources: Set[str] = set()
+    for overlay in (
+        "res:/ui/texture/icons/relic.png",
+        "res:/ui/texture/icons/relic_overlay.png",
+        "res:/ui/texture/icons/reaction.png",
+        "res:/ui/texture/icons/bpo_overlay.png",
+        "res:/ui/texture/icons/bpo.png",
+        "res:/ui/texture/icons/bpc.png",
+        "res:/ui/texture/icons/bpc_overlay.png",
+    ):
+        _maybe_add_resource(cache, resources, overlay)
+
+    for type_id, type_info in data.types.items():
+        if test_type_id is not None and type_id != test_type_id:
+            continue
+        category_id = data.group_categories.get(type_info.group_id)
+        if category_id is None:
+            continue
+        if type_info.icon_id is None and type_info.graphic_id is None and category_id != 91:
+            continue
+        if skip_skins and category_id in [91, 30, 2118]:
+            continue
+
+        if category_id in (9, 34):
+            if type_info.graphic_id and type_info.graphic_id in data.graphics_folders:
+                folder = data.graphics_folders[type_info.graphic_id].rstrip("/\\")
+                _maybe_add_resource(cache, resources, f"{folder}/{type_info.graphic_id}_64_bp.png")
+                _maybe_add_resource(cache, resources, f"{folder}/{type_info.graphic_id}_64_bpc.png")
+            elif type_info.icon_id and type_info.icon_id in data.icon_files:
+                icon_resource = data.icon_files[type_info.icon_id]
+                _maybe_add_resource(cache, resources, icon_resource)
+                _maybe_add_resource(cache, resources, techicon_resource_for_metagroup(type_info.meta_group_id or 1))
+        else:
+            icon_resource = None
+            if type_info.graphic_id and type_info.graphic_id in data.graphics_folders:
+                folder = data.graphics_folders[type_info.graphic_id].rstrip("/\\")
+                icon_resource = f"{folder}/{type_info.graphic_id}_64.png"
+                if not cache.has_resource(icon_resource) or type_info.group_id in USE_ICON_INSTEAD_OF_GRAPHIC_GROUPS:
+                    if type_info.icon_id and type_info.icon_id in data.icon_files:
+                        icon_resource = data.icon_files[type_info.icon_id]
+                    else:
+                        icon_resource = None
+                _maybe_add_resource(cache, resources, f"{folder}/{type_info.graphic_id}_512.jpg")
+            elif type_info.icon_id and type_info.icon_id in data.icon_files:
+                icon_resource = data.icon_files[type_info.icon_id]
+            elif category_id == 91 and type_id in data.skin_materials:
+                icon_resource = f"res:/ui/texture/classes/skins/icons/{data.skin_materials[type_id]}.png"
+
+            _maybe_add_resource(cache, resources, icon_resource)
+            _maybe_add_resource(cache, resources, techicon_resource_for_metagroup(type_info.meta_group_id or 1))
+
+    return list(resources)
 
 
 def composite_tech(icon_path: Path, tech_icon_path: Path, out_path: Path):
@@ -212,6 +277,10 @@ def build_icon_export(output_mode: str, skip_output_if_fresh: bool, data: IconBu
         
         processable_types.append((type_id, type_info, category_id))
     
+    if hasattr(cache, "ensure_resources"):
+        needed = collect_required_resources(data, cache, skip_skins, test_type_id)
+        cache.ensure_resources(needed, label="图标资源")
+
     # 处理每个物品类型
     total_count = len(processable_types)
     processed_count = 0

@@ -14,6 +14,8 @@ import argparse
 from pathlib import Path
 from datetime import datetime
 from utils.http_client import get, head, create_session
+from utils.eve_client import EveClient, set_eve_client
+from brackets_decode.parse_brackets_standalone import main as parse_brackets_main
 
 # 设置无缓冲输出，确保在GitHub Actions中日志能实时显示
 os.environ['PYTHONUNBUFFERED'] = '1'
@@ -264,7 +266,7 @@ def check_localization_exists() -> bool:
     
     return True
 
-def process_localization(force: bool = False) -> bool:
+def process_localization(force: bool = False, eve_client=None) -> bool:
     """处理本地化数据"""
     project_root = Path(__file__).parent
     
@@ -276,20 +278,8 @@ def process_localization(force: bool = False) -> bool:
     print("[+] 开始处理本地化数据...")
     
     try:
-        # 直接调用localization/main.py中的main函数
         from localization.main import main as localization_main
-        
-        print(f"[+] 调用本地化处理函数...")
-        
-        # 执行本地化处理
-        success = localization_main()
-        
-        if success:
-            print("[+] 本地化数据处理完成")
-            return True
-        else:
-            print("[x] 本地化数据处理失败")
-            return False
+        return localization_main(eve_client=eve_client)
         
     except Exception as e:
         print(f"[x] 调用本地化处理函数时出错: {e}")
@@ -394,6 +384,8 @@ def main():
     else:
         print(f"[+] 当前最新SDE版本: {current_build_number}")
         print(f"[+] 发布时间: {current_release_date}")
+
+    config["sde_build_number"] = current_build_number
     
     # 检查是否需要强制重建
     if not args.force_rebuild:
@@ -421,12 +413,23 @@ def main():
     
     # 确保所有必要的目录存在
     ensure_directories(config)
+
+    # 初始化 EVE 客户端资源索引（全局单例，后续模块共享）
+    try:
+        eve_client = EveClient.from_tq(Path(__file__).parent / config["paths"].get("client_cache", "client_cache"))
+        set_eve_client(eve_client)
+        config["eve_client"] = eve_client
+    except Exception as e:
+        print(f"[x] EVE 客户端资源索引初始化失败: {e}")
+        sys.exit(1)
     
     # 处理本地化数据（第四步）
     if not args.skip_localization:
         print("\n[+] 第四步: 处理本地化数据")
         print("=" * 30)
-        localization_success = process_localization(force=args.force_localization)
+        localization_success = process_localization(
+            force=args.force_localization, eve_client=config["eve_client"]
+        )
         if not localization_success:
             print("[x] 本地化数据处理失败，程序退出")
             sys.exit(1)
@@ -436,7 +439,7 @@ def main():
     
     # 执行SDE下载 - 必须成功才能继续
     print("\n[+] 开始执行SDE下载")
-    sde_success = sde_downloader.main(config)
+    sde_success = sde_downloader.main(config, build_number=current_build_number)
     if not sde_success:
         print("[x] SDE下载或解压失败，程序退出")
         print("[!] 请检查网络连接或重试")
@@ -447,7 +450,7 @@ def main():
     # 生成 brackets_output.json（用于NPC船只分类）
     print("\n[+] 生成 brackets_output.json")
     print("=" * 30)
-    parse_brackets_main()
+    parse_brackets_main(eve_client=config.get("eve_client"))
     
     # 执行图标构造（使用eve_icon_builder）
     safe_execute_processor(icon_builder_processor.main, "图标构造", config)

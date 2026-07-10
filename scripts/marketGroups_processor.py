@@ -14,8 +14,6 @@ import sqlite3
 from collections import defaultdict
 from pathlib import Path
 from typing import Dict, Any, List, Tuple, Set
-import asyncio
-import aiohttp
 import scripts.icon_finder as icon_finder
 
 # 自定义组名称附加文本
@@ -202,94 +200,24 @@ class MarketGroupsProcessor:
         
         return False
     
-    async def download_icon_async(self, session: aiohttp.ClientSession, icon_id: int) -> Tuple[int, str]:
-        """
-        异步下载单个图标
-        
-        Args:
-            session: aiohttp会话
-            icon_id: 图标ID
-            
-        Returns:
-            Tuple[int, str]: (icon_id, filename) 或 (icon_id, None)
-        """
-        icon_filename = f"market_icon_{icon_id}.png"
-        icon_path = self.custom_icons_path / icon_filename
-        
-        # 如果图标已存在，直接返回
-        if icon_path.exists():
-            return icon_id, icon_filename
-        
-        try:
-            # 使用icon_finder获取图标URL
-            icon_info = self.icon_finder.get_icon_info(icon_id)
-            if not icon_info or not icon_info.get('url'):
-                return icon_id, None
-            
-            # 异步下载图标
-            async with session.get(icon_info['url']) as response:
-                if response.status == 200:
-                    content = await response.read()
-                    with open(icon_path, 'wb') as f:
-                        f.write(content)
-                    print(f"[+] 下载市场分组图标: {icon_id} -> {icon_filename}")
-                    return icon_id, icon_filename
-                else:
-                    print(f"[!] 下载图标失败 {icon_id}: HTTP {response.status}")
-                    return icon_id, None
-                    
-        except Exception as e:
-            print(f"[!] 下载图标失败 {icon_id}: {e}")
-            return icon_id, None
-    
-    async def download_icons_batch(self, icon_ids: List[int], max_concurrent: int = 10) -> Dict[int, str]:
-        """
-        批量异步下载图标（限制并发数）
-        
-        Args:
-            icon_ids: 图标ID列表
-            max_concurrent: 最大并发数，默认10
-            
-        Returns:
-            Dict[int, str]: icon_id -> filename 映射
-        """
+    def _cache_downloaded_icons(self, icon_ids: List[int]) -> Dict[int, str]:
         if not icon_ids:
             return {}
-        
-        print(f"[+] 开始批量下载 {len(icon_ids)} 个市场分组图标（最大并发数: {max_concurrent}）...")
-        
-        # 创建aiohttp会话
-        timeout = aiohttp.ClientTimeout(total=30)
-        connector = aiohttp.TCPConnector(limit=max_concurrent, limit_per_host=max_concurrent)
-        
-        async with aiohttp.ClientSession(timeout=timeout, connector=connector) as session:
-            # 创建信号量来限制并发数
-            semaphore = asyncio.Semaphore(max_concurrent)
-            
-            async def download_with_semaphore(icon_id: int):
-                async with semaphore:
-                    return await self.download_icon_async(session, icon_id)
-            
-            # 创建下载任务
-            tasks = [download_with_semaphore(icon_id) for icon_id in icon_ids]
-            
-            # 并发执行所有下载任务
-            results = await asyncio.gather(*tasks, return_exceptions=True)
-            
-            # 处理结果
-            icon_map = {}
-            for result in results:
-                if isinstance(result, Exception):
-                    print(f"[!] 下载任务异常: {result}")
-                    continue
-                
-                icon_id, filename = result
-                if filename:
-                    icon_map[icon_id] = filename
-            
-            print(f"[+] 批量下载完成，成功下载 {len(icon_map)}/{len(icon_ids)} 个图标")
-            return icon_map
-    
+        self.icon_finder.prefetch_icon_ids(icon_ids, label="市场分组图标")
+        icon_map = {}
+        for icon_id in icon_ids:
+            filename = f"market_icon_{icon_id}.png"
+            path = self.custom_icons_path / filename
+            if path.exists():
+                icon_map[icon_id] = filename
+                continue
+            content = self.icon_finder.get_icon_file_content(icon_id)
+            if content:
+                path.write_bytes(content)
+                icon_map[icon_id] = filename
+        print(f"[+] 市场分组图标: {len(icon_map)}/{len(icon_ids)}")
+        return icon_map
+
     def download_res_icon(self, res_path: str, icon_id: int) -> str:
         """
         从网络下载res:格式的图标
@@ -309,27 +237,16 @@ class MarketGroupsProcessor:
             return icon_filename
         
         try:
-            # 使用icon_finder下载图标
             content = self.icon_finder._get_icon_file_content(res_path)
-            
             if content:
-                # 保存到custom_icons目录
-                with open(icon_path, 'wb') as f:
-                    f.write(content)
-                print(f"[+] 下载市场分组图标: {icon_id} -> {icon_filename}")
+                icon_path.write_bytes(content)
                 return icon_filename
-            else:
-                print(f"[!] 无法下载图标: {res_path}")
-                return None
-                
-        except Exception as e:
-            print(f"[!] 下载图标失败 {res_path}: {e}")
-            return None
-    
+        except Exception:
+            pass
+        return None
+
     def get_icon_name(self, cursor: sqlite3.Cursor, group_id: int, icon_id: int) -> str:
-        """
-        获取组的图标名称
-        """
+        """获取组的图标名称"""
         # 检查特殊图标映射（res:格式）
         if icon_id in SPECIAL_ICON_MAP:
             res_path = SPECIAL_ICON_MAP[icon_id]
@@ -356,23 +273,14 @@ class MarketGroupsProcessor:
         # 如果缓存和本地都找不到，从网络下载（根据resfile中的路径）
         if icon_id is not None:
             try:
-                # 使用icon_finder获取图标内容
                 icon_content = self.icon_finder.get_icon_file_content(icon_id)
                 if icon_content:
-                    # 保存到本地
                     icon_filename = f"market_icon_{icon_id}.png"
-                    icon_path = self.custom_icons_path / icon_filename
-                    with open(icon_path, 'wb') as f:
-                        f.write(icon_content)
-                    
-                    # 更新缓存
+                    (self.custom_icons_path / icon_filename).write_bytes(icon_content)
                     self.icon_download_cache[icon_id] = icon_filename
-                    print(f"[+] 从网络下载市场分组图标: {icon_id} -> {icon_filename}")
                     return icon_filename
-                else:
-                    print(f"[!] 无法从网络获取图标: {icon_id}")
-            except Exception as e:
-                print(f"[!] 下载图标失败 {icon_id}: {e}")
+            except Exception:
+                pass
         
         return None
     
@@ -395,11 +303,8 @@ class MarketGroupsProcessor:
         
         # 批量下载图标
         if icon_ids_to_download:
-            print(f"[+] 准备批量下载 {len(icon_ids_to_download)} 个图标...")
             try:
-                # 运行异步下载
-                icon_map = asyncio.run(self.download_icons_batch(list(icon_ids_to_download)))
-                # 更新缓存
+                icon_map = self._cache_downloaded_icons(list(icon_ids_to_download))
                 self.icon_download_cache.update(icon_map)
             except Exception as e:
                 print(f"[!] 批量下载图标失败: {e}")
@@ -510,7 +415,7 @@ class MarketGroupsProcessor:
         """
         print("[+] 开始处理marketGroups数据")
         
-        return self.process_market_groups_for_language(language)
+        return self.process_market_groups_for_language('en')
 
 
 def main(config=None):
