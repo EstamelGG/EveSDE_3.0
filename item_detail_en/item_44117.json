@@ -1,0 +1,13 @@
+{
+  "type_id": 44117,
+  "name": "Vadari's Custom Gyrostabilizer Blueprint",
+  "description": "This blueprint can be used to build a limited number of special upgraded versions of the Gyrostabilizer module. Gyrostabilizers improve the damage and rate of fire of projectile turrets and are key modules in many Minmatar ship loadouts.\n\nThis particular blueprint has been created to the custom specifications of Fleet Commander Yna Vadari, who has been known to issue copies to certain select Republic Fleet officers and intelligence assets at her discretion.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Blueprint",
+  "group_name": "Gunnery Upgrade Blueprint",
+  "attributes": [],
+  "traits": []
+}

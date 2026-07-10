@@ -1,0 +1,13 @@
+{
+  "type_id": 20104,
+  "name": "Creations Central Pass",
+  "description": "This cipher unlocks the acceleration into the Centus Creations pocket of the sansha war supply complex. The gate will remain open to anyone for a short period of time and using the cipher will cause it to self-destruct, so use wisely.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

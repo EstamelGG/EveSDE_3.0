@@ -1,0 +1,13 @@
+{
+  "type_id": 64033,
+  "name": "Smuggler Lockbox",
+  "description": "This crate is equipped with an advanced quantum-encoded locking mechanism, layered plating that prevents penetration by scanners, and an explosive anti-tampering device that triggers if anyone other than the original creators attempt to open it. It was recovered from wreckage belonging to a network of underworld smugglers, and is clearly used to transport valuable smuggled items and/or data.\n\nSafely accessing the contents of this lockbox is beyond the ability of capsuleer-accessible technology. The major empires and pirate factions however would be willing to purchase these lockboxes for 1 million ISK per unit under the assumption that they will eventually be able to crack the security using their massive resources.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

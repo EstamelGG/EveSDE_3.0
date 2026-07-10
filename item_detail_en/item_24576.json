@@ -1,0 +1,13 @@
+{
+  "type_id": 24576,
+  "name": "Imperial Navy Gate Permit",
+  "description": "A standard gate permit leading to an Imperial Navy complex.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

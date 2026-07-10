@@ -1,0 +1,21 @@
+{
+  "type_id": 21027,
+  "name": "Capital Cargo Bay",
+  "description": "Sheets of massive metal which link together to form a multiple-thousand-cubic meter cargo bay, for insertion into capital ships.",
+  "volume": 2000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000.0,
+  "category_name": "Commodity",
+  "group_name": "Capital Construction Components",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

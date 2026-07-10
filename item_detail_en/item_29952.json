@@ -1,0 +1,13 @@
+{
+  "type_id": 29952,
+  "name": "Rebellion Cache",
+  "description": "Locked away inside a secure container, this mass stockpile of small arms has somehow managed not to detonate following the explosion of Angel Lieutenant Orien Hakk's vessel. There must be tens of thousands of rifles and pistols here, all of them fully loaded and ready for immediate use. The weapons are supplemented by a deadly assortment of explosives and blunt weapons. Emblazoned on the cover of the container is what appears to be a parachute mechanism and the words “Rebel Cache.”",
+  "volume": 50.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

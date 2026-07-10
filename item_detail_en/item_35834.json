@@ -1,0 +1,565 @@
+{
+  "type_id": 35834,
+  "name": "Keepstar",
+  "description": "Envisaged as the flagship product in the Upwell Consortium's Citadel range of space stations, the Keepstar has been designed for the most important and largest-scale of operations in space, such as providing a fully-featured home for large alliances, and even coalitions, or as a key element in the fortification of large territorial empires.\n\nThe Keepstar has been built with new spaceship tethering technology as standard, and it will accommodate all size classes of ship, including 'supercapital' vessels, in its internal docking bays. The defensive capabilities of the Keepstar are formidable and are highly enhanced in lower security star systems with the ability to mount area effect and 'doomsday' weapons. The Keepstar can be configured using Upwell's Standup brand service and structure modules so as to serve the specific needs of the structure operator. Further adjustment of the hardware of the Keepstar can be achieved by installed Standup XL-Set rigs to optimize the specific role of the citadel.\n\nOn June 14th YC125 CONCORD updated the capsuleer structure regulations to disallow the anchoring of any new XL structures in highsec space. XL structures that were anchored before this date will not be affected by this change unless they are unanchored.",
+  "volume": 800000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 50000000000.0,
+  "category_name": "Structure",
+  "group_name": "Citadel",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 108000000.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "powerOutput",
+      "value": 4800000.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Output",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "lowSlots",
+      "value": 5.0,
+      "categoryID": 1,
+      "display_name": "Low Slots",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "medSlots",
+      "value": 6.0,
+      "categoryID": 1,
+      "display_name": "Medium Slots",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hiSlots",
+      "value": 8.0,
+      "categoryID": 1,
+      "display_name": "High Slots",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "cpuOutput",
+      "value": 55000.0,
+      "categoryID": 1,
+      "display_name": "CPU Output",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "rechargeRate",
+      "value": 7200000.0,
+      "categoryID": 5,
+      "display_name": "Capacitor Recharge time",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "maxTargetRange",
+      "value": 400000.0,
+      "categoryID": 6,
+      "display_name": "Maximum Targeting Range",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "scanSpeed",
+      "value": 2500.0,
+      "categoryID": 6,
+      "display_name": "",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "launcherSlotsLeft",
+      "value": 4.0,
+      "categoryID": 1,
+      "display_name": "Launcher Hardpoints",
+      "unit_name": "hardpoints"
+    },
+    {
+      "attribute_name": "kineticDamageResonance",
+      "value": 0.8,
+      "categoryID": 4,
+      "display_name": "Structure Kinetic Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "thermalDamageResonance",
+      "value": 0.8,
+      "categoryID": 4,
+      "display_name": "Structure Thermal Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "explosiveDamageResonance",
+      "value": 0.8,
+      "categoryID": 4,
+      "display_name": "Structure Explosive Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "emDamageResonance",
+      "value": 0.8,
+      "categoryID": 4,
+      "display_name": "Structure EM Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "uniformity",
+      "value": 1.0,
+      "categoryID": 2,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "maxLockedTargets",
+      "value": 7.0,
+      "categoryID": 6,
+      "display_name": "Maximum Locked Targets",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "scanRadarStrength",
+      "value": 500.0,
+      "categoryID": 6,
+      "display_name": "RADAR Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanLadarStrength",
+      "value": 500.0,
+      "categoryID": 6,
+      "display_name": "Ladar Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrength",
+      "value": 500.0,
+      "categoryID": 6,
+      "display_name": "Magnetometric Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanGravimetricStrength",
+      "value": 500.0,
+      "categoryID": 6,
+      "display_name": "Gravimetric Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "shieldCapacity",
+      "value": 33750000.0,
+      "categoryID": 2,
+      "display_name": "Shield Capacity",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorHP",
+      "value": 27000000.0,
+      "categoryID": 3,
+      "display_name": "Armor Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorEmDamageResonance",
+      "value": 0.8,
+      "categoryID": 3,
+      "display_name": "Armor EM Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorExplosiveDamageResonance",
+      "value": 0.8,
+      "categoryID": 3,
+      "display_name": "Armor Explosive Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorKineticDamageResonance",
+      "value": 0.8,
+      "categoryID": 3,
+      "display_name": "Armor Kinetic Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorThermalDamageResonance",
+      "value": 0.8,
+      "categoryID": 3,
+      "display_name": "Armor Thermal Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldEmDamageResonance",
+      "value": 0.8,
+      "categoryID": 2,
+      "display_name": "Shield EM Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldExplosiveDamageResonance",
+      "value": 0.8,
+      "categoryID": 2,
+      "display_name": "Shield Explosive Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldKineticDamageResonance",
+      "value": 0.8,
+      "categoryID": 2,
+      "display_name": "Shield Kinetic Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldThermalDamageResonance",
+      "value": 0.8,
+      "categoryID": 2,
+      "display_name": "Shield Thermal Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldRechargeRate",
+      "value": 999999999999.0,
+      "categoryID": 2,
+      "display_name": "Shield recharge time",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "capacitorCapacity",
+      "value": 600000.0,
+      "categoryID": 5,
+      "display_name": "Capacitor Capacity",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "shieldUniformity",
+      "value": 1.0,
+      "categoryID": 2,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "armorUniformity",
+      "value": 1.0,
+      "categoryID": 3,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureUniformity",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 150000.0,
+      "categoryID": 6,
+      "display_name": "Signature Radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "scanResolution",
+      "value": 40.0,
+      "categoryID": 6,
+      "display_name": "Scan Resolution",
+      "unit_name": "mm"
+    },
+    {
+      "attribute_name": "maximumRangeCap",
+      "value": 490000.0,
+      "categoryID": 6,
+      "display_name": "Theoretical Maximum Targeting Range",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "upgradeCapacity",
+      "value": 400.0,
+      "categoryID": 7,
+      "display_name": "Calibration",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "rigSlots",
+      "value": 3.0,
+      "categoryID": 1,
+      "display_name": "Rig Slots",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "upgradeSlotsLeft",
+      "value": 3.0,
+      "categoryID": 1,
+      "display_name": "Rig Slots",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "rigSize",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "Rig Size",
+      "unit_name": "1=small 2=medium 3=l"
+    },
+    {
+      "attribute_name": "tierDifficulty",
+      "value": 5.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hackable",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "disallowInHighSec",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Banned in High Sec Space",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "shieldDamageLimit",
+      "value": 135000000.0,
+      "categoryID": 2,
+      "display_name": "Shield Damage Limit (per second)",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorDamageLimit",
+      "value": 75000.0,
+      "categoryID": 3,
+      "display_name": "Armor Damage Limit (per second)",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "structureDamageLimit",
+      "value": 75000.0,
+      "categoryID": 4,
+      "display_name": "Structure Damage Limit (per second)",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "energyWarfareResistance",
+      "value": 1e-05,
+      "categoryID": 36,
+      "display_name": "Capacitor Warfare Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "fighterCapacity",
+      "value": 400000.0,
+      "categoryID": 38,
+      "display_name": "Fighter Hangar Capacity",
+      "unit_name": "m3"
+    },
+    {
+      "attribute_name": "serviceSlots",
+      "value": 7.0,
+      "categoryID": 1,
+      "display_name": "Service Slots",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "sensorDampenerResistance",
+      "value": 1e-05,
+      "categoryID": 36,
+      "display_name": "Sensor Warfare Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "weaponDisruptionResistance",
+      "value": 1e-05,
+      "categoryID": 36,
+      "display_name": "Weapon Disruption Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 1e-05,
+      "categoryID": 36,
+      "display_name": "Stasis Webifier Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "remoteRepairImpedance",
+      "value": 1e-05,
+      "categoryID": 36,
+      "display_name": "Remote Logistics Impedance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "remoteAssistanceImpedance",
+      "value": 1e-05,
+      "categoryID": 36,
+      "display_name": "Remote Electronic Assistance Impedance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "fighterTubes",
+      "value": 5.0,
+      "categoryID": 38,
+      "display_name": "Fighter Squadron Launch Tubes",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "fighterAbilityAntiCapitalMissileResistance",
+      "value": 1.0,
+      "categoryID": 38,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "ECMResistance",
+      "value": 1e-05,
+      "categoryID": 36,
+      "display_name": "ECM Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "tetheringRange",
+      "value": 10000.0,
+      "categoryID": 7,
+      "display_name": "Maximum tethering range",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "structureRoleBonus",
+      "value": 25.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "structureServiceRoleBonus",
+      "value": -25.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "fighterAbilityKamikazeResistance",
+      "value": 1.0,
+      "categoryID": 38,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "fighterStandupLightSlots",
+      "value": 5.0,
+      "categoryID": 38,
+      "display_name": "Standup Light Fighter Squadron Limit",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "fighterStandupSupportSlots",
+      "value": 5.0,
+      "categoryID": 38,
+      "display_name": "Standup Support Fighter Squadron Limit",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "fighterStandupHeavySlots",
+      "value": 5.0,
+      "categoryID": 38,
+      "display_name": "Standup Heavy Fighter Squadrons Limit",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureFullPowerStateHitpointMultiplier",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureAoERoFRoleBonus",
+      "value": -30.0,
+      "categoryID": 37,
+      "display_name": "Bonus to the Rate of Fire of Guided Bomb Launchers and Burst Projectors",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "hiddenMissileDamageMultiplier",
+      "value": 1.0,
+      "categoryID": 30,
+      "display_name": "",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "hiddenArmorHPMultiplier",
+      "value": 1.0,
+      "categoryID": 3,
+      "display_name": "",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "cargoDeliveryRange",
+      "value": 10000.0,
+      "categoryID": 7,
+      "display_name": "Maximum cargo deposit range",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "structurePowerStateArmorPlatingMultiplier",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureRequiresDeedType",
+      "value": 56207.0,
+      "categoryID": 1,
+      "display_name": "Quantum Core Type",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "pauseShieldRepairDpsThreshold",
+      "value": 7500.0,
+      "categoryID": 2,
+      "display_name": "DPS threshold to pause shield repair",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "pauseArmorRepairDpsThreshold",
+      "value": 7500.0,
+      "categoryID": 3,
+      "display_name": "DPS threshold to pause armor repair",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "pauseHullRepairDpsThreshold",
+      "value": 7500.0,
+      "categoryID": 4,
+      "display_name": "DPS threshold to pause hull repair",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b>25%</b> bonus to all structure combat rig effects"
+    },
+    {
+      "content": "<b>25%</b> reduction in citadel service module fuel consumption"
+    },
+    {
+      "content": "<b>30%</b> bonus to the rate of fire and capacitor consumption of Standup Burst Projectors and Guided Bomb Launchers"
+    },
+    {
+      "content": "While this structure has at least one online service module it enters full power mode and will gain increased shield and armor hitpoints and an extra reinforcement cycle"
+    },
+    {
+      "content": "New Keepstars may not be anchored within highsec space"
+    },
+    {
+      "content": "This structure requires a <a href=showinfo:56207>Keepstar Upwell Quantum Core</a> to be installed for anchoring to complete"
+    }
+  ]
+}

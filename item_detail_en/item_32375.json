@@ -1,0 +1,13 @@
+{
+  "type_id": 32375,
+  "name": "Gas Passkey",
+  "description": "This electronic passkey is provided by tutorial agents as part of a capsuleer training programming. It is used to unlock an acceleration gate inside the Gas site training area, where the “Proof of Discovery” documents can be found stored inside containers. The “Proof of Discovery” documents serve as physical evidence that the capsuleer was able to discover a particular type of site. \n\nThis passkey is used to unlock Acceleration gates found inside <b>Gas</b> sites only.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

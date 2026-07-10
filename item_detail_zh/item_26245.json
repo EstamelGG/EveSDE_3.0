@@ -1,0 +1,13 @@
+{
+  "type_id": 26245,
+  "name": "保密研究区的密匙",
+  "description": "这把通行钥匙用于进入禁止对外开放的研究区域空间。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

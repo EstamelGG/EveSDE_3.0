@@ -1,0 +1,13 @@
+{
+  "type_id": 90180,
+  "name": "Pioneer Redemption Token",
+  "description": "Can be traded in for an ORE Pioneer from the right agent at the right station at the right time.",
+  "volume": 0.001,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

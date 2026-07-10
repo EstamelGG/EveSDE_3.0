@@ -1,0 +1,13 @@
+{
+  "type_id": 57479,
+  "name": "Core Temperature Regulator",
+  "description": "Core Temperature Regulators are standardized, supplementary systems used to regulate, mitigate and recycle surplus heat energy developed by naval ship reactor cores.\n\nRefits to empire navy fleets in response to the Triglavian Invasions often increased the overall power requirements of vessels, by upgrading or adding defensive and offensive systems, while not replacing reactor cores or carrying out major upgrades on these complex and valuable components.\n\nAdditional power requirements have entailed running older reactor core designs \"hot\" and core temperature regulators are used to monitor, mitigate and, where practical, recycle surplus heat energy.",
+  "volume": 180.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Construction Components",
+  "attributes": [],
+  "traits": []
+}

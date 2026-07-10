@@ -1,0 +1,13 @@
+{
+  "type_id": 30975,
+  "name": "FedNav F.O.F Identifier Tag AC-106V:FNSBR",
+  "description": "This device is granted to Federation Navy pilots in the Black Rise theatre of operations, where it helps avoid friendly-fire incidents against undercover Gallente pilots flying Caldari and Amarr ships. Once placed inside the cargo bay, it integrates itself through short-range wireless transponders into the host vessel's electronics systems, marking it as a “friendly” to Federation Navy ships.<br><br>Given the obvious exploitability of such a system, these ID tags represent just one part of the Federation Navy's sophisticated F.O.F tracking methods, and any hostile pilots attempting to rely on this alone to infiltrate Federation borders will find that the ruse only lasts so long.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

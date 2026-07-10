@@ -1,0 +1,13 @@
+{
+  "type_id": 44992,
+  "name": "伊甸币",
+  "description": "伊甸币是玩家可以在市场交易的物品。你可以使用伊甸币，在新伊甸商城中将账号升级到欧米伽克隆、购买虚拟物品，并激活其它账号服务。<font size=\"14\"><b>获取伊甸币</b></font>你可以使用星币在市场中购买伊甸币，也可以从伊甸币保险库中取用，或者在<url=https://store.eveonline.com/#plex>https://store.eveonline.com/#plex</url>官方网站中以多种方式获得。<font color=\"#ff3399cc\">提示：新手克隆飞行员不妨将自己购买的伊甸币出售给其他玩家来换取星币！</font><font size=\"14\"><b>使用伊甸币</b></font>你可以使用伊甸币，在新伊甸商城中将账号升级到欧米伽克隆、购买虚拟物品，以及激活其它账号服务。只有存入伊甸币保险库中的货币才能在新伊甸商城中消费。<font size=\"14\"><b>伊甸币保险库</b></font>伊甸币保险库是仓库中的安全装置，同账号下的所有人物都能取用，可以使用其中的伊甸币在新伊甸商城中消费。你可以在窗口左侧地点列表下的仓库中找到伊甸币保险库。",
+  "volume": 0.0002,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "附件",
+  "group_name": "伊甸币",
+  "attributes": [],
+  "traits": []
+}

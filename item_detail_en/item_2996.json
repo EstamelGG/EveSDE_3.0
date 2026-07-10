@@ -1,0 +1,13 @@
+{
+  "type_id": 2996,
+  "name": "Crate of Blue Paradise",
+  "description": "Blue Paradise, also known as “Beep,” is a mild narcotic engineered by Amarr pharmaceutical scientists specifically for use by slave laborers within the Empire. Users of Blue Paradise report feelings of mild euphoria, contentment, relaxation, and generalize pleasure as the primary effects of this drug. These effects typically last between three to five hours, after which the user can be expected to fall into a sound sleep, if taken prior to that user's normal sleep cycle. Furthermore, there have been no significant side effects reported from repeat and prolonged use, making Blue Paradise an extremely promising “reward” for slave laborers. Recreational use of Blue Paradise has not yet been reported, given the limited nature of its distribution only to select Amarr slave labor operations, and no evidence yet exists of addiction to this drug, if administered in a controlled environment.",
+  "volume": 500.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 500.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

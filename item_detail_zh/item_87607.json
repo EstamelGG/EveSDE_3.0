@@ -1,0 +1,13 @@
+{
+  "type_id": 87607,
+  "name": "统治指挥单元",
+  "description": "即使是迷宫复合体的冬眠者无人机，也很少会配备统治指挥单元。这些计算组件与迷宫本身的超空间网络直接相连，以便远程智能体直接进行调整。这对占领流浪者虫洞的势力或其留在新伊甸的军团而言，具有重要意义。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

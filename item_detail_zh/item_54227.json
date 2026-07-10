@@ -1,0 +1,13 @@
+{
+  "type_id": 54227,
+  "name": "融化的太空舱附甲板残片",
+  "description": "这些金属碎片是从一个被摧毁的太空舱中打捞出来的。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

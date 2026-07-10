@@ -1,0 +1,13 @@
+{
+  "type_id": 2888,
+  "name": "加速轨道验证转码器",
+  "description": "加速轨道采用该设备来验证用户身份及相应的时间戳。只要没有该设备或者它遭到了损坏，那加速轨道就不会启用。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 50.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

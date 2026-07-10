@@ -1,0 +1,13 @@
+{
+  "type_id": 73400,
+  "name": "盖伦特解码器包裹",
+  "description": "用于获取<a href=showinfo:73272>加达里监听站</a>的解码器包，将监听盖伦特通信网络。这种特殊接头有时会出现在<b>盖伦特行动中心</b>的<a href=showinfo:73430>盖伦特加密存储库</a>中。只需再花费一些忠诚点，就能前往<a href=showinfo:2//1000180>合众国护卫军</a>的忠诚点商店中兑换加达里监听站。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

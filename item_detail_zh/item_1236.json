@@ -1,0 +1,63 @@
+{
+  "type_id": 1236,
+  "name": "超载喷注系统 II",
+  "description": "这种巨型装置以牺牲货舱容量为前提，大幅增加引擎动力。\n\n注：在一艘舰船上使用多个这类装备或多个与该装备作用一致的类似装备将削弱实际使用效果。",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "装备",
+  "group_name": "超载喷注系统",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "cargoCapacityMultiplier",
+      "value": 0.8,
+      "categoryID": 4,
+      "display_name": "货柜容量加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3394.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 2.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "implantBonusVelocity",
+      "value": 12.5,
+      "categoryID": 7,
+      "display_name": "速度调整",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

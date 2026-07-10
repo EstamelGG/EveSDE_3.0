@@ -1,0 +1,13 @@
+{
+  "type_id": 60486,
+  "name": "节日庆典焰火箱",
+  "description": "打开后可随机获得一款节日发射器和一款庆典焰火。\n\n概率如下：\n\n节日发射器  100%\n庆典焰火 100%",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

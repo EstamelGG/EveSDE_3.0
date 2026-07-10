@@ -1,0 +1,13 @@
+{
+  "type_id": 24441,
+  "name": "Civilians",
+  "description": "Civilians are a group of people who follow the pursuits of civil life.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 23630,
+  "name": "Unassembled Drills",
+  "description": "These drills, are capable of causing more environmental devastation than you can shake an extremely large stick at with both hands. And that's unassembled.",
+  "volume": 12.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2000.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

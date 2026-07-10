@@ -1,0 +1,13 @@
+{
+  "type_id": 49707,
+  "name": "发饰货物（已损坏）",
+  "description": "这个被严重毁坏的箱子里面有一个漂亮的手工制作的发饰的残片，很可惜已无法复原。这个发带上面曾有一对小小的毛茸茸的动物耳朵，所以从这个层面上来讲，它是没法用纳米体粘合剂修复的，时尚感就大打折扣了。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

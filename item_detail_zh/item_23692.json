@@ -1,0 +1,13 @@
+{
+  "type_id": 23692,
+  "name": "荒废的母体芯片",
+  "description": "一块毁坏的超先进无人机母体芯片。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

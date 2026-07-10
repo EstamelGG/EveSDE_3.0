@@ -1,0 +1,76 @@
+{
+  "type_id": 30849,
+  "name": "Class 1 Wolf Rayet Effects",
+  "description": "Local spatial phenomena may cause strange effects on your ship systems.",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Celestial",
+  "group_name": "Effect Beacon",
+  "attributes": [
+    {
+      "attribute_name": "armorHPMultiplier",
+      "value": 1.3,
+      "categoryID": 3,
+      "display_name": "Armor Hitpoint Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "signatureRadiusMultiplier",
+      "value": 0.85,
+      "categoryID": 7,
+      "display_name": "Signature Penalty",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldEmDamageResistanceBonus",
+      "value": 15.0,
+      "categoryID": 2,
+      "display_name": "Shield EM Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldExplosiveDamageResistanceBonus",
+      "value": 15.0,
+      "categoryID": 2,
+      "display_name": "Shield Explosive Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldKineticDamageResistanceBonus",
+      "value": 15.0,
+      "categoryID": 2,
+      "display_name": "Shield Kinetic Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldThermalDamageResistanceBonus",
+      "value": 15.0,
+      "categoryID": 2,
+      "display_name": "Shield Thermal Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "smallWeaponDamageMultiplier",
+      "value": 1.6,
+      "categoryID": 7,
+      "display_name": "Small weapon damage multiplier",
+      "unit_name": "x"
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b>60%</b> bonus to small weapon damage"
+    },
+    {
+      "content": "<b>30%</b> bonus to armor hitpoints"
+    },
+    {
+      "content": "<b>15%</b> reduction in ship signature radius"
+    },
+    {
+      "content": "<b>15%</b> penalty to shield resistances"
+    }
+  ]
+}

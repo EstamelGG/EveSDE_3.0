@@ -1,0 +1,13 @@
+{
+  "type_id": 21815,
+  "name": "Elite Drone AI",
+  "description": "A tiny chip with a modified silicon-extract wafer forming the base for an integrated circuit. The chip stores the code for the elite drone's artificial intelligence.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.01,
+  "category_name": "Material",
+  "group_name": "Rogue Drone Components",
+  "attributes": [],
+  "traits": []
+}

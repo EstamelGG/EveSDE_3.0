@@ -1,0 +1,13 @@
+{
+  "type_id": 30744,
+  "name": "Neural Network Analyzer",
+  "description": "Even millennium old, this bulky piece of equipment shows barely any sign of age. The explosion of the Sleeper drone ferrying it around doesn't seem to have affected it in any way, either. This device was clearly built to last.\n\nA cursory analysis of the software systems within reveals that it operates as some kind of monitoring device. The specialized design suggests it was used to process vast amounts of basic data and identify anomalies.\n\nGiven its age and unique design, there would likely be very few who could make sense of the programming. Those who do recognize the value of such a component, however, would likely be willing to part with a significant sum of ISK to own it.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Sleeper Components",
+  "attributes": [],
+  "traits": []
+}

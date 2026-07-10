@@ -1,0 +1,13 @@
+{
+  "type_id": 24354,
+  "name": "空间航线图",
+  "description": "这张奇怪的地图似乎显示了某种路线，但由于缺少起点和终点，因此它几乎没用。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

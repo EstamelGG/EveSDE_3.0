@@ -1,0 +1,13 @@
+{
+  "type_id": 2220,
+  "name": "Civilian Workers and Dependents",
+  "description": "Civilian workers and their dependents, including men, women, and children.",
+  "volume": 12.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 11.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

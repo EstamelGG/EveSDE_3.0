@@ -1,0 +1,147 @@
+{
+  "type_id": 33700,
+  "name": "林鼠移动式牵引装置",
+  "description": "移动式牵引装置可以替克隆飞行员分担一些在烧焦的残骸中四处搜寻物品的工作，无论是粉碎的小行星、舰船残骸、被击毁的居住舱、还是别的什么，它都能帮得上忙。一经锚定并自动完成启动程序后，它会锁定有效距离内的任意货柜，然后将其一个一个牵引过来并将其中的物品移入自己的货舱内。所以飞行员就只需要一个一个干掉目标就好了，剩下的事由它来做。\n\n有效距离125km。\n启动时间10秒。\n\n不能锚定在下列地点：另一个移动式牵引装置5km范围内、星门或空间站以及昇威建筑50km范围内、母星基地40km范围内。\n被遗弃2天后自动销毁。",
+  "volume": 125.0,
+  "repackaged_volume": null,
+  "capacity": 27000.0,
+  "mass": 10000.0,
+  "category_name": "可部署物品",
+  "group_name": "移动式牵引装置",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40000.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 125000.0,
+      "categoryID": 29,
+      "display_name": "最佳射程",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 30000.0,
+      "categoryID": 7,
+      "display_name": "作用时间/单次运转时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "maxTargetRange",
+      "value": 125000.0,
+      "categoryID": 6,
+      "display_name": "锁定范围上限",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "maxLockedTargets",
+      "value": 1.0,
+      "categoryID": 6,
+      "display_name": "目标锁定数上限加成",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "scanRadarStrength",
+      "value": 150.0,
+      "categoryID": 6,
+      "display_name": "雷达感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanLadarStrength",
+      "value": 150.0,
+      "categoryID": 6,
+      "display_name": "光雷达感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrength",
+      "value": 150.0,
+      "categoryID": 6,
+      "display_name": "磁力感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanGravimetricStrength",
+      "value": 150.0,
+      "categoryID": 6,
+      "display_name": "引力感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "shieldCapacity",
+      "value": 15000.0,
+      "categoryID": 2,
+      "display_name": "护盾容量",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorHP",
+      "value": 15000.0,
+      "categoryID": 3,
+      "display_name": "装甲值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "shieldRechargeRate",
+      "value": 3200000.0,
+      "categoryID": 2,
+      "display_name": "护盾回充时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "shieldUniformity",
+      "value": 0.75,
+      "categoryID": 2,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "armorUniformity",
+      "value": 0.75,
+      "categoryID": 3,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureUniformity",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 500.0,
+      "categoryID": 6,
+      "display_name": "信号半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "maxTractorVelocity",
+      "value": 1250.0,
+      "categoryID": 7,
+      "display_name": "最大牵引速度",
+      "unit_name": "m/s"
+    }
+  ],
+  "traits": []
+}

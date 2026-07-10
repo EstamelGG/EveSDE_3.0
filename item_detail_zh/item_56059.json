@@ -1,0 +1,86 @@
+{
+  "type_id": 56059,
+  "name": "强超阈限异种物质风暴",
+  "description": "",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "天体",
+  "group_name": "效果光束",
+  "attributes": [
+    {
+      "attribute_name": "miningDurationMultiplier",
+      "value": -25.0,
+      "categoryID": 51,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "scanResolutionBonus",
+      "value": 50.0,
+      "categoryID": 37,
+      "display_name": "扫描分辨率加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "warpSpeedBonus",
+      "value": 100.0,
+      "categoryID": 7,
+      "display_name": "跃迁速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "kineticDamageResistanceBonus",
+      "value": 25.0,
+      "categoryID": 7,
+      "display_name": "动能伤害抗性加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorKineticDamageResistanceBonus",
+      "value": 25.0,
+      "categoryID": 3,
+      "display_name": "装甲动能抗性加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldKineticDamageResistanceBonus",
+      "value": 25.0,
+      "categoryID": 2,
+      "display_name": "护盾动能抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorRepairDurationBonus",
+      "value": -25.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "shieldBoosterDurationBonus",
+      "value": -25.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b>25%</b> 舰船动能抗性降低"
+    },
+    {
+      "content": "<b>50%</b> 舰船扫描分辨率加成"
+    },
+    {
+      "content": "<b>25%</b> 采矿激光器循环速度加成"
+    },
+    {
+      "content": "<b>25%</b> 自身<a href=showinfo:3393>装甲维修器</a>和<a href=showinfo:3416>护盾回充增量器</a>循环速度加成"
+    },
+    {
+      "content": "<b>100%</b> 舰船跃迁速度加成"
+    }
+  ]
+}

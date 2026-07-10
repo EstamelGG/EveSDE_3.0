@@ -1,0 +1,13 @@
+{
+  "type_id": 18029,
+  "name": "Freed Slaves",
+  "description": "Slaves recently released from the clutches of Amarrian slavelords.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 400.0,
+  "category_name": "Commodity",
+  "group_name": "Slave Reception",
+  "attributes": [],
+  "traits": []
+}

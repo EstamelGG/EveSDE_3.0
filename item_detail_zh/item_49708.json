@@ -1,0 +1,13 @@
+{
+  "type_id": 49708,
+  "name": "镇静深渊纤维箱",
+  "description": "这个密封的箱子里面有一个随机类型的镇静深渊纤维，可以将你传送到一个深渊空间层中。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

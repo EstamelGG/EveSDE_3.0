@@ -1,0 +1,13 @@
+{
+  "type_id": 16042,
+  "name": "中型密封的货柜",
+  "description": "这些箱子配备了密码保护安全锁。",
+  "volume": 50.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 500.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

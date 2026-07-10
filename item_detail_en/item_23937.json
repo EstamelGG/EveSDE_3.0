@@ -1,0 +1,13 @@
+{
+  "type_id": 23937,
+  "name": "Perpetual Chamber Warden",
+  "description": "A security and surveillance device used to track movement and other activity inside buildings. This one is used to track and record all activity inside the personal chambers of Lord Arachnan.",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

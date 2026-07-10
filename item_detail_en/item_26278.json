@@ -1,0 +1,13 @@
+{
+  "type_id": 26278,
+  "name": "Privileged Guest Pass",
+  "description": "This passkey allows the bearer to enter the Inner Court of this complex.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

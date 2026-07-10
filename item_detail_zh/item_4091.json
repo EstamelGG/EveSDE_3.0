@@ -1,0 +1,13 @@
+{
+  "type_id": 4091,
+  "name": "大箱的外质",
+  "description": "这浓稠的粘液主要由使用过的细胞膜制成，用于制造星舰驾驶员太空舱内的液体。",
+  "volume": 500.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "常用物品",
+  "group_name": "生化有害物",
+  "attributes": [],
+  "traits": []
+}

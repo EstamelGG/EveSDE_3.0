@@ -1,0 +1,13 @@
+{
+  "type_id": 62051,
+  "name": "有古怪建筑的球体",
+  "description": "这是一个不太大的透明穹顶状物品，里面黏稠的液体中漂浮着白色雪花，显然是个装饰性物品。穹顶中有许多微型建筑模型，可能代表着一座城市，一个文明，或一个家园。在球体的底部刻着一行字“隐于暗影”。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

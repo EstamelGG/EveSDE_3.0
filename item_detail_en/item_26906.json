@@ -1,0 +1,13 @@
+{
+  "type_id": 26906,
+  "name": "Slave Manifests",
+  "description": "A Manifest of slave movements in the local area, quantity and quality of stock",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

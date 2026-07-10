@@ -1,0 +1,13 @@
+{
+  "type_id": 22795,
+  "name": "Gallente Corpse",
+  "description": "The corpse of someone with Gallentean ancestry.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

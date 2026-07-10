@@ -1,0 +1,21 @@
+{
+  "type_id": 16680,
+  "name": "Phenolic Composites",
+  "description": "A extremely heat-resistant material used in thrusters and as heat shielding.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Composite",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 2200.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

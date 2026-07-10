@@ -1,0 +1,13 @@
+{
+  "type_id": 28361,
+  "name": "无人机突触线",
+  "description": "自由无人机突触系统的传导线，它可以实现各大帝国科技都无法达到的高能量和信息流承载。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.5,
+  "category_name": "材料",
+  "group_name": "自由无人机组件",
+  "attributes": [],
+  "traits": []
+}

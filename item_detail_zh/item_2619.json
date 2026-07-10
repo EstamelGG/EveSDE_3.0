@@ -1,0 +1,13 @@
+{
+  "type_id": 2619,
+  "name": "装箱的高科技小型枪械",
+  "description": "相对于那些在公开市场上常见的武器来说，这些枪械的质量高出很多，当然也更加的昂贵。\n\n它们被安全网保护着，以免有人在空间站里非法使用这些枪械，大多数小型武器在空间站里都是被禁止的。\n因此很多星域对这种有保护的武器并不进行禁止。",
+  "volume": 80.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

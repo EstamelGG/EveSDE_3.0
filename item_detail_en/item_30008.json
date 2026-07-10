@@ -1,0 +1,21 @@
+{
+  "type_id": 30008,
+  "name": "Reinforced Metallofullerene Alloys",
+  "description": "These ultra-hard alloys are initially created from lanthanum metallofullerenes and heuristic selfassemblers; a combination that makes for an incredibly resilient base material. From there, fulleroferrocene and graphene nanoribbons are integrated into the metals, forming alloys that have unprecedented levels of structural strength. Although they have many uses in the manufacture of armor plating, the distinguishing feature of the alloys is the level of modularity they allow in starship design. A hull section comprised of metallofullerene alloys is able to accommodate a virtually endless array of subsystems around it, no matter how different their shape is.",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Hybrid Tech Components",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

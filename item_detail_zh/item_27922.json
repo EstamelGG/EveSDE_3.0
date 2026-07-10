@@ -1,0 +1,210 @@
+{
+  "type_id": 27922,
+  "name": "锁断者炸弹",
+  "description": "会发出随机的电子脉冲波，有一定几率会对作用范围内飞船的锁定系统造成干扰。",
+  "volume": 75.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "弹药",
+  "group_name": "ECM炸弹",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 50.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "maxVelocity",
+      "value": 4000.0,
+      "categoryID": 17,
+      "display_name": "最大速度",
+      "unit_name": "m/s"
+    },
+    {
+      "attribute_name": "agility",
+      "value": 2.51099909754e-05,
+      "categoryID": 17,
+      "display_name": "惯性调整",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "empFieldRange",
+      "value": 15000.0,
+      "categoryID": 7,
+      "display_name": "效果范围",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "explosionRange",
+      "value": 15000.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "detonationRange",
+      "value": 35.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "emDamage",
+      "value": 7.0,
+      "categoryID": 29,
+      "display_name": "电磁伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "explosiveDamage",
+      "value": 7.0,
+      "categoryID": 29,
+      "display_name": "爆炸伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "kineticDamage",
+      "value": 7.0,
+      "categoryID": 29,
+      "display_name": "动能伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "thermalDamage",
+      "value": 7.0,
+      "categoryID": 29,
+      "display_name": "热能伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "launcherGroup",
+      "value": 862.0,
+      "categoryID": 7,
+      "display_name": "配套使用（发射器类别）",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 28073.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "scanGravimetricStrengthBonus",
+      "value": 12.5,
+      "categoryID": 25,
+      "display_name": "引力ECM干扰强度",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "scanLadarStrengthBonus",
+      "value": 12.5,
+      "categoryID": 25,
+      "display_name": "光雷达ECM干扰强度",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "scanMagnetometricStrengthBonus",
+      "value": 12.5,
+      "categoryID": 25,
+      "display_name": "磁力ECM干扰强度",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "scanRadarStrengthBonus",
+      "value": 12.5,
+      "categoryID": 25,
+      "display_name": "雷达ECM干扰强度",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "armorHP",
+      "value": 240.0,
+      "categoryID": 3,
+      "display_name": "装甲值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 3.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "explosionDelay",
+      "value": 7500.0,
+      "categoryID": 7,
+      "display_name": "最长飞行时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "structureUniformity",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 400.0,
+      "categoryID": 6,
+      "display_name": "信号半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "aimedLaunch",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "aoeCloudSize",
+      "value": 400.0,
+      "categoryID": 7,
+      "display_name": "爆炸半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "disallowInEmpireSpace",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "帝国区禁用",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "remoteResistanceID",
+      "value": 2253.0,
+      "categoryID": 36,
+      "display_name": "",
+      "unit_name": "属性ID"
+    },
+    {
+      "attribute_name": "allowInFullyCorruptedLowSec",
+      "value": 1.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 91413,
+  "name": "罐装量子叠加虫洞",
+  "description": "一个容器，其内部似乎有一个微型虫洞。当你观察时，虫洞似乎全然消失；但当任其自行发展时，容器内部似乎会产生一种非常微小的负压真空。它既承认了虫洞的存在，又没有提供其存在的视觉证据。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

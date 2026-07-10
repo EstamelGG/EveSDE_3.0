@@ -1,0 +1,13 @@
+{
+  "type_id": 40519,
+  "name": "技能提取器",
+  "description": "这个物品可以在空间站中使用，使用时你必须在太空舱中，你可以将指定的500,000技能点从你的人物身上抽取出来，生成一个<a href=showinfo:40520>技能注入器</a>。技能提取完成后，技能提取器将会消失。\n\n\n\n只有技能点数在5,500,000以上的人物才能使用技能提取器。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "附件",
+  "group_name": "服务",
+  "attributes": [],
+  "traits": []
+}

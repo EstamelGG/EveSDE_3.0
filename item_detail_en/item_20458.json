@@ -1,0 +1,13 @@
+{
+  "type_id": 20458,
+  "name": "Gamma Keycard",
+  "description": "This security passcard is manufactured by the Minmatar Fleet and allows the user to unlock a specific acceleration gate to another sector. The gate will remain open for a short period of time and the keycard will be rendered useless after uploading the card's data to the gate's activation device.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 13204,
+  "name": "Sacred Bricks",
+  "description": "Bricks from the Tal-Romon Cathedral, dedicated to the famous saint said to have been clairvoyant. Every brick was blessed by an Apostle, even the mortar was mixed with holy water, ensuring the whole building reeked of divinity. Being in the vicinity of even one of these bricks brings you this much closer to God, so behave now.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

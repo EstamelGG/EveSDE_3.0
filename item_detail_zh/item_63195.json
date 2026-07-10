@@ -1,0 +1,56 @@
+{
+  "type_id": 63195,
+  "name": "屹立防空弹药 I",
+  "description": "这是专为昇威建筑定点防卫炮塔系统设计的防空弹药。这种弹药没有弹壳，由爆炸性锶包合物核芯和超噬矿引信组成，专门适配建筑防御系统。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5.0,
+  "category_name": "弹药",
+  "group_name": "建筑区域拒止弹药",
+  "attributes": [
+    {
+      "attribute_name": "emDamage",
+      "value": 250.0,
+      "categoryID": 29,
+      "display_name": "电磁伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "explosiveDamage",
+      "value": 250.0,
+      "categoryID": 29,
+      "display_name": "爆炸伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "kineticDamage",
+      "value": 250.0,
+      "categoryID": 29,
+      "display_name": "动能伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "thermalDamage",
+      "value": 250.0,
+      "categoryID": 29,
+      "display_name": "热能伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "chargeSize",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "弹药尺寸",
+      "unit_name": "1=小型  2=中型  3=大型"
+    },
+    {
+      "attribute_name": "launcherGroup",
+      "value": 1330.0,
+      "categoryID": 7,
+      "display_name": "配套使用（发射器类别）",
+      "unit_name": "组别ID"
+    }
+  ],
+  "traits": []
+}

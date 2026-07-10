@@ -1,0 +1,21 @@
+{
+  "type_id": 30588,
+  "name": "Wrecked Power Cores",
+  "description": "These ancient power cores have all but succumbed to millennia of neglect and disuse. A few elements of their basic design remain intact, offering a skilled researcher some small hope that the secrets locked away inside may still be reverse engineered into something more functional.",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Ancient Relics",
+  "group_name": "Sleeper Engineering Relics",
+  "attributes": [
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 2201,
+  "name": "Riot Interdiction Team",
+  "description": "Riot Interdiction Teams, or RITs, are the primary Amarrian response forces for incidents involving slave riots and uprisings. These forces are equipped with the latest generations of body armor, stun sticks, flash-bang grenades, and other less-lethal technologies. In those cases where less-lethal force is insufficient, the teams are fully trained and equipped to use lethal force to resolve any such threat. For example, the RITs are often called in to resolve hostage situations in which one or more of the captives has been killed, thus eliminating the need for a phased operation and then transitioning to lethal force contingency operations (i.e., shoot to kill). Therefore, it is of little surprise that they are among the most highly trained Amarr ground forces in hostage rescue operations, and are sometimes called on to act in situations unrelated to slave-based scenarios.",
+  "volume": 30.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 30.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

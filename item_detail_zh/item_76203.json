@@ -1,0 +1,13 @@
+{
+  "type_id": 76203,
+  "name": "星际突变器数据核心",
+  "description": "该数据核心拥有已重建的部分研究与技术累积数据，这些数据由全面掌握星际突变器的建造与控制方法的帝国所收集。星际舰船弹射台必须使用星际突变器提供的资源作为特殊能量，才能维持运行。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.75,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

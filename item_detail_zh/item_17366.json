@@ -1,0 +1,35 @@
+{
+  "type_id": 17366,
+  "name": "空间站集装箱",
+  "description": "这是一具空间站集装箱。它安装了由密码保护的安全锁装置和电脑化的存货审查系统。尽管空间站集装箱的构造与其他货物集装箱的构造很相似，但是由于空间站集装箱非常大，根本无法装载到飞船上，所以只能在空间站里用于储存和货物管理。",
+  "volume": 2000000.0,
+  "repackaged_volume": 10000.0,
+  "capacity": 1000000.0,
+  "mass": 3000000.0,
+  "category_name": "天体",
+  "group_name": "审计安全密码集装箱",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 10000000.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "structureUniformity",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "canBeJettisoned",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "可以被投弃",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

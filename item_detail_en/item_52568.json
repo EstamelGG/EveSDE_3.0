@@ -1,0 +1,13 @@
+{
+  "type_id": 52568,
+  "name": "HyperCore",
+  "description": "<b>HyperCores are used to sell your items on the HyperNet Relay trade network. HyperCores act as a broker’s fee and the amount required is based on the total value of what you will offer on the HyperNet Relay.</b>\n\nThis HyperCore represents a defined quantity of Quantum Entangled 4-Helium that will be used to establish, encrypt and synchronize pairs of HyperNodes on the HyperNet Relay.\n\nA wealth creation, resource exchange and data routing service from PKN Interstellar, the HyperNet Relay prices and synchronizes FTL communications across New Eden.\n\nHyperNet Relay is operated by PKN Cryptographic, a PKN Interstellar corporation.\n\n <i>Creating Value / Connecting Worlds</i>",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 81920,
+  "name": "集成式卫星钻探电枢",
+  "description": "<a href=showinfo:81826>梅特诺克斯卫星钻探</a>的必备组件。和其他量子芯不同，这是建造<a href=showinfo:81826>梅特诺克斯卫星钻探</a>时必备的工业组件，在部署时会自动放入建筑的量子芯槽位。",
+  "volume": 3000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 4000.0,
+  "category_name": "建筑装备",
+  "group_name": "量子芯",
+  "attributes": [],
+  "traits": []
+}

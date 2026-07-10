@@ -1,0 +1,13 @@
+{
+  "type_id": 23551,
+  "name": "FON Contact DNA",
+  "description": "DNA from a member of the Friends of Nature (FON) organization.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 45996,
+  "name": "Exoplanets Hunter Reward Crate",
+  "description": "This is a reward from CONCORD's Project Discovery for participating in their Exoplanets Hunter program.<br><br>This container is hermetically sealed with an electronic locking mechanism, ensuring preservation of its contents in a variety of environments.<br><br>Compromising the seal will cause the container to fully disintegrate while giving access to the items it holds.",
+  "volume": 6000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

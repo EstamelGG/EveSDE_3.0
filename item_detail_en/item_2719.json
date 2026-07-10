@@ -1,0 +1,13 @@
+{
+  "type_id": 2719,
+  "name": "Large Crates of Raggy Dolls",
+  "description": "Known across New Eden for their anatomical correctness and temperature sensitive, dynamic hair coloration, Raggy dolls are always in demand during gift-giving holidays.",
+  "volume": 400.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 400000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

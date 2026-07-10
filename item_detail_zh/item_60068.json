@@ -1,0 +1,63 @@
+{
+  "type_id": 60068,
+  "name": "新舰长核心技能升级许可证",
+  "description": "这款升级许可证专为新手飞行员设计，对出生超过100天的飞行员就不再起效。\n\n升级许可证是一种军用级别的植入体，通过装填脑组织和脑神经来增加知识传输过程中的数据带宽，能在一定时间内极大地增强飞行员的技能增长。\n\n飞行员首次使用此许可证，下一次例行维护后以下技能将被提升至IV级：（若维护时所涉技能已不低于IV级则不会发生变动）\n\n飞船操控学\n导航学\n加力燃烧器原理\n武器升级研究\n电容管理学\n电容系统操作\n机械学\n船体加固理论\n维修系统理论\n护盾管理\n目标锁定训练\n信号分析学\n外科手术打击理论\n弹道分析学\n精确射击理论\n高速射击理论\n航迹预算学\n导弹发射器操作\n导弹动力学\n导弹发射效率\n导弹打击概论\n战斗部升级研究\n无人机概论\n轻型无人机操控理论\n控制论\n生物学",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3402.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 8640000000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 201.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "boosterMaxCharAgeHours",
+      "value": 2400.0,
+      "categoryID": 7,
+      "display_name": "最大飞行员年龄",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "nondestructible",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "无法摧毁",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "followsJumpClones",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "跟随远距克隆",
+      "unit_name": "1=True 0=False"
+    }
+  ],
+  "traits": []
+}

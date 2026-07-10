@@ -1,0 +1,77 @@
+{
+  "type_id": 3412,
+  "name": "太空测量学",
+  "description": "操作远程扫描仪的技能。每升一级，扫描强度提高5%。每升一级，扫描误差降低5%。每升一级，扫描探针扫描时间缩短5%。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "技能",
+  "group_name": "扫描",
+  "attributes": [
+    {
+      "attribute_name": "durationBonus",
+      "value": -5.0,
+      "categoryID": 7,
+      "display_name": "单次运转时间加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "primaryAttribute",
+      "value": 165.0,
+      "categoryID": 7,
+      "display_name": "主属性",
+      "unit_name": "属性ID"
+    },
+    {
+      "attribute_name": "secondaryAttribute",
+      "value": 166.0,
+      "categoryID": 7,
+      "display_name": "副属性",
+      "unit_name": "属性ID"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3402.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "skillTimeConstant",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "训练时间倍增系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 3.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "skillLevel",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "等级",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "scanStrengthBonus",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "探针扫描强度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "maxScanDeviationModifier",
+      "value": -5.0,
+      "categoryID": 7,
+      "display_name": "扫描偏差上限调整",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

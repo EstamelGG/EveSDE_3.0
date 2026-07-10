@@ -1,0 +1,13 @@
+{
+  "type_id": 77946,
+  "name": "义军木马病毒片段",
+  "description": "玛塔利起义军编写的木马病毒片段。病毒切换了传递给受感染设备锁定系统的敌我参数。要弄懂病毒的确切结构和设计，就不得不用到大量片段，但这样才能够帮助艾玛更好地找出对付病毒的方法。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "国土行动物品",
+  "attributes": [],
+  "traits": []
+}

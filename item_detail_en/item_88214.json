@@ -1,0 +1,13 @@
+{
+  "type_id": 88214,
+  "name": "Liberated Barbican Filament Blueprint",
+  "description": "Used to manufacture <a href=showinfo:88205>Liberated Barbican Filaments</a>.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Blueprint",
+  "group_name": "Jump Filament Blueprint",
+  "attributes": [],
+  "traits": []
+}

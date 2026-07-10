@@ -1,0 +1,13 @@
+{
+  "type_id": 32020,
+  "name": "Rahsa's Security Card",
+  "description": "This security card is manufactured by Sansha's Nation and allows the user to unlock a specific acceleration gate.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

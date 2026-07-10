@@ -1,0 +1,13 @@
+{
+  "type_id": 23690,
+  "name": "奇袭无人机导航芯片",
+  "description": "被破坏的无人机的导航芯片。将其通电后显示，该无人机的下一个目的地是：帕查尼尔VI—卫星5。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

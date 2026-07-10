@@ -1,0 +1,13 @@
+{
+  "type_id": 55930,
+  "name": "100K Bounty SCC Encrypted Bond",
+  "description": "This SCC Encrypted Bond can be sold for 100,000 ISK at CONCORD stations.\n\nEncrypted bonds are a well-established means of securing ISK and for transferring large amounts of currency without providing unlimited access to accounting databases.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Bounty Encrypted Bonds",
+  "attributes": [],
+  "traits": []
+}

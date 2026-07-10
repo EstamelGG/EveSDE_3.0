@@ -1,0 +1,13 @@
+{
+  "type_id": 29485,
+  "name": "Kuashi",
+  "description": "Two moderately ornate sticks ending in sharp points, with two-inch serrated blades along the forward edge, kuashi are used as eating utensils by the Jin-Mei people (and in fact their use has become common throughout the Caldari State). They are versatile implements, used to pick up small morsels or to stab larger items on their points (and even, among less couth folk, to cut portions away from platters of food). When the point is used to stab, the serrated edges help keep the largest mouthfuls attached to the sticks, thus avoiding clumsy faux pas. <br><br>\n\nIn some modern kuashi, tiny magnets are inset into the pointed tips to help the wielder keep them together (and thus to keep food properly pinned between), with pressure sensors in the dull ends determining their level of magnetism.",
+  "volume": 0.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 50.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

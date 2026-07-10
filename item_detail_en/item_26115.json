@@ -1,0 +1,13 @@
+{
+  "type_id": 26115,
+  "name": "Informant",
+  "description": "This informant is rumoured to know the whereabouts of the evil Thukker lord, Martokar Alash.",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 33066,
+  "name": "新伊甸八音盒",
+  "description": "这是一个古旧的音乐播放装置，看来已经有些年头了。它不但外壳裂开了，内部的线圈和回路也变得松散，而且还丢失了一些能源核心。人们试图修复这个奇怪的装置，但是都失败了，它现在只能发出震耳欲聋的单调噪音。还是把它扔一边去吧。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 87273,
+  "name": "Breaking Point Parameters",
+  "description": "Data modelling the responses of individuals observed by a Destructive Scrutinizer. The data has been structured so as to provide parameters for a detailed simulation. Such information would be valuable to scientists and intelligence groups alike.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

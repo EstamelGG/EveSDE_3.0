@@ -1,0 +1,21 @@
+{
+  "type_id": 25588,
+  "name": "烧毁的遥感探测处理器",
+  "description": "一种在制造导弹发射器中使用的专业系统。这个系统已被火焰或爆炸损坏。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "打捞材料",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

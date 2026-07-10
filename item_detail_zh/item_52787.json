@@ -1,0 +1,77 @@
+{
+  "type_id": 52787,
+  "name": "中级仿生 - 伽玛型",
+  "description": "这款神经增效体是由统合部的武器技术专家对标准型克隆飞行员植入体进行改造而来，通过对三神裔武器技术逆向工程后加以模仿，提高了武器威力，但最大粒子束输出有所降低。\n\n\n\n不过，宇宙中的克隆飞行员群体中一直传言称研制这种植入体的科研小组由理性思维社团主导，并在所谓的“受限性人工智能”领域颇有所长。这种植入体可能基于受限性人工智能技术，这就进一步提出了所谓的“仿生”的本质到底是什么的问题。\n\n\n\n主要效果：毅力属性值增加3\n\n\n\n次要效果：熵能分解者的最大伤害输出提高2.25%\n\n\n\n三级效果：熵能分解者每循环的伤害提高系数降低0.33%\n\n\n\n套件效果：所有“仿生”植入体次要效果增加20%",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "脑植入体",
+  "attributes": [
+    {
+      "attribute_name": "willpowerBonus",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "毅力调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3411.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 3.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "implantness",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "植入体槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 9.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "damageMultiplierBonusMaxModifier",
+      "value": 2.25,
+      "categoryID": 29,
+      "display_name": "最大伤害加成系数调整",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "damageMultiplierBonusPerCycleModifier",
+      "value": -0.33,
+      "categoryID": 29,
+      "display_name": "每循环伤害系数加成调整",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "setBonusMimesis",
+      "value": 1.2,
+      "categoryID": 7,
+      "display_name": "植入体套装加成",
+      "unit_name": "x"
+    }
+  ],
+  "traits": []
+}

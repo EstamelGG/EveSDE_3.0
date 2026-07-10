@@ -1,0 +1,13 @@
+{
+  "type_id": 17910,
+  "name": "星门废墟的密码",
+  "description": "这块密码卡可以打开天使军事复合体的第二死亡空间的任何加速轨道。轨道会打开一小段时间，使用密码卡后，密码卡会自我销毁，所以请慎重使用。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

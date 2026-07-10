@@ -1,0 +1,13 @@
+{
+  "type_id": 90180,
+  "name": "开拓者级兑换凭证",
+  "description": "可以在规定时间内，前往相关地点的对应代理人处兑换联合矿业开拓者级。",
+  "volume": 0.001,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

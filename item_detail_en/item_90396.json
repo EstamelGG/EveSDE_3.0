@@ -1,0 +1,13 @@
+{
+  "type_id": 90396,
+  "name": "Blood Raider Crate",
+  "description": "A cache of Blood Raider spoils, always includes a ship blueprint copy.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

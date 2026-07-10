@@ -1,0 +1,13 @@
+{
+  "type_id": 28091,
+  "name": "Caldari Advanced Outpost Factory",
+  "description": "An advanced upgrade to Caldari Outpost manufacturing capabilities. Gives 1% Material Efficiency reduction to all manufacturing jobs (stacks with all other improvements of the same type) and increases the manufacturing time reduction on all Tech II components to 60%.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Accessories",
+  "group_name": "Outpost Improvements",
+  "attributes": [],
+  "traits": []
+}

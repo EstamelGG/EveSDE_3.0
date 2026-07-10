@@ -1,0 +1,28 @@
+{
+  "type_id": 29148,
+  "name": "女性尸骸",
+  "description": "",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80.0,
+  "category_name": "天体",
+  "group_name": "生物质",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 10.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 50.0,
+      "categoryID": 6,
+      "display_name": "信号半径",
+      "unit_name": "m"
+    }
+  ],
+  "traits": []
+}

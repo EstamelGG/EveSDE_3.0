@@ -1,0 +1,13 @@
+{
+  "type_id": 2957,
+  "name": "一箱经工厂返修过的采矿无人机",
+  "description": "这些无人机的涂装看似漂亮，其实还是有着表面生锈与破损的痕迹。它们可能无法像客户预期的那样有效运作。",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

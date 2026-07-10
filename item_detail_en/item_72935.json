@@ -1,0 +1,56 @@
+{
+  "type_id": 72935,
+  "name": "Dense Moissanite",
+  "description": "This dense variant of Moissanite ore is especially prized by Gallente engineers for use in large-scale construction projects. Recent advances in system-wide ore scanning technology has enabled the federation to detect hidden asteroid clusters containing this ore.\n\nThe Gallente Federation has requested capsuleer assistance in helping them mine Dense Moissanite deposits within the <url=showinfo:4//20000563>Serthoulde</url> constellation and depositing the ore in the Federation Ore Refinery structure within the Federation Gate Construction Site in the <url=showinfo:5//30003856>Athounon</url> system.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 4000.0,
+  "category_name": "Asteroid",
+  "group_name": "Empire Asteroids",
+  "attributes": [
+    {
+      "attribute_name": "asteroidRadiusGrowthFactor",
+      "value": 3.5,
+      "categoryID": 31,
+      "display_name": "Asteroid radius size multiplier",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "Stasis Webifier Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 72902.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "ignoreMiningWaste",
+      "value": 1.0,
+      "categoryID": 51,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "ignoreMiningCrits",
+      "value": 1.0,
+      "categoryID": 51,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

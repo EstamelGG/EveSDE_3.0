@@ -1,0 +1,49 @@
+{
+  "type_id": 2544,
+  "name": "Barren Launchpad",
+  "description": "The barren launchpad is able to send and receive payloads from orbit. Because of the relatively calm atmospheric conditions of most barren planets, the primary focus of this facility is on interfacing effectively with adjacent facilities, allowing for passengers and commodities to be easily organized, scanned, and transported to the appropriate areas. The obvious importance of a centralized spaceport often leads to its becoming a focal point of local culture, including trade, entertainment, and even illegal activities.",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": 10000.0,
+  "mass": null,
+  "category_name": "Planetary Industry",
+  "group_name": "Spaceports",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 700.0,
+      "categoryID": 7,
+      "display_name": "Power Load",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 3600.0,
+      "categoryID": 9,
+      "display_name": "CPU Load",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 2016.0,
+      "categoryID": 7,
+      "display_name": "Planet Type Restriction",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "importTax",
+      "value": 0.5,
+      "categoryID": 7,
+      "display_name": "Import Tax",
+      "unit_name": "ISK"
+    },
+    {
+      "attribute_name": "exportTax",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Export Tax",
+      "unit_name": "ISK"
+    }
+  ],
+  "traits": []
+}

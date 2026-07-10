@@ -1,0 +1,13 @@
+{
+  "type_id": 21454,
+  "name": "巨鸟级零件",
+  "description": "这些板条箱里装着巨鸟级巡洋舰的零件。",
+  "volume": 30.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 128000.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

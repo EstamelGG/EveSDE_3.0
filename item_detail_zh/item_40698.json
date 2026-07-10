@@ -1,0 +1,203 @@
+{
+  "type_id": 40698,
+  "name": "目标照明脉冲波投射器",
+  "description": "发射以指定位置为中心的区域爆炸效果。这种脉冲波向受影响舰船投射电子标记从而使它们更容易被锁定和击中。 \n\n\n\n注：只有超级航母可以装配这类装备。且一艘超级航母只能装配一件这类装备。",
+  "volume": 8000.0,
+  "repackaged_volume": 2000.0,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "装备",
+  "group_name": "脉冲波投射器",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 8250.0,
+      "categoryID": 5,
+      "display_name": "启用耗电量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 99999.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 100000.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 100.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 500000.0,
+      "categoryID": 29,
+      "display_name": "最佳射程",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 27911.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "signatureRadiusBonus",
+      "value": 35.0,
+      "categoryID": 21,
+      "display_name": "信号半径修正值",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "consumptionType",
+      "value": 16272.0,
+      "categoryID": 7,
+      "display_name": "消耗类型",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "consumptionQuantity",
+      "value": 250.0,
+      "categoryID": 7,
+      "display_name": "消耗量",
+      "unit_name": "单位"
+    },
+    {
+      "attribute_name": "maxGroupActive",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "disallowEarlyDeactivation",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "disallowRepeatingActivation",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "无法自动重复",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "canFitShipGroup01",
+      "value": 659.0,
+      "categoryID": 1,
+      "display_name": "只能装配在",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "maxGroupFitted",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "该武器组所允许的最大装备数量",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "remoteResistanceID",
+      "value": 2114.0,
+      "categoryID": 36,
+      "display_name": "",
+      "unit_name": "属性ID"
+    },
+    {
+      "attribute_name": "doomsdayWarningDuration",
+      "value": 10000.0,
+      "categoryID": 39,
+      "display_name": "预热持续时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "isPointTargeted",
+      "value": 1.0,
+      "categoryID": 6,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "doomsdayAOERange",
+      "value": 10000.0,
+      "categoryID": 39,
+      "display_name": "AOE范围",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "doomsdayAOEDuration",
+      "value": 60000.0,
+      "categoryID": 39,
+      "display_name": "AOE持续时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "doomsdayAOESignatureRadius",
+      "value": 0.0,
+      "categoryID": 39,
+      "display_name": "AOE信号半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "disallowDocking",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "不允许停靠",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "durationTargetIlluminationBurstProjector",
+      "value": 300000.0,
+      "categoryID": 7,
+      "display_name": "作用时间/单次运转时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "doomsdayAOEShape",
+      "value": 4.0,
+      "categoryID": 39,
+      "display_name": "超级武器效果形状",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "doomsdayRangeIsFixed",
+      "value": 0.0,
+      "categoryID": 39,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

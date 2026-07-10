@@ -1,0 +1,13 @@
+{
+  "type_id": 42,
+  "name": "五香酒",
+  "description": "奢侈品总是星际贸易的抢手商品。香料酒不是最稀有的奢侈品，但是它却仍然可以在本身并不生产它的小型哨站和基地里出售。",
+  "volume": 0.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 500.0,
+  "category_name": "常用物品",
+  "group_name": "消费品",
+  "attributes": [],
+  "traits": []
+}

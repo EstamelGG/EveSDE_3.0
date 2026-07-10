@@ -1,0 +1,13 @@
+{
+  "type_id": 62048,
+  "name": "一袋明胶糖果",
+  "description": "这是一罐糖果，混合了葡萄糖和果糖口味。每块色彩鲜艳的糖果都用明胶制成了人类孩童的样子。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 21784,
+  "name": "Hybrid Weapon Assembly Instructions",
+  "description": "A set of manuals containing instructions on how to assemble hybrid weapons out of component parts.",
+  "volume": 0.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

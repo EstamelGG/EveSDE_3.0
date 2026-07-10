@@ -1,0 +1,13 @@
+{
+  "type_id": 57468,
+  "name": "承压式神经链接稳定器",
+  "description": "压力触发式神经链接稳定器是一种非常先进的化学装置，联邦海军将它与军用型克隆飞行员神经链接技术配合使用。\n\n\n\n各大帝国都将自己的神经链接稳定器与特定的自主生物系统相关联。这样为植入体和太空舱系统保持克隆飞行员与舰载系统的神经链接稳定同步提供了基础和触发条件。",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "分子熔铸材料",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,21 @@
+{
+  "type_id": 86177,
+  "name": "SCARAB Breacher Pod M Blueprint",
+  "description": "",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Blueprint",
+  "group_name": "Hybrid Charge Blueprint",
+  "attributes": [
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    }
+  ],
+  "traits": []
+}

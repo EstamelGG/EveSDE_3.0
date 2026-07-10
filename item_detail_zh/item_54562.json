@@ -1,0 +1,13 @@
+{
+  "type_id": 54562,
+  "name": "克拉克氏改良型无人机控制单元",
+  "description": "这是一个彻头彻尾改良过的标准型盖伦特无人机控制单元。进一步检测显示，与帝国使用的标准型相比，它能控制的无人机体型要大得多，也精密得多。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "材料",
+  "group_name": "已命名组件",
+  "attributes": [],
+  "traits": []
+}

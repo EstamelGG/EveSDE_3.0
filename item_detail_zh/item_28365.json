@@ -1,0 +1,13 @@
+{
+  "type_id": 28365,
+  "name": "无人机表皮块",
+  "description": "一块自由无人机的防护外皮，它比标准无人机外壳的抗性更高，弹性更好，也更薄更耐用。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5.0,
+  "category_name": "材料",
+  "group_name": "自由无人机组件",
+  "attributes": [],
+  "traits": []
+}

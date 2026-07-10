@@ -1,0 +1,21 @@
+{
+  "type_id": 25619,
+  "name": "Logic Circuit",
+  "description": "An \"Aphid\" logic circuit. The nickname is derived from the unfortunate acronym of autonomous field programmable holographic signal processor with embedded holographic data storage.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Salvaged Materials",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 29945,
+  "name": "Network Decryption Analyzer",
+  "description": "This strange-looking piece of equipment was discovered unharmed amid the shattered hull of Guristas Lieutenant Sukkenen Fusura's vessel. Although baffling in its complexity, it is clearly used as a tool to breach secure networks. All the software appears to be proprietary, however. Without some way to understand even the basic functionality or system design there is little chance of using the device, let alone reverse-engineering it.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

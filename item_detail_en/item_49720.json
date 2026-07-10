@@ -1,0 +1,13 @@
+{
+  "type_id": 49720,
+  "name": "Structure EXERT Conduit Coupler",
+  "description": "A novel structure component developed by the Upwell Consortium and used in the construction of faster-than-light transport devices such as jump gates.\n\nThe EXERT Conduit Coupler is derived from experiments based on analysis of Triglavian spatiotemporal filament and conduit gate technology. While replication of Triglavian FTL transport technology has proved challenging, a method of enhancing the establishment of stable wormhole links between point-to-point devices, like jump gates, has been developed using the so-called \"exotic entangled reaction transmission\" principle.\n\nThe EXERT Conduit Coupler has been integrated into the improved jump gate technology offered by Upwell to capsuleer end-users.",
+  "volume": 3000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000.0,
+  "category_name": "Commodity",
+  "group_name": "Structure Components",
+  "attributes": [],
+  "traits": []
+}

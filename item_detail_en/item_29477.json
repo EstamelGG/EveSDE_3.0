@@ -1,0 +1,13 @@
+{
+  "type_id": 29477,
+  "name": "Number Box",
+  "description": "This construction, consisting of rows of pellets set onto colorful pins, once allowed Ni-Kunni mathematicians and natural philosophers to perform highly complex calculations. Its use faded into memory, as most things do, only to be rediscovered as a tool with which to teach students the particulars of certain highly abstract three-dimensional calculations required for space flight. <br><br>\n\nThe number box's pins are placed both horizontally and vertically, so the pellets can be slid along a triple axis; the box is also, to the relief of some teachers, heavy and solid enough to hit a student firmly over the head if he still can't grasp the math.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

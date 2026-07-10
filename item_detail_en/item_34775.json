@@ -1,0 +1,13 @@
+{
+  "type_id": 34775,
+  "name": "CSM 7 Electee Archive Script",
+  "description": "A secure holographic datapad, used to access the CONCORD public information database.\n \n \n//archive_yulai8_ict -search\n>SEARCH INITIATED\n>SEARCH SEQUENCE... COMPLETE\n//archive_csm -search\n>ARCHIVE SEARCH... COMPLETE\n>LOADING... COMPLETE \n \nCouncil of Stellar Management 7 electees:\n \n<url=showinfo:1377//725386886>Alekseyev Karrde</url>\n<url=showinfo:1376//874265450>Darius III</url>\n<url=showinfo:1377//907617205>Dovinian</url>\n<url=showinfo:1383//820303498>Elise Randolph</url>\n<url=showinfo:1383//546647940>Greene Lee</url>\n<url=showinfo:1379//310590714>Hans Jagerblitzen</url>\n<url=showinfo:1386//179116309>Issler Dainze</url>\n<url=showinfo:1375//728763157>Kelduum Revaan</url>\n<url=showinfo:1386//1271256719>Meissa Anunthiel</url>\n<url=showinfo:1379//465739014>Seleene</url>\n<url=showinfo:1377//1036406382>Trebor Daehdoow</url>\n<url=showinfo:1373//960494793>Two step</url>\n<url=showinfo:1378//121154444>UAxDEATH</url>",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

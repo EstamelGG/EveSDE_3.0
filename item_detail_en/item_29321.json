@@ -1,0 +1,13 @@
+{
+  "type_id": 29321,
+  "name": "Broken Mining Equipment",
+  "description": "This large container is fitted with a password-protected security lock. It is filled with broken parts needed to rebuild manual surface-mining drills.",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 700.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

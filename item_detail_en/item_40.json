@@ -1,0 +1,13 @@
+{
+  "type_id": 40,
+  "name": "Megacyte",
+  "description": "An extremely rare mineral found in comets and very occasionally in asteroids that have traveled through gas clouds. Has unique explosive traits that make it very valuable in the armaments industry.\n\nMay be obtained by reprocessing <a href=showinfo:22>arkonor</a> ore and its variations which are available in null security status and wormhole systems.\n\nSignificant amounts of megacyte are also present in rare ores like <a href=showinfo:19>spodumain</a>, <a href=showinfo:52316>bezdnacine</a>, and <a href=showinfo:52306>talassonite</a>.\n\nThe rare ore <a href=showinfo:74533>ducinium</a> also contains significant quantities and is found primarily in nullsec and W-space systems containing A0 (Blue Small) stars, as well as surveyed locations on the borders of empire and nullsec space.\n\nMegacyte can also be found in null security status star systems in <a href=showinfo:82205>ueganite</a>.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Mineral",
+  "attributes": [],
+  "traits": []
+}

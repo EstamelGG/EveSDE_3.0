@@ -1,0 +1,13 @@
+{
+  "type_id": 47961,
+  "name": "Genolution CA-X",
+  "description": "This palm-sized capsule contains a single 'Core Augmentation' implant. Some speculation about the age of the containers suggests that Genolution may have kept these to be given out at a later time, however there is no doubt that the contents have been well-protected.\n\nThis randomly contains one of the following four implants:\n<a href=showinfo:2082>Genolution Core Augmentation CA-1</a>\n<a href=showinfo:2589>Genolution Core Augmentation CA-2</a>\n<a href=showinfo:33393>Genolution Core Augmentation CA-3</a>\n<a href=showinfo:33394>Genolution Core Augmentation CA-4</a>",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

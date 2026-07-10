@@ -1,0 +1,21 @@
+{
+  "type_id": 34414,
+  "name": "失灵的小型船体舱段",
+  "description": "这些冬眠者舰船的小块船体漂浮在冬眠者据点的废墟中，可以说是一项重大的考古发现。这些船体非常稀有，已被周围的环境腐蚀。尽管它肯定设计用于抵抗太空中的严苛环境，但许久暴露在这样的环境中还是给它造成了严重损害，使它的许多功能都已丧失了。 \n\n不过即使这样，它仍然是研究冬眠者舰船建造方法的上佳对象。出色的科学家也许能从中提取出足够的信息来进行逆向工程研究。",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "古文物",
+  "group_name": "冬眠者船体",
+  "attributes": [
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

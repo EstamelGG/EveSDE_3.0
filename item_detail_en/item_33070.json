@@ -1,0 +1,13 @@
+{
+  "type_id": 33070,
+  "name": "New Eden Open Gold Medal",
+  "description": "Awarded to the first place team in the New Eden Open.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

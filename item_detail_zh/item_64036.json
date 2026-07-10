@@ -1,0 +1,13 @@
+{
+  "type_id": 64036,
+  "name": "克隆飞行员之日DED增效剂箱",
+  "description": "这个箱子中装有一些可交易的限时增效剂，由DED下发给旗下的缉私特遣队使用。\n增效剂的过期时间为YC124年7月12日。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

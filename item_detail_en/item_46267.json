@@ -1,0 +1,13 @@
+{
+  "type_id": 46267,
+  "name": "A3 Industrial Package",
+  "description": "This crate contains an industrial ship. Unfortunately the instruction manual for unpacking and assembling the ship seems to be missing.",
+  "volume": 50000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

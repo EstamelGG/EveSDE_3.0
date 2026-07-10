@@ -1,0 +1,13 @@
+{
+  "type_id": 90609,
+  "name": "Exigent Mining Drone Mutaplasmid",
+  "description": "This bioadaptive mutaplasmid tool is designed to colonize and radically alter mining drones.\n\nIt shares elements of both Triglavian and rogue drone technologies. Originally used to alter the performance of various pieces of technology, it has been altered to specifically target mining drones.\n\nTriglavian bioadaptive technology makes extensive use of engineered colonies of extremophilic bacteria, that are used to grow, harvest and adapt various resources found in Abyssal Deadspace. Artificial colonizing plasmids integrated into specialist tools used for direct adaptation of technology can be found in Triglavian caches in various stages of development. These mutaplasmids can be used to alter the characteristics of a wide variety of equipment types, depending on the strain and the bioadaptive tool with which they are integrated.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Mutaplasmids",
+  "attributes": [],
+  "traits": []
+}

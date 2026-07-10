@@ -1,0 +1,13 @@
+{
+  "type_id": 32265,
+  "name": "螺旋硬币",
+  "description": "这座螺旋设施的奇妙之处就在于他的进出系统。在这个设施工作的人不接受星币或者其他任何行星的货币。相反，他们只接受螺旋硬币。这种专门设计并且制作精美的铜币，可以从螺旋设施的所有者那里购得。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,28 @@
+{
+  "type_id": 34563,
+  "name": "斯威普级蓝图",
+  "description": "这艘米玛塔尔战术驱逐舰问世于YC117年，在87位飞行员的鼎力协助下研发，取名为斯威普级。以下飞行员做出过杰出贡献：\n\nLotrec Emetin\nRobert Warner\nDr Scott\nEsrevid Nekkeg\nSambaSol\nNrone3 Agalder\nMyronik\nLynnu\nMaataak\nShalmon Aliatus",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "蓝图",
+  "group_name": "战术驱逐舰蓝图",
+  "attributes": [
+    {
+      "attribute_name": "techLevel",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 600.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

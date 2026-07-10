@@ -1,0 +1,21 @@
+{
+  "type_id": 79996,
+  "name": "Expired Sinister Exotic Filament",
+  "description": "This Abyssal Filament will pull <b>up to two T1 Cruisers</b> into a pocket of Abyssal Deadspace with an environment saturated with exotic particles that will <b>reduce kinetic resistance</b> but <b>enhance scan resolution</b>.\n\nSOCT scientists have detected a substantial energy surge in this region of Abyssal Deadspace, pointing to a recent large-scale battle. Ongoing activity indicates the presence of several vessels. The SOCT calls upon capsuleers to deploy battle-fitted cruisers and investigate, with the goal of recovering valuable technology and data.\n\nAs the conduits are in collapse, space and time around them have become warped to the point of being insulated entirely. As a result, exiting the safe space via one side will appear like entering it from the other.\n\nThe pocket is categorized as 'easy' and should be manageable even for those with limited combat experience.\n\n<b><color=yellow>Warning:</color></b> Abyssal Deadspace is a particularly harsh and unforgiving environment. After <b><color=yellow>30 minutes</color></b> catastrophic collapse of the warp field is predicted, with <b><color=yellow>destruction of the ship and capsule</color></b> certain.\n\nTriglavian Origin Conduits will permit the activating ship to return to normal space.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Commodity",
+  "group_name": "Expired Abyssal Battlefields Filaments",
+  "attributes": [
+    {
+      "attribute_name": "FilamentDescriptionMessageID",
+      "value": 561098.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

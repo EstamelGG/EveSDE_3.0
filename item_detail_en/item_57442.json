@@ -1,0 +1,13 @@
+{
+  "type_id": 57442,
+  "name": "Counter-Subversion Sensor Array",
+  "description": "Counter-Subversion Sensor Arrays are a component used to harden supercapital ship systems against hostile information warfare and subversion efforts. Highly advanced versions of these arrays are incorporated in the most secure capsuleer neurolink protection technologies used by naval capital pilots.",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

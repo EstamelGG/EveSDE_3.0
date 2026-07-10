@@ -1,0 +1,13 @@
+{
+  "type_id": 62032,
+  "name": "时间水晶振荡器",
+  "description": "这个装置很明显是一种所谓的“时间晶体”之类的物质的实际应用产物，粒子通过一种特殊的周期性结构量子系统来跨越时空。\n\n\n\n时间晶体的特殊属性可以用来准确地定位时空坐标，不受时空畸变产生的熵能扭曲的影响。这个时间晶体振荡器似乎是用来保持时空数据同步的工具。",
+  "volume": 0.005,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "奇特材料",
+  "attributes": [],
+  "traits": []
+}

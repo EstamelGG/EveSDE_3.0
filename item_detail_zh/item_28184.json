@@ -1,0 +1,13 @@
+{
+  "type_id": 28184,
+  "name": "2级升级",
+  "description": "针对艾玛哨站生产能力的高级升级方案。增加九个生产槽位，所有一级科技飞船生产时间减少60%。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "附件",
+  "group_name": "哨站升级",
+  "attributes": [],
+  "traits": []
+}

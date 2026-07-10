@@ -1,0 +1,13 @@
+{
+  "type_id": 17827,
+  "name": "天蛇员工通行卡",
+  "description": "这张通行卡由天蛇集团分发，允许使用者打开通往中央库房的特定加速轨道。轨道会打开一小段时间，通行钥匙在将钥匙数据上传到轨道激活设备后，就会失去效用。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

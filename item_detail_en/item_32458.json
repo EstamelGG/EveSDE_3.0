@@ -1,0 +1,56 @@
+{
+  "type_id": 32458,
+  "name": "Sovereignty Hub",
+  "description": "Developed by the Upwell Consortium, the sovereignty hub is the pinnacle of null security space management technology. With its modular upgrade infrastructure and energy capture capabilities, a sovereignty hub generates ample power to establish a claim and begin moving necessary workforce. Additionally, installing <a href=showinfo:81080>orbital skyhooks</a> on nearby planets allows a sovereignty hub to maintain further upgrades that can satisfy a variety of diverse needs.\n\nTo initiate a claim on a star system, deploy the sovereignty hub near a star and target it with an Entosis Link until your alliance gains full control. Only members of a valid capsuleer alliance can deploy and take control of a sovereignty hub. One hub is the maximum allowed in any star system, and they cannot be deployed in systems under non-capsuleer sovereignty or in wormhole space.",
+  "volume": 60000.0,
+  "repackaged_volume": null,
+  "capacity": 10000.0,
+  "mass": 1000000.0,
+  "category_name": "Sovereignty Structures",
+  "group_name": "Sovereignty Hub",
+  "attributes": [
+    {
+      "attribute_name": "scanRadarStrength",
+      "value": 25.0,
+      "categoryID": 6,
+      "display_name": "RADAR Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanLadarStrength",
+      "value": 25.0,
+      "categoryID": 6,
+      "display_name": "Ladar Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrength",
+      "value": 25.0,
+      "categoryID": 6,
+      "display_name": "Magnetometric Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanGravimetricStrength",
+      "value": 25.0,
+      "categoryID": 6,
+      "display_name": "Gravimetric Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 4000.0,
+      "categoryID": 6,
+      "display_name": "Signature Radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "tierDifficulty",
+      "value": 5.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

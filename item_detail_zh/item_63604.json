@@ -1,0 +1,168 @@
+{
+  "type_id": 63604,
+  "name": "寂静B-4增效剂",
+  "description": "领取后立即生效。基础持续时间：2小时。护盾抗性提高4%，跃迁速度和跃迁加速提高4%，炮台最佳射程和失准范围增加4%，导弹飞行时间提高4%，电弧弦投射器最佳射程增加4%，电容器电量提高4%，无人机HP提高4%，采矿激光器和冰矿采集器的单次运转时间降低4%，扫描分辨率提高8%，感应强度提高8%，数据分析仪的病毒同步率+16",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "rangeSkillBonus",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "最佳射程调整",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "hullHpBonus",
+      "value": 4.0,
+      "categoryID": 4,
+      "display_name": "HP加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 7200000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "armorHpBonus",
+      "value": 4.0,
+      "categoryID": 3,
+      "display_name": "装甲值加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldCapacityBonus",
+      "value": 4.0,
+      "categoryID": 2,
+      "display_name": "护盾容量加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "falloffBonus",
+      "value": 4.0,
+      "categoryID": 37,
+      "display_name": "失准范围加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "maxFlightTimeBonus",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "飞行时间加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanResolutionBonus",
+      "value": 8.0,
+      "categoryID": 37,
+      "display_name": "扫描分辨率加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "WarpSBonus",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "跃迁速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "iceHarvestCycleBonus",
+      "value": -4.0,
+      "categoryID": 7,
+      "display_name": "循环时间加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "passiveEmDamageResistanceBonus",
+      "value": -4.0,
+      "categoryID": 7,
+      "display_name": "被动电磁伤害抗性加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "passiveExplosiveDamageResistanceBonus",
+      "value": -4.0,
+      "categoryID": 7,
+      "display_name": "被动爆炸伤害抗性加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "passiveKineticDamageResistanceBonus",
+      "value": -4.0,
+      "categoryID": 7,
+      "display_name": "被动动能伤害抗性加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "passiveThermicDamageResistanceBonus",
+      "value": -4.0,
+      "categoryID": 7,
+      "display_name": "被动热能伤害抗性加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanGravimetricStrengthPercent",
+      "value": 8.0,
+      "categoryID": 7,
+      "display_name": "引力强度",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanLadarStrengthPercent",
+      "value": 8.0,
+      "categoryID": 7,
+      "display_name": "光雷达强度",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrengthPercent",
+      "value": 8.0,
+      "categoryID": 7,
+      "display_name": "磁力强度",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanRadarStrengthPercent",
+      "value": 8.0,
+      "categoryID": 7,
+      "display_name": "雷达强度",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "capacitorCapacityBonus",
+      "value": 4.0,
+      "categoryID": 5,
+      "display_name": "电容量调整",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "virusCoherenceBonus",
+      "value": 16.0,
+      "categoryID": 9,
+      "display_name": "病毒同步率加成",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

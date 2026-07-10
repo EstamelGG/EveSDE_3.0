@@ -1,0 +1,13 @@
+{
+  "type_id": 87269,
+  "name": "泰克顿分叉数据包",
+  "description": "这份数据包记录了泰克顿流浪者意识副本中可回收的全部内容。虽然明显属于合成起源而非有机起源，但数据包显示出与那些从简单构造体中进化或出现的心智相关联的分层冗余迹象。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

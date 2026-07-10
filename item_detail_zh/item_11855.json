@@ -1,0 +1,13 @@
+{
+  "type_id": 11855,
+  "name": "蛋白食物",
+  "description": "蛋白食物是加达里的大公司斯库维塔生产的食品，既便宜又有营养且口味众多。尽管价格低廉且非珍稀之物，但凭借纯正的口感和芳香的气味，还是受到了许多顶级大饭店美食厨师的青睐。",
+  "volume": 0.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 400.0,
+  "category_name": "常用物品",
+  "group_name": "冷藏品",
+  "attributes": [],
+  "traits": []
+}

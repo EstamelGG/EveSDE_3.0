@@ -1,0 +1,13 @@
+{
+  "type_id": 11742,
+  "name": "少女",
+  "description": "这是处于危难中的少女。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 60.0,
+  "category_name": "常用物品",
+  "group_name": "有生货物",
+  "attributes": [],
+  "traits": []
+}

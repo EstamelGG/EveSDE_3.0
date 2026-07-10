@@ -1,0 +1,13 @@
+{
+  "type_id": 23542,
+  "name": "Surveillance Recordings",
+  "description": "A data storage of secret communications caught by hi-tech surveillance equipment.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

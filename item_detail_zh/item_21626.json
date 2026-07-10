@@ -1,0 +1,13 @@
+{
+  "type_id": 21626,
+  "name": "推进动力的铭牌",
+  "description": "此铭牌曾由推进动力集团某官员携带。奇怪的是它上面刻有古斯塔斯徽章。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "铭牌",
+  "attributes": [],
+  "traits": []
+}

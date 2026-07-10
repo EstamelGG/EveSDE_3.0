@@ -1,0 +1,13 @@
+{
+  "type_id": 46160,
+  "name": "富勒烯层间石墨反应配方",
+  "description": "",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "蓝图",
+  "group_name": "聚合物反应公式",
+  "attributes": [],
+  "traits": []
+}

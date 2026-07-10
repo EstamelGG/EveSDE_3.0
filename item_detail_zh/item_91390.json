@@ -1,0 +1,13 @@
+{
+  "type_id": 91390,
+  "name": "无人机着陆疏散计划",
+  "description": "一块数据板，其中包含一套极其详细、精确无误的撤离计划，其中提到了位于新伊甸东部某处大型联盟的搬迁。该数据板是在尤蒙“佩克昂集团工厂”空间站的星际捷运终端失物招领箱中被发现的，它的主人显然在出发前往佩利根弗时忘记带走了它。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

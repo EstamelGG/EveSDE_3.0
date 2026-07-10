@@ -1,0 +1,13 @@
+{
+  "type_id": 24031,
+  "name": "R.S. Officer's Alpha Passcard",
+  "description": "This is a security passcard for Roden Shipyard officers.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 17889,
+  "name": "氢同位素",
+  "description": "氢-2也被称作氘。由于其独特的性质，氢-2同位素能够非常有效地与其他原子熔合。它在许多原子能场合下非常有用，也是维持米玛塔尔控制塔的一种必要物质。\n\n可以从下列冰矿石中提炼获得：\n\n安全等级<color='0xFF33FFFF'>1.0</color>及以下星系：\n<a href=showinfo:16263>聚合冰体</a>\n\n安全等级<color='0xFFFF0000'>0.0</color>及以下星系：\n<a href=showinfo:17977>光滑聚合冰</a>",
+  "volume": 0.03,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "冰矿产物",
+  "attributes": [],
+  "traits": []
+}

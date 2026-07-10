@@ -1,0 +1,21 @@
+{
+  "type_id": 29996,
+  "name": "Emergent Neurovisual Interface",
+  "description": "As a capsuleer, few things are more important in space flight than the ability to instantly gauge one's surroundings and make decisions accordingly. For this reason, capsules inside starships make frequent use of neurovisual reproductions; emulations that recreate external stimuli using the most low-latency processor available – the human brain. This process relies on digital relays from camera drones and monitoring systems embedded into the hull. After capturing the data, they then feed it directly into the brain, at which point the external surrounds are recreated almost instantaneously. Functions familiar to any capsuleer such as the overview, tactical overlay and hostile threat indicators are just a few examples of the device's capabilities. \n\nAlthough NVI technology has been around since the inception of the capsule, the addition of salvaged Sleeper drone components and the now widely available fullerene polymers has carried the functionality forward into the new Tech III paradigm. Even before the first Strategic Cruiser was built, engineers hypothesized about potential issues with an NVI trying to communicate with an almost limitless combination of subsystems. Fortunately, the solution to the problem came wrapped up in the same technology that moved Tech III vessels from the world of scientific theory into reality.",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Hybrid Tech Components",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

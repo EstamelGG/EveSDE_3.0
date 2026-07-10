@@ -1,0 +1,13 @@
+{
+  "type_id": 4090,
+  "name": "大箱的酷菲",
+  "description": "酷菲是宇宙中最受欢迎的软饮料的名字，是一家同名的盖伦特公司的产品。像很多软饮料一样，它最初也是用来治疗消化不良和胃部不适的药品，但是其提神的功效迅速获得了大众的喜爱，从而在宇宙中迅速流行开来。酷菲是整个EVE宇宙中辨识度最高的品牌之一，在每个角落都能找到它。",
+  "volume": 500.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 500.0,
+  "category_name": "常用物品",
+  "group_name": "消费品",
+  "attributes": [],
+  "traits": []
+}

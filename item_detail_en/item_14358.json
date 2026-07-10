@@ -1,0 +1,13 @@
+{
+  "type_id": 14358,
+  "name": "Zemnar",
+  "description": "Zemnar is an uncommon type of antibiotic specifically used to combat rare bacterial infections. Originally discovered by the late Gallente biologist, Lameur Zemnar, the drug is now frequently kept in stock in the more wealthy quarters of the galaxy, in case of a bacterial outbreak.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

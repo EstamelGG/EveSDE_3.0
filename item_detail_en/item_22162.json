@@ -1,0 +1,13 @@
+{
+  "type_id": 22162,
+  "name": "Runic Tablet",
+  "description": "This tablet is covered in intricate runic signs, totally beyond comprehension. It looks sinister, though.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

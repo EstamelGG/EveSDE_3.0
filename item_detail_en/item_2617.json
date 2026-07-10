@@ -1,0 +1,13 @@
+{
+  "type_id": 2617,
+  "name": "Crates of Guidance Systems",
+  "description": "An electrical device used in targeting systems and tracking computers.",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

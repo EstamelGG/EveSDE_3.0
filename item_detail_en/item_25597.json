@@ -1,0 +1,21 @@
+{
+  "type_id": 25597,
+  "name": "Damaged Artificial Neural Network",
+  "description": "ANNs preside over a starship's various electronics subsystems and keep everything in working order, rerouting power and processing when systems are damaged or go offline. This ANN is damaged but doesn't seem to be a total loss.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Salvaged Materials",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

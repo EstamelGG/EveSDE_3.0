@@ -1,0 +1,49 @@
+{
+  "type_id": 3135,
+  "name": "载诺 狙击手 导弹动力 MP-706",
+  "description": "一款载诺集团开发的导弹技能神经交互强化芯片，可增强导弹操纵技能。\n\n\n\n所有导弹最大速度增加6%。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "脑控导弹",
+  "attributes": [
+    {
+      "attribute_name": "speedFactor",
+      "value": 6.0,
+      "categoryID": 28,
+      "display_name": "最大速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3411.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "implantness",
+      "value": 7.0,
+      "categoryID": 7,
+      "display_name": "植入体槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    }
+  ],
+  "traits": []
+}

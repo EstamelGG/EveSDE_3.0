@@ -1,0 +1,13 @@
+{
+  "type_id": 57306,
+  "name": "牛运冲天宝箱",
+  "description": "打开后可获得一件神秘的牛运豪礼：\n\n42.25%概率获得\"新\"\"年\"\"快\"\"乐\"系列牛年新春大脑加速器\n1.4%概率获得金牛高效大脑加速器\n18.78%概率获得3-10之间任意数量的伊甸币\n37.56%概率获得节日限定武器增强组合包",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

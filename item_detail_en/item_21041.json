@@ -1,0 +1,21 @@
+{
+  "type_id": 21041,
+  "name": "Capital Launcher Hardpoint",
+  "description": "A launcher hardpoint fitting, engineered to allow XL-class missile launchers to fit on capital ships.",
+  "volume": 2000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000.0,
+  "category_name": "Commodity",
+  "group_name": "Capital Construction Components",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

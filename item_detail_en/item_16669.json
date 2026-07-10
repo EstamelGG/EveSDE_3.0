@@ -1,0 +1,21 @@
+{
+  "type_id": 16669,
+  "name": "Ferrofluid",
+  "description": "Ferrofluids are superparamagnetic fluids containing tiny particles of magnetic solids suspended in liquid. The primary component in the creation of ferrogels.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Intermediate Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 15353,
+  "name": "研究工具",
+  "description": "这种带锁的箱子包含了一堆各种科学研究用的工具。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

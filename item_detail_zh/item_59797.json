@@ -1,0 +1,63 @@
+{
+  "type_id": 59797,
+  "name": "载诺 守财奴 研发生产 RP-108",
+  "description": "这种特殊型号的增效剂可以稳定地提升飞行员研发生产的效率，不会产生任何副作用。\n\n使用后的效果为：\n\n生产时间减少8%\n\n蓝图复制速度提高8%\n\n材料效率研究提高8%\n\n此效果可以在使用后的至少1天内持续发挥效能，具体时间根据植入者的<a href=showinfo:3405>生物学</a>技能等级而定。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "boosterDuration",
+      "value": 86400000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "manufacturingTimeBonus",
+      "value": -8.0,
+      "categoryID": 7,
+      "display_name": "制造时间加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "copySpeedBonus",
+      "value": -8.0,
+      "categoryID": 7,
+      "display_name": "复制速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "mineralNeedResearchBonus",
+      "value": -8.0,
+      "categoryID": 7,
+      "display_name": "矿物需求研究加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 194.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "nondestructible",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "无法摧毁",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "followsJumpClones",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "跟随远距克隆",
+      "unit_name": "1=True 0=False"
+    }
+  ],
+  "traits": []
+}

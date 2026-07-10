@@ -1,0 +1,21 @@
+{
+  "type_id": 30251,
+  "name": "Neurovisual Input Matrix",
+  "description": "Used in conjunction with other equipment inside the capsule, neurovisual input matrices serve the vital function of translating external stimuli into visual data. Ship identifier tags, hostile threat indicators and tactical overlay interfaces are all typical examples of N.I.M at work. The Sleeper variants of these matrices are not substantively different from contemporary devices, needing only a few supplemental components and some minor reprogramming before they can operate in much the same way. The only major deviation is in the energy efficiency. The Sleeper device is almost a thousand times less demanding on a ship's power core.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Ancient Salvage",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

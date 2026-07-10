@@ -1,0 +1,13 @@
+{
+  "type_id": 89956,
+  "name": "人物重塑凭证（不可交易）",
+  "description": "此凭证可让你对人物的面部和身体进行一次重新塑形。使用后此凭证会立即消失，下一次你进入人物重塑界面的时候便可进行塑形。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "附件",
+  "group_name": "服务",
+  "attributes": [],
+  "traits": []
+}

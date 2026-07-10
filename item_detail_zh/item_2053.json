@@ -1,0 +1,63 @@
+{
+  "type_id": 2053,
+  "name": "弃用的勘探网络1",
+  "description": "该物品已弃用。虽然目前依然有效，但计划未来将不再流通。该升级件可以提高微型职业站点在升级后星系中出现的几率。",
+  "volume": 5000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "基础设施升级件",
+  "group_name": "基础设施中心工业升级件",
+  "attributes": [
+    {
+      "attribute_name": "devIndexIndustrial",
+      "value": 1.0,
+      "categoryID": 0,
+      "display_name": "发展指数等级需求（工业）",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "distributionIDAngel01",
+      "value": 369.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDBlood01",
+      "value": 374.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDGurista01",
+      "value": 379.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDRogueDrone01",
+      "value": 394.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDSansha01",
+      "value": 384.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDSerpentis01",
+      "value": 389.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

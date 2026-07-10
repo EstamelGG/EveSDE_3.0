@@ -1,0 +1,13 @@
+{
+  "type_id": 23925,
+  "name": "Blood Fund",
+  "description": "Bags and bags of blood collected by the Blood Raiders throughout Araz.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

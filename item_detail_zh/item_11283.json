@@ -1,0 +1,49 @@
+{
+  "type_id": 11283,
+  "name": "电容注电器装料 150",
+  "description": "向电容提供快速能量注入。适用于紧急情况！",
+  "volume": 6.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "弹药",
+  "group_name": "电容注电器装料",
+  "attributes": [
+    {
+      "attribute_name": "capacitorBonus",
+      "value": 150.0,
+      "categoryID": 5,
+      "display_name": "电容加成",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "chargeSize",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "弹药尺寸",
+      "unit_name": "1=小型  2=中型  3=大型"
+    },
+    {
+      "attribute_name": "launcherGroup",
+      "value": 76.0,
+      "categoryID": 7,
+      "display_name": "配套使用（发射器类别）",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "capNeedBonus",
+      "value": -100.0,
+      "categoryID": 5,
+      "display_name": "电容需求加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "launcherGroup2",
+      "value": 1156.0,
+      "categoryID": 7,
+      "display_name": "配套使用（发射器类别）",
+      "unit_name": "组别ID"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 80025,
+  "name": "孤立空间线程",
+  "description": "这个设备构造不明，其中含有捕获自未知地点的单独时空线程。当它与合适的材料结合使用时，可以作为连接相关空间层的网络纤维的基础组件。",
+  "volume": 0.005,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "深渊战场纤维材料",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 11071,
+  "name": "Battery Cartridge",
+  "description": "This battery cartridge carries a heavy charge of electric power, intended as a spare pool of energy in distress.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

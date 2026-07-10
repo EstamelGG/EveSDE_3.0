@@ -1,0 +1,28 @@
+{
+  "type_id": 20411,
+  "name": "数据核心 - 高能物理",
+  "description": "这个核心是一个庞大的数据库，包含了大量关于人类在高能物理方面的科研资料和信息。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "数据核心",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 11433.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

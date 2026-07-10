@@ -1,0 +1,13 @@
+{
+  "type_id": 60751,
+  "name": "AEGIS Personnel File Backups",
+  "description": "These are backups of various AEGIS personnel files and are not particularly heavily encrypted. Outlaws and criminals can put accurate personnel data to many uses. Even the small details are potentially highly relevant to those who are interested in spoofing identities or simply putting pressure on select personnel. Standard encryption is being used but pirate organizations will be happy to devote resources to extracting data that has many uses. These backups will likely fetch a decent price on the black market.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

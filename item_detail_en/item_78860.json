@@ -1,0 +1,13 @@
+{
+  "type_id": 78860,
+  "name": "Guristas Cargo Concealment Unit Remains",
+  "description": "This appears to be the remains of a piece of high-tech black market smuggling equipment, the design of which is thought to have originated from the Satori-Horigu Epistemics corporation. It can electronically conceal contraband items stored within and digitally alter their signatures making them appear as regular, mundane, legal cargo - rendering the illicit contents undetectable by even the most powerful ship and cargo scanners employed by customs and law enforcement agencies in the cluster.",
+  "volume": 3000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.75,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

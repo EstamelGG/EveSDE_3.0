@@ -1,0 +1,13 @@
+{
+  "type_id": 32241,
+  "name": "Drive Cluster EDF-285",
+  "description": "This is a cluster of drives, each of which contains several exabytes worth of encoded data. Somewhere in here is vital information on the Wildfire Khumaak.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

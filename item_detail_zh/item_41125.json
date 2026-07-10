@@ -1,0 +1,28 @@
+{
+  "type_id": 41125,
+  "name": "萨沙爱国者双联千兆级集束激光器蓝图",
+  "description": "",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "蓝图",
+  "group_name": "能量武器蓝图",
+  "attributes": [
+    {
+      "attribute_name": "metaGroupID",
+      "value": 4.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 400.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 2730,
+  "name": "Crates of Enriched Uranium",
+  "description": "Enriched Uranium is used in many kinds of manufacturing and as a fuel, making it a steady trade commodity. Enriched Uranium is generally manufactured by combining standard semiconductor PVD methods with ionic separation by means of mass spectrometry.",
+  "volume": 70.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

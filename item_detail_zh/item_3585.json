@@ -1,0 +1,13 @@
+{
+  "type_id": 3585,
+  "name": "损坏的萨沙数据分析仪",
+  "description": "这东西大概还能看得出是一个被缴获的萨沙数据分析仪，它之所以破损是因为之前对其进行再生处理的举动，所幸目前多少还保留点原样。再对它进行一次再生处理的结果可能会好点。",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1650.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

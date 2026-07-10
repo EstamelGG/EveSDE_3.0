@@ -1,0 +1,21 @@
+{
+  "type_id": 49704,
+  "name": "OSI 2018.11",
+  "description": "",
+  "volume": 0.002,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Accessories",
+  "group_name": "Skill Injectors",
+  "attributes": [
+    {
+      "attribute_name": "containedSkillPoints",
+      "value": 256000.0,
+      "categoryID": 7,
+      "display_name": "Skill Points",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

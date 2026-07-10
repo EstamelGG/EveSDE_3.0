@@ -1,0 +1,13 @@
+{
+  "type_id": 26785,
+  "name": "装箱的冷藏植物种子",
+  "description": "冰冻植物种子在很多星域需求很大，在那些不适宜居住的星球周围环绕的空间站里尤其如此。",
+  "volume": 50.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 4000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

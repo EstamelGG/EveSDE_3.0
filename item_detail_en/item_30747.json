@@ -1,0 +1,13 @@
+{
+  "type_id": 30747,
+  "name": "Sleeper Drone AI Nexus",
+  "description": "Rescued from the ruined hull of a Sleeper drone, this AI Nexus represents the digital soul of these strange creations. Although the technology behind the Sleeper AI is for the most part recognizable, this device offers some insight into the few mysterious aspects that are not.\n\nAs coveted as this component must be, only the foremost drone technicians in all of New Eden would be able to possibly find some use in it. There is little doubt however that the promise such a thing holds would ensure they paid a tidy sum.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Sleeper Components",
+  "attributes": [],
+  "traits": []
+}

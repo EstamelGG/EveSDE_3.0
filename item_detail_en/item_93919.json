@@ -1,0 +1,21 @@
+{
+  "type_id": 93919,
+  "name": "Filmir's Modified Mining Laser Upgrade Blueprint",
+  "description": "",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Blueprint",
+  "group_name": "Mining Laser Upgrade Blueprint",
+  "attributes": [
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    }
+  ],
+  "traits": []
+}

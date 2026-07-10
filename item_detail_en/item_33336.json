@@ -1,0 +1,21 @@
+{
+  "type_id": 33336,
+  "name": "Thulium Hafnite",
+  "description": "Despite its unremarkable gray appearance, Thulium Hafnite has proven to be extremely effective as shielding against electromagnetic radiation and free neutrons. It is a valuable component in the production of processor and capacitor technologies, especially in the Gallente Federation.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Intermediate Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

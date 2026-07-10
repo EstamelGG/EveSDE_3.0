@@ -1,0 +1,13 @@
+{
+  "type_id": 3729,
+  "name": "有毒废料",
+  "description": "各种制造业和武器生厂商产生的废料会对环境造成危害，但除了被排入虚空之外，它还可以被售给认识到其中价值的人。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2000.0,
+  "category_name": "常用物品",
+  "group_name": "放射性物质",
+  "attributes": [],
+  "traits": []
+}

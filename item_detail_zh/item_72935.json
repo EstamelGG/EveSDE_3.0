@@ -1,0 +1,56 @@
+{
+  "type_id": 72935,
+  "name": "厚质碳硅石",
+  "description": "这种厚质碳硅石可以用在大规模建造项目中，大受盖伦特工程师的欢迎。新兴的全星系矿石扫描技术让联邦得以探测到不易发现的含有厚质碳硅石的小行星带。\n\n\n\n盖伦特联邦号召克隆飞行员协助他们在<url=showinfo:4//20000563>萨托洱德</url>星座中开采厚质碳硅石，并上交给位于<url=showinfo:5//30003856>埃托伦</url>星系中联邦星门建造地点里的联邦矿石精炼建筑。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 4000.0,
+  "category_name": "小行星",
+  "group_name": "帝国小行星",
+  "attributes": [
+    {
+      "attribute_name": "asteroidRadiusGrowthFactor",
+      "value": 3.5,
+      "categoryID": 31,
+      "display_name": "小行星半径系数",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "停滞缠绕抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 72902.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "ignoreMiningWaste",
+      "value": 1.0,
+      "categoryID": 51,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "ignoreMiningCrits",
+      "value": 1.0,
+      "categoryID": 51,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,21 @@
+{
+  "type_id": 30251,
+  "name": "神经可视输入矩阵",
+  "description": "这个设备同逃生舱中的其他设备相连，其关键职责是负责将飞船外部的信号转换为可视数据信号。舰船识别标签，敌对威胁标识，战术图面都是通过神经可视输入矩阵（NIM）来实现的。其实冬眠者使用的同类型矩阵设备和现代的举证设备只是在基本原理相同的前提下有一些细微的差异，通过一些附加组件和重新编译便可以同通用设备进行整合。而冬眠者技术在此种设备上的优势是在于能够大大的加强能源的利用效率，冬眠者设备的能耗通常要比一般设备低上很多倍。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "远古打捞",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

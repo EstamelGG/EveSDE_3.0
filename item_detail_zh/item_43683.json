@@ -1,0 +1,13 @@
+{
+  "type_id": 43683,
+  "name": "联合收割保险柜",
+  "description": "属于联合收割集团的一个保险柜。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "常用物品",
+  "group_name": "保险柜",
+  "attributes": [],
+  "traits": []
+}

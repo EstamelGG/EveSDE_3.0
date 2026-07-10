@@ -1,0 +1,13 @@
+{
+  "type_id": 24581,
+  "name": "Holy Statue",
+  "description": "Holy statue made by the Takmahl people, depicting their god.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

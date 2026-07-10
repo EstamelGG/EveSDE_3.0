@@ -1,0 +1,21 @@
+{
+  "type_id": 16633,
+  "name": "烃类",
+  "description": "未经加工的矿物燃料，例如石油和矿物油。烃类是有机物质、塑料和蜡的生产的关键材料，因此也是可开采物质中最有用的一种。",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "卫星原料",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

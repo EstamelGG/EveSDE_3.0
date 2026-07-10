@@ -1,0 +1,13 @@
+{
+  "type_id": 11512,
+  "name": "启迪的灵魂银盾",
+  "description": "最古老的奖章之一，银盾可以追溯到朱庇特第一帝国。它的创立最初是为了嘉奖发明家和发现者，后来也将那些收集整理大量知识的人包括在内。如今，这枚奖章被授予为朱庇特帝国做出巨大贡献的人，比如促进朱庇特人与其他种族间交流的人。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

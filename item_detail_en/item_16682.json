@@ -1,0 +1,21 @@
+{
+  "type_id": 16682,
+  "name": "Hypersynaptic Fibers",
+  "description": "Whenever the transmission of visual or numerical data is a matter of life and death, the data network needs the fastest possible relay system. Hypersynaptic fibers, due to their immense frequency range and speed of conduction, have become the industry standard for sensor arrays and targeting systems.",
+  "volume": 0.6,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Composite",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 750.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 11702,
+  "name": "划账及薪资备忘录",
+  "description": "这些报告含有某集团的最近交易和工资记录的信息。它们通常是海盗们的追逐对象，这些海盗将其中包含的敏感信息用于各种用途。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

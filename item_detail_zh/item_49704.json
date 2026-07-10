@@ -1,0 +1,21 @@
+{
+  "type_id": 49704,
+  "name": "OSI 2018.11",
+  "description": "",
+  "volume": 0.002,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "附件",
+  "group_name": "技能注入器",
+  "attributes": [
+    {
+      "attribute_name": "containedSkillPoints",
+      "value": 256000.0,
+      "categoryID": 7,
+      "display_name": "技能点",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

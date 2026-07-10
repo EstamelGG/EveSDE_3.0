@@ -1,0 +1,105 @@
+{
+  "type_id": 42834,
+  "name": "装甲强化弹药",
+  "description": "这种紧凑的纳米机器人集群可以装载到<a href=showinfo:42526>装甲指挥脉冲波</a>装备中，并散布到友方舰船全身，提高其装甲的韧性。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.01,
+  "category_name": "弹药",
+  "group_name": "装甲指挥脉冲波弹药",
+  "attributes": [
+    {
+      "attribute_name": "launcherGroup",
+      "value": 1770.0,
+      "categoryID": 7,
+      "display_name": "配套使用（发射器类别）",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 20494.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 3348.0,
+      "categoryID": 8,
+      "display_name": "副技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff1ID",
+      "value": 15.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff2ID",
+      "value": 0.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff3ID",
+      "value": 0.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff4ID",
+      "value": 0.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff1Multiplier",
+      "value": 8.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff2Multiplier",
+      "value": 0.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff3Multiplier",
+      "value": 0.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff4Multiplier",
+      "value": 0.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

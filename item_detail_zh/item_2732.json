@@ -1,0 +1,13 @@
+{
+  "type_id": 2732,
+  "name": "装箱的硅酸盐玻璃",
+  "description": "硅酸盐玻璃是一种普通的建筑材料，在新伊甸的宇宙中有着稳定的需求量，用于行星设施的建造或者经过强化后用于空间舰船。",
+  "volume": 50.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 88087,
+  "name": "Eleutrium",
+  "description": "Eleutrium is a regolith with morphological similarities to silicates and is a major building block in Drifter, Sleeper, and Jove construction materials. The mineral also appears in spectrographic analyses of the Society of Conscious Thought ship materials.\n\nDue to the unknown conditions of its formation and appearance, astrogeologists fear this may be a unique opportunity.\n\nEleutrium is found exclusively in <a href=showinfo:88105>tyranite</a>.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Mineral",
+  "attributes": [],
+  "traits": []
+}

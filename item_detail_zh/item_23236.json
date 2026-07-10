@@ -1,0 +1,13 @@
+{
+  "type_id": 23236,
+  "name": "黑市进出钥匙卡片",
+  "description": "这张钥匙卡片可以激活通往克勒列位于苍穹峡谷内黑市的加速轨道。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 30305,
+  "name": "Fullerene Intercalated Graphite",
+  "description": "Originally this material was only used in the construction of advanced semiconductors, a role in which it still performs admirably. In recent years, however, structural engineers have proven that it has even better applications in nano-electromechanical systems. The unique “superlubricity” – a state of zero or near-zero friction – between mechanical components made of F.I.G significantly limits wear, allowing the tiny devices to operate for exceptionally long periods without the need for maintenance.",
+  "volume": 0.8,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Hybrid Polymers",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 24766,
+  "name": "船员",
+  "description": "船员中的非太空舱驾驶者，负责进行维护船只正常工作的体力活。",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "常用物品",
+  "group_name": "有生货物",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,28 @@
+{
+  "type_id": 2375,
+  "name": "损坏的广播节点",
+  "description": "通过将经颅微型控制器同人造神经键相链接，广播节点能够直接同空间站的多种功能模块进行通信，而其信号损失和延迟也被降到了可忽略不计的程度。附加的计算机制导系统——每一个都单独运行一套独立的导航软件——使得一个单独的节点也能够执行星舰进站辅助、无人机操作甚至空间站防御等任务。",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 250.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 250.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

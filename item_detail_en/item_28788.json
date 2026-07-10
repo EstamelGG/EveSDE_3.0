@@ -1,0 +1,140 @@
+{
+  "type_id": 28788,
+  "name": "Syndicate Gas Cloud Scoop",
+  "description": "The Syndicate Gas Cloud Scoop arose out of a joint research project undertaken by dozens of station owners across the region. The residents and industrialists of Syndicate appreciated, more than most, the latent potential of the underground booster industry. Although their modified scoops offered no improvements in yield, they were easier for newer pilots to fit. Their investment in more accessible harvesting technology paid off, when eventually the empires quietly reversed course and legalized the production and sale of synth boosters.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Module",
+  "group_name": "Gas Cloud Scoops",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 10.0,
+      "categoryID": 5,
+      "display_name": "Activation Cost",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 2.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Usage",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "slots",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 26.0,
+      "categoryID": 1,
+      "display_name": "CPU usage",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 1500.0,
+      "categoryID": 29,
+      "display_name": "Optimal Range",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 30000.0,
+      "categoryID": 7,
+      "display_name": "Activation time / duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "miningAmount",
+      "value": 20.0,
+      "categoryID": 51,
+      "display_name": "Mining amount",
+      "unit_name": "m3"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 25544.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "maxGroupActive",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "disallowEarlyDeactivation",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "metaGroupID",
+      "value": 4.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "typeColorScheme",
+      "value": 11353.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "miningWastedVolumeMultiplier",
+      "value": 0.0,
+      "categoryID": 51,
+      "display_name": "Residue Volume Multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "miningWasteProbability",
+      "value": 0.0,
+      "categoryID": 51,
+      "display_name": "Residue Probability",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

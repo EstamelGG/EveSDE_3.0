@@ -1,0 +1,28 @@
+{
+  "type_id": 24510,
+  "name": "Mjolnir Fury Heavy Missile Blueprint",
+  "description": "",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Blueprint",
+  "group_name": "Missile Blueprint",
+  "attributes": [
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 3.2,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

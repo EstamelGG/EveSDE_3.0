@@ -1,0 +1,56 @@
+{
+  "type_id": 62579,
+  "name": "Compressed Rakovene",
+  "description": "Protracted neutron deposition from the chaotic radiations observed near Abyssal Conduits have morphed the mineralogical composition of this Asteroid type, suspected to be formerly of the Scordite family. Reprocessing it will yield huge amounts of <a href=showinfo:34>Tritanium</a> and <a href=showinfo:37>Isogen</a> whilst also yielding high amount of <a href=showinfo:39>Zydrine</a>.\n\nThis material is compressed and a much more compact form of the original material.",
+  "volume": 0.16,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Asteroid",
+  "group_name": "Rakovene",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 60381.0,
+      "categoryID": 7,
+      "display_name": "Reprocessing Skill",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "asteroidRadiusGrowthFactor",
+      "value": 15.0,
+      "categoryID": 31,
+      "display_name": "Asteroid radius size multiplier",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "asteroidRadiusUnitSize",
+      "value": 1000.0,
+      "categoryID": 31,
+      "display_name": "Asteroid unit radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

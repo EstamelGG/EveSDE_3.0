@@ -1,0 +1,13 @@
+{
+  "type_id": 25281,
+  "name": "红色卡片",
+  "description": "游侠队长发现他所防守的加速轨道出现了“偷渡”的情况，所以他决定亲自来保管开启加速轨道的通行钥匙，他称这把钥匙为“红色卡片”。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

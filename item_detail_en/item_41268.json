@@ -1,0 +1,13 @@
+{
+  "type_id": 41268,
+  "name": "Compact Conductors",
+  "description": "",
+  "volume": 0.001,
+  "repackaged_volume": null,
+  "capacity": 1.0,
+  "mass": 0.001,
+  "category_name": "Material",
+  "group_name": "Named Components",
+  "attributes": [],
+  "traits": []
+}

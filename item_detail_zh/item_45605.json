@@ -1,0 +1,186 @@
+{
+  "type_id": 45605,
+  "name": "海神攻击 - 无人机合成投射装置",
+  "description": "冬眠者无人机虽然完全没有采用现代护盾科技，但却丝毫不会在防御上逊色。这很大程度上是由于金属富勒烯技术在船体制造中的广泛运用造成的。这种科技大都被应用在克隆飞行员的舰船上，但是一些盖伦特的流氓企业却悄悄地研发了这种供现代无人机使用的富勒烯技术。当无人机停放在这个装置中时，投射系统能够为它创建一个富勒烯力场，这能增强他们的伤害输出以及承受能力。",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 800000.0,
+  "category_name": "子系统",
+  "group_name": "攻击子系统",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "powerOutput",
+      "value": 130.0,
+      "categoryID": 1,
+      "display_name": "能量栅格输出",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuOutput",
+      "value": 60.0,
+      "categoryID": 1,
+      "display_name": "CPU输出",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 30550.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "droneCapacity",
+      "value": 300.0,
+      "categoryID": 10,
+      "display_name": "无人机容量",
+      "unit_name": "m3"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "droneBandwidth",
+      "value": 125.0,
+      "categoryID": 10,
+      "display_name": "无人机带宽",
+      "unit_name": "Mbit/s"
+    },
+    {
+      "attribute_name": "subSystemSlot",
+      "value": 127.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "turretHardPointModifier",
+      "value": 5.0,
+      "categoryID": 0,
+      "display_name": "炮塔安装数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "launcherHardPointModifier",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "发射器安装数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "hiSlotModifier",
+      "value": 6.0,
+      "categoryID": 0,
+      "display_name": "高槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "medSlotModifier",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "中槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "lowSlotModifier",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "低槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "fitsToShipType",
+      "value": 29988.0,
+      "categoryID": 0,
+      "display_name": "受限于船型",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "subsystemBonusGallenteOffensive",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "subsystemBonusGallenteOffensive2",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "subsystemBonusGallenteOffensive3",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareLinkCPUPenalty",
+      "value": 10000.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "subsystemMHTFittingReduction",
+      "value": -25.0,
+      "categoryID": 1,
+      "display_name": "中型混合炮台装配需求降低",
+      "unit_name": "%"
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b>25%</b> 装配<a href=showinfo:3304>中型混合炮台</a>能量栅格和CPU消耗减少"
+    },
+    {
+      "content": "<b><u>附加基础数值</b></u>"
+    },
+    {
+      "content": "高槽+6，炮台+5"
+    },
+    {
+      "content": "能量栅格+130，CPU+60"
+    },
+    {
+      "content": "无人机带宽+125mbit，无人机挂舱+300m³"
+    },
+    {
+      "content": "<b>10%</b> <a href=showinfo:3304>中型混合炮台</a>跟踪速度加成"
+    },
+    {
+      "content": "<b>10%</b> <a href=showinfo:3436>无人机</a>伤害和HP加成"
+    },
+    {
+      "content": "<b>5%</b> <a href=showinfo:3436>无人机</a>飞行速度和跟踪速度加成"
+    }
+  ]
+}

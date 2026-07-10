@@ -1,0 +1,13 @@
+{
+  "type_id": 34777,
+  "name": "CSM 9 Electee Archive Script",
+  "description": "A secure holographic datapad, used to access the CONCORD public information database.\n \n \n//archive_yulai8_ict -search\n>SEARCH INITIATED\n>SEARCH SEQUENCE... COMPLETE\n//archive_csm -search\n>ARCHIVE SEARCH... COMPLETE\n>LOADING... COMPLETE \n \nCouncil of Stellar Management 9 electees:\n \n<url=showinfo:1378//1869635534>Ali Aras</url>\n<url=showinfo:1385//1961135874>Asayanami Dei</url>\n<url=showinfo:1379//1189792277>corbexx</url>\n<url=showinfo:1376//1260698623>corebloodbrothers</url>\n<url=showinfo:1378//216879785>DJ FunkyBacon</url>\n<url=showinfo:1379//2053796889>Gorski Car</url>\n<url=showinfo:1375//957563959>Major Jsilva</url>\n<url=showinfo:1383//425176718>Mangala Solaris</url>\n<url=showinfo:1377//1946611318>Mike Azariah</url>\n<url=showinfo:1375//406944591>mynnna</url>\n<url=showinfo:1385//317012339>progodlegend</url>\n<url=showinfo:1384//720191856>Sion Kumitomo</url>\n<url=showinfo:1379//90926985>Steve Ronuken</url>\n<url=showinfo:1379//91512622>Sugar Kyle</url>\n<url=showinfo:1380//127629559>Xander Phoena</url>",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

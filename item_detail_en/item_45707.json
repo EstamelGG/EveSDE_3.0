@@ -1,0 +1,13 @@
+{
+  "type_id": 45707,
+  "name": "Legion Propulsion - Wake Limiter Blueprint",
+  "description": "",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Blueprint",
+  "group_name": "Subsystem Blueprints",
+  "attributes": [],
+  "traits": []
+}

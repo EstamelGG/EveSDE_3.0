@@ -1,0 +1,13 @@
+{
+  "type_id": 23675,
+  "name": "无人机观测数据",
+  "description": "图克尔人收集的关于骷髅彗星复合体内的自由无人机的监察数据和记录。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

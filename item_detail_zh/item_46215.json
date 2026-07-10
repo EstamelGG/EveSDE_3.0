@@ -1,0 +1,13 @@
+{
+  "type_id": 46215,
+  "name": "等离子体超材料反应配方",
+  "description": "",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "蓝图",
+  "group_name": "复合反应公式",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 87703,
+  "name": "Power Monitoring Division 1",
+  "description": "This Division is staffed by workers tasked with monitoring power generation systems, marginally increasing power output at the cost of workforce.\nThe generated power is restricted to only supporting lower-priority upgrades.",
+  "volume": 8000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Infrastructure Upgrades",
+  "group_name": "Sovereignty Hub Colony Resources Management Upgrades",
+  "attributes": [],
+  "traits": []
+}

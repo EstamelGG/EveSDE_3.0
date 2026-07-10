@@ -1,0 +1,21 @@
+{
+  "type_id": 61232,
+  "name": "稀有卫星矿石采集晶体C型蓝图 II",
+  "description": "",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "蓝图",
+  "group_name": "采矿晶体蓝图",
+  "attributes": [
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,42 @@
+{
+  "type_id": 34204,
+  "name": "Parity Decryptor",
+  "description": "Balanced decryptor that increases the likelihood of successful invention considerably, while still providing nice supplementary benefits with just a slight increase in production time.<br><br>Probability Multiplier: +50% <br>Max. Run Modifier: +3 <br>Material Efficiency Modifier: +1 <br>Time Efficiency Modifier: -2",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Decryptors",
+  "group_name": "Generic Decryptor",
+  "attributes": [
+    {
+      "attribute_name": "inventionPropabilityMultiplier",
+      "value": 1.5,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "inventionMEModifier",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "inventionTEModifier",
+      "value": -2.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "inventionMaxRunModifier",
+      "value": 3.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

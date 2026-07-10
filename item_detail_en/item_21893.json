@@ -1,0 +1,13 @@
+{
+  "type_id": 21893,
+  "name": "Kutill's Data Chip",
+  "description": "This data chip contains the code for a hacker-program developed by Dagras Kutill to infiltrate the Brutor Y.976 computer mainframe in Barkrik.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

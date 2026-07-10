@@ -1,0 +1,189 @@
+{
+  "type_id": 24660,
+  "name": "组件装配阵列",
+  "description": "一座移动式装配设施，在这里可以生产所有种类的建造组件，例如旗舰、二级科技、混合（三级科技）组件和建筑组件。这里还可以制造燃料块。",
+  "volume": 12500.0,
+  "repackaged_volume": null,
+  "capacity": 10500000.0,
+  "mass": 100000000.0,
+  "category_name": "母星",
+  "group_name": "装配阵列",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 10000.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 50000.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 150.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "uniformity",
+      "value": 1.0,
+      "categoryID": 2,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 11584.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "scanRadarStrength",
+      "value": 200.0,
+      "categoryID": 6,
+      "display_name": "雷达感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanLadarStrength",
+      "value": 200.0,
+      "categoryID": 6,
+      "display_name": "光雷达感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrength",
+      "value": 200.0,
+      "categoryID": 6,
+      "display_name": "磁力感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanGravimetricStrength",
+      "value": 200.0,
+      "categoryID": 6,
+      "display_name": "引力感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "shieldCapacity",
+      "value": 20000.0,
+      "categoryID": 2,
+      "display_name": "护盾容量",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorHP",
+      "value": 20000.0,
+      "categoryID": 3,
+      "display_name": "装甲值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "shieldRechargeRate",
+      "value": 800000.0,
+      "categoryID": 2,
+      "display_name": "护盾回充时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "shieldUniformity",
+      "value": 0.75,
+      "categoryID": 2,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "armorUniformity",
+      "value": 0.75,
+      "categoryID": 3,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureUniformity",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 2000.0,
+      "categoryID": 6,
+      "display_name": "信号半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "anchoringDelay",
+      "value": 5000.0,
+      "categoryID": 7,
+      "display_name": "锚定耗时",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "unanchoringDelay",
+      "value": 5000.0,
+      "categoryID": 7,
+      "display_name": "解锚耗时",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "onliningDelay",
+      "value": 3000.0,
+      "categoryID": 7,
+      "display_name": "上线耗时",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "maxOperationalDistance",
+      "value": 3000.0,
+      "categoryID": 7,
+      "display_name": "最大操控范围",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "maxOperationalUsers",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "同时使用用户数上限",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "disallowOffensiveModifiers",
+      "value": 1.0,
+      "categoryID": 6,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "isRAMcompatible",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "fighterAbilityAntiCapitalMissileResistance",
+      "value": 1.0,
+      "categoryID": 38,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

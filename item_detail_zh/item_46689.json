@@ -1,0 +1,77 @@
+{
+  "type_id": 46689,
+  "name": "凡晶石（4级）",
+  "description": "这种及其稀有和珍贵的凡晶石变种是最近由ORE工程师在对新型卫星开采技术进行初期实地实验时发现的。经过进一步检测后确认这种矿石提炼后的矿物产出比普通的凡晶石高15%。凡晶石是已知空间的核心星域中最为常见的矿石。它富含人们大量使用的<a href=showinfo:34>三钛合金</a>，因此需求仍然十分稳定。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 4000.0,
+  "category_name": "小行星",
+  "group_name": "凡晶石",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 60377.0,
+      "categoryID": 7,
+      "display_name": "回收再生技能",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "asteroidRadiusGrowthFactor",
+      "value": 0.0075,
+      "categoryID": 31,
+      "display_name": "小行星半径系数",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "asteroidRadiusUnitSize",
+      "value": 600.0,
+      "categoryID": 31,
+      "display_name": "小行星单位半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "停滞缠绕抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 46689.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "asteroidMaxRadius ",
+      "value": 5000.0,
+      "categoryID": 31,
+      "display_name": "",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

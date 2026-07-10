@@ -1,0 +1,49 @@
+{
+  "type_id": 3348,
+  "name": "领导理论",
+  "description": "精通于对舰队成员投放增益效果的基本技能。每升一级，指挥脉冲波和开采先锋脉冲波的效果范围增加7%。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "技能",
+  "group_name": "舰队支援",
+  "attributes": [
+    {
+      "attribute_name": "primaryAttribute",
+      "value": 164.0,
+      "categoryID": 7,
+      "display_name": "主属性",
+      "unit_name": "属性ID"
+    },
+    {
+      "attribute_name": "secondaryAttribute",
+      "value": 168.0,
+      "categoryID": 7,
+      "display_name": "副属性",
+      "unit_name": "属性ID"
+    },
+    {
+      "attribute_name": "skillTimeConstant",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "训练时间倍增系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "skillLevel",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "等级",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "areaOfEffectBonus",
+      "value": 7.0,
+      "categoryID": 37,
+      "display_name": "效果范围加成",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

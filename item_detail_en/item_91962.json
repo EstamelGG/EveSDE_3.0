@@ -1,0 +1,84 @@
+{
+  "type_id": 91962,
+  "name": "Imperial Hardpoint Booster I",
+  "description": "This booster has been produced by the Amarr Empire to assist with their military campaign war efforts.\n\n<b>+2% bonus to Energy Turret Damage\n+2% bonus to Drone Damage\n+2% reduction in Mining, Ice and Gas Harvester duration and capacitor use. \n+4% reduction in Salvager cycle time\nBase Duration: 2 Hours.</b>\n\n<b>Expiry date: November 10th YC128</b>",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Implant",
+  "group_name": "Booster",
+  "attributes": [
+    {
+      "attribute_name": "damageMultiplier",
+      "value": 1.02,
+      "categoryID": 29,
+      "display_name": "Damage Modifier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "durationBonus",
+      "value": -4.0,
+      "categoryID": 7,
+      "display_name": "Duration Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3405.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "damageMultiplierBonus",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Damage Multiplier Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 7200000.0,
+      "categoryID": 7,
+      "display_name": "Booster Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 17.0,
+      "categoryID": 7,
+      "display_name": "Booster Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "boosterLastInjectionDatetime",
+      "value": 20767.4576388889,
+      "categoryID": 7,
+      "display_name": "Expiry Date",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "boosterMiningLaserIceGasHarvesterDurationReductionAndCapacitor",
+      "value": -2.0,
+      "categoryID": 51,
+      "display_name": "Mining, Ice and Gas Module Duration & Capacitor-use bonus",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

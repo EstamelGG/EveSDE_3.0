@@ -1,0 +1,49 @@
+{
+  "type_id": 2542,
+  "name": "海洋行星发射平台",
+  "description": "尽管这座水下发射设施被固定在了海洋底部，它依然能够通过两套独立的系统来发射和接收来往于轨道和行星之间的货物。首先通过一个陀螺稳定压缩气体控制系统提供所需的压力来驱动固态燃料火箭到达海面，再启动自身的推进器以达到逃逸速度。其次，设施内还有配备有自动无人机器人舱，能够回收降落在海面的货柜，还能回收掉落的火箭推进段以便复用。",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": 10000.0,
+  "mass": null,
+  "category_name": "行星工业",
+  "group_name": "太空港",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 700.0,
+      "categoryID": 7,
+      "display_name": "能量负荷",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 3600.0,
+      "categoryID": 9,
+      "display_name": "CPU载荷",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 2014.0,
+      "categoryID": 7,
+      "display_name": "行星类型限制",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "importTax",
+      "value": 0.5,
+      "categoryID": 7,
+      "display_name": "进口税",
+      "unit_name": "星币"
+    },
+    {
+      "attribute_name": "exportTax",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "出口税",
+      "unit_name": "星币"
+    }
+  ],
+  "traits": []
+}

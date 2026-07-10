@@ -1,0 +1,13 @@
+{
+  "type_id": 30782,
+  "name": "Corrupted Drone Components",
+  "description": "These components were gathered from obviously malfunctioning drones.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

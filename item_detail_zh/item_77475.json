@@ -1,0 +1,13 @@
+{
+  "type_id": 77475,
+  "name": "毒品包裹",
+  "description": "一个密封的大型包裹，里面装有一种不知名但绝对非法的毒物。",
+  "volume": 3500.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 20000.0,
+  "category_name": "常用物品",
+  "group_name": "国土行动物品",
+  "attributes": [],
+  "traits": []
+}

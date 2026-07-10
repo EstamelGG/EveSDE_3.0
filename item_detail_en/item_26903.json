@@ -1,0 +1,13 @@
+{
+  "type_id": 26903,
+  "name": "Military Intelligence Report",
+  "description": "A military intelligence report on Fleet movements in the local vicinity, patrol schedules and current strength,",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

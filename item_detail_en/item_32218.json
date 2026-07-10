@@ -1,0 +1,13 @@
+{
+  "type_id": 32218,
+  "name": "Encrypted Data Fragment",
+  "description": "This data node guards its secrets with a powerful encryption cipher. The unique design of the encryption is clearly proprietary and not something used elsewhere. The security software driving the protection represents a strange mixture of Gallente and Caldari designs.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

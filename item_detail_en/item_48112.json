@@ -1,0 +1,13 @@
+{
+  "type_id": 48112,
+  "name": "Zero-Point Condensate",
+  "description": "Held within a field-reinforced vacuum bottle of Triglavian design, this exotic matter condensate seems intended for use with zero-point energy systems involved in generating or maintaining traversable space-time conduits. The ubiquity of this substance in Triglavian technology suggests it has many applications, some of which are complex and poorly understood. \n\nHowever, in relatively straightforward applications this condensate can be used as an element of high-energy weapon charges. The substance also has uses in the construction of advanced materials, providing  the basis for high-energy reactions involved in the manufacturing of components designed to experience hyper-intense levels of radiation and warp-field manipulation.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Abyssal Materials",
+  "attributes": [],
+  "traits": []
+}

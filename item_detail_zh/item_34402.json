@@ -1,0 +1,13 @@
+{
+  "type_id": 34402,
+  "name": "无线电调节盘",
+  "description": "这个水晶盘专为在恒星无线电校准单元中调节无线电波而设计。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

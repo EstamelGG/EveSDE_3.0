@@ -1,0 +1,13 @@
+{
+  "type_id": 47026,
+  "name": "复原的放射性材料",
+  "description": "这种温和的放射性材料是用新型扫描技术从一个隐藏的实验室隔间中发现的。它可以用在某种可控制的突变过程中。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

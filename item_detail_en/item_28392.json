@@ -1,0 +1,56 @@
+{
+  "type_id": 28392,
+  "name": "Batch Compressed Crokite III-Grade",
+  "description": "III-Grade crokite, also known as crystalline crokite, is the stuff of legend. Not only does it give a 10% greater yield than regular crokite, but chunks of the rock glitter beautifully in just the right light, making crystalline crokite popular as raw material for jewelry.\n\nCrokite is a very heavy ore that is always in high demand because it has the largest ratio of <a href=showinfo:38>Nocxium</a> and <a href=showinfo:36>Mexallon</a> for any ore in the known universe. Valuable deposits of <a href=showinfo:35>Pyerite</a> can also be found within this rare ore.\n\n<i>This material was compressed using an older process that compressed batches of raw materials into units using a set input quantity. Newer compression technology uses a more flexible one-to-one unit compression system.</i>",
+  "volume": 7.81,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1e+35,
+  "category_name": "Asteroid",
+  "group_name": "Crokite",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 60379.0,
+      "categoryID": 7,
+      "display_name": "Reprocessing Skill",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "Stasis Webifier Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 1225.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "typeID"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 2972,
+  "name": "硬钛金属板",
+  "description": "这些安全冰柜中装有融合了惰性反纳米原型剂的气凝胶。它们利用最新安全加密协议进行了特殊改造，以保证盖伦特人无法触及该重要物品。",
+  "volume": 30.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 30.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

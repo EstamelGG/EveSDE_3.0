@@ -1,0 +1,13 @@
+{
+  "type_id": 62050,
+  "name": "刻有古怪环形文字的残片",
+  "description": "这个物品看起来是大型文本的残片，上面的文字不同于新伊甸已知的任何一种语言。文字装饰华丽，排列成环状。这种象形文字显然代表了某种交流语言，但它的含义目前还无人知晓。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 76204,
+  "name": "Transport Relay Datacore",
+  "description": "This datacore contains a reconstructed portion of the accumulated research and technical data gathered by those empires with a comprehensive understanding of the means to build and operate the Transport Relay technology at the heart of Interstellar Shipcasters. An understanding of Triglavian Transport Relay technology is required to make such a device operational.\n\nIn order to catch up to the Caldari, loyalists of the Amarr Empire should deposit such datacores at the Imperial Research Facility in <url=showinfo:5//30002974>Mehatoor</url>. Capsuleers of the Minmatar Republic should deposit their datacores at the Republic Research Facility in <url=showinfo:5//30002055>Amo</url>, while pilots loyal to the Gallente Federation can deposit their datacores at the Federal Relay Research Center in <url=showinfo:5//30003788>Intaki</url>.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.75,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 17253,
+  "name": "爱国者青铜铭牌",
+  "description": "该青铜铭牌上的徽章等级相当于萨沙劳工共和国中的二等兵。如交给适当的权威组织，它也许会变得有价值。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "铭牌",
+  "attributes": [],
+  "traits": []
+}

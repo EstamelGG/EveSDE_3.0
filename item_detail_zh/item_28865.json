@@ -1,0 +1,21 @@
+{
+  "type_id": 28865,
+  "name": "母巢思维CPU",
+  "description": "这个设备非常笨重而且外观很像异形，它有规律地悸动着，同时还伴有光线的闪烁，以及轻微的嗡嗡声。它显然包含着卡居雷·德莱宁教授的心智，不过德莱宁的心智已经和其自由无人机纳米体的人工智能融合在一起了。",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 70.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 100.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

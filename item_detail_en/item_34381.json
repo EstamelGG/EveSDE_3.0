@@ -1,0 +1,13 @@
+{
+  "type_id": 34381,
+  "name": "X-Axis Calibration Coordinate",
+  "description": "This is one of three coordinate plots required to correctly align the nearby rift to make it functional.\n\nAll three coordinate plots need to be placed into either the low power or the high power Remote Calibration Device.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

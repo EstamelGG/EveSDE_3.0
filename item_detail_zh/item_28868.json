@@ -1,0 +1,13 @@
+{
+  "type_id": 28868,
+  "name": "小型安全货柜",
+  "description": "这个小型密封集装箱采取了尖端安全措施，可以防止其他船只扫描箱内物品。",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 75.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 54166,
+  "name": "建筑燃料",
+  "description": "这款饮料的颜色让人联想到刷锅水，它水果味的口感让你很容易忘记它的真实成分。它的发明者是传奇狂徒瓦罗内，并由维托军团的克隆飞行员海盗推广开来。没用多久，它就成为了全宇宙的海盗组织举行秘密集会时的主要饮品。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

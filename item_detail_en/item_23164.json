@@ -1,0 +1,13 @@
+{
+  "type_id": 23164,
+  "name": "Second-hand Parts",
+  "description": "Alloys and special materials used in the manufacture of modules based on Ancient technology.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Materials and Compounds",
+  "attributes": [],
+  "traits": []
+}

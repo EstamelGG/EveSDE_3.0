@@ -1,0 +1,13 @@
+{
+  "type_id": 76208,
+  "name": "Stellar Transmuter Research Data Fragment",
+  "description": "This Stellar Transmuter Research Data Fragment can be used as an input with a <a href=showinfo:76205>Stellar Transmuter Datacore Blueprint</a> in order to reconstruct a portion of the accumulated research and technical data gathered by those empires with a comprehensive understanding of the means to construct and control Stellar Transmuters.\n\nTo reconstruct such data it will also be necessary to acquire <a href=showinfo:76209>Stellar Transmuter Research Encryption Keys</a> and <a href=showinfo:76207>Index Files</a>.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

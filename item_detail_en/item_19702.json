@@ -1,0 +1,13 @@
+{
+  "type_id": 19702,
+  "name": "Repository Descramble Code",
+  "description": "This fractal generated descrambling code is used by local Rogue Drones as a way to secure access through the acceleration gate. Once the code is used, the gate will remain open for a short period of time and the code will be rendered useless as a new security codeline will be automatically generated.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,21 @@
+{
+  "type_id": 16681,
+  "name": "Nanotransistors",
+  "description": "Extremely complex molecular-level transistors used in nanoscale electronics, such as microprocessors and capacitor units.",
+  "volume": 0.25,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Composite",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 1500.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

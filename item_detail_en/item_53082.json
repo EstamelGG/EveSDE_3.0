@@ -1,0 +1,13 @@
+{
+  "type_id": 53082,
+  "name": "Astronavigational Tracking Program",
+  "description": "This program is used to track multiple astronomical bodies at the same time. It can be used to help predict approximate trajectories but is normally just used for recording vast amounts of data. Due to its prediction capabilities, it highlights anomalies for review by other programs or people. \n\nThe data contained herein shows an anomalous situation at the nearby asteroids. It additionally plots a long-distance vector, one that can be used with the Acceleration Gate found near where this was found.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

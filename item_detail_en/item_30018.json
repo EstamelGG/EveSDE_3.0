@@ -1,0 +1,21 @@
+{
+  "type_id": 30018,
+  "name": "Fused Nanomechanical Engines",
+  "description": "The beating heart of the Sleeper's automated drones, these tiny engines count in the billions. When fully intact, they deliver levels of power efficiency unrivaled by current technology. Unfortunately, whenever a Sleeper drone goes down, these engines are the first to go with them, making it difficult to emulate their functionality without the addition of other components.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Ancient Salvage",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

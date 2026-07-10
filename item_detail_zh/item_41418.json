@@ -1,0 +1,21 @@
+{
+  "type_id": 41418,
+  "name": "缚魂铁骑舰载机辅助单元蓝图",
+  "description": "",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "蓝图",
+  "group_name": "无人机升级件蓝图",
+  "attributes": [
+    {
+      "attribute_name": "metaGroupID",
+      "value": 4.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 57480,
+  "name": "Programmable Purification Membrane",
+  "description": "Programmable Purification Membranes are advanced biotechnology components useful for applications involving highly-complex pharmaceutical chemicals. Developed using hermetic membrane technology, PPMs are useful as seals, filters and flow control mechanisms responsive to the bio-programming loaded into the devices they are installed in.",
+  "volume": 8000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Construction Components",
+  "attributes": [],
+  "traits": []
+}

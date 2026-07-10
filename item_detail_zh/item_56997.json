@@ -1,0 +1,49 @@
+{
+  "type_id": 56997,
+  "name": "弱不稳定冰风暴",
+  "description": "",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "天体",
+  "group_name": "效果光束",
+  "attributes": [
+    {
+      "attribute_name": "thermalDamageResistanceBonus",
+      "value": -4.0,
+      "categoryID": 7,
+      "display_name": "热能伤害抗性加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "thermodynamicsHeatDamage",
+      "value": -10.0,
+      "categoryID": 52,
+      "display_name": "超载伤害量调整",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorThermalDamageResistanceBonus",
+      "value": -4.0,
+      "categoryID": 3,
+      "display_name": "装甲热能抗性加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldThermalDamageResistanceBonus",
+      "value": -4.0,
+      "categoryID": 2,
+      "display_name": "护盾热能抗性",
+      "unit_name": "%"
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b>10%</b> 装备超载受到的过热伤害减少"
+    },
+    {
+      "content": "<b>4%</b> 舰船热能抗性提升’"
+    }
+  ]
+}

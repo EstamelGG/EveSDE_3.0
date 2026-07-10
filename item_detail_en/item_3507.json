@@ -1,0 +1,13 @@
+{
+  "type_id": 3507,
+  "name": "Tactical Response Transmitter",
+  "description": "This small device is used to transmit specific information and commands relating to fleet movements and tactical relocations. Due to the critical nature of such transmissions, Sansha forces have developed layered security measures for their use. In order for a TRT to override local forces, the transmitter must first be set to the correct frequencies and then physically relocated from a control nexus to a relay.",
+  "volume": 7500.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5000.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

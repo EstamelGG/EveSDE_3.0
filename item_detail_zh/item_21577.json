@@ -1,0 +1,42 @@
+{
+  "type_id": 21577,
+  "name": "机密获取装置",
+  "description": "这个解码器提供宝贵的万全方法，可以极大提高加达里发明项目的成功几率。如果你想要万无一失，就使用这个解码器。<br><br>机率调节值：+80%<br> 最大流程调节值：+4<br>材料效率调节值：-1<br>时间效率调节值：+4",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "解码器",
+  "group_name": "解码器—加达里",
+  "attributes": [
+    {
+      "attribute_name": "inventionPropabilityMultiplier",
+      "value": 1.8,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "inventionMEModifier",
+      "value": -1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "inventionTEModifier",
+      "value": 4.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "inventionMaxRunModifier",
+      "value": 4.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

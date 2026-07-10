@@ -1,0 +1,56 @@
+{
+  "type_id": 62543,
+  "name": "高密度杰斯贝矿（4级）",
+  "description": "这种及其稀有和珍贵的杰斯贝矿变种是最近由ORE工程师在对新型卫星开采技术进行初期实地实验时发现的。经过进一步检测后确认这种矿石提炼后的矿物产出比普通的杰斯贝矿高15%。杰斯贝矿石含有两种贵重矿物，因此销路一直很好。它含有大量的<a href=showinfo:36>类银超金属</a>以及一些<a href=showinfo:38>超新星诺克石</a>。这种矿物被压缩过，比它的原始形态紧密得多。",
+  "volume": 0.02,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "小行星",
+  "group_name": "杰斯贝矿",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 60378.0,
+      "categoryID": 7,
+      "display_name": "回收再生技能",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "停滞缠绕抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 46682.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "类别ID"
+    }
+  ],
+  "traits": []
+}

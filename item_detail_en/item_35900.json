@@ -1,0 +1,63 @@
+{
+  "type_id": 35900,
+  "name": "Structure Compression Plant",
+  "description": "",
+  "volume": 4000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 500.0,
+  "category_name": "Structure Module",
+  "group_name": "Unpublished Structure Modules",
+  "attributes": [
+    {
+      "attribute_name": "power",
+      "value": 200000.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Usage",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 1000.0,
+      "categoryID": 1,
+      "display_name": "CPU usage",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "canFitShipGroup01",
+      "value": 1657.0,
+      "categoryID": 1,
+      "display_name": "Can only be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "canFitShipGroup02",
+      "value": 1404.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "serviceModuleFuelConsumptionGroup",
+      "value": 1136.0,
+      "categoryID": 7,
+      "display_name": "Service Module Fuel Need",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "serviceModuleFuelAmount",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Service Module Cycle Fuel Need",
+      "unit_name": "units"
+    },
+    {
+      "attribute_name": "serviceModuleFuelOnlineAmount",
+      "value": 360.0,
+      "categoryID": 7,
+      "display_name": "Service Module Online Fuel Need",
+      "unit_name": "units"
+    }
+  ],
+  "traits": []
+}

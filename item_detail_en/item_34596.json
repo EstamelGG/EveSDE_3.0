@@ -1,0 +1,21 @@
+{
+  "type_id": 34596,
+  "name": "Entosis Link II Blueprint",
+  "description": "The Entosis Link was developed by Carthum Conglomerate from recovered Drifter technology. It appears to use ancient Jovian techniques and materials to allow more efficient mind-machine links than were thought possible in the past. This technology has proven to be the most efficient method of interfacing with Capsuleer sovereignty infrastructure.\n\nMany capsuleers played key parts in the development and ongoing refinement of Entosis Link technology. The greatest contributors have been the innovative thinkers in Pandemic Legion's legendary SPHERE Labs.\nThe greatest capsuleer contributors to early testing of Entosis technology were members of the following organizations:\n<url=showinfo:16159//386292982>Pandemic Legion</url>\nSpectre Fleet\nNo Not Believing (Especially <url=showinfo:2//1239884823>Noir. Corporation</url>)\n<url=showinfo:16159//99004211>Affirmative</url>\n<url=showinfo:16159//1006830534>Fidelas Constans</url>\n<url=showinfo:16159//99003214>Brave Collective</url>\n<url=showinfo:16159//99002938>DARKNESS.</url>\n<url=showinfo:16159//99002172>I Whip My Slaves Back and Forth</url>\n<url=showinfo:16159//431502563>Ministry of Inappropriate Footwork</url>\n<url=showinfo:16159//99003322>Nemesis Enterprises.</url>\n<url=showinfo:16159//99003035>Praetorian Directorate</url>\n<url=showinfo:16159//99003033>Q Alliance</url>\n<url=showinfo:16159//99005286>Stella Nova</url>\n<url=showinfo:16159//99001697>Suddenly Spaceships.</url>",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Blueprint",
+  "group_name": "Entosis Link Blueprint",
+  "attributes": [
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    }
+  ],
+  "traits": []
+}

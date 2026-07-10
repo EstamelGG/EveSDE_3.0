@@ -1,0 +1,13 @@
+{
+  "type_id": 33195,
+  "name": "空间协调装置",
+  "description": "主要应用于扫描设备的感应器部件。多见于遗迹地点。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "建造组件",
+  "attributes": [],
+  "traits": []
+}

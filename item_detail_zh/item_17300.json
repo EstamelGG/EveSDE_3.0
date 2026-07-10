@@ -1,0 +1,13 @@
+{
+  "type_id": 17300,
+  "name": "阿勒门·阿卡的铭牌",
+  "description": "阿勒门·阿卡的铭牌。如交给合适的权威组织，它也许会变得有价值。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "铭牌",
+  "attributes": [],
+  "traits": []
+}

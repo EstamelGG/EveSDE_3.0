@@ -1,0 +1,13 @@
+{
+  "type_id": 30778,
+  "name": "Mysterious Statuette",
+  "description": "This ancient, faintly engraved statuette looks like just the kind of thing Canius was after.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

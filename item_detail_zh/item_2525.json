@@ -1,0 +1,49 @@
+{
+  "type_id": 2525,
+  "name": "海洋行星指挥中心",
+  "description": "海洋行星指挥中心是由几座相互连接的水下建筑构成的，它们就是海洋行星殖民站的中枢神经。这座建造在海底上的建筑，配备有一根粗壮的脐带管道连接到漂浮于海面上的通讯舱，所有行星间的通信都将由这个通讯舱负责收发。指挥中心同时也配有一具二级火箭增压发射管，它可以将人员和物资带到海面，再从那里送入轨道。",
+  "volume": 1000.0,
+  "repackaged_volume": null,
+  "capacity": 500.0,
+  "mass": 5000.0,
+  "category_name": "行星工业",
+  "group_name": "指挥中心",
+  "attributes": [
+    {
+      "attribute_name": "powerOutput",
+      "value": 6000.0,
+      "categoryID": 1,
+      "display_name": "能量栅格输出",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuOutput",
+      "value": 1675.0,
+      "categoryID": 1,
+      "display_name": "CPU输出",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 2014.0,
+      "categoryID": 7,
+      "display_name": "行星类型限制",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "exportTax",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "出口税",
+      "unit_name": "星币"
+    }
+  ],
+  "traits": []
+}

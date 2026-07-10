@@ -1,0 +1,13 @@
+{
+  "type_id": 29150,
+  "name": "Encrypted Ship Log",
+  "description": "This otherwise rather generic ship log has been well encrypted. Your ship's computers are unable to access its data.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Ship Logs",
+  "attributes": [],
+  "traits": []
+}

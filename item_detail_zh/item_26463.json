@@ -1,0 +1,13 @@
+{
+  "type_id": 26463,
+  "name": "免费试用品",
+  "description": "第一件产品总是免费的。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

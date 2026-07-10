@@ -1,0 +1,13 @@
+{
+  "type_id": 2967,
+  "name": "一箱反目标标记镀层",
+  "description": "这些船体表面上都有一层晶体结构，这层晶体上还附有一层保护性透明搪瓷。当用点光源对其进行直射时，该晶体层会反光闪烁，制造出光晕效果。",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

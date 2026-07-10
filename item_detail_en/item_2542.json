@@ -1,0 +1,49 @@
+{
+  "type_id": 2542,
+  "name": "Oceanic Launchpad",
+  "description": "Despite being anchored to the ocean floor, the underwater launch pad is able to deliver and receive payloads from orbit via two separate mechanisms. First, a compressed gyrostabilized gas containment system provides the required pressure to propel a solid fuel rocket to the surface of the water, where it can achieve escape velocity under its own power. Secondly, the structure houses an automated drone bay capable of retrieving splash-down canisters deposited on the surface as well as recovering booster stages of export rockets for reuse.",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": 10000.0,
+  "mass": null,
+  "category_name": "Planetary Industry",
+  "group_name": "Spaceports",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 700.0,
+      "categoryID": 7,
+      "display_name": "Power Load",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 3600.0,
+      "categoryID": 9,
+      "display_name": "CPU Load",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 2014.0,
+      "categoryID": 7,
+      "display_name": "Planet Type Restriction",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "importTax",
+      "value": 0.5,
+      "categoryID": 7,
+      "display_name": "Import Tax",
+      "unit_name": "ISK"
+    },
+    {
+      "attribute_name": "exportTax",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Export Tax",
+      "unit_name": "ISK"
+    }
+  ],
+  "traits": []
+}

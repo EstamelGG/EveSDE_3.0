@@ -1,0 +1,13 @@
+{
+  "type_id": 32634,
+  "name": "Default Point Light",
+  "description": "",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Lights",
+  "group_name": "Point Lights",
+  "attributes": [],
+  "traits": []
+}

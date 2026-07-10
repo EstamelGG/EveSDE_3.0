@@ -1,0 +1,49 @@
+{
+  "type_id": 2543,
+  "name": "气体行星发射平台",
+  "description": "为了能将加工出来的产品从气体行星低轨道上的节点设施运送到高轨道上的太空港和贸易枢纽，人们采用了一种古老但可靠的技术。由于表面并非固态，这里的发射平台系统需要有非常小的后坐力。这样一来，固体燃料火箭就无法使用，人们转而利用使用一系列触发电磁机构的霍曼质量推动器，它在发射过程中所做的无用功最小。实际上它就是一只巨大的用于发射货柜舱的磁轨炮，它能将专用货柜舱运送到高轨道设施上的预定接收站里。",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": 10000.0,
+  "mass": null,
+  "category_name": "行星工业",
+  "group_name": "太空港",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 700.0,
+      "categoryID": 7,
+      "display_name": "能量负荷",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 3600.0,
+      "categoryID": 9,
+      "display_name": "CPU载荷",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 13.0,
+      "categoryID": 7,
+      "display_name": "行星类型限制",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "importTax",
+      "value": 0.5,
+      "categoryID": 7,
+      "display_name": "进口税",
+      "unit_name": "星币"
+    },
+    {
+      "attribute_name": "exportTax",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "出口税",
+      "unit_name": "星币"
+    }
+  ],
+  "traits": []
+}

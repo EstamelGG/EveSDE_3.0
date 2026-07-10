@@ -1,0 +1,35 @@
+{
+  "type_id": 84441,
+  "name": "深渊中型质子立体炸弹",
+  "description": "从舰船上发射一个全向脉冲，对周围船只造成爆炸伤害。",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "装备",
+  "group_name": "立体炸弹",
+  "attributes": [
+    {
+      "attribute_name": "empFieldRange",
+      "value": 4800.0,
+      "categoryID": 7,
+      "display_name": "效果范围",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3421.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

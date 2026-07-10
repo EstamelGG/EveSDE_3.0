@@ -1,0 +1,13 @@
+{
+  "type_id": 21634,
+  "name": "Secret Garage Coordinates",
+  "description": "A data chip containing the location of a secret garage operated by the local bandits.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

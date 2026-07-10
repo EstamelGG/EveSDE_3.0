@@ -1,0 +1,161 @@
+{
+  "type_id": 41466,
+  "name": "Capital Remote Armor Repairer II",
+  "description": "This module uses nano-assemblers to repair damage done to the armor of the Target ship.\n\nNote: May only be fitted to capital class ships.",
+  "volume": 4000.0,
+  "repackaged_volume": 1000.0,
+  "capacity": null,
+  "mass": 20.0,
+  "category_name": "Module",
+  "group_name": "Remote Armor Repairer",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 1950.0,
+      "categoryID": 5,
+      "display_name": "Activation Cost",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 165000.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Usage",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 44.0,
+      "categoryID": 1,
+      "display_name": "CPU usage",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 18000.0,
+      "categoryID": 29,
+      "display_name": "Optimal Range",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 15000.0,
+      "categoryID": 7,
+      "display_name": "Activation time / duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "armorDamageAmount",
+      "value": 875.0,
+      "categoryID": 7,
+      "display_name": "Armor Hitpoints Repaired",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 24568.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 4.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "heatAbsorbtionRateModifier",
+      "value": 0.01,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "overloadSelfDurationBonus",
+      "value": -15.0,
+      "categoryID": 7,
+      "display_name": "Overload duration bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "heatDamage",
+      "value": 2.0,
+      "categoryID": 52,
+      "display_name": "Heat Damage",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredThermoDynamicsSkill",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Required Thermodynamics Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "overloadArmorDamageAmount",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "Overload Repair Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "falloffEffectiveness",
+      "value": 4800.0,
+      "categoryID": 29,
+      "display_name": "Effectiveness Falloff",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "shipBonusRole3",
+      "value": 0.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "shipBonusRole4",
+      "value": 0.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "repairMultiplierBonusPerCycle",
+      "value": 0.0,
+      "categoryID": 20,
+      "display_name": "Repair Multiplier Bonus Per Cycle",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "repairMultiplierBonusMax",
+      "value": 0.0,
+      "categoryID": 20,
+      "display_name": "Maximum Repair Multiplier Bonus",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

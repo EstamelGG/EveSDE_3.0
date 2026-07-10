@@ -1,0 +1,13 @@
+{
+  "type_id": 26125,
+  "name": "Test Bong",
+  "description": "A curious device used by pirates to test their own product. Seems heavily used.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

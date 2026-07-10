@@ -1,0 +1,13 @@
+{
+  "type_id": 41307,
+  "name": "Restrained Electronics",
+  "description": "",
+  "volume": 0.001,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.001,
+  "category_name": "Material",
+  "group_name": "Named Components",
+  "attributes": [],
+  "traits": []
+}

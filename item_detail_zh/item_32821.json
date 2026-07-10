@@ -1,0 +1,21 @@
+{
+  "type_id": 32821,
+  "name": "粗糙的铪化钒",
+  "description": "一种由铪和钒组成的稳定的二元化合物，能够起很多催化作用，并且是许多复杂构造过程的重要媒介。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "中间产物",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

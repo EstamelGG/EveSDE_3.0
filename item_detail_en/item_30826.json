@@ -1,0 +1,13 @@
+{
+  "type_id": 30826,
+  "name": "Altered Identity Records",
+  "description": "These identity records will overwrite the original data in the system.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 50.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

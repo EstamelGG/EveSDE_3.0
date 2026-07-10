@@ -1,0 +1,21 @@
+{
+  "type_id": 29069,
+  "name": "Capital Magnetometric Sensor Cluster",
+  "description": "Sensor Component used primarily in Gallente ships. A component in various other technology as well.",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Advanced Capital Construction Components",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

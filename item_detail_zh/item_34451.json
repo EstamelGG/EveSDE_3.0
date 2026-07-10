@@ -1,0 +1,13 @@
+{
+  "type_id": 34451,
+  "name": "纳米塑料薄膜补丁",
+  "description": "中心档案端脑用这块长形超薄纳米塑料来操作复杂的机械装置。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

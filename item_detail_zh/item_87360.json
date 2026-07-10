@@ -1,0 +1,13 @@
+{
+  "type_id": 87360,
+  "name": "光谱视觉捕捉器奖励箱",
+  "description": "不死循环会为提供一整套（12个）光谱视觉捕捉器的飞行员发放一个凭证，以示感谢。",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

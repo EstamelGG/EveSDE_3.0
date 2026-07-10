@@ -1,0 +1,13 @@
+{
+  "type_id": 53035,
+  "name": "Capital Ultratidal Entropic Mounting",
+  "description": "Mounting parts vital to the installation and support of Ultratidal Entropic Disintegrators on capital ships using Triglavian weapons technology.",
+  "volume": 2000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000.0,
+  "category_name": "Commodity",
+  "group_name": "Capital Construction Components",
+  "attributes": [],
+  "traits": []
+}

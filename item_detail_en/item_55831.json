@@ -1,0 +1,13 @@
+{
+  "type_id": 55831,
+  "name": "Triglavian Transconduit Datacaster",
+  "description": "This device was recovered from the wreck of a Triglavian Collective invasion vessel and is a powerful data transmission device using technology that interacts with Triglavian conduits. The ability of the Transconduit Datacaster to establish communication through conduits would evidently be essential to Triglavian operations. Like many Triglavian devices this technology includes integrated data storage.\n\nEDENCOM Intelligence is very keen to acquire these devices and assess their integrated storage so as to evaluate Triglavian movements and activities. The DED is collecting the items on behalf of EDENCOM in exchange for technology sanctioned for release to anti-Triglavian capsuleers through its loyalty store.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 20.0,
+  "category_name": "Commodity",
+  "group_name": "Triglavian Data",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 57480,
+  "name": "可编程净化薄膜",
+  "description": "可编程净化薄膜是一种高级生物科技组件，可以应用于非常复杂的药用化学品中。它使用了密封薄膜技术，可以根据仪器预装了生物程序来发挥密封、过滤或流体控制作用。",
+  "volume": 8000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "常用物品",
+  "group_name": "建造组件",
+  "attributes": [],
+  "traits": []
+}

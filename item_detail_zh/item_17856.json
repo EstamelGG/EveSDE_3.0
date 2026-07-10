@@ -1,0 +1,13 @@
+{
+  "type_id": 17856,
+  "name": "血腥傀儡4级通行卡",
+  "description": "这个安全通行钥匙能启动通往劳工处理点的轨道。轨道会打开一小段时间，通行钥匙在将钥匙数据上传到轨道激活设备后，就会失去效用。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

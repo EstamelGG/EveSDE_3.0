@@ -1,0 +1,21 @@
+{
+  "type_id": 2742,
+  "name": "Biochemical Silo Blueprint",
+  "description": "This type of blueprint has been phased out and may no longer be used for industrial activities.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Blueprint",
+  "group_name": "Starbase Blueprint",
+  "attributes": [
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 60.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

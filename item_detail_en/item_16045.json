@@ -1,0 +1,13 @@
+{
+  "type_id": 16045,
+  "name": "Large Sealed Cargo Containers",
+  "description": "These large containers are fitted with a password-protected security lock.",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

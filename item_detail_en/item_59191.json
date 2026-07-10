@@ -1,0 +1,42 @@
+{
+  "type_id": 59191,
+  "name": "Mining Blitz Range Booster Dose III",
+  "description": "<b>+30% Mining Laser Optimal Range, 4 hour duration</b>\nThis booster will be applied directly to your character when redeemed instead of being placed in your inventory.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Implant",
+  "group_name": "Booster",
+  "attributes": [
+    {
+      "attribute_name": "boosterDuration",
+      "value": 14400000.0,
+      "categoryID": 7,
+      "display_name": "Booster Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "maxRangeBonus",
+      "value": 30.0,
+      "categoryID": 37,
+      "display_name": "Optimal Range Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Booster Slot",
+      "unit_name": "Slot"
+    }
+  ],
+  "traits": []
+}

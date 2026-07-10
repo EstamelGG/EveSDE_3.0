@@ -1,0 +1,13 @@
+{
+  "type_id": 77473,
+  "name": "Warclone Blanks Vat",
+  "description": "Vat filled with the suspended bodies of warclones awaiting consciousness transfer.\n\nWarclones are humans engineered for infantry combat. They are regarded as valuable biological equipment and are particularly prized by the Blood Raider Covenant, as Omir Sarikusa's infamous sect of Sani Sabik cultists consider the blood of clones to be the 'purest' possible sacramental for use in their sanguine rituals.",
+  "volume": 3500.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 20000.0,
+  "category_name": "Commodity",
+  "group_name": "Homefront Operations Commodity",
+  "attributes": [],
+  "traits": []
+}

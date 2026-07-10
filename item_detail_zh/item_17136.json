@@ -1,0 +1,28 @@
+{
+  "type_id": 17136,
+  "name": "乌克米超导体",
+  "description": "用于高压电气设备的高绝缘低摩擦线圈。乌克米超导体是卡拉吉塔集团研发制造的新品牌。现在每个加达里空间站都有一堆这样评价很好的超导体，而且由于它们科技上的优越性，在境外黑市的需求量非常大。",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "行星商品",
+  "group_name": "特种资源物品 - 第三等级",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 60000.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 60000.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

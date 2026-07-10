@@ -1,0 +1,13 @@
+{
+  "type_id": 54808,
+  "name": "Predictive Light Cone Plotter",
+  "description": "The component name and serial number of this strange piece of technology is indicated clearly by data-tags bearing CONCORD, Upwell Consortium and EDENCOM identifier codes. This particular item appears to be designed to predict future events as part of a sophisticated targeting system but the means by which it could achieve firing solutions is highly obscure. This device is obviously intended to form part of a larger design.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 20.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

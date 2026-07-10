@@ -1,0 +1,13 @@
+{
+  "type_id": 25844,
+  "name": "Head in a Jar",
+  "description": "This is a human head, sealed in a jar of preservative fluid.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

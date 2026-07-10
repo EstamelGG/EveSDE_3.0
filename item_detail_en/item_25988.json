@@ -1,0 +1,13 @@
+{
+  "type_id": 25988,
+  "name": "Mining Equipment",
+  "description": "Expensive mining equipment.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": 50.0,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

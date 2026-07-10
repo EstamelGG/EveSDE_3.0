@@ -1,0 +1,49 @@
+{
+  "type_id": 2550,
+  "name": "风暴行星指挥中心",
+  "description": "这种类型的指挥建筑在设计上就要求能够存在于宇宙中环境最恶劣的行星上，并保持正常运作。指挥中心的上层建筑采用了钛金属和钢的混合加固结构，这使得它的整体弹性得到了增强。此外，它还配备有反谐波稳定装置，这让它能够保持自己的水平并在各种地质状况或操作中保证安全。整座设施外部都包裹了一层适应性金属板，这种金属板原本是用于行星改造平台所使用的，它能够作为一层隔离带将所包裹的设施同外界环境相隔绝。到这里来的访问者会发现，第一次进入设施之前的消毒程序和加压程序都非常繁琐和粗暴。设施所采集到的各种资源都通过大运载量的可重复使用火箭运送到外层空间，然后再由货柜无人机进行回收。",
+  "volume": 1000.0,
+  "repackaged_volume": null,
+  "capacity": 500.0,
+  "mass": 5000.0,
+  "category_name": "行星工业",
+  "group_name": "指挥中心",
+  "attributes": [
+    {
+      "attribute_name": "powerOutput",
+      "value": 6000.0,
+      "categoryID": 1,
+      "display_name": "能量栅格输出",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuOutput",
+      "value": 1675.0,
+      "categoryID": 1,
+      "display_name": "CPU输出",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 2017.0,
+      "categoryID": 7,
+      "display_name": "行星类型限制",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "exportTax",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "出口税",
+      "unit_name": "星币"
+    }
+  ],
+  "traits": []
+}

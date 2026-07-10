@@ -1,0 +1,13 @@
+{
+  "type_id": 3584,
+  "name": "True Slave Decryption Node",
+  "description": "Functionally, this piece of hardware - obviously of Sansha origin - is an extremely sophisticated parallel processing unit. Connecting it to a standard interface bus and running a few diagnostics reveals that it has been configured to act as the master node for a quasi-distributed decryption system, and its response rate suggests that it's exceptionally efficient at this task.<br><br>It is, however, difficult to ignore the fact that it's also a head in a jar - particularly when it opens its eyes briefly, looks around, and frowns.",
+  "volume": 4.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 700.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

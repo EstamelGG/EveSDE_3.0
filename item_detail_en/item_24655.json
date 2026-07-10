@@ -1,0 +1,189 @@
+{
+  "type_id": 24655,
+  "name": "Advanced Medium Ship Assembly Array",
+  "description": "A mobile assembly facility where advanced medium sized ships such as Logistics Cruisers, Heavy Assault Cruisers, Recon Cruisers, Heavy Interdiction Cruisers and Command Battlecruisers can be manufactured.\n\nNote: To use a ship from a Ship Assembly Array a Ship Maintenance Array with enough free storage space needs to be in range that the ship can be moved there.",
+  "volume": 17000.0,
+  "repackaged_volume": null,
+  "capacity": 2000000.0,
+  "mass": 200000000.0,
+  "category_name": "Starbase",
+  "group_name": "Assembly Array",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 10000.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 200000.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Usage",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 500.0,
+      "categoryID": 1,
+      "display_name": "CPU usage",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "uniformity",
+      "value": 1.0,
+      "categoryID": 2,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 11584.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "scanRadarStrength",
+      "value": 200.0,
+      "categoryID": 6,
+      "display_name": "RADAR Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanLadarStrength",
+      "value": 200.0,
+      "categoryID": 6,
+      "display_name": "Ladar Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrength",
+      "value": 200.0,
+      "categoryID": 6,
+      "display_name": "Magnetometric Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanGravimetricStrength",
+      "value": 200.0,
+      "categoryID": 6,
+      "display_name": "Gravimetric Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "shieldCapacity",
+      "value": 20000.0,
+      "categoryID": 2,
+      "display_name": "Shield Capacity",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorHP",
+      "value": 20000.0,
+      "categoryID": 3,
+      "display_name": "Armor Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "shieldRechargeRate",
+      "value": 800000.0,
+      "categoryID": 2,
+      "display_name": "Shield recharge time",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "shieldUniformity",
+      "value": 0.75,
+      "categoryID": 2,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "armorUniformity",
+      "value": 0.75,
+      "categoryID": 3,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureUniformity",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 2000.0,
+      "categoryID": 6,
+      "display_name": "Signature Radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "anchoringDelay",
+      "value": 5000.0,
+      "categoryID": 7,
+      "display_name": "Anchoring Delay",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "unanchoringDelay",
+      "value": 5000.0,
+      "categoryID": 7,
+      "display_name": "Unanchoring Delay",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "onliningDelay",
+      "value": 3000.0,
+      "categoryID": 7,
+      "display_name": "Onlining Delay",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "maxOperationalDistance",
+      "value": 3000.0,
+      "categoryID": 7,
+      "display_name": "Maximum Operational Distance",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "maxOperationalUsers",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Maximum Concurrent Operational Users",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "disallowOffensiveModifiers",
+      "value": 1.0,
+      "categoryID": 6,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "isRAMcompatible",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "fighterAbilityAntiCapitalMissileResistance",
+      "value": 1.0,
+      "categoryID": 38,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

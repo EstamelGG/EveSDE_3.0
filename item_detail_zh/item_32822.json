@@ -1,0 +1,21 @@
+{
+  "type_id": 32822,
+  "name": "粗糙的铂锝合金",
+  "description": "一种由铂和锝组成的合金，弹性很好，在机械和军火工业中非常抢手。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "中间产物",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

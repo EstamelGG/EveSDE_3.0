@@ -1,0 +1,13 @@
+{
+  "type_id": 45,
+  "name": "Frozen Plant Seeds",
+  "description": "Frozen plant seeds are in high demand in many regions, especially on stations orbiting a non-habitable planet.",
+  "volume": 0.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 400.0,
+  "category_name": "Commodity",
+  "group_name": "Frozen",
+  "attributes": [],
+  "traits": []
+}

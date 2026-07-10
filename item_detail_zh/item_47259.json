@@ -1,0 +1,13 @@
+{
+  "type_id": 47259,
+  "name": "突击型损伤控制蓝图 I",
+  "description": "",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "蓝图",
+  "group_name": "损伤控制装备蓝图",
+  "attributes": [],
+  "traits": []
+}

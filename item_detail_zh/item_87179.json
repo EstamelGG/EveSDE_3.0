@@ -1,0 +1,13 @@
+{
+  "type_id": 87179,
+  "name": "过时的观测级共振密钥",
+  "description": "数据密钥内含恒星观测量子相互作用的共振记录的数据密钥。加速轨道曾经需要使用此数据锁定星际观测站的位置。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

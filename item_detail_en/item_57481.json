@@ -1,0 +1,13 @@
+{
+  "type_id": 57481,
+  "name": "Genetic Lock Preserver",
+  "description": "Genetic Lock Preservers are a component in the safeguarding measures adopted by EDENCOM and the empires during the Triglavian Invasions. It is vital for capsuleers to maintain their genetic lock with capsule systems for proper neurolink synchronization and anti-tampering security.\n\nDue to the mastery of mutaplasmids and other biotechnology demonstrated by the Triglavians, the risk of subversion through genetic tampering or outright mutagenic warfare attacks led EDENCOM to mandate safeguards for capsuleers piloting the most powerful naval vessels.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Construction Components",
+  "attributes": [],
+  "traits": []
+}

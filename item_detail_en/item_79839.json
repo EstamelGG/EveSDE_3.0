@@ -1,0 +1,13 @@
+{
+  "type_id": 79839,
+  "name": "Insurgency Suppression Interdiction Range Beacon",
+  "description": "",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Celestial",
+  "group_name": "Effect Beacon",
+  "attributes": [],
+  "traits": []
+}

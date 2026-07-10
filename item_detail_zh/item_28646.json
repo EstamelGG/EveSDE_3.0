@@ -1,0 +1,259 @@
+{
+  "type_id": 28646,
+  "name": "隐秘诱导力场发生器 I",
+  "description": "生成一个无法被侦测到、仅能由黑隐特勤舰的跳跃引擎锁定的隐秘诱导力场。\n\n\n\n注：只能安装在黑隐特勤舰、偷运舰、隐形特勤舰、伊塔那级、掘金者级、隐形轰炸舰、侦察舰以及装配了隐形优化器子系统的战略巡洋舰上。",
+  "volume": 25.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "装备",
+  "group_name": "诱导力场发生器",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 999999.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "speedFactor",
+      "value": -100.0,
+      "categoryID": 28,
+      "display_name": "最大速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "power",
+      "value": 10.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 50.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 60000.0,
+      "categoryID": 7,
+      "display_name": "作用时间/单次运转时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 21603.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "moduleReactivationDelay",
+      "value": 30000.0,
+      "categoryID": 7,
+      "display_name": "重启延迟",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "consumptionType",
+      "value": 16273.0,
+      "categoryID": 7,
+      "display_name": "消耗类型",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "consumptionQuantity",
+      "value": 50.0,
+      "categoryID": 7,
+      "display_name": "消耗量",
+      "unit_name": "单位"
+    },
+    {
+      "attribute_name": "maxGroupActive",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "deadspaceUnsafe",
+      "value": 2.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "siegeModeWarpStatus",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "disallowEarlyDeactivation",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "canCloak",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "disallowActivateOnWarp",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "跃迁中无法激活",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "isCovert",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "使用隐秘诱导力场科技",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "canFitShipGroup01",
+      "value": 898.0,
+      "categoryID": 1,
+      "display_name": "只能装配在",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "canFitShipGroup02",
+      "value": 830.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "canFitShipGroup03",
+      "value": 833.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "canFitShipGroup04",
+      "value": 834.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "canFitShipType1",
+      "value": 32790.0,
+      "categoryID": 1,
+      "display_name": "只能装配在",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "canFitShipType2",
+      "value": 33697.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "canFitShipType3",
+      "value": 42245.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "maxVelocityLimited",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "maxVelocityActivationLimit",
+      "value": 500.0,
+      "categoryID": 7,
+      "display_name": "最大速度限制",
+      "unit_name": "m/s"
+    },
+    {
+      "attribute_name": "covertCloakCPUAdd",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "canFitShipGroup05",
+      "value": 963.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "canFitShipGroup06",
+      "value": 1202.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "speedFactorFloor",
+      "value": -100.0,
+      "categoryID": 28,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "disallowTethering",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "不允许驻留",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "disallowDocking",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "不允许停靠",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "cynosuralFieldSpawnRadius",
+      "value": 5000.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "m"
+    }
+  ],
+  "traits": []
+}

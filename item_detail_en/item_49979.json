@@ -1,0 +1,56 @@
+{
+  "type_id": 49979,
+  "name": "Expired 'Absolute' Injection Augmentor",
+  "description": "This modified booster removes the diminishing Skill Point returns experienced by veteran Capsuleers when using Skill Injectors of any size. However, the complex cocktail of narcotics and neurotransmitters used to achieve this effect loses potency after just 3 such injections.\n\nRumors that the booster is one of the fruits of the mysterious 'Hyperconsciousness' project attributed to renegade Society of Conscious Thought scientists are surely exaggerated.\n\nUsers will be unable to consume another of these boosters while under the influence of the hangover effects, which may last up to 32 hours after consuming the booster.\n\nThis booster will cease to be consumable after YC121.01.07.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Implant",
+  "group_name": "Booster",
+  "attributes": [
+    {
+      "attribute_name": "boosterDuration",
+      "value": 57600000.0,
+      "categoryID": 7,
+      "display_name": "Booster Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 14.0,
+      "categoryID": 7,
+      "display_name": "Booster Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "nondestructible",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Non-Destructible",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "followsJumpClones",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Follows Jump Clones",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "boosterLastInjectionDatetime",
+      "value": 17903.4583333,
+      "categoryID": 7,
+      "display_name": "Expiry Date",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "NonDiminishingSkillInjectorUses",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "Penaltyless Skill Injections Allowed",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

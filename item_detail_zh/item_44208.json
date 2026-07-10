@@ -1,0 +1,13 @@
+{
+  "type_id": 44208,
+  "name": "伪造的护卫舰蓝图",
+  "description": "这个数据包储存在一个单一数据核心中，其中包含了所有标准护卫舰的蓝图各一份。这些蓝图明显是被非法拷贝的，不能被生产设施使用来进行制造，上面布满了不知出自哪个疯子之手的涂鸦。",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,42 @@
+{
+  "type_id": 30391,
+  "name": "全方向效果光束",
+  "description": "本地空间现象可能会对你的舰船系统造成影响。",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "天体",
+  "group_name": "效果光束",
+  "attributes": [
+    {
+      "attribute_name": "durationBonus",
+      "value": -50.0,
+      "categoryID": 7,
+      "display_name": "单次运转时间加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "maxVelocityModifier",
+      "value": -50.0,
+      "categoryID": 7,
+      "display_name": "最大速度调整系数",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "maxTargetRangeBonus",
+      "value": -50.0,
+      "categoryID": 37,
+      "display_name": "最大锁定范围加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "trackingSpeedBonus",
+      "value": -50.0,
+      "categoryID": 37,
+      "display_name": "跟踪速度加成",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

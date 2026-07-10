@@ -1,0 +1,13 @@
+{
+  "type_id": 16273,
+  "name": "液化臭氧",
+  "description": "液态臭氧被用作一种清洗和消毒物质，在确保母星每日正常运作中发挥重要作用。保持控制塔在线的必要物质之一。\n\n可以从下列冰矿石中提炼获得：\n\n安全等级<color='0xFF33FFFF'>1.0</color>及以下星系：\n<a href=showinfo:16264>蓝冰矿</a>\n<a href=showinfo:16262>清冰锥</a>\n<a href=showinfo:16263>聚合冰体</a>\n<a href=showinfo:16265>白釉冰</a>\n\n安全等级<color='0xFFFF6600'>0.3</color>及以下星系：\n<a href=showinfo:16266>电冰体</a>\n\n安全等级<color='0xFFE53300'>0.1</color>及以下星系：\n<a href=showinfo:16267>黑闪冰</a>\n\n安全等级<color='0xFFFF0000'>0.0</color>及以下星系：\n<a href=showinfo:17978>富清冰</a>\n<a href=showinfo:16268>加里多斯冰矿</a>\n<a href=showinfo:16269>冰晶矿</a>\n<a href=showinfo:17976>朴白釉冰</a>\n<a href=showinfo:17977>光滑聚合冰</a>\n<a href=showinfo:17975>粗蓝冰</a>",
+  "volume": 0.4,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "冰矿产物",
+  "attributes": [],
+  "traits": []
+}

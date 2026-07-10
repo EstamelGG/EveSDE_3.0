@@ -1,0 +1,21 @@
+{
+  "type_id": 46503,
+  "name": "屹立中型卫星钻探稳定蓝图 I",
+  "description": "",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "蓝图",
+  "group_name": "建筑改装件蓝图",
+  "attributes": [
+    {
+      "attribute_name": "structureItemVisualFlag",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

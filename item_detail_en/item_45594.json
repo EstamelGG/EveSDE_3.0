@@ -1,0 +1,145 @@
+{
+  "type_id": 45594,
+  "name": "Proteus Defensive - Nanobot Injector",
+  "description": "The advanced Sleeper-based technology in this subsystem is focused on increasing the effectiveness of a vessel's armor nanobots. When integrated into the hull of a Proteus, it offers a substantial increase in the armor output of any local repair modules fitted. Although the subsystem offers the same end result as other built-in armor repair augmentations, the technology driving it operates in a vastly different way, allowing for easy removal from its host vessel.",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": 300.0,
+  "mass": 1400000.0,
+  "category_name": "Subsystem",
+  "group_name": "Defensive Subsystem",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 30540.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "shieldCapacity",
+      "value": 100.0,
+      "categoryID": 2,
+      "display_name": "Shield Capacity",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "capacitorCapacity",
+      "value": 300.0,
+      "categoryID": 5,
+      "display_name": "Capacitor Capacity",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "armorHPBonusAdd",
+      "value": 500.0,
+      "categoryID": 3,
+      "display_name": "Armor Hitpoint Bonus",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "subSystemSlot",
+      "value": 126.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hiSlotModifier",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "High Slot Modifier",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "medSlotModifier",
+      "value": 2.0,
+      "categoryID": 0,
+      "display_name": "Medium Slot Modifier",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "lowSlotModifier",
+      "value": 2.0,
+      "categoryID": 0,
+      "display_name": "Low Slot Modifier",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "fitsToShipType",
+      "value": 29988.0,
+      "categoryID": 0,
+      "display_name": "Restricted to Ship Type",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "subsystemBonusGallenteDefensive",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "covertCloakCPUPenalty",
+      "value": 10000.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "subsystemBonusGallenteDefensive3",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b><u>Additional Base Stats</b></u>"
+    },
+    {
+      "content": "+2 Mid Slots, +2 Low Slots"
+    },
+    {
+      "content": "+100 Shield HP, +500 Armor HP"
+    },
+    {
+      "content": "+300GJ Capacitor Capacity"
+    },
+    {
+      "content": "<b>10%</b> bonus to <a href=showinfo:3393>Armor Repairer</a> effectiveness"
+    },
+    {
+      "content": "<b>10%</b> bonus to the benefits of overheating <a href=showinfo:3393>Armor Repairers</a>"
+    }
+  ]
+}

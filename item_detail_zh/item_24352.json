@@ -1,0 +1,13 @@
+{
+  "type_id": 24352,
+  "name": "殷郡遗迹的通行证",
+  "description": "该通行钥匙能带你去一处平常难以到达的遗迹，殷郡民族曾在那里生活过。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

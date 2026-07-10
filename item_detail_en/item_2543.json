@@ -1,0 +1,49 @@
+{
+  "type_id": 2543,
+  "name": "Gas Launchpad",
+  "description": "In order to transport produced commodities from the lower orbit position of the node structure to the higher orbit of spaceports and trade hubs above gas giant planets, an old but reliable technology was revisited. The lack of a solid surface requires a very low recoil launch system, a situation that prohibits the use of solid fuel rockets, but the Hohmann Mass Driver uses a series of triggered electromagnets instead, producing minimal waste force. Essentially an enormous cargo railgun, the device propels a ferrous canister to a waiting deceleration receptacle aboard a high-orbit facility.",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": 10000.0,
+  "mass": null,
+  "category_name": "Planetary Industry",
+  "group_name": "Spaceports",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 700.0,
+      "categoryID": 7,
+      "display_name": "Power Load",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 3600.0,
+      "categoryID": 9,
+      "display_name": "CPU Load",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 13.0,
+      "categoryID": 7,
+      "display_name": "Planet Type Restriction",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "importTax",
+      "value": 0.5,
+      "categoryID": 7,
+      "display_name": "Import Tax",
+      "unit_name": "ISK"
+    },
+    {
+      "attribute_name": "exportTax",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Export Tax",
+      "unit_name": "ISK"
+    }
+  ],
+  "traits": []
+}

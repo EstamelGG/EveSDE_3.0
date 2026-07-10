@@ -1,0 +1,13 @@
+{
+  "type_id": 63704,
+  "name": "Capsule Subsystem Holostorage EH-CN-J44-001",
+  "description": "Although battered and scorched by the destruction of the capsule it was installed in, this subsystem holostorage device seems to retain some recoverable and relatively easily decrypted data:\n\n<i>\"–ide note: picked up some more chatter on ancillary projects other than Firebird. The general idea seems to be setting up even more decentralized design groups. State got fat and slow in the last decade but seems they're finally getting their heads out of their arses. This guy Saraki is no fool. We'd do well to keep a close ey–\"</i>",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

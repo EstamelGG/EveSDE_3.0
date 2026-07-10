@@ -1,0 +1,13 @@
+{
+  "type_id": 40314,
+  "name": "改良型侵噬链接 P型蓝图",
+  "description": "这个标准侵噬链接的视野型版本由 Pandemic Legion 联盟的科研部门研发。Pandemic Legion 联盟始终站在研究侵噬技术应用的最前沿，他们优化了标准侵噬链接以满足更大距离的运行。当初只作为内部使用，然后蓝图拷贝流向了黑市，落入了这些与黑市有往来的人的手中。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "蓝图",
+  "group_name": "侵噬链接蓝图",
+  "attributes": [],
+  "traits": []
+}

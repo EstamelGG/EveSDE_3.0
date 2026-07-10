@@ -1,0 +1,210 @@
+{
+  "type_id": 40694,
+  "name": "W-634单元改良型脉冲干扰器",
+  "description": "这个设备可以释放不规则的电子脉冲，有一定几率能够在短时间内干扰有效范围内目标的锁定技能。此装备可以装配在战列舰、掠夺舰、黑隐特勤舰、指挥舰、运载舰、偷运舰和深空运输舰上。注：此类装备最多只能有一个生效。此外，装配脉冲干扰器会使拦截无效。",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5000.0,
+  "category_name": "装备",
+  "group_name": "脉冲干扰器",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 360.0,
+      "categoryID": 5,
+      "display_name": "启用耗电量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 1.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 44.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 30000.0,
+      "categoryID": 7,
+      "display_name": "作用时间/单次运转时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "ecmBurstRange",
+      "value": 17000.0,
+      "categoryID": 7,
+      "display_name": "ECM脉冲半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3427.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "scanGravimetricStrengthBonus",
+      "value": 10.5,
+      "categoryID": 25,
+      "display_name": "引力ECM干扰强度",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "scanLadarStrengthBonus",
+      "value": 10.5,
+      "categoryID": 25,
+      "display_name": "光雷达ECM干扰强度",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "scanMagnetometricStrengthBonus",
+      "value": 10.5,
+      "categoryID": 25,
+      "display_name": "磁力ECM干扰强度",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "scanRadarStrengthBonus",
+      "value": 10.5,
+      "categoryID": 25,
+      "display_name": "雷达ECM干扰强度",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 17.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "maxGroupActive",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "heatAbsorbtionRateModifier",
+      "value": 0.01,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "heatDamage",
+      "value": 10.0,
+      "categoryID": 52,
+      "display_name": "超载损耗",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredThermoDynamicsSkill",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "所需热力学等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "overloadECMStrengthBonus",
+      "value": 20.0,
+      "categoryID": 7,
+      "display_name": "超载ECM加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "canFitShipGroup01",
+      "value": 27.0,
+      "categoryID": 1,
+      "display_name": "只能装配在",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "canFitShipGroup02",
+      "value": 900.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "canFitShipGroup03",
+      "value": 898.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "canFitShipGroup04",
+      "value": 540.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "warpBubbleImmuneModifier",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "metaGroupID",
+      "value": 5.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "canFitShipGroup05",
+      "value": 28.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "canFitShipGroup06",
+      "value": 1202.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "canFitShipGroup07",
+      "value": 380.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "组别ID"
+    }
+  ],
+  "traits": []
+}

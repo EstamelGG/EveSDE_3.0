@@ -1,0 +1,13 @@
+{
+  "type_id": 25239,
+  "name": "血袭者黄金铭牌",
+  "description": "该金制铭牌上的徽章等级相当于血袭者海盗异教中的中士。如交给适当的权威组织，它也许会变得有价值。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "铭牌",
+  "attributes": [],
+  "traits": []
+}

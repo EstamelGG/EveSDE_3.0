@@ -1,0 +1,42 @@
+{
+  "type_id": 90704,
+  "name": "DNNR-01L低安冰风暴纤维",
+  "description": "霜线实验室是外空联合矿业集团的一个分支部门，长期以来一直作为领军代表，致力于研究在危险地区开采资源的新技术。从三神裔舰船上获得的纤维能提供研究超阈风暴的宝贵信息，例如不稳定冰风暴就是资源开采技术的上佳研究领域。以尤尔节之名（当然也为了继续扩充自己的数据库），霜线实验室开始有选择性地将自己研发的最新传输纤维产品向新伊甸中的克隆飞行员推广。在一定时间内，飞行员可以用这种试验品超阈纤维迅速前往新伊甸中受到不稳定冰风暴影响的地区。这款DNNR-01L冰风暴纤维可以将一名克隆飞行员传送到位于低安星系的一处受不稳定冰风暴影响的地区。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "常用物品",
+  "group_name": "跳跃纤维",
+  "attributes": [
+    {
+      "attribute_name": "mjfgRadius",
+      "value": 6000.0,
+      "categoryID": 17,
+      "display_name": "范围效果半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "mjdShipJumpCap",
+      "value": 1.0,
+      "categoryID": 17,
+      "display_name": "最大舰船跳跃数量",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "FilamentDescriptionMessageID",
+      "value": 554518.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "filamentSpoolupTimeSeconds",
+      "value": 15.0,
+      "categoryID": 7,
+      "display_name": "激活延迟",
+      "unit_name": "s"
+    }
+  ],
+  "traits": []
+}

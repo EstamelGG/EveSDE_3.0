@@ -1,0 +1,13 @@
+{
+  "type_id": 20105,
+  "name": "'True Creations' Manufacture Passcard",
+  "description": "This security passcard is manufactured by Sansha's Nation and allows the user to unlock the last acceleration gate of the war supply complex. The gate will remain open for a short period of time and the securitycard will be rendered useless after uploading the card's data to the gate's activation device.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

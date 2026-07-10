@@ -1,0 +1,13 @@
+{
+  "type_id": 23678,
+  "name": "Aether Hive Link",
+  "description": "Insta-feedback communication device based on zero-G tachyon fields. Utilized by advanced drone hives.",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

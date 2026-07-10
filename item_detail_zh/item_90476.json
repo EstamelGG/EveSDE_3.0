@@ -1,0 +1,13 @@
+{
+  "type_id": 90476,
+  "name": "集成传感器阵列蓝图",
+  "description": "",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "蓝图",
+  "group_name": "感应增强设备蓝图",
+  "attributes": [],
+  "traits": []
+}

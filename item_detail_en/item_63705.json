@@ -1,0 +1,13 @@
+{
+  "type_id": 63705,
+  "name": "Capsule Subsystem Holostorage EH-CN-J44-004",
+  "description": "Although battered and scorched by the destruction of the capsule it was installed in, this subsystem holostorage device seems to retain some recoverable and relatively easily decrypted data:\n\n<i>\"–ade a new connect with a Serpentis subcontractor operating in 4-4 undercroft sector 97. I hate going down there. It's worse than the docks district. Worse even than the engineering subcore residences. It's pretty much a sump for everything filthy and completely messed up on this damned station. Had to wear a pseudoface and combat rig, of course. Serp guy was packing a bloody nanowire pistol. Don't really blam–\"</i>",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

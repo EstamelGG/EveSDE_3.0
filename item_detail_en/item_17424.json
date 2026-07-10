@@ -1,0 +1,13 @@
+{
+  "type_id": 17424,
+  "name": "Amarrian Wheat",
+  "description": "Cereal grasses have been localized on hundreds of worlds. The grains of the wheat plant make a solid foundation for the production of foodstuffs within empire space. Amarrian Wheat is known for its purity, and has reputedly never been tampered with by genetic engineering.",
+  "volume": 1.15,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

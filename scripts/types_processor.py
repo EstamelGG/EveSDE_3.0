@@ -53,7 +53,6 @@ WORMHOLE_SIZE_MAP = {
 
 # 全局缓存
 type_en_name_cache = {}
-icon_md5_cache = {}  # MD5 -> 目标文件名映射
 
 
 class TypesProcessor:
@@ -66,15 +65,38 @@ class TypesProcessor:
         self.sde_jsonl_path = self.project_root / config["paths"]["sde_jsonl"]
         self.db_output_path = self.project_root / config["paths"]["db_output"]
         self.languages = config.get("languages", ["en"])
-        self.icons_output_path = self.project_root / config["paths"]["icons_output"]
+        self.icons_input_path = self.project_root / config["paths"]["icons_input"]
         self.custom_icons_path = self.project_root / "custom_icons"
-        
+
         # 确保目录存在
-        self.icons_output_path.mkdir(parents=True, exist_ok=True)
         self.custom_icons_path.mkdir(parents=True, exist_ok=True)
-        
+
+        # 加载图标元数据（type_id → icon 文件名映射）
+        self.icon_metadata = self._load_icon_metadata()
+
         # 初始化图标查找器（用于下载默认图标）
         self.icon_finder = icon_finder.IconFinder(config)
+
+    def _load_icon_metadata(self) -> Dict[str, str]:
+        """从 icons_input/service_metadata.json 加载 type_id → icon 文件名映射"""
+        metadata_file = self.icons_input_path / "service_metadata.json"
+        if not metadata_file.exists():
+            print(f"[!] 图标元数据文件不存在: {metadata_file}")
+            return {}
+        try:
+            with open(metadata_file, 'r', encoding='utf-8') as f:
+                raw = json.load(f)
+            # 展平为 type_id(str) → icon 文件名
+            metadata = {}
+            for type_id, info in raw.items():
+                icon = info.get('icon') if isinstance(info, dict) else None
+                if icon:
+                    metadata[str(type_id)] = icon
+            print(f"[+] 加载图标元数据: {len(metadata):,} 个映射")
+            return metadata
+        except Exception as e:
+            print(f"[!] 加载图标元数据失败: {e}")
+            return {}
     
     def read_types_jsonl(self) -> Dict[str, Any]:
         """
@@ -159,14 +181,14 @@ class TypesProcessor:
             ko_name TEXT,
             ru_name TEXT,
             zh_name TEXT,
-            de_description TEXT,
-            en_description TEXT,
-            es_description TEXT,
-            fr_description TEXT,
-            ja_description TEXT,
-            ko_description TEXT,
-            ru_description TEXT,
-            zh_description TEXT,
+            de_desc_id INTEGER,
+            en_desc_id INTEGER,
+            es_desc_id INTEGER,
+            fr_desc_id INTEGER,
+            ja_desc_id INTEGER,
+            ko_desc_id INTEGER,
+            ru_desc_id INTEGER,
+            zh_desc_id INTEGER,
             icon_filename TEXT,
             bpc_icon_filename TEXT,
             published BOOLEAN,
@@ -217,6 +239,18 @@ class TypesProcessor:
         )
         ''')
         print("[+] 创建types表")
+
+    def create_texts_table(self, cursor: sqlite3.Cursor):
+        """创建全局文本池表，对 description 做跨行去重。
+        去重在 Python 层用 set 完成，不加 UNIQUE 约束以避免隐式索引膨胀。"""
+        cursor.execute('DROP TABLE IF EXISTS texts')
+        cursor.execute('''
+            CREATE TABLE texts (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                content TEXT
+            )
+        ''')
+        print("[+] 创建texts表（description 文本池）")
     
     def create_wormholes_table(self, cursor: sqlite3.Cursor):
         """
@@ -332,120 +366,45 @@ class TypesProcessor:
     
     def copy_and_rename_icon(self, type_id: int, category_id: int = None) -> Tuple[Optional[str], Optional[str]]:
         """
-        复制并重命名图标（带MD5去重）
-        从output/icons目录获取图标文件，使用内存MD5缓存进行去重
-        
+        从 icons_input 目录获取图标文件，复制到 custom_icons 目录。
+        图标文件名通过 service_metadata.json 映射获取（MD5 命名，天然去重）。
+
         参数:
         - type_id: 物品类型ID
         - category_id: 物品分类ID，如果为91或2118则直接使用默认图标
         """
         # 特定分类直接使用默认图标
         if category_id in [91, 2118]:
-            # print(f"[+] 分类 {category_id} 使用默认图标: {type_id}")
             default_icon = self.download_default_icon()
             return default_icon, None
-        # 定义文件路径
-        icons_input_dir = self.icons_output_path
+
         custom_icons_dir = self.custom_icons_path
-        
-        # 确保自定义图标目录存在
         custom_icons_dir.mkdir(parents=True, exist_ok=True)
-        
-        # 定义输入和输出文件名
-        input_file = f"type_{type_id}_64.png"
-        output_file = f"type_{type_id}_64.png"
-        input_bpc_file = f"type_{type_id}_bpc_64.png"
-        output_bpc_file = f"type_{type_id}_bpc_64.png"
-        
-        # 构造完整路径
-        input_path = icons_input_dir / input_file
-        input_bpc_path = icons_input_dir / input_bpc_file
-        
-        copied_file = None
-        bpc_copied_file = None
-        
-        # 处理普通图标（带MD5去重）
-        if input_path.exists():
-            try:
-                # 计算源文件的MD5
-                file_md5 = self.calculate_file_md5(input_path)
-                
-                if file_md5 in icon_md5_cache:
-                    # 如果MD5已存在，使用已缓存的文件名
-                    cached_filename = icon_md5_cache[file_md5]
-                    output_path = custom_icons_dir / cached_filename
-                    
-                    # 如果目标文件不存在，则复制
-                    if not output_path.exists():
-                        shutil.copy2(input_path, output_path)
-                        # print(f"[+] 复制图标（去重）: {type_id} -> {cached_filename}")
-                    # else:
-                    #     print(f"[+] 图标已存在（去重）: {cached_filename}")
-                    copied_file = cached_filename
-                else:
-                    # 如果MD5不存在，使用原始文件名
-                    output_path = custom_icons_dir / output_file
-                    if not output_path.exists():
-                        shutil.copy2(input_path, output_path)
-                        # print(f"[+] 复制图标: {type_id} -> {output_file}")
-                    # else:
-                    #     print(f"[+] 图标已存在: {output_file}")
-                    
-                    # 将新的MD5和文件名添加到缓存中
-                    icon_md5_cache[file_md5] = output_file
-                    copied_file = output_file
-                    
-            except Exception as e:
-                # print(f"[!] 复制图标失败 {type_id}: {e}")
-                copied_file = self.download_default_icon()  # 下载默认图标
-        else:
-            # print(f"[!] 图标文件不存在: {input_path}")
-            copied_file = self.download_default_icon()  # 下载默认图标
-        
-        # 处理BPC图标（带MD5去重）
-        if input_bpc_path.exists():
-            try:
-                # 计算BPC文件的MD5
-                bpc_md5 = self.calculate_file_md5(input_bpc_path)
-                
-                if bpc_md5 in icon_md5_cache:
-                    # 如果MD5已存在，使用已缓存的文件名
-                    cached_bpc_filename = icon_md5_cache[bpc_md5]
-                    output_bpc_path = custom_icons_dir / cached_bpc_filename
-                    
-                    # 如果目标文件不存在，则复制
-                    if not output_bpc_path.exists():
-                        shutil.copy2(input_bpc_path, output_bpc_path)
-                        # print(f"[+] 复制BPC图标（去重）: {type_id} -> {cached_bpc_filename}")
-                    # else:
-                    #     print(f"[+] BPC图标已存在（去重）: {cached_bpc_filename}")
-                    bpc_copied_file = cached_bpc_filename
-                else:
-                    # 如果MD5不存在，使用原始文件名
-                    output_bpc_path = custom_icons_dir / output_bpc_file
-                    if not output_bpc_path.exists():
-                        shutil.copy2(input_bpc_path, output_bpc_path)
-                        # print(f"[+] 复制BPC图标: {type_id} -> {output_bpc_file}")
-                    # else:
-                    #     print(f"[+] BPC图标已存在: {output_bpc_file}")
-                    
-                    # 将新的MD5和文件名添加到缓存中
-                    icon_md5_cache[bpc_md5] = output_bpc_file
-                    bpc_copied_file = output_bpc_file
-                    
-            except Exception as e:
-                print(f"[!] 复制BPC图标失败 {type_id}: {e}")
-        
-        return copied_file, bpc_copied_file
+
+        # 从 metadata 查找图标文件名
+        icon_filename = self.icon_metadata.get(str(type_id))
+        if not icon_filename:
+            return self.download_default_icon(), None
+
+        input_path = self.icons_input_path / icon_filename
+        if not input_path.exists():
+            return self.download_default_icon(), None
+
+        # 源文件已是 MD5 命名，相同内容天然共享文件名，无需额外去重
+        output_path = custom_icons_dir / icon_filename
+        try:
+            if not output_path.exists():
+                shutil.copy2(input_path, output_path)
+        except Exception as e:
+            print(f"[!] 复制图标失败 type_id={type_id}: {e}")
+            return self.download_default_icon(), None
+
+        return icon_filename, None
     
     def print_icon_dedup_stats(self):
-        """
-        打印图标去重统计信息
-        """
-        if icon_md5_cache:
-            print(f"[+] 图标去重统计: 共处理 {len(icon_md5_cache)} 个唯一图标")
-        else:
-            print("[+] 图标去重统计: 未处理任何图标")
+        """打印图标统计信息"""
+        unique_icons = len(set(self.icon_metadata.values()))
+        print(f"[+] 图标统计: {len(self.icon_metadata):,} 个映射, {unique_icons:,} 个唯一图标文件")
     
     def get_attributes_value(self, cursor: sqlite3.Cursor, type_id: int, attribute_ids: List[int]) -> Tuple:
         """
@@ -607,10 +566,23 @@ class TypesProcessor:
         
         create_types_table(cursor)
         create_wormholes_table(cursor)  # 创建虫洞表
+        self.create_texts_table(cursor)
         group_to_category, category_id_to_names, group_id_to_names, unknown_names = fetch_and_process_data(cursor)
 
         # 读取repackaged_volumes数据
         repackaged_volumes = read_repackaged_volumes()
+
+        # 构建文本池：收集所有非空 description 文本，去重后写入 texts 表
+        all_texts = set()
+        for item in types_data.values():
+            descs = wide_texts(item.get('description'))
+            for lang in LANGS:
+                if descs[lang]:
+                    all_texts.add(descs[lang])
+        if all_texts:
+            cursor.executemany('INSERT INTO texts (content) VALUES (?)', [(t,) for t in all_texts])
+        text_to_id = {content: id_ for content, id_ in cursor.execute('SELECT content, id FROM texts')}
+        print(f"[+] 文本池去重: {len(text_to_id):,} 个唯一描述文本")
 
         # 如果是英文数据库，建立英文名称映射
         if lang == 'en':
@@ -625,8 +597,8 @@ class TypesProcessor:
             INSERT OR REPLACE INTO types (
                 type_id,
                 de_name, en_name, es_name, fr_name, ja_name, ko_name, ru_name, zh_name,
-                de_description, en_description, es_description, fr_description,
-                ja_description, ko_description, ru_description, zh_description,
+                de_desc_id, en_desc_id, es_desc_id, fr_desc_id,
+                ja_desc_id, ko_desc_id, ru_desc_id, zh_desc_id,
                 icon_filename, bpc_icon_filename, published, volume, repackaged_volume, capacity, mass,
                 marketGroupID, metaGroupID, iconID, groupID,
                 group_de_name, group_en_name, group_es_name, group_fr_name,
@@ -644,6 +616,7 @@ class TypesProcessor:
             # 多语名称与描述（宽列，单库一次写入）
             names = wide_texts(item.get('name'))
             descs = wide_texts(item.get('description'))
+            desc_ids = tuple(text_to_id[descs[lang]] if descs[lang] else None for lang in LANGS)
             published = item.get('published', False)
             volume = item.get('volume', None)
             # 获取重新打包体积
@@ -679,7 +652,7 @@ class TypesProcessor:
             batch_data.append((
                 type_id,
                 *names_row(names),
-                *names_row(descs),
+                *desc_ids,
                 copied_file, bpc_copied_file, published, volume, repackaged_volume, capacity, mass,
                 marketGroupID,
                 metaGroupID, iconID, groupID,

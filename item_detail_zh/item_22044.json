@@ -1,0 +1,13 @@
+{
+  "type_id": 22044,
+  "name": "一桶王水",
+  "description": "一种通过混合盐酸和硝酸制成的黄色发烟液体，具有极强的腐蚀性。通常用作化学武器的成分。",
+  "volume": 500.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

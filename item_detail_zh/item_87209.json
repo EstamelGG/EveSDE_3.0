@@ -1,0 +1,13 @@
+{
+  "type_id": 87209,
+  "name": "瓶子发送",
+  "description": "一条用三神裔文字书写的信息，其上沾满血迹，为了保护这条信息，某人孤注一掷，将其放入了这个饮品容器中。翻译后的信息如下：“流动已被中断，领域已不适宜推进时间，我们面临着毁灭的命运。如果我们的守护灵得以归还，请在流动中赞颂它。”",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

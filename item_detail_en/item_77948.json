@@ -1,0 +1,13 @@
+{
+  "type_id": 77948,
+  "name": "Megacorp Transaction Thread",
+  "description": "An isolated thread from a series of complex transactions carried out by an unknown Caldari megacorporation. \n\nBy itself the thread is meaningless but with enough of them, the Federation could begin to establish a chain of transactions that traces the credits back to their source.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Homefront Operations Commodity",
+  "attributes": [],
+  "traits": []
+}

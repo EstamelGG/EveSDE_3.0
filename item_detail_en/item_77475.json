@@ -1,0 +1,13 @@
+{
+  "type_id": 77475,
+  "name": "Narcotics Package",
+  "description": "A large sealed package filled with an unknown, but undoubtedly illegal, narcotic substance.",
+  "volume": 3500.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 20000.0,
+  "category_name": "Commodity",
+  "group_name": "Homefront Operations Commodity",
+  "attributes": [],
+  "traits": []
+}

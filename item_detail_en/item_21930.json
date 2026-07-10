@@ -1,0 +1,13 @@
+{
+  "type_id": 21930,
+  "name": "Sealed Case of GI Paradise Missiles",
+  "description": "A crate of GI Paradise Cruise missiles courtesy of the Minmatar Republic.",
+  "volume": 250.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

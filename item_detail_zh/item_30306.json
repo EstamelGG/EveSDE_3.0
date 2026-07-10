@@ -1,0 +1,13 @@
+{
+  "type_id": 30306,
+  "name": "亚甲基富勒烯",
+  "description": "亚甲基富勒烯是最有用的有机半导体之一，它可以同其他聚合物合成生产出高效的太阳能电池，为电网难以抵达的地方提供取之不尽的能量。",
+  "volume": 0.75,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "混合聚合物",
+  "attributes": [],
+  "traits": []
+}

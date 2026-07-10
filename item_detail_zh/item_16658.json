@@ -1,0 +1,21 @@
+{
+  "type_id": 16658,
+  "name": "二硼硅",
+  "description": "一种混合矿物，大量放在一起时会发出清晰的水晶光亮。与其他合成物混合后，可用于多种生产制造。",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "中间产物",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

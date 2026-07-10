@@ -1,0 +1,112 @@
+{
+  "type_id": 46494,
+  "name": "屹立中型生化反应堆材料效率 I",
+  "description": "屹立中型生化反应堆材料效率 I 改装件让建筑操作员能够降低在昇威精炼厂建筑中进行生化反应的材料要求。\n\n\n\n屹立专用系统采用了昇威建筑分控纳米装配装置，由集成模版软件、纳米装配阵列和许多纳米块体构成。安装在采用昇威科技建造的建筑上的专门槽位中可以制造各种服务装备、建筑装备和建筑改装件。\n\n\n\n注：只能同时在一个建筑上装配一件相同类型的改装件，包括衍生型号在内。",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 200.0,
+  "category_name": "建筑装备",
+  "group_name": "建筑生化反应堆中型改装件 - 材料效率",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 26252.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "upgradeCost",
+      "value": 100.0,
+      "categoryID": 1,
+      "display_name": "校准值消耗",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "canFitShipGroup03",
+      "value": 1406.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "maxGroupFitted",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "该武器组所允许的最大装备数量",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "rigSize",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "改装件尺寸",
+      "unit_name": "1=小型  2=中型  3=大型"
+    },
+    {
+      "attribute_name": "disallowInHighSec",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "禁止进入高安全星系",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "structureItemVisualFlag",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "lowSecModifier",
+      "value": 1.0,
+      "categoryID": 37,
+      "display_name": "低安加成系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "nullSecModifier",
+      "value": 1.1,
+      "categoryID": 37,
+      "display_name": "0.0和虫洞加成系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "securityModifier",
+      "value": 1.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "RefRigMatBonus",
+      "value": -2.0,
+      "categoryID": 37,
+      "display_name": "材料削减加成",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

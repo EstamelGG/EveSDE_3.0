@@ -1,0 +1,21 @@
+{
+  "type_id": 30470,
+  "name": "Neurovisual Output Analyzer",
+  "description": "As a capsuleer, few things are more important in space-flight than the ability to instantly gauge one's surroundings and make decisions accordingly. For this reason, capsules inside starships make frequent use of neurovisual reproductions; emulations that recreate external stimuli using the most low-latency processor available: the human brain. This process relies on digital relays from camera drones and monitoring systems embedded into the hull. After the data is captured, it is then relayed directly into the brain, at which point the external surrounds are recreated almost instantaneously.\n\nThe synthetic translation of external stimuli into neurovisual imagery is incredibly risky, even relative to the standard hazards of pod piloting. Even though capsuleers have an innate resistance to neurobiological damage from these sorts of processes, the near- constant exposure to them has been linked to increased risk of aggressive neurodegenerative diseases. In recent years, engineers have begun to integrate neurovisual output analyzers into a starship's electronics systems. These devices monitor the pilot's status and, if necessary, take measures to protect against anything from mild headaches to catastrophic neural failure.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Hybrid Tech Components",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

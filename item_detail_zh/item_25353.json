@@ -1,0 +1,13 @@
+{
+  "type_id": 25353,
+  "name": "天蛇集团船坞通行密码盘",
+  "description": "这个密码似乎是用来开启天蛇舰队船坞复合体中的某座加速轨道的。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

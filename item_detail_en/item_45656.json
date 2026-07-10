@@ -1,0 +1,13 @@
+{
+  "type_id": 45656,
+  "name": "Superconducting Magnetometric Amplifier Blueprint",
+  "description": "",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Blueprint",
+  "group_name": "Hybrid Component Blueprints",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,21 @@
+{
+  "type_id": 32823,
+  "name": "粗糙的铯铬合金",
+  "description": "当铬和铯跟未经加工的硅酸盐以一定的比例混合时，就创造了铬铯合金。自从它第一次被发现之后，它那会明暗变化的特有红色使得诗人和音乐家写下了无数的赞美诗歌。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "中间产物",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

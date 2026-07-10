@@ -1,0 +1,13 @@
+{
+  "type_id": 26128,
+  "name": "萨沙渗透者铭牌",
+  "description": "萨沙海军成员所佩戴的一种铭牌。渗透者头衔的成员一般负责执行截获和解密敌方情报。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "铭牌",
+  "attributes": [],
+  "traits": []
+}

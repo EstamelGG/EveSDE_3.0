@@ -1,0 +1,13 @@
+{
+  "type_id": 24466,
+  "name": "Museum Arcana Guest Pass",
+  "description": "This passkey allows the bearer and his friends to enter the Museum Arcana. It is good for only one visit, so use wisely.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

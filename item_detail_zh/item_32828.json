@@ -1,0 +1,21 @@
+{
+  "type_id": 32828,
+  "name": "粗糙的菲尔合金",
+  "description": "一种极其耐用且具有多样性的合金。菲尔合金与某些特定物质的合成物，是创造众多先进技术的关键基石。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "中间产物",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

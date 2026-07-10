@@ -1,0 +1,21 @@
+{
+  "type_id": 30558,
+  "name": "失灵的推进器",
+  "description": "暴露在太空中长达千年之后，这些推进器遭受到了一定程度的磨损和破坏，整体的功能已经不能正常实现了。冬眠者推进系统的模块化设计同现在各国的设计相似，但是在一些方面却超乎寻常。<br><br> 在一个专业且有点运气的研究人员之手，这个残品可能还能提取出对于逆向科技有用的信息。",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "古文物",
+  "group_name": "冬眠者的古老推进装备",
+  "attributes": [
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

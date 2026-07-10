@@ -1,0 +1,13 @@
+{
+  "type_id": 2732,
+  "name": "Crates of Silicate Glass",
+  "description": "Silicate glass is a common construction material, in constant demand throughout New Eden, whether in planetary structures or reinforced for use in space vessels.",
+  "volume": 50.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

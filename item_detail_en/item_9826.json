@@ -1,0 +1,13 @@
+{
+  "type_id": 9826,
+  "name": "Carbon",
+  "description": "Carbon is an abundant nonmetallic element that occurs in many inorganic and in all organic compounds.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 4400.0,
+  "category_name": "Commodity",
+  "group_name": "General",
+  "attributes": [],
+  "traits": []
+}

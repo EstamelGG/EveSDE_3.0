@@ -1,0 +1,13 @@
+{
+  "type_id": 16623,
+  "name": "安全长官",
+  "description": "安全长官。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 90.0,
+  "category_name": "常用物品",
+  "group_name": "有生货物",
+  "attributes": [],
+  "traits": []
+}

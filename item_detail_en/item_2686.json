@@ -1,0 +1,13 @@
+{
+  "type_id": 2686,
+  "name": "Large Crates of Liparer Cheese",
+  "description": "Due to the unique properties of the Liparer system's terrestrial worlds, animals raised there have very low body fat, resulting in relatively bland but far healthier dairy products.",
+  "volume": 1000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

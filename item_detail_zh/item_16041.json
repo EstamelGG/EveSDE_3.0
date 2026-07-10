@@ -1,0 +1,13 @@
+{
+  "type_id": 16041,
+  "name": "超大密封货柜",
+  "description": "这些庞大的集装箱配备了密码保护安全锁。",
+  "volume": 1000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,189 @@
+{
+  "type_id": 35923,
+  "name": "Standup Guided Bomb Launcher I",
+  "description": "The Standup Guided Bomb Launcher is a structure emplaced system that is capable of launching and directing area-effect bombs equipped with guidance thrusters and the necessary astrogation gear. The Guided Bomb Launcher can be installed as a module in Upwell technology structures.\n\nStandup is a proprietary system that uses a Structure Autonomous Nanoassembly Device (Upwell) containing integrated template software, a nanoassembler array and sufficient nanomass to enable the construction of a variety of service modules, structure modules and structure rigs when inserted into the appropriate slots on a structure built with Upwell technology.\n\nThis module can be installed on large and extra-large Upwell structures.\nThis module does not function in high-security space.",
+  "volume": 8000.0,
+  "repackaged_volume": null,
+  "capacity": 300.0,
+  "mass": 1000.0,
+  "category_name": "Structure Module",
+  "group_name": "Structure Guided Bomb Launcher",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 275000.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Usage",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "slots",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 3000.0,
+      "categoryID": 1,
+      "display_name": "CPU usage",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "speed",
+      "value": 60000.0,
+      "categoryID": 29,
+      "display_name": "Rate of fire",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "chargeRate",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Charges Per Cycle",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "chargeGroup1",
+      "value": 1548.0,
+      "categoryID": 7,
+      "display_name": "Used with (Charge Group)",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "maxGroupActive",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "deadspaceUnsafe",
+      "value": 2.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "canFitShipType1",
+      "value": 35833.0,
+      "categoryID": 1,
+      "display_name": "Can only be fitted to",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "canFitShipType2",
+      "value": 35834.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "canFitShipType3",
+      "value": 40340.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "canFitShipType4",
+      "value": 35836.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "maxGroupFitted",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "Max Modules Of This Group Allowed",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reloadTime",
+      "value": 60000.0,
+      "categoryID": 7,
+      "display_name": "Reload Time",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "canFitShipType5",
+      "value": 35826.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "disallowInHighSec",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Banned in High Sec Space",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "canFitShipType6",
+      "value": 35827.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "structureItemVisualFlag",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "canFitShipType7",
+      "value": 47512.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "canFitShipType8",
+      "value": 47513.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "canFitShipType9",
+      "value": 47515.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "canFitShipType10",
+      "value": 47516.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "onlineMaxSecurityClass",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "canFitShipType11",
+      "value": 47514.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "typeID"
+    }
+  ],
+  "traits": []
+}

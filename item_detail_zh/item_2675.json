@@ -1,0 +1,13 @@
+{
+  "type_id": 2675,
+  "name": "一群理科毕业生",
+  "description": "刚从正规大学毕业的理科文凭获得者。",
+  "volume": 50.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 50000.0,
+  "category_name": "常用物品",
+  "group_name": "有生货物",
+  "attributes": [],
+  "traits": []
+}

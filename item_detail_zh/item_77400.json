@@ -1,0 +1,343 @@
+{
+  "type_id": 77400,
+  "name": "“钢刀”动能干扰长枪",
+  "description": "尽管“四大”帝国都声称自己独立研发了“干扰长枪”技术，但加达里似乎是将长枪武器的研究与“枪骑兵级无畏舰”先进技术结合起来的先行者。据信，是古斯塔斯间谍团伙侵入合众国的旗舰研发部门所造成的严重安全漏洞，为其他帝国提供了重要启示，从而加速了各国的先进无畏舰项目。尽管如此，“钢刀”动能干扰长枪依然是合众国军事科学领域的一项重大成就。开创性地将引力子能量束作为超高强度特殊干扰性能量模式的载体，这意味着武器将能够干扰跃迁和跳跃引擎，阻止停靠制导和驻留连接，并大幅抑制外部维修光束的效果。其代价是动能破坏效果减弱，并且集中度下降。但相较而言，这种武器带来的战术机会更有价值。由于操作该装备需要消耗极多能量，干扰长枪只能在会战模式下发射，装配有该装备的舰船无法启动隐形装置。注：激活该装备会生成一股巨大的电容干扰波，对附近所有舰船造成影响，无论敌我。使用后，你会在三十秒内无法移动，并在两分钟内无法停靠、驻留、隐形或使用跳跃引擎。",
+  "volume": 4000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "装备",
+  "group_name": "超级武器",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 30000.0,
+      "categoryID": 5,
+      "display_name": "启用耗电量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 99999.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "speedFactor",
+      "value": -100.0,
+      "categoryID": 28,
+      "display_name": "最大速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "power",
+      "value": 100000.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 100.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 50000.0,
+      "categoryID": 29,
+      "display_name": "最佳射程",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 300000.0,
+      "categoryID": 7,
+      "display_name": "作用时间/单次运转时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "emDamage",
+      "value": 0.0,
+      "categoryID": 29,
+      "display_name": "电磁伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "explosiveDamage",
+      "value": 0.0,
+      "categoryID": 29,
+      "display_name": "爆炸伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "kineticDamage",
+      "value": 17000.0,
+      "categoryID": 29,
+      "display_name": "动能伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "thermalDamage",
+      "value": 0.0,
+      "categoryID": 29,
+      "display_name": "热能伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 77739.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 77738.0,
+      "categoryID": 8,
+      "display_name": "副技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 10000.0,
+      "categoryID": 6,
+      "display_name": "信号半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "moduleReactivationDelay",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "重启延迟",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "consumptionType",
+      "value": 17888.0,
+      "categoryID": 7,
+      "display_name": "消耗类型",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "consumptionQuantity",
+      "value": 20000.0,
+      "categoryID": 7,
+      "display_name": "消耗量",
+      "unit_name": "单位"
+    },
+    {
+      "attribute_name": "maxGroupActive",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "siegeModeWarpStatus",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "disallowEarlyDeactivation",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "disallowRepeatingActivation",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "无法自动重复",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "canCloak",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "canFitShipType1",
+      "value": 77284.0,
+      "categoryID": 1,
+      "display_name": "只能装配在",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "maxGroupFitted",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "该武器组所允许的最大装备数量",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "doomsdayEnergyNeutRadius",
+      "value": 10000.0,
+      "categoryID": 39,
+      "display_name": "预热中和半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "doomsdayEnergyNeutAmount",
+      "value": 32500.0,
+      "categoryID": 39,
+      "display_name": "预热中和量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "doomsdayEnergyNeutSignatureRadius",
+      "value": 20000.0,
+      "categoryID": 39,
+      "display_name": "预热中和信号半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "doomsdayWarningDuration",
+      "value": 15000.0,
+      "categoryID": 39,
+      "display_name": "预热持续时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "doomsdayDamageRadius",
+      "value": 2500.0,
+      "categoryID": 39,
+      "display_name": "集束激光半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "doomsdayDamageDuration",
+      "value": 15000.0,
+      "categoryID": 39,
+      "display_name": "集束激光持续时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "doomsdayDamageCycleTime",
+      "value": 1000.0,
+      "categoryID": 39,
+      "display_name": "集束激光伤害周期",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "speedFactorFloor",
+      "value": -100.0,
+      "categoryID": 28,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "isPointTargeted",
+      "value": 1.0,
+      "categoryID": 6,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "disallowTethering",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "不允许驻留",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "disallowDocking",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "不允许停靠",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "doomsdayNoJumpOrCloakDuration",
+      "value": 120000.0,
+      "categoryID": 39,
+      "display_name": "跳跃/停靠/驻留/隐形限制持续时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "doomsdayImmobilityDuration",
+      "value": 30000.0,
+      "categoryID": 39,
+      "display_name": "无法移动持续时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "doomsdayAOEShape",
+      "value": 1.0,
+      "categoryID": 39,
+      "display_name": "超级武器效果形状",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "doomsdayRangeIsFixed",
+      "value": 1.0,
+      "categoryID": 39,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "doomsdayEnergyNeutResistanceID",
+      "value": 2045.0,
+      "categoryID": 39,
+      "display_name": "",
+      "unit_name": "属性ID"
+    },
+    {
+      "attribute_name": "doomsdayAppliedDBuffDuration",
+      "value": 60000.0,
+      "categoryID": 39,
+      "display_name": "施加的减益效果持续时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "disruptionLanceDisallowCloaking",
+      "value": 1.0,
+      "categoryID": 39,
+      "display_name": "装配时不允许隐形",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "activationRequiresActiveSiegeModule",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "需要主动会战装备",
+      "unit_name": "1=True 0=False"
+    }
+  ],
+  "traits": []
+}

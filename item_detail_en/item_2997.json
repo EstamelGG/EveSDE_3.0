@@ -1,0 +1,13 @@
+{
+  "type_id": 2997,
+  "name": "Crate of Refined C-86 Epoxy Resin",
+  "description": "This substance, an improved version of the C-86 epoxy applied to propulsion systems and engine housings, helps to keep the systems' temperature down, enabling more efficient operation and reduced risk of shipboard fires from overheated systems.",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

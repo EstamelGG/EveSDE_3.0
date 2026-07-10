@@ -1,0 +1,13 @@
+{
+  "type_id": 48642,
+  "name": "Experimental Mutaplasmid Repository",
+  "description": "This mutaplasmid repository contains an Unstable Mutaplasmid that has been experimentally adapted for use with armor repairers or shield boosters of the 'Ancillary' type. Whoever is behind the experimentation program with mutaplasmids appears to have successfully applied Triglavian biotechnology to variants of defensive systems only developed recently in New Eden.\n\nThis repository contains one random selection of the following:\n<url=showinfo:47841>Unstable Small Ancillary Armor Repairer Mutaplasmid</url>\n<url=showinfo:47843>Unstable Medium Ancillary Armor Repairer Mutaplasmid</url>\n<url=showinfo:47845>Unstable Large Ancillary Armor Repairer Mutaplasmid</url>\n<url=showinfo:47835>Unstable Medium Ancillary Shield Booster Mutaplasmid</url>\n<url=showinfo:47837>Unstable Large Ancillary Shield Booster Mutaplasmid</url>\n<url=showinfo:47839>Unstable X-Large Ancillary Shield Booster Mutaplasmid</url>",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,62 @@
+{
+  "type_id": 52247,
+  "name": "三神裔入侵弱星系效果",
+  "description": "",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "天体",
+  "group_name": "效果光束",
+  "attributes": [
+    {
+      "attribute_name": "agilityBonus",
+      "value": -10.0,
+      "categoryID": 7,
+      "display_name": "惯性调整系数",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "miningDurationMultiplier",
+      "value": -10.0,
+      "categoryID": 51,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hullHpBonus",
+      "value": -15.0,
+      "categoryID": 4,
+      "display_name": "HP加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "droneMaxVelocityBonus",
+      "value": -20.0,
+      "categoryID": 10,
+      "display_name": "无人机速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "droneDamageBonus",
+      "value": -20.0,
+      "categoryID": 10,
+      "display_name": "无人机伤害加成",
+      "unit_name": "%"
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b>20%</b> 无人机伤害和速度惩罚"
+    },
+    {
+      "content": "<b>15%</b> 舰船结构值惩罚"
+    },
+    {
+      "content": "<b>10%</b> 舰船灵活性加成"
+    },
+    {
+      "content": "<b>10%</b> 采矿激光器单次运转时间加成"
+    }
+  ]
+}

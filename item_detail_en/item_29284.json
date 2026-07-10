@@ -1,0 +1,13 @@
+{
+  "type_id": 29284,
+  "name": "Central Data Core",
+  "description": "This bulky component is the substratal databank for all information transferred via computers linked to a station's dataweb.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 3500.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

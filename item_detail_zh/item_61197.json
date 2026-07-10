@@ -1,0 +1,161 @@
+{
+  "type_id": 61197,
+  "name": "常见卫星矿石采集晶体B型 I",
+  "description": "一种特制的频率晶体，它的折射性能特别有助于提高常见卫星矿石的产量，例如沸石、钾盐、沥青和柯石英。\n\n\n\n由于其本身的原子构成及调制后的采矿激光的强度原因，这些晶体在长期使用过程中会衰减。只能配置在调制型采矿激光器上。\n\n\n\nB型采集晶体用于调制型采矿设备，产出快，残渣多，可靠性差。它是重视开采时间胜于资源利用率的快速采矿作业的理想选择。",
+  "volume": 6.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "弹药",
+  "group_name": "采矿晶体",
+  "attributes": [
+    {
+      "attribute_name": "damage",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "物品损坏",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "mainColor",
+      "value": 5215864.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "chargeSize",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "弹药尺寸",
+      "unit_name": "1=小型  2=中型  3=大型"
+    },
+    {
+      "attribute_name": "launcherGroup",
+      "value": 483.0,
+      "categoryID": 7,
+      "display_name": "配套使用（发射器类别）",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 46152.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "副技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 3.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "capNeedBonus",
+      "value": 20.0,
+      "categoryID": 5,
+      "display_name": "电容需求加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "specializationAsteroidYieldMultiplier",
+      "value": 1.5,
+      "categoryID": 51,
+      "display_name": "专精矿种产量调整",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "crystalVolatilityChance",
+      "value": 0.0375,
+      "categoryID": 7,
+      "display_name": "挥发度",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "crystalVolatilityDamage",
+      "value": 0.05,
+      "categoryID": 7,
+      "display_name": "挥发损耗",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "unfitCapCost",
+      "value": 55.0,
+      "categoryID": 7,
+      "display_name": "卸载电容消耗",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "crystalsGetDamaged",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "晶体损耗",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "specializationAsteroidTypeList",
+      "value": 259.0,
+      "categoryID": 51,
+      "display_name": "无效的目标类型",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "specializationCrystalMiningWastedVolumeMultiplierBonus",
+      "value": 0.0,
+      "categoryID": 51,
+      "display_name": "残渣体积系数加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "specializationCrystalMiningWasteProbabilityBonus",
+      "value": 20.0,
+      "categoryID": 51,
+      "display_name": "残渣几率加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "specializationAsteroidDurationMultiplier",
+      "value": 0.9,
+      "categoryID": 51,
+      "display_name": "小行星矿专精运转周期系数",
+      "unit_name": "x"
+    }
+  ],
+  "traits": []
+}

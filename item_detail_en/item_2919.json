@@ -1,0 +1,13 @@
+{
+  "type_id": 2919,
+  "name": "Caldari Operative",
+  "description": "An operative of the Caldari State.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 60.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 25378,
+  "name": "Drone Modified Passcard",
+  "description": "The data within this chip unlocks the acceleration gate leading to a deadspace area behind the infamous Cadaver Reef. The access cards are single-use.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

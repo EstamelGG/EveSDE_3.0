@@ -1,0 +1,13 @@
+{
+  "type_id": 44211,
+  "name": "驳回舰船更换项目请求",
+  "description": "这份请求补给被摧毁的狞獾级巡洋舰的申请上盖了一个大大的红色“驳回”印章。驳回申请的原因是未能提及飞行员最喜欢的冰淇淋口味。",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

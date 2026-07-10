@@ -1,0 +1,13 @@
+{
+  "type_id": 73250,
+  "name": "Amarr Loyalty Token",
+  "description": "These tokens are given to capsuleers who have contributed to the security and prosperity of the Amarr Empire. They can be traded on the market for ISK in most Amarr stations.",
+  "volume": 0.001,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

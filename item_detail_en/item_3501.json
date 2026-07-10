@@ -1,0 +1,13 @@
+{
+  "type_id": 3501,
+  "name": "CONCORD MTAC",
+  "description": "The Mechanized Torso-Actuated Chassis (MTAC) is used throughout the New Eden cluster for all types of industrial and military work. The robotic arms can be configured in countless ways, from hydraulics for heavy lifting to enormous weapon-mounted battlefield applications.",
+  "volume": 7500.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 7500.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

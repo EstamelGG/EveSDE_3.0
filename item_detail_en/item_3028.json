@@ -1,0 +1,13 @@
+{
+  "type_id": 3028,
+  "name": "Large Crate of Contained Mesarchonite",
+  "description": "A coarse-looking, dark red mineral with a geodic structure containing translucent crystals of the same color. Its radioactive properties require the material to be stored in special containment units; handling by anyone other than a trained engineer is strongly discouraged.<br><br>\nMesarchonite is used primarily in stationside security networks, mostly in the systems which detect interference or tampering along the audio-visual lines.",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

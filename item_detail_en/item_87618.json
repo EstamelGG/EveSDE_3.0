@@ -1,0 +1,13 @@
+{
+  "type_id": 87618,
+  "name": "Warden Connection Harmonics",
+  "description": "Haromic signatures for the Warden in Zarzakh. These harmonics are a key part of how the Deathless Circle remotely accesses the Warden. \n\nWith enough of these signatures, a group would be able to gain remote access to the Warden’s processing systems, allowing them greater insight into Jovian and Drifter technologies.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

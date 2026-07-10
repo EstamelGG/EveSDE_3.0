@@ -1,0 +1,21 @@
+{
+  "type_id": 16670,
+  "name": "Crystalline Carbonide",
+  "description": "An exceptionally hard material created from crystallite alloys and carbon polymers, crystalline carbonide is a primary component in various forms of advanced Gallente technology, such as thrusters and armor plating.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Composite",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 10000.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

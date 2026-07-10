@@ -1,0 +1,13 @@
+{
+  "type_id": 12302,
+  "name": "Test Dummies",
+  "description": "These plastic dummies are used for the testing process of various products, including biopods, personal vehicles and gravimetric compressors.",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

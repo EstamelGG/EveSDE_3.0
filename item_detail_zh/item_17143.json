@@ -1,0 +1,13 @@
+{
+  "type_id": 17143,
+  "name": "盖伦特大气内穿梭机",
+  "description": "行星大气层内使用的个人或商用车辆，包括履带式的、轮式的和气垫式的。盖伦特行星车辆（有时也被称为“豪华版”）已经过许多零件的特别改良，使乘坐更舒适愉快。每个乘客座椅都配备了高科技的个人娱乐系统，而且舒适度也大增。",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

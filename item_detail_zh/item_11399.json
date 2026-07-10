@@ -1,0 +1,13 @@
+{
+  "type_id": 11399,
+  "name": "莫尔石",
+  "description": "莫尔石是一种相当奇异的矿物质，只存在于稀有的<a href=showinfo:11396>基腹断岩</a>矿石之中。莫尔石很难用作基础的建造材料，但是当它加入已有的建筑中时，它可以成倍增强其性能和耐久性。这种令人震惊的性能使该材料开启了材料技术新纪元。可通过提炼<a href=showinfo:11396>基腹断岩</a>获得。基腹断岩及其变种分布于零安全等级星系中。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "矿物",
+  "attributes": [],
+  "traits": []
+}

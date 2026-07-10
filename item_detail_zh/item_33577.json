@@ -1,0 +1,13 @@
+{
+  "type_id": 33577,
+  "name": "隐秘研究工具",
+  "description": "这些工具看起来是用于在高度机密的环境中进行低级实验的。这些实验到底是什么没人知道，不过看上去似乎是在危险且具有爆炸性的环境中进行数据收集之类的...",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

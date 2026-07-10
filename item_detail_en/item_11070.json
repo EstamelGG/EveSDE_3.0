@@ -1,0 +1,13 @@
+{
+  "type_id": 11070,
+  "name": "Religious Artifact",
+  "description": "This religious artifact is highly decorated. It looks old, and it feels heavier than such a small thing should.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

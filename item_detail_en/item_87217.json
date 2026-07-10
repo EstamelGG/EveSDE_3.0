@@ -1,0 +1,13 @@
+{
+  "type_id": 87217,
+  "name": "Military Stasis Pods",
+  "description": "In the case of an emergency crew members can seek refuge inside this pod, potentially even surviving the total destruction of their ship.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

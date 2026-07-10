@@ -1,0 +1,13 @@
+{
+  "type_id": 32634,
+  "name": "默认点光源",
+  "description": "",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "灯光",
+  "group_name": "点光源",
+  "attributes": [],
+  "traits": []
+}

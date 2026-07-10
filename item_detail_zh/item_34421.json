@@ -1,0 +1,13 @@
+{
+  "type_id": 34421,
+  "name": "克里巴式改良型露天采矿器",
+  "description": "用胶带和一个激光指示器临时拼凑起来的，就连外空联合矿业也搞不明白这东西的采矿能力为什么那么强。",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

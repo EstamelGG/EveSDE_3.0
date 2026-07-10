@@ -1,0 +1,13 @@
+{
+  "type_id": 29229,
+  "name": "艾玛外交官",
+  "description": "这个人是艾玛帝国官方任命的外交使节。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 90.0,
+  "category_name": "常用物品",
+  "group_name": "有生货物",
+  "attributes": [],
+  "traits": []
+}

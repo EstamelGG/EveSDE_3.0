@@ -1,0 +1,13 @@
+{
+  "type_id": 24031,
+  "name": "R.S. 官员的阿尔法通行证",
+  "description": "这是供莱登船业官员使用的安全通行卡。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

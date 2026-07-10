@@ -1,0 +1,13 @@
+{
+  "type_id": 2631,
+  "name": "装箱的OP杀虫剂",
+  "description": "有机磷酸酯，和神经毒气类似，长期以来被用作杀虫剂。虫子们自己在进化，我们对付他们的办法也必须要跟着进化。这种特殊的杀虫剂可能是有史以来对人类自身最有杀伤力的一种，几乎可以杀死任何暴露于它的生物。",
+  "volume": 60.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 60000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

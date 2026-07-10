@@ -1,0 +1,13 @@
+{
+  "type_id": 44116,
+  "name": "Kaatara's Custom Magnetic Field Stabilizer Blueprint",
+  "description": "This blueprint can be used to build a limited number of special upgraded versions of the Magnetic Field Stabilizer module. Magnetic Field Stabilizers improve the damage and rate of fire of hybrid turrets and are key modules in some Caldari and Gallente ship loadouts.\n\nThis particular blueprint has been created to the custom specifications of Fleet Commander Rai Kaatara, who has been known to issue copies to certain select Caldari Navy officers and corporate defense contractors at her discretion.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Blueprint",
+  "group_name": "Gunnery Upgrade Blueprint",
+  "attributes": [],
+  "traits": []
+}

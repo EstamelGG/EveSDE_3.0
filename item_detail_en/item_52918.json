@@ -1,0 +1,77 @@
+{
+  "type_id": 52918,
+  "name": "High-grade Mimesis Beta",
+  "description": "This memory augmentation is listed in the DED inventory as a modification by CONCORD weapons technologists of standard capsuleer implant templates with control routines that mimic methods of enhancing the firepower of reverse-engineered Triglavian weaponry, at the cost of a slower build up to maximum particle stream output.\n\nHowever, persistent rumors among New Eden's capsuleer, transhuman and wirehead communities suggest that the research and development group that created these implants was lead by a Society of Conscious Thought team with special expertise in so-called \"restricted artificial intelligences\". The possibility that these implants are based on RAI technology raises startling questions about the nature of the \"mimesis\" involved in these augmentations.\n\nPrimary Effect: +4 bonus to Memory\n\nSecondary Effect: 2% bonus to maximum damage output of entropic disintegrators\n\nTertiary Effect: 0.33% penalty to damage multiplier increase per cycle of entropic disintegrators\n\nSet Effect: 20% bonus to the strength of all Mimesis implant secondary effects",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Implant",
+  "group_name": "Cyberimplant",
+  "attributes": [
+    {
+      "attribute_name": "memoryBonus",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "Memory Modifier",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3411.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 2.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "implantness",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Implant Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 9.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "damageMultiplierBonusMaxModifier",
+      "value": 2.0,
+      "categoryID": 29,
+      "display_name": "Maximum Damage Bonus Multiplier Modifier",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "damageMultiplierBonusPerCycleModifier",
+      "value": -0.33,
+      "categoryID": 29,
+      "display_name": "Damage Multiplier Bonus Per Cycle Modifier",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "setBonusMimesis",
+      "value": 1.2,
+      "categoryID": 7,
+      "display_name": "Implant Set Bonus",
+      "unit_name": "x"
+    }
+  ],
+  "traits": []
+}

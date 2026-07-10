@@ -1,0 +1,13 @@
+{
+  "type_id": 22166,
+  "name": "Portable Power Generator",
+  "description": "Small generator capable of powering up a small space installation.",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1500.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 60252,
+  "name": "筑梦星河专属稀有舰船宝箱II型",
+  "description": "打开宝箱可以获得白银富豪级，狂怒守卫者级，乌图级中随机一艘舰船。\n\n概率如下：\n\n白银富豪级 40%\n\n狂怒守卫者级 30%\n\n乌图级 30%",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

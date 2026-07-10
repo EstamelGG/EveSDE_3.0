@@ -1,0 +1,13 @@
+{
+  "type_id": 24285,
+  "name": "科波姆指挥官勋章",
+  "description": "这枚大奖章只有某些高科波姆指挥官才可佩戴，通常是些掌管血袭者复合体的人。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "铭牌",
+  "attributes": [],
+  "traits": []
+}

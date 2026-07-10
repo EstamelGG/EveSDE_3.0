@@ -1,0 +1,13 @@
+{
+  "type_id": 2691,
+  "name": "Large Crates of Polytextiles",
+  "description": "This synthetic fabric is used for clothing as well as makeshift shelters on hard-climate colonies.",
+  "volume": 500.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 500000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

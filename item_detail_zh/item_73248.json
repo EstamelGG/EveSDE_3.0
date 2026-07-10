@@ -1,0 +1,13 @@
+{
+  "type_id": 73248,
+  "name": "加达里忠诚点凭证",
+  "description": "这些凭据奖励给保障加达里合众国安全、促进繁荣发展的克隆飞行员。它们可以在大多数加达里空间站中出售换成星币。",
+  "volume": 0.001,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

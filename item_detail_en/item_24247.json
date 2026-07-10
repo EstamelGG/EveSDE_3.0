@@ -1,0 +1,13 @@
+{
+  "type_id": 24247,
+  "name": "Antiseptic Biomass",
+  "description": "A mass of organic material. Antiseptic substance has been added to the mix to hinder decay.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

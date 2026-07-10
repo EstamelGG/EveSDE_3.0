@@ -1,0 +1,13 @@
+{
+  "type_id": 56713,
+  "name": "Vessel Core Hologram",
+  "description": "Space Vessel Core Holograms provide technical data on the architecture and core systems of all manner of ships, and can often be extracted from the data systems of disabled or wrecked vessels. The Triglavian Collective is generally willing to exchange certain items for such valuable data.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

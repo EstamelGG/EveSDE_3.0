@@ -1,0 +1,13 @@
+{
+  "type_id": 34776,
+  "name": "CSM 8 Electee Archive Script",
+  "description": "A secure holographic datapad, used to access the CONCORD public information database.\n \n \n//archive_yulai8_ict -search\n>SEARCH INITIATED\n>SEARCH SEQUENCE... COMPLETE\n//archive_csm -search\n>ARCHIVE SEARCH... COMPLETE\n>LOADING... COMPLETE \n \nCouncil of Stellar Management 8 electees:\n \n<url=showinfo:1378//1869635534>Ali Aras</url>\n<url=showinfo:1376//772205373>Chitsa Jason</url>\n<url=showinfo:1383//318491604>James Arget</url>\n<url=showinfo:1376//1234938555>Kesper North</url>\n<url=showinfo:1378//1059081514>Korvin</url>\n<url=showinfo:1376//301445721>Malcanis</url>\n<url=showinfo:1383//425176718>Mangala Solaris</url>\n<url=showinfo:1377//1946611318>Mike Azariah</url>\n<url=showinfo:1375//406944591>mynnna</url>\n<url=showinfo:1385//317012339>progodlegend</url>\n<url=showinfo:1373//626711141>Ripard Teg</url>\n<url=showinfo:1385//445750677>Sala Cameron</url>\n<url=showinfo:1384//1272172192>Sort Dragon</url>\n<url=showinfo:1376//1036406382>Trebor Daehdoow</url>",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

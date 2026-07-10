@@ -1,0 +1,13 @@
+{
+  "type_id": 11588,
+  "name": "Defunct Drone Sensor Module",
+  "description": "These sensors are an old subsystem once used in drone prototypes.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

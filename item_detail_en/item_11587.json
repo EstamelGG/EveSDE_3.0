@@ -1,0 +1,13 @@
+{
+  "type_id": 11587,
+  "name": "Temple Stone",
+  "description": "This stone is from a sacred temple, valued both by the minmatar and the amarr.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

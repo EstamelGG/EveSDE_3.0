@@ -1,0 +1,266 @@
+{
+  "type_id": 40727,
+  "name": "Guri Hivaa Rokosabai",
+  "description": "The Guri Hivaa are Guristas pilots specializing in hunting for very specific targets, whether that be marks to kill or kidnap, or rare and valuable consignments to plunder. The elite Guri Hivaa Rokosabai are the most accomplished among their ranks and are afforded the command of high-tech and powerful battleships.",
+  "volume": 486000.0,
+  "repackaged_volume": null,
+  "capacity": 815.0,
+  "mass": 99300000.0,
+  "category_name": "Entity",
+  "group_name": "Irregular Battleship",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 2000.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "maxVelocity",
+      "value": 94.0,
+      "categoryID": 17,
+      "display_name": "Maximum Velocity",
+      "unit_name": "m/sec"
+    },
+    {
+      "attribute_name": "rechargeRate",
+      "value": 2000000.0,
+      "categoryID": 5,
+      "display_name": "Capacitor Recharge time",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "agility",
+      "value": 0.128,
+      "categoryID": 17,
+      "display_name": "Inertia Modifier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "maxTargetRange",
+      "value": 75000.0,
+      "categoryID": 6,
+      "display_name": "Maximum Targeting Range",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "maxLockedTargets",
+      "value": 7.0,
+      "categoryID": 6,
+      "display_name": "Maximum Locked Targets",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "scanRadarStrength",
+      "value": 0.0,
+      "categoryID": 6,
+      "display_name": "RADAR Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanLadarStrength",
+      "value": 0.0,
+      "categoryID": 6,
+      "display_name": "Ladar Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrength",
+      "value": 0.0,
+      "categoryID": 6,
+      "display_name": "Magnetometric Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanGravimetricStrength",
+      "value": 30.0,
+      "categoryID": 6,
+      "display_name": "Gravimetric Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "missileDamageMultiplier",
+      "value": 1.0,
+      "categoryID": 30,
+      "display_name": "Missile Damage Bonus",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "gfxTurretID",
+      "value": 13929.0,
+      "categoryID": 31,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "gfxBoosterID",
+      "value": 395.0,
+      "categoryID": 31,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "entitySecurityStatusKillBonus",
+      "value": 0.01,
+      "categoryID": 32,
+      "display_name": "Security Status Kill Amount",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldCapacity",
+      "value": 4000.0,
+      "categoryID": 2,
+      "display_name": "Shield Capacity",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorHP",
+      "value": 2000.0,
+      "categoryID": 3,
+      "display_name": "Armor Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorEmDamageResonance",
+      "value": 0.4,
+      "categoryID": 3,
+      "display_name": "Armor EM Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorExplosiveDamageResonance",
+      "value": 0.5,
+      "categoryID": 3,
+      "display_name": "Armor Explosive Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorKineticDamageResonance",
+      "value": 1.0,
+      "categoryID": 3,
+      "display_name": "Armor Kinetic Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorThermalDamageResonance",
+      "value": 0.8,
+      "categoryID": 3,
+      "display_name": "Armor Thermal Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldEmDamageResonance",
+      "value": 0.4,
+      "categoryID": 2,
+      "display_name": "Shield EM Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldExplosiveDamageResonance",
+      "value": 0.5,
+      "categoryID": 2,
+      "display_name": "Shield Explosive Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldKineticDamageResonance",
+      "value": 1.0,
+      "categoryID": 2,
+      "display_name": "Shield Kinetic Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldThermalDamageResonance",
+      "value": 0.8,
+      "categoryID": 2,
+      "display_name": "Shield Thermal Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "entityEquipmentMin",
+      "value": 0.0,
+      "categoryID": 19,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "entityEquipmentMax",
+      "value": 1.0,
+      "categoryID": 19,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "shieldRechargeRate",
+      "value": 2000000.0,
+      "categoryID": 2,
+      "display_name": "Shield recharge time",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "entityKillBounty",
+      "value": 0.0,
+      "categoryID": 32,
+      "display_name": "Bounty",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "capacitorCapacity",
+      "value": 5350.0,
+      "categoryID": 5,
+      "display_name": "Capacitor Capacity",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "missileLaunchDuration",
+      "value": 15000.0,
+      "categoryID": 30,
+      "display_name": "Rate of fire",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "entityMissileTypeID",
+      "value": 203.0,
+      "categoryID": 30,
+      "display_name": "",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 450.0,
+      "categoryID": 6,
+      "display_name": "Signature Radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "entityFactionLoss",
+      "value": 0.0,
+      "categoryID": 32,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "entitySecurityMaxGain",
+      "value": 5.0,
+      "categoryID": 32,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "scanResolution",
+      "value": 100.0,
+      "categoryID": 6,
+      "display_name": "Scan Resolution",
+      "unit_name": "mm"
+    },
+    {
+      "attribute_name": "warpSpeedMultiplier",
+      "value": 25.0,
+      "categoryID": 17,
+      "display_name": "Warp Speed Multiplier",
+      "unit_name": "x"
+    }
+  ],
+  "traits": []
+}

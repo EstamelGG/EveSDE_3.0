@@ -1,0 +1,13 @@
+{
+  "type_id": 23509,
+  "name": "Scope Journalist",
+  "description": "This is a Gallente journalist working for the Scope.  He is currently hot on the trail of a lead, as evidenced by his searching eyes and braced datapad.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 29482,
+  "name": "格伦饺子",
+  "description": "格伦饺子是格伦点心的一种，通常它的馅料非常的少，都是一些叶子包裹的油炸饭团。在圣日的时候人们通常不加任何佐料和配菜地食用这种饺子，不过最近这种食物特别受到年轻人的欢迎，他们把它蘸着辣椒酱当作点心食用。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 120.0,
+  "category_name": "常用物品",
+  "group_name": "冷藏品",
+  "attributes": [],
+  "traits": []
+}

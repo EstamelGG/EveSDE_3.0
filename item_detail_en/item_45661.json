@@ -1,0 +1,13 @@
+{
+  "type_id": 45661,
+  "name": "Faraday Force Magnetometer",
+  "description": "Recent developments in salvager technology have allowed a greater variety of ancient components to be recovered from the wrecks of Sleeper drones.\nInitial scans of this salvaged Faraday Force Magnetometer indicate that it includes technology that might be able to find a home in the sensor equipment of capsuleer ships. Engineers across the cluster have begun attempting to reverse engineer the Sleeper techniques used in this component, with Gallente researchers expressing particular interest.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Ancient Salvage",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 13214,
+  "name": "Bone Splinter",
+  "description": "Tiny fragment of a bone, too small to be easily discernable as to what part of the body it belongs to. Razor-sharp.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

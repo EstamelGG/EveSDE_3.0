@@ -1,0 +1,13 @@
+{
+  "type_id": 77473,
+  "name": "战斗克隆空舱",
+  "description": "舱内四处悬浮着等待转移意识的战争克隆体。战争克隆体是擅长步兵作战的人类。他们是非常有价值的生物设备，备受血袭者同盟的青睐，因为奥玛·萨利库萨及他臭名昭著的萨萨比克教相信克隆体拥有“最纯净的”血液，极适合用于他们的放血仪式。",
+  "volume": 3500.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 20000.0,
+  "category_name": "常用物品",
+  "group_name": "国土行动物品",
+  "attributes": [],
+  "traits": []
+}

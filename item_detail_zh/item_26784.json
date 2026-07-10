@@ -1,0 +1,13 @@
+{
+  "type_id": 26784,
+  "name": "装满的垃圾袋",
+  "description": "对于一些人来说，报废的各种物资和产品都是一文不值的垃圾。但对于另一部分人来说，这些都是非常有价值的资源。",
+  "volume": 2500.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 25000000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

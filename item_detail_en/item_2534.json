@@ -1,0 +1,49 @@
+{
+  "type_id": 2534,
+  "name": "Gas Command Center",
+  "description": "Maintaining control over a section of “territory” above a gas giant requires a very specific type of command facility, one that is able to maintain its own orbit, house administrative personnel, and easily communicate and interact with other nodes. Suspended with equilibrium technology, these nodes are able to maintain altitude with minimal upkeep. If there is one major advantage to colonizing gas giant planets, it is that these facilities can literally be dropped directly from orbit with almost no concern for their descent or deployment.",
+  "volume": 1000.0,
+  "repackaged_volume": null,
+  "capacity": 500.0,
+  "mass": 5000.0,
+  "category_name": "Planetary Industry",
+  "group_name": "Command Centers",
+  "attributes": [
+    {
+      "attribute_name": "powerOutput",
+      "value": 6000.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Output",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuOutput",
+      "value": 1675.0,
+      "categoryID": 1,
+      "display_name": "CPU Output",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 13.0,
+      "categoryID": 7,
+      "display_name": "Planet Type Restriction",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "exportTax",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "Export Tax",
+      "unit_name": "ISK"
+    }
+  ],
+  "traits": []
+}

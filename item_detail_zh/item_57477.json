@@ -1,0 +1,13 @@
+{
+  "type_id": 57477,
+  "name": "光雷达超光速链接通信器",
+  "description": "米玛塔尔舰船一直以来都主要使用光雷达式感应器来探测太空环境。光雷达超光速链接通信器能将高频高分辨率的米玛塔尔感应器数据直接链接到共和国舰队使用的超光速通信频道中。",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "常用物品",
+  "group_name": "高级旗舰级建造组件",
+  "attributes": [],
+  "traits": []
+}

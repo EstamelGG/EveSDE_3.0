@@ -1,0 +1,168 @@
+{
+  "type_id": 63605,
+  "name": "Halcyon B-5 Booster",
+  "description": "It will apply immediately when redeemed. Base Duration 2 Hours.\n\n5% bonus to shield resistances\n5% bonus to warp speed and acceleration\n5% bonus to turret optimal range and falloff\n5% bonus to missile flight time\n5% bonus to vorton projector optimal range\n5% bonus to capacitor capacity\n5% bonus to drone hitpoints\n5% bonus to mining laser and ice harvester cycle time\n10% bonus to scan resolution\n10% bonus to sensor strength\n+20 virus coherence for data analyzers",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Implant",
+  "group_name": "Booster",
+  "attributes": [
+    {
+      "attribute_name": "rangeSkillBonus",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Optimal Range Modifier",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "hullHpBonus",
+      "value": 5.0,
+      "categoryID": 4,
+      "display_name": "Hitpoint Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 7200000.0,
+      "categoryID": 7,
+      "display_name": "Booster Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "armorHpBonus",
+      "value": 5.0,
+      "categoryID": 3,
+      "display_name": "Armor Hitpoint Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldCapacityBonus",
+      "value": 5.0,
+      "categoryID": 2,
+      "display_name": "Shield Capacity Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "falloffBonus",
+      "value": 5.0,
+      "categoryID": 37,
+      "display_name": "Falloff Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "maxFlightTimeBonus",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Flight Time Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanResolutionBonus",
+      "value": 10.0,
+      "categoryID": 37,
+      "display_name": "Scan Resolution Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "WarpSBonus",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Warp Speed Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "iceHarvestCycleBonus",
+      "value": -5.0,
+      "categoryID": 7,
+      "display_name": "Cycle Time bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "passiveEmDamageResistanceBonus",
+      "value": -5.0,
+      "categoryID": 7,
+      "display_name": "Passive EM Damage Resistance Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "passiveExplosiveDamageResistanceBonus",
+      "value": -5.0,
+      "categoryID": 7,
+      "display_name": "Passive Explosive Damage Resistance Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "passiveKineticDamageResistanceBonus",
+      "value": -5.0,
+      "categoryID": 7,
+      "display_name": "Passive Kinetic Damage Resistance Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "passiveThermicDamageResistanceBonus",
+      "value": -5.0,
+      "categoryID": 7,
+      "display_name": "Passive Thermal Damage Resistance Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanGravimetricStrengthPercent",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "Gravimetric Strength",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanLadarStrengthPercent",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "Ladar Strength",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrengthPercent",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "Magnetometric Strength",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanRadarStrengthPercent",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "Radar Strength",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "capacitorCapacityBonus",
+      "value": 5.0,
+      "categoryID": 5,
+      "display_name": "Capacitor Modifier",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Booster Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "virusCoherenceBonus",
+      "value": 20.0,
+      "categoryID": 9,
+      "display_name": "Virus Coherence Bonus",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

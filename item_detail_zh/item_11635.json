@@ -1,0 +1,13 @@
+{
+  "type_id": 11635,
+  "name": "个人信息数据",
+  "description": "这是一堆数据芯片，记录了某空间站内普通大众的个人信息。尽管富人和重要公民的信息很少保存在这上面，但是对罪犯来说还是很有价值的。未经许可访问这些信息在宇宙大多数地方都被视为违法行为。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

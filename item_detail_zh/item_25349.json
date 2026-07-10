@@ -1,0 +1,119 @@
+{
+  "type_id": 25349,
+  "name": "超强型游离感增效体",
+  "description": "这种增效剂会增强飞行员对攻击的抵御能力，大大增加他忍受炮弹冲击的能力。虽然装甲被击碎的不适感仍然存在，但由于飞行员心中充满狂烈的怒火，他会像一艘肉体坦克一样横冲直撞。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3405.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 3.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 1800000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "armorDamageAmountBonus",
+      "value": 30.0,
+      "categoryID": 7,
+      "display_name": "装甲维修加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "boosterEffectChance1",
+      "value": 0.4,
+      "categoryID": 7,
+      "display_name": "副作用几率",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterEffectChance2",
+      "value": 0.4,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterEffectChance3",
+      "value": 0.4,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterEffectChance4",
+      "value": 0.4,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterEffectChance5",
+      "value": 0.4,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterArmorHPPenalty",
+      "value": -30.0,
+      "categoryID": 7,
+      "display_name": "装甲值惩罚",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterTurretTrackingPenalty",
+      "value": -30.0,
+      "categoryID": 7,
+      "display_name": "炮塔跟踪速度惩罚",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterMissileAOECloudPenalty",
+      "value": 30.0,
+      "categoryID": 7,
+      "display_name": "导弹爆炸半径惩罚",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterCapacitorCapacityPenalty",
+      "value": -30.0,
+      "categoryID": 7,
+      "display_name": "电容容量惩罚",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

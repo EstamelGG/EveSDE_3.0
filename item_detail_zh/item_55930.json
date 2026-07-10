@@ -1,0 +1,13 @@
+{
+  "type_id": 55930,
+  "name": "10万赏金加密债券",
+  "description": "这个SCC加密债券可以在统合部空间站中换得100,000星币。\n\n\n\n加密债券是一种安全形式的星币，不需对会计数据库开放不受限访问权就能转账大量现金。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "常用物品",
+  "group_name": "赏金加密债券",
+  "attributes": [],
+  "traits": []
+}

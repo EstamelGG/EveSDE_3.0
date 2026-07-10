@@ -1,0 +1,13 @@
+{
+  "type_id": 24253,
+  "name": "死去的朝圣者",
+  "description": "某个艾玛朝圣者的尸体。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

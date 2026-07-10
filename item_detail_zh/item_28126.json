@@ -1,0 +1,13 @@
+{
+  "type_id": 28126,
+  "name": "米玛塔尔基础哨站车间",
+  "description": "针对米玛塔尔哨站生产能力的基础升级方案。所有装备生产时间减少20%。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "附件",
+  "group_name": "哨站强化",
+  "attributes": [],
+  "traits": []
+}

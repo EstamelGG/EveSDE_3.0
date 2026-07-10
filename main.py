@@ -533,8 +533,8 @@ def main():
     # 处理蓝图数据
     safe_execute_processor(blueprints_processor.main, "蓝图数据", config)
     
-    # 处理天体名称数据
-    safe_execute_processor(celestial_names_processor.main, "天体名称数据", config)
+    # 处理天体数据（定位参数，名称由客户端运行时生成）
+    safe_execute_processor(celestial_names_processor.main, "天体数据", config)
     
     # 处理技能需求数据
     safe_execute_processor(skill_requirements_processor.main, "技能需求数据", config)

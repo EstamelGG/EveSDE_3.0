@@ -1,0 +1,28 @@
+{
+  "type_id": 2371,
+  "name": "Broken Nano-Factory",
+  "description": "Only the highly advanced Ukomi superconductor can be rendered small enough for use in nano-factories, microscopic devices programmed to absorb and recycle ambient material into useful matter. Each factory is built from reactive metals, ensuring that they interact properly – or not at all – with their environment, while a mote of industrial explosive automatically destroys them when they have completed their task.",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 250.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 250.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

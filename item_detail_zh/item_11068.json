@@ -1,0 +1,13 @@
+{
+  "type_id": 11068,
+  "name": "特别快递",
+  "description": "这个盒子里可能放置了本应仅供收件人使用的货物。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

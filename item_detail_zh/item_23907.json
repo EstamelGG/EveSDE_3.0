@@ -1,0 +1,13 @@
+{
+  "type_id": 23907,
+  "name": "光滑的哨站钥匙",
+  "description": "要通过该岗哨空间站需要两张安全通行卡，这是其中之一。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

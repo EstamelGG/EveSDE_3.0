@@ -1,0 +1,21 @@
+{
+  "type_id": 16657,
+  "name": "轧制钨合金",
+  "description": "一种强度非常高的化合物，由钨被包在铂金中轧制而成。它是创造碳化物的关键成分，后者被广泛用于制造各种设备。",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "中间产物",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

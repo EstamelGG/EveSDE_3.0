@@ -1,0 +1,301 @@
+{
+  "type_id": 27536,
+  "name": "天蛇控制塔",
+  "description": "天蛇控制塔是盖伦特控制塔的加强版，使用了最新的前沿设计技术，提高了防御及效率。种族加成：\n\n混合炮塔伤害增加25%\n\n储藏库容量增加100%",
+  "volume": 8000.0,
+  "repackaged_volume": null,
+  "capacity": 140000.0,
+  "mass": 200000000.0,
+  "category_name": "母星",
+  "group_name": "控制塔",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 10000000.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "powerOutput",
+      "value": 3750000.0,
+      "categoryID": 1,
+      "display_name": "能量栅格输出",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuOutput",
+      "value": 6750.0,
+      "categoryID": 1,
+      "display_name": "CPU输出",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "maxTargetRange",
+      "value": 500000.0,
+      "categoryID": 6,
+      "display_name": "锁定范围上限",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "uniformity",
+      "value": 1.0,
+      "categoryID": 2,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "proximityRange",
+      "value": 250000.0,
+      "categoryID": 7,
+      "display_name": "作用范围",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "scanRadarStrength",
+      "value": 600.0,
+      "categoryID": 6,
+      "display_name": "雷达感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanLadarStrength",
+      "value": 600.0,
+      "categoryID": 6,
+      "display_name": "光雷达感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrength",
+      "value": 600.0,
+      "categoryID": 6,
+      "display_name": "磁力感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanGravimetricStrength",
+      "value": 600.0,
+      "categoryID": 6,
+      "display_name": "引力感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "shieldCapacity",
+      "value": 38500000.0,
+      "categoryID": 2,
+      "display_name": "护盾容量",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorHP",
+      "value": 8800000.0,
+      "categoryID": 3,
+      "display_name": "装甲值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "shieldEmDamageResonance",
+      "value": 1.0,
+      "categoryID": 2,
+      "display_name": "护盾电磁伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldExplosiveDamageResonance",
+      "value": 1.0,
+      "categoryID": 2,
+      "display_name": "护盾爆炸伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldKineticDamageResonance",
+      "value": 0.5,
+      "categoryID": 2,
+      "display_name": "护盾动能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldThermalDamageResonance",
+      "value": 0.75,
+      "categoryID": 2,
+      "display_name": "护盾热能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "prototypingBonus",
+      "value": 250000.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "shieldRechargeRate",
+      "value": 200000000.0,
+      "categoryID": 2,
+      "display_name": "护盾回充时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "shieldUniformity",
+      "value": 0.75,
+      "categoryID": 2,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "armorUniformity",
+      "value": 0.75,
+      "categoryID": 3,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureUniformity",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 32000.0,
+      "categoryID": 6,
+      "display_name": "信号半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "anchoringDelay",
+      "value": 1620000.0,
+      "categoryID": 7,
+      "display_name": "锚定耗时",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "maxStructureDistance",
+      "value": 65000.0,
+      "categoryID": 7,
+      "display_name": "最大结构间距",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "unanchoringDelay",
+      "value": 3240000.0,
+      "categoryID": 7,
+      "display_name": "解锚耗时",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "onliningDelay",
+      "value": 1620000.0,
+      "categoryID": 7,
+      "display_name": "上线耗时",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "shieldRadius",
+      "value": 30000.0,
+      "categoryID": 2,
+      "display_name": "护盾半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "moonAnchorDistance",
+      "value": 100000.0,
+      "categoryID": 7,
+      "display_name": "卫星锚定距离",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "posControlTowerPeriod",
+      "value": 3600000.0,
+      "categoryID": 7,
+      "display_name": "母星控制塔周期",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "controlTowerSiloCapacityBonus",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "controlTowerHybridDamageBonus",
+      "value": 25.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "disallowOffensiveModifiers",
+      "value": 1.0,
+      "categoryID": 6,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hullEmDamageResonance",
+      "value": 0.01,
+      "categoryID": 4,
+      "display_name": "结构电磁伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "hullExplosiveDamageResonance",
+      "value": 0.01,
+      "categoryID": 4,
+      "display_name": "结构爆炸伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "hullKineticDamageResonance",
+      "value": 0.01,
+      "categoryID": 4,
+      "display_name": "结构动能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "hullThermalDamageResonance",
+      "value": 0.01,
+      "categoryID": 4,
+      "display_name": "结构热能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "controlTowerSize",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "控制塔尺寸",
+      "unit_name": "1=小型  2=中型  3=大型"
+    },
+    {
+      "attribute_name": "posStructureControlDistanceMax",
+      "value": 15000.0,
+      "categoryID": 7,
+      "display_name": "最大控制距离",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "capacitySecondary",
+      "value": 50000.0,
+      "categoryID": 4,
+      "display_name": "锶储藏库",
+      "unit_name": "m3"
+    },
+    {
+      "attribute_name": "metaGroupID",
+      "value": 4.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "fighterAbilityAntiCapitalMissileResistance",
+      "value": 1.0,
+      "categoryID": 38,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 24249,
+  "name": "Generator Debris",
+  "description": "Debris from a disintegrated power generator.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2000.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

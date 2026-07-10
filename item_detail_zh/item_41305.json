@@ -1,0 +1,13 @@
+{
+  "type_id": 41305,
+  "name": "精准化合物",
+  "description": "",
+  "volume": 0.001,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.001,
+  "category_name": "材料",
+  "group_name": "已命名组件",
+  "attributes": [],
+  "traits": []
+}

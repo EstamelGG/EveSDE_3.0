@@ -1,0 +1,13 @@
+{
+  "type_id": 24564,
+  "name": "查浓酒",
+  "description": "查浓酒是一种罕见的奢侈品，在查浓制造，仅仅在艾玛领空的一小部分地区销售。它的口味极好，是通过艾玛空间中的多种合法配料混合酿制而成，被视为珍品。",
+  "volume": 0.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 500.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

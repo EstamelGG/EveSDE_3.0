@@ -1,0 +1,13 @@
+{
+  "type_id": 29294,
+  "name": "Smugglers",
+  "description": "These shady individuals were caught transporting contraband.",
+  "volume": 300.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 600.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

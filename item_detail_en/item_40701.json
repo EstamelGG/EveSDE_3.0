@@ -1,0 +1,13 @@
+{
+  "type_id": 40701,
+  "name": "Subcompact TEBS Interface",
+  "description": "This portable Transneural Echo Burn Scanner interface appears to be a high-gain, short range version of the TEBS interface used in capsule cloning technology. Scaled down in size from hardware used in the Capsule, this device appears to have been engineered to be installed on a much smaller craft. \n\nThis interface allows the TEBS to communicate with a burst transmitter in order to relay neural data to a remote location. Given the nature of this technology, it may prove incredibly valuable if turned in to the correct organization.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

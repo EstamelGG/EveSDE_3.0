@@ -1,0 +1,13 @@
+{
+  "type_id": 24482,
+  "name": "Key to the Labyrinth",
+  "description": "This key allows entry into the labyrinth, a complex maze built by the Takmahls to hide themselves from the Amarr Empire thousands of years ago.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

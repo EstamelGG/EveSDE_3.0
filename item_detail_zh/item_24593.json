@@ -1,0 +1,13 @@
+{
+  "type_id": 24593,
+  "name": "加达里合众国母星宪章",
+  "description": "一种加达里合众国发行的电子租用代码，允许持有者使用合众国主权空间内某卫星周围的母星一个小时。代码储存在防篡改芯片上，必须插入母星控制塔。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "契约",
+  "attributes": [],
+  "traits": []
+}

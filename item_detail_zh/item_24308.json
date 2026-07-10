@@ -1,0 +1,13 @@
+{
+  "type_id": 24308,
+  "name": "走私犯的节锁",
+  "description": "走私犯，尤其是天蛇走私犯使用的轨道通行钥匙，可以锁上他们的非法物品储藏处或者他们的个人领域。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

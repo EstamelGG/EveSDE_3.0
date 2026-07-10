@@ -1,0 +1,13 @@
+{
+  "type_id": 34775,
+  "name": "第七届CSM当选人档案脚本",
+  "description": "确保信息安全的全息数据盘，用于访问统合部的公共信息数据库。\n \n \n//archive_yulai8_ict -search\n>搜索开始\n>搜索序列… 完成\n//archive_csm -search\n>档案搜索… 完成\n>正在加载... 完成 \n \n第七届CSM当选人：\n \nAlekseyev Karrde\nDarius III\nDovinian\nElise Randolph\nGreene Lee\nHans Jagerblitzen\nIssler Dainze\nKelduum Revaan\nMeissa Anunthiel\nSeleene\nTrebor Daehdoow\nTwo step\nUAxDEATH",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

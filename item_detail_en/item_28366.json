@@ -1,0 +1,13 @@
+{
+  "type_id": 28366,
+  "name": "Drone Coronary Unit",
+  "description": "The beating heart of a rogue drone, this power unit is a marvel of technology providing a greater size/power ratio than is currently achievable by modern designs. With some clever tinkering it is possible to adapt this to interface with current drone technology.",
+  "volume": 0.08,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2.0,
+  "category_name": "Material",
+  "group_name": "Rogue Drone Components",
+  "attributes": [],
+  "traits": []
+}

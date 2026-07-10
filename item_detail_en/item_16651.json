@@ -1,0 +1,21 @@
+{
+  "type_id": 16651,
+  "name": "Neodymium",
+  "description": "A rare, silvery metal. Due to its atmospheric reactiveness, Neodymium is used primarily for light-refractive purposes and as a colorant for other materials.",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 7010.0,
+  "category_name": "Material",
+  "group_name": "Moon Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

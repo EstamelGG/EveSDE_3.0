@@ -1,0 +1,13 @@
+{
+  "type_id": 2076,
+  "name": "Gate Key",
+  "description": "This transponder, set with a unique code built into the device's hardware, acts as a key to a specific acceleration gate.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

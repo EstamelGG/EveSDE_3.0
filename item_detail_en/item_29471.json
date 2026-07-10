@@ -1,0 +1,13 @@
+{
+  "type_id": 29471,
+  "name": "Ancient Painblade",
+  "description": "This antique weapon is the traditional precursor to the modern day's Painblade. <br><br>\n\nIn ancient times, Jin-Mei soldiers riding to the field used to plunge their swords into filth, in the well-founded expectation that the wounds they inflicted would cause infection and rot. This nasty tactic was given new life when royal technicians (in those days referred to as <i>Nuyin</i>, something akin to \"wizards\") developed a blade whose surface, when unsheathed, swiftly attracted and encouraged bacterial growth, giving life to all kinds of deadly filth. <br><br>\n\nNowadays, these items are mostly used in theatrical plays, and anyone who gets within a hand's reach of their swinging blades usually spends half an act wailing about it before finally dropping dead.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

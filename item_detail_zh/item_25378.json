@@ -1,0 +1,13 @@
+{
+  "type_id": 25378,
+  "name": "无人机改装密匙卡片",
+  "description": "这枚芯片中的数据可以打开通往死亡暗礁之后的死亡空间区域的传送门。这张出入卡只能使用一次。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 17904,
+  "name": "萨沙哨站的安全卡",
+  "description": "这把安全卡由萨沙共和国制造，使用者可打开通往某修养营地的加速轨道。轨道会打开一小段时间，安全卡在将卡中数据上传到轨道激活设备后，就会失去效用。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

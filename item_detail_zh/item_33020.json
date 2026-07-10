@@ -1,0 +1,13 @@
+{
+  "type_id": 33020,
+  "name": "红色大按钮",
+  "description": "这个按钮显然是用来重启某处的中央主机的。上面有一张标签，标明这不是一个代号为“托克斯福德”的人的个人计算机，不过这个人到底是谁，没人知道。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 2599,
+  "name": "Crates of Corporate Documents",
+  "description": "These datadisks are absolutely filled with endless databases of market knowledge, sales figures, salary ranges, production estimates, and all kinds of other corporate information.",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 40000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

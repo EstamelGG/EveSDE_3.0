@@ -1,0 +1,13 @@
+{
+  "type_id": 29474,
+  "name": "Singing Staff",
+  "description": "A traditional musical instrument of the Vheriokor peoples, the singing staff is made from a few tightly-wound strings attached to a small staff. It is today played only ceremonially, and those proficient in its use are rare. <br><br>\n\nThe instrument is fitted over a pole, strings on one side and staff on the other, and then drawn diagonally across the pole's surface, eliciting soft monotones. The staffs themselves are usually made from ivory or some other type of bone. Some of these latter types are preferred, for it is said that they have an extra tone that can be heard only when one plays a song of sadness and loss. <br><br>\n\nWhile there exist plenty of poles specifically designed for this instrument, technically just about anything will do: a metal stand, a chair leg, or even, if the strings are wound tightly enough, a human appendage.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

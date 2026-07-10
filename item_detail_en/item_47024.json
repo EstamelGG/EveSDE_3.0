@@ -1,0 +1,13 @@
+{
+  "type_id": 47024,
+  "name": "Project Discovery DNA Reference (Caldari)",
+  "description": "This is a reference set of genetic data pertaining to the Caldari bloodlines.\n\nThis data item bears the designation: CALDARI // AAT GCT // 1180309 // 1190710",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Research Data",
+  "attributes": [],
+  "traits": []
+}

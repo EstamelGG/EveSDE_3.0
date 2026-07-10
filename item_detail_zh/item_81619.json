@@ -1,0 +1,28 @@
+{
+  "type_id": 81619,
+  "name": "诱导力场压制系统",
+  "description": "这个升级件使得克隆飞行员能够在星系的<a href=showinfo:37534>暗影诱导干扰器</a>建筑中启动<a href=showinfo:35914>屹立诱导系统干扰器</a>。",
+  "volume": 200000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "基础设施升级件",
+  "group_name": "主权中心服务基础设施升级件",
+  "attributes": [
+    {
+      "attribute_name": "sovBillSystemCostDEPRECATED",
+      "value": 30000000.0,
+      "categoryID": 7,
+      "display_name": "每日维护费用",
+      "unit_name": "星币"
+    },
+    {
+      "attribute_name": "devIndexSovereignty",
+      "value": 3.0,
+      "categoryID": 0,
+      "display_name": "发展指数需求（战略）",
+      "unit_name": "等级"
+    }
+  ],
+  "traits": []
+}

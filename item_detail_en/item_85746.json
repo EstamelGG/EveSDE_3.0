@@ -1,0 +1,13 @@
+{
+  "type_id": 85746,
+  "name": "Infomorph Decryption Key",
+  "description": "One of potentially trillions of unique digital decryption keys used by the proprietary encryption protocols of the Upwell Consortium.\n\nInfomorphs embodied in Upwell workforce clone bodies are prohibited from remote transfer by Upwell's encryption methods, ensuring they remain faithful to their work contracts. With decryption keys like this one, and the advanced network information processing capabilities of The Warden, that encryption can be broken. This makes remote transfers of Upwell workforce infomorphs possible via TEBS facilities without Upwell's permission.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Infomorph Systems",
+  "attributes": [],
+  "traits": []
+}

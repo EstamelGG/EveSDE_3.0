@@ -1,0 +1,161 @@
+{
+  "type_id": 35881,
+  "name": "屹立旗舰级船坞 I",
+  "description": "屹立旗舰船坞 I 是一种服务装备，安装在昇威科技建筑上后即可在这里制造旗舰。\n\n\n\n如果昇威建筑启用了至少一个服务装备，将进入全能量运转模式，将会额外获得海量的护盾和装甲值以及一个额外的增强模式循环。\n\n\n\n屹立专用系统采用了昇威建筑分控纳米装配装置，由集成模版软件、纳米装配阵列和许多纳米块体构成。安装在采用昇威科技建造的建筑上的专门槽位中可以制造各种服务装备、建筑装备和建筑改装件。\n\n\n\n注：只能在大型和超大型建筑中安装这个服务装备。",
+  "volume": 32000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 500.0,
+  "category_name": "建筑装备",
+  "group_name": "建筑工程服务装备",
+  "attributes": [
+    {
+      "attribute_name": "power",
+      "value": 80000.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 600.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "canFitShipType1",
+      "value": 35827.0,
+      "categoryID": 1,
+      "display_name": "只能装配在",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "canFitShipType2",
+      "value": 35826.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "canFitShipType3",
+      "value": 35834.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "canFitShipType4",
+      "value": 35833.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "canFitShipType5",
+      "value": 40340.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "disallowInHighSec",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "禁止进入高安全星系",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "canFitShipType6",
+      "value": 47512.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "serviceModuleFuelConsumptionGroup",
+      "value": 1136.0,
+      "categoryID": 7,
+      "display_name": "服务装备燃料需求",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "serviceModuleFuelAmount",
+      "value": 24.0,
+      "categoryID": 7,
+      "display_name": "服务装备周期燃料需求",
+      "unit_name": "单位"
+    },
+    {
+      "attribute_name": "serviceModuleFuelOnlineAmount",
+      "value": 1728.0,
+      "categoryID": 7,
+      "display_name": "服务装备启用燃料需求",
+      "unit_name": "单位"
+    },
+    {
+      "attribute_name": "structureItemVisualFlag",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "maxTypeFitted",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "该类型装备使用上限",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "canFitShipType7",
+      "value": 47513.0,
+      "categoryID": 1,
+      "display_name": "可以装配至",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "canFitShipType8",
+      "value": 47514.0,
+      "categoryID": 1,
+      "display_name": "可以装配至",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "canFitShipType9",
+      "value": 47515.0,
+      "categoryID": 1,
+      "display_name": "可以装配至",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "canFitShipType10",
+      "value": 47516.0,
+      "categoryID": 1,
+      "display_name": "可以装配至",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "onlineMaxSecurityClass",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "serviceModuleFullPowerStateHitpointMultiplier",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "全能量模式护盾和装甲值系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "serviceModuleFullPowerStateArmorPlatingMultiplier",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

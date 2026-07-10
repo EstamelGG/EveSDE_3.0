@@ -1,0 +1,13 @@
+{
+  "type_id": 26787,
+  "name": "Crates of Rocket Fuel",
+  "description": "Augmented and concentrated fuel used primarily for missile production.",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

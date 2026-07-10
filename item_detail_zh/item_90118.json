@@ -1,0 +1,13 @@
+{
+  "type_id": 90118,
+  "name": "血色试炼场捷径钥匙卡",
+  "description": "这张钥匙卡可以激活通往血色试炼和黑暗血袭者试炼复合体的加速轨道，仅限单次使用。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

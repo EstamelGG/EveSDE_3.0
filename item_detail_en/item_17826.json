@@ -1,0 +1,13 @@
+{
+  "type_id": 17826,
+  "name": "Traffic Management Passkey",
+  "description": "This security passkey is manufactured by the Serpentis Corporation and allows the user to unlock a specific acceleration gate to a check-in tunnel. The gate will remain open for a short period of time and the passkey will be rendered useless after uploading the key's data to the gate's activation device.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,21 @@
+{
+  "type_id": 21967,
+  "name": "建筑办公室中心",
+  "description": "建造许多办公室所需的建材以及每天运作所需的电脑系统和必需品。",
+  "volume": 3000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000.0,
+  "category_name": "常用物品",
+  "group_name": "建筑组件",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

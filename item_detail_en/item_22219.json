@@ -1,0 +1,13 @@
+{
+  "type_id": 22219,
+  "name": "Replacement Laboratory Equipment",
+  "description": "These basic elements of all electronic hardware are sought out by those who require spare parts in their hardware. These specific parts are intended for repair and maintenance of a laboratory.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

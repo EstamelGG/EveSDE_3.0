@@ -1,0 +1,13 @@
+{
+  "type_id": 2628,
+  "name": "装箱的奇异数据晶体",
+  "description": "无论这些数据晶体上记录着什么，它们所采用的加密技术已经远远超过现有的普通揭秘技术所能及的程度，只有专家才能够将它们破解。",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 40000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

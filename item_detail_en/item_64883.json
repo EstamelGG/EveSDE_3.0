@@ -1,0 +1,13 @@
+{
+  "type_id": 64883,
+  "name": "Defunct Minmatar Encounter Surveillance System (DO NOT TRANSLATE)",
+  "description": "",
+  "volume": 200.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100000.0,
+  "category_name": "Celestial",
+  "group_name": "Non-Interactable Object",
+  "attributes": [],
+  "traits": []
+}

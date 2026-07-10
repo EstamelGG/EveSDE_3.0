@@ -1,0 +1,13 @@
+{
+  "type_id": 21676,
+  "name": "Jedon Hekkiren's Belongings",
+  "description": "This container is filled with expensive jewelry and platinum bars.  Belongs to the wealthy Caldari banker, Jedon Hekkiren.",
+  "volume": 50.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

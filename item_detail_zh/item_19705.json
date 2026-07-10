@@ -1,0 +1,13 @@
+{
+  "type_id": 19705,
+  "name": "扩张机巢的通行密码",
+  "description": "当地自由无人机利用这种随机产生的解密码来激活加速轨道。密码使用后，轨道会打开一小段时间，然后密码就会失效，同时会产生一个新的随机密码。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

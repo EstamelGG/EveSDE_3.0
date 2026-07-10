@@ -1,0 +1,77 @@
+{
+  "type_id": 94046,
+  "name": "Free-Zone Booster VI",
+  "description": "It will apply immediately when redeemed. Base Duration 2 Hours.\n\n6% bonus to hybrid weapon damage\n6% bonus to structure hitpoint\n6% bonus to local armor repair module effectiveness\n+10km drone control range\n6% bonus to ship agility",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Implant",
+  "group_name": "Booster",
+  "attributes": [
+    {
+      "attribute_name": "damageMultiplier",
+      "value": 1.06,
+      "categoryID": 29,
+      "display_name": "Damage Modifier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "agilityBonus",
+      "value": -6.0,
+      "categoryID": 7,
+      "display_name": "Inertia Modifier",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "hullHpBonus",
+      "value": 6.0,
+      "categoryID": 4,
+      "display_name": "Hitpoint Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 7200000.0,
+      "categoryID": 7,
+      "display_name": "Booster Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "droneRangeBonus",
+      "value": 10000.0,
+      "categoryID": 10,
+      "display_name": "Drone Control Range Bonus",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "armorDamageAmountBonus",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "Armor Repair Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Booster Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "boosterLastInjectionDatetime",
+      "value": 20691.4576388889,
+      "categoryID": 7,
+      "display_name": "Expiry Date",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

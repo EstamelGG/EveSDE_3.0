@@ -1,0 +1,13 @@
+{
+  "type_id": 28364,
+  "name": "Drone Tactical Limb",
+  "description": "A multipurpose limb of a rogue drone which, in combat models, is a mount for the primary weapon.  The modular design of such limbs allows for them to be incorporated into standard drone designs with some ingenuity.",
+  "volume": 0.07,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2.0,
+  "category_name": "Material",
+  "group_name": "Rogue Drone Components",
+  "attributes": [],
+  "traits": []
+}

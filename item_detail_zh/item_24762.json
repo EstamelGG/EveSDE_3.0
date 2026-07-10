@@ -1,0 +1,13 @@
+{
+  "type_id": 24762,
+  "name": "卢戈的卡片",
+  "description": "这张安全通行卡由米玛塔尔舰队制造，使用者可打开通往另一个区域的加速轨道。轨道会打开一小段时间，钥匙卡片在将卡中数据上传到轨道激活设备以后，就会失去效用。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

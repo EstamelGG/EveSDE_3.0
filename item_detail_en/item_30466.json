@@ -1,0 +1,21 @@
+{
+  "type_id": 30466,
+  "name": "Electromechanical Interface Nexus",
+  "description": "When integrated into a starship with other components, an EMI Nexus is used to facilitate manual control over numerous electromechanical systems which, by default, run in an automated manner according to their programmed roles. Typically, the EMI Nexus acts as a conduit between a capsuleer and their ship, serving as an interface through which they can operate normally automated electromechanical systems, such as a Central System Controller. Other more simple tasks, such as the activation of a ship's modules, also frequently rely on these components.",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Hybrid Tech Components",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

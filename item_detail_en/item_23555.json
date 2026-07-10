@@ -1,0 +1,13 @@
+{
+  "type_id": 23555,
+  "name": "Ship logs",
+  "description": "Ships logs that need to be 'doctored' to pass custom inspection.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

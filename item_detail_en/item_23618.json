@@ -1,0 +1,77 @@
+{
+  "type_id": 23618,
+  "name": "Drone Durability",
+  "description": "Increases drone and fighter hit points.\n\n5% bonus to drone shield, armor and hull hit points per level.\n5% bonus to fighter hit points per level.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Skill",
+  "group_name": "Drones",
+  "attributes": [
+    {
+      "attribute_name": "primaryAttribute",
+      "value": 166.0,
+      "categoryID": 7,
+      "display_name": "Primary attribute",
+      "unit_name": "attributeID"
+    },
+    {
+      "attribute_name": "secondaryAttribute",
+      "value": 167.0,
+      "categoryID": 7,
+      "display_name": "Secondary attribute",
+      "unit_name": "attributeID"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3436.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "skillTimeConstant",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Training time multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 4.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "skillLevel",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Level",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hullHpBonus",
+      "value": 5.0,
+      "categoryID": 4,
+      "display_name": "Hitpoint Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorHpBonus",
+      "value": 5.0,
+      "categoryID": 3,
+      "display_name": "Armor Hitpoint Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldCapacityBonus",
+      "value": 5.0,
+      "categoryID": 2,
+      "display_name": "Shield Capacity Bonus",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

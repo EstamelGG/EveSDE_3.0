@@ -1,0 +1,56 @@
+{
+  "type_id": 3318,
+  "name": "武器升级研究",
+  "description": "理解火控计算机系统的技能，包括武器升级装备的使用。每升一级，武器炮台、发射器和立体炸弹的CPU需求各减少5%。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "技能",
+  "group_name": "工程学",
+  "attributes": [
+    {
+      "attribute_name": "primaryAttribute",
+      "value": 167.0,
+      "categoryID": 7,
+      "display_name": "主属性",
+      "unit_name": "属性ID"
+    },
+    {
+      "attribute_name": "secondaryAttribute",
+      "value": 166.0,
+      "categoryID": 7,
+      "display_name": "副属性",
+      "unit_name": "属性ID"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3300.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "skillTimeConstant",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "训练时间倍增系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 2.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "cpuNeedBonus",
+      "value": -5.0,
+      "categoryID": 1,
+      "display_name": "CPU需求加成",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

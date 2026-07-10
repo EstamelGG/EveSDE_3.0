@@ -1,0 +1,13 @@
+{
+  "type_id": 28886,
+  "name": "Prisoner",
+  "description": "Transporting prisoners is a task that requires trust and loyalty from the sovereign empire's legislative arm, yet it is generally one of the least sought-after jobs in the known universe.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

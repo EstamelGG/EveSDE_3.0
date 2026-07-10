@@ -1,0 +1,21 @@
+{
+  "type_id": 24545,
+  "name": "旗舰跳跃桥接阵列",
+  "description": "一个巨大的机械装置，装载了建造一座旗舰级跳跃通道所需的全部部件。",
+  "volume": 2000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000.0,
+  "category_name": "常用物品",
+  "group_name": "旗舰建造组件",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

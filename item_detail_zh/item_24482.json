@@ -1,0 +1,13 @@
+{
+  "type_id": 24482,
+  "name": "迷宫之匙",
+  "description": "这把钥匙可以打开通往迷阵的加速轨道，这座复杂的迷宫是塔克玛几千年前为了躲避艾玛帝国而建造的。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

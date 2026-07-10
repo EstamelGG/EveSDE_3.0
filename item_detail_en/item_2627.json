@@ -1,0 +1,13 @@
+{
+  "type_id": 2627,
+  "name": "Crates of Mono-Cell Batteries",
+  "description": "Although they're a relatively old design, mono-cell batteries are still a reliable method of storing electricity in bulk, specifically designed for long-term use in stations or planetary vehicles.",
+  "volume": 80.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

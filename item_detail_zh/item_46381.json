@@ -1,0 +1,13 @@
+{
+  "type_id": 46381,
+  "name": "星际代理处后勤包裹",
+  "description": "带有代理处标识的合成物会在由神秘网络认证过的目标地点中出售。占领者这些目标地点的一方一般会自己讲代理处投放的这些合成物扫光，即使他们明白这意味着什么也在所不惜。代理处的这种对克隆飞行员的支持行为被认为是一种实验，用以激励独立飞行员来执行一些公共任务。\n\n\n\n这个工具包中含有一个代理处增效剂，它可能是下列物品中的一种：\n\n\n\n<url=showinfo:46001>代理处‘硬壳’TB3药剂 1</url>\n\n<url=showinfo:46002>代理处‘硬壳’TB5药剂 2</url>\n\n<url=showinfo:46003>代理处‘硬壳’TB7药剂 3</url>\n\n<url=showinfo:48113>代理处‘硬壳’TB9药剂 4</url>\n\n\n\n<url=showinfo:46004>代理处‘调频’SB3药剂 1</url>\n\n<url=showinfo:46005>代理处‘调频’SB5药剂 2</url>\n\n<url=showinfo:46006>代理处‘调频’SB7药剂 3</url>\n\n<url=showinfo:48114>代理处‘调频’SB9药剂 4</url>\n\n\n\n<url=showinfo:45998>代理处‘火枪’DB3药剂 1</url>\n\n<url=showinfo:45999>代理处‘火枪’DB5药剂 2</url>\n\n<url=showinfo:46000>代理处‘火枪’DB7药剂 3</url>\n\n<url=showinfo:48115>代理处‘火枪’DB9药剂 4</url>",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "常用物品",
+  "group_name": "保险柜",
+  "attributes": [],
+  "traits": []
+}

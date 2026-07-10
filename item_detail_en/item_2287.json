@@ -1,0 +1,28 @@
+{
+  "type_id": 2287,
+  "name": "Complex Organisms",
+  "description": "Organic flora and fauna growing on worlds across the cluster technically qualify as “alien life,” though none of it has registered as sentient. However, their usefulness as comestibles or building materials in other areas of industry is invaluable.",
+  "volume": 0.005,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Planetary Resources",
+  "group_name": "Planet Organic - Raw Resource",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

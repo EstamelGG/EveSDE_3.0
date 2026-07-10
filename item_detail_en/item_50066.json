@@ -1,0 +1,56 @@
+{
+  "type_id": 50066,
+  "name": "Inquest 'Hedone' Entanglement Optimizer WS-803",
+  "description": "A neural interface upgrade that increases the maximum range of Stasis Webifiers and Warp Scramblers by 3%.\n\nSerpentis Inquest is an offshoot of the Serpentis Corporation that specializes in cutting-edge cybernetic and clone research.\n\nThe corporation makes its black cyber implants available to both Serpentis operatives and the forces of the allied Angel Cartel.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Implant",
+  "group_name": "Cyber Electronic Systems",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3411.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "implantness",
+      "value": 8.0,
+      "categoryID": 7,
+      "display_name": "Implant Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "warpScrambleRangeBonus",
+      "value": 3.0,
+      "categoryID": 27,
+      "display_name": "Warp Scrambler Range Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "stasisWebRangeBonus",
+      "value": 3.0,
+      "categoryID": 28,
+      "display_name": "Stasis Webifier Maximum Range Bonus",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

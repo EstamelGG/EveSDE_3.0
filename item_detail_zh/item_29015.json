@@ -1,0 +1,56 @@
+{
+  "type_id": 29015,
+  "name": "锁定距离抑阻脚本",
+  "description": "这玩意儿一开始是为一群自称为“范达连帮”的青少年骇客所用，以期破解高科技安全固件。这些脚本通过在固件中插入指令可以改变那些固件的运作方式。现在随着那帮小子的成长，他们已将儿时的发明运用到了他们现在各自牵头的科研部门里。\n\n该脚本可用在远程感应抑阻器上，以增加装备的锁定距离影响数值，不过这样做会降低其锁定速度影响数值。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "弹药",
+  "group_name": "感应抑阻器脚本",
+  "attributes": [
+    {
+      "attribute_name": "mainColor",
+      "value": 11646664.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "chargeSize",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "弹药尺寸",
+      "unit_name": "1=小型  2=中型  3=大型"
+    },
+    {
+      "attribute_name": "launcherGroup",
+      "value": 208.0,
+      "categoryID": 7,
+      "display_name": "配套使用（发射器类别）",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "maxTargetRangeBonusBonus",
+      "value": 100.0,
+      "categoryID": 6,
+      "display_name": "最大锁定范围加成修正",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanResolutionBonusBonus",
+      "value": -100.0,
+      "categoryID": 7,
+      "display_name": "扫描分辨率加成修正",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

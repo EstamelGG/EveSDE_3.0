@@ -1,0 +1,13 @@
+{
+  "type_id": 2595,
+  "name": "加密的数据芯片",
+  "description": "这个小小的便携数据盘的直径只有两厘米长，但它能够储存海量的信息。当数据盘被放入读盘器中后，一块用塑钢制作的坚固保护壳就会旋转打开，暴露出其中的数据面。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

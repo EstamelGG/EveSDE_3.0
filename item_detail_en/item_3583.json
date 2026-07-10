@@ -1,0 +1,13 @@
+{
+  "type_id": 3583,
+  "name": "Badly Mangled Components",
+  "description": "This rather large pile of obviously-broken components stands testament to the follies of reprocessing an item without <i>really</i> understanding how it fits together.",
+  "volume": 4.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 700.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

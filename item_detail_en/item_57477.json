@@ -1,0 +1,13 @@
+{
+  "type_id": 57477,
+  "name": "Ladar-FTL Interlink Communicator",
+  "description": "Minmatar ship designs use ladar-based sensors as their primary means of building a picture of the local space environment. The Ladar-FTL Interlink Communicator is used to tie high-frequency, high-resolution Minmatar sensor data directly into the FTL communications channels used by Republic Fleet squadrons.",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Advanced Capital Construction Components",
+  "attributes": [],
+  "traits": []
+}

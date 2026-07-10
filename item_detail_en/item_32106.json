@@ -1,0 +1,13 @@
+{
+  "type_id": 32106,
+  "name": "Sansha Command Signal Receiver",
+  "description": "This device can boost the incoming or outgoing signals to a Sansha device.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 40.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

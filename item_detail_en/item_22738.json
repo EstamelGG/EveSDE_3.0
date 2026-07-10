@@ -1,0 +1,13 @@
+{
+  "type_id": 22738,
+  "name": "Ison's Voucher",
+  "description": "This voucher was given to all recruitment officers by Warlord Ison Tiadala.  Any mercenary with one of these vouchers who is well regarded by the Minmatar Republic should speak with Ison Tiadala for possible employment.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

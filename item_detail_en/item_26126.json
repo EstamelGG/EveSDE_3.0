@@ -1,0 +1,13 @@
+{
+  "type_id": 26126,
+  "name": "Flower Power Powder",
+  "description": "Oddly smelling powder presumably used by pirates in some of their more exotic formulas.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

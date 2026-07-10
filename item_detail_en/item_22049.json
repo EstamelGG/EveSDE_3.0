@@ -1,0 +1,13 @@
+{
+  "type_id": 22049,
+  "name": "REF Insignia",
+  "description": "This insignia marks the bearer as a member of the Republic Expeditionary Force in the Ani constellation.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

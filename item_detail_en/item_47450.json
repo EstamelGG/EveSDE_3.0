@@ -1,0 +1,28 @@
+{
+  "type_id": 47450,
+  "name": "Compressed Capsule Shell",
+  "description": "This compressed hydrostatic capsule shell is full of valuable technology that should command the interest of prospective buyers.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [
+    {
+      "attribute_name": "entityEquipmentMin",
+      "value": 1.0,
+      "categoryID": 19,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "entityEquipmentMax",
+      "value": 1.0,
+      "categoryID": 19,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

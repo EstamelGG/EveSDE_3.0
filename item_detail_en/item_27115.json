@@ -1,0 +1,49 @@
+{
+  "type_id": 27115,
+  "name": "Eifyr and Co. 'Rogue' Warp Drive Speed WS-605",
+  "description": "A neural interface upgrade that boosts the pilot's skill at warp navigation.\n\n5% bonus to ships warp speed.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Implant",
+  "group_name": "Cyber Navigation",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3411.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "implantness",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "Implant Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "WarpSBonus",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Warp Speed Bonus",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

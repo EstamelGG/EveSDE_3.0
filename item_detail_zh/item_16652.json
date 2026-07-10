@@ -1,0 +1,21 @@
+{
+  "type_id": 16652,
+  "name": "钷",
+  "description": "一种高放射性发光金属，有时用作加热元件以及激光发生器的构件。",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 7260.0,
+  "category_name": "材料",
+  "group_name": "卫星原料",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

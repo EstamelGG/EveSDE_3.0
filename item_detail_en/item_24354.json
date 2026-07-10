@@ -1,0 +1,13 @@
+{
+  "type_id": 24354,
+  "name": "Threaded Waypoint Map",
+  "description": "This strange map seems to show a route of some sort, but as it lacks the source and destination locations it is of little use.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

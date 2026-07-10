@@ -1,0 +1,147 @@
+{
+  "type_id": 60313,
+  "name": "气云采集器 I",
+  "description": "对气云产物的日益增长的需求最终催生了气云采集技术的又一次突破，将牵引光束的传统回收技术和气体转化系统大幅改造，使其能使用大范围光束以及高效率的多通道传输催化阵列。硬件设备的增加带来了体积的极速膨胀和能量需求的大幅提升，这使得只有大型舰船才能使用新的气云采集器。基于上述需求以及专业采矿舰船所能提供的增益，这种新型装备很快就专供采矿驳船和采掘者使用了。\n\n\n\n在第一个星际气云带被发现之后，如何从中提取原始材料成为工业界最大的难题。很多种不同的方法都被用以实验，尽管成功提取的案例很多，但还没有找到真正高效的采集方式。直到人们重新拾起那个曾经被放弃的研发项目，一个真正的解决方案才就此诞生。此后，气云采集技术不停地缓慢地向前发展，在这个过程中它也不断推动着新工业和新经济的产生。",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "装备",
+  "group_name": "气云采集器",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 7.0,
+      "categoryID": 5,
+      "display_name": "启用耗电量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 10.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "slots",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 60.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 1500.0,
+      "categoryID": 29,
+      "display_name": "最佳射程",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 100000.0,
+      "categoryID": 7,
+      "display_name": "作用时间/单次运转时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "miningAmount",
+      "value": 50.0,
+      "categoryID": 51,
+      "display_name": "开采量",
+      "unit_name": "m3"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 25544.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "maxGroupActive",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "disallowEarlyDeactivation",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "canFitShipGroup01",
+      "value": 543.0,
+      "categoryID": 1,
+      "display_name": "只能装配在",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "canFitShipGroup02",
+      "value": 463.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "typeColorScheme",
+      "value": 11346.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "miningWastedVolumeMultiplier",
+      "value": 0.0,
+      "categoryID": 51,
+      "display_name": "残渣体积系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "miningWasteProbability",
+      "value": 0.0,
+      "categoryID": 51,
+      "display_name": "残渣几率",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

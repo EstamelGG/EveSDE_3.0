@@ -1,0 +1,13 @@
+{
+  "type_id": 3016,
+  "name": "Large Crate of Cryo-Stored Luminaire Skippers",
+  "description": "These large, indigo-hued amphibians are commonly used in laboratory work. Each weighs roughly two kilograms, and in their natural environment in the marshlands of Gallente Prime are the dominant aquatic predator. To prevent the stresses of space travel from affecting the frogs' physiology, it is necessary to transport them in a cold-case which drops their body temperature and induces a state of hibernation.",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

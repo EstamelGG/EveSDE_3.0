@@ -1,0 +1,13 @@
+{
+  "type_id": 23882,
+  "name": "标准解码器",
+  "description": "标准解码装置，用来解密通过非超光速发送的重要通讯信息。",
+  "volume": 50.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

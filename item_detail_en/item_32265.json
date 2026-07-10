@@ -1,0 +1,13 @@
+{
+  "type_id": 32265,
+  "name": "Spintric Coin",
+  "description": "A curious feature of The Spintrix is their admission system. The men and women working at this establishment do not accept ISK or any other sort of planetary currency. Rather, these workers accept only Spintrix coins, specially designed and highly desirable copper coins purchased through the agents of the Spintrix's owners.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

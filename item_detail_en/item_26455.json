@@ -1,0 +1,13 @@
+{
+  "type_id": 26455,
+  "name": "Administrative Key",
+  "description": "This passkey allows the bearer to enter the Administration Area of this complex.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

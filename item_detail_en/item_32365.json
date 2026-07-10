@@ -1,0 +1,13 @@
+{
+  "type_id": 32365,
+  "name": "Proof of Discovery: Relic",
+  "description": "This document has been placed inside a Relic site secured by Empire agents. It serves as physical proof that a capsuleer-in-training has been able to locate the signature and properly performed analysis in the area.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

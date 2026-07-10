@@ -1,0 +1,13 @@
+{
+  "type_id": 22080,
+  "name": "TX-890合成纺织纤维",
+  "description": "这种极其坚韧持久的合成织物由纳基维集团生产，专门用于他们的某些极限娱乐材料。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 200.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,105 @@
+{
+  "type_id": 18815,
+  "name": "Corelum B-Type EM Energized Membrane",
+  "description": "An enhanced version of the EM armor coating. Uses advanced magnetic field generators to strengthen the effect. Grants a bonus to armor EM damage resistance.\n\nPenalty: Using more than one type of this module or similar modules that affect the same attribute on the ship will be penalized.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Module",
+  "group_name": "Energized Armor Membrane",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 1.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Usage",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 26.0,
+      "categoryID": 1,
+      "display_name": "CPU usage",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "armorHPMultiplier",
+      "value": 1.0,
+      "categoryID": 3,
+      "display_name": "Armor Hitpoint Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3394.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 3.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 12.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "emDamageResistanceBonus",
+      "value": -42.68,
+      "categoryID": 7,
+      "display_name": "EM Damage Resistance Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "explosiveDamageResistanceBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Explosive Damage Resistance Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "kineticDamageResistanceBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Kinetic Damage Resistance Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "thermalDamageResistanceBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Thermal Damage Resistance Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaGroupID",
+      "value": 6.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

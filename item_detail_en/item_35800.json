@@ -1,0 +1,91 @@
+{
+  "type_id": 35800,
+  "name": "Drifter Incursion 5 to 7 Victory",
+  "description": "",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Celestial",
+  "group_name": "Effect Beacon",
+  "attributes": [
+    {
+      "attribute_name": "speedFactor",
+      "value": 20.0,
+      "categoryID": 28,
+      "display_name": "Maximum Velocity Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorEmDamageResistanceBonus",
+      "value": -20.0,
+      "categoryID": 3,
+      "display_name": "Armor EM resistance bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorKineticDamageResistanceBonus",
+      "value": -20.0,
+      "categoryID": 3,
+      "display_name": "Armor kinetic resistance bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorThermalDamageResistanceBonus",
+      "value": -20.0,
+      "categoryID": 3,
+      "display_name": "Armor thermal resistance bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorExplosiveDamageResistanceBonus",
+      "value": -20.0,
+      "categoryID": 3,
+      "display_name": "Armor explosive resistance bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "smartbombDamageMultiplier",
+      "value": 20.0,
+      "categoryID": 7,
+      "display_name": "Smart bomb damage multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "shieldEmDamageResistanceBonus",
+      "value": -10.0,
+      "categoryID": 2,
+      "display_name": "Shield EM Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldExplosiveDamageResistanceBonus",
+      "value": -10.0,
+      "categoryID": 2,
+      "display_name": "Shield Explosive Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldKineticDamageResistanceBonus",
+      "value": -10.0,
+      "categoryID": 2,
+      "display_name": "Shield Kinetic Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldThermalDamageResistanceBonus",
+      "value": -10.0,
+      "categoryID": 2,
+      "display_name": "Shield Thermal Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "systemEffectDamageReduction",
+      "value": 20.0,
+      "categoryID": 7,
+      "display_name": "System effect damage reduction",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 23156,
+  "name": "天蛇3D范围扫描",
+  "description": "",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "古物和原型",
+  "attributes": [],
+  "traits": []
+}

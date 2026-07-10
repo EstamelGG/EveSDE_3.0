@@ -1,0 +1,13 @@
+{
+  "type_id": 88571,
+  "name": "定位解码器",
+  "description": "该解码器可开辟前往新伊甸内出现的定位节点的通道。这些数据线索在迷宫复合体的内部交织，拼凑出一个更高维度的超复流形，超越了新伊甸所有数学家的认知范围。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 22165,
+  "name": "定制的天线",
+  "description": "在零重力状态下使用的巨大天线。",
+  "volume": 200.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 11603,
+  "name": "Shiez Kuzaks Ship Database",
+  "description": "This tiny, glassy data chip holds information from the database of a ship formerly in the possession of Shiez Kozak.  Information stored within here could be anything from the ship's logs.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 21531,
+  "name": "绞丝网式扫描器",
+  "description": "一个扫描器原型，可以很容易地连接到扫描器阵列以监控某个地区的全部细节。",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

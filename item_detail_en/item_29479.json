@@ -1,0 +1,13 @@
+{
+  "type_id": 29479,
+  "name": "Firecrackers",
+  "description": "Small explosive devices with extremely loud retorts — some even relying on cheap, built-in speakers to amplify their effects — these items are used for celebration (and often to prompt heart attacks) throughout the world of New Eden.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

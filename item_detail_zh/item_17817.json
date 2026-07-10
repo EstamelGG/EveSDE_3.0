@@ -1,0 +1,13 @@
+{
+  "type_id": 17817,
+  "name": "格隆·塔拉的勋章",
+  "description": "若将此类身份铭牌交给相应组织，它们也许会具有一定价值。格隆·塔拉是传说中艾玛达的领袖，他对米玛塔尔共和国极度痛恨。他最出名的事件就是在艾玛达—米玛塔尔边境驻扎时拒绝执行艾玛达政府下达的直接撤退命令。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "常用物品",
+  "group_name": "帝国勋章",
+  "attributes": [],
+  "traits": []
+}

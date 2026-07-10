@@ -1,0 +1,13 @@
+{
+  "type_id": 90137,
+  "name": "Historic Crimson Harvest Trinket Crate",
+  "description": "This crate includes a randomly selected trinket from previous Crimson Harvest events.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 57473,
+  "name": "G-O Trigger Neurolink Conduit",
+  "description": "Goal-Orienting Trigger Neurolink Conduits are vital components in the network of connections linking the neural hardware of a capsuleer to the many key systems of a spaceship.\n\nWhile all capsuleer neurolink technologies rely on the autonomic biosystems of pilots, Minmatar research and development took the radical approach of using goal-orienting autonomic heuristics to establish a reliable integration of neurolinks with ship systems.",
+  "volume": 16.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Construction Components",
+  "attributes": [],
+  "traits": []
+}

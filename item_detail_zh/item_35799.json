@@ -1,0 +1,91 @@
+{
+  "type_id": 35799,
+  "name": "Drifter Incursion 3 to 4 Victory",
+  "description": "",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "天体",
+  "group_name": "效果光束",
+  "attributes": [
+    {
+      "attribute_name": "speedFactor",
+      "value": 30.0,
+      "categoryID": 28,
+      "display_name": "最大速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorEmDamageResistanceBonus",
+      "value": -30.0,
+      "categoryID": 3,
+      "display_name": "装甲电磁抗性加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorKineticDamageResistanceBonus",
+      "value": -30.0,
+      "categoryID": 3,
+      "display_name": "装甲动能抗性加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorThermalDamageResistanceBonus",
+      "value": -30.0,
+      "categoryID": 3,
+      "display_name": "装甲热能抗性加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorExplosiveDamageResistanceBonus",
+      "value": -30.0,
+      "categoryID": 3,
+      "display_name": "装甲爆炸抗性加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "smartbombDamageMultiplier",
+      "value": 30.0,
+      "categoryID": 7,
+      "display_name": "立体炸弹伤害倍增系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "shieldEmDamageResistanceBonus",
+      "value": -15.0,
+      "categoryID": 2,
+      "display_name": "护盾电磁抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldExplosiveDamageResistanceBonus",
+      "value": -15.0,
+      "categoryID": 2,
+      "display_name": "护盾爆炸抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldKineticDamageResistanceBonus",
+      "value": -15.0,
+      "categoryID": 2,
+      "display_name": "护盾动能抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldThermalDamageResistanceBonus",
+      "value": -15.0,
+      "categoryID": 2,
+      "display_name": "护盾热能抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "systemEffectDamageReduction",
+      "value": 30.0,
+      "categoryID": 7,
+      "display_name": "星系影响伤害减少",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 42882,
+  "name": "Mining Laser Optimization Charge Blueprint",
+  "description": "",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Blueprint",
+  "group_name": "Command Burst Charge Blueprint",
+  "attributes": [],
+  "traits": []
+}

@@ -1,302 +1,156 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-天体名称数据处理器模块
-用于处理行星和月球名称数据并写入数据库
+天体数据处理器
+从 mapPlanets.jsonl 和 mapMoons.jsonl 提取天体定位参数，写入 celestials 表。
 
-功能: 从mapPlanets.jsonl和mapMoons.jsonl获取数据，生成天体名称
-命名规则:
-- 行星: 星系名称 + 罗马数字 (如: Sasta VII)
-- 月球: 星系名称 + 罗马数字 + Moon + 轨道索引 (如: Sasta VII - Moon 6)
+名称不在构建期生成，由客户端运行时通过 JOIN solarsystems + 罗马数字转换拼接：
+- 行星: {system_name} {roman(celestialIndex)}
+- 月球: {system_name} {roman(celestialIndex)} - {Moon/卫星} {orbitIndex}
+
+表结构:
+- itemID: 天体 ID（行星或月球，主键）
+- solarSystemID: 所在星系 ID（JOIN solarsystems 取多语星系名）
+- celestialIndex: 天体索引（客户端转罗马数字）
+- orbitIndex: 轨道索引（NULL = 行星，非 NULL = 月球）
 """
 
 from utils.single_db import get_db_path
-from utils.wide_i18n import LANGS, names_ddl, names_row
 import json
 import sqlite3
-import roman
 from pathlib import Path
-from typing import Dict, Any, List, Optional
+from typing import Dict, Any
 
 
-class CelestialNamesProcessor:
-    """天体名称数据处理器"""
-    
+class CelestialsProcessor:
+    """天体数据处理器：仅存定位参数，名称由客户端运行时生成"""
+
     def __init__(self, config: Dict[str, Any]):
-        """初始化天体名称处理器"""
         self.config = config
         self.project_root = Path(__file__).parent.parent
         self.sde_jsonl_path = self.project_root / config["paths"]["sde_jsonl"]
-        self.db_output_path = self.project_root / config["paths"]["db_output"]
-        self.languages = config.get("languages", ["en"])
-        
-        # 缓存数据
-        self.planets_data = {}
-        self.moons_data = {}
-        self.solar_systems_data = {}
-    
-    def int_to_roman(self, num: int) -> str:
-        """将整数转换为罗马数字"""
-        if num <= 0:
-            return str(num)
-        
-        try:
-            return roman.toRoman(num)
-        except Exception as e:
-            print(f"[!] 罗马数字转换失败 {num}: {e}")
-            return str(num)
-    
-    def read_planets_jsonl(self) -> Dict[str, Any]:
-        """读取mapPlanets JSONL文件"""
-        jsonl_file = self.sde_jsonl_path / "mapPlanets.jsonl"
-        
-        if not jsonl_file.exists():
-            print(f"[x] 找不到mapPlanets JSONL文件: {jsonl_file}")
-            return {}
-        
-        print(f"[+] 读取mapPlanets JSONL文件: {jsonl_file}")
-        
-        planets_data = {}
-        try:
-            with open(jsonl_file, 'r', encoding='utf-8') as f:
-                for line_num, line in enumerate(f, 1):
-                    line = line.strip()
-                    if not line:
-                        continue
-                    
-                    try:
-                        data = json.loads(line)
-                        planet_id = data['_key']
-                        planets_data[planet_id] = data
-                    except json.JSONDecodeError as e:
-                        print(f"[!] 第{line_num}行JSON解析错误: {e}")
-                        continue
-                    except KeyError as e:
-                        print(f"[!] 第{line_num}行缺少必要字段: {e}")
-                        continue
-            
-            print(f"[+] 成功读取 {len(planets_data)} 个行星记录")
-            return planets_data
-            
-        except Exception as e:
-            print(f"[x] 读取mapPlanets JSONL文件时出错: {e}")
-            return {}
-    
-    def read_moons_jsonl(self) -> Dict[str, Any]:
-        """读取mapMoons JSONL文件"""
-        jsonl_file = self.sde_jsonl_path / "mapMoons.jsonl"
-        
-        if not jsonl_file.exists():
-            print(f"[x] 找不到mapMoons JSONL文件: {jsonl_file}")
-            return {}
-        
-        print(f"[+] 读取mapMoons JSONL文件: {jsonl_file}")
-        
-        moons_data = {}
-        try:
-            with open(jsonl_file, 'r', encoding='utf-8') as f:
-                for line_num, line in enumerate(f, 1):
-                    line = line.strip()
-                    if not line:
-                        continue
-                    
-                    try:
-                        data = json.loads(line)
-                        moon_id = data['_key']
-                        moons_data[moon_id] = data
-                    except json.JSONDecodeError as e:
-                        print(f"[!] 第{line_num}行JSON解析错误: {e}")
-                        continue
-                    except KeyError as e:
-                        print(f"[!] 第{line_num}行缺少必要字段: {e}")
-                        continue
-            
-            print(f"[+] 成功读取 {len(moons_data)} 个月球记录")
-            return moons_data
-            
-        except Exception as e:
-            print(f"[x] 读取mapMoons JSONL文件时出错: {e}")
-            return {}
-    
-    def read_solar_systems_jsonl(self) -> Dict[str, Any]:
-        """读取mapSolarSystems JSONL文件"""
-        jsonl_file = self.sde_jsonl_path / "mapSolarSystems.jsonl"
-        
-        if not jsonl_file.exists():
-            print(f"[x] 找不到mapSolarSystems JSONL文件: {jsonl_file}")
-            return {}
-        
-        print(f"[+] 读取mapSolarSystems JSONL文件: {jsonl_file}")
-        
-        systems_data = {}
-        try:
-            with open(jsonl_file, 'r', encoding='utf-8') as f:
-                for line_num, line in enumerate(f, 1):
-                    line = line.strip()
-                    if not line:
-                        continue
-                    
-                    try:
-                        data = json.loads(line)
-                        system_id = data['_key']
-                        systems_data[system_id] = data
-                    except json.JSONDecodeError as e:
-                        print(f"[!] 第{line_num}行JSON解析错误: {e}")
-                        continue
-                    except KeyError as e:
-                        print(f"[!] 第{line_num}行缺少必要字段: {e}")
-                        continue
-            
-            print(f"[+] 成功读取 {len(systems_data)} 个星系记录")
-            return systems_data
-            
-        except Exception as e:
-            print(f"[x] 读取mapSolarSystems JSONL文件时出错: {e}")
-            return {}
-    
-    def get_system_name(self, system_id: int, lang: str = 'en') -> str:
-        """获取星系名称"""
-        if system_id in self.solar_systems_data:
-            system_data = self.solar_systems_data[system_id]
-            system_names = system_data.get('name', {})
-            return system_names.get(lang, system_names.get('en', f'System_{system_id}'))
-        return f'System_{system_id}'
-    
-    def generate_planet_name(self, planet_data: Dict[str, Any], lang: str = 'en') -> str:
-        """生成行星名称"""
-        try:
-            solar_system_id = planet_data.get('solarSystemID', 0)
-            celestial_index = planet_data.get('celestialIndex', 0)
-            
-            system_name = self.get_system_name(solar_system_id, lang)
-            celestial_roman = self.int_to_roman(celestial_index)
-            
-            return f"{system_name} {celestial_roman}"
-            
-        except Exception as e:
-            print(f"[!] 生成行星名称失败: {e}")
-            return f"Planet_{planet_data.get('_key', 'Unknown')}"
-    
-    def generate_moon_name(self, moon_data: Dict[str, Any], lang: str = 'en') -> str:
-        """生成月球名称"""
-        try:
-            solar_system_id = moon_data.get('solarSystemID', 0)
-            celestial_index = moon_data.get('celestialIndex', 0)
-            orbit_index = moon_data.get('orbitIndex', 0)
-            
-            system_name = self.get_system_name(solar_system_id, lang)
-            celestial_roman = self.int_to_roman(celestial_index)
-            
-            # 根据语言选择"Moon"的翻译
-            moon_text = "卫星" if lang == 'zh' else "Moon"
-            
-            return f"{system_name} {celestial_roman} - {moon_text} {orbit_index}"
-            
-        except Exception as e:
-            print(f"[!] 生成月球名称失败: {e}")
-            return f"Moon_{moon_data.get('_key', 'Unknown')}"
-    
-    def generate_planet_names(self, planet_data: Dict[str, Any]) -> Dict[str, str]:
-        return {lang: self.generate_planet_name(planet_data, lang) for lang in LANGS}
+        self.planets_data: Dict[Any, Dict[str, Any]] = {}
+        self.moons_data: Dict[Any, Dict[str, Any]] = {}
 
-    def generate_moon_names(self, moon_data: Dict[str, Any]) -> Dict[str, str]:
-        return {lang: self.generate_moon_name(moon_data, lang) for lang in LANGS}
+    def read_jsonl(self, filename: str) -> Dict[Any, Dict[str, Any]]:
+        """读取 JSONL 文件并按 _key 建立索引"""
+        jsonl_file = self.sde_jsonl_path / filename
+        if not jsonl_file.exists():
+            print(f"[x] 找不到文件: {jsonl_file}")
+            return {}
 
-    def create_celestial_names_table(self, cursor: sqlite3.Cursor):
-        """创建天体名称表"""
-        cursor.execute(f'''
-        CREATE TABLE IF NOT EXISTS celestialNames (
-            itemID INTEGER NOT NULL PRIMARY KEY,
-            {names_ddl()}
-        )
+        print(f"[+] 读取 {jsonl_file}")
+        data: Dict[Any, Dict[str, Any]] = {}
+        try:
+            with open(jsonl_file, 'r', encoding='utf-8') as f:
+                for line_num, line in enumerate(f, 1):
+                    line = line.strip()
+                    if not line:
+                        continue
+                    try:
+                        item = json.loads(line)
+                        data[item['_key']] = item
+                    except (json.JSONDecodeError, KeyError) as e:
+                        print(f"[!] {filename} 第{line_num}行: {e}")
+                        continue
+            print(f"[+] 成功读取 {len(data)} 个记录（{filename}）")
+            return data
+        except Exception as e:
+            print(f"[x] 读取 {filename} 时出错: {e}")
+            return {}
+
+    def create_celestials_table(self, cursor: sqlite3.Cursor):
+        """创建 celestials 表，并清理旧的 celestialNames 表（已被 celestials 取代）"""
+        cursor.execute('DROP TABLE IF EXISTS celestialNames')
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS celestials (
+                itemID INTEGER NOT NULL PRIMARY KEY,
+                solarSystemID INTEGER NOT NULL,
+                celestialIndex INTEGER NOT NULL,
+                orbitIndex INTEGER
+            )
         ''')
-        print("[+] 创建celestialNames表")
+        print("[+] 创建 celestials 表（已清理旧 celestialNames 表）")
 
-    def process_celestial_names_to_db(self, cursor: sqlite3.Cursor):
-        """处理天体名称数据并写入数据库（全语言宽列）"""
-        try:
-            # 创建表
-            self.create_celestial_names_table(cursor)
-            
-            # 清空现有数据
-            cursor.execute('DELETE FROM celestialNames')
-            
-            # 处理行星数据
-            planets_batch = []
-            batch_size = 1000
-            
-            name_cols = ", ".join(f"{lang}_name" for lang in LANGS)
-            insert_sql = f'''
-                INSERT OR REPLACE INTO celestialNames (itemID, {name_cols})
-                VALUES (?, {", ".join(["?"] * 8)})
-            '''
+    def process_to_db(self, cursor: sqlite3.Cursor):
+        """写入天体定位参数"""
+        self.create_celestials_table(cursor)
+        cursor.execute('DELETE FROM celestials')
 
-            print("[+] 开始处理行星名称数据")
-            for planet_id, planet_data in self.planets_data.items():
-                planets_batch.append((planet_id, *names_row(self.generate_planet_names(planet_data))))
-                if len(planets_batch) >= batch_size:
-                    cursor.executemany(insert_sql, planets_batch)
-                    planets_batch = []
-            if planets_batch:
-                cursor.executemany(insert_sql, planets_batch)
-            print(f"[+] 已处理 {len(self.planets_data)} 个行星名称")
+        insert_sql = (
+            "INSERT OR REPLACE INTO celestials "
+            "(itemID, solarSystemID, celestialIndex, orbitIndex) VALUES (?, ?, ?, ?)"
+        )
+        batch = []
+        batch_size = 1000
 
-            moons_batch = []
-            print("[+] 开始处理月球名称数据")
-            for moon_id, moon_data in self.moons_data.items():
-                moons_batch.append((moon_id, *names_row(self.generate_moon_names(moon_data))))
-                if len(moons_batch) >= batch_size:
-                    cursor.executemany(insert_sql, moons_batch)
-                    moons_batch = []
-            if moons_batch:
-                cursor.executemany(insert_sql, moons_batch)
-            print(f"[+] 已处理 {len(self.moons_data)} 个月球名称")
+        # 行星：orbitIndex = NULL
+        for planet_id, planet_data in self.planets_data.items():
+            batch.append((
+                planet_id,
+                planet_data.get('solarSystemID', 0),
+                planet_data.get('celestialIndex', 0),
+                None,
+            ))
+            if len(batch) >= batch_size:
+                cursor.executemany(insert_sql, batch)
+                batch = []
+        print(f"[+] 已处理 {len(self.planets_data)} 个行星")
 
-            cursor.execute('SELECT COUNT(*) FROM celestialNames')
-            total_count = cursor.fetchone()[0]
-            print(f"[+] 天体名称数据处理完成，总计: {total_count} 个")
-            
-        except Exception as e:
-            print(f"[x] 处理过程中出错: {str(e)}")
-            raise
-    
-    def process_all_languages(self) -> bool:
-        print("[+] 开始处理天体名称数据")
-        self.planets_data = self.read_planets_jsonl()
-        self.moons_data = self.read_moons_jsonl()
-        self.solar_systems_data = self.read_solar_systems_jsonl()
-        if not self.planets_data or not self.moons_data or not self.solar_systems_data:
-            print("[x] 无法加载必要的数据文件")
+        # 月球：orbitIndex 有值
+        for moon_id, moon_data in self.moons_data.items():
+            batch.append((
+                moon_id,
+                moon_data.get('solarSystemID', 0),
+                moon_data.get('celestialIndex', 0),
+                moon_data.get('orbitIndex'),
+            ))
+            if len(batch) >= batch_size:
+                cursor.executemany(insert_sql, batch)
+                batch = []
+        print(f"[+] 已处理 {len(self.moons_data)} 个月球")
+
+        if batch:
+            cursor.executemany(insert_sql, batch)
+
+        total = cursor.execute('SELECT COUNT(*) FROM celestials').fetchone()[0]
+        planet_count = cursor.execute(
+            'SELECT COUNT(*) FROM celestials WHERE orbitIndex IS NULL'
+        ).fetchone()[0]
+        moon_count = total - planet_count
+        print(f"[+] celestials 处理完成: {total} 个天体（行星 {planet_count}, 月球 {moon_count}）")
+
+    def process(self) -> bool:
+        print("[+] 开始处理天体数据")
+        self.planets_data = self.read_jsonl("mapPlanets.jsonl")
+        self.moons_data = self.read_jsonl("mapMoons.jsonl")
+        if not self.planets_data or not self.moons_data:
+            print("[x] 无法加载行星/月球数据")
             return False
+
         db_path = get_db_path(self.config)
+        db_path.parent.mkdir(parents=True, exist_ok=True)
         try:
             conn = sqlite3.connect(str(db_path))
             cursor = conn.cursor()
-            self.process_celestial_names_to_db(cursor)
+            self.process_to_db(cursor)
             conn.commit()
             conn.close()
             return True
         except Exception as e:
-            print(f"[x] 处理天体名称数据时出错: {e}")
+            print(f"[x] 处理天体数据时出错: {e}")
             return False
 
 
 def main(config=None):
-    """主函数"""
-    print("[+] 天体名称数据处理器启动")
-    
-    # 如果没有传入配置，则尝试加载本地配置（用于独立运行）
+    print("[+] 天体数据处理器启动")
     if config is None:
-        import json
         config_path = Path(__file__).parent.parent / "config.json"
         with open(config_path, 'r', encoding='utf-8') as f:
             config = json.load(f)
-    
-    # 创建处理器并执行
-    processor = CelestialNamesProcessor(config)
-    processor.process_all_languages()
-    
-    print("\n[+] 天体名称数据处理器完成")
+    processor = CelestialsProcessor(config)
+    processor.process()
+    print("\n[+] 天体数据处理器完成")
 
 
 if __name__ == "__main__":

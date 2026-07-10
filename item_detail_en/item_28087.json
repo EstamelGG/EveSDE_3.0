@@ -1,0 +1,13 @@
+{
+  "type_id": 28087,
+  "name": "Amarr Outpost Plant",
+  "description": "An intermediate upgrade to Amarr Outpost manufacturing capabilities. Gives 1% Material Efficiency reduction to all manufacturing jobs (stacks with all other improvements of the same type) and increases the manufacturing time reduction on all Tech II ships to 50%.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Accessories",
+  "group_name": "Outpost Improvements",
+  "attributes": [],
+  "traits": []
+}

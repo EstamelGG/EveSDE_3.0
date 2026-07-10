@@ -1,0 +1,13 @@
+{
+  "type_id": 89956,
+  "name": "Pilot's Body Resculpt Certificate (Untradeable)",
+  "description": "This certificate allows you a single resculpt of your pilot's facial features and body shape. Once you activate the certificate it will be consumed immediately, and the next time you enter pilot customization you can make use of the full resculpt.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Accessories",
+  "group_name": "Services",
+  "attributes": [],
+  "traits": []
+}

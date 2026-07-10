@@ -1,0 +1,13 @@
+{
+  "type_id": 21851,
+  "name": "败血病原体的配方",
+  "description": "这个方程式能用来制造非常厉害的病毒剂，只要用市面上的材料就行了。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}
