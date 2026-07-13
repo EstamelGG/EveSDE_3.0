@@ -289,7 +289,7 @@ def build_icon_export(output_mode: str, skip_output_if_fresh: bool, data: IconBu
         processed_count += 1
         
         # 每500个显示一次进度
-        if show_progress and not silent_mode and processed_count % 500 == 0:
+        if show_progress and not silent_mode and processed_count % 1000 == 0:
             percentage = (processed_count / total_count) * 100
             print(f"\t构建进度: {processed_count}/{total_count} ({percentage:.1f}%)")
             if log_file:
