@@ -187,7 +187,6 @@ def write_metadata(
         "build_number": int(args.build_number),
         "patch_number": int(args.patch_version),
         "release_date": args.release_date,
-        "extra_db": {},
     }
 
     metadata_path = assets["sde"].parent / "metadata.json"
@@ -205,6 +204,11 @@ def find_whats_new(final_build_number: str, config: Dict[str, Any]) -> Optional[
     return next(iter(sorted(whats_new_dir.glob(f"whats_new_*_{final_build_number}.md"))), None)
 
 
+def repo_raw_url(repository: str, path: str) -> str:
+    """仓库内已提交文件的 raw 访问链接。path 为相对 main 的路径。"""
+    return f"https://raw.githubusercontent.com/{repository}/main/{path.lstrip('/')}"
+
+
 def write_release_notes(
     args: argparse.Namespace,
     metadata: Dict[str, Any],
@@ -214,9 +218,10 @@ def write_release_notes(
     out_dir: Path,
 ) -> Path:
     notes_path = out_dir / f"release_notes_{args.final_build_number}.md"
-    compare_url = (
-        f"https://raw.githubusercontent.com/{args.github_repository}/main/history/"
-        f"release_compare_{args.final_build_number}_{timestamp}.md"
+    # CI 会把报告提交到 history/、output/whats_new/，链接必须指向这两处
+    compare_url = repo_raw_url(
+        args.github_repository,
+        f"history/release_compare_{args.final_build_number}_{timestamp}.md",
     )
 
     lines = [
@@ -244,12 +249,9 @@ def write_release_notes(
     if compare_exists:
         lines.append(f"- [版本比较报告]({compare_url})")
     if whats_new:
-        try:
-            rel = whats_new.relative_to(PROJECT_ROOT).as_posix()
-        except ValueError:
-            rel = f"output/whats_new/{whats_new.name}"
-        whats_new_url = (
-            f"https://raw.githubusercontent.com/{args.github_repository}/main/{rel}"
+        whats_new_url = repo_raw_url(
+            args.github_repository,
+            f"output/whats_new/{whats_new.name}",
         )
         lines.append(f"- [物品变更报告]({whats_new_url})")
     if not compare_exists and not whats_new:
