@@ -1,0 +1,13 @@
+{
+  "type_id": 29219,
+  "name": "Miniature Slaver",
+  "description": "For those not interested in the risk or effort of cultivating the vicious slaver hound, there is the miniature slaver: a small yappy-type dog bred from the physically and mentally stunted of the litter.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

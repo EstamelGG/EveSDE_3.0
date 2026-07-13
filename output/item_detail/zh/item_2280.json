@@ -1,0 +1,63 @@
+{
+  "type_id": 2280,
+  "name": "链接",
+  "description": null,
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": 1000.0,
+  "mass": null,
+  "category_name": "行星工业",
+  "group_name": "行星链",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "能量负荷",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 15.0,
+      "categoryID": 9,
+      "display_name": "CPU载荷",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "logisticalCapacity",
+      "value": 1250.0,
+      "categoryID": 0,
+      "display_name": "运能",
+      "unit_name": "立方米/时"
+    },
+    {
+      "attribute_name": "powerLoadPerKm",
+      "value": 0.15,
+      "categoryID": 1,
+      "display_name": "能量载荷（每千米）",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoadPerKm",
+      "value": 0.2,
+      "categoryID": 1,
+      "display_name": "CPU使用量（每千米）",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "cpuLoadLevelModifier",
+      "value": 1.4,
+      "categoryID": 1,
+      "display_name": "CPU载荷等级调节因子",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "powerLoadLevelModifier",
+      "value": 1.2,
+      "categoryID": 1,
+      "display_name": "能量载荷等级调节因子",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

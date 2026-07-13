@@ -1,0 +1,13 @@
+{
+  "type_id": 2633,
+  "name": "Crates of Planetary Vehicles",
+  "description": "Tracked, wheeled and hover vehicles used within planetary atmosphere for personal and business use.",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 40000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

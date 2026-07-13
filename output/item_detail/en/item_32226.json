@@ -1,0 +1,49 @@
+{
+  "type_id": 32226,
+  "name": "Defunct Territorial Claim Unit",
+  "description": "Prior to YC126, TCUs used to be the de facto means for alliances to claim null security space as their own. With the introduction of sovereignty hubs by the Upwell Consortium, they have become obsolete and their further deployment has been disabled.",
+  "volume": 5000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000000.0,
+  "category_name": "Sovereignty Structures",
+  "group_name": "Territorial Claim Unit",
+  "attributes": [
+    {
+      "attribute_name": "scanRadarStrength",
+      "value": 400.0,
+      "categoryID": 6,
+      "display_name": "RADAR Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanLadarStrength",
+      "value": 400.0,
+      "categoryID": 6,
+      "display_name": "Ladar Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrength",
+      "value": 400.0,
+      "categoryID": 6,
+      "display_name": "Magnetometric Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanGravimetricStrength",
+      "value": 400.0,
+      "categoryID": 6,
+      "display_name": "Gravimetric Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 4000.0,
+      "categoryID": 6,
+      "display_name": "Signature Radius",
+      "unit_name": "m"
+    }
+  ],
+  "traits": []
+}

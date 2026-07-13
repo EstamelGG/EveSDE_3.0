@@ -1,0 +1,13 @@
+{
+  "type_id": 3715,
+  "name": "Frozen Food",
+  "description": "Frozen food is in high demand in many regions, especially on stations orbiting a non-habitable planet and a long way from an agricultural world.",
+  "volume": 0.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 400.0,
+  "category_name": "Commodity",
+  "group_name": "Frozen",
+  "attributes": [],
+  "traits": []
+}

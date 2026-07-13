@@ -1,0 +1,21 @@
+{
+  "type_id": 30008,
+  "name": "加强型金属富勒烯合金",
+  "description": "这些超强硬度的合金是由金属富勒烯镧结合冬眠者微电路技术制造而成，这种材料具有非常强的弹性。在这个基础上，富勒二茂铁和石墨烯纳米环在被加入其中，产生了一种结构强度超群的高级合金。尽管它们大量被用作装甲板的制造，这种材料在舰船模块化结构设计中也有着举足轻重的作用。采用金属富勒烯合金技术制造的船体能够自如地同多个子系统构件进行组合，不受其外观形状的限制。",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "混合科技组件",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

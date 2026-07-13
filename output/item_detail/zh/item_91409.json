@@ -1,0 +1,13 @@
+{
+  "type_id": 91409,
+  "name": "循环音频日志",
+  "description": "一段音频日志，上面显示了某种爬行动物的标志。播放时，它似乎在不断重复同一个词：蜥蜴 蜥蜴 蜥蜴 蜥蜴 蜥蜴 蜥蜴 蜥蜴 蜥蜴 蜥蜴 蜥蜴 蜥蜴 蜥蜴 蜥蜴 蜥蜴",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

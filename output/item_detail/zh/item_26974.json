@@ -1,0 +1,13 @@
+{
+  "type_id": 26974,
+  "name": "抗病毒药物",
+  "description": "抗病毒药物在宇宙各处都有着稳定的需求，为了对抗新的病毒变种，始终有更新更有效的抗病毒药物面市。",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

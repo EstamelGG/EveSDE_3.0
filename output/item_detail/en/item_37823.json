@@ -1,0 +1,63 @@
+{
+  "type_id": 37823,
+  "name": "Standup Magnetometric ECM Script",
+  "description": "The Standup Magnetometric ECM Script is designed for use with Standup Variable Spectrum ECM systems and will enable structure operators to switch their ECM system to jam magnetometric sensors.\n\nStandup is a proprietary system that uses a Structure Autonomous Nanoassembly Device (Upwell) containing integrated template software, a nanoassembler array and sufficient nanomass to enable the construction of a variety of service modules, structure modules and structure rigs when inserted into the appropriate slots on a structure built with Upwell technology.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Charge",
+  "group_name": "Structure ECM script",
+  "attributes": [
+    {
+      "attribute_name": "chargeSize",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Charge size",
+      "unit_name": "1=small 2=medium 3=l"
+    },
+    {
+      "attribute_name": "launcherGroup",
+      "value": 1332.0,
+      "categoryID": 7,
+      "display_name": "Used with (Launcher Group)",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "scanGravimetricStrengthBonusBonus",
+      "value": -50.0,
+      "categoryID": 7,
+      "display_name": "Modification of Gravimetric Strength Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanLadarStrengthBonusBonus",
+      "value": -50.0,
+      "categoryID": 7,
+      "display_name": "Modification of Ladar Strength Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrengthBonusBonus",
+      "value": 100.0,
+      "categoryID": 7,
+      "display_name": "Modification of Magnetometric Strength Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanRadarStrengthBonusBonus",
+      "value": -50.0,
+      "categoryID": 7,
+      "display_name": "Modification of Radar Strength Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "structureItemVisualFlag",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

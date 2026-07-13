@@ -1,0 +1,13 @@
+{
+  "type_id": 4091,
+  "name": "Large Crates of Ectoplasm",
+  "description": "Used for the making of the liquid inside starship pilot pods, this thick goo is made primarily out of used cell membranes.",
+  "volume": 500.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "Commodity",
+  "group_name": "Biohazard",
+  "attributes": [],
+  "traits": []
+}

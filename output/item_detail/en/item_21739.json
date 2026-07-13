@@ -1,0 +1,13 @@
+{
+  "type_id": 21739,
+  "name": "Shady Acres Deed",
+  "description": "This is a deed for a small piece of area in the shady acres territory. The owner of this deed is permitted to construct astro farms in that area.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

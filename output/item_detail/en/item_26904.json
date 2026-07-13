@@ -1,0 +1,13 @@
+{
+  "type_id": 26904,
+  "name": "Secure Coded Package",
+  "description": "A generic package containing goods in a protective wrapping. It is secured with a code lock and cannot be opened without knowing the proper combination.",
+  "volume": 120.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 25.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

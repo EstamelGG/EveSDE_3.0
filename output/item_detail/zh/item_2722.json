@@ -1,0 +1,13 @@
+{
+  "type_id": 2722,
+  "name": "大箱的传信器",
+  "description": "一种电子设备，可产生并放大载波，通过从语音或其他来源生成的有意义信号对这种载波进行调制，并通过天线对生成的信号进行发射。这种高科技原型几乎对任何类型的干扰解密设备免疫，从而使数据传输更安全。",
+  "volume": 600.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 650000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 2602,
+  "name": "装箱的钻机零件",
+  "description": "这些大型集装箱配备了密码保护安全锁。这些特殊箱子装有制造钻凿岩石和冰层的钻机所需要的零件。",
+  "volume": 90.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 90000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

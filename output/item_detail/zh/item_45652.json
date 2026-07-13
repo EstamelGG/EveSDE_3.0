@@ -1,0 +1,13 @@
+{
+  "type_id": 45652,
+  "name": "超导磁力放大器",
+  "description": "这个先进的磁力放大器可以极大改善飞船感应器的性能，却不用在尺寸上做出让步。它是对冬眠者和流浪者舰船的残骸持续不断的逆向工程研究的最新成果。这个新式组件也并入了最新一代海神级战略巡洋舰蓝图中。",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "混合科技组件",
+  "attributes": [],
+  "traits": []
+}

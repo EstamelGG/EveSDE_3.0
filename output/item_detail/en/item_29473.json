@@ -1,0 +1,13 @@
+{
+  "type_id": 29473,
+  "name": "Medicinal Herbs",
+  "description": "Traditional herbal remedies have been used for perhaps tens of thousands of years among the Vheriokor tribes of Minmatar. However, they have become so popular over time, particularly among the Gallente peoples, that various herbal concoctions and infusions can be found in virtually every part of inhabited space. <br><br>\n\nBut don't eat the roots. <br><br>\n\nNo, seriously. No matter what any scary prophet says. <br><br>\n\nHerbs are said to cure everything from colds to warp sickness, though they are also popular for mild recreation. If a cargo container of herbs seems the slightest bit lighter after a long ship's journey, it is the wise captain who does not question his crew too closely, nor visit their living quarters after hours.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

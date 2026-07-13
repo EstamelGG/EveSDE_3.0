@@ -1,0 +1,13 @@
+{
+  "type_id": 17475,
+  "name": "放射性废物",
+  "description": "这些经放射性污染的材料通常被回收或者处理成燃料。它对任何接触到它的生命形态都极具危险。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2000.0,
+  "category_name": "常用物品",
+  "group_name": "放射性物质",
+  "attributes": [],
+  "traits": []
+}

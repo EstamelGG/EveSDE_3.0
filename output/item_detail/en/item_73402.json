@@ -1,0 +1,13 @@
+{
+  "type_id": 73402,
+  "name": "Minmatar Encoder Splice",
+  "description": "An encoder splice used to obtain an <a href=showinfo:73225>Amarr Propaganda Broadcast Structure</a> that will broadcast into the Minmatar communications network. This particular splice can occasionally be found in <a href=showinfo:73428>Minmatar Cryptograph Storage</a> that are located in <b>Minmatar Operation Centers</b>. \n\nThis item can be exchanged along with some LP for a Amarr Propaganda Broadcast Structure at a <a href=showinfo:2//1000179>24th Imperial Crusade</a> loyalty point store.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

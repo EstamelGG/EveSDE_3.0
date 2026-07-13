@@ -1,0 +1,13 @@
+{
+  "type_id": 73041,
+  "name": "Triglavian Encrypted Relay Data",
+  "description": "This Triglavian data storage device is highly encrypted and loaded with a variety of counter-intrusion programs and defensive security devices that would probably scramble and erase the contents beyond all possibility of retrieval, if not forensically and carefully decrypted and accessed by a specialized facility.\n\nThe extreme interest and efforts that Caldari State and Gallente Federation have directed towards recovering technology from the Triglavian Relay facilities in Athounon would suggest that a reward will be available to any capsuleer handing this data in to their choice of empire.\n\nCapsuleers can assist the Caldari State by depositing this data into the State Relay Research Laboratory at the Caldari Relay Research Center within the <url=showinfo:5//30045322>Samanuni</url> system.\n\nCapsuleers can assist the Gallente Federation by depositing this data into the Federation Relay Research Laboratory at the Gallente Relay Research Center within the <url=showinfo:5//30005311>Amygnon</url> system.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

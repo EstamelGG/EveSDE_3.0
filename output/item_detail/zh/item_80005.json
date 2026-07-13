@@ -1,0 +1,13 @@
+{
+  "type_id": 80005,
+  "name": "狂暴电子纤维蓝图",
+  "description": "此蓝图由源自深渊空间内的三神裔数据构成。将它与同一星域内的材料结合可以制造出与惰性时空纤维一端用途类似的设备，从而在深渊空间内建立通往特定空间层的连接。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "蓝图",
+  "group_name": "跳跃纤维蓝图",
+  "attributes": [],
+  "traits": []
+}

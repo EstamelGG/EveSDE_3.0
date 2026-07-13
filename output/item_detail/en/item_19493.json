@@ -1,0 +1,13 @@
+{
+  "type_id": 19493,
+  "name": "Arms Cache",
+  "description": "Personal weapons and armaments, used both for warfare and personal security.",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

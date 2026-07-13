@@ -1,0 +1,13 @@
+{
+  "type_id": 16630,
+  "name": "The Militia Leader",
+  "description": "This is the leader of the militia forces.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 60.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

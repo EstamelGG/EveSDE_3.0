@@ -1,0 +1,13 @@
+{
+  "type_id": 17984,
+  "name": "The Repairer's Keycard",
+  "description": "This is a chaos-logic keycard. It had been issued to the captain of a docked Megatron in the fourth deadspace pocket of Angel Cartel's Naval Shipyard. It will open the acceleration gate for a short time and then self-destruct.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

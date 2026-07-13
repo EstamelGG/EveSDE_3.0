@@ -1,0 +1,13 @@
+{
+  "type_id": 26131,
+  "name": "增效剂包装盒",
+  "description": "很显然，海盗们正在研究一种贮藏药物的包装盒。它内部一共有十一个格子，一个用于强效增效剂，三个用于加强增效剂，七个用于标准增效剂。真是怪异的思维。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

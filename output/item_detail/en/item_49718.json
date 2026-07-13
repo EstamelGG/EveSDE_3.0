@@ -1,0 +1,13 @@
+{
+  "type_id": 49718,
+  "name": "Medium Navy Ammunition Crate",
+  "description": "This military surplus crate contains a quantity of ammunition rated for medium weapons.",
+  "volume": 4.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

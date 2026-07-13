@@ -1,0 +1,13 @@
+{
+  "type_id": 2216,
+  "name": "Crate of Amarr TIL-1A Nexus Chips",
+  "description": "The Amarr TIL-1A Nexus Chip was once used to store the key elements of a ship's artificial intelligence system, as well as for controlling some of the vessel's autonomous functions. In addition, the TIL-1A series chip had been modified by top Viziam scientists for the Imperial Navy, making it far more resilient to damage and harsh environmental conditions than standard chips of its kind. The TIL-1A chip, specifically, was designed for front-line Amarr battleship-class vessels where it saw widespread use for almost a decade before being replaced by newer technologies. As a result, very few examples of this remain outside Amarr military historical archives, where they are often highly valued for the data they contain on early naval operations.",
+  "volume": 120.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

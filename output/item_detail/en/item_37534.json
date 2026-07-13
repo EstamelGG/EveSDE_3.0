@@ -1,0 +1,448 @@
+{
+  "type_id": 37534,
+  "name": "Tenebrex Cyno Jammer",
+  "description": "Designed by the Upwell Consortium to function as a successor and improvement over starbase cynosural system jammers, the Tenebrex Cyno Jammer is a vital part of their new Fast Logistical EXpansion (FLEX) structures product line.\n\nAs with established, large-scale cynosural jamming technology, the Tenebrex creates a system-wide inhibitor field which prevents cynosural generators, except covert cynosural generators, from functioning. With cynosural jamming an important element of strategic warfare, the Tenebrex incorporates certain improvements on the basic cyno jamming technology that it uses.\n\nEach Tenebrex Cyno Jammer structure is automatically equipped with one <a href=showinfo:35914>Standup Cynosural System Jammer I</a> service module. This service module may only be onlined in a system that contains a sovereignty hub with the <a href=showinfo:2001>Cynosural Suppression</a> upgrade active.\n\nMay not be deployed within 500km of another Upwell Structure, or 1000km of Stargates, Stations, or Starbases. A maximum of three Cyno Jammer structures may be deployed per system, and only one such structure may have its service module activated at any given time.",
+  "volume": 5000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 3000000000.0,
+  "category_name": "Structure",
+  "group_name": "Upwell Cyno Jammer",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 4000000.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "powerOutput",
+      "value": 20000.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Output",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "lowSlots",
+      "value": 0.0,
+      "categoryID": 1,
+      "display_name": "Low Slots",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "medSlots",
+      "value": 0.0,
+      "categoryID": 1,
+      "display_name": "Medium Slots",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hiSlots",
+      "value": 0.0,
+      "categoryID": 1,
+      "display_name": "High Slots",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "cpuOutput",
+      "value": 10000.0,
+      "categoryID": 1,
+      "display_name": "CPU Output",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "rechargeRate",
+      "value": 3600000.0,
+      "categoryID": 5,
+      "display_name": "Capacitor Recharge time",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "maxTargetRange",
+      "value": 0.0,
+      "categoryID": 6,
+      "display_name": "Maximum Targeting Range",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "scanSpeed",
+      "value": 2500.0,
+      "categoryID": 6,
+      "display_name": "",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "launcherSlotsLeft",
+      "value": 0.0,
+      "categoryID": 1,
+      "display_name": "Launcher Hardpoints",
+      "unit_name": "hardpoints"
+    },
+    {
+      "attribute_name": "kineticDamageResonance",
+      "value": 0.8,
+      "categoryID": 4,
+      "display_name": "Structure Kinetic Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "thermalDamageResonance",
+      "value": 0.8,
+      "categoryID": 4,
+      "display_name": "Structure Thermal Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "explosiveDamageResonance",
+      "value": 0.8,
+      "categoryID": 4,
+      "display_name": "Structure Explosive Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "emDamageResonance",
+      "value": 0.8,
+      "categoryID": 4,
+      "display_name": "Structure EM Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "uniformity",
+      "value": 1.0,
+      "categoryID": 2,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "maxLockedTargets",
+      "value": 0.0,
+      "categoryID": 6,
+      "display_name": "Maximum Locked Targets",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "scanRadarStrength",
+      "value": 100.0,
+      "categoryID": 6,
+      "display_name": "RADAR Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanLadarStrength",
+      "value": 100.0,
+      "categoryID": 6,
+      "display_name": "Ladar Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrength",
+      "value": 100.0,
+      "categoryID": 6,
+      "display_name": "Magnetometric Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanGravimetricStrength",
+      "value": 100.0,
+      "categoryID": 6,
+      "display_name": "Gravimetric Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "shieldCapacity",
+      "value": 1000000.0,
+      "categoryID": 2,
+      "display_name": "Shield Capacity",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorHP",
+      "value": 1000000.0,
+      "categoryID": 3,
+      "display_name": "Armor Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorEmDamageResonance",
+      "value": 0.8,
+      "categoryID": 3,
+      "display_name": "Armor EM Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorExplosiveDamageResonance",
+      "value": 0.8,
+      "categoryID": 3,
+      "display_name": "Armor Explosive Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorKineticDamageResonance",
+      "value": 0.8,
+      "categoryID": 3,
+      "display_name": "Armor Kinetic Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorThermalDamageResonance",
+      "value": 0.8,
+      "categoryID": 3,
+      "display_name": "Armor Thermal Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldEmDamageResonance",
+      "value": 0.8,
+      "categoryID": 2,
+      "display_name": "Shield EM Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldExplosiveDamageResonance",
+      "value": 0.8,
+      "categoryID": 2,
+      "display_name": "Shield Explosive Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldKineticDamageResonance",
+      "value": 0.8,
+      "categoryID": 2,
+      "display_name": "Shield Kinetic Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldThermalDamageResonance",
+      "value": 0.8,
+      "categoryID": 2,
+      "display_name": "Shield Thermal Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldRechargeRate",
+      "value": 999999999999.0,
+      "categoryID": 2,
+      "display_name": "Shield recharge time",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "capacitorCapacity",
+      "value": 200000.0,
+      "categoryID": 5,
+      "display_name": "Capacitor Capacity",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "shieldUniformity",
+      "value": 1.0,
+      "categoryID": 2,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "armorUniformity",
+      "value": 1.0,
+      "categoryID": 3,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureUniformity",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 20000.0,
+      "categoryID": 6,
+      "display_name": "Signature Radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "scanResolution",
+      "value": 40.0,
+      "categoryID": 6,
+      "display_name": "Scan Resolution",
+      "unit_name": "mm"
+    },
+    {
+      "attribute_name": "maximumRangeCap",
+      "value": 0.0,
+      "categoryID": 6,
+      "display_name": "Theoretical Maximum Targeting Range",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "rigSlots",
+      "value": 0.0,
+      "categoryID": 1,
+      "display_name": "Rig Slots",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "tierDifficulty",
+      "value": 3.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hackable",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "shieldDamageLimit",
+      "value": 5000.0,
+      "categoryID": 2,
+      "display_name": "Shield Damage Limit (per second)",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorDamageLimit",
+      "value": 5000.0,
+      "categoryID": 3,
+      "display_name": "Armor Damage Limit (per second)",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "structureDamageLimit",
+      "value": 5000.0,
+      "categoryID": 4,
+      "display_name": "Structure Damage Limit (per second)",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "energyWarfareResistance",
+      "value": 1e-05,
+      "categoryID": 36,
+      "display_name": "Capacitor Warfare Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "serviceSlots",
+      "value": 1.0,
+      "categoryID": 1,
+      "display_name": "Service Slots",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "sensorDampenerResistance",
+      "value": 1e-05,
+      "categoryID": 36,
+      "display_name": "Sensor Warfare Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "weaponDisruptionResistance",
+      "value": 1e-05,
+      "categoryID": 36,
+      "display_name": "Weapon Disruption Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 1e-05,
+      "categoryID": 36,
+      "display_name": "Stasis Webifier Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "remoteRepairImpedance",
+      "value": 1e-05,
+      "categoryID": 36,
+      "display_name": "Remote Logistics Impedance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "remoteAssistanceImpedance",
+      "value": 1e-05,
+      "categoryID": 36,
+      "display_name": "Remote Electronic Assistance Impedance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "fighterAbilityAntiCapitalMissileResistance",
+      "value": 1.0,
+      "categoryID": 38,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "ECMResistance",
+      "value": 1e-05,
+      "categoryID": 36,
+      "display_name": "ECM Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "structureFullPowerStateHitpointMultiplier",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hiddenArmorHPMultiplier",
+      "value": 1.0,
+      "categoryID": 3,
+      "display_name": "",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "cargoDeliveryRange",
+      "value": 10000.0,
+      "categoryID": 7,
+      "display_name": "Maximum cargo deposit range",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "preFitServiceSlot0",
+      "value": 35914.0,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structurePowerStateArmorPlatingMultiplier",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "pauseShieldRepairDpsThreshold",
+      "value": 500.0,
+      "categoryID": 2,
+      "display_name": "DPS threshold to pause shield repair",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "pauseArmorRepairDpsThreshold",
+      "value": 500.0,
+      "categoryID": 3,
+      "display_name": "DPS threshold to pause armor repair",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "pauseHullRepairDpsThreshold",
+      "value": 500.0,
+      "categoryID": 4,
+      "display_name": "DPS threshold to pause hull repair",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": [
+    {
+      "content": "This Upwell FLEX structure is always equipped with a built in <a href=showinfo:35914>Standup Cynosural System Jammer I</a> service module."
+    },
+    {
+      "content": "While this structure has its <a href=showinfo:35914>Standup Cynosural System Jammer I</a> service module online it enters full power mode and will gain increased shield and armor hitpoints and an extra reinforcement cycle"
+    }
+  ]
+}

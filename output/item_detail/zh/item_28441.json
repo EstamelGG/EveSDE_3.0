@@ -1,0 +1,56 @@
+{
+  "type_id": 28441,
+  "name": "高密度白釉冰（4级）",
+  "description": "当恒星聚变的过程发生在诸如星际冰域这种硅酸盐尘埃聚集的区域时，就会形成白釉冰。虽然白釉冰富含氮-14以及其他一些稳定的氮同位素，但有一些类似这个的稀有样本，从未遭受辐射污染，因此比其他非纯品种含有更丰富的同位聚合体 。这种矿物被压缩过，比它的原始形态紧密得多。",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "小行星",
+  "group_name": "冰矿",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 16281.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 18025.0,
+      "categoryID": 7,
+      "display_name": "回收再生技能",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "停滞缠绕抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 16265.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "类别ID"
+    }
+  ],
+  "traits": []
+}

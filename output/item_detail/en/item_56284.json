@@ -1,0 +1,13 @@
+{
+  "type_id": 56284,
+  "name": "Unstable Capital Ancillary Armor Repairer Mutaplasmid",
+  "description": "This bioadaptive mutaplasmid tool is designed to interface with and alter nanite-boosted armor repair systems. As such this mutaplasmid could be used to mutate the performance characteristics of most ancillary armor repairers in the correct size class.\n\nTriglavian bioadaptive technology makes extensive use of engineered colonies of extremophilic bacteria, that are used to grow, harvest and adapt various resources found in Abyssal Deadspace. Artificial colonizing plasmids integrated into specialist tools used for direct adaptation of technology can be found in Triglavian caches in various stages of development. These mutaplasmids can be used to alter the characteristics of a wide variety of equipment types, depending on the strain and the bioadaptive tool with which they are integrated.\n\nThe mutaplasmid colony integrated into this bioadaptive tool is unstable and may be an experimental form designed to work with equipment novel to the Triglavians. The mutational benefits of using this mutaplasmid are potentially high but the risks are also considerable.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Mutaplasmids",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 11066,
+  "name": "三进制数据",
+  "description": "这种复杂的数据流似乎是用三进制语言编写的，看上去源自朱庇特帝国。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,210 @@
+{
+  "type_id": 24505,
+  "name": "雷神精准轻型导弹",
+  "description": "雷神轻型导弹被专门设计来摧毁舰船护盾系统，并因此配备了不稳定磁化离子载荷。这是雷神轻型导弹的一种改良版本，针对小船效果好，但稳定推进器耗燃料的这一事实导致导弹飞行时间缩短。",
+  "volume": 0.015,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 700.0,
+  "category_name": "弹药",
+  "group_name": "高级轻型导弹",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 60.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "maxVelocity",
+      "value": 3750.0,
+      "categoryID": 17,
+      "display_name": "最大速度",
+      "unit_name": "m/s"
+    },
+    {
+      "attribute_name": "agility",
+      "value": 0.000144498003784577,
+      "categoryID": 17,
+      "display_name": "惯性调整",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "detonationRange",
+      "value": 35.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "kineticDamageResonance",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "结构动能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "thermalDamageResonance",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "结构热能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "explosiveDamageResonance",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "结构爆炸伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "emDamageResonance",
+      "value": 0.8,
+      "categoryID": 4,
+      "display_name": "结构电磁伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "emDamage",
+      "value": 83.0,
+      "categoryID": 29,
+      "display_name": "电磁伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "explosiveDamage",
+      "value": 0.0,
+      "categoryID": 29,
+      "display_name": "爆炸伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "kineticDamage",
+      "value": 0.0,
+      "categoryID": 29,
+      "display_name": "动能伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "thermalDamage",
+      "value": 0.0,
+      "categoryID": 29,
+      "display_name": "热能伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "launcherGroup",
+      "value": 509.0,
+      "categoryID": 7,
+      "display_name": "配套使用（发射器类别）",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 20210.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 3321.0,
+      "categoryID": 8,
+      "display_name": "副技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill3",
+      "value": 3319.0,
+      "categoryID": 8,
+      "display_name": "三级技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill3Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "explosionDelay",
+      "value": 2500.0,
+      "categoryID": 7,
+      "display_name": "最长飞行时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "structureUniformity",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "aimedLaunch",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "aoeVelocity",
+      "value": 204.0,
+      "categoryID": 7,
+      "display_name": "爆炸速度",
+      "unit_name": "m/s"
+    },
+    {
+      "attribute_name": "aoeCloudSize",
+      "value": 25.0,
+      "categoryID": 7,
+      "display_name": "爆炸半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "aoeFalloff",
+      "value": 1500.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "aoeDamageReductionFactor",
+      "value": 0.561,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

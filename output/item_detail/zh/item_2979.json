@@ -1,0 +1,13 @@
+{
+  "type_id": 2979,
+  "name": "一箱工业级三钛合金条废渣",
+  "description": "不是所有的金属废渣都能达到在造船业中获得再利用的标准。这些是在废物堆与荒废战场上所能找到的质量最好的废金属了。有些还留有原物的痕迹：比如这里一块着色的面板，那里一个喷漆图标。它们中的有些还能辨别，有些则已经融化扭曲地不成样了。",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,28 @@
+{
+  "type_id": 2398,
+  "name": "Reactive Metals",
+  "description": "Very dense metals are often called reactive metals, as their ability to conduct electrical currents and absorb heat is unparalleled. Rarely found in a natural solid state, they are instead usually assembled on an atomic level from particulate matter found in other forms.",
+  "volume": 0.19,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Planetary Commodities",
+  "group_name": "Basic Commodities - Tier 1",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 400.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 400.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

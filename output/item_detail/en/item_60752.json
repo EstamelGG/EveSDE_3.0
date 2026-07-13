@@ -1,0 +1,13 @@
+{
+  "type_id": 60752,
+  "name": "AEGIS Fortification Schematics",
+  "description": "These are heavily encrypted databases that contain all the necessary data for virtual simulation of various AEGIS fortification designs. These designs are in use on many planets and orbital installations in various configurations as a result of EDENCOM fortification program that AEGIS took a lead in planning and implementing during the Triglavian Invasions. Although encrypted in such a way that pirates and criminals would need to devote significant resources to extracting the data, the value of these schematics is rather high.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

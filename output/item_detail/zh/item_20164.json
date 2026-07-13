@@ -1,0 +1,13 @@
+{
+  "type_id": 20164,
+  "name": "德拉辛的钥匙卡片",
+  "description": "这是一张混沌逻辑的钥匙卡片。它曾被发给一个名叫德拉辛·贾鲁克的海盗。它会将加速轨道打开一小段时间，然后自我销毁。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

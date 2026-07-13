@@ -1,0 +1,13 @@
+{
+  "type_id": 2676,
+  "name": "Group of Security Personnel",
+  "description": "Packing small arms and shortwave communicators, security personnel are the ideal choice for policing small settlements or corporate offices, where mercenaries would be unpredictable and military forces would be overkill.",
+  "volume": 60.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 60000.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

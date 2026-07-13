@@ -1,0 +1,13 @@
+{
+  "type_id": 53288,
+  "name": "Capital Singularity Radiation Convertor",
+  "description": "A power generation system component used in Triglavian ship designs and others adapted from such designs. Potentially useful as a component in various other technologies.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Construction Components",
+  "attributes": [],
+  "traits": []
+}

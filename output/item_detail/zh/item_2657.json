@@ -1,0 +1,13 @@
+{
+  "type_id": 2657,
+  "name": "装箱的崴砣柯",
+  "description": "这种药品可以暂时缓解你的不适。",
+  "volume": 70.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 70000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

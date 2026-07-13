@@ -1,0 +1,13 @@
+{
+  "type_id": 40313,
+  "name": "改良型侵噬链接 A型蓝图",
+  "description": "这个标准侵噬链接的持久型版本由 Affirmative 联盟的科研部门研发。Affirmative 联盟在侵噬技术的初步应用中起到了重要作用，他们优化了标准侵噬链接以满足更高效的电容需求。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "蓝图",
+  "group_name": "侵噬链接蓝图",
+  "attributes": [],
+  "traits": []
+}

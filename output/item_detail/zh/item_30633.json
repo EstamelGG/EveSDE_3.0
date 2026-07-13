@@ -1,0 +1,21 @@
+{
+  "type_id": 30633,
+  "name": "毁坏的武器子程序",
+  "description": "这一堆电子设备是冬眠者武器系统背后一套复杂的核心功能运算设备，各种先进的校准追踪设备混杂在一起，它们是冬眠者武器系统达成令人恐惧的高精度和高效率的关键保障。<br><br> 子程序被编写在多个不同的设备中，然后装置在一个超高强度的金属富勒烯合金容器中。容器外壳被撕裂了一个口子，这让里面的设备都暴露在高辐射污染之中长达千年，内部的设备已经完全无法辨认，想要从中的到什么信息的可能也是无限渺茫。<br><br> 尽管状况不是很理想，但是在一个有经验的科学家手中，再加上百年一遇的运气，还是有一定的几率能从中提取到用作逆向工程的信息。",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "古文物",
+  "group_name": "冬眠者的古老攻击装备",
+  "attributes": [
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

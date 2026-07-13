@@ -1,0 +1,21 @@
+{
+  "type_id": 21039,
+  "name": "Capital Siege Array",
+  "description": "An electronic interface responsible for rerouting a dreadnought's energy from its propulsion systems towards its defensive and offensive systems.",
+  "volume": 2000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000.0,
+  "category_name": "Commodity",
+  "group_name": "Capital Construction Components",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

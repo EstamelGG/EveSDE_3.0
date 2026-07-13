@@ -1,0 +1,13 @@
+{
+  "type_id": 15410,
+  "name": "新醇岩矿",
+  "description": "这种无价的矿石是在一个世纪前的加达里—盖伦特战争期间，由一队盖伦特探险家发现的。它是莫尔石的近亲，成分只有一点点差别，但却无法像莫尔石那样去使用它。全宇宙只有几块完整的样本，都落到了那些最富有的收藏家手里。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

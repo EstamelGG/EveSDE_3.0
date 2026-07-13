@@ -1,0 +1,13 @@
+{
+  "type_id": 21544,
+  "name": "Broken Bug Device",
+  "description": "A small bug device that can be planted on ships to intercept transmissions and relay them to a third person. This one is broken and can't relay anything, though it can still store data.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

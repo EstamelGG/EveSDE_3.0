@@ -1,0 +1,21 @@
+{
+  "type_id": 30562,
+  "name": "毁坏的推进器",
+  "description": "暴露在太空中长达千年之后，这个古老的推进器已经失去了原有的功能，长期的高强度辐射让它在数个世纪之前发生了爆炸，整体结构已经难以辨认更别说研究了。冬眠者推进系统的模块化设计同现在各国的设计相似，但是在一些方面却超乎寻常。<br><br> 在一个专业且运气登天的研究人员手里，这个废品才有可能被提取出对于逆向科技有用的信息。",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "古文物",
+  "group_name": "冬眠者的古老推进装备",
+  "attributes": [
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

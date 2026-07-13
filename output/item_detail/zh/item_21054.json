@@ -1,0 +1,13 @@
+{
+  "type_id": 21054,
+  "name": "粗糙的雕刻",
+  "description": "某个盖伦特公民的粗糙且古老的雕塑。",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

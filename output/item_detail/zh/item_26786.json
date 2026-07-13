@@ -1,0 +1,13 @@
+{
+  "type_id": 26786,
+  "name": "装箱的幽灵酒",
+  "description": "酒精饮料是通过蒸馏发酵的谷物浆液酿制而成。",
+  "volume": 60.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 25000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

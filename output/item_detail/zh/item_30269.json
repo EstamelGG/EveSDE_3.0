@@ -1,0 +1,21 @@
+{
+  "type_id": 30269,
+  "name": "防御控制节点",
+  "description": "对这个设备的初步分析显示它在纳米机械控制方面的潜能非常强大，能让使用者对纳米机械进行重新编程以适合各种不同的用途。冬眠者防御系统是一个完全模块化的设备，尽管这个控制节点是用来控制装甲维修纳米机器人的，但经过一些重新设定和编程，它也可以用来作为护盾防御的控制设备。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "远古打捞",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

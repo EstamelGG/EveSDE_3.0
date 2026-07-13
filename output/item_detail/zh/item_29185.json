@@ -1,0 +1,13 @@
+{
+  "type_id": 29185,
+  "name": "战术信息 I",
+  "description": "这些数据表单在外人的眼中看来可能就是废纸，但是在懂行的人眼中则具有很高的价值。\n这些看上去是加密的军事文件。",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

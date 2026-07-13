@@ -1,0 +1,13 @@
+{
+  "type_id": 59317,
+  "name": "尊享稀有舰船宝箱",
+  "description": "打开后可获得神秘奖品。\n\n奖品概率如下：\n\n小鬼级与长尾蜥级宝箱 57%\n变色龙级 36%\n恶魔级 7%",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

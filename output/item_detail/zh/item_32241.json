@@ -1,0 +1,13 @@
+{
+  "type_id": 32241,
+  "name": "驱动器集群 EDF-285",
+  "description": "这是一大堆驱动器的集群，每一个都有数亿兆字节的数据量。在这些数据中间就有野火库马克的关键信息。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

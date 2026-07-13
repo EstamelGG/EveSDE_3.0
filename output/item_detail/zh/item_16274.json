@@ -1,0 +1,13 @@
+{
+  "type_id": 16274,
+  "name": "氦同位素",
+  "description": "氦-3同位素是核聚变过程中非常重要的元素，在低温学和机械制冷领域也有着广泛应用。它是保持艾玛控制塔在线的必要物质之一。\n\n\n\n可以从下列冰矿石中提炼获得：\n\n\n\n安全等级<color='0xFF33FFFF'>1.0</color>及以下星系：\n\n<a href=showinfo:16262>清冰锥</a>\n\n\n\n安全等级<color='0xFFFF0000'>0.0</color>及以下星系：\n\n<a href=showinfo:17978>富清冰</a>",
+  "volume": 0.03,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "冰矿产物",
+  "attributes": [],
+  "traits": []
+}

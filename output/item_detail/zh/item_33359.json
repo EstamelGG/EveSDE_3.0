@@ -1,0 +1,21 @@
+{
+  "type_id": 33359,
+  "name": "光子超材料",
+  "description": "光子超材料是一种能够实现精密光学控制的高级合成物，用于盖伦特高级微处理器和电容器单元。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "合成物",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 300.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

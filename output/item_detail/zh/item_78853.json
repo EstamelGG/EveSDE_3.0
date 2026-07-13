@@ -1,0 +1,13 @@
+{
+  "type_id": 78853,
+  "name": "古斯塔斯海盗库房突袭密钥",
+  "description": "这个量子加密密钥上面纹饰了古斯塔斯海盗的标识。它可以绕过军团安全协议，允许舰船通过加速轨道前往军团哨站突袭的加成空间",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

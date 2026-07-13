@@ -1,0 +1,13 @@
+{
+  "type_id": 2731,
+  "name": "装箱的硅",
+  "description": "硅是计算机芯片的基本材料，它是自然界中储量仅次于氧的元素。它的自然形态存在于岩石和沙子之中。硅被用于生产行业的各个方面，对硅的开采和供求也一直都很稳定。",
+  "volume": 50.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

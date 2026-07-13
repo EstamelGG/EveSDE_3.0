@@ -1,0 +1,13 @@
+{
+  "type_id": 26974,
+  "name": "Antiviral Drugs",
+  "description": "Antiviral Drugs are in constant demand everywhere and new, more potent versions, are always made available to counter new viral strains.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

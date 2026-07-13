@@ -1,0 +1,13 @@
+{
+  "type_id": 27276,
+  "name": "Black Box",
+  "description": "The black box contains the last communication from a space ship as well as various data regarding its destruction.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Identification",
+  "attributes": [],
+  "traits": []
+}

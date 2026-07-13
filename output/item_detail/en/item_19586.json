@@ -1,0 +1,13 @@
+{
+  "type_id": 19586,
+  "name": "Dewak's Level 2 Decoder",
+  "description": "The feared prison warden Dewak is a master codemaker and built and programmed this second level cipher in his private lab. He distributes prison gate decoders only amongst his most trusted and highly paid officers.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

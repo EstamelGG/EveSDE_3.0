@@ -1,0 +1,49 @@
+{
+  "type_id": 2544,
+  "name": "贫瘠行星发射平台",
+  "description": "该发射平台能够向轨道空间站发送和接收货物。因为大多数贫瘠行星的大气状况都相对较平稳，这座设施的主要任务是同周边相邻设施保持通信，有效地组织及检查货物人员，然后将它们转运到指定的地点。核心型太空港显而易见的一个重要性在于它可以成为周边地区的文化、贸易和娱乐中心，但也可能成为犯罪滋生的地点。",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": 10000.0,
+  "mass": null,
+  "category_name": "行星工业",
+  "group_name": "太空港",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 700.0,
+      "categoryID": 7,
+      "display_name": "能量负荷",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 3600.0,
+      "categoryID": 9,
+      "display_name": "CPU载荷",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 2016.0,
+      "categoryID": 7,
+      "display_name": "行星类型限制",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "importTax",
+      "value": 0.5,
+      "categoryID": 7,
+      "display_name": "进口税",
+      "unit_name": "星币"
+    },
+    {
+      "attribute_name": "exportTax",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "出口税",
+      "unit_name": "星币"
+    }
+  ],
+  "traits": []
+}

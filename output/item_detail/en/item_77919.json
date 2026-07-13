@@ -1,0 +1,77 @@
+{
+  "type_id": 77919,
+  "name": "Genius 'Boost' Cerebral Accelerator",
+  "description": "When redeemed by a capsuleer, this booster will increase the rate at which they train skills for a short time.\n<b>Bonus: +12 to all learning attributes</b>\n<b>Base Duration: 12 days</b>",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Implant",
+  "group_name": "Booster",
+  "attributes": [
+    {
+      "attribute_name": "charismaBonus",
+      "value": 12.0,
+      "categoryID": 7,
+      "display_name": "Charisma Modifier",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "intelligenceBonus",
+      "value": 12.0,
+      "categoryID": 7,
+      "display_name": "Intelligence Modifier",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "memoryBonus",
+      "value": 12.0,
+      "categoryID": 7,
+      "display_name": "Memory Modifier",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "perceptionBonus",
+      "value": 12.0,
+      "categoryID": 7,
+      "display_name": "Perception Modifier",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "willpowerBonus",
+      "value": 12.0,
+      "categoryID": 7,
+      "display_name": "Willpower Modifier",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 1036800000.0,
+      "categoryID": 7,
+      "display_name": "Booster Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "Booster Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "nondestructible",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Non-Destructible",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "followsJumpClones",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Follows Jump Clones",
+      "unit_name": "1=True 0=False"
+    }
+  ],
+  "traits": []
+}

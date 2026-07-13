@@ -1,0 +1,105 @@
+{
+  "type_id": 2589,
+  "name": "格鲁汀 核心加强植入体 CA-2",
+  "description": "<font color=\"yellow\"><b>特点</b></font><br>槽位4<br>主要效果：增加3点智力<br>次要效果：CPU和电容回充量提高1.5%<br>植入体套装效果：所有“格鲁汀”植入体次要效果增加40%<br><br><font color=\"yellow\"><b>开发过程</b></font><br>这是“核心加强”植入体套装的另一半，由格鲁汀集团发布，为CA-1的后续型号。它在集团第一次演示新型强化科技后仅仅几个月就面世，这给死气沉沉的业界造成了不小的震动。<br><br>CA-2继承了它的先辈的遗产，通过大脑额叶给予使用者双重加成，并且通过解剖学改造技术，对致力于舰船装配方面的CA-1进行了良好的补充。结果就是它既能提供智力属性的加成，也能改善CPU输出和电容回充效率。此外，同时装备CA-1和CA-2时，它们还会互相补充，在原有的效果之上提供更多的加成。<br><br>在发布CA-2的同时，格鲁汀集团也提供了该植入体的原理图，以供公众检验。他们宣称，之所以这样做，不仅是在于减轻公众对于这项在克隆飞行员群体中应用极为广泛的技术的恐惧，还为这个领域未来的发展提供了基础。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "特别版植入体",
+  "attributes": [
+    {
+      "attribute_name": "charismaBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "魅力调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "intelligenceBonus",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "智力调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "memoryBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "记忆调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "perceptionBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "感知调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "willpowerBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "毅力调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3411.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 2.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "capRechargeBonus",
+      "value": -1.5,
+      "categoryID": 5,
+      "display_name": "电容回充时间缩减",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "implantness",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "植入体槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "cpuOutputBonus2",
+      "value": 1.5,
+      "categoryID": 1,
+      "display_name": "CPU输出加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 7.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "implantSetChristmas",
+      "value": 1.4,
+      "categoryID": 7,
+      "display_name": "格鲁汀套装加成",
+      "unit_name": "x"
+    }
+  ],
+  "traits": []
+}

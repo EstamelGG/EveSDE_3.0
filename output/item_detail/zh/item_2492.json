@@ -1,0 +1,35 @@
+{
+  "type_id": 2492,
+  "name": "气体行星基础工业设施",
+  "description": "它诡异地飘浮在气体巨星的云层中，这座大型量产工厂平台能投射出一道长长的阴影，因为它需要一块巨大的静态浮动平台来保持它的悬浮。同建设在地面上的类似设施相比，其设施内部最大的区别实际上是建筑材料的不同。那些廉价且厚重的金属构件被替换成了高强度、超柔韧的合金材料。这座设施里各种零件和原料的剩余量都受到严格的控制，这样做是为了保持适当的质量和平衡，甚至连员工的行动都是受到严格的监控和管理的。",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "行星工业",
+  "group_name": "处理设施",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 800.0,
+      "categoryID": 7,
+      "display_name": "能量负荷",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 200.0,
+      "categoryID": 9,
+      "display_name": "CPU载荷",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 13.0,
+      "categoryID": 7,
+      "display_name": "行星类型限制",
+      "unit_name": "类别ID"
+    }
+  ],
+  "traits": []
+}

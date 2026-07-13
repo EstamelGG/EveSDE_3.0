@@ -1,0 +1,13 @@
+{
+  "type_id": 21624,
+  "name": "Encoded Lai Dai Reports",
+  "description": "If decoded correctly, these reports will show the locations of ancient monuments and relics.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

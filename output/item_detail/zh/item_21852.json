@@ -1,0 +1,13 @@
+{
+  "type_id": 21852,
+  "name": "败血病原体的样本",
+  "description": "某种传染病的致病病原体。这种败血性的细菌感染极其危险。致死率：99.9%。目前知道的治疗方法：无。",
+  "volume": 0.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

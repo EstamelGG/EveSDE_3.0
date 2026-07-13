@@ -1,0 +1,13 @@
+{
+  "type_id": 3583,
+  "name": "支离破碎的组件",
+  "description": "你现在看到的这堆巨大的破得不成样的组件很明显地表明拆解它的人根本没有<i>真正</i>弄明白它是如何组成的。",
+  "volume": 4.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 700.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

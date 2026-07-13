@@ -1,0 +1,13 @@
+{
+  "type_id": 23143,
+  "name": "Takmahl Diamond Rod",
+  "description": "Alloys and special materials used in the manufacture of modules based on Ancient technology.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Materials and Compounds",
+  "attributes": [],
+  "traits": []
+}

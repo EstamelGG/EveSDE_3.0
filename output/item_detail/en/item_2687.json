@@ -1,0 +1,13 @@
+{
+  "type_id": 2687,
+  "name": "Large Crates of Mechanical Parts",
+  "description": "These basic elements of all mechanical hardware can come in virtually any shape and size, although composite or modular functionality is highly advantageous in today's competitive market. Factories and manufacturers take these parts and assemble them into finished products, which are then sold on the market.",
+  "volume": 1000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 29203,
+  "name": "米玛塔尔DNA",
+  "description": "这个DNA样本是从马塔利的尸体上获得的，他死于一种由经过试验性工艺精炼获得的奥古米内矿石所带来的严重过敏反应。这种工艺的实验自此被终止了。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,62 @@
+{
+  "type_id": 52247,
+  "name": "Triglavian Invasion Mild System Effects",
+  "description": null,
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Celestial",
+  "group_name": "Effect Beacon",
+  "attributes": [
+    {
+      "attribute_name": "agilityBonus",
+      "value": -10.0,
+      "categoryID": 7,
+      "display_name": "Inertia Modifier",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "miningDurationMultiplier",
+      "value": -10.0,
+      "categoryID": 51,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hullHpBonus",
+      "value": -15.0,
+      "categoryID": 4,
+      "display_name": "Hitpoint Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "droneMaxVelocityBonus",
+      "value": -20.0,
+      "categoryID": 10,
+      "display_name": "Drone Velocity Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "droneDamageBonus",
+      "value": -20.0,
+      "categoryID": 10,
+      "display_name": "Drone Damage Bonus",
+      "unit_name": "%"
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b>20%</b> penalty to drone damage and speed"
+    },
+    {
+      "content": "<b>15%</b> penalty to ship hull hitpoints"
+    },
+    {
+      "content": "<b>10%</b> bonus to ship agility"
+    },
+    {
+      "content": "<b>10%</b> bonus to mining laser cycle time"
+    }
+  ]
+}

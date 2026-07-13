@@ -1,0 +1,13 @@
+{
+  "type_id": 78889,
+  "name": "神秘星际网络箱",
+  "description": "作为与派瑞根交易的一部分，这个箱子在运往星际网络直播分部的途中消失。失落之物，再度重现，你只管来取。打开箱子后，你将获得<b>代理处后勤包裹</b>，外加以下任一物品：<b>一个随机星际网络直播分部涂装</b>、<b>旭日级紫色震颤涂装</b>、<b>伊甸币</b>、<b>变形船体</b>、<b>灵感级</b>、<b>实践级</b>",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

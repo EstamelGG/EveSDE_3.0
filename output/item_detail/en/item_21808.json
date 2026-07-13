@@ -1,0 +1,13 @@
+{
+  "type_id": 21808,
+  "name": "Punk ID Slice",
+  "description": "ID slice is an identification tag injected into the body with nano-bots.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Identification",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 30311,
+  "name": "C3-FTM Acid",
+  "description": "Difficult to procure and expensive to create, this rare chemical compound plays an important role as a neuroprotective agent for capsule pilots. It is integrated into the life-support systems on board a capsuleer's vessel, where it helps limit brain cell death and neurodegeneration.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Hybrid Polymers",
+  "attributes": [],
+  "traits": []
+}

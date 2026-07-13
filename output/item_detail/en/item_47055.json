@@ -1,0 +1,13 @@
+{
+  "type_id": 47055,
+  "name": "CONCORD GalNet Monitoring Archive",
+  "description": "This archive segment of CONCORD police annotated monitoring deals with closed investigations into several cases, in which worried citizens reported GalNet chat fragments without watching for context. The three first files read \"How do I sell a hangar full of corpses?\", \"I just killed someone for the first time! I'm so excited!\" and \"Does anyone know if drug production is a good source of income?\"",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

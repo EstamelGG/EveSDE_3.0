@@ -1,0 +1,13 @@
+{
+  "type_id": 2699,
+  "name": "Large Group of Civilians",
+  "description": "Civilians are a group of people who follow the pursuits of civil life.",
+  "volume": 500.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 500000.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

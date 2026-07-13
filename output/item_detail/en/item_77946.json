@@ -1,0 +1,13 @@
+{
+  "type_id": 77946,
+  "name": "Insurgent Trojan Fragments",
+  "description": "Fragments of a trojan virus programmed by Matari insurgents. The virus switched friend or foe parameters passed to the infected devices targeting system. \n\nUnderstanding the exact structure and design of the virus will require many fragments, but helps the Amarr to better understand how it might be countered.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Homefront Operations Commodity",
+  "attributes": [],
+  "traits": []
+}

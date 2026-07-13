@@ -1,0 +1,119 @@
+{
+  "type_id": 12801,
+  "name": "Javelin M",
+  "description": "The Javelin charge consists of a cluster of Iridium Fletchets with a Graviton Pulse Detonator. This allows for much higher damage than can be achieved by a standard rail system. However, the inherent entropy of graviton pulses means that it is very hard to maintain accuracy at long range.\n\n75% reduced optimal range.\n25% increased tracking speed.\n\nNote: This ammunition can only be used by medium tech level II and faction Railguns.",
+  "volume": 0.0125,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.01,
+  "category_name": "Charge",
+  "group_name": "Advanced Railgun Charge",
+  "attributes": [
+    {
+      "attribute_name": "emDamage",
+      "value": 0.0,
+      "categoryID": 29,
+      "display_name": "EM damage",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "explosiveDamage",
+      "value": 0.0,
+      "categoryID": 29,
+      "display_name": "Explosive damage",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "kineticDamage",
+      "value": 12.0,
+      "categoryID": 29,
+      "display_name": "Kinetic damage",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "thermalDamage",
+      "value": 16.0,
+      "categoryID": 29,
+      "display_name": "Thermal damage",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "weaponRangeMultiplier",
+      "value": 0.25,
+      "categoryID": 7,
+      "display_name": "Range bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "mainColor",
+      "value": 11835778.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "chargeSize",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Charge size",
+      "unit_name": "1=small 2=medium 3=l"
+    },
+    {
+      "attribute_name": "launcherGroup",
+      "value": 74.0,
+      "categoryID": 7,
+      "display_name": "Used with (Launcher Group)",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 12206.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "trackingSpeedMultiplier",
+      "value": 1.25,
+      "categoryID": 26,
+      "display_name": "Tracking Speed Multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "capNeedBonus",
+      "value": 0.0,
+      "categoryID": 5,
+      "display_name": "Capacitor Need Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "entityFlyRangeMultiplier",
+      "value": 0.75,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

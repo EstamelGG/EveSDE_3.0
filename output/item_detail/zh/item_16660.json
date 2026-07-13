@@ -1,0 +1,21 @@
+{
+  "type_id": 16660,
+  "name": "陶瓷粉末",
+  "description": "一种优质粉末，由多种反应过程中产生的固体和天然气体合成。它用于加强装甲附甲和护盾发生器，同时也是其他许多合成物的重要组成部分。",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "中间产物",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

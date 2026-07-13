@@ -1,0 +1,84 @@
+{
+  "type_id": 17870,
+  "name": "Mercoxit III-Grade",
+  "description": "III-Grade or vitreous mercoxit gleams in the dark like a siren of myth. Found only in rare clusters in space vitreous mercoxit is very rare, but very valuable, due to its much higher 10% yield.\n\nMercoxit is a very dense ore that must be mined using specialized deep core mining techniques. It contains massive amounts of the extraordinary <a href=showinfo:11399>Morphite</a> mineral.\n\nAvailable primarily in null security status star systems.",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1e+35,
+  "category_name": "Asteroid",
+  "group_name": "Mercoxit",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 11395.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "damageCloudChance",
+      "value": 0.05,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "damageCloudType",
+      "value": 11546.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 12189.0,
+      "categoryID": 7,
+      "display_name": "Reprocessing Skill",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "asteroidRadiusGrowthFactor",
+      "value": 0.425,
+      "categoryID": 31,
+      "display_name": "Asteroid radius size multiplier",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "asteroidRadiusUnitSize",
+      "value": 600.0,
+      "categoryID": 31,
+      "display_name": "Asteroid unit radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "Stasis Webifier Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 11396.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "typeID"
+    }
+  ],
+  "traits": []
+}

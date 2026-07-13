@@ -1,0 +1,13 @@
+{
+  "type_id": 88229,
+  "name": "Workforce Mecha-Tooling 3",
+  "description": "Extensive Mecha-Tooling empowers workers, utilizing additional power to significantly increase workforce effectiveness.\nThe generated workforce is restricted to local use, supporting only lower-priority upgrades within the same system.",
+  "volume": 8000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Infrastructure Upgrades",
+  "group_name": "Sovereignty Hub Colony Resources Management Upgrades",
+  "attributes": [],
+  "traits": []
+}

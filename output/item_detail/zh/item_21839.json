@@ -1,0 +1,13 @@
+{
+  "type_id": 21839,
+  "name": "训练场通行证钥匙",
+  "description": "这把通行证钥匙由统合部制造的，放置在训练复合体里的某自动海盗船内。它可以令一座加速轨道开启一小段时间，使用后钥匙就会失效。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

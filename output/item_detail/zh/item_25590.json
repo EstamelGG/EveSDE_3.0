@@ -1,0 +1,21 @@
+{
+  "type_id": 25590,
+  "name": "受污染的纳米聚合体",
+  "description": "一堆纳米体装配器形成的黏液，主要用于装甲制造过程。这一化合物需要经过净化才能再次使用。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "打捞材料",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

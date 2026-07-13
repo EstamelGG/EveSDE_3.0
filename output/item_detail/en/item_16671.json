@@ -1,0 +1,21 @@
+{
+  "type_id": 16671,
+  "name": "Titanium Carbide",
+  "description": "Due to its immense strength and molecular malleability, Titanium Carbide has become the darling of the Caldari technological industry, seeing use in everything from reactor units to weapons systems.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Composite",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 10000.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

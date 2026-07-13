@@ -1,0 +1,21 @@
+{
+  "type_id": 34269,
+  "name": "中型希格斯粒子锚 I蓝图",
+  "description": null,
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "蓝图",
+  "group_name": "改装件蓝图",
+  "attributes": [
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

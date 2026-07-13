@@ -1,0 +1,119 @@
+{
+  "type_id": 10152,
+  "name": "超强型撞击感增效体",
+  "description": "这种增效剂能增加飞行员的反应速度，使其具备那些最佳导弹兵所拥有的迅雷不及掩耳般的身手敏捷度。他朝攻击对象发出的任何导弹都能精确地击中目标部位，不过飞行员本人可能不会注意到这点，因为他这时正咬紧牙关，处于兴奋状态。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3405.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 3.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 1800000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "boosterShieldBoostAmountPenalty",
+      "value": -30.0,
+      "categoryID": 7,
+      "display_name": "护盾回充惩罚",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "aoeCloudSizeBonus",
+      "value": -30.0,
+      "categoryID": 37,
+      "display_name": "爆炸半径加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "boosterEffectChance1",
+      "value": 0.4,
+      "categoryID": 7,
+      "display_name": "副作用几率",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterEffectChance2",
+      "value": 0.4,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterEffectChance3",
+      "value": 0.4,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterEffectChance4",
+      "value": 0.4,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterEffectChance5",
+      "value": 0.4,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterArmorHPPenalty",
+      "value": -30.0,
+      "categoryID": 7,
+      "display_name": "装甲值惩罚",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterMissileVelocityPenalty",
+      "value": -30.0,
+      "categoryID": 7,
+      "display_name": "导弹速度惩罚",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterMaxVelocityPenalty",
+      "value": -30.0,
+      "categoryID": 7,
+      "display_name": "速度惩罚",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

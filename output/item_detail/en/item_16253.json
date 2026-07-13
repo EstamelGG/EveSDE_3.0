@@ -1,0 +1,13 @@
+{
+  "type_id": 16253,
+  "name": "Minmatar Emissary",
+  "description": "This is an emissary from the Minmatar Republic.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 70.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

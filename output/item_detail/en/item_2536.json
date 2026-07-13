@@ -1,0 +1,35 @@
+{
+  "type_id": 2536,
+  "name": "Gas Storage Facility",
+  "description": "The problem of how to safely store mass quantities of harvested materials and assembled commodities until they can be transported to higher orbital facilities was difficult to solve. The issue was alleviated by the invention of the equilibrium cargo silo system, an arrangement of empty canisters suspended in a hollow chamber, which is then carefully filled with a specific type of common material from different strata of the host planet. The result has an effective net mass of zero kilograms, causing the facility to hang eerily at the exact desired altitude.",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": 12000.0,
+  "mass": null,
+  "category_name": "Planetary Industry",
+  "group_name": "Storage Facilities",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 700.0,
+      "categoryID": 7,
+      "display_name": "Power Load",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 500.0,
+      "categoryID": 9,
+      "display_name": "CPU Load",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 13.0,
+      "categoryID": 7,
+      "display_name": "Planet Type Restriction",
+      "unit_name": "typeID"
+    }
+  ],
+  "traits": []
+}

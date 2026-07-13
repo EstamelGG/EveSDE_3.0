@@ -1,0 +1,49 @@
+{
+  "type_id": 3380,
+  "name": "工业理论",
+  "description": "对工厂进行操作的基本技能。每升一级，制造时间缩短4%。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "技能",
+  "group_name": "生产",
+  "attributes": [
+    {
+      "attribute_name": "primaryAttribute",
+      "value": 166.0,
+      "categoryID": 7,
+      "display_name": "主属性",
+      "unit_name": "属性ID"
+    },
+    {
+      "attribute_name": "secondaryAttribute",
+      "value": 165.0,
+      "categoryID": 7,
+      "display_name": "副属性",
+      "unit_name": "属性ID"
+    },
+    {
+      "attribute_name": "skillTimeConstant",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "训练时间倍增系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "skillLevel",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "等级",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "manufacturingTimeBonus",
+      "value": -4.0,
+      "categoryID": 7,
+      "display_name": "制造时间加成",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

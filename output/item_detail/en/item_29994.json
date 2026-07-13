@@ -1,0 +1,21 @@
+{
+  "type_id": 29994,
+  "name": "Warfare Computation Core",
+  "description": "Warfare computation cores begin as basic microprocessors that handle the flow of data between various combat analyzers, prioritizing vital information and calculations. The cores are first built around salvaged Sleeper warfare processors which are then further enhanced by the integration of fullerene polymers and other Sleeper technology. The addition of emergent combat analyzers expands the functionality to include more abstract combat calculations, such as comparative analyses of fleets and predictive IFF identifications. \n\nWhen encased in thermophased metallofullerene plating, the cores can be embedded directly into the ship's hull. This allows for a far more efficient production method of Tech III vessels, enabling any subsystem variation to integrate into a hull without the need for further redesign in the combat electronics systems.",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Hybrid Tech Components",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

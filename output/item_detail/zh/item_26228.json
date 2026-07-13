@@ -1,0 +1,13 @@
+{
+  "type_id": 26228,
+  "name": "智囊团安全控制装置",
+  "description": "这个安全控制装置是用来访问智囊团空间层的。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 26789,
+  "name": "手枪贮藏箱",
+  "description": "半自动小型枪械，主要用于个人防卫和小型冲突。",
+  "volume": 2000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500000.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

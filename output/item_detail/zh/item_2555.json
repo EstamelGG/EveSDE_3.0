@@ -1,0 +1,49 @@
+{
+  "type_id": 2555,
+  "name": "熔岩行星发射平台",
+  "description": "在用户对燃料舱破损和发射塔锈蚀而导致的发射失败抱怨多年之后，一种新型的极端环境发射设施终于面世了。除了增强了整座设施结构的完整性之外，其每个分部都被分化成多个舱段。如果任何一个舱段出了问题的话，这个舱段就会被立即隔离锁闭。维持系统会让整个设施继续运转一段时间。这种发射平台所采用的运载火箭也经过了大幅度的改造，牺牲了一定的运载能力以换取更多的防护力。",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": 10000.0,
+  "mass": null,
+  "category_name": "行星工业",
+  "group_name": "太空港",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 700.0,
+      "categoryID": 7,
+      "display_name": "能量负荷",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 3600.0,
+      "categoryID": 9,
+      "display_name": "CPU载荷",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 2015.0,
+      "categoryID": 7,
+      "display_name": "行星类型限制",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "importTax",
+      "value": 0.5,
+      "categoryID": 7,
+      "display_name": "进口税",
+      "unit_name": "星币"
+    },
+    {
+      "attribute_name": "exportTax",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "出口税",
+      "unit_name": "星币"
+    }
+  ],
+  "traits": []
+}

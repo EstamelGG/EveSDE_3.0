@@ -1,0 +1,13 @@
+{
+  "type_id": 2639,
+  "name": "装箱的维修零件",
+  "description": "不管各地的机械种类有多么繁多与复杂，它们总归会有一些功能点，使用一些相同的通用部件，例如高压电缆，锁闭装置，热能护盾等。",
+  "volume": 70.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 70000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

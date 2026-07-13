@@ -1,0 +1,13 @@
+{
+  "type_id": 62053,
+  "name": "生物力学装甲残片",
+  "description": "这个物品似乎是某种中等大小舰船的船体附甲板，质量大概一人重。它上面布满了半圆形凸起，可能是某种未知生物机制的防护性装甲。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

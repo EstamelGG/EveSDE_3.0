@@ -1,0 +1,21 @@
+{
+  "type_id": 30269,
+  "name": "Defensive Control Node",
+  "description": "A rudimentary analysis of this device reveals an amazingly broad potential for the manipulation of nanomachines, allowing the user to reprogram them for numerous roles. The Sleeper defensive systems were so modular that, even though this particular node was designed to coordinate armor-repairing nanoassemblers, it could just as easily be reconfigured for shield defense.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Ancient Salvage",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,21 @@
+{
+  "type_id": 33362,
+  "name": "Nonlinear Metamaterials",
+  "description": "Labs in the Caldari State have recently managed to construct the first known composites with negative refractive indexes. Known as nonlinear metamaterials, these advanced composites are finding increasing use in the State's latest capacitor units and microprocessors.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Composite",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 300.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

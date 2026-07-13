@@ -1,0 +1,98 @@
+{
+  "type_id": 35894,
+  "name": "屹立克隆中心 I",
+  "description": "这种屹立克隆中心服务装备安装在昇威科技建筑内，飞行员能够使用支持克隆和复活系统的克隆中心服务。\n\n\n\n如果昇威建筑启用了至少一个服务装备，将进入全能量运转模式，将会额外获得海量的护盾和装甲值以及一个额外的增强模式循环。\n\n\n\n屹立专用系统采用了昇威建筑分控纳米装配装置，由集成模版软件、纳米装配阵列和许多纳米块体构成。安装在采用昇威科技建造的建筑上的专门槽位中可以制造各种服务装备、建筑装备和建筑改装件。",
+  "volume": 4000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 500.0,
+  "category_name": "建筑装备",
+  "group_name": "建筑堡垒服务装备",
+  "attributes": [
+    {
+      "attribute_name": "power",
+      "value": 70000.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 600.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "canFitShipGroup01",
+      "value": 1657.0,
+      "categoryID": 1,
+      "display_name": "只能装配在",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "canFitShipGroup02",
+      "value": 1404.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "canFitShipGroup03",
+      "value": 1406.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "serviceModuleFuelConsumptionGroup",
+      "value": 1136.0,
+      "categoryID": 7,
+      "display_name": "服务装备燃料需求",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "serviceModuleFuelAmount",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "服务装备周期燃料需求",
+      "unit_name": "单位"
+    },
+    {
+      "attribute_name": "serviceModuleFuelOnlineAmount",
+      "value": 720.0,
+      "categoryID": 7,
+      "display_name": "服务装备启用燃料需求",
+      "unit_name": "单位"
+    },
+    {
+      "attribute_name": "structureItemVisualFlag",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "maxTypeFitted",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "该类型装备使用上限",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "serviceModuleFullPowerStateHitpointMultiplier",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "全能量模式护盾和装甲值系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "serviceModuleFullPowerStateArmorPlatingMultiplier",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

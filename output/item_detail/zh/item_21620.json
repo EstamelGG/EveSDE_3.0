@@ -1,0 +1,13 @@
+{
+  "type_id": 21620,
+  "name": "助手的钥匙串",
+  "description": "这是瓦胡诺米国家星域银行经理助理的钥匙串。它可以用来进入这个银行的外层保险库。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

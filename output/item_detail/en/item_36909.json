@@ -1,0 +1,56 @@
+{
+  "type_id": 36909,
+  "name": "Antipharmakon Kosybo",
+  "description": "Scanning this object reveals a substance that could be used like a neural booster. This complex chemical has some similarities to boosters used to improve capsuleer performance with armor manipulation.\n\nGiven that the substance appears to be of Drifter origin, and exhibits some very unusual properties at the quantum level, using it as a booster should be considered carefully.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Implant",
+  "group_name": "Booster",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3405.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 1800000.0,
+      "categoryID": 7,
+      "display_name": "Booster Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "armorDamageAmountBonus",
+      "value": 8.0,
+      "categoryID": 7,
+      "display_name": "Armor Repair Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Booster Slot",
+      "unit_name": "Slot"
+    }
+  ],
+  "traits": []
+}

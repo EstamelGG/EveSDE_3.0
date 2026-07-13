@@ -1,0 +1,70 @@
+{
+  "type_id": 2461,
+  "name": "海洋行星碳化合物采集器",
+  "description": "这种水下平台及其配备的可伸展性采集臂可以在海底采集有价值的材料，然后把采集到的物质运送到海面进行加工。该平台拥有一个管理维护人员生活工作用的小型生活舱，同时还配备紧急上浮舱，以应对地震或结构损坏之类的险情。",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "行星工业",
+  "group_name": "采集器",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 800.0,
+      "categoryID": 7,
+      "display_name": "能量负荷",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 200.0,
+      "categoryID": 9,
+      "display_name": "CPU载荷",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "harvesterType",
+      "value": 2288.0,
+      "categoryID": 7,
+      "display_name": "采集类别",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 2014.0,
+      "categoryID": 7,
+      "display_name": "行星类型限制",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "pinExtractionQuantity",
+      "value": 1000.0,
+      "categoryID": 7,
+      "display_name": "采集量",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "pinCycleTime",
+      "value": 300.0,
+      "categoryID": 7,
+      "display_name": "运转周期",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "extractorDepletionRange",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "extractorDepletionRate",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

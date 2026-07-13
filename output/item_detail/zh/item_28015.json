@@ -1,0 +1,63 @@
+{
+  "type_id": 28015,
+  "name": "米玛塔尔高级空间站实验室平台",
+  "description": "针对米玛塔尔哨站研究能力的高级升级方案。材料效率研究、时间效率研究和拷贝项目费用额外降低10%（可与同类效果叠加），所有材料效率研究时间减少60%。",
+  "volume": 750000.0,
+  "repackaged_volume": null,
+  "capacity": 7500000.0,
+  "mass": null,
+  "category_name": "天体",
+  "group_name": "空间站强化平台",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 100000000.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3400.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "stationTypeID",
+      "value": 28123.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "anchoringDelay",
+      "value": 3600000.0,
+      "categoryID": 7,
+      "display_name": "锚定耗时",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "requiresSovereigntyDisplayOnly",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "需要主权",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "stationOreRefiningBonus",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "矿石提炼效率加成",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

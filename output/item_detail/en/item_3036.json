@@ -1,0 +1,13 @@
+{
+  "type_id": 3036,
+  "name": "Amarr Forensic Investigative Deployment",
+  "description": "This team of highly-trained forensic investigators always travels with a large quantity of all manner of equipment, from manportable to vehicle-mounted. The team is expected to be self-sustaining for 10 days due to its frequent deployment to harsh environments, from asteroids to ship wrecks. Due to this requirement, it necessarily travels with foodstuffs, drinking water, and myriad other consumables. Coupled with the large volume of investigative equipment, this team requires significant cargo space when transported to and from its typically remote duty locations.",
+  "volume": 400.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 400.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

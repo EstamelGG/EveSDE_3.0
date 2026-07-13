@@ -1,0 +1,13 @@
+{
+  "type_id": 85787,
+  "name": "不死研究委托",
+  "description": "由不死循环向协助获取和研究阿塔文的克隆飞行员提供。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

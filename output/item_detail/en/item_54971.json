@@ -1,0 +1,13 @@
+{
+  "type_id": 54971,
+  "name": "Hyperbolic Metatransistor Array",
+  "description": "A highly advanced material, critical to ultra-sensitive detectors, relying on hyperbolic anisotropic effects to convert fine changes in local electromagnetic fields to optical processing signals. The fine resolution in mapping local EM fields achieved by such sensors would generally only be of use to scientists but may have military applications.",
+  "volume": 0.25,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Salvaged Materials",
+  "attributes": [],
+  "traits": []
+}

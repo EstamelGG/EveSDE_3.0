@@ -1,0 +1,13 @@
+{
+  "type_id": 12303,
+  "name": "Unassembled Energy Weapons",
+  "description": "Energy weapon parts waiting to be assembled into fully functional equipment.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 57486,
+  "name": "生命保障备份装置",
+  "description": "三神裔的入侵给船员和军事人员的安危带来了威胁，需要更多的生存措施来降低人员损失。生命保障备份装置放置在舰船的核心生存区域，可以增加船员和其他人员在战斗后的存活几率。",
+  "volume": 45.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "常用物品",
+  "group_name": "建造组件",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 60192,
+  "name": "处暑迎秋传道者级宝箱",
+  "description": "打开后可获得神秘奖品。\n\n奖品概率如下：\n\n    传道者级 2%\n\n   飞行员战斗增效剂 38%\n\n    处暑迎秋大脑加速器 44%\n\n    再见樱花系列舰船涂装宝箱 16%",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

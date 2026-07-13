@@ -1,0 +1,49 @@
+{
+  "type_id": 3363,
+  "name": "Corporation Management",
+  "description": "Basic corporation operation. +20 corporation members allowed per level.\n\nNote: The CEO must update his corporation through the corporation user interface before the skill takes effect",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Skill",
+  "group_name": "Corporation Management",
+  "attributes": [
+    {
+      "attribute_name": "primaryAttribute",
+      "value": 166.0,
+      "categoryID": 7,
+      "display_name": "Primary attribute",
+      "unit_name": "attributeID"
+    },
+    {
+      "attribute_name": "secondaryAttribute",
+      "value": 164.0,
+      "categoryID": 7,
+      "display_name": "Secondary attribute",
+      "unit_name": "attributeID"
+    },
+    {
+      "attribute_name": "corporationMemberBonus",
+      "value": 20.0,
+      "categoryID": 7,
+      "display_name": "corporation Member Bonus",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "skillTimeConstant",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Training time multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "skillLevel",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Level",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

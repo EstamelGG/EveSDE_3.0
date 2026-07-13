@@ -1,0 +1,21 @@
+{
+  "type_id": 16665,
+  "name": "六元复合物",
+  "description": "通过铬和铂的孤电子氧化形成的化合物。在高等技术生产中有着大量应用，在工业生产中需求量很大。",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "中间产物",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

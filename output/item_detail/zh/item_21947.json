@@ -1,0 +1,21 @@
+{
+  "type_id": 21947,
+  "name": "建筑建造组件",
+  "description": "金属、纺织品、合成织物和各种机械的分类部件—空间哨站安装和运作的基本建筑块。",
+  "volume": 3000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000.0,
+  "category_name": "常用物品",
+  "group_name": "建筑组件",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

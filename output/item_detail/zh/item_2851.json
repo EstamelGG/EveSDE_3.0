@@ -1,0 +1,13 @@
+{
+  "type_id": 2851,
+  "name": "罪证",
+  "description": "该证据确凿无疑地表明确实有不正当行为存在。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

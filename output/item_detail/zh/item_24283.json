@@ -1,0 +1,126 @@
+{
+  "type_id": 24283,
+  "name": "铁骑舰载机辅助单元 I",
+  "description": "铁骑舰载机辅助单元支援所有铁骑舰载机操作，包括附加铁骑舰载机后勤无人机、铁骑舰载机功率传输器和高级感应器支援。注：只能装配在航母、指挥航母或超级航母上。惩罚：在一艘舰船上或一支铁骑舰载机中队中使用多个这类装备或多个与该装备作用一致的类似装备将削弱实际使用效果。",
+  "volume": 4000.0,
+  "repackaged_volume": 1000.0,
+  "capacity": null,
+  "mass": 200.0,
+  "category_name": "装备",
+  "group_name": "铁骑舰载机辅助单元",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 75000.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 75.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 24613.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "canFitShipGroup01",
+      "value": 547.0,
+      "categoryID": 1,
+      "display_name": "只能装配在",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "canFitShipGroup02",
+      "value": 659.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "canFitShipGroup03",
+      "value": 5120.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "canFitShipType1",
+      "value": 45647.0,
+      "categoryID": 1,
+      "display_name": "只能装配在",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "canFitShipType2",
+      "value": 45649.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "fighterBonusShieldCapacityPercent",
+      "value": 1.05,
+      "categoryID": 38,
+      "display_name": "铁骑舰载机护盾加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "fighterBonusVelocityPercent",
+      "value": 1.05,
+      "categoryID": 38,
+      "display_name": "铁骑舰载机速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "fighterBonusROFPercent",
+      "value": 0.95,
+      "categoryID": 38,
+      "display_name": "铁骑舰载机射速加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "fighterBonusShieldRechargePercent",
+      "value": 0.95,
+      "categoryID": 38,
+      "display_name": "铁骑舰载机护盾回充加成",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

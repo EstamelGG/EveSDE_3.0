@@ -1,0 +1,13 @@
+{
+  "type_id": 3707,
+  "name": "Blue Pill",
+  "description": "This booster causes forgetfulness and bliss, and may cause light hallucinations.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "Commodity",
+  "group_name": "Drugs",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 3685,
+  "name": "氢电池",
+  "description": "氢电池已经变成了工业和民用领域中的国际标准，这在空间站这样的远离地面的人类生活区是非常常见的。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1500.0,
+  "category_name": "常用物品",
+  "group_name": "消费品",
+  "attributes": [],
+  "traits": []
+}

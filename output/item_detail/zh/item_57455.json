@@ -1,0 +1,13 @@
+{
+  "type_id": 57455,
+  "name": "热固性聚合物",
+  "description": "热固性聚合物可以变化多种形态，也可以与其他材料融合使用，因此应用广泛。用到这种聚合物的强化材料有很多种。",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "中间产物",
+  "attributes": [],
+  "traits": []
+}

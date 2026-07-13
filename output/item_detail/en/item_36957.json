@@ -1,0 +1,13 @@
+{
+  "type_id": 36957,
+  "name": "Structure Acceleration Coils",
+  "description": "Materials needed for the construction of warp or engineering related facilities in a space structure.",
+  "volume": 3000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000.0,
+  "category_name": "Commodity",
+  "group_name": "Structure Components",
+  "attributes": [],
+  "traits": []
+}

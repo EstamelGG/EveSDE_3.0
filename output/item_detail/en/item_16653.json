@@ -1,0 +1,21 @@
+{
+  "type_id": 16653,
+  "name": "Thulium",
+  "description": "A soft, rare, silvery-gray metal. Used in the creation of lasers, in addition to possessing a range of radiation-related production applications.",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 9320.0,
+  "category_name": "Material",
+  "group_name": "Moon Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

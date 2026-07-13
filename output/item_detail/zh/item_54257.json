@@ -1,0 +1,13 @@
+{
+  "type_id": 54257,
+  "name": "测试箱1",
+  "description": "测试专用",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,28 @@
+{
+  "type_id": 2319,
+  "name": "Test Cultures",
+  "description": "When bacteria are allowed to thrive in a water-based environment, they undergo generational transformations that can be monitored and documented, providing research data invaluable to numerous scientific fields.",
+  "volume": 0.75,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Planetary Commodities",
+  "group_name": "Refined Commodities - Tier 2",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 7200.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 7200.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 22203,
+  "name": "天使集团瘾君子铭牌",
+  "description": "此铭牌由天使企业联合体的瘾君子携带。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "常用物品",
+  "group_name": "识别卡",
+  "attributes": [],
+  "traits": []
+}

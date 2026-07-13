@@ -1,0 +1,13 @@
+{
+  "type_id": 53289,
+  "name": "旗舰级零点力场操纵装置",
+  "description": "三神裔舰船以及其他采用采用相似设计的舰船所使用的控制及分布系统的组件。可能也可用于其他科技种类中。\n\n\n\n三神裔能量系统可以产出巨大的能量，从奇点辐射中收集并转化这些能量，并利用零点力场操纵装置来控制、分配甚至存储这些能量。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "建造组件",
+  "attributes": [],
+  "traits": []
+}

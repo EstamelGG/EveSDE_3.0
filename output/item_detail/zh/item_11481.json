@@ -1,0 +1,21 @@
+{
+  "type_id": 11481,
+  "name": "R.A.M. - 机器人技术",
+  "description": "为无人机制造而设计的机器人装配模块。",
+  "volume": 0.04,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "常用物品",
+  "group_name": "工具",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 100.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

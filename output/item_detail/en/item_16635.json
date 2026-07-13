@@ -1,0 +1,21 @@
+{
+  "type_id": 16635,
+  "name": "Evaporite Deposits",
+  "description": "Deposits formed by the precipitation of mineral-rich water. Usable for many purposes, mostly as building-block components for more complex materials.",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Moon Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

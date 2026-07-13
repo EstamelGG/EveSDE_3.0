@@ -1,0 +1,119 @@
+{
+  "type_id": 18635,
+  "name": "发现号测量探针 I",
+  "description": "卫星探针能被发射到邻近的卫星表面，传回大气和土壤的分析数据。\n\n发现号探针是卫星采矿作业中最常用的标准型探针。它在大约5分钟的时间里就能完成侦察，这是相当快的。但是这样的优势却在另一方面被它庞大的体积所抵消。",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "弹药",
+  "group_name": "测量探针",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 240.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "maxVelocity",
+      "value": 30000.0,
+      "categoryID": 17,
+      "display_name": "最大速度",
+      "unit_name": "m/s"
+    },
+    {
+      "attribute_name": "agility",
+      "value": 1000.0,
+      "categoryID": 17,
+      "display_name": "惯性调整",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "explosionRange",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "launcherGroup",
+      "value": 1226.0,
+      "categoryID": 7,
+      "display_name": "配套使用（发射器类别）",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3412.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 3551.0,
+      "categoryID": 8,
+      "display_name": "副技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 3.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 3.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "explosionDelay",
+      "value": 300000.0,
+      "categoryID": 7,
+      "display_name": "最长飞行时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "structureUniformity",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "scanRange",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "probesInGroup",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "maxScanRange",
+      "value": 100000000.0,
+      "categoryID": 7,
+      "display_name": "最大扫描范围",
+      "unit_name": "m"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 2853,
+  "name": "Salvaged Electronics",
+  "description": "These ship parts are old but functional.",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

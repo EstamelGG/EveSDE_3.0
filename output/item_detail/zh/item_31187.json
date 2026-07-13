@@ -1,0 +1,126 @@
+{
+  "type_id": 31187,
+  "name": "旗舰级复合碳素引擎舱 II",
+  "description": "这个飞船改装件通过牺牲装甲值来增加舰船的速度和机动性。\n\n\n\n惩罚：在一艘舰船上使用多个这类装备或多个与该装备作用一致的类似装备将削弱实际使用效果。\n\n\n\n装配这个改装件的副作用可以通过训练<a href=showinfo:26254>空间航行改装技术</a>技能降低影响。",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 200.0,
+  "category_name": "装备",
+  "group_name": "改装件导航",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "durationBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "单次运转时间加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "agilityBonus",
+      "value": -11.0,
+      "categoryID": 7,
+      "display_name": "惯性调整系数",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "capacitorNeedMultiplier",
+      "value": 0.0,
+      "categoryID": 5,
+      "display_name": "电容需求倍增系数",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "velocityBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "速度调整",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "capNeedBonus",
+      "value": 0.0,
+      "categoryID": 5,
+      "display_name": "电容需求加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "speedFBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "warpCapacitorNeedBonus",
+      "value": 0.0,
+      "categoryID": 17,
+      "display_name": "跃迁电容需求加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "cargoCapacityBonus",
+      "value": 0.0,
+      "categoryID": 4,
+      "display_name": "货柜容量加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "WarpSBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "跃迁速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "implantBonusVelocity",
+      "value": 6.6,
+      "categoryID": 7,
+      "display_name": "速度调整",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "drawback",
+      "value": -10.0,
+      "categoryID": 7,
+      "display_name": "缺陷",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "upgradeCost",
+      "value": 150.0,
+      "categoryID": 1,
+      "display_name": "校准值消耗",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "rigSize",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "改装件尺寸",
+      "unit_name": "1=小型  2=中型  3=大型"
+    }
+  ],
+  "traits": []
+}

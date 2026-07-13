@@ -1,0 +1,13 @@
+{
+  "type_id": 11071,
+  "name": "电池盒",
+  "description": "这种电池盒载有大量电力能源，其用途是作为紧急情况下的备用能源。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

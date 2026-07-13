@@ -1,0 +1,13 @@
+{
+  "type_id": 17986,
+  "name": "Dusty Keycard",
+  "description": "This cipher unlocks the second acceleration gate in the Pith-Robux Asteroid Mining complex. The gate will remain open for a short period of time and using the cipher will cause it to self-destruct, so use wisely.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

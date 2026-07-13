@@ -1,0 +1,13 @@
+{
+  "type_id": 85757,
+  "name": "清洗者数据核心",
+  "description": "耐心清洗者的中央数据核心。它的运行代码基于远古的朱庇特规范，但光洁无瑕的表面暴露出它是近期建造的事实。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

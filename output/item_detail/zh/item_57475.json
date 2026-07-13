@@ -1,0 +1,13 @@
+{
+  "type_id": 57475,
+  "name": "引力超光速链接通信器",
+  "description": "加达里舰船使用引力式感应器来探测太空环境。引力超光速链接通信器能将高频高分辨率的加达里感应器数据直接链接到合众国海军舰队使用的超光速通信频道中。",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "常用物品",
+  "group_name": "高级旗舰级建造组件",
+  "attributes": [],
+  "traits": []
+}

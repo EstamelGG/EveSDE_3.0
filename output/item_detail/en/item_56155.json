@@ -1,0 +1,77 @@
+{
+  "type_id": 56155,
+  "name": "Serenity YC122.9 Season Booster - Signature Radius",
+  "description": "<font color=\"#ff3399cc\"><b>-5% Signature Radius. Duration 12 hours.</b></font>\n<font color=\"#ff3399cc\"><b>+5 to all attibutes.</b></font>",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Implant",
+  "group_name": "Booster",
+  "attributes": [
+    {
+      "attribute_name": "charismaBonus",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Charisma Modifier",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "intelligenceBonus",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Intelligence Modifier",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "memoryBonus",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Memory Modifier",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "perceptionBonus",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Perception Modifier",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "willpowerBonus",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Willpower Modifier",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 43200000.0,
+      "categoryID": 7,
+      "display_name": "Booster Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "signatureRadiusBonus",
+      "value": -5.0,
+      "categoryID": 21,
+      "display_name": "Signature Radius Modifier",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 34.0,
+      "categoryID": 7,
+      "display_name": "Booster Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "boosterLastInjectionDatetime",
+      "value": 18543.125,
+      "categoryID": 7,
+      "display_name": "Expiry Date",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 91087,
+  "name": "联合矿业新生贮藏",
+  "description": "可以用新生的不稳定冰矿石和冰蚀解析器在联合矿业提炼中心舰船处换取。其中包含联合矿业打捞物品或从已加工的冰矿中过滤出来的物品。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

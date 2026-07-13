@@ -1,0 +1,35 @@
+{
+  "type_id": 2562,
+  "name": "Temperate Storage Facility",
+  "description": "Terrestrial storage units require a great amount of technology to be reliable and effective. The super structure is made from adaptive materials designed to withstand a wide range of extreme weather conditions, as temperate planets tend to experience more pronounced seasonal changes. Likewise, each module of the structure is designed to store different states of matter, further compounding preservation and containment concerns.",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": 12000.0,
+  "mass": null,
+  "category_name": "Planetary Industry",
+  "group_name": "Storage Facilities",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 700.0,
+      "categoryID": 7,
+      "display_name": "Power Load",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 500.0,
+      "categoryID": 9,
+      "display_name": "CPU Load",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 11.0,
+      "categoryID": 7,
+      "display_name": "Planet Type Restriction",
+      "unit_name": "typeID"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 21877,
+  "name": "奥卡汉姆的头颅",
+  "description": "这是艾玛情报贩子吉哈尔·奥卡汉姆的头颅，里面插满了植入体，5英里内所有的金属探测器都会对它起反应。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,21 @@
+{
+  "type_id": 16644,
+  "name": "铂",
+  "description": "一种应用极其广泛的耐腐蚀稀有金属，经常被用作化学催化剂。",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 21460.0,
+  "category_name": "材料",
+  "group_name": "卫星原料",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

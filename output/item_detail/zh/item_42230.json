@@ -1,0 +1,13 @@
+{
+  "type_id": 42230,
+  "name": "白银衔尾蛇",
+  "description": "你获得了视界网络的奖励。<br><br>这个精心打造的衔尾蛇货柜用一种坚固的电子锁定机制密封了起来，能够给内部完美的保护。<br><br>试图中和密封会对货柜造成毁灭性影响，使其完全解体。<br><br>除此之外，里面物品的完整性得以保留，以备将来之用。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

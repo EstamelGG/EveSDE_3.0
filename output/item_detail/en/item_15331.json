@@ -1,0 +1,13 @@
+{
+  "type_id": 15331,
+  "name": "Metal Scraps",
+  "description": "This mechanical hardware has obviously outlived its use, and is now ready to be recycled. Many station maintenance departments use the material gained from recycling these scraps to manufacture steel plates which replace worn out existing plates in the station hull. Most station managers consider this a cost-effective approach, rather than to send out a costly mining expedition for the ore, although these scraps rarely are enough to satisfy demand.\n\nThis commodity is not affected by the scrap metal processing skill any more than any other recyclable item.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

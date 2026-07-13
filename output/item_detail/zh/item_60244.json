@@ -1,0 +1,126 @@
+{
+  "type_id": 60244,
+  "name": "统合部自由分析信标",
+  "description": "统合部自由分析信标用于协助对当地的自由无人机的侵扰情况进行调查。\n\n\n\n在被部署到指定地点并连接到一艘能够维持它运作的舰船之后，自由分析信标将启动并开始发射主动扫描信号来寻找遭自由无人机感染的地区。\n\n\n\n察觉到自由分析信标存在的自由无人机将被操作者摧毁，以便于信标分析自由无人机及其同党的战斗性能。\n\n\n\n在发射信号并分析完成后，自由分析信标会将结果传输给操作的克隆飞行员，后者也许可以从中获得有用的资源作为奖励。\n\n\n\n<i>注意：如果星系中的信号干扰太强，或者飞行员手中没有足够的复合加密量子比特，就无法连接到自由分析信标。</i>\n\n\n\n<b>警告：连接到自由分析信标后，你的舰船在信标启动完成之前无法移动。</b>\n\n\n\n<i>舰船限制：能够连接并启动信标的舰船包括<b>航母，无畏舰，超级航母，泰坦。</b></i>",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000.0,
+  "category_name": "可部署物品",
+  "group_name": "移动式分析信标",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 50000.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 11584.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "scanRadarStrength",
+      "value": 20.0,
+      "categoryID": 6,
+      "display_name": "雷达感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanLadarStrength",
+      "value": 20.0,
+      "categoryID": 6,
+      "display_name": "光雷达感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrength",
+      "value": 20.0,
+      "categoryID": 6,
+      "display_name": "磁力感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanGravimetricStrength",
+      "value": 20.0,
+      "categoryID": 6,
+      "display_name": "引力感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "shieldCapacity",
+      "value": 50000.0,
+      "categoryID": 2,
+      "display_name": "护盾容量",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorHP",
+      "value": 50000.0,
+      "categoryID": 3,
+      "display_name": "装甲值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 3.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "shieldRechargeRate",
+      "value": 2400000.0,
+      "categoryID": 2,
+      "display_name": "护盾回充时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "shieldUniformity",
+      "value": 0.75,
+      "categoryID": 2,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "armorUniformity",
+      "value": 0.75,
+      "categoryID": 3,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureUniformity",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 400.0,
+      "categoryID": 6,
+      "display_name": "信号半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    }
+  ],
+  "traits": []
+}

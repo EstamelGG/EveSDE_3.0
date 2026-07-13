@@ -1,0 +1,13 @@
+{
+  "type_id": 54811,
+  "name": "OODA Loop Expert System Package",
+  "description": "The component name and serial number of this data storage device is indicated clearly by data-tags bearing CONCORD, Upwell Consortium and EDENCOM identifier codes. This is an encrypted data device but the coding of the tags suggests an experimental expert system designed to run a powerful \"Observe, Orient, Decide, Act\" loop for a weapons system. This application of expert systems technology treads dangerously into the territory of outlawed unrestricted AI development. The needs of the present crisis would appear to overrule such considerations. Presumably this software package is intended for use in a specific design.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 20.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

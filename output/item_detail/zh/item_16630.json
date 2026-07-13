@@ -1,0 +1,13 @@
+{
+  "type_id": 16630,
+  "name": "民兵领导",
+  "description": "这是民兵部队的领袖。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 60.0,
+  "category_name": "常用物品",
+  "group_name": "有生货物",
+  "attributes": [],
+  "traits": []
+}

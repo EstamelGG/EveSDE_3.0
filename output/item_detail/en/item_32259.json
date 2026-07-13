@@ -1,0 +1,13 @@
+{
+  "type_id": 32259,
+  "name": "Operation Stillwater: Synopsis",
+  "description": "This small data storage unit contains a swathe of operational information, offering insights into an ongoing RSS investigation known as “Stillwater”. <br><br>Although the report logs number in the hundreds of pages, a few key details become immediately apparent. The name of a highly-ranked Ammatar Consulate official recurs frequently, and references to her as “sister” reveal a secret loyalty to the Republic. Despite the prominence of this Ammatar defector in the reports, her name and any other identifying details have been omitted. <br><br>Page after page of the synopsis is filled with meticulous documentation of the agent's daily life; every meeting they had, every stakeout they sat through, and every other lead they chased up – it is all here. The problem isn't the lack of detail, more the overwhelming amount of it. It will take some time to make sense of it all.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

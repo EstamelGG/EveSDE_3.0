@@ -1,0 +1,63 @@
+{
+  "type_id": 78358,
+  "name": "格诺克的智慧",
+  "description": "“事情就是这样，格诺克率领他的人民进行了大迁徙，前往我们的救赎之地，前往上帝之地，前往他的子民之地，前往阿提拉。”-《圣典·元始之人-格诺克》1章32节<font color=\"#ff3399cc\"><b>+4%能量炮台伤害。</b> <b>装甲维修+7%</b> <b>+3%最大速度</b> 基础持续时间：2天</font> 该物品无法出售。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "damageMultiplier",
+      "value": 1.04,
+      "categoryID": 29,
+      "display_name": "伤害量调整",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "velocityBonus",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "速度调整",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 172800000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "armorDamageAmountBonus",
+      "value": 7.0,
+      "categoryID": 7,
+      "display_name": "装甲维修加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 11.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "nondestructible",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "无法摧毁",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "followsJumpClones",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "跟随远距克隆",
+      "unit_name": "1=True 0=False"
+    }
+  ],
+  "traits": []
+}

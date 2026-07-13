@@ -1,0 +1,13 @@
+{
+  "type_id": 40519,
+  "name": "Skill Extractor",
+  "description": "This item can be activated in a station, while in your pod, to create a <a href=showinfo:40520>Skill Injector</a> by selecting 500,000 skill points to be removed from your character. When skill extraction is complete, the Skill Extractor will be consumed.\n\nSkill Extractors may only be used by characters with at least 5,500,000 skill points.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Accessories",
+  "group_name": "Services",
+  "attributes": [],
+  "traits": []
+}

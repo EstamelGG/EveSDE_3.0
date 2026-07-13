@@ -1,0 +1,13 @@
+{
+  "type_id": 72373,
+  "name": "Encrypted Stellar Research Data",
+  "description": "This packet of encrypted data contains sensitive readings taken from observation of a nearby star. Authorities within both the Amarr Empire and Minmatar Republic have requested loyal capsuleers bring them these data packets to assist with their classified research projects.\n\nCapsuleers can assist the Amarr Empire by depositing this data into the Imperial Stellar Transmuter Research Laboratory at the Imperial Research Facility within the <url=showinfo:5//30002974>Mehatoor</url> system.\n\nCapsuleers can assist the Minmatar Republic by depositing this data into the Republic Stellar Transmuter Research Laboratory at the Republic Research Facility within the <url=showinfo:5//30002055>Amo</url> system.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

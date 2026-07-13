@@ -1,0 +1,13 @@
+{
+  "type_id": 90741,
+  "name": "联合矿业绿色打捞箱",
+  "description": "这个联合矿业绿色打捞包可以用渐融的不稳定冰矿石在在联合矿业提炼中心舰船处换取。联合矿业将自己在战斗或提炼矿石的过程中获得的各种打捞物品用来交换冰矿石。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

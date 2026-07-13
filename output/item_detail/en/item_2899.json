@@ -1,0 +1,13 @@
+{
+  "type_id": 2899,
+  "name": "Custom Circuitry",
+  "description": "While drone AI is easily replicated, certain behaviors require custom programming.  These units seem to have been designed for generally poor   combat performance.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

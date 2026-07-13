@@ -1,0 +1,119 @@
+{
+  "type_id": 15461,
+  "name": "加强型疯癫增效体",
+  "description": "这种强效混合止痛药帮助飞行员屏蔽所有无关紧要的思绪（偶尔也会排除重要的思绪），使人将注意力完全集中于当前任务。当攻击某一目标时，这能实现更准确的命中率，不过人的四肢会在短时间内没有知觉。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3405.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 2.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "rangeSkillBonus",
+      "value": 15.0,
+      "categoryID": 7,
+      "display_name": "最佳射程调整",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 1800000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "boosterShieldBoostAmountPenalty",
+      "value": -25.0,
+      "categoryID": 7,
+      "display_name": "护盾回充惩罚",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "boosterEffectChance1",
+      "value": 0.3,
+      "categoryID": 7,
+      "display_name": "副作用几率",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterEffectChance2",
+      "value": 0.3,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterEffectChance3",
+      "value": 0.3,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterEffectChance4",
+      "value": 0.3,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterEffectChance5",
+      "value": 0.3,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterArmorHPPenalty",
+      "value": -25.0,
+      "categoryID": 7,
+      "display_name": "装甲值惩罚",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterTurretTrackingPenalty",
+      "value": -25.0,
+      "categoryID": 7,
+      "display_name": "炮塔跟踪速度惩罚",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterMaxVelocityPenalty",
+      "value": -25.0,
+      "categoryID": 7,
+      "display_name": "速度惩罚",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

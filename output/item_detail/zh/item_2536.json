@@ -1,0 +1,35 @@
+{
+  "type_id": 2536,
+  "name": "气体行星储藏设施",
+  "description": "开采出来的物资以及组装好的各种产品在被转运到轨道上的设施之前都需要进行储存。如何能够安全地大量储存这些物资，是一项比较难以解决的任务。平衡货柜储藏系统的发明很好地减轻了这个问题所带来的压力了：一系列的管子被悬挂在一个中空的舱室中，然后又在其中小心翼翼地装满特定的常见物质，这些物质都是从所在行星的不同层面中获得的。这样做的结果是，它使有效净重达到零千克，从而让整个建筑悬浮在所需要的高度层上。",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": 12000.0,
+  "mass": null,
+  "category_name": "行星工业",
+  "group_name": "储藏设施",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 700.0,
+      "categoryID": 7,
+      "display_name": "能量负荷",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 500.0,
+      "categoryID": 9,
+      "display_name": "CPU载荷",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 13.0,
+      "categoryID": 7,
+      "display_name": "行星类型限制",
+      "unit_name": "类别ID"
+    }
+  ],
+  "traits": []
+}

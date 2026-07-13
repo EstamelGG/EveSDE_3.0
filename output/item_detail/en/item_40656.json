@@ -1,0 +1,13 @@
+{
+  "type_id": 40656,
+  "name": "CSM 11 Electee Archive Script",
+  "description": "A secure holographic datapad, used to access the CONCORD public information database.\n \n \n//archive_yulai8_ict -search\n>SEARCH INITIATED\n>SEARCH SEQUENCE... COMPLETE\n//archive_csm -search\n>ARCHIVE SEARCH... COMPLETE\n>LOADING... COMPLETE\n \nCouncil of Stellar Management 11 electees:\n\n<url=showinfo:1375//573001734>The Judge</url>\n<url=showinfo:1384//1524496173>Jin'taan</url>\n<url=showinfo:1377//1735645598>Xenuria</url>\n<url=showinfo:1377//962458290>Aryth</url>\n<url=showinfo:1373//144925561>Innominate</url>\n<url=showinfo:1383//686125406>NoobMan</url>\n<url=showinfo:1378//596756116>Fafer</url>\n<url=showinfo:1379//2053796889>Gorski Car</url>\n<url=showinfo:1385//162279905>Bobmon</url>\n<url=showinfo:1375//377961586>Nashh Kadavr</url>\n<url=showinfo:1373//499242457>Mr Hyde113</url>\n<url=showinfo:1377//91752204>Kyle Aparthos</url>\n<url=showinfo:1379//91889403>Sullen Decimus</url>\n<url=showinfo:1379//90926985>Steve Ronuken</url>",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

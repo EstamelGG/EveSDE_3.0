@@ -1,0 +1,42 @@
+{
+  "type_id": 23185,
+  "name": "匿名对称装置",
+  "description": "给盖伦特发明项目增加一些复杂性，可能会稍微提高其难度，但如果成功的话，所获回报将大幅增加。<br><br>机率调节值：无<br>最大流程调节值：+2<br>材料效率调节值：+1<br>时间效率调节值：+8",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "解码器",
+  "group_name": "解码器—盖伦特",
+  "attributes": [
+    {
+      "attribute_name": "inventionPropabilityMultiplier",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "inventionMEModifier",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "inventionTEModifier",
+      "value": 8.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "inventionMaxRunModifier",
+      "value": 2.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

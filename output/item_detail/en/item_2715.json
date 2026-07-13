@@ -1,0 +1,13 @@
+{
+  "type_id": 2715,
+  "name": "Large Crates of Frozen Food",
+  "description": "Frozen food is in high demand in many regions, especially on stations orbiting a non-habitable planet and a long way from an agricultural world.",
+  "volume": 400.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 400000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 3507,
+  "name": "战术应答机",
+  "description": "这个小型设备用来传递与舰队行动和战术移位相关的具体信息与指令。鉴于此类信息的重要性，萨沙设计了多层安全防范措施。为了让战术应答机能够防止信息劫持，它必须先被调到一个正确的频率，然后从控制中枢转移到一个中继器里。",
+  "volume": 7500.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5000.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

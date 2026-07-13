@@ -1,0 +1,13 @@
+{
+  "type_id": 17815,
+  "name": "Minmatar UUA Nexus Chip",
+  "description": "This small data chip stores the key elements of a ship's artificial intelligence system, and is used primarily for controlling the vessel's autonomous functions. This particular chip has been modified by top Boundless Creation scientists for the Minmatar Fleet, made to be of better quality than what is available on the open market. \n \nThe UUA chip is designed for frigate class vessels.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

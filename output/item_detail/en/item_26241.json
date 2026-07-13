@@ -1,0 +1,13 @@
+{
+  "type_id": 26241,
+  "name": "VIP Pass",
+  "description": "This pass allows entrance for you and your entourage into the exclusive VIP Room.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

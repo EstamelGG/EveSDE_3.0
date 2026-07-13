@@ -1,0 +1,13 @@
+{
+  "type_id": 57475,
+  "name": "Gravimetric-FTL Interlink Communicator",
+  "description": "Caldari ship designs use gravimetric-based sensors as their primary means of building a picture of the local space environment. The Gravimetric-FTL Interlink Communicator is used to tie high-frequency, high-resolution Caldari sensor data directly into the FTL communications channels used by Caldari Navy fleets.",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Advanced Capital Construction Components",
+  "attributes": [],
+  "traits": []
+}

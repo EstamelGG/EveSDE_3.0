@@ -1,0 +1,21 @@
+{
+  "type_id": 30248,
+  "name": "Emergent Combat Analyzer",
+  "description": "This combat analyzer appears to use the same fundamental programming as standard Empire-issue technology, although it operates at a much higher level of efficiency. These devices are typically employed in fleets where they provide predictive analyses of complex battle scenarios and supplement other combat electronics that handle smaller elements. \n\nCombat analyzers are best employed in tasks such as calculating a fleet's success rate, running comparative analyses between fleets and other similarly abstract problem-solving tasks requiring higher levels of heuristic programming. Even though the equipment has been badly damaged, the core functionality remains intact. With a skilled programmer and a talented mechanic, it could be re-integrated into a starship.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Ancient Salvage",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

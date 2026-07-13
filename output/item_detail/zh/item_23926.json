@@ -1,0 +1,13 @@
+{
+  "type_id": 23926,
+  "name": "瘟疫孢子",
+  "description": "从小型哺乳动物的皮毛里面搜集来的高传染性细菌孢子。历史上曾造成数起大范围传播的瘟疫。",
+  "volume": 0.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

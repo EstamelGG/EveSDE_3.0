@@ -1,0 +1,13 @@
+{
+  "type_id": 85849,
+  "name": "不死研究报酬",
+  "description": "不死循环会向克隆飞行员给予这些报酬，感谢他们在研究被掩盖的建筑时提供的帮助。它们可以在扎尔扎克星系中出售换成星币。",
+  "volume": 0.001,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

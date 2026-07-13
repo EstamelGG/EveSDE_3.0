@@ -1,0 +1,13 @@
+{
+  "type_id": 3701,
+  "name": "验证结果",
+  "description": "这些复杂的数据表对外行人可能毫无用处，但在专家手中就非常有价值。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 53290,
+  "name": "Capital Trinary State Processor",
+  "description": "An information processing component used in Triglavian ship designs and others adapted from such designs. Potentially useful as a component in various other technologies.\n\nTriglavian technologies are designed to be run by trinary-based code and this device is a key component of information processing in such systems. Determining how to interface with and interpret the input and output of such devices was a key breakthrough in the use of Triglavian technology.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Construction Components",
+  "attributes": [],
+  "traits": []
+}

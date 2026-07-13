@@ -1,0 +1,70 @@
+{
+  "type_id": 35794,
+  "name": "导弹射程脚本",
+  "description": "该脚本可用在导弹制导计算机上以增加导弹的最大速度和飞行时间，不过会降低爆炸速度和爆炸半径。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "弹药",
+  "group_name": "导弹制导脚本",
+  "attributes": [
+    {
+      "attribute_name": "mainColor",
+      "value": 11646664.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "chargeSize",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "弹药尺寸",
+      "unit_name": "1=小型  2=中型  3=大型"
+    },
+    {
+      "attribute_name": "launcherGroup",
+      "value": 1396.0,
+      "categoryID": 7,
+      "display_name": "配套使用（发射器类别）",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "aoeCloudSizeBonusBonus",
+      "value": -100.0,
+      "categoryID": 7,
+      "display_name": "爆炸半径加成修正",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "aoeVelocityBonusBonus",
+      "value": -100.0,
+      "categoryID": 7,
+      "display_name": "爆炸速度加成修正",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "missileVelocityBonusBonus",
+      "value": 100.0,
+      "categoryID": 7,
+      "display_name": "导弹速度加成修正",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "explosionDelayBonusBonus",
+      "value": 100.0,
+      "categoryID": 7,
+      "display_name": "飞行时间加成修正",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

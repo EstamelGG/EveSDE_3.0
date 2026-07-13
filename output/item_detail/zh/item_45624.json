@@ -1,0 +1,141 @@
+{
+  "type_id": 45624,
+  "name": "圣卒核心 - 能量寄取集成体",
+  "description": "早在最初对冬眠者无人机的几次研究中，艾玛工程师就注意到了它们身上的一项非凡的技术：它们能够在没有专门设备帮助的情况下相互之间传输能量。这种技术似乎在所有的无人机上都存在，只有量上的区别。尽管工程技术人员没法在现在的普通舰船上重新构造这个系统，但是他们却想出办法将其整合进模块化的三级科技舰船中。能量寄取复合体完全改变了冬眠者的科技，它通过提升能量中和设备和能量吸取设备的效果，使能量传输方式由共生转变成吸血。",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1200000.0,
+  "category_name": "子系统",
+  "group_name": "核心子系统",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 30539.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "capacitorCapacity",
+      "value": 50.0,
+      "categoryID": 5,
+      "display_name": "电容容量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "subSystemSlot",
+      "value": 125.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hiSlotModifier",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "高槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "medSlotModifier",
+      "value": 2.0,
+      "categoryID": 0,
+      "display_name": "中槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "lowSlotModifier",
+      "value": 2.0,
+      "categoryID": 0,
+      "display_name": "低槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "fitsToShipType",
+      "value": 29986.0,
+      "categoryID": 0,
+      "display_name": "受限于船型",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "subsystemBonusAmarrCore",
+      "value": -5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "subsystemBonusAmarrCore2",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "subsystemEnergyNeutFittingReduction",
+      "value": -50.0,
+      "categoryID": 1,
+      "display_name": "掠能器和能量中和器装配需求降低",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "subsystemBonusAmarrCore3",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b>50%</b> <a href=showinfo:3423>掠能器</a>和<a href=showinfo:3423>能量中和器</a>能量栅格和CPU需求降低"
+    },
+    {
+      "content": "<b><u>附加基础数值</b></u>"
+    },
+    {
+      "content": "中槽+2，低槽+2"
+    },
+    {
+      "content": "电容器电容量+50GJ"
+    },
+    {
+      "content": "<b>10%</b> <a href=showinfo:3423>掠能器</a>和<a href=showinfo:3423>能量中和器</a>吸取量加成"
+    },
+    {
+      "content": "<b>10%</b> <a href=showinfo:3423>掠能器</a>和<a href=showinfo:3423>能量中和器</a>过载效果加成"
+    },
+    {
+      "content": "<b>5%</b> 装备过载损伤降低"
+    }
+  ]
+}

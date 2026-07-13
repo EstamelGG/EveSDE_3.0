@@ -1,0 +1,13 @@
+{
+  "type_id": 22220,
+  "name": "Mind-Altering Drugs",
+  "description": "Inhaling this once can make a person's brain unable to function like it should. One becomes submissive to others and some even lose the will to live. Most addicts end up committing suicide.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.4,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

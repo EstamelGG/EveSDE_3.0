@@ -1,0 +1,13 @@
+{
+  "type_id": 28092,
+  "name": "加达里高级哨站实验室",
+  "description": "针对加达里哨站研究能力的高级升级方案。材料效率研究、时间效率研究、拷贝和发明项目费用额外降低10%（可与同类效果叠加），所有材料效率、生产效率和拷贝研究时间减少50%。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "附件",
+  "group_name": "哨站强化",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 74001,
+  "name": "Military Navigation Telemetry",
+  "description": "Military navigation telemetry is routinely collected from and distributed to fleets in the warzones from the operations centers of the empires. The data is often collated and combined with other information to provide reports to higher command authorities.\n\nWhile not necessarily the most critical intelligence, particular after some time has elapsed, this kind of data can be of great value for analyzing military traffic movements across the warzone. Once authenticated this telemetry will generally be purchased, no questions asked, by the navies and militia forces of the empires.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.01,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

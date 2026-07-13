@@ -1,0 +1,13 @@
+{
+  "type_id": 29481,
+  "name": "格伦点心",
+  "description": "格伦是一种传统的阿赫尔小吃，将碎肉和蔬菜混合后包裹上大片的绿叶，再拿到油里蒸或者炸。格伦点心的大小都近乎于一个拳头的大小，口感鲜滑多汁。这种点心是少有的保留了其古老传统制作方式的食物，而且在新伊甸的宇宙中非常的流行。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "常用物品",
+  "group_name": "冷藏品",
+  "attributes": [],
+  "traits": []
+}

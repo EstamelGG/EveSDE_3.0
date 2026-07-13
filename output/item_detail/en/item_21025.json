@@ -1,0 +1,21 @@
+{
+  "type_id": 21025,
+  "name": "Capital Jump Drive",
+  "description": "A massive hulk of machinery designed to propel a capital vessel through vast tracts of space, allowing it to make its way between systems without the use of a stargate.",
+  "volume": 2000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000.0,
+  "category_name": "Commodity",
+  "group_name": "Capital Construction Components",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

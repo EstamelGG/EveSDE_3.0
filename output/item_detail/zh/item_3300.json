@@ -1,0 +1,42 @@
+{
+  "type_id": 3300,
+  "name": "射击学",
+  "description": "炮台的基本操作技能。每升一级，武器炮台的发射速率提升2%。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "技能",
+  "group_name": "射击学",
+  "attributes": [
+    {
+      "attribute_name": "primaryAttribute",
+      "value": 167.0,
+      "categoryID": 7,
+      "display_name": "主属性",
+      "unit_name": "属性ID"
+    },
+    {
+      "attribute_name": "secondaryAttribute",
+      "value": 168.0,
+      "categoryID": 7,
+      "display_name": "副属性",
+      "unit_name": "属性ID"
+    },
+    {
+      "attribute_name": "skillTimeConstant",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "训练时间倍增系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "turretSpeeBonus",
+      "value": -2.0,
+      "categoryID": 7,
+      "display_name": "射击速度加成",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

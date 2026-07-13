@@ -1,0 +1,13 @@
+{
+  "type_id": 3729,
+  "name": "Toxic Waste",
+  "description": "Waste from various production industries and arms manufacturers can be hazardous to the environment, but instead of dumping it to the void, it can be sold to those who see value in the material.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2000.0,
+  "category_name": "Commodity",
+  "group_name": "Radioactive",
+  "attributes": [],
+  "traits": []
+}

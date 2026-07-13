@@ -1,0 +1,13 @@
+{
+  "type_id": 36957,
+  "name": "建筑加速线圈",
+  "description": "建造太空建筑中跃迁和工程相关设施所需的组件。",
+  "volume": 3000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000.0,
+  "category_name": "常用物品",
+  "group_name": "建筑组件",
+  "attributes": [],
+  "traits": []
+}

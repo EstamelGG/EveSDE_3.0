@@ -1,0 +1,63 @@
+{
+  "type_id": 29005,
+  "name": "Optimal Range Disruption Script",
+  "description": "Originally used by the adolescent hacker group The 'Fendahlian Collective' to break past high tech security firmware, these script packs contain intricate code which modify the inherent behavior of certain modules by directly inserting commands into the firmware. The applications of such technology was not lost on the major players and the kids who invented it now head their own research divisions.\n\nThis script can be loaded into a tracking disruptor module to increase the module's optimal range effect at the expense of its tracking speed effect.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Charge",
+  "group_name": "Tracking Disruption Script",
+  "attributes": [
+    {
+      "attribute_name": "mainColor",
+      "value": 11646664.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "chargeSize",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Charge size",
+      "unit_name": "1=small 2=medium 3=l"
+    },
+    {
+      "attribute_name": "launcherGroup",
+      "value": 291.0,
+      "categoryID": 7,
+      "display_name": "Used with (Launcher Group)",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "maxRangeBonusBonus",
+      "value": 100.0,
+      "categoryID": 6,
+      "display_name": "Modification of Optimal Range Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "trackingSpeedBonusBonus",
+      "value": -100.0,
+      "categoryID": 7,
+      "display_name": "Modification of Tracking Speed Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "falloffBonusBonus",
+      "value": 100.0,
+      "categoryID": 7,
+      "display_name": "Modification of Falloff Bonus",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 13328,
+  "name": "星图",
+  "description": "这些被称作星图的纸上标记了大量旅游及贸易线路。尽管大多老练的旅行家的电脑里都存了旅行线路，但携带一些硬拷贝以防万一还是蛮方便的。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

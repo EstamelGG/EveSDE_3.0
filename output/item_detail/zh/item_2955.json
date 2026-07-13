@@ -1,0 +1,13 @@
+{
+  "type_id": 2955,
+  "name": "一大箱不明纤维复合物",
+  "description": "这些蓝绿色的复合物摸上去像油一样滑，而且会让你手指刺痛。其中的晶体细丝会折射光线，导致每个看上去都像从内部发光一样。",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

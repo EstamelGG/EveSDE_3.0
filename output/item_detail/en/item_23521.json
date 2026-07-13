@@ -1,0 +1,13 @@
+{
+  "type_id": 23521,
+  "name": "Serpentis Transaction Log",
+  "description": "These logs contain information on transactions between Serpentis agents and outsiders, such as drug and arms sales etc.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,21 @@
+{
+  "type_id": 16640,
+  "name": "Cobalt",
+  "description": "A silvery ferromagnetic element, used among other things in superalloys, magnetics, battery electrodes, and various metals and steels.",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 3544.0,
+  "category_name": "Material",
+  "group_name": "Moon Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

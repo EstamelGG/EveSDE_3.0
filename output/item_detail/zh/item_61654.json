@@ -1,0 +1,21 @@
+{
+  "type_id": 61654,
+  "name": "过期的不稳定的跃迁矩阵纤维",
+  "description": null,
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "常用物品",
+  "group_name": "跃迁矩阵纤维",
+  "attributes": [
+    {
+      "attribute_name": "FilamentDescriptionMessageID",
+      "value": 561098.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,63 @@
+{
+  "type_id": 48148,
+  "name": "CreoDron 'Yellowjacket' Drone Tuner D5-10T",
+  "description": "The Gallente drone technology corporation CreoDron has experimented extensively with methods of reconfiguring and tuning the combat parameters of standard drones. These efforts have long relied on ship hardware and modules but CreoDron has recently developed new implants that will allow pilots to rewrite the firmware of standard drones on the fly. Using shipboard nano-systems the physical parameters of the drones will then be changed according to the tuning of the implant design.\n\nThe CreoDron 'Yellowjacket' Drone Tuner D5-10T increases the damage output of drones at the expense of the strength of their defensive layers.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Implant",
+  "group_name": "Cyber Drones",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3411.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 3.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "damageMultiplierBonus",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Damage Multiplier Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "hullHpBonus",
+      "value": -10.0,
+      "categoryID": 4,
+      "display_name": "Hitpoint Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "implantness",
+      "value": 9.0,
+      "categoryID": 7,
+      "display_name": "Implant Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "armorHpBonus",
+      "value": -10.0,
+      "categoryID": 3,
+      "display_name": "Armor Hitpoint Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldCapacityBonus",
+      "value": -10.0,
+      "categoryID": 2,
+      "display_name": "Shield Capacity Bonus",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 22174,
+  "name": "Blue Box",
+  "description": "Small, sealed box. A single socket connects it to the outside world.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

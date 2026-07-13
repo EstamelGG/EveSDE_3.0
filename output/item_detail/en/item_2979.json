@@ -1,0 +1,13 @@
+{
+  "type_id": 2979,
+  "name": "Crate of Industrial-Grade Tritanium-Alloy Scraps",
+  "description": "Not all scrap-metal is of good enough quality to be reused in the shipbuilding industry. These are the highest quality to be found in the scrap-heaps and abandoned battlegrounds of New Eden. Some pieces still bear signs of what they were once a part of: a sheet of tinted plating here, a painted logo there. Some pieces are still recognizable, others are half-slagged and warped.",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,49 @@
+{
+  "type_id": 54538,
+  "name": "黑市'弗拉基米尔'无人机精准射击 DS-803",
+  "description": "这款神经接口升级芯片得名于米玛塔尔古老传说中的水生恶魔蠕虫，能够提高无人机和铁骑舰载机的最佳射程。\n\n\n\n无人机和铁骑舰载机的最佳射程提高3%。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "脑控无人机",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3411.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 2.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "rangeSkillBonus",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "最佳射程调整",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "implantness",
+      "value": 8.0,
+      "categoryID": 7,
+      "display_name": "植入体槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    }
+  ],
+  "traits": []
+}

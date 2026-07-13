@@ -1,0 +1,13 @@
+{
+  "type_id": 30968,
+  "name": "CPF保安人员",
+  "description": "企业的警察部队人员，即使在最危急的时候他们也能保持镇定，这是他们所引以为豪的名誉。就算是他们刚刚撤离的建筑就在他们身后化成火球变为灰烬，他们也不会表现出丝毫的颤栗。对于这些人来说，这样的事情只是家常便饭。",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 85.0,
+  "category_name": "常用物品",
+  "group_name": "有生货物",
+  "attributes": [],
+  "traits": []
+}

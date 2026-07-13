@@ -1,0 +1,13 @@
+{
+  "type_id": 17989,
+  "name": "Thorak's Private Key",
+  "description": "Thorak holds on to the passkey to the second deadspace pocket with his dear life. It unlocks the acceleration gate which will remain open for a short period of time. The key has a self-destruct mechanism, activated upon use.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

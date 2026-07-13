@@ -1,0 +1,13 @@
+{
+  "type_id": 25551,
+  "name": "血袭者的船坞密匙卡片",
+  "description": "这张密匙卡片的持有者可以进入血袭者海军船坞的最深空间层。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

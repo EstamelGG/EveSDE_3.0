@@ -1,0 +1,13 @@
+{
+  "type_id": 23739,
+  "name": "Recon Speeders",
+  "description": "Reconnaissance vehicles that comprise an essential part of any respectable ground force.",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

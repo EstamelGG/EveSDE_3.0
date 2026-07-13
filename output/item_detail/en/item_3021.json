@@ -1,0 +1,13 @@
+{
+  "type_id": 3021,
+  "name": "Crate of Portable Emergency Heating Units",
+  "description": "These heating units are compact, and light enough to carry in one hand. Each comes with two 10-hour rechargeable batteries, to be used one at a time while the spare charges. The amount of energy one unit puts off would be enough to warm a space of 20 cubic meters, roughly the interior space of a stationside apartment's main room, to an average of 10 degrees Celsius. Not particularly cosy, but better than freezing.",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

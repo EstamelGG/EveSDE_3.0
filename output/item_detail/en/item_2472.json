@@ -1,0 +1,35 @@
+{
+  "type_id": 2472,
+  "name": "Plasma Advanced Industry Facility",
+  "description": "Instead of laboring to shield the production lines of this industrial facility from the surrounding environment, designers opted instead to use the available heat, interference, and even crushing pressure to help power the structure itself. A plant on an ice planet might have highly advanced extended heat sinks, while a factory on a plasma world might draw most, if not all of its electricity from magnetized coils specially attuned to the planet's local ion winds. Taking advantage of the indigenous features of each world helps offset the cost of building mass production infrastructure there, which usually involves protective coatings, environmental clothing, and reinforced foundations.",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Planetary Industry",
+  "group_name": "Processors",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 700.0,
+      "categoryID": 7,
+      "display_name": "Power Load",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 500.0,
+      "categoryID": 9,
+      "display_name": "CPU Load",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 2063.0,
+      "categoryID": 7,
+      "display_name": "Planet Type Restriction",
+      "unit_name": "typeID"
+    }
+  ],
+  "traits": []
+}

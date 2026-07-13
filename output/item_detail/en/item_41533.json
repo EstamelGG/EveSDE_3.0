@@ -1,0 +1,140 @@
+{
+  "type_id": 41533,
+  "name": "Ligature Integrated Analyzer",
+  "description": "As this multi-use analyzer has both fully integrated archaeology and hacking systems, it can be used to both analyze ancient ruins and bypass electronic security systems.\n\nWhilst comparatively weaker than its more specialized counterparts, its combined functionality provides the user with an increased flexibility when it comes to fitting.\n\nNote: Due to recently discovered branch prediction vulnerabilities in certain Upwell Consortium Recursive Computing Modules this analyzer may also be used to collect sensitive information concerning reinforcement periods of Upwell Structures.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Module",
+  "group_name": "Data Miners",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 20.0,
+      "categoryID": 5,
+      "display_name": "Activation Cost",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 1.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Usage",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 25.0,
+      "categoryID": 1,
+      "display_name": "CPU usage",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 5000.0,
+      "categoryID": 29,
+      "display_name": "Optimal Range",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 10000.0,
+      "categoryID": 7,
+      "display_name": "Activation time / duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 13278.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 21718.0,
+      "categoryID": 8,
+      "display_name": "Secondary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "accessDifficultyBonus",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Access Difficulty Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "disallowRepeatingActivation",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Cannot Auto Repeat",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "metaGroupID",
+      "value": 3.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "virusCoherence",
+      "value": 20.0,
+      "categoryID": 7,
+      "display_name": "Virus Coherence",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "virusStrength",
+      "value": 20.0,
+      "categoryID": 7,
+      "display_name": "Virus Strength",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "virusElementSlots",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Virus Utility Element Slots",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

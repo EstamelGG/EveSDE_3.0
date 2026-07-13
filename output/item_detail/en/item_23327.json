@@ -1,0 +1,13 @@
+{
+  "type_id": 23327,
+  "name": "Temko Mercenaries",
+  "description": "Mercenaries working for the Gallente organization, Temko.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

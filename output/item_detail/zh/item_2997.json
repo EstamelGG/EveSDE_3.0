@@ -1,0 +1,13 @@
+{
+  "type_id": 2997,
+  "name": "一箱精炼的C-86环氧树脂",
+  "description": "这种改进过的C-86环氧树脂应用于推进系统与引擎罩上。它具有降温作用，能让系统高效运转并降低因系统过热引发火灾的概率。",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

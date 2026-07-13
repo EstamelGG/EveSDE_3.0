@@ -1,0 +1,21 @@
+{
+  "type_id": 16659,
+  "name": "Carbon Polymers",
+  "description": "A synthetic carbon compound created from raw hydrocarbons and silicate rock materials. Important ingredients in a variety of carbon- and gel-based composites.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Intermediate Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

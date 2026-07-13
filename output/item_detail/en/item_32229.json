@@ -1,0 +1,13 @@
+{
+  "type_id": 32229,
+  "name": "Singed Datapad",
+  "description": "This barely-functioning piece of personal electronics turns out to contain ledger upon ledger of financial statements, high-level meeting transcripts and company rosters from several public and private Minmatar organizations. A large portion of the data is encoded in some sort of advanced cipher, leaving it completely unintelligible.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

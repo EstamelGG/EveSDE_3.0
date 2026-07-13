@@ -1,0 +1,13 @@
+{
+  "type_id": 44205,
+  "name": "吉萨亚的巨大的安全货柜",
+  "description": "从外形上看，这个巨大的安全集装箱并没有什么奇特之处，除了箱子上封有海关设计的电磁生物锁。似乎如果不解锁，这个集装箱根本就无法打开。箱子里包含了成千上万有关新伊甸所发生事件的新闻报道和评论文章的数据核心。",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

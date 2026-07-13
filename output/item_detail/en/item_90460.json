@@ -1,0 +1,28 @@
+{
+  "type_id": 90460,
+  "name": "Abyssal Mining Laser",
+  "description": "Extracts common ore quickly, but has difficulty with the more rare types.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Module",
+  "group_name": "Mining Laser",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 4.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

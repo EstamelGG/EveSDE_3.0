@@ -1,0 +1,13 @@
+{
+  "type_id": 28360,
+  "name": "铜质奖牌",
+  "description": "大型联盟锦标赛铜牌。没有飞行员是冲着它来的，也没有人为拥有它而骄傲。有人称铜牌者是优秀者中最差的，但尽管他们最终失败，在之前的战斗中还是取得了不少胜利。他们也许没有光环，但不缺少荣誉和尊敬。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

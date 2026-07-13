@@ -1,0 +1,13 @@
+{
+  "type_id": 87226,
+  "name": "Simulated Baseliner",
+  "description": "Vast quantities of data have been collated to construct this precise simulation of one of New Eden’s many baseline humans.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

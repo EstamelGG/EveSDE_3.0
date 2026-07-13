@@ -1,0 +1,63 @@
+{
+  "type_id": 57327,
+  "name": "埃菲尔 游侠 迅捷 臻牛型",
+  "description": "这种特殊型号的增效剂可以稳定地激发飞行员的飞行天赋，不会产生任何负作用。\n\n使用后的效果为：\n\n加力燃烧器和微型跃迁引擎的速度增量增加5%\n\n舰船跃迁速度增加10%\n\n加力燃烧器持续时间增加10%\n\n此效果可以在使用后的至少7天内持续发挥效能，具体时间根据植入者的<a href=showinfo:3405>生物学</a>技能等级而定。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "durationBonus",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "单次运转时间加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "speedFBonus",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 604800000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "WarpSBonus",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "跃迁速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 109.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "nondestructible",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "无法摧毁",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "followsJumpClones",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "跟随远距克隆",
+      "unit_name": "1=True 0=False"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 87605,
+  "name": "执行指挥单元",
+  "description": "只有迷宫复合体的冬眠者无人机才会配备这些执行指挥单元。该单元可以将无人机执行的每一步与迷宫的超级结构相关联，推动迷宫运转。这对占领流浪者虫洞的势力或其留在新伊甸的军团而言，具有重要意义。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

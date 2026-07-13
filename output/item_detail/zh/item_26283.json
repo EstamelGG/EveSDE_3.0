@@ -1,0 +1,13 @@
+{
+  "type_id": 26283,
+  "name": "主控密匙",
+  "description": "这把钥匙可以开启这个复合体中——尤其是环形研发设施——的所有加速轨道。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

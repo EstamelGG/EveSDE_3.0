@@ -1,0 +1,21 @@
+{
+  "type_id": 16660,
+  "name": "Ceramic Powder",
+  "description": "A fine powder synthesized from various natural gases and solids through reactant processes. Used as a strengthening agent in both armor plating and shield generators, as well as constituting an important part of many other composite materials.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Intermediate Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

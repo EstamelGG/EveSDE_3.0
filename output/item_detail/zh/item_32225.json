@@ -1,0 +1,13 @@
+{
+  "type_id": 32225,
+  "name": "加密的信息",
+  "description": "这条信息被以一种熟悉的混合加密方式加密了。只有那些熟知暗涌之域内幕的人才知道是怎么回事。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

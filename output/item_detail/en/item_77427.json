@@ -1,0 +1,13 @@
+{
+  "type_id": 77427,
+  "name": "Historic Capsuleer Day Clothing Crate",
+  "description": "This crate contains a random piece of Historic Capsuleer Day Apparel.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

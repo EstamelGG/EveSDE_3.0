@@ -1,0 +1,13 @@
+{
+  "type_id": 26708,
+  "name": "Port Rolette Residents",
+  "description": "A resident of the illegal settlement, Port Rolette.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

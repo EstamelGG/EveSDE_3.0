@@ -1,0 +1,13 @@
+{
+  "type_id": 56708,
+  "name": "星际导航日志",
+  "description": "三神裔对任何种类的从太空旅行舰船中找到的导航日志非常感兴趣。星际航线的绘制包括穿越星门、导管星门、纤维导管和虫洞，都对三神裔了解如何控制自己领地内的交通流动有很大帮助。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

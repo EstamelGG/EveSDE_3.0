@@ -1,0 +1,63 @@
+{
+  "type_id": 48148,
+  "name": "西顿工业\"黄衫侠\"无人机调节器D5-10T",
+  "description": "盖伦特无人机技术巨头西顿工业正在钻研重设和调整标准型无人机的战斗属性的方法。过去这种调整依赖于舰船的硬件和装备，但西顿工业最近研发出了新的植入体，让飞行员可以在标准型无人机飞行过程中重写它的固件信息。使用舰载的纳米系统之后，无人机的物理属性就会按照植入体的预设进行更改。\n\n\n\n西顿工业\"黄衫侠\"无人机调节器D5-10T牺牲了无人机的防御强度，提高了它们的伤害输出。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "脑控无人机",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3411.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 3.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "damageMultiplierBonus",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "伤害倍增系数加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "hullHpBonus",
+      "value": -10.0,
+      "categoryID": 4,
+      "display_name": "HP加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "implantness",
+      "value": 9.0,
+      "categoryID": 7,
+      "display_name": "植入体槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "armorHpBonus",
+      "value": -10.0,
+      "categoryID": 3,
+      "display_name": "装甲值加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldCapacityBonus",
+      "value": -10.0,
+      "categoryID": 2,
+      "display_name": "护盾容量加成",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

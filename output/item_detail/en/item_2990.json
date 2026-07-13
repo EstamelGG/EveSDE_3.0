@@ -1,0 +1,13 @@
+{
+  "type_id": 2990,
+  "name": "Crate of Decoy Prototype Cloaking Devices",
+  "description": "This decoy prototype cloaking device appears to be a working model; however, closer scrutiny reveals that it is nothing more than a useless hunk of metal and wires.",
+  "volume": 500.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 500.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

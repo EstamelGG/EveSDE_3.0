@@ -1,0 +1,13 @@
+{
+  "type_id": 34778,
+  "name": "CSM 10 Electee Archive Script",
+  "description": "A secure holographic datapad, used to access the CONCORD public information database.\n \n \n//archive_yulai8_ict -search\n>SEARCH INITIATED\n>SEARCH SEQUENCE... COMPLETE\n//archive_csm -search\n>ARCHIVE SEARCH... COMPLETE\n>LOADING... COMPLETE\n \nCouncil of Stellar Management 10 electees:\n \n<url=showinfo:1375//92888420>Cagali Cagali</url>\n<url=showinfo:1377//94447432>Chance Ravinne</url>\n<url=showinfo:1379//1189792277>corbexx</url>\n<url=showinfo:1376//1260698623>corebloodbrothers</url>\n<url=showinfo:1386//95190469>Endie</url>\n<url=showinfo:1380//736229961>Gorga</url>\n<url=showinfo:1375//91688663>Jayne Fillon</url>\n<url=showinfo:1373//814076069>Manfred Sideous</url>\n<url=showinfo:1377//1946611318>Mike Azariah</url>\n<url=showinfo:1384//720191856>Sion Kumitomo</url>\n<url=showinfo:1384//1272172192>Sort Dragon</url>\n<url=showinfo:1379//90926985>Steve Ronuken</url>\n<url=showinfo:1379//91512622>Sugar Kyle</url>\n<url=showinfo:1378//142180392>Thoric Frosthammer</url>",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

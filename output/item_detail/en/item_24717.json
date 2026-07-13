@@ -1,0 +1,13 @@
+{
+  "type_id": 24717,
+  "name": "Havatiah's Ship Database",
+  "description": "This tiny, glassy data chip holds information from the database of a ship formerly in the possession of Havatiah Kiin.  Information stored within here could be anything from the ship's logs.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

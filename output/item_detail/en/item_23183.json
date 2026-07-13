@@ -1,0 +1,42 @@
+{
+  "type_id": 23183,
+  "name": "Incognito Process",
+  "description": "The data found here can be utilized to increase overall efficiency in Gallente invention jobs.<br><br>Probability Multiplier: +10% <br>Max. Run Modifier: N/A <br>Material Efficiency Modifier: +3 <br>Time Efficiency Modifier: +6",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Decryptors",
+  "group_name": "Decryptors - Gallente",
+  "attributes": [
+    {
+      "attribute_name": "inventionPropabilityMultiplier",
+      "value": 1.1,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "inventionMEModifier",
+      "value": 3.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "inventionTEModifier",
+      "value": 6.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "inventionMaxRunModifier",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

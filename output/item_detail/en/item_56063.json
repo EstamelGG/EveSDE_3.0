@@ -1,0 +1,79 @@
+{
+  "type_id": 56063,
+  "name": "Strong Metaliminal Plasma Firestorm",
+  "description": null,
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Celestial",
+  "group_name": "Effect Beacon",
+  "attributes": [
+    {
+      "attribute_name": "armorHPMultiplier",
+      "value": 1.25,
+      "categoryID": 3,
+      "display_name": "Armor Hitpoint Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "trackingSpeedMultiplier",
+      "value": 0.5,
+      "categoryID": 26,
+      "display_name": "Tracking Speed Multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "thermalDamageResistanceBonus",
+      "value": 25.0,
+      "categoryID": 7,
+      "display_name": "Thermal Damage Resistance Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorThermalDamageResistanceBonus",
+      "value": 25.0,
+      "categoryID": 3,
+      "display_name": "Armor thermal resistance bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "damageMultiplierMultiplier",
+      "value": 1.5,
+      "categoryID": 1,
+      "display_name": "Damage multiplier multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "shieldThermalDamageResistanceBonus",
+      "value": 25.0,
+      "categoryID": 2,
+      "display_name": "Shield Thermal Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "aoeCloudSizeMultiplier",
+      "value": 1.5,
+      "categoryID": 0,
+      "display_name": "Explosion radius multiplier",
+      "unit_name": "x"
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b>25%</b> reduction in ship thermal resistances"
+    },
+    {
+      "content": "<b>25%</b> bonus to ship armor hitpoints"
+    },
+    {
+      "content": "<b>50%</b> bonus to turret, missile, drone, and fighter damage"
+    },
+    {
+      "content": "<b>50%</b> reduction in turret and drone tracking speed"
+    },
+    {
+      "content": "<b>50%</b> increase to missile and fighter explosion radius"
+    }
+  ]
+}

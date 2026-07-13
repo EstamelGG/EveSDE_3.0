@@ -1,0 +1,13 @@
+{
+  "type_id": 21851,
+  "name": "Formula for Septicemic Agent",
+  "description": "This is a chemistry formula for creating an extremely potent viral agent, using materials readily available on the market.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

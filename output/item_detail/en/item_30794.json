@@ -1,0 +1,13 @@
+{
+  "type_id": 30794,
+  "name": "Farming Supplies",
+  "description": "This huge freight container is loaded with all sorts of agricultural equipment. Almost anything a farm could need has been packed away inside, from seeds and plant samples to tractors and ploughs.",
+  "volume": 150.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 50000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

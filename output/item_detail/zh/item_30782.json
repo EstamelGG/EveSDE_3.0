@@ -1,0 +1,13 @@
+{
+  "type_id": 30782,
+  "name": "损坏的无人机部件",
+  "description": "这些部件应该是从损坏的无人机上收集起来的。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

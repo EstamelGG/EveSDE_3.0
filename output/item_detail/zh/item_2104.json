@@ -1,0 +1,168 @@
+{
+  "type_id": 2104,
+  "name": "远距索敌计算机 II",
+  "description": "与另一艘飞船建立一条火力控制链路，增加其炮台的射程和跟踪速度。该装备可与脚本合用来提升其在某些方面的效果。 \n\n惩罚：在一艘舰船上使用多个这类装备或多个与该装备作用一致的类似装备将削弱实际使用效果。",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": 1.0,
+  "mass": null,
+  "category_name": "装备",
+  "group_name": "远距索敌计算机",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 24.0,
+      "categoryID": 5,
+      "display_name": "启用耗电量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 1.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 36.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 48000.0,
+      "categoryID": 29,
+      "display_name": "最佳射程",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 12000.0,
+      "categoryID": 7,
+      "display_name": "作用时间/单次运转时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "chargeSize",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "弹药尺寸",
+      "unit_name": "1=小型  2=中型  3=大型"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3433.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 4.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "falloffBonus",
+      "value": 15.0,
+      "categoryID": 37,
+      "display_name": "失准范围加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "maxRangeBonus",
+      "value": 7.5,
+      "categoryID": 37,
+      "display_name": "最佳射程加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "chargeGroup1",
+      "value": 907.0,
+      "categoryID": 7,
+      "display_name": "配套使用（弹药类别）",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "trackingSpeedBonus",
+      "value": 15.0,
+      "categoryID": 37,
+      "display_name": "跟踪速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "heatAbsorbtionRateModifier",
+      "value": 0.02,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "heatDamage",
+      "value": 4.0,
+      "categoryID": 52,
+      "display_name": "超载损耗",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredThermoDynamicsSkill",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "所需热力学等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "reloadTime",
+      "value": 0.01,
+      "categoryID": 7,
+      "display_name": "重新装填时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "disallowAgainstEwImmuneTarget",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "不允许针对免疫电子战的目标",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "overloadTrackingModuleStrengthBonus",
+      "value": 15.0,
+      "categoryID": 7,
+      "display_name": "过载效果加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "falloffEffectiveness",
+      "value": 24000.0,
+      "categoryID": 29,
+      "display_name": "效果失准范围",
+      "unit_name": "m"
+    }
+  ],
+  "traits": []
+}

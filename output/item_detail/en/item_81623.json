@@ -1,0 +1,28 @@
+{
+  "type_id": 81623,
+  "name": "Supercapital Construction Facilities",
+  "description": "These facilities enable the onlining of <a href=showinfo:35877>Standup supercapital shipyards</a> at any <a href=showinfo:35827>Sotiyo</a>-class engineering complexes in the system.",
+  "volume": 200000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Infrastructure Upgrades",
+  "group_name": "Sovereignty Hub Service Infrastructure Upgrade",
+  "attributes": [
+    {
+      "attribute_name": "sovBillSystemCostDEPRECATED",
+      "value": 40000000.0,
+      "categoryID": 7,
+      "display_name": "Daily Upkeep Cost",
+      "unit_name": "ISK"
+    },
+    {
+      "attribute_name": "devIndexSovereignty",
+      "value": 1.0,
+      "categoryID": 0,
+      "display_name": "Required Development Index Level (Strategic)",
+      "unit_name": "Level"
+    }
+  ],
+  "traits": []
+}

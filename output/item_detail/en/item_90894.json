@@ -1,0 +1,13 @@
+{
+  "type_id": 90894,
+  "name": "Cryostorm Clarifier",
+  "description": "Experimental technology that pierces through Volatile Ice Storm interference. It is similar to devices used by Sansha’s Nation to boost sensors, allowing them to pinpoint otherwise hidden sites within storm sectors. As the technology remains unstable, using it will cause ship restriction shifts on acceleration gates.\n\n<i>Can be deposited in a Sansha’s Transit Modulator near the entry gate of a Wightstorm Forward Base, granting access to a more dangerous sector of the storm that allows marauders.</i>",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Verity Cryo Tech",
+  "attributes": [],
+  "traits": []
+}

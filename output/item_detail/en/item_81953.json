@@ -1,0 +1,13 @@
+{
+  "type_id": 81953,
+  "name": "Upwell Consortium Loyalty Token",
+  "description": "These tokens are given to capsuleers who have contributed to the prosperity of New Eden in partnership with the Upwell Consortium. They can be traded on the market for ISK in most Upwell Consortium member corporation stations.",
+  "volume": 0.001,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

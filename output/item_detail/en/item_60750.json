@@ -1,0 +1,13 @@
+{
+  "type_id": 60750,
+  "name": "AEGIS Security Patrol Reports",
+  "description": "These databases contain encrypted patrol reports describing the day-to-day activities of various AEGIS security patrol units. While the amount of information is quite high, much of it is likely to be tedious routine patrol logs, with precious view truly valuable nuggets of information included. As the data is encrypted it is also of less value to outlaws who will need to go to the effort of decrypting without knowing if there's anything here other than the banal musings of AEGIS security officers. Still, all such data has some use so pirates will probably buy this.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

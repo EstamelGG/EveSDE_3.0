@@ -1,0 +1,28 @@
+{
+  "type_id": 2392,
+  "name": "Oxidizing Compound",
+  "description": "Converting various matter from its basic state to an oxidized form requires an oxidizing compound, the most effective of which is a powerful agent made from pressurized reactive gas. Special containers are required to keep the compound from causing significant damage to common metals and organic life.",
+  "volume": 0.19,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Planetary Commodities",
+  "group_name": "Basic Commodities - Tier 1",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 400.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 400.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

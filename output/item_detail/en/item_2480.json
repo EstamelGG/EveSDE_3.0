@@ -1,0 +1,35 @@
+{
+  "type_id": 2480,
+  "name": "Temperate Advanced Industry Facility",
+  "description": "Populated almost entirely by robotic laborers, mass production facilities excel at creating products in bulk with minimal supervision and maintenance. They can be so self-sufficient that rumors abound of Gallente factories operated entirely by androids and governed by a skeleton crew of drones. (Detractors of this method like to note that Sansha facilities work in much the same fashion.) Either way, the results are irrefutable: Raw materials and components go in one end, and polished commodities come out the other side.",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Planetary Industry",
+  "group_name": "Processors",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 700.0,
+      "categoryID": 7,
+      "display_name": "Power Load",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 500.0,
+      "categoryID": 9,
+      "display_name": "CPU Load",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 11.0,
+      "categoryID": 7,
+      "display_name": "Planet Type Restriction",
+      "unit_name": "typeID"
+    }
+  ],
+  "traits": []
+}

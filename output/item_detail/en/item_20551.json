@@ -1,0 +1,13 @@
+{
+  "type_id": 20551,
+  "name": "Manchura's Logs",
+  "description": "A small wafer of semiconductor material that forms the base for an integrated circuit.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

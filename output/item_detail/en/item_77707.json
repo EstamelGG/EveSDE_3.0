@@ -1,0 +1,13 @@
+{
+  "type_id": 77707,
+  "name": "Unaligned Dekaisogen",
+  "description": "This dense and brittle material is formed from Crystalline Isogen-10 and has a molecular arrangement similar to the Triglavian product of that material known as Lattice Locked Dekaisogen. Unlike the Lattice Locked variant the molecules in Unaligned Dekaisogen have drifted and its structure has become unstable. \n\nWhether this is a byproduct of the lattice locking process, or a compromised version of the finished product is unclear. Either way, it provides an insight into the process making it valuable to those seeking to uncover the secrets of Triglavian tech.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Homefront Operations Commodity",
+  "attributes": [],
+  "traits": []
+}

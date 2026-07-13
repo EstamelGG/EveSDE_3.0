@@ -1,0 +1,13 @@
+{
+  "type_id": 3007,
+  "name": "Large Crate of Feille d'Marnne Champagne",
+  "description": "This champagne originates from Egghelende III, the planet's major product for export. Shipping it out of the pirate-heavy system makes it pricey enough, but the grapes have proven impossible to cultivate anywhere else in the Federation.<br><br>\nEach case is worth a couple hundred thousand ISK. Each bottle would bring enough planetary cred for a civilian to live comfortably for a year or ten. A bottle or three would definitely be missed.",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

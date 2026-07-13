@@ -1,0 +1,105 @@
+{
+  "type_id": 2082,
+  "name": "Genolution Core Augmentation CA-1",
+  "description": "<font color=\"yellow\"><b>Traits</b></font><br>Slot 1<br>Primary Effect: +3 bonus to Perception<br>Secondary Effect: +1.5% bonus to powergrid and capacitor amount<br>Implant Set Effect: 50% bonus to the strength of all Genolution implant secondary effects<br><br><font color=\"yellow\"><b>Development</b></font><br>The modestly titled “Core Augmentation” implant set was developed by Genolution with the assistance of implantation specialists and other leaders in the field of neural augmentation, some of whom have long been rumored to be SoCT alumni.<br><br>The CA-1 is a rarity in the often hyper-specialized industry of neural augmentations. It provides a dual function; tapping into both the occipital lobe for a perception boost, and also the neocortex, for improving the brain's handling of a ship's energy and capacitor needs. Like the infamous pirate implant sets found on capsuleer markets, each implant is also designed to work at higher levels when integrated into a neural implant network.<br><br>Though many in the augmentation industry initially questioned the agenda behind Genolution's entry into the implantation field, fears eventually subsided as the implant was shown to be one of the safest on record. Genolution went one step further to assuage fears however and vowed never to release the implant to open markets, providing only a single-run issue to capsuleers as a demonstration of the technology.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Implant",
+  "group_name": "Special Edition Implant",
+  "attributes": [
+    {
+      "attribute_name": "charismaBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Charisma Modifier",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "intelligenceBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Intelligence Modifier",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "memoryBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Memory Modifier",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "perceptionBonus",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "Perception Modifier",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "willpowerBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Willpower Modifier",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3411.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 2.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "powerEngineeringOutputBonus",
+      "value": 1.5,
+      "categoryID": 7,
+      "display_name": "Power Output Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "implantness",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Implant Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 7.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "capacitorCapacityBonus",
+      "value": 1.5,
+      "categoryID": 5,
+      "display_name": "Capacitor Modifier",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "implantSetChristmas",
+      "value": 1.5,
+      "categoryID": 7,
+      "display_name": "Genolution Set Bonus",
+      "unit_name": "x"
+    }
+  ],
+  "traits": []
+}

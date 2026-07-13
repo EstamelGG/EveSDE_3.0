@@ -1,0 +1,28 @@
+{
+  "type_id": 3645,
+  "name": "水",
+  "description": "水是人类生存必不可少的基本元素之一。这种化合物的储备在许多地方都相对稀缺，因此必须要靠星际飞船运送才能满足供应。",
+  "volume": 0.19,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "行星商品",
+  "group_name": "基础资源物品 - 第一等级",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 400.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 400.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

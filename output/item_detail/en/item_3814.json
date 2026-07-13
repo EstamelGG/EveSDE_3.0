@@ -1,0 +1,13 @@
+{
+  "type_id": 3814,
+  "name": "Reports",
+  "description": "These encoded reports may mean little to the untrained eye, but can prove valuable to the relevant institution.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "General",
+  "attributes": [],
+  "traits": []
+}

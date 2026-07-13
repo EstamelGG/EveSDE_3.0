@@ -1,0 +1,13 @@
+{
+  "type_id": 26463,
+  "name": "Free Sample",
+  "description": "The first one is always free.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

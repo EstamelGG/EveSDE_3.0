@@ -1,0 +1,13 @@
+{
+  "type_id": 28996,
+  "name": "Fraudulent Pax Amarria",
+  "description": "This Pax Amarria binding hides a heretical manuscript.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

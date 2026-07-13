@@ -1,0 +1,13 @@
+{
+  "type_id": 17910,
+  "name": "Ruined Stargate Cipher",
+  "description": "This cipher unlocks any of the acceleration gates in the second deadspace pocket in the Angel Military Operations Complex. The gate will remain open for a short period of time and using the cipher will cause it to self-destruct, so use wisely.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

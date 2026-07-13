@@ -1,0 +1,13 @@
+{
+  "type_id": 22741,
+  "name": "Caldari P.A. Keycard Replica",
+  "description": "Key to gain entry to the Caldari Broadcasting unit in Audesder.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

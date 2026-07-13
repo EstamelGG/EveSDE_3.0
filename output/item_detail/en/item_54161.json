@@ -1,0 +1,13 @@
+{
+  "type_id": 54161,
+  "name": "Box of Chocolates",
+  "description": "This small gift box contains a varied selection of chocolate treats.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

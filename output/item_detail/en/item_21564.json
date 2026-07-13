@@ -1,0 +1,13 @@
+{
+  "type_id": 21564,
+  "name": "Milk",
+  "description": "Milk. New, fresh and cold.",
+  "volume": 0.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 400.0,
+  "category_name": "Commodity",
+  "group_name": "Frozen",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,21 @@
+{
+  "type_id": 30022,
+  "name": "试探式自我组装机器人",
+  "description": "这些先进的纳米组装机器人应该可以在运行的途中改变自己的分子构造。在没能弄清楚怎样正确的操作它们之前，这些机器人都处于它们的默认形态。即便是在这种状况下，它们依然可以大大地增强装甲附甲的强度。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "远古打捞",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

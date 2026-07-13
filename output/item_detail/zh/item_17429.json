@@ -1,0 +1,70 @@
+{
+  "type_id": 17429,
+  "name": "双多特石（3级）",
+  "description": "单晶双多特斜岩是双多特石的一类变种，晶体结构稍有不同。它很抢手，因为它的精炼产量较标准的双多特石高10%。双多特石是一种非常珍贵的矿石，含有大量的<a href=showinfo:39>晶状石英核岩</a>和<a href=showinfo:35>类晶体胶矿</a>。它还含有数量可观的<a href=showinfo:36>类银超金属</a>。大多数情况下，你可以在零安全等级星系和虫洞中找到它。",
+  "volume": 16.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1e+35,
+  "category_name": "小行星",
+  "group_name": "双多特石",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 60380.0,
+      "categoryID": 7,
+      "display_name": "回收再生技能",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "asteroidRadiusGrowthFactor",
+      "value": 0.425,
+      "categoryID": 31,
+      "display_name": "小行星半径系数",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "asteroidRadiusUnitSize",
+      "value": 600.0,
+      "categoryID": 31,
+      "display_name": "小行星单位半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "停滞缠绕抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 1223.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "类别ID"
+    }
+  ],
+  "traits": []
+}

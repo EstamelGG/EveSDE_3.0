@@ -1,0 +1,13 @@
+{
+  "type_id": 26781,
+  "name": "Crates of Transmitters",
+  "description": "An electronic device that generates and amplifies a carrier wave, modulates it with a meaningful signal derived from speech or other sources, and radiates the resulting signal from an antenna.",
+  "volume": 60.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 65000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

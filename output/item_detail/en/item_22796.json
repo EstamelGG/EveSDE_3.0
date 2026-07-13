@@ -1,0 +1,13 @@
+{
+  "type_id": 22796,
+  "name": "Gallente Reporter",
+  "description": "A reporter working for The Scope.",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

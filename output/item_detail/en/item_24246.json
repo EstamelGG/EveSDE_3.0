@@ -1,0 +1,13 @@
+{
+  "type_id": 24246,
+  "name": "Bug-Ridden Corpse",
+  "description": "A corpse drained of all blood and filled with nasty bug devices.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

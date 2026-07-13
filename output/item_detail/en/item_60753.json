@@ -1,0 +1,13 @@
+{
+  "type_id": 60753,
+  "name": "AEGIS Covert Operations Reports",
+  "description": "This ultra-heavily encrypted database contains information pertaining to ongoing covert operations being run by AEGIS special forces and infiltration agents. The remit of AEGIS is broad and still gives it wide latitude to investigate threats to interstellar shipping, space infrastructure and planetary defenses. The organization would certainly wish to keep completely secret its various covert commando units and espionage agents. The encryption on this database may never be broken but such is the value of the information contained within it many criminal organizations would pay a hefty price simply to have the opportunity of cracking it.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

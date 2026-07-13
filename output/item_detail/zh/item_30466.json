@@ -1,0 +1,21 @@
+{
+  "type_id": 30466,
+  "name": "机械电子接口节点",
+  "description": "在进行星际航行的舰船中，机电接口节点将各种电子设备的程序指令以数字化的方式传达到各个舰船模块中，再在那里予以执行。一般来说，机电接口节点指的就是在逃生舱中的克隆飞行员同舰船进行信息沟通的接口设备，这个设备实际上就是控制所有舰载机电设施的一个中央控制单元。其他很多的简单命令，比如启动某一个舰船模块也通常是通过这个组件来完成的。",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "混合科技组件",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

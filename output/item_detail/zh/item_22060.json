@@ -1,0 +1,13 @@
+{
+  "type_id": 22060,
+  "name": "冰冻的肝脏",
+  "description": "这些低温存储柜用于运送人体器官从而避免了腐烂的危险。",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 33066,
+  "name": "New Eden Soundbox",
+  "description": "This antiquated music-playing device sure has seen better days. Not only is the outer shell cracked, with wires and inner circuitry running loose, but some power cells seem to be missing as well. All attempts to fix or reconnect this strange device have failed, resulting only in a deafeningly loud static noise coming out of the ship's sound synthesizers. Better leave this off, then.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

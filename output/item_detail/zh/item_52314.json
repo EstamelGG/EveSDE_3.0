@@ -1,0 +1,13 @@
+{
+  "type_id": 52314,
+  "name": "晶格锁定同位聚合体",
+  "description": "三神裔舰船以及其他采用采用相似设计的舰船所使用的强韧而轻巧的建造材料。可能也可用于其他科技种类中。\n\n\n\n晶格锁定同位聚合体用途广泛，是对晶体同位聚合体-10进行处理后获得的产物。这种材料在三神裔科技中广为应用，是三神裔舰船坚固战甲的基础。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "建造组件",
+  "attributes": [],
+  "traits": []
+}

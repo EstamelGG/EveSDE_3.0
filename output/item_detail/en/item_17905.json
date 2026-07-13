@@ -1,0 +1,13 @@
+{
+  "type_id": 17905,
+  "name": "Creo-Synchronization Pass",
+  "description": "This security passkey is manufactured by the Angel Cartel and allows the user to unlock the acceleration gate to the second Creo-Corp deadspace pocket in the Angel Creo-Corp Mining complex. The gate will remain open for a short period of time and the passkey will be rendered useless after uploading the key's data to the gate's activation device.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

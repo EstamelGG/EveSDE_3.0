@@ -1,0 +1,13 @@
+{
+  "type_id": 15613,
+  "name": "帝国海军少校勋章I",
+  "description": "若将此类身份铭牌交给相应组织，它们也许会具有一定价值。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "常用物品",
+  "group_name": "帝国勋章",
+  "attributes": [],
+  "traits": []
+}

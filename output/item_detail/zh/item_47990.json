@@ -1,0 +1,210 @@
+{
+  "type_id": 47990,
+  "name": "昇威A3FP-哨站改装件",
+  "description": "这个特别版的屹立改装件由昇威集团安装于这个升级版势力铁壁中。这个昇威哨站改装件代表了太空建筑科技的最新成果，数量有限，只能通过YC120年的昇威哨站升级项目获得。如果该建筑被摧毁或解除锚定，这个改装件将会彻底损毁，无法复原。<br><br><b>这个改装件提供以下加成：</b><br>护盾值、装甲值、结构值和电容器电量提高25%<br>最大锁定范围提高18%<br>扫描分辨率提高180%<br>最大锁定目标数增加5<br>电容消耗降低42%，定点防御炮塔的最佳射程提高720%<br>制造项目的材料需求降低5%<br>一级科技舰船制造的时间需求降低60%<br>二级科技舰船制造的时间需求降低50%<br><br>此改装件提供的加成不随星系安全等级变化而调整<br><br><b>此特别版改装件提供的加成覆盖任何其他屹立大型改装件提供的类似加成。</b>",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 200.0,
+  "category_name": "建筑装备",
+  "group_name": "哨站转化改装件",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 26252.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 8.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "upgradeCost",
+      "value": 50.0,
+      "categoryID": 1,
+      "display_name": "校准值消耗",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "canFitShipGroup01",
+      "value": 1657.0,
+      "categoryID": 1,
+      "display_name": "只能装配在",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "maxGroupFitted",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "该武器组所允许的最大装备数量",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "rigSize",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "改装件尺寸",
+      "unit_name": "1=小型  2=中型  3=大型"
+    },
+    {
+      "attribute_name": "metaGroupID",
+      "value": 4.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureItemVisualFlag",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureRigMaxTargetBonus",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "目标锁定数上限加成",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "structureRigScanResBonus",
+      "value": 180.0,
+      "categoryID": 7,
+      "display_name": "扫描分辨率加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "structureRigPDRangeBonus",
+      "value": 720.0,
+      "categoryID": 7,
+      "display_name": "定点防卫炮塔范围加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "structureRigPDCapUseBonus",
+      "value": -42.0,
+      "categoryID": 7,
+      "display_name": "定点防卫炮塔电容消耗加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "attributeEngRigMatBonus",
+      "value": -5.0,
+      "categoryID": 37,
+      "display_name": "材料削减加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "structureRigMaxTargetRangeBonus",
+      "value": 18.0,
+      "categoryID": 7,
+      "display_name": "最大锁定范围加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "conversionRigHPCapBonus",
+      "value": 25.0,
+      "categoryID": 37,
+      "display_name": "护盾、装甲、结构值和电容量加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "attributeT1ShipManufactureTime",
+      "value": -60.0,
+      "categoryID": 4,
+      "display_name": "一级科技舰船制造项目时间需求加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "attributeT2ShipManufactureTime",
+      "value": -50.0,
+      "categoryID": 4,
+      "display_name": "二级科技舰船制造项目时间需求加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "attributeAdvCompManufactureTime",
+      "value": 0.0,
+      "categoryID": 4,
+      "display_name": "高级组件制造项目时间需求加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "attributeCapCompManufactureTime",
+      "value": 0.0,
+      "categoryID": 4,
+      "display_name": "旗舰组件制造项目时间需求加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "attributeEquipmentManufactureTime",
+      "value": 0.0,
+      "categoryID": 4,
+      "display_name": "装备制造项目时间需求加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "attributeMEResearchTime",
+      "value": 0.0,
+      "categoryID": 4,
+      "display_name": "材料效率研究项目时间需求加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "attributeTEResearchTime",
+      "value": 0.0,
+      "categoryID": 4,
+      "display_name": "时间效率研究项目时间需求加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "attributeCopyTime",
+      "value": 0.0,
+      "categoryID": 4,
+      "display_name": "蓝图拷贝项目时间需求加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "attributeInventionTime",
+      "value": 0.0,
+      "categoryID": 4,
+      "display_name": "发明项目时间需求加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "attributeResearchCosts",
+      "value": 0.0,
+      "categoryID": 4,
+      "display_name": "材料效率研究、时间效率研究和拷贝项目星币花费降低",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "attributeInventionCosts",
+      "value": 0.0,
+      "categoryID": 4,
+      "display_name": "发明项目星币花费降低",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

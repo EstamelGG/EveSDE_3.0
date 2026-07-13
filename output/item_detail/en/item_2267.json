@@ -1,0 +1,28 @@
+{
+  "type_id": 2267,
+  "name": "Base Metals",
+  "description": "Iron and nickel are two widespread, easily recognized examples of base metals, or those metals that oxidize relatively easily. Their tremendous usefulness in numerous applications ensures that base metals are always in high demand. Thankfully, so is their abundance on most planetary surfaces.",
+  "volume": 0.005,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Planetary Resources",
+  "group_name": "Planet Solid - Raw Resource",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

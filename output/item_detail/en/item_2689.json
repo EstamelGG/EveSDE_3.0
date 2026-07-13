@@ -1,0 +1,13 @@
+{
+  "type_id": 2689,
+  "name": "Large Crates of Oxygen",
+  "description": "Oxygen is a commodity in constant demand. While most stations have their own supply units, smaller depots and space crafts rely on imports.",
+  "volume": 700.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 700000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

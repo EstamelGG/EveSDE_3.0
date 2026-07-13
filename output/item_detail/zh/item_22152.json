@@ -1,0 +1,13 @@
+{
+  "type_id": 22152,
+  "name": "ID卡生成器",
+  "description": "为那些想要逃避统合部身份检查的人士生成假ID。",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

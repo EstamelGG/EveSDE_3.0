@@ -1,0 +1,13 @@
+{
+  "type_id": 2100,
+  "name": "菲诺德的DNA",
+  "description": "若将此类身份铭牌交给相应组织，它们也许会具有一定价值。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

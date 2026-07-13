@@ -1,0 +1,70 @@
+{
+  "type_id": 2459,
+  "name": "贫瘠行星碳化合物采集器",
+  "description": "模块化的生物质开采器是几百年来廉价微型农业生产中最重要的装备。因此，这些设施在很多行星殖民地上都能够看到。这些适应性强的微型生物池可以让定居点的居民改变他们的培育方式以适应当地的环境，并从当地水源的菌群中获得裨益。尽管传统耕作方式在类地行星上依然有很强的生命力，但专业生物质培育师有针对性培育的微型生物产品更是一种有效的农业生产方式。",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "行星工业",
+  "group_name": "采集器",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 800.0,
+      "categoryID": 7,
+      "display_name": "能量负荷",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 200.0,
+      "categoryID": 9,
+      "display_name": "CPU载荷",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "harvesterType",
+      "value": 2288.0,
+      "categoryID": 7,
+      "display_name": "采集类别",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 2016.0,
+      "categoryID": 7,
+      "display_name": "行星类型限制",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "pinExtractionQuantity",
+      "value": 1000.0,
+      "categoryID": 7,
+      "display_name": "采集量",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "pinCycleTime",
+      "value": 300.0,
+      "categoryID": 7,
+      "display_name": "运转周期",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "extractorDepletionRange",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "extractorDepletionRate",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

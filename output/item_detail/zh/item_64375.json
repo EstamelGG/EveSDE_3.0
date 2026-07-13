@@ -1,0 +1,77 @@
+{
+  "type_id": 64375,
+  "name": "大奖赛增效剂 3",
+  "description": "<font color=\"#ff3399cc\"><b>+6% 最大速度，+6% 跃迁速度，-6% 惯性调整系数。持续4小时。</b></font>\n\n\n\n<b>过期时间：YC124年8月9日</b>\n\n\n\n从物品兑换队列中兑换此增效剂后，它将被直接使用。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "agilityBonus",
+      "value": -6.0,
+      "categoryID": 7,
+      "display_name": "惯性调整系数",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3405.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "velocityBonus",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "速度调整",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 14400000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "WarpSBonus",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "跃迁速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 14.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "boosterLastInjectionDatetime",
+      "value": 19213.4583333333,
+      "categoryID": 7,
+      "display_name": "有效期",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

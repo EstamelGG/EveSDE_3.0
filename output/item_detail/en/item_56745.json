@@ -1,0 +1,98 @@
+{
+  "type_id": 56745,
+  "name": "Forever 4-4 Firework",
+  "description": "PKN Interstellar's determination to celebrate the success of its major project to expand the Jita 4-4 station has left no detail overlooked, with its public relations specialists commissioning a space pyrotechnic design for the occasion. The \"Forever 4-4 Firework\" is designed to be shot from Festival Launchers and is intended to signify the enduring future place of Jita 4-4 as the center of New Eden's trade networks.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "Charge",
+  "group_name": "Festival Charges",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 10.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "maxVelocity",
+      "value": 1000.0,
+      "categoryID": 17,
+      "display_name": "Maximum Velocity",
+      "unit_name": "m/sec"
+    },
+    {
+      "attribute_name": "agility",
+      "value": 3000.0,
+      "categoryID": 17,
+      "display_name": "Inertia Modifier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "detonationRange",
+      "value": 35.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "armorPiercingChance",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "launcherGroup",
+      "value": 56.0,
+      "categoryID": 7,
+      "display_name": "Used with (Launcher Group)",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "speedMultiplier",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Rate of Fire Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "explosionDelay",
+      "value": 100000.0,
+      "categoryID": 7,
+      "display_name": "Maximum Flight Time",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "structureUniformity",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "aimedLaunch",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "missileNeverDoesDamage",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

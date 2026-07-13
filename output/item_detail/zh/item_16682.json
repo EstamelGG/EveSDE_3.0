@@ -1,0 +1,21 @@
+{
+  "type_id": 16682,
+  "name": "超级突触纤维",
+  "description": "数据网络总需要最快速的继电系统，尤其是当传送可视信号或数值信号关系到生死时。由于其巨大的频率范围和传导速度，超级突触纤维已经成为感应器阵列和锁定系统的行业标准。",
+  "volume": 0.6,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "合成物",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 750.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

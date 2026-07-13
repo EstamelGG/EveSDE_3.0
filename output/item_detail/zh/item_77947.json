@@ -1,0 +1,13 @@
+{
+  "type_id": 77947,
+  "name": "联邦加密钥匙",
+  "description": "盖伦特联邦生成的密钥，用于解锁加密数据。虽然这是一次性密钥，但其排列顺序可能会为加达里情报部门提供线索，让他们找到生成更多密钥的方法。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "国土行动物品",
+  "attributes": [],
+  "traits": []
+}

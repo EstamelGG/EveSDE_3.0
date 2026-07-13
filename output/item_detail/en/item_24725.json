@@ -1,0 +1,13 @@
+{
+  "type_id": 24725,
+  "name": "Crash Ultra",
+  "description": "This expensive booster is highly addictive and has been known to cause heart attacks and seizures.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

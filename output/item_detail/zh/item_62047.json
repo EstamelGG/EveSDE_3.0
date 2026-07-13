@@ -1,0 +1,13 @@
+{
+  "type_id": 62047,
+  "name": "不能用的音波多用途工具",
+  "description": "这个手持式物品可能是某种多用途工具。它的能源驱动已损坏，功能已无法辨别，它可能是通过基于量子机制的声波来操控的。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 57453,
+  "name": "碳纤维",
+  "description": "碳纤维成本低廉，可从多种资源中合成，有着几乎无限的应用前景。用其他聚合物加以强化后，它在太空工业中的应用极其广泛。",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "中间产物",
+  "attributes": [],
+  "traits": []
+}

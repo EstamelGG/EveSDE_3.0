@@ -1,0 +1,13 @@
+{
+  "type_id": 22157,
+  "name": "Sispur Estate Keycard",
+  "description": "This keycard will activate the acceleration gate leading into Sispur's Estate.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

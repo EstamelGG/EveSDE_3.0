@@ -1,0 +1,13 @@
+{
+  "type_id": 2721,
+  "name": "大箱的烟草",
+  "description": "管状的烟草卷是为吸烟而设计的。一支烟由上好的包在纸套里的烟丝以及通常在尾端配上的过滤嘴组成。",
+  "volume": 400.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 27203,
+  "name": "Production Assistant",
+  "description": "This individual, dishevelled and exhausted, is responsible for seeing to completion various niggling tasks relegated by superiors. And, of course, he or she serves as a scapegoat in case a task goes horrendously wrong.",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 85.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

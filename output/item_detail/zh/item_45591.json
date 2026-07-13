@@ -1,0 +1,145 @@
+{
+  "type_id": 45591,
+  "name": "金鹏防御 - 放大节点",
+  "description": "当科研人员开始研究如何将冬眠者技术运用到护盾增强放大系统上的时候，加达里工程师转向研究一些塔洛迦建筑所采用的防御系统，这些防御系统也是在那些远古废墟中所发现的遗迹。在一些个别的案例中，塔洛迦的防御系统采用了一种介于冬眠者和塔洛迦技术之间的设计。最初被成功研发出来的护盾增强放大节点在很大程度上是基于对这些个别案例的研究的成果之上的。",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": 300.0,
+  "mass": 1400000.0,
+  "category_name": "子系统",
+  "group_name": "防御子系统",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 30544.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "shieldCapacity",
+      "value": 500.0,
+      "categoryID": 2,
+      "display_name": "护盾容量",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "capacitorCapacity",
+      "value": 300.0,
+      "categoryID": 5,
+      "display_name": "电容容量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "armorHPBonusAdd",
+      "value": 100.0,
+      "categoryID": 3,
+      "display_name": "装甲值加成",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "subSystemSlot",
+      "value": 126.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hiSlotModifier",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "高槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "medSlotModifier",
+      "value": 3.0,
+      "categoryID": 0,
+      "display_name": "中槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "lowSlotModifier",
+      "value": 1.0,
+      "categoryID": 0,
+      "display_name": "低槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "fitsToShipType",
+      "value": 29984.0,
+      "categoryID": 0,
+      "display_name": "受限于船型",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "subsystemBonusCaldariDefensive",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "covertCloakCPUPenalty",
+      "value": 10000.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "subsystemBonusCaldariDefensive3",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b><u>附加基础数值</b></u>"
+    },
+    {
+      "content": "中槽+3，低槽+1"
+    },
+    {
+      "content": "护盾值+500，装甲值+100"
+    },
+    {
+      "content": "电容器电容量+300GJ"
+    },
+    {
+      "content": "<b>10%</b> <a href=showinfo:3416>护盾回充增量器</a>效果加成"
+    },
+    {
+      "content": "<b>10%</b> <a href=showinfo:3416>护盾回充增量器</a>过载效果加成"
+    }
+  ]
+}

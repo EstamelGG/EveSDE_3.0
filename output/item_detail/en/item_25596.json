@@ -1,0 +1,21 @@
+{
+  "type_id": 25596,
+  "name": "Broken Drone Transceiver",
+  "description": "A multifunction chip with digital modulator and oscillator utilized in drone communication hardware. This one looks broken.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Salvaged Materials",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

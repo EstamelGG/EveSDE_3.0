@@ -1,0 +1,42 @@
+{
+  "type_id": 23178,
+  "name": "隐秘处理装置",
+  "description": "允许几乎按部就班式的艾玛发明任务，但会降低蓝图质量。<br><br>机率调节值：+10%<br> 最大流程调节值：无<br>材料效率调节值：+3<br>时间效率调节值：+6",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "解码器",
+  "group_name": "解码器—艾玛",
+  "attributes": [
+    {
+      "attribute_name": "inventionPropabilityMultiplier",
+      "value": 1.1,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "inventionMEModifier",
+      "value": 3.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "inventionTEModifier",
+      "value": 6.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "inventionMaxRunModifier",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

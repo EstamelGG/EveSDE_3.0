@@ -1,0 +1,13 @@
+{
+  "type_id": 21624,
+  "name": "加密的莱戴报告",
+  "description": "如果解码正确，这些报告会显示古代纪念碑和遗迹的位置。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

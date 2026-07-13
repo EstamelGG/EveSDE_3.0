@@ -1,0 +1,13 @@
+{
+  "type_id": 85242,
+  "name": "Hypercatabolic Clone Tissue",
+  "description": "This human genetic material shows signs of extreme modification previously only observed in Jovian samples.\n\nGenetic modeling extrapolates that a clone grown from this sample would have a metabolic rate a hundred times higher, produce ten times as much adrenaline, and have a drastically lower reaction time. It is however incredibly unstable, and would likely die before taking its first breath.\n\nDespite its instability, this genetic material represents an important research step. Blood Raiders and The SOCT are keen to acquire it, but the Deathless Circle have expressed an even greater desire to recover these samples.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

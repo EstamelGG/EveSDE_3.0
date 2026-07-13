@@ -1,0 +1,13 @@
+{
+  "type_id": 18566,
+  "name": "船坞通行密码的一部分(一半)",
+  "description": "这个安全密码只是进入天蛇舰队总部的所需密码的一半。在使用此密码之后加速轨道会持续打开一小段时间。用过之后，轨道安全系统自动生成一个新的密码，原先的密码自动失效。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

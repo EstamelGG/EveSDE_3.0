@@ -1,0 +1,13 @@
+{
+  "type_id": 30784,
+  "name": "卡斯蒂勒博士的数据核心（西顿工业所属财产）",
+  "description": "这个数据核心装载了埃斯帕西亚·卡斯蒂勒博士在问题无人机研究中的笔记，但这个装置有非常严密的加密措施。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.75,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 44209,
+  "name": "[CNS]基拉莎最终广播片段",
+  "description": ">>> BREAK – CPD AUTH 66401\n\n>>> FTL/FR – 30045340\n\n>>> TS/REF – 不佳 – 未授权气舱准入\n\n>>> 状态：\n\n部分气压控制失效\n\n反应堆控制失效\n\n推进系统离线\n\n电容母线系统离线\n\nFTL协调线圈离线",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

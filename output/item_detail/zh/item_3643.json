@@ -1,0 +1,13 @@
+{
+  "type_id": 3643,
+  "name": "土壤",
+  "description": "在那些生态历史很短的区域，富含养分的肥沃土壤非常受到农业集团和殖民者的欢迎。",
+  "volume": 1.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 3000.0,
+  "category_name": "常用物品",
+  "group_name": "消费品",
+  "attributes": [],
+  "traits": []
+}

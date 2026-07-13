@@ -1,0 +1,21 @@
+{
+  "type_id": 25599,
+  "name": "Charred Micro Circuit",
+  "description": "Micro Circuits are one of the most common electronics components seen in use. This one has seen better days but could still be of some use.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Salvaged Materials",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

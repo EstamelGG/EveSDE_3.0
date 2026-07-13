@@ -1,0 +1,28 @@
+{
+  "type_id": 2309,
+  "name": "Ionic Solutions",
+  "description": "An electrolyte found in a raw, natural form is called an ionic solution, especially in terms of planetary astronomy. Only after a lengthy process of extraction and refining can the resulting fluid go on to be used for medical, industrial, or nutritive applications.",
+  "volume": 0.005,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Planetary Resources",
+  "group_name": "Planet Liquid-Gas - Raw Resource",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

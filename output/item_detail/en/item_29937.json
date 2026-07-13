@@ -1,0 +1,13 @@
+{
+  "type_id": 29937,
+  "name": "Inquest Drone",
+  "description": "Hundreds of these tiny devices were released momentarily before the explosion of Irrie Carlan's vessel. Motionless upon launch, they began to spring to life shortly afterwards, flitting around the ruins of the ship as they assessed the damage. Most curiously, they appeared to perform some kind of in-space surgical procedure on Carlan's corpse once it had been located amongst the wreckage. Now removed from the rest of its swarm, this particular drone has powered down entirely and seemingly erased its own subroutines. Any chance at reverse-engineering it in this state would be slim.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

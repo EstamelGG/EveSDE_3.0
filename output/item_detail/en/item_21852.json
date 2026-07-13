@@ -1,0 +1,13 @@
+{
+  "type_id": 21852,
+  "name": "Sample of Septicemic Agent",
+  "description": "The causative agent of an infectious disease. The septicemic bacterial infection is extremely dangerous. Lethality: 99.9%. Known treatments: None.",
+  "volume": 0.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

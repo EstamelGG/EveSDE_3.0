@@ -1,0 +1,13 @@
+{
+  "type_id": 22163,
+  "name": "Patrenn's Stash",
+  "description": "This crate contains a backup of Sifor Patrenn's research material.",
+  "volume": 300.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

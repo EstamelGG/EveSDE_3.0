@@ -1,0 +1,13 @@
+{
+  "type_id": 57472,
+  "name": "S-R触发式神经链接回路",
+  "description": "压力触发式神经链接回路是克隆飞行员连接到舰船诸多核心系统的神经链接网络的重要组成部分。\n\n\n\n克隆飞行员神经链接技术依赖于飞行员的自主生物系统，盖伦特科研人员探索出了利用克隆飞行员的压力响应机制来与舰载系统建立更可靠的神经链接的方法。",
+  "volume": 16.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "常用物品",
+  "group_name": "建造组件",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 21850,
+  "name": "被感染的难民",
+  "description": "当战争和瘟疫爆发时，人们从家园逃离，形成了大量的临时移民。这些无辜的平民是化学战的受害者。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 400.0,
+  "category_name": "常用物品",
+  "group_name": "有生货物",
+  "attributes": [],
+  "traits": []
+}

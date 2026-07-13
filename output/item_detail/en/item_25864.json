@@ -1,0 +1,13 @@
+{
+  "type_id": 25864,
+  "name": "Rakogh Officer Gate Key",
+  "description": "This passkey activates the highest level acceleration gate in the Rakogh Administration Complex. It is good for only one visit, so use it wisely.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,21 @@
+{
+  "type_id": 25599,
+  "name": "烧焦的微电路",
+  "description": "微电路是多数常规电子设备的基本组成部件。这一块不是处于最好状态，不过可能还有一些用处。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "打捞材料",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

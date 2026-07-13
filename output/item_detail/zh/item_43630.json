@@ -1,0 +1,28 @@
+{
+  "type_id": 43630,
+  "name": "微型技能注入器",
+  "description": "这个物品可以在空间站中使用来给予玩家人物未分配的技能点数。一旦使用后，技能注入器便会消失。\n\n该人物将获得<b>25,000</b>未分配技能点。\n\n当人物的技能点总数达到<b>1,500,000</b>之后就不能用这种方式增加技能点了。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "附件",
+  "group_name": "技能注入器",
+  "attributes": [
+    {
+      "attribute_name": "maxCharacterSkillPointLimit",
+      "value": 1500000.0,
+      "categoryID": 7,
+      "display_name": "人物角色技能点上限",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "containedSkillPoints",
+      "value": 25000.0,
+      "categoryID": 7,
+      "display_name": "技能点",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

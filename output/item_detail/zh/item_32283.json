@@ -1,0 +1,13 @@
+{
+  "type_id": 32283,
+  "name": "刻有花纹的血色黑曜石板",
+  "description": "一块小小的石板，完全是采用血色黑曜石制作，上面雕刻得有文字。石板上雕刻的文字已经不能完全地看清楚，尽管看上去很熟悉，但已经无法阅读。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

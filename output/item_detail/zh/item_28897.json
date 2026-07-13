@@ -1,0 +1,13 @@
+{
+  "type_id": 28897,
+  "name": "食物毒素",
+  "description": "这种病毒性毒素如果放进食物或饮料，若不用最先进的微生物扫描技术就几乎无法探测出来……而这种技术只有极富裕者才拥有。",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

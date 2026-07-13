@@ -1,0 +1,13 @@
+{
+  "type_id": 91399,
+  "name": "CSM 19 Electee Archive Script",
+  "description": "A secure holographic datapad, used to access the CONCORD public information database.\n\n//archive_yulai8_ict -search\n\n>SEARCH INITIATED\n\n>SEARCH SEQUENCE... COMPLETE\n\n//archive_csm -search\n\n>ARCHIVE SEARCH... COMPLETE\n\n>LOADING... COMPLETE\n\nCouncil of Stellar Management 19 electees:\n\nKazanir\nLuke Anninan\nZintage Enaka\nDujek Oneye\nAriel Rin\nThe Oz\nKenneth Feld\nStorm Delay\nSeddow\nMick Fightmaster\nDrake Iddon\nyoungpuke2",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

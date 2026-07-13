@@ -1,0 +1,13 @@
+{
+  "type_id": 21893,
+  "name": "库提尔的数据芯片",
+  "description": "这块数据芯片包含了由达格拉斯·库提尔开发的黑客程序的代码，这个程序的用途是侵入位于巴尔克里克的布鲁特Y.976计算机主机。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

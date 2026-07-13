@@ -1,0 +1,21 @@
+{
+  "type_id": 33021,
+  "name": "Unit of Lag",
+  "description": "Made of an unusually dense piece of material. Time seems to slow down around it.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [
+    {
+      "attribute_name": "cpuMultiplier",
+      "value": 0.1,
+      "categoryID": 1,
+      "display_name": "CPU Output bonus",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

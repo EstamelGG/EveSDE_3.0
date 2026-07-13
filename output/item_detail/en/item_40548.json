@@ -1,0 +1,13 @@
+{
+  "type_id": 40548,
+  "name": "Medium 'Astrahus' Citadel BPC Token",
+  "description": "This reward token signifies that its owner will be gifted a 1 run blueprint copy for a medium sized Astrahus Citadel structure for services rendered to the Upwell Consortium.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

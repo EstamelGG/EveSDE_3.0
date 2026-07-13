@@ -1,0 +1,13 @@
+{
+  "type_id": 21671,
+  "name": "Guristas Patrol Routes",
+  "description": "This encoded data from a destroyed Guristas vessel reveals the current patrol routes used by the Guristas in the Okkelen constellation.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

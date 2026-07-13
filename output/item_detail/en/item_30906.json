@@ -1,0 +1,13 @@
+{
+  "type_id": 30906,
+  "name": "Letter of Recommendation",
+  "description": "<i>For the eyes of Militia recruitment officers:\n\n<p>Sir,\n<br>I do hereby certify and vouchsafe that the bearer of this document is a newly-certified capsuleer of good character and firm disposition, whom I do rightly judge is a fine and worthy candidate for enrolment into our most esteemed and successful Militia organization.\n\n<p>Furthermore, I have verified that, at time of issuance, the bearer does meet the criteria for Fast Track recruitment, namely that:\n<ul>\n<li>The pilot's sign-in account is less than thirty (30) days old\n<li>The pilot's standings with our faction are not lower than zero (0)\n<li>The pilot's standings with our faction are below the standard zero-point-five (0.5) threshold for recruitment\n</ul>\n\nPlease verify that these details are correct at time of your receipt of this document. If everything is in order then I formally request that you enroll the bearer into the Militia without hesitation or delay, that they might further serve the just and righteous cause of our people.</i>",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.5,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

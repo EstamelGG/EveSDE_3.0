@@ -1,0 +1,21 @@
+{
+  "type_id": 16658,
+  "name": "Silicon Diborite",
+  "description": "A mineral composite which, in large quantities, gives off a distinct crystalline glow. When combined with other composites, is usable for a variety of manufacturing purposes.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Intermediate Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

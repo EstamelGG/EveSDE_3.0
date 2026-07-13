@@ -1,0 +1,13 @@
+{
+  "type_id": 21815,
+  "name": "精英无人机人工智能",
+  "description": "一块微型芯片，载有作为集成电路基板的改装型单晶硅片。该芯片储存了精英无人机的人工智能编码。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.01,
+  "category_name": "材料",
+  "group_name": "自由无人机组件",
+  "attributes": [],
+  "traits": []
+}

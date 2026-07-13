@@ -1,0 +1,105 @@
+{
+  "type_id": 20561,
+  "name": "雨布尖端型隐形装置 I",
+  "description": "这是一种高级隐形装置的原型，曾是克莱勒瑞实验室的最后几项科技突破之一。尽管它能够发挥作用，但还不是最终的成品，其中还有一些严重缺陷，最明显的就是：该装置在装配后会产生很强的感应器扰乱信号，而且只有飞船以最小速度航行时才可使用该装置。 注意：使用两个或者多个隐形装置将会导致其作用抵消，因为不同步的光反射会造成相互干扰。",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "装备",
+  "group_name": "隐身设备",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 1.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 26.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 11579.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "maxVelocityModifier",
+      "value": 0.1,
+      "categoryID": 7,
+      "display_name": "最大速度调整系数",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "cloakingTargetingDelay",
+      "value": 29000.0,
+      "categoryID": 6,
+      "display_name": "感应器复校时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "scanResolutionMultiplier",
+      "value": 0.55,
+      "categoryID": 6,
+      "display_name": "扫描分辨率加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "moduleReactivationDelay",
+      "value": 30000.0,
+      "categoryID": 7,
+      "display_name": "重启延迟",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "metaGroupID",
+      "value": 3.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "stabilizeCloakDuration",
+      "value": 900.0,
+      "categoryID": 7,
+      "display_name": "稳定隐形持续时间",
+      "unit_name": "s"
+    }
+  ],
+  "traits": []
+}

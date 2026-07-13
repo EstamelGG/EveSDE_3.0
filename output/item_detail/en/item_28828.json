@@ -1,0 +1,13 @@
+{
+  "type_id": 28828,
+  "name": "Quafe Unleashed formula",
+  "description": "These encoded reports contain highly sensitive information from the Quafe corporation regarding the chemical makeup of their new product, Quafe Unleashed.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

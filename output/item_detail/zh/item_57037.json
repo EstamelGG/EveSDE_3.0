@@ -1,0 +1,98 @@
+{
+  "type_id": 57037,
+  "name": "联合矿业开采精英勋章",
+  "description": "首次植入精英勋章，且至少完成了一个联合矿业开采计划任务的飞行员在次日例行维护后的活动积分会增加200分，多次植入精英勋章不可重复获得积分奖励。\n\n此外，在达到以下活动分值时，植入了联合矿业开采精英勋章的克隆飞行员会额外获得对应物品奖励：\n\n200分：50 伊甸币，神圣穿梭机克隆飞行员之日XVII涂装\n300分：旭日级克隆飞行员之日XVII涂装\n400分：50 伊甸币\n500分：灵感级克隆飞行员之日XVII涂装\n600分：100 伊甸币\n700分：实践级克隆飞行员之日XVII涂装\n800分：200,000 自由技能点\n900分：150 伊甸币\n\n额外物品奖励会在达到分值后的次日维护时发放到账号物品领取队列及伊甸币保险库。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "charismaBonus",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "魅力调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "intelligenceBonus",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "智力调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "memoryBonus",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "记忆调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "perceptionBonus",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "感知调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "willpowerBonus",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "毅力调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3402.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 2505600000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 81.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "nondestructible",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "无法摧毁",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "followsJumpClones",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "跟随远距克隆",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "boosterLastInjectionDatetime",
+      "value": 18625.125,
+      "categoryID": 7,
+      "display_name": "有效期",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 46268,
+  "name": "A3工业装备",
+  "description": "这个箱子里含有适用于工业舰船的装备。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 56788,
+  "name": "空白的战斗克隆体",
+  "description": "这些人类克隆体擅长进行步兵作战，正在等待接收某个克隆士兵的意识传输。\n\n空白的战斗克隆体是非常有价值的生物设备，在血袭者同盟那里尤其受欢迎，因为奥玛·萨利库萨及他信仰的萨萨比克教相信克隆体的血液是“最纯净的”，完美适合于他们的血液仪式。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

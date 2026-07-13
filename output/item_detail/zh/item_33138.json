@@ -1,0 +1,21 @@
+{
+  "type_id": 33138,
+  "name": "克隆战士教官铭牌",
+  "description": "这个铭牌得自于一个海盗，他曾经是为出自海盗训练营的克隆战士谈判雇佣合同的专家。鉴于这些克隆战士极度危险，统合部立场鲜明地敌视任何与之有染的人，而如果有人把这种铭牌上交给统合部，则会得到安全等级提升的奖励。这种铭牌可以在低安星系空间站的安全等级办公室中上交。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "常用物品",
+  "group_name": "安全等级铭牌",
+  "attributes": [
+    {
+      "attribute_name": "securityProcessingFee",
+      "value": 3000000.0,
+      "categoryID": 7,
+      "display_name": "手续费",
+      "unit_name": "星币"
+    }
+  ],
+  "traits": []
+}

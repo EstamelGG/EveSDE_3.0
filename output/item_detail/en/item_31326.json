@@ -1,0 +1,91 @@
+{
+  "type_id": 31326,
+  "name": "Capital Targeting System Subcontroller I",
+  "description": "This ship modification is designed to increase a ship's targeting speed at the expense of shields.\n\nPenalty: Using more than one type of this module or similar modules that affect the same attribute on the ship will be penalized.\n\nThe drawbacks of fitting this rig may be reduced by training the <a href=showinfo:26256>Electronic Superiority Rigging</a> skill.",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 200.0,
+  "category_name": "Module",
+  "group_name": "Rig Targeting",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "rangeSkillBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Optimal Range Modifier",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "maxTargetRangeBonus",
+      "value": 0.0,
+      "categoryID": 37,
+      "display_name": "Maximum Targeting Range Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "scanResolutionBonus",
+      "value": 20.0,
+      "categoryID": 37,
+      "display_name": "Scan Resolution Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "cloakingTargetingDelayBonus",
+      "value": 0.0,
+      "categoryID": 6,
+      "display_name": "Cloaking Targeting Delay Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "scanSkillEwStrengthBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "EW Strength Modifier",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "drawback",
+      "value": -10.0,
+      "categoryID": 7,
+      "display_name": "Drawback",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "upgradeCost",
+      "value": 100.0,
+      "categoryID": 1,
+      "display_name": "Calibration cost",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "rigSize",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "Rig Size",
+      "unit_name": "1=small 2=medium 3=l"
+    }
+  ],
+  "traits": []
+}

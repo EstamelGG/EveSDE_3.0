@@ -1,0 +1,84 @@
+{
+  "type_id": 91950,
+  "name": "Republic Mobility Booster I",
+  "description": "This booster has been produced by the Minmatar Republic to assist capsuleers with their military campaign war efforts.\n\n<b>+2% bonus to Ship Velocity\n+3% reduction to Microwarpdrive Capacitor Consumption\n+3% bonus to Warp Speed\n+4% bonus to range of all mining lasers</b>\n\n<b>Expiry date: November 10th YC128</b>",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Implant",
+  "group_name": "Booster",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3405.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "velocityBonus",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Velocity Modifier",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "capNeedBonus",
+      "value": -3.0,
+      "categoryID": 5,
+      "display_name": "Capacitor Need Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 7200000.0,
+      "categoryID": 7,
+      "display_name": "Booster Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "WarpSBonus",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "Warp Speed Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 16.0,
+      "categoryID": 7,
+      "display_name": "Booster Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "boosterLastInjectionDatetime",
+      "value": 20767.4576388889,
+      "categoryID": 7,
+      "display_name": "Expiry Date",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "boosterMinerMaxRangeBonus",
+      "value": 4.0,
+      "categoryID": 51,
+      "display_name": "Maximum Mining Range Bonus",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

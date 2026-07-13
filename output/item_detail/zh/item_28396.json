@@ -1,0 +1,56 @@
+{
+  "type_id": 28396,
+  "name": "聚合高密度黑赭石（2级）",
+  "description": "2级黑赭石（又称玛瑙赭石）具有独特的亮黑色表面，适合用于装饰用途。不过它5%的额外矿物产出才是矿工真正关心的。对任何事物而言，美丽的外表只是锦上添花。黑赭石曾一度被当作一种无价值的矿石而受到忽略，直到提炼得到技术改进，最终从中提炼出了巨量的<a href=showinfo:37>同位聚合体</a>和<a href=showinfo:36>类银超金属</a>。黑赭石也含有数量不少的<a href=showinfo:38>超新星诺克石</a>。<i>这种材料使用了比较老旧的压缩方式，对原材料进行一次性批量压缩。最新的压缩技术则更为灵活，可以按单位体积进行压缩。</i>",
+  "volume": 4.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1e+35,
+  "category_name": "小行星",
+  "group_name": "黑赭石",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 60379.0,
+      "categoryID": 7,
+      "display_name": "回收再生技能",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "停滞缠绕抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 1232.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "类别ID"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,21 @@
+{
+  "type_id": 17317,
+  "name": "Fermionic Condensates",
+  "description": "One of the most complex composites known to man, fermionic condensates consist of superconductive boson particles all occupying the same quantum state, thus creating a nearly resistance-free environment for electric current. These condensates have therefore become a staple in advanced reactor manufacture.",
+  "volume": 1.3,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Composite",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 200.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

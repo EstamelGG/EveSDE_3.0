@@ -1,0 +1,13 @@
+{
+  "type_id": 21465,
+  "name": "远古的武器",
+  "description": "由维克米公司所发掘，许多势力也试图获得这些武器。据传，其中含有帝国从未见识过的力量。",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

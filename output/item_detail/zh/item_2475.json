@@ -1,0 +1,35 @@
+{
+  "type_id": 2475,
+  "name": "贫瘠行星高科技工厂",
+  "description": "这里最主要的劳动力是机器人，像这样的大型量产设施的管理和维护非常少，而它们非常善于制造大量的产品。这些工厂可以做到如此地自给自足，有传闻说盖伦特的工厂甚至全部是由仿生人进行操作的，而管理人员则是一些智能的无人机。（对这种生产方式的嘲讽者总喜欢说萨沙也几乎采用了同样工作方式的生产设施。）不管怎样，其结果是不容否定的：原料和零件从一边进入，漂亮的格式产品就能从另一边出来。",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "行星工业",
+  "group_name": "处理设施",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 400.0,
+      "categoryID": 7,
+      "display_name": "能量负荷",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 1100.0,
+      "categoryID": 9,
+      "display_name": "CPU载荷",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 2016.0,
+      "categoryID": 7,
+      "display_name": "行星类型限制",
+      "unit_name": "类别ID"
+    }
+  ],
+  "traits": []
+}

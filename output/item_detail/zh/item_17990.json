@@ -1,0 +1,13 @@
+{
+  "type_id": 17990,
+  "name": "天使集团监狱的安全密码",
+  "description": "这个密码可以打开天使监狱复合体的加速轨道一小段时间，使用密码卡后，密码卡会自我销毁。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 4090,
+  "name": "Large Crates of Quafe",
+  "description": "Quafe is the name of the most popular soft drink in the universe, manufactured by a Gallentean company bearing the same name. Like so many soft drinks, it was initially intended as a medicine for indigestion and tender stomachs, but the refreshing effects of the drink appealed to everyone and the drink quickly became tremendously popular. Quafe is one of the best recognized brands in the whole EVE universe and can be found in every corner of it.",
+  "volume": 500.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 500.0,
+  "category_name": "Commodity",
+  "group_name": "General",
+  "attributes": [],
+  "traits": []
+}

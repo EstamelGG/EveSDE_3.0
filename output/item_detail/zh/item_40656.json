@@ -1,0 +1,13 @@
+{
+  "type_id": 40656,
+  "name": "第十一届CSM当选人档案脚本",
+  "description": "确保信息安全的全息数据盘，用于访问统合部的公共信息数据库。\n\n \n\n \n\n//archive_yulai8_ict -搜索\n\n>搜索开始\n\n>搜索序列… 完成\n\n//archive_csm -搜索\n\n>档案搜索… 完成\n\n>正在加载... 完成\n\n \n\n第十一届CSM当选人：\n\n\n\nThe Judge\n\nJin'taan\n\nXenuria\n\nAryth\n\nInnominate\n\nNoobMan\n\nFafe\n\nGorski Car\n\nBobmon\n\nNashh Kadavr\n\nMr Hyde113\n\nKyle Aparthos\n\nSullen Decimus\n\nSteve Ronuken",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

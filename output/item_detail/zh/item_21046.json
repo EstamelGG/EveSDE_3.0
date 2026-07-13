@@ -1,0 +1,13 @@
+{
+  "type_id": 21046,
+  "name": "纳基维交易日志",
+  "description": "这些报告记录了纳基维集团和斯库维塔集团最近进行的小型道具军械交易的信息，同时还有记录表明，这些武器表里不一。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

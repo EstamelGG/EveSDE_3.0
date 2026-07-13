@@ -1,0 +1,13 @@
+{
+  "type_id": 34771,
+  "name": "CSM 3 Electee Archive Script",
+  "description": "A secure holographic datapad, used to access the CONCORD public information database.\n \n \n//archive_yulai8_ict -search\n>SEARCH INITIATED\n>SEARCH SEQUENCE... COMPLETE\n//archive_csm -search\n>ARCHIVE SEARCH... COMPLETE\n>LOADING... COMPLETE \n \nCouncil of Stellar Management 3 electees:\n \n<url=showinfo:1376//1282041313>Avalloc</url>\n<url=showinfo:1376//1828158994>Chip Mintago</url>\n<url=showinfo:1383//109000795>Dierdra Vaal</url>\n<url=showinfo:1377//254956725>Erik Finnegan</url>\n<url=showinfo:1386//179116309>Issler Dainze</url>\n<url=showinfo:1383//765935202>mazzilliu</url>\n<url=showinfo:1386//1271256719>Meissa Anunthiel</url>\n<url=showinfo:1377//156565803>Omber Zombie</url>\n<url=showinfo:1376//1761171880>Serenity Steele</url>\n<url=showinfo:1378//938930965>Shatana Fulfairas</url>\n<url=showinfo:1377//1611864709>Vuk Lau</url>\n<url=showinfo:1383//1012990282>Weazy Z</url>\n<url=showinfo:1375//932924156>Zastrow J</url>",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 16714,
+  "name": "光荣舰长奖章",
+  "description": "该奖章授予那些完成传奇试炼最终考验的人。只有宇宙中那些最富战斗技巧的飞行员才能完成这样严苛的考验。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

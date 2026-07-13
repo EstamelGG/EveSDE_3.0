@@ -1,0 +1,13 @@
+{
+  "type_id": 16275,
+  "name": "Strontium Clathrates",
+  "description": "An unstable compound of strontium molecules encased in the crystal structure of water. When fed to a Control Tower's force field generator, these clathrates bond with the molecules already in place in the field to create a nigh-invulnerable barrier of energy. A necessary ingredient for Control Towers to go into reinforced mode.\n\nMay be obtained by reprocessing the following ice ores:\n\n<color='0xFF33FFFF'>1.0</color> security status solar system or lower:\n<a href=showinfo:16264>Blue Ice</a>\n<a href=showinfo:16262>Clear Icicle</a>\n<a href=showinfo:16263>Glacial Mass</a>\n<a href=showinfo:16265>White Glaze</a>\n\n<color='0xFFFF6600'>0.3</color> security status solar system or lower:\n<a href=showinfo:16266>Glare Crust</a>\n\n<color='0xFFE53300'>0.1</color> security status solar system or lower:\n<a href=showinfo:16267>Dark Glitter</a>\n\n<color='0xFFFF0000'>0.0</color> security status solar system or lower:\n<a href=showinfo:17978>Enriched Clear Icicle</a>\n<a href=showinfo:16268>Gelidus</a>\n<a href=showinfo:16269>Krystallos</a>\n<a href=showinfo:17976>Pristine White Glaze</a>\n<a href=showinfo:17977>Smooth Glacial Mass</a>\n<a href=showinfo:17975>Thick Blue Ice</a>",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Ice Product",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 29483,
+  "name": "晶核酒",
+  "description": "这种美酒是由稻米的叶子酿造而成。它的颜色通常为暗绿色，类似于晶状石英核岩的颜色，此酒因此得名晶核酒。\n\n晶核酒是一种非常有力的酒，在口感上味道淡醇，回味犹如绿茶。通常人们把这种酒误认为非酒精饮料，结果在饮用过后发生各种有趣的事情。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 500.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

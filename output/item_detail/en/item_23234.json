@@ -1,0 +1,13 @@
+{
+  "type_id": 23234,
+  "name": "Azure Canyon Tourist Pass",
+  "description": "This pass gets you into the Azure Canyon Tourist Resort, located in Colelie.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

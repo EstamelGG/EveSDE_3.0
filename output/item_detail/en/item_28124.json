@@ -1,0 +1,13 @@
+{
+  "type_id": 28124,
+  "name": "Minmatar Advanced Outpost Office",
+  "description": "An advanced upgrade to Minmatar Outpost office facilities. Gives an additional fifteen office slots.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Accessories",
+  "group_name": "Outpost Improvements",
+  "attributes": [],
+  "traits": []
+}

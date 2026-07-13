@@ -1,0 +1,13 @@
+{
+  "type_id": 13328,
+  "name": "Star Charts",
+  "description": "A vast number of travel and trade routes are marked on these sheets, which are called Star Charts.  Although most veteran travelers have their travel routes stored in their ships computer, it's always handy to carry some hardcopies just in case.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

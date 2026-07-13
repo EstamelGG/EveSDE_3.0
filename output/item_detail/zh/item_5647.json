@@ -1,0 +1,84 @@
+{
+  "type_id": 5647,
+  "name": "抑制型强化舱隔壁 D型",
+  "description": "增加结构值，但会降低灵活性和货舱容量。",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 200.0,
+  "category_name": "装备",
+  "group_name": "加强型舱隔壁",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 1.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 35.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "cargoCapacityMultiplier",
+      "value": 0.95,
+      "categoryID": 4,
+      "display_name": "货柜容量加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "structureHPMultiplier",
+      "value": 1.18,
+      "categoryID": 7,
+      "display_name": "结构值加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "agilityMultiplier",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "惯性调整",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3394.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    }
+  ],
+  "traits": []
+}

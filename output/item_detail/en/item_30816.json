@@ -1,0 +1,13 @@
+{
+  "type_id": 30816,
+  "name": "Medical Supplies",
+  "description": "Does what it says on the tin.",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 23675,
+  "name": "Drone Observation Data",
+  "description": "Surveillance data and recordings gathered by the Thukkers on the rogue drones in the Skeletal Comet complex.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

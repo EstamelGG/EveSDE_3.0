@@ -1,0 +1,13 @@
+{
+  "type_id": 2706,
+  "name": "Large Group of Science Graduates",
+  "description": "People that have recently graduated with a degree in science at an acknowledged university.",
+  "volume": 500.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 500000.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

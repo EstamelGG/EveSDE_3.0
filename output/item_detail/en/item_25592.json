@@ -1,0 +1,21 @@
+{
+  "type_id": 25592,
+  "name": "Defective Current Pump",
+  "description": "Used to transfer energy from a ships capacitor to a laser gain medium. The mechanism on this device is in need of repair.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Salvaged Materials",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

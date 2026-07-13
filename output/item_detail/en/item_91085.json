@@ -1,0 +1,13 @@
+{
+  "type_id": 91085,
+  "name": "ORE Faded Cache",
+  "description": "Obtained by trading in Faded Volatile Ice ore and a Cryograph Diffractor at an ORE processor vessel.\n\nIt contains items salvaged by ORE or filtered out of processed ice.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

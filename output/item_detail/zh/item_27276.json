@@ -1,0 +1,13 @@
+{
+  "type_id": 27276,
+  "name": "黑匣子",
+  "description": "此黑匣子含有舰船在被毁前最后的通讯记录以及关于这次灾难的各种数据。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "识别卡",
+  "attributes": [],
+  "traits": []
+}

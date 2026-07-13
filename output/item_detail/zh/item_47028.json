@@ -1,0 +1,63 @@
+{
+  "type_id": 47028,
+  "name": "神经网络'黑镜'网络入侵920-40",
+  "description": "这个生物力学接口使用突变基因序列和纳米体在使用者的大脑中建立了一个神经网。这个神经网以牺牲病毒同步率为代价来提高病毒强度，提高对数据网络的破译能力。数据分析仪的病毒同步率下降。数据分析仪的病毒强度提高。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "脑控扫描",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3411.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "implantness",
+      "value": 9.0,
+      "categoryID": 7,
+      "display_name": "植入体槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "accessDifficultyBonusModifier",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "获取成功率调整",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "virusCoherenceBonus",
+      "value": -40.0,
+      "categoryID": 9,
+      "display_name": "病毒同步率加成",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "virusStrengthBonus",
+      "value": 20.0,
+      "categoryID": 7,
+      "display_name": "分析仪病毒强度加成",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

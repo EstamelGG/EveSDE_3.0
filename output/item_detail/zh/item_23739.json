@@ -1,0 +1,13 @@
+{
+  "type_id": 23739,
+  "name": "侦察飞梭",
+  "description": "侦察用交通工具，是所有强大陆军的必备品。",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

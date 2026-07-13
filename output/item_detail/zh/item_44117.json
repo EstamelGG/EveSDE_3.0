@@ -1,0 +1,13 @@
+{
+  "type_id": 44117,
+  "name": "瓦达里的定制回转稳定器蓝图",
+  "description": "此蓝图可用来制造有限数量的特殊升级版回转稳定器装备。回转稳定器提高射弹炮台的伤害和射速，是许多米玛塔尔舰船的核心装备。\n\n\n\n这个特殊的蓝图根据舰队指挥官依纳·瓦达里的特别要求而定制，这位指挥官将拷贝发放给了选定的一些共和舰队官员以及情报机构。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "蓝图",
+  "group_name": "射击学升级件蓝图",
+  "attributes": [],
+  "traits": []
+}

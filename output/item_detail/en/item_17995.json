@@ -1,0 +1,13 @@
+{
+  "type_id": 17995,
+  "name": "Stolen Passkey",
+  "description": "This passkey unlocks the acceleration gate into the Drugrunner Hideout of the Serpentis-Phi Outpost complex. It is single-use only.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,42 @@
+{
+  "type_id": 21569,
+  "name": "Sleeper Profound Research Notes",
+  "description": null,
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Decryptors - Sleepers",
+  "attributes": [
+    {
+      "attribute_name": "inventionPropabilityMultiplier",
+      "value": 2.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "inventionMEModifier",
+      "value": 1.4,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "inventionTEModifier",
+      "value": 2.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "inventionMaxRunModifier",
+      "value": 2.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 2917,
+  "name": "幸存者",
+  "description": "这批六神无主的人无精打采地行走着。他们中的有些人看上去好像几个星期没进过食了。",
+  "volume": 50.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 50.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

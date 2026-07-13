@@ -1,0 +1,13 @@
+{
+  "type_id": 3643,
+  "name": "Soil",
+  "description": "Fertile soil rich with nutrients is very sought after by agricultural corporations and colonists on worlds with short biological history.",
+  "volume": 1.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 3000.0,
+  "category_name": "Commodity",
+  "group_name": "General",
+  "attributes": [],
+  "traits": []
+}

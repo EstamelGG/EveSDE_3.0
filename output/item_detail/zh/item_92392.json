@@ -1,0 +1,13 @@
+{
+  "type_id": 92392,
+  "name": "总统候选人好感",
+  "description": "这份物品上记录着真正具有揭示性的竞选秘密。若将这些数据提交至总统候选人的竞选总部进行交易，定将为你赢得总统本人的感激。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

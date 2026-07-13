@@ -1,0 +1,13 @@
+{
+  "type_id": 62052,
+  "name": "可伸缩的塞子",
+  "description": "这个物品看上去像是某个大型装置的一部分。装置可能是某种附属物，使用一根顶端有吸盘的金属杆来操控附近空间中的物体。金属杆看起来可以伸缩，能触及到更远的地方。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

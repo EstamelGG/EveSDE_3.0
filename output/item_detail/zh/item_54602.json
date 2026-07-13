@@ -1,0 +1,42 @@
+{
+  "type_id": 54602,
+  "name": "限量合成型X—本能增效体",
+  "description": "这个增效剂通过每日登录奖励发放。领取后立即生效。\n\n舰船信号半径减少1.5%\n\n基础持续时间：1小时",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "boosterDuration",
+      "value": 3600000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "signatureRadiusBonus",
+      "value": -1.5,
+      "categoryID": 21,
+      "display_name": "信号半径修正值",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    }
+  ],
+  "traits": []
+}

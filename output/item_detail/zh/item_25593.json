@@ -1,0 +1,21 @@
+{
+  "type_id": 25593,
+  "name": "损毁的触发机关",
+  "description": "这个热核触发机关虽然破碎了，但它的核封闭立场似乎完好无损，而且等离子也处于近乎热能平衡状态。如果只是因为它破了相就把它扔了，实在太可惜了。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "打捞材料",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

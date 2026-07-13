@@ -1,0 +1,13 @@
+{
+  "type_id": 23556,
+  "name": "Warning Message",
+  "description": "A message warning a Serpentis agent working with FON that Wiyrkomi is on to her.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

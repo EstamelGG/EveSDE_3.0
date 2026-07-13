@@ -1,0 +1,13 @@
+{
+  "type_id": 87258,
+  "name": "不受限超空间遥测",
+  "description": "通过观测与流浪者活动相关的虫洞而收集到的遥测数据。这些数据似乎并不涉及虫洞本身，而是通过虫洞观察到的更深层的超空间连接。这些数据在范围上未受限制，且分析的全部内容均已包含在内。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

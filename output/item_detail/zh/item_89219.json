@@ -1,0 +1,13 @@
+{
+  "type_id": 89219,
+  "name": "稳定性遥测",
+  "description": "波赫文星域内的本地深渊能量“稳定性”等级记录。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "稳定性遥测",
+  "attributes": [],
+  "traits": []
+}

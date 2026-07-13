@@ -1,0 +1,13 @@
+{
+  "type_id": 25386,
+  "name": "Prison Area Pass",
+  "description": "This security passcard is manufactured by the Guristas Pirates, and allows the user to access the Prison grounds connected with the Iacta Space Plain in O-LR1H.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

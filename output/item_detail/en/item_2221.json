@@ -1,0 +1,13 @@
+{
+  "type_id": 2221,
+  "name": "Manportable Electromagnetic Pulse Weapons",
+  "description": "These EM beam weapons have been custom fitted to detect and eradicate specific nanotechnologies. Normally, these EMP devices are used by special operations personnel during covert operations. They are placed in proximity to the enemy's defense grid and used to “short out” any nearby electronics, thus creating a hole in the defense grid such that conventional forces can then move through unimpeded by sentry grids, security bots, and other lethal defensive systems. The devices themselves are approximately the size of a large rucksack and can be both emplaced and operated by a single trained individual.",
+  "volume": 25.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 25.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 76212,
+  "name": "Transport Relay Research Encryption Key",
+  "description": "This Transport Relay Research Encryption Key can be used as an input with a <a href=showinfo:76206>Transport Relay Datacore Blueprint</a> in order to reconstruct a portion of the accumulated research and technical data gathered by those empires with a comprehensive understanding of the means to build and operate the Transport Relay technology at the heart of Interstellar Shipcasters.\n\nTo reconstruct such data it will also be necessary to acquire <a href=showinfo:76211>Transport Relay Research Data Fragments</a> and <a href=showinfo:76210>Index Files</a>.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

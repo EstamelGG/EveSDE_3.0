@@ -1,0 +1,215 @@
+{
+  "type_id": 45589,
+  "name": "金鹏防御 - 隐形优化器",
+  "description": "自战略巡洋舰出现以后，科学界就一直在低调探讨如何提升隐形科技。这种低调作风持续了很长一段时间，期间几乎没有搞逆向工程的人愿意共享他们各自的研究信息。每个人都清楚地知道，一旦这样的科技提升成为现实，那战略巡洋舰的作用将在一夜之间便发生彻底改观。在其他更专业子系统开发的激励下，工程师与天体物理学家一并开始研究战略巡洋舰的改进方案，以帮助其他工程师和探险家的工作。首批逆向工程都集中在如何改进舰船的勘测能力上。早期的逆向工程项目主要专注于提升舰船的天体测量能力。最后大家一致认为同时增加探针及其发射器的强度才是最佳方案。首批设计方案售出后很快就引来众人的争相效仿。接下来这个子系统就融入了主流三级科技产品行列之中。不过它能如此受欢迎可能还得归结于另一理由。",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": 300.0,
+  "mass": 1400000.0,
+  "category_name": "子系统",
+  "group_name": "防御子系统",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 30544.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "capacitorCapacity",
+      "value": 200.0,
+      "categoryID": 5,
+      "display_name": "电容容量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 5.0,
+      "categoryID": 6,
+      "display_name": "信号半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "cloakingCpuNeedBonus",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "covertOpsAndReconOpsCloakModuleDelay",
+      "value": 5000.0,
+      "categoryID": 37,
+      "display_name": "隐身再入延迟",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "armorHPBonusAdd",
+      "value": 300.0,
+      "categoryID": 3,
+      "display_name": "装甲值加成",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "subSystemSlot",
+      "value": 126.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hiSlotModifier",
+      "value": 1.0,
+      "categoryID": 0,
+      "display_name": "高槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "medSlotModifier",
+      "value": 3.0,
+      "categoryID": 0,
+      "display_name": "中槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "lowSlotModifier",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "低槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "fitsToShipType",
+      "value": 29984.0,
+      "categoryID": 0,
+      "display_name": "受限于船型",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "subsystemBonusCaldariDefensive",
+      "value": 7.5,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "subsystemBonusCaldariDefensive2",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "virusStrengthBonus",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "分析仪病毒强度加成",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "subsystemBonusCaldariDefensive3",
+      "value": 7.5,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureHPBonusAdd",
+      "value": 600.0,
+      "categoryID": 4,
+      "display_name": "结构值加成",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "cargoCapacityAdd",
+      "value": 30.0,
+      "categoryID": 4,
+      "display_name": "货柜舱容量加成",
+      "unit_name": "m3"
+    },
+    {
+      "attribute_name": "isBlackOpsJumpPortalPassenger",
+      "value": 1.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "isBlackOpsJumpConduitPassenger",
+      "value": 1.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b>100%</b> <a href=showinfo:11579>隐形装置</a>CPU需求降低"
+    },
+    {
+      "content": "<b>10+</b> <a href=showinfo:22177>遗迹分析仪</a>和<a href=showinfo:22175>数据分析仪</a>病毒强度加成"
+    },
+    {
+      "content": "可以装配<a href=showinfo:11578>隐秘行动隐形装置</a>和<a href=showinfo:28646>隐秘诱导力场发生器</a>"
+    },
+    {
+      "content": "<a href=showinfo:11579>隐形装置</a>重启延时降到5秒"
+    },
+    {
+      "content": "<b><u>附加基础数值</b></u>"
+    },
+    {
+      "content": "高槽+1，中槽+3"
+    },
+    {
+      "content": "装甲值+300，结构值+600"
+    },
+    {
+      "content": "电容器电容量+200GJ"
+    },
+    {
+      "content": "信号半径+5m"
+    },
+    {
+      "content": "货柜舱容量+30m³"
+    },
+    {
+      "content": "<b>10%</b> <a href=showinfo:30013>核心</a>和<a href=showinfo:30028>作战扫描探针</a>强度加成"
+    },
+    {
+      "content": "<b>7.5%</b> <a href=showinfo:3416>护盾回充增量器</a>效果加成"
+    },
+    {
+      "content": "<b>7.5%</b> <a href=showinfo:3416>护盾回充增量器</a>过载效果加成"
+    }
+  ]
+}

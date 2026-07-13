@@ -1,0 +1,13 @@
+{
+  "type_id": 2640,
+  "name": "Crates of Replacement Parts",
+  "description": "Replacement parts include anything from machined components, such as plastic casings and metal brackets, to more basic pieces like nuts and bolts.",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 40000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

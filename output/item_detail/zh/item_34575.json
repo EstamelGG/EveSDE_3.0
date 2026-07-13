@@ -1,0 +1,13 @@
+{
+  "type_id": 34575,
+  "name": "安提基特拉元素",
+  "description": "有关此物体的信息相当有限，\n\n对它进行直接分析显示出一些模糊而扭曲的结果。轻微的内部损坏表明它与整体脱离了，即便如此，它的核心部分仍然在低沉运行。\n\n虽然对这个组件具体派什么用处不得而知也无从查证，但是它清楚表明是一个庞然大物的重要部件。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "未知组件",
+  "attributes": [],
+  "traits": []
+}

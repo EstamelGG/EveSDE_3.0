@@ -1,0 +1,13 @@
+{
+  "type_id": 2623,
+  "name": "Crates of Listening Post Recordings",
+  "description": "After diligently recording information on astral phenomena or military maneuvers, listening post data is embedded on encrypted chips, which must be carefully transported by hand.",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 40000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

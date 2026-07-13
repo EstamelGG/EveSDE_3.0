@@ -1,0 +1,13 @@
+{
+  "type_id": 24564,
+  "name": "Chanounian Wine",
+  "description": "Chanounian Wine is a rare luxury commodity, manufactured in Chanoun and in distribution only throughout a small portion of Amarr space.  It is highly prized for its wonderful flavor, created by a combination of rare ingredients - none of which are illegal in Amarr space.",
+  "volume": 0.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 500.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

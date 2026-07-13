@@ -1,0 +1,13 @@
+{
+  "type_id": 2598,
+  "name": "装箱的冷却剂",
+  "description": "这种特殊的混合液体是十分理想的热传导物质，可将热能从敏感的机器和电脑元件上导离，并传导至散热槽从而将多余的热能从系统中消除。",
+  "volume": 80.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

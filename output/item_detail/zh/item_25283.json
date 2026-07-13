@@ -1,0 +1,21 @@
+{
+  "type_id": 25283,
+  "name": "纯超强型蓝色药丸增效体",
+  "description": "处于未加工状态的超强型蓝色药丸化合物，可用来生产战斗增效剂。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "生化材料",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

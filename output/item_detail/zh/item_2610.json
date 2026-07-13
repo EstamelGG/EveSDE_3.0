@@ -1,0 +1,13 @@
+{
+  "type_id": 2610,
+  "name": "装箱的冷冻食物",
+  "description": "冷藏食品在很多地区需求很大，尤其在不适宜居住行星的轨道上围绕的空间站，或是离农业世界很遥远的地方。",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 40000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

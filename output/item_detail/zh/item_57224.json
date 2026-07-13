@@ -1,0 +1,13 @@
+{
+  "type_id": 57224,
+  "name": "新人毕业补给箱",
+  "description": "打开这个箱子可获得一张对应你的种族的巡洋舰蓝图，以及可以装扮你的人物的服饰。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

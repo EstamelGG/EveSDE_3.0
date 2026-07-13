@@ -1,0 +1,13 @@
+{
+  "type_id": 48760,
+  "name": "失效的改名令牌",
+  "description": "发生故障，无法工作。<b>不起效果...</b>",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

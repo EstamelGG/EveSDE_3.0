@@ -1,0 +1,13 @@
+{
+  "type_id": 2724,
+  "name": "大箱的水",
+  "description": "水是人类生存必不可少的基本元素之一。这种化合物的储备在许多地方都相对稀缺，因此必须要靠星际飞船运送才能满足供应。",
+  "volume": 600.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 600000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

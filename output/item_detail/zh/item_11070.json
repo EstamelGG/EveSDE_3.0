@@ -1,0 +1,13 @@
+{
+  "type_id": 11070,
+  "name": "宗教工艺品",
+  "description": "这个宗教工艺品被装饰得很好。它看起来很古老，而且实际重量比它的那个体积看上去要重得多。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 21634,
+  "name": "秘密机修库钥匙",
+  "description": "一块数据芯片，含有本地区强盗经营的某秘密机修库所在位置。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

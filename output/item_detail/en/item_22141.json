@@ -1,0 +1,13 @@
+{
+  "type_id": 22141,
+  "name": "Finger Bone",
+  "description": "Finger bone, taken from the body of a pirate.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

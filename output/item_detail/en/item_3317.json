@@ -1,0 +1,56 @@
+{
+  "type_id": 3317,
+  "name": "Trajectory Analysis",
+  "description": "Advanced understanding of zero-G physics. 5% bonus per skill level to weapon turret accuracy falloff.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Skill",
+  "group_name": "Gunnery",
+  "attributes": [
+    {
+      "attribute_name": "primaryAttribute",
+      "value": 167.0,
+      "categoryID": 7,
+      "display_name": "Primary attribute",
+      "unit_name": "attributeID"
+    },
+    {
+      "attribute_name": "secondaryAttribute",
+      "value": 168.0,
+      "categoryID": 7,
+      "display_name": "Secondary attribute",
+      "unit_name": "attributeID"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3300.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "skillTimeConstant",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Training time multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 4.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "falloffBonus",
+      "value": 5.0,
+      "categoryID": 37,
+      "display_name": "Falloff Bonus",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

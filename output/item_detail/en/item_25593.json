@@ -1,0 +1,21 @@
+{
+  "type_id": 25593,
+  "name": "Smashed Trigger Unit",
+  "description": "This Thermonuclear Trigger Unit while smashed still seems to have it's nuclei containment field intact and the plasma seems to be near thermal equilibrium. It would be a shame to waste this unit just because of its cosmetic damage.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Salvaged Materials",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

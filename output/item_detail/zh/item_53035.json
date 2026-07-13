@@ -1,0 +1,13 @@
+{
+  "type_id": 53035,
+  "name": "旗舰级潮极熵能支架",
+  "description": "它是装配于旗舰上的潮极熵能分解者在安装和使用时所必不可少的重要支架部件。",
+  "volume": 2000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000.0,
+  "category_name": "常用物品",
+  "group_name": "旗舰建造组件",
+  "attributes": [],
+  "traits": []
+}

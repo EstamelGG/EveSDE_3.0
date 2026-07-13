@@ -1,0 +1,13 @@
+{
+  "type_id": 2198,
+  "name": "Crate of Environmentally-friendly Mining Equipment",
+  "description": "The latest generation of environmentally-friendly mining drills reduces airborne pollutants by 75% when compared to the most popular drills on the market. This is accomplished through a revolutionary “dust recapture” system that essentially vacuums the air around the drill head. The collected dust is captured in large, on-site filtration systems which then compacts the dust into blocks. These blocks can either be refined along with the extracted ores, or simply placed back into the mine as backfill once drilling operations are complete. While more than five times as expensive as normal drills, the efficiency of these new models provides an entirely new level of environmental protection.",
+  "volume": 450.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 210.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

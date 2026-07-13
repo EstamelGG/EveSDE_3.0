@@ -1,0 +1,98 @@
+{
+  "type_id": 94044,
+  "name": "竞技场增效剂VI",
+  "description": "领取后立即生效。基础持续时间：2小时。导弹武器伤害提高6%，护盾值提高6%，自身护盾维修装备的效果提高6%，最大锁定距离提高6%，传感器强度提高6%",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "missileDamageMultiplierBonus",
+      "value": 1.06,
+      "categoryID": 30,
+      "display_name": "导弹伤害加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "maxTargetRangeBonus",
+      "value": 6.0,
+      "categoryID": 37,
+      "display_name": "最大锁定范围加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 7200000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "shieldCapacityBonus",
+      "value": 6.0,
+      "categoryID": 2,
+      "display_name": "护盾容量加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldBoostMultiplier",
+      "value": 6.0,
+      "categoryID": 2,
+      "display_name": "护盾回充加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "scanGravimetricStrengthPercent",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "引力强度",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanLadarStrengthPercent",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "光雷达强度",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrengthPercent",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "磁力强度",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanRadarStrengthPercent",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "雷达强度",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "boosterLastInjectionDatetime",
+      "value": 20691.4576388889,
+      "categoryID": 7,
+      "display_name": "有效期",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

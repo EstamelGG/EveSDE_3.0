@@ -1,0 +1,21 @@
+{
+  "type_id": 23857,
+  "name": "'Chivalry' Large Remote Capacitor Transmitter Blueprint",
+  "description": null,
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Blueprint",
+  "group_name": "Remote Capacitor Transmitter Blueprint",
+  "attributes": [
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

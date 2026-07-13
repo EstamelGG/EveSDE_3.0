@@ -1,0 +1,133 @@
+{
+  "type_id": 33591,
+  "name": "Mobile Micro Jump Unit",
+  "description": "This small deployable structure provides all nearby ships with the ability to launch themselves 100km in any direction. Twelve seconds after any ship makes use of this structure they will be jumped 100km in their direction of travel.\n\nHundreds of researchers around the New Eden Cluster have spent over a year attempting to expand upon the works of the late Avagher Xarasier after a tragic Micro Jump accident took his life. This structure represents the cutting edge in portable Micro Jump technology and is widely considered to be acceptably safe.\n\nThis structure can be used by any ship with less than 1,000,000,000kg mass.\n\nOne minute activation time. May not be deployed within 6km of another Mobile Micro Jump Unit, within 20km of Stargates, Stations or Upwell Structures, or within 40km of a Starbase. Cannot be retrieved once deployed. Self-destructs after two days of operation.",
+  "volume": 50.0,
+  "repackaged_volume": null,
+  "capacity": 27000.0,
+  "mass": 10000.0,
+  "category_name": "Deployable",
+  "group_name": "Mobile Micro Jump Unit",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 3000.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 11584.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "scanRadarStrength",
+      "value": 5.0,
+      "categoryID": 6,
+      "display_name": "RADAR Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanLadarStrength",
+      "value": 5.0,
+      "categoryID": 6,
+      "display_name": "Ladar Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrength",
+      "value": 5.0,
+      "categoryID": 6,
+      "display_name": "Magnetometric Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanGravimetricStrength",
+      "value": 5.0,
+      "categoryID": 6,
+      "display_name": "Gravimetric Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "shieldCapacity",
+      "value": 1000.0,
+      "categoryID": 2,
+      "display_name": "Shield Capacity",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorHP",
+      "value": 1000.0,
+      "categoryID": 3,
+      "display_name": "Armor Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "shieldRechargeRate",
+      "value": 3200000.0,
+      "categoryID": 2,
+      "display_name": "Shield recharge time",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "shieldUniformity",
+      "value": 0.75,
+      "categoryID": 2,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "armorUniformity",
+      "value": 0.75,
+      "categoryID": 3,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureUniformity",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 50.0,
+      "categoryID": 6,
+      "display_name": "Signature Radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "signatureRadiusBonusPercent",
+      "value": 150.0,
+      "categoryID": 7,
+      "display_name": "Signature radius bonus",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 78886,
+  "name": "Element Control Data",
+  "description": "This data has been extracted from a Sleeper Databank and appears to provide a partial design schema for a set of control algorithms capable of utilizing and regulating the strange and powerful Coalesced Elements associated with Drifter Hives. Although incomplete, the data appears to call for integration with a suitable containment vessel equipped with dedicated processors and power regulation systems.\n\nThis data is of great interest to the Deathless Circle given their efforts to reactivate and expand their control over the Jovian infrastructure present in the Zarzakh system, and particularly aboard the ancient Jovian station known as \"The Fulcrum\". Together with Element Containment Vessels and Coalesced Elements, this data can be handed in to the Deathless Circle at the Fulcrum in return for Deathless Circle Reward Chips.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Unknown Components",
+  "attributes": [],
+  "traits": []
+}

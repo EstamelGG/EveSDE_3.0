@@ -1,0 +1,13 @@
+{
+  "type_id": 2596,
+  "name": "Crates of Clothing",
+  "description": "It's not the latest fashion, or even the rugged survival gear colonists wear on developing worlds, but this basic, mass-produced clothing is better than nothing.",
+  "volume": 60.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 60000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

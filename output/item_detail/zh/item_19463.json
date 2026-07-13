@@ -1,0 +1,13 @@
+{
+  "type_id": 19463,
+  "name": "奥特瑞奇凭证",
+  "description": "这是一张艾曼·奥特瑞奇的侯选人凭证，用于确定该特定候选人的最大支持者以便选择使节候选人。",
+  "volume": 0.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

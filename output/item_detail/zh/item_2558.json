@@ -1,0 +1,35 @@
+{
+  "type_id": 2558,
+  "name": "熔岩行星储藏设施",
+  "description": "“归根到底，这些最终都会变成对金属的更多需求。”这种储藏设施的设计者认为这句箴言是至高无上的。每个储藏舱的外壁都采用了近乎一米厚的钛合金，包裹着内层柔韧轻质的三钛框架，然后再用几层主动式纳米机器人进行包覆，以防止微小裂损和热胀缩对结构的破坏。这种组合可以让建筑物承受几乎所有的环境挑战。为了防止三钛支撑结构的老化，内部被抽成真空，工人需要全时段穿着大气服来进行工作。",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": 12000.0,
+  "mass": null,
+  "category_name": "行星工业",
+  "group_name": "储藏设施",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 700.0,
+      "categoryID": 7,
+      "display_name": "能量负荷",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 500.0,
+      "categoryID": 9,
+      "display_name": "CPU载荷",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 2015.0,
+      "categoryID": 7,
+      "display_name": "行星类型限制",
+      "unit_name": "类别ID"
+    }
+  ],
+  "traits": []
+}

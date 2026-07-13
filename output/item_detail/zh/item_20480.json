@@ -1,0 +1,13 @@
+{
+  "type_id": 20480,
+  "name": "枪手的马刺",
+  "description": "这个马刺是一种身份识别物品。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "识别卡",
+  "attributes": [],
+  "traits": []
+}

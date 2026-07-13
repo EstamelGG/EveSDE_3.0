@@ -1,0 +1,13 @@
+{
+  "type_id": 24728,
+  "name": "Eilard's Corpse",
+  "description": "The rotting corpse of the unfortunate Eilard Ansti.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

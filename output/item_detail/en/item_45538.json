@@ -1,0 +1,98 @@
+{
+  "type_id": 45538,
+  "name": "Standup Hybrid Reactor I",
+  "description": "The Standup Hybrid Reactor I is a service module that allows reacting of the advanced materials used for creation of Tech III subsystems and ships.\nThis specialized service module must be installed into an Upwell Refinery structure in order to operate. Due to CONCORD health and safety regulations this service module may not be used within high security space.\n\nWhile an Upwell Structure has at least one service module online, it will enter \"full power\" mode and gain significantly increased shield and armor hitpoints and an extra reinforcement cycle.\n\nStandup is a proprietary system that uses a Structure Autonomous Nanoassembly Device (Upwell) containing integrated template software, a nanoassembler array and sufficient nanomass to enable the construction of a variety of service modules, structure modules and structure rigs when inserted into the appropriate slots on a structure built with Upwell technology.",
+  "volume": 4000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 500.0,
+  "category_name": "Structure Module",
+  "group_name": "Structure Resource Processing Service Module",
+  "attributes": [
+    {
+      "attribute_name": "power",
+      "value": 40000.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Usage",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 200.0,
+      "categoryID": 1,
+      "display_name": "CPU usage",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "canFitShipGroup01",
+      "value": 1406.0,
+      "categoryID": 1,
+      "display_name": "Can only be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "disallowInHighSec",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Banned in High Sec Space",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "serviceModuleFuelConsumptionGroup",
+      "value": 1136.0,
+      "categoryID": 7,
+      "display_name": "Service Module Fuel Need",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "serviceModuleFuelAmount",
+      "value": 15.0,
+      "categoryID": 7,
+      "display_name": "Service Module Cycle Fuel Need",
+      "unit_name": "units"
+    },
+    {
+      "attribute_name": "serviceModuleFuelOnlineAmount",
+      "value": 864.0,
+      "categoryID": 7,
+      "display_name": "Service Module Online Fuel Need",
+      "unit_name": "units"
+    },
+    {
+      "attribute_name": "structureItemVisualFlag",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "maxTypeFitted",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Max Modules Of This Type Allowed",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "onlineMaxSecurityClass",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "serviceModuleFullPowerStateHitpointMultiplier",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "Full Power Mode Shield and Armor Hitpoint Multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "serviceModuleFullPowerStateArmorPlatingMultiplier",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

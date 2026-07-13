@@ -1,0 +1,13 @@
+{
+  "type_id": 32200,
+  "name": "Covert Recording Device",
+  "description": "When planted in the mainframe of any structure, this device will record all communications, no matter how encrypted they may be.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

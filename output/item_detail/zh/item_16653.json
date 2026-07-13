@@ -1,0 +1,21 @@
+{
+  "type_id": 16653,
+  "name": "铥",
+  "description": "一种柔软的银灰色稀有金属。用于激光器的制造以及一系列与辐射有关的生产应用。",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 9320.0,
+  "category_name": "材料",
+  "group_name": "卫星原料",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

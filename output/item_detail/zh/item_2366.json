@@ -1,0 +1,28 @@
+{
+  "type_id": 2366,
+  "name": "危险物探测系统",
+  "description": "这是空间站、空间舰船以及其他独立环境所必备的重要设备。当其内部经过基因改造的病毒发生变异的时候，这些小型的装置便能发出警报。其中病毒的变异意味着它们受到了一定计量的辐射、自然环境污染及空气传播病毒之类的侵扰。这也意味着其周围环境中的人员正处于危险之中。",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "行星商品",
+  "group_name": "特种资源物品 - 第三等级",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 60000.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 60000.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

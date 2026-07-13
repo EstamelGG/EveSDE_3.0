@@ -1,0 +1,13 @@
+{
+  "type_id": 32280,
+  "name": "Blood Obsidian Orb",
+  "description": "The Church of the Obsidian has kept this relic for nearly four hundred years, though its original meaning was never truly discovered. The orb is carved from blood obsidian, the same material found in the head of the Wildfire Khumaak. The orb's surface is completely smooth, though it is lighter than it appears.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

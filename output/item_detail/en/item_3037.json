@@ -1,0 +1,13 @@
+{
+  "type_id": 3037,
+  "name": "Crate of Experimental ECM Hybrid Rounds",
+  "description": "These modified tungsten hybrid rounds send out an ECM pulse through the hull of any ship they strike, momentarily baffling the ship's target-locking mechanisms and affording the formerly-targeted ship a few precious moments to gain an advantage or escape. Efforts are being made to develop this into purely friend-or-foe munitions, effectively counteracting the effects of enemy ECM, but adaptation of the missile-based tracking technology to hybrid shell systems has proven difficult.",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

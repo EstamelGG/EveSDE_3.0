@@ -1,0 +1,13 @@
+{
+  "type_id": 25575,
+  "name": "Damaged Cloaking Device",
+  "description": "A damaged, non-functional cloaking device.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

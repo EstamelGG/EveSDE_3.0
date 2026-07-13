@@ -1,0 +1,13 @@
+{
+  "type_id": 85730,
+  "name": "YC117.11.06 - 口述录音",
+  "description": "一份恢复的口述录音。原本是某位探险家在几年前与本地计算机系统连接的部分共享档案内容，后来被自动清理程序删除了。本系统的垃圾数据中还有已删除文件的残留内容，你可以使用舰船上的计算机重组此录音。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

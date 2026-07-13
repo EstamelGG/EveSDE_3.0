@@ -1,0 +1,13 @@
+{
+  "type_id": 79192,
+  "name": "Deathless Circle Insurgents Loyalty Token",
+  "description": "This electronic token is encoded with a set reward value by the Deathless Circle, and can be exchanged at The Fulcrum, Angel Cartel or Guristas Pirates stations for an ISK reward.",
+  "volume": 0.001,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

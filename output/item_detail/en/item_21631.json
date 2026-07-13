@@ -1,0 +1,13 @@
+{
+  "type_id": 21631,
+  "name": "Construction Workers",
+  "description": "Construction Workers",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

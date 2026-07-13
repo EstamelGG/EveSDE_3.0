@@ -1,0 +1,133 @@
+{
+  "type_id": 21280,
+  "name": "Dark Blood Ultraviolet M",
+  "description": "Modulates the beam of a laser weapon into the ultraviolet frequencies. Slightly reduced range. Slightly increased thermal damage.\n\nThe delicate crystalline structures used in the manufacture of this advanced crystal degrade with use, eventually causing it to shatter.\n\n12.5% reduced optimal range.\n35% reduced capacitor need.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Charge",
+  "group_name": "Frequency Crystal",
+  "attributes": [
+    {
+      "attribute_name": "damage",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Item Damage",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "emDamage",
+      "value": 14.4,
+      "categoryID": 29,
+      "display_name": "EM damage",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "explosiveDamage",
+      "value": 0.0,
+      "categoryID": 29,
+      "display_name": "Explosive damage",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "kineticDamage",
+      "value": 0.0,
+      "categoryID": 29,
+      "display_name": "Kinetic damage",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "thermalDamage",
+      "value": 7.2,
+      "categoryID": 29,
+      "display_name": "Thermal damage",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "weaponRangeMultiplier",
+      "value": 0.875,
+      "categoryID": 7,
+      "display_name": "Range bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "mainColor",
+      "value": 8039008.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "chargeSize",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Charge size",
+      "unit_name": "1=small 2=medium 3=l"
+    },
+    {
+      "attribute_name": "launcherGroup",
+      "value": 53.0,
+      "categoryID": 7,
+      "display_name": "Used with (Launcher Group)",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "capNeedBonus",
+      "value": -35.0,
+      "categoryID": 5,
+      "display_name": "Capacitor Need Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "entityFlyRangeMultiplier",
+      "value": 0.875,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "crystalVolatilityChance",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Volatility",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "crystalVolatilityDamage",
+      "value": 0.00025,
+      "categoryID": 7,
+      "display_name": "Volatility Damage",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "crystalsGetDamaged",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Crystals Take Damage",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "metaGroupID",
+      "value": 4.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,105 @@
+{
+  "type_id": 90467,
+  "name": "Abyssal Modulated Strip Miner",
+  "description": "Uses many of the same crystal frequency modulation technologies as the Modulated Deep Core Miner II, except it lacks the deep core mining capacity of its smaller sibling. \n\nCan only be fit to Mining Barges and Exhumers.\n\nUses mining crystals. \n\nCannot fit a mercoxit mining crystal.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": 10.0,
+  "mass": null,
+  "category_name": "Module",
+  "group_name": "Frequency Mining Laser",
+  "attributes": [
+    {
+      "attribute_name": "slots",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "duration",
+      "value": 45000.0,
+      "categoryID": 7,
+      "display_name": "Activation time / duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "chargeSize",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Charge size",
+      "unit_name": "1=small 2=medium 3=l"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "chargeGroup1",
+      "value": 482.0,
+      "categoryID": 7,
+      "display_name": "Used with (Charge Group)",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "specialtyMiningAmount",
+      "value": 450.0,
+      "categoryID": 51,
+      "display_name": "Specialty Crystal Mining Amount",
+      "unit_name": "m3"
+    },
+    {
+      "attribute_name": "canFitShipGroup01",
+      "value": 543.0,
+      "categoryID": 1,
+      "display_name": "Can only be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "canFitShipGroup02",
+      "value": 463.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "typeColorScheme",
+      "value": 11347.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reloadTime",
+      "value": 0.01,
+      "categoryID": 7,
+      "display_name": "Reload Time",
+      "unit_name": "s"
+    }
+  ],
+  "traits": []
+}

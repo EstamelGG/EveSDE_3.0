@@ -1,0 +1,13 @@
+{
+  "type_id": 57474,
+  "name": "Radar-FTL Interlink Communicator",
+  "description": "Amarr ship designs have long used radar-based sensors as their primary means of building a picture of the local space environment. The Radar-FTL Interlink Communicator is used to tie high-frequency, high-resolution Amarr sensor data directly into the FTL communications channels used by Imperial Navy fleets.",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Advanced Capital Construction Components",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,42 @@
+{
+  "type_id": 26603,
+  "name": "Occult Tuner Data Interface",
+  "description": "Designed for use with Amarr technology, this portable interface permits its user to course through the electronic stream of item schematics, hunting down the stray bits of data necessary for his grand creation. Only one data interface is required for invention, and it can be re-used as often as needed. The tuner interface is used in rig invention.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Commodity",
+  "group_name": "Data Interfaces",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 100.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 23087.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "decryptorID",
+      "value": 728.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

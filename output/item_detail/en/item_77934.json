@@ -1,0 +1,77 @@
+{
+  "type_id": 77934,
+  "name": "Heimatar Rise Accelerator",
+  "description": "Encrypted in broadcasts, whispered through barbed wire, shouted in the streets, in BYC20 a single word traveled across Heimatar and began the Minmatar rebellion, “Rise”.\n\nThis booster, designed in honor of that great day will, once redeemed by a capsuleer, increase the rate at which they train skills for its duration.\n<b>Bonus: +6 to all learning attributes</b>\n<b>Base Duration: 2 days</b>",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Implant",
+  "group_name": "Booster",
+  "attributes": [
+    {
+      "attribute_name": "charismaBonus",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "Charisma Modifier",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "intelligenceBonus",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "Intelligence Modifier",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "memoryBonus",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "Memory Modifier",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "perceptionBonus",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "Perception Modifier",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "willpowerBonus",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "Willpower Modifier",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 172800000.0,
+      "categoryID": 7,
+      "display_name": "Booster Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "Booster Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "nondestructible",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Non-Destructible",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "followsJumpClones",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Follows Jump Clones",
+      "unit_name": "1=True 0=False"
+    }
+  ],
+  "traits": []
+}

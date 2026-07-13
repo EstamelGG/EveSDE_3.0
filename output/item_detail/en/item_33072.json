@@ -1,0 +1,13 @@
+{
+  "type_id": 33072,
+  "name": "New Eden Open Bronze Medal",
+  "description": "Awarded to the third place team in the New Eden Open.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

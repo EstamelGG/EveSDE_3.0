@@ -1,0 +1,13 @@
+{
+  "type_id": 25353,
+  "name": "Serpentis Shipyard Cipher",
+  "description": "This cipher seems to be meant for use on one of the acceleration gates in the Serpentis Fleet Shipyard.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,21 @@
+{
+  "type_id": 11459,
+  "name": "R.Db 天主凝聚会",
+  "description": "一种可以搜索的军团科学研究数据库。用于蓝图拷贝以及材料和时间效率蓝图研究。",
+  "volume": 0.04,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "常用物品",
+  "group_name": "工具",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 100.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

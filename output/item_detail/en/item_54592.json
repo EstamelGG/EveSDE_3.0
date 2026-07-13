@@ -1,0 +1,42 @@
+{
+  "type_id": 54592,
+  "name": "Limited Synth Exile Booster",
+  "description": "This booster has been provided through Daily Rewards. It will apply immediately when redeemed.\n2% bonus to local armor repairer effectiveness\nBase duration: 1 hour",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Implant",
+  "group_name": "Booster",
+  "attributes": [
+    {
+      "attribute_name": "boosterDuration",
+      "value": 3600000.0,
+      "categoryID": 7,
+      "display_name": "Booster Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "armorDamageAmountBonus",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Armor Repair Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Booster Slot",
+      "unit_name": "Slot"
+    }
+  ],
+  "traits": []
+}

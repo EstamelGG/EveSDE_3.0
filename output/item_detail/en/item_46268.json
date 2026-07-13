@@ -1,0 +1,13 @@
+{
+  "type_id": 46268,
+  "name": "A3 Industrial Gear",
+  "description": "This crate contains modules that are useful for an Industrial ship.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

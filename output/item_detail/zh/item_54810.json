@@ -1,0 +1,13 @@
+{
+  "type_id": 54810,
+  "name": "弦负荷估测装置",
+  "description": "这种不明科技的组件名称和序列号清楚地带有统合部、昇威财团和伊甸联合防御阵线的识别码。这个非常先进的装置能够测算本地时空中宇宙弦元素的负荷，完全不像是这种仪器所能达到的惊人精细度。它一定是某种大型装置的一部分。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 20.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

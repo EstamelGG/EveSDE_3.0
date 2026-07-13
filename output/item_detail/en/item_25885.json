@@ -1,0 +1,13 @@
+{
+  "type_id": 25885,
+  "name": "Scientist",
+  "description": "A scientist.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 65.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

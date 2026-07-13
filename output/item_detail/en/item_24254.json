@@ -1,0 +1,13 @@
+{
+  "type_id": 24254,
+  "name": "Saintly Shroud",
+  "description": "The holy shroud worn by St. Ageroth on his deathbed.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 87264,
+  "name": "零散的观测数据",
+  "description": "在经历过时空异旅后，观测站仍在记录着周围的一切。这些被破坏殆尽的记录虽然残缺不全，但在顶尖科学家的手中仍能发挥余热。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

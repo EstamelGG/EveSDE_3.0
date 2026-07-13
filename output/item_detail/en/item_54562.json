@@ -1,0 +1,13 @@
+{
+  "type_id": 54562,
+  "name": "Korako's Modified Drone Control Unit",
+  "description": "This appears to be a heavily modified version of a standard Gallente drone control unit. Close inspection reveals that it has been modified to allow control of much larger and more sophisticated drones than those available to the empires.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Material",
+  "group_name": "Named Components",
+  "attributes": [],
+  "traits": []
+}

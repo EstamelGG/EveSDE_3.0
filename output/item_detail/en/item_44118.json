@@ -1,0 +1,13 @@
+{
+  "type_id": 44118,
+  "name": "Tahron's Custom Heat Sink Blueprint",
+  "description": "This blueprint can be used to build a limited number of special upgraded versions of the Heat Sink module. Heat Sinks improve the damage and rate of fire of energy turrets and are key modules in many Amarr ship loadouts.\n\nThis particular blueprint has been created to the custom specifications of Fleet Commander Rafayel Tahron, who has been known to issue copies to certain select Imperial Navy officers and proven allies at his discretion.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Blueprint",
+  "group_name": "Heat Sink Blueprint",
+  "attributes": [],
+  "traits": []
+}

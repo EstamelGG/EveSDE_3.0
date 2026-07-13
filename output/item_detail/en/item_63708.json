@@ -1,0 +1,13 @@
+{
+  "type_id": 63708,
+  "name": "Capsule Subsystem Holostorage EH-CN-J44-007",
+  "description": "Although battered and scorched by the destruction of the capsule it was installed in, this subsystem holostorage device seems to retain some recoverable and relatively easily decrypted data:\n\n<i>\"–eems the monitoring routine wasn't CalNav after all. Sparks took a look at the data I'd sniffed off the thing and she reckons it's Archive K. That's all we need. Maybe the Autaris raid riled them up. Maybe they've got their hooks into Saraki already. Hell, maybe Saraki's their man. We need to be ca–\"</i>",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

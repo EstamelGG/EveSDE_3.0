@@ -1,0 +1,13 @@
+{
+  "type_id": 37879,
+  "name": "节日焰火",
+  "description": "这些小型的爆炸物多用来在宇宙各地的庆祝活动中使用，它们能制造出巨大且快速的声响，常常让人以为是自动枪炮的声音。 \n\n\n\n不过还好，这些声音常常与五颜六色的视觉效果相伴，有时可以防止误伤，有时却会招来更多的火力射击，这要看你的伙伴们聪不聪明了。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

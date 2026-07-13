@@ -1,0 +1,13 @@
+{
+  "type_id": 27274,
+  "name": "Villard Wheel",
+  "description": "This item is an integral component of perpetual motion units. If the wheel ever stops spinning, the entire unit will grind to a halt.",
+  "volume": 25000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 500000.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

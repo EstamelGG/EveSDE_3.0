@@ -1,0 +1,13 @@
+{
+  "type_id": 28975,
+  "name": "货物信息",
+  "description": "这些复杂的数据单在外行人看来也许毫无用处，但它们包含了大量关于贸易路线、税款和其他鲜为人知的商业信息。",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

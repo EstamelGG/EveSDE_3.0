@@ -1,0 +1,13 @@
+{
+  "type_id": 11944,
+  "name": "Synthetic Coffee",
+  "description": "This stimulating aromatic drink, made out of dried, roasted and ground seeds, is a particular favorite among scientists and software engineers.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

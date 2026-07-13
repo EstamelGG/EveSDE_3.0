@@ -1,0 +1,28 @@
+{
+  "type_id": 9842,
+  "name": "微型电子元件",
+  "description": "分子及化学以及纳米微缩计算机芯片让几乎所有类型的电子设备都能够被迷你化，从简单的全息影响播放器到导弹追踪系统，从人工神经湿件到量子纠缠通讯技术，应有尽有。",
+  "volume": 0.75,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "行星商品",
+  "group_name": "加工过的资源物品 - 第二等级",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 7200.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 7200.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

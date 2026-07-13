@@ -1,0 +1,28 @@
+{
+  "type_id": 2288,
+  "name": "碳化合物",
+  "description": "作为生命体的基本组成部分，碳化合物是大多数生命物质构成基础的基本元件。因此它们非常适合于在高级反应分子发展的早期过程中使用，例如用于生物燃料和超韧结构中的反应分子。",
+  "volume": 0.005,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "行星资源",
+  "group_name": "行星有机物 - 原始资源",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

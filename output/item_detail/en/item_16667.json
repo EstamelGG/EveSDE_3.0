@@ -1,0 +1,21 @@
+{
+  "type_id": 16667,
+  "name": "Neo Mercurite",
+  "description": "A silvery, shimmering liquid compound, Neo Mercurite is a crucial element in many forms of advanced sensor and processor technology.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Intermediate Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

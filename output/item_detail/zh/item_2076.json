@@ -1,0 +1,13 @@
+{
+  "type_id": 2076,
+  "name": "加速轨道钥匙",
+  "description": "该收发机的硬件中内置了一串独特的密码，可用于开启某一特定加速轨道。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,77 @@
+{
+  "type_id": 94040,
+  "name": "避难所增效剂VI",
+  "description": "领取后立即生效。基础持续时间：2小时。能量武器伤害提高6%，装甲值提高6%，自身装甲维修装备的效果提高6%，电容器容量提高6%，信号半径提高6%",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "damageMultiplier",
+      "value": 1.06,
+      "categoryID": 29,
+      "display_name": "伤害量调整",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 7200000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "armorHpBonus",
+      "value": 6.0,
+      "categoryID": 3,
+      "display_name": "装甲值加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "signatureRadiusBonus",
+      "value": -6.0,
+      "categoryID": 21,
+      "display_name": "信号半径修正值",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "armorDamageAmountBonus",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "装甲维修加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "capacitorCapacityBonus",
+      "value": 6.0,
+      "categoryID": 5,
+      "display_name": "电容量调整",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "boosterLastInjectionDatetime",
+      "value": 20691.4576388889,
+      "categoryID": 7,
+      "display_name": "有效期",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

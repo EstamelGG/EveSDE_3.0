@@ -1,0 +1,13 @@
+{
+  "type_id": 28843,
+  "name": "Altered Datacore - Mechanical Engineering",
+  "description": "This datacore has been altered and thus rendered useless for manufacturing purposes. It has value only as a reference tool.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.75,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

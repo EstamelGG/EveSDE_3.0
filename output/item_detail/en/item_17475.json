@@ -1,0 +1,13 @@
+{
+  "type_id": 17475,
+  "name": "Radioactive Waste",
+  "description": "This radioactively contaminated material is normally recycled or processed into fuel. It can be highly dangerous to any lifeforms that come into contact with it.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2000.0,
+  "category_name": "Commodity",
+  "group_name": "Radioactive",
+  "attributes": [],
+  "traits": []
+}

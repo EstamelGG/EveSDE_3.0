@@ -1,0 +1,13 @@
+{
+  "type_id": 28137,
+  "name": "Citizens",
+  "description": "This is a group of civilian citizens.",
+  "volume": 1000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 400.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

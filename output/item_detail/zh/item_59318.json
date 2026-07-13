@@ -1,0 +1,13 @@
+{
+  "type_id": 59318,
+  "name": "小鬼级与长尾蜥级宝箱",
+  "description": "打开后可获得一艘小鬼级与一艘长尾蜥级。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

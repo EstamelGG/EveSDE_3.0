@@ -1,0 +1,21 @@
+{
+  "type_id": 46375,
+  "name": "每日阿尔法注入器",
+  "description": "这个物品可以在空间站中使用来给予玩家50,000未分配技能点。一旦使用后，技能注入器便会消失。\n\n\n\n这个注入器只能由阿尔法克隆等级的人物使用，每天只能使用一个。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "附件",
+  "group_name": "技能注入器",
+  "attributes": [
+    {
+      "attribute_name": "containedSkillPoints",
+      "value": 50000.0,
+      "categoryID": 7,
+      "display_name": "技能点",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

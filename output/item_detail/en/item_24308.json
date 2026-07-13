@@ -1,0 +1,13 @@
+{
+  "type_id": 24308,
+  "name": "Smuggler Knot Lock",
+  "description": "This is a gate passkey used by smugglers, especially those working for Serpentis, to lock up their stash of illegal goods or areas they want to keep to themselves.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

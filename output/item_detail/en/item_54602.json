@@ -1,0 +1,42 @@
+{
+  "type_id": 54602,
+  "name": "Limited Synth X-Instinct Booster",
+  "description": "This booster has been provided through Daily Rewards. It will apply immediately when redeemed.\n1.5% bonus to ship signature radius\nBase duration: 1 hour",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Implant",
+  "group_name": "Booster",
+  "attributes": [
+    {
+      "attribute_name": "boosterDuration",
+      "value": 3600000.0,
+      "categoryID": 7,
+      "display_name": "Booster Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "signatureRadiusBonus",
+      "value": -1.5,
+      "categoryID": 21,
+      "display_name": "Signature Radius Modifier",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Booster Slot",
+      "unit_name": "Slot"
+    }
+  ],
+  "traits": []
+}

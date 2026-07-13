@@ -1,0 +1,13 @@
+{
+  "type_id": 54227,
+  "name": "Melted Scraps of Capsule Plating",
+  "description": "These scraps of metal have been salvaged from the remains of a destroyed hydrostatic capsule.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

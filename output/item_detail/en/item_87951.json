@@ -1,0 +1,21 @@
+{
+  "type_id": 87951,
+  "name": "Exotic Stability Generator",
+  "description": "This generator produces system-wide effects similar to those encountered in Exotic environments within Abyssal Deadspace.\n\nAll ships in system: +25% scan resolution, +2 AU/s warp speed.",
+  "volume": 10000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Infrastructure Upgrades",
+  "group_name": "Sovereignty Hub System Effect Generator Upgrades",
+  "attributes": [
+    {
+      "attribute_name": "distributionID01",
+      "value": 4109.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

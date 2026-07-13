@@ -1,0 +1,13 @@
+{
+  "type_id": 29229,
+  "name": "Amarr Diplomat",
+  "description": "This man is an officially sanctioned representative of the Amarr Empire.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 90.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

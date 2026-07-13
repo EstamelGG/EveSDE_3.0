@@ -1,0 +1,28 @@
+{
+  "type_id": 2270,
+  "name": "贵金属",
+  "description": "贵金属对腐蚀和氧化具有较高的抵抗性，它们的资源也相对基础金属更为稀缺，而它们特有的电子、材料以及化学特性也使得市场对其有非常高的需求。通过复杂的工艺精炼和净化后，一些贵金属矿石能够生产出“稀有金属”。",
+  "volume": 0.005,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "行星资源",
+  "group_name": "行星固体 - 原始资源",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

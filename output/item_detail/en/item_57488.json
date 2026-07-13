@@ -1,0 +1,13 @@
+{
+  "type_id": 57488,
+  "name": "Neurolink Protection Cell",
+  "description": "Neurolink Protection Cells are designed to comprehensively protect capsuleer neural links with capital ship systems against subversion attempts.\n\nDevelopment of neurolink protection technology was spurred on by EDENCOM in conjunction with the core empires during the Triglavian Invasions. The demonstrated ability of the Collective to infiltrate information networks and subvert key communications backbones was viewed as a threat to naval capital fleets that had the potential to cripple even home system defenses.",
+  "volume": 5500.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Capital Construction Components",
+  "attributes": [],
+  "traits": []
+}

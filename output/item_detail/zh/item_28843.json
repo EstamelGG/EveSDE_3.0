@@ -1,0 +1,13 @@
+{
+  "type_id": 28843,
+  "name": "修改过的数据核心 - 机械工程",
+  "description": "这个数据核心已经被人改动过，所以对制造来说毫无用处。它唯一的价值是可以用作参考工具。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.75,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

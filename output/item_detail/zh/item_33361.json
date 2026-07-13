@@ -1,0 +1,21 @@
+{
+  "type_id": 33361,
+  "name": "等离子体超材料",
+  "description": "等离子体超材料由新汞合金和菲尔合金精密合成而来，是米玛塔尔高级微处理器和电容器单元的核心组件。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "合成物",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 300.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

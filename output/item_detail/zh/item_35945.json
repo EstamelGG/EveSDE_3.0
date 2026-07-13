@@ -1,0 +1,140 @@
+{
+  "type_id": 35945,
+  "name": "屹立武器扰断器 I",
+  "description": "这种屹立武器扰断器电子战系统被设计用来缩短目标舰船炮台和导弹的射程，并降低目标舰船炮台的跟踪速度和导弹的精确度。武器扰断器系统可以安装在昇威科技建筑上。\n\n\n\n屹立专用系统采用了昇威建筑分控纳米装配装置，由集成模版软件、纳米装配阵列和许多纳米块体构成。安装在采用昇威科技建造的建筑上的专门槽位中可以制造各种服务装备、建筑装备和建筑改装件。\n\n\n\n惩罚：在一艘舰船上使用多个这类装备或多个与该装备作用一致的类似装备将削弱实际使用效果。",
+  "volume": 4000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 500.0,
+  "category_name": "建筑装备",
+  "group_name": "建筑扰断炮塔",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 400.0,
+      "categoryID": 5,
+      "display_name": "启用耗电量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 50000.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 1500.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 150000.0,
+      "categoryID": 29,
+      "display_name": "最佳射程",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 5000.0,
+      "categoryID": 7,
+      "display_name": "作用时间/单次运转时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "falloffBonus",
+      "value": -60.0,
+      "categoryID": 37,
+      "display_name": "失准范围加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "maxRangeBonus",
+      "value": -60.0,
+      "categoryID": 37,
+      "display_name": "最佳射程加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "missileVelocityBonus",
+      "value": -37.0,
+      "categoryID": 37,
+      "display_name": "导弹速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "explosionDelayBonus",
+      "value": -30.0,
+      "categoryID": 37,
+      "display_name": "飞行时间加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "trackingSpeedBonus",
+      "value": -60.0,
+      "categoryID": 37,
+      "display_name": "跟踪速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "aoeVelocityBonus",
+      "value": -50.0,
+      "categoryID": 37,
+      "display_name": "爆炸速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "aoeCloudSizeBonus",
+      "value": 50.0,
+      "categoryID": 37,
+      "display_name": "爆炸半径加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "canFitShipGroup01",
+      "value": 1657.0,
+      "categoryID": 1,
+      "display_name": "只能装配在",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "canFitShipGroup02",
+      "value": 1404.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "canFitShipGroup03",
+      "value": 1406.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "falloffEffectiveness",
+      "value": 75000.0,
+      "categoryID": 29,
+      "display_name": "效果失准范围",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "structureItemVisualFlag",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

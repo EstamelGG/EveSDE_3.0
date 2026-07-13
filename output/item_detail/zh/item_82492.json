@@ -1,0 +1,224 @@
+{
+  "type_id": 82492,
+  "name": "小型威胁探测阵列3",
+  "description": "这个阵列能够检测出存在实力一般的敌军的战斗异常空间，非常适合新晋战斗飞行员证明自己的价值。此衍生版阵列会比基础版和升级版阵列更快地检测出新生的异常空间。",
+  "volume": 60000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "基础设施升级件",
+  "group_name": "主权中心地点探测升级件",
+  "attributes": [
+    {
+      "attribute_name": "distributionIDAngel01",
+      "value": 3401.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDAngel02",
+      "value": 3402.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDAngel03",
+      "value": 3403.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDAngel04",
+      "value": 3404.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDAngel05",
+      "value": 3405.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDBlood01",
+      "value": 3416.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDBlood02",
+      "value": 3417.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDBlood03",
+      "value": 3418.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDBlood04",
+      "value": 3419.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDBlood05",
+      "value": 3420.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDGurista01",
+      "value": 3431.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDGurista02",
+      "value": 3432.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDGurista03",
+      "value": 3433.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDGurista04",
+      "value": 3434.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDGurista05",
+      "value": 3435.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDRogueDrone01",
+      "value": 3476.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDRogueDrone02",
+      "value": 3477.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDRogueDrone03",
+      "value": 3478.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDRogueDrone04",
+      "value": 3479.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDRogueDrone05",
+      "value": 3480.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDSansha01",
+      "value": 3446.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDSansha02",
+      "value": 3447.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDSansha03",
+      "value": 3448.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDSansha04",
+      "value": 3449.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDSansha05",
+      "value": 3450.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDSerpentis01",
+      "value": 3461.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDSerpentis02",
+      "value": 3462.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDSerpentis03",
+      "value": 3463.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDSerpentis04",
+      "value": 3464.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDSerpentis05",
+      "value": 3465.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

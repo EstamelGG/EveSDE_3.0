@@ -1,0 +1,13 @@
+{
+  "type_id": 2958,
+  "name": "Civilian SIGINT Contractors",
+  "description": "These contractors, many of whom are former Caldari Navy intelligence operatives, are very well trained, experienced, and possess high level security clearances, making them extremely valuable investments for their employer. Their skill sets are varied, but include translation (primarily Gallente), covert signals interception, military and economic intelligence analysis, and supercomputer systems administration.",
+  "volume": 30.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 30.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

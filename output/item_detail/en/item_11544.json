@@ -1,0 +1,21 @@
+{
+  "type_id": 11544,
+  "name": "Titanium Diborite Armor Plate",
+  "description": "Armor Component used primarily in Caldari ships. A component in various other technology as well.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Construction Components",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

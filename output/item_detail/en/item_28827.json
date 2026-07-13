@@ -1,0 +1,13 @@
+{
+  "type_id": 28827,
+  "name": "Encrypted Data Crystals",
+  "description": "These crystals contain data of some sort, but have apparently been encrypted using advanced methods, making the information inaccessible to all but the most skilled hackers.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 50.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 62028,
+  "name": "星际聚合增效剂箱",
+  "description": "这个箱子中装有一些可交易的星空会限时增效剂，能够帮助飞行员更好地使用跃迁矩阵纤维进行探索。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

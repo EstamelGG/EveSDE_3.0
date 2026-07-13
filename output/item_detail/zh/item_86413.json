@@ -1,0 +1,13 @@
+{
+  "type_id": 86413,
+  "name": "PDN密钥",
+  "description": "行星防御网络密钥。这些密钥可用于关闭生成密钥的行星上的防御系统。无论是想要获取如何破解未来代码的信息，还是确保自身星球不受攻击，或是作为与其他势力交易的筹码，这些密钥对参与冲突地区行动的各方都很有价值。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,42 @@
+{
+  "type_id": 3300,
+  "name": "Gunnery",
+  "description": "Basic turret operation skill. 2% Bonus to weapon turrets' rate of fire per skill level.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Skill",
+  "group_name": "Gunnery",
+  "attributes": [
+    {
+      "attribute_name": "primaryAttribute",
+      "value": 167.0,
+      "categoryID": 7,
+      "display_name": "Primary attribute",
+      "unit_name": "attributeID"
+    },
+    {
+      "attribute_name": "secondaryAttribute",
+      "value": 168.0,
+      "categoryID": 7,
+      "display_name": "Secondary attribute",
+      "unit_name": "attributeID"
+    },
+    {
+      "attribute_name": "skillTimeConstant",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Training time multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "turretSpeeBonus",
+      "value": -2.0,
+      "categoryID": 7,
+      "display_name": "Rate of Fire Bonus",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

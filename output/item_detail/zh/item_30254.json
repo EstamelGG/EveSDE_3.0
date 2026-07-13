@@ -1,0 +1,21 @@
+{
+  "type_id": 30254,
+  "name": "电子机械船体护板",
+  "description": "这些超薄的纳米塑料片在装载它们的冬眠者无人机的爆炸中幸存了下来。这些塑料片中的分子电路设计被包裹在比它们大数十亿倍的富勒烯合金中，这样电路系统就可以被安全地安装在装甲面板的下面。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "远古打捞",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

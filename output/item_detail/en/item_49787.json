@@ -1,0 +1,13 @@
+{
+  "type_id": 49787,
+  "name": "Hiemal Tricarboxyl Vapor",
+  "description": "Spectrographic analyses of this vapor cloud's composition indicates the presence of trace amounts of sublimed chromodynamic tricarboxyl compounds. \n\nProcessing these gases at an appropriate facility should yield usable quantities of chromodynamic tricarboxyls.",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Celestial",
+  "group_name": "Harvestable Cloud",
+  "attributes": [],
+  "traits": []
+}

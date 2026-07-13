@@ -1,0 +1,13 @@
+{
+  "type_id": 52311,
+  "name": "Singularity Radiation Convertor",
+  "description": "A power generation system component used in Triglavian ship designs and others adapted from such designs. Potentially useful as a component in various other technologies.\n\nThis power generation technology works by converting into usable energy the radiation produced by the singularity that is the critical feature of Triglavian power systems.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Construction Components",
+  "attributes": [],
+  "traits": []
+}

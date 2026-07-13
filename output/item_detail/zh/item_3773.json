@@ -1,0 +1,13 @@
+{
+  "type_id": 3773,
+  "name": "盐酸",
+  "description": "透明、无色、发烟性、有毒的高酸性氢氯水性溶液，被用作化学媒介物，在石油生产、矿石还原和食品加工中使用。",
+  "volume": 0.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "常用物品",
+  "group_name": "生化有害物",
+  "attributes": [],
+  "traits": []
+}

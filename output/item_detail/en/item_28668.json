@@ -1,0 +1,21 @@
+{
+  "type_id": 28668,
+  "name": "Nanite Repair Paste",
+  "description": "A thick, heavy liquid, typically stored in tanks or container systems intended for liquids. It is composed of billions of nanites that can be programmed to repair damaged ship modules on the fly. The paste is simply applied to the damaged area, and the nanites meld into an exact copy of the damaged area, thus effecting repairs upon the module. This is a one-time process, as the nanites use themselves up along with the trace elements mixed into their carrier fluid.\n\nThe Repair Paste is generally only used for emergency on-site repairs. It is then recommended to have the damaged components looked at by a certified technician at first opportunity.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "Charge",
+  "group_name": "Nanite Repair Paste",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

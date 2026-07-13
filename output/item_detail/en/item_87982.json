@@ -1,0 +1,13 @@
+{
+  "type_id": 87982,
+  "name": "Gratuity for Warden Connection Harmonic",
+  "description": "This gratuity has been granted as thanks for delivering Warden Connection Harmonics to one of the factions vying for control over the Drifter wormhole systems, and can be sold at many stations across the cluster.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

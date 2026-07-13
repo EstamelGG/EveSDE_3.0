@@ -1,0 +1,13 @@
+{
+  "type_id": 54480,
+  "name": "边境保安军战力辅助舰涂装箱",
+  "description": "这个箱子中包含随机一个龙鸟级、使徒级、利夫级或尼纳苏级的边境保安军涂装。",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

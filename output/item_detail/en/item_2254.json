@@ -1,0 +1,49 @@
+{
+  "type_id": 2254,
+  "name": "Temperate Command Center",
+  "description": "The modular design of this administrative structure allows it to be deployed piecemeal from orbit, then manually assembled on the surface by MTACs and engineering personnel. Supported by self-regulating pylons that follow the contours of indigenous terrain, the facility can accommodate almost any severity of incline or other non-critical geological hazard. Once active, it serves as both a central command post to coordinate the activity of all other nodes and a basic transportation site for getting commodities off world using standard, vertically launched rockets.",
+  "volume": 1000.0,
+  "repackaged_volume": null,
+  "capacity": 500.0,
+  "mass": 5000.0,
+  "category_name": "Planetary Industry",
+  "group_name": "Command Centers",
+  "attributes": [
+    {
+      "attribute_name": "powerOutput",
+      "value": 6000.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Output",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuOutput",
+      "value": 1675.0,
+      "categoryID": 1,
+      "display_name": "CPU Output",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 11.0,
+      "categoryID": 7,
+      "display_name": "Planet Type Restriction",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "exportTax",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "Export Tax",
+      "unit_name": "ISK"
+    }
+  ],
+  "traits": []
+}

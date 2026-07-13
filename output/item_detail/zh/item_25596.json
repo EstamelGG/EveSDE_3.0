@@ -1,0 +1,21 @@
+{
+  "type_id": 25596,
+  "name": "损坏的无人机调制器",
+  "description": "配有数字调制装置和振荡器的多功能芯片，用于无人机通讯硬件。这块看上去已经损坏了。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "打捞材料",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 57278,
+  "name": "晨曦新年特典勋章",
+  "description": "晨曦新年活动发放的特别勋章。\n\n活动结束时拥有此勋章最多的前3名克隆飞行员将各获得1流程元帅级蓝图拷贝，排名4-10的克隆飞行员将各获得1流程恶魔级蓝图拷贝，排名11-30的克隆飞行员将各获得1流程长尾蜥级蓝图拷贝。\n\n活动详情请关注官方公告。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

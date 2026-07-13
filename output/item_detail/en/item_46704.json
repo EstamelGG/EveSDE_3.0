@@ -1,0 +1,56 @@
+{
+  "type_id": 46704,
+  "name": "Batch Compressed Spodumain IV-Grade",
+  "description": "This extremely rare and valuable variant of spodumain ore was recently discovered by ORE engineers during early field tests of new moon mining technology. Subsequent testing has confirmed that this ore produces 15% more minerals than standard spodumain when reprocessed.\n\nSpodumain is amongst the most desirable ore types around, as it contains high volumes of the most heavily demanded resource and some amounts of the more precious minerals. Huge volumes of <a href=showinfo:34>Tritanium</a> and moderate amounts of <a href=showinfo:37>Isogen</a>, <a href=showinfo:38>Nocxium</a>, <a href=showinfo:39>Zydrine</a> and <a href=showinfo:40>Megacyte</a> can be obtained by refining these rocks.\n\n<i>This material was compressed using an older process that compressed batches of raw materials into units using a set input quantity. Newer compression technology uses a more flexible one-to-one unit compression system.</i>",
+  "volume": 28.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Asteroid",
+  "group_name": "Spodumain",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 60380.0,
+      "categoryID": 7,
+      "display_name": "Reprocessing Skill",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "Stasis Webifier Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 46688.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "typeID"
+    }
+  ],
+  "traits": []
+}

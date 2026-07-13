@@ -1,0 +1,13 @@
+{
+  "type_id": 76211,
+  "name": "Transport Relay Research Data Fragment",
+  "description": "This Transport Relay Research Data Fragment can be used as an input with a <a href=showinfo:76206>Transport Relay Datacore Blueprint</a> in order to reconstruct a portion of the accumulated research and technical data gathered by those empires with a comprehensive understanding of the means to build and operate the Transport Relay technology at the heart of Interstellar Shipcasters.\n\nTo reconstruct such data it will also be necessary to acquire <a href=showinfo:76212>Transport Relay Research Encryption Keys</a> and <a href=showinfo:76210>Index Files</a>.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

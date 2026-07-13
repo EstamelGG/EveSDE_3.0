@@ -1,0 +1,192 @@
+{
+  "type_id": 34595,
+  "name": "侵噬链接 II",
+  "description": "这个神秘的设备是对打捞来的流浪者科技进行逆向工程后的产物。它似乎使用了古老的朱庇特科技和材料，使人机之间的交互效率提升到了我们以前从来未敢想过的高度。这项技术的实际应用还不明朗。\n\n\n\n该装备不能装配在截击舰上。\n\n这个装备在开始作用于目标建筑之前需要一轮预热。\n\n装配了侵噬链接的舰船使用常规非跃迁引擎时最大速度不能超过4000m/s。\n\n开启之后无法关闭，必须等到本轮运行结束。\n\n船只开启侵噬链接后无法隐形、跃迁、跳跃或停靠。\n\n旗舰在激活侵噬链接时不能接受远程协助。\n\n\n\n免责声明：天主凝聚会及其法定分支机构和合作方不对因使用未经测试的流浪者技术直接与人脑交互所产生的一切未知后果负任何法律及道德责任。",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "装备",
+  "group_name": "侵噬链接",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 500.0,
+      "categoryID": 5,
+      "display_name": "启用耗电量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 9999999.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 20.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "slots",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 5.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 50000.0,
+      "categoryID": 29,
+      "display_name": "最佳射程",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 120000.0,
+      "categoryID": 7,
+      "display_name": "作用时间/单次运转时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 24242.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 4.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "consumptionType",
+      "value": 16275.0,
+      "categoryID": 7,
+      "display_name": "消耗类型",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "consumptionQuantity",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "消耗量",
+      "unit_name": "单位"
+    },
+    {
+      "attribute_name": "siegeModeWarpStatus",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "scanGravimetricStrengthPercent",
+      "value": 100.0,
+      "categoryID": 7,
+      "display_name": "引力强度",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanLadarStrengthPercent",
+      "value": 100.0,
+      "categoryID": 7,
+      "display_name": "光雷达强度",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrengthPercent",
+      "value": 100.0,
+      "categoryID": 7,
+      "display_name": "磁力强度",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanRadarStrengthPercent",
+      "value": 100.0,
+      "categoryID": 7,
+      "display_name": "雷达强度",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "implantBonusVelocity",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "速度调整",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "canCloak",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "maxGroupFitted",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "该武器组所允许的最大装备数量",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "speedLimit",
+      "value": 4000.0,
+      "categoryID": 17,
+      "display_name": "",
+      "unit_name": "m/s"
+    },
+    {
+      "attribute_name": "entosisCPUAdd",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "entosisAssistanceImpedanceMultiplier",
+      "value": 1.0,
+      "categoryID": 36,
+      "display_name": "侵噬链接协助阻抗",
+      "unit_name": "%"
+    }
+  ],
+  "traits": [
+    {
+      "content": "每个周期消耗一个单位的<a href=showinfo:16275>锶包合物</a>"
+    },
+    {
+      "content": "开启此装备后，船只无法隐形、跃迁、跳跃或停靠"
+    },
+    {
+      "content": "旗舰在激活侵噬链接时不能接受远程协助。"
+    }
+  ]
+}

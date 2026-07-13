@@ -1,0 +1,13 @@
+{
+  "type_id": 62053,
+  "name": "Biomechanical Armor Fragment",
+  "description": "This object appears to function as a type of hull plating for a vessel of moderate size, comparable to the mass of a single humanoid. This unusual metallic fragment is coated with rounded hemispheric protrusions and may have functioned as a type of protective armor for a biomechanical organism of unknown origin.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

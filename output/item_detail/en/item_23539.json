@@ -1,0 +1,13 @@
+{
+  "type_id": 23539,
+  "name": "Stolen Goods",
+  "description": "A crate of various goods, all stolen.",
+  "volume": 80.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

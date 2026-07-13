@@ -1,0 +1,13 @@
+{
+  "type_id": 22708,
+  "name": "Amarrian Spy",
+  "description": "A spy working for the Amarr Empire.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 26789,
+  "name": "Cache of Pistols",
+  "description": "Semi-automatic small arms used for personal protection and skirmish warfare.",
+  "volume": 2000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500000.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

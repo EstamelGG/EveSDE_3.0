@@ -1,0 +1,13 @@
+{
+  "type_id": 78906,
+  "name": "不死循环奖励凭证",
+  "description": "这个电子凭证是由不死循环加密的一组奖励值，可以在天使企业联合体或古斯塔斯游寇的忠诚点商店中，换取他们最新驱逐舰级设计的特别使用权。",
+  "volume": 0.001,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,357 @@
+{
+  "type_id": 94009,
+  "name": "联邦海军堡垒装备",
+  "description": "一种为扩大增强掠夺舰会战攻击能力而设计的电子接口。通过一系列的电磁场磁极转换，堡垒装备能调拨舰船推进系统和跃迁系统的能量来增强进攻和防御能力。这极大地提升了舰船自我维持防御系统的效果并提高了舰船的整体抗性。此外，它还能增加舰船武器系统的攻击距离和射速，可以从更远的地方对敌人开火。但对离子力场也产生了副作用，远程维修和电容传输效果对激活该装备的舰船没有效果。另外，由于开启后造成的动力子系统能量缺失，无论是常规的移动、跃迁、停靠或跳跃都不能进行，除非舰船退出堡垒模式。注：每艘掠夺舰只能装配一个堡垒装备。与其它同类型属性的装备一同使用会使从堡垒装备获得的护盾回充和装甲维修增量受到堆叠惩罚。重型快速导弹发射器不受堡垒装备的影响。",
+  "volume": 200.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "装备",
+  "group_name": "会战装备",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 999999.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "speedFactor",
+      "value": -100.0,
+      "categoryID": 28,
+      "display_name": "最大速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "power",
+      "value": 80.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 10.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 60000.0,
+      "categoryID": 7,
+      "display_name": "作用时间/单次运转时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 11207.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 3424.0,
+      "categoryID": 8,
+      "display_name": "副技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "armorEmDamageResonance",
+      "value": 0.7,
+      "categoryID": 3,
+      "display_name": "装甲电磁伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorExplosiveDamageResonance",
+      "value": 0.7,
+      "categoryID": 3,
+      "display_name": "装甲爆炸伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorKineticDamageResonance",
+      "value": 0.7,
+      "categoryID": 3,
+      "display_name": "装甲动能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorThermalDamageResonance",
+      "value": 0.7,
+      "categoryID": 3,
+      "display_name": "装甲热能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldEmDamageResonance",
+      "value": 0.7,
+      "categoryID": 2,
+      "display_name": "护盾电磁伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldExplosiveDamageResonance",
+      "value": 0.7,
+      "categoryID": 2,
+      "display_name": "护盾爆炸伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldKineticDamageResonance",
+      "value": 0.7,
+      "categoryID": 2,
+      "display_name": "护盾动能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldThermalDamageResonance",
+      "value": 0.7,
+      "categoryID": 2,
+      "display_name": "护盾热能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "falloffBonus",
+      "value": 10.0,
+      "categoryID": 37,
+      "display_name": "失准范围加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "maxRangeBonus",
+      "value": 10.0,
+      "categoryID": 37,
+      "display_name": "最佳射程加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "missileVelocityBonus",
+      "value": 25.0,
+      "categoryID": 37,
+      "display_name": "导弹速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldBoostMultiplier",
+      "value": 55.0,
+      "categoryID": 2,
+      "display_name": "护盾回充加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 8.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "maxGroupActive",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "siegeModeWarpStatus",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "armorDamageAmountBonus",
+      "value": 55.0,
+      "categoryID": 7,
+      "display_name": "装甲维修加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "disallowEarlyDeactivation",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hullEmDamageResonance",
+      "value": 0.7,
+      "categoryID": 4,
+      "display_name": "结构电磁伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "hullExplosiveDamageResonance",
+      "value": 0.7,
+      "categoryID": 4,
+      "display_name": "结构爆炸伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "hullKineticDamageResonance",
+      "value": 0.7,
+      "categoryID": 4,
+      "display_name": "结构动能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "hullThermalDamageResonance",
+      "value": 0.7,
+      "categoryID": 4,
+      "display_name": "结构热能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanGravimetricStrengthPercent",
+      "value": 100.0,
+      "categoryID": 7,
+      "display_name": "引力强度",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanLadarStrengthPercent",
+      "value": 100.0,
+      "categoryID": 7,
+      "display_name": "光雷达强度",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrengthPercent",
+      "value": 100.0,
+      "categoryID": 7,
+      "display_name": "磁力强度",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanRadarStrengthPercent",
+      "value": 100.0,
+      "categoryID": 7,
+      "display_name": "雷达强度",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "disallowActivateOnWarp",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "跃迁中无法激活",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "canFitShipGroup01",
+      "value": 900.0,
+      "categoryID": 1,
+      "display_name": "只能装配在",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "activationBlockedStrenght",
+      "value": 1.0,
+      "categoryID": 27,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "maxGroupFitted",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "该武器组所允许的最大装备数量",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "deactivateIfOffensive",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "speedFactorFloor",
+      "value": -100.0,
+      "categoryID": 28,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "remoteRepairImpedanceBonus",
+      "value": -99.9999,
+      "categoryID": 37,
+      "display_name": "远程维修阻扰加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "disallowTethering",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "不允许驻留",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "remoteAssistanceImpedanceBonus",
+      "value": -95.0,
+      "categoryID": 37,
+      "display_name": "远程协助阻扰加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "disallowDocking",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "不允许停靠",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "bastionMissileROFBonus",
+      "value": -50.0,
+      "categoryID": 37,
+      "display_name": "导弹射速加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "bastionTurretROFBonus",
+      "value": -60.0,
+      "categoryID": 37,
+      "display_name": "炮台射速加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "bastionModeArmorRepairCapDurationBonus",
+      "value": -15.0,
+      "categoryID": 37,
+      "display_name": "装甲维修器的持续时间和电容器加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "bastionModeShieldBoosterCapDurationBonus",
+      "value": -15.0,
+      "categoryID": 37,
+      "display_name": "护盾回充增量器的持续时间和电容器加成",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

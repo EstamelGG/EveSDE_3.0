@@ -1,0 +1,13 @@
+{
+  "type_id": 29947,
+  "name": "Enigmatic Reports",
+  "description": "Completely unharmed from the destruction of Angel Captain Appakir Tarvia's vessel, this data storage unit appears to contain a wealth of information, although every last byte is encrypted in an unknown cipher that looks leagues above current data protection technology. Every attempt made to crack the code returns nothing more than a list of strange errors, none of which are typical for decryption fault analysis. More ominously still, each attempt at decryption seems to activate an internal uplink to a remote system in the Heaven constellation, with no apparent way to stop what must be outbound transmissions. <p>\n\nDespite the impenetrability of the data, one small image juts out among the garbled text, offering an explanation as menacing as the fact that it was clearly excluded from the encryption as some kind of warning.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

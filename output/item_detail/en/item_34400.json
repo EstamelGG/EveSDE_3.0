@@ -1,0 +1,13 @@
+{
+  "type_id": 34400,
+  "name": "Gamma Ray Modulate Disc",
+  "description": "This disc of crystals is specially constructed to modulate gamma rays in a Solray Gamma Alignment Unit.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

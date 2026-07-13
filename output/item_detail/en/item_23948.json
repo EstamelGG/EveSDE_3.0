@@ -1,0 +1,13 @@
+{
+  "type_id": 23948,
+  "name": "Native Freshfood Special",
+  "description": "The Native Freshfood Special is a meat-heavy meal which is sought after all throughout the Minmatar Republic.  The recipe has been handed down through countless generations, and is considered part of the Minmatar heritage.",
+  "volume": 0.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 400.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}
