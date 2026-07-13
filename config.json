@@ -19,6 +19,7 @@
     "item_detail_zh": "./output/item_detail/zh",
     "whats_new": "./output/whats_new",
     "release_output": "./output/release",
+    "dist": "./dist",
     "data": "./data",
     "brackets_output": "./cache/brackets_output.json"
   },

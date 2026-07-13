@@ -50,7 +50,8 @@ def clean_all():
         "output/sde",
         "output/icons",
         "output/release",
-        # 遗留散落目录（迁移前）
+        "dist",
+        # 迁移前遗留目录
         "client_cache",
         "custom_icons",
         "icons_input",

@@ -611,6 +611,12 @@ def main():
         if not zh_success:
             print("[!] 中文版提取失败")
 
+    # 暂存到 dist/（非 gitignore），供 CI artifact / release
+    print("\n[+] 暂存发布制品到 dist/")
+    print("=" * 30)
+    import evesde.processors.stage_dist as stage_dist
+    safe_execute_processor(stage_dist.main, "制品暂存", config)
+
     print("\n[+] 所有处理完成")
 
 

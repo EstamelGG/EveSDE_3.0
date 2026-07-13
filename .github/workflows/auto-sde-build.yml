@@ -147,19 +147,11 @@ jobs:
 
           python -u main.py $EXTRA_ARGS
 
-          if [ ! -f output/icons/icons.zip ]; then
-            echo "[x] 构建结束但缺少 output/icons/icons.zip"
-            ls -la output/icons/ 2>/dev/null || true
-            find output -name 'icons.zip' 2>/dev/null || true
-            exit 1
-          fi
-          if [ ! -f output/sde/db/item_db.sqlite ]; then
-            echo "[x] 构建结束但缺少 output/sde/db/item_db.sqlite"
-            exit 1
-          fi
-          ls -lh output/icons/icons.zip output/sde/db/item_db.sqlite
+          test -f dist/icons.zip
+          test -f dist/sde/db/item_db.sqlite
+          ls -lh dist/icons.zip dist/sde/db/item_db.sqlite
 
-          if [ -d "output/item_detail/en" ] && [ -d "output/item_detail/zh" ]; then
+          if [ -d "dist/item_detail/en" ] && [ -d "dist/item_detail/zh" ]; then
             echo "item-detail-extracted=true" >> "$GITHUB_OUTPUT"
           else
             echo "item-detail-extracted=false" >> "$GITHUB_OUTPUT"
@@ -170,12 +162,7 @@ jobs:
         with:
           name: sde-output-${{ needs.get-build-info.outputs.final-build-number }}
           if-no-files-found: error
-          path: |
-            output/sde/
-            output/icons/icons.zip
-            output/item_detail/
-            output/whats_new/
-            output/release/
+          path: dist/
           retention-days: 5
 
   create-release:
@@ -197,11 +184,9 @@ jobs:
       - name: 校验产物路径
         run: |
           set -euo pipefail
-          echo "[+] workspace: $(pwd)"
-          find output -type f 2>/dev/null | head -80 || true
-          test -f output/icons/icons.zip
-          test -f output/sde/db/item_db.sqlite
-          ls -lh output/icons/icons.zip output/sde/db/item_db.sqlite
+          test -f dist/icons.zip
+          test -f dist/sde/db/item_db.sqlite
+          ls -lh dist/icons.zip dist/sde/db/item_db.sqlite
 
       - name: 准备Release文件
         id: release-assets
@@ -252,19 +237,19 @@ jobs:
             git add "history/${{ steps.release-assets.outputs.compare-new-filename }}"
           fi
 
-          WHATS_NEW="${{ needs.build-sde.outputs.whats-new-name }}"
-          if [ "${{ needs.build-sde.outputs.whats-new-exists }}" = "true" ] && [ -n "$WHATS_NEW" ]; then
+          WHATS_NEW_BASE="${{ needs.build-sde.outputs.whats-new-basename }}"
+          if [ "${{ needs.build-sde.outputs.whats-new-exists }}" = "true" ] && [ -n "$WHATS_NEW_BASE" ]; then
             mkdir -p output/whats_new
-            cp "../$WHATS_NEW" "output/whats_new/$(basename "$WHATS_NEW")"
-            git add "output/whats_new/$(basename "$WHATS_NEW")"
+            cp "../dist/whats_new/$WHATS_NEW_BASE" "output/whats_new/$WHATS_NEW_BASE"
+            git add "output/whats_new/$WHATS_NEW_BASE"
           fi
 
-          for detail_dir in output/item_detail/en output/item_detail/zh; do
-            if [ -d "../$detail_dir" ]; then
-              mkdir -p "$(dirname "$detail_dir")"
-              rm -rf "$detail_dir"
-              cp -R "../$detail_dir" "$detail_dir"
-              git add "$detail_dir"
+          for detail_dir in item_detail/en item_detail/zh; do
+            if [ -d "../dist/$detail_dir" ]; then
+              mkdir -p "output/$(dirname "$detail_dir")"
+              rm -rf "output/$detail_dir"
+              cp -R "../dist/$detail_dir" "output/$detail_dir"
+              git add "output/$detail_dir"
             fi
           done
 

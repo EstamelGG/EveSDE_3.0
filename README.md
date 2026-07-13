@@ -30,7 +30,8 @@ output/
   icons/          # icons.zip
   item_detail/    # en、zh 物品详情（可提交）
   whats_new/      # 变更报告（可提交）
-  release/        # CI 发布打包中间产物
+  release/        # 构建期 compare 报告
+dist/             # CI artifact / Release 暂存（构建末尾从 output 复制，不入 gitignore）
 data/             # 静态源数据
 tools/            # 开发辅助工具
 ```
@@ -40,5 +41,4 @@ tools/            # 开发辅助工具
 - `output/sde/db/item_db.sqlite`: 单库全语言宽列
 - `output/sde/texts.zip`: 长文本包
 - `output/icons/icons.zip`: 图标包
-- `output/sde/maps/`: 星图 JSON
-- `output/sde/localization/`: 会计条目等本地化产物
+- `dist/`: CI / Release 暂存目录（由构建末尾从 `output/` 复制，不受 gitignore 影响）

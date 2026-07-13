@@ -8,7 +8,6 @@ from evesde.paths import PROJECT_ROOT
 import argparse
 import json
 import os
-import shutil
 import tarfile
 import urllib.error
 import urllib.request
@@ -17,8 +16,6 @@ from datetime import datetime, timezone
 from hashlib import sha256
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional
-
-from evesde.utils.single_db import get_db_path
 
 
 def parse_args() -> argparse.Namespace:
@@ -37,7 +34,8 @@ def load_config() -> Dict[str, Any]:
 
 
 def release_dir(config: Dict[str, Any]) -> Path:
-    d = PROJECT_ROOT / config["paths"].get("release_output", "output/release")
+    """发布打包输出目录：固定为 dist/。"""
+    d = PROJECT_ROOT / config["paths"]["dist"]
     d.mkdir(parents=True, exist_ok=True)
     return d
 
@@ -86,39 +84,23 @@ def add_directory_to_zip(zipf: zipfile.ZipFile, root: Path, excludes: Iterable[P
 
 
 def create_release_archives(config: Dict[str, Any]) -> Dict[str, Path]:
-    """单库架构：output/sde 整包进 sde.zip，另附 icons.zip，产物写入 output/release。"""
-    out = release_dir(config)
-    sde_output = PROJECT_ROOT / config["paths"].get("sde_output", "output/sde")
-    icons_dir = PROJECT_ROOT / config["paths"].get("icons_output", "output/icons")
-    icons_source = icons_dir / "icons.zip"
-    icons_zip = out / "icons.zip"
-    sde_zip = out / "sde.zip"
-    db_path = get_db_path(config)
+    """从 dist/ 固定路径读取制品，在 dist/ 写出 sde.zip；icons.zip 已在 dist/。"""
+    dist = release_dir(config)
+    icons_source = dist / "icons.zip"
+    sde_dir = dist / "sde"
+    sde_zip = dist / "sde.zip"
+    db_path = sde_dir / "db" / "item_db.sqlite"
 
-    if not icons_source.exists():
-        # 兼容 artifact 解压异常或路径偏移：在 output/ 下搜索
-        candidates = sorted(PROJECT_ROOT.joinpath("output").rglob("icons.zip")) if (PROJECT_ROOT / "output").exists() else []
-        print(f"[x] 预期路径不存在: {icons_source}")
-        print(f"[!] output 下找到的 icons.zip: {[str(p.relative_to(PROJECT_ROOT)) for p in candidates]}")
-        if (PROJECT_ROOT / "output").exists():
-            for p in sorted((PROJECT_ROOT / "output").rglob("*"))[:40]:
-                if p.is_file():
-                    print(f"    {p.relative_to(PROJECT_ROOT)}")
-        if candidates:
-            icons_source = candidates[0]
-            print(f"[+] 改用: {icons_source}")
-        else:
-            raise FileNotFoundError("output/icons/icons.zip was not generated")
-
-    if not db_path.exists():
-        raise FileNotFoundError(f"Missing database: {db_path}")
-    shutil.copy2(icons_source, icons_zip)
+    if not icons_source.is_file():
+        raise FileNotFoundError(f"缺少 {icons_source}")
+    if not db_path.is_file():
+        raise FileNotFoundError(f"缺少 {db_path}")
 
     with zipfile.ZipFile(sde_zip, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as zipf:
-        add_directory_to_zip(zipf, sde_output, excludes=())
+        add_directory_to_zip(zipf, sde_dir, excludes=())
 
-    assets = {"icons": icons_zip, "sde": sde_zip}
-    ensure_zip(icons_zip, min_size_mb=1)
+    assets = {"icons": icons_source, "sde": sde_zip}
+    ensure_zip(icons_source, min_size_mb=1)
     ensure_zip(sde_zip, min_size_mb=5)
     return assets
 
@@ -217,7 +199,7 @@ def write_metadata(
 
 
 def find_whats_new(final_build_number: str, config: Dict[str, Any]) -> Optional[Path]:
-    whats_new_dir = PROJECT_ROOT / config["paths"].get("whats_new", "output/whats_new")
+    whats_new_dir = PROJECT_ROOT / config["paths"]["dist"] / "whats_new"
     if not whats_new_dir.exists():
         return None
     return next(iter(sorted(whats_new_dir.glob(f"whats_new_*_{final_build_number}.md"))), None)
@@ -306,11 +288,6 @@ def main() -> None:
     metadata = write_metadata(args, args.github_repository, assets)
     whats_new = find_whats_new(args.final_build_number, config)
     compare_file = out / f"release_compare_{args.final_build_number}.md"
-    # also accept legacy root-level compare from older builds
-    if not compare_file.exists():
-        legacy = PROJECT_ROOT / f"release_compare_{args.final_build_number}.md"
-        if legacy.exists():
-            shutil.copy2(legacy, compare_file)
 
     notes = write_release_notes(
         args,
