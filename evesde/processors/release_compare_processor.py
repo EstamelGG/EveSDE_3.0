@@ -57,49 +57,56 @@ class ReleaseCompareProcessor:
         with open(self.compare_md_path, 'a', encoding='utf-8') as f:
             f.write(content)
     
+    def _github_headers(self) -> Dict[str, str]:
+        headers = {
+            "Accept": "application/vnd.github.v3+json",
+            "User-Agent": "EVE-SDE-Processor",
+        }
+        token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
+        if token:
+            headers["Authorization"] = f"Bearer {token}"
+        return headers
+
+    def _resolve_github_repo(self) -> str:
+        """优先 CI 的 GITHUB_REPOSITORY，否则用 config（本仓库）。"""
+        return (
+            os.environ.get("GITHUB_REPOSITORY")
+            or self.config.get("github_repo")
+            or ""
+        ).strip()
+
     def get_latest_release_info(self) -> Optional[Dict[str, Any]]:
         """
-        获取最新Release信息
-        直接访问/releases API，找到id最大的release（排除draft和prerelease）
+        获取本仓库最新 Release（排除 draft / prerelease），按 id 取最大。
         """
         try:
-            # 获取仓库信息
-            github_repo = self.config.get('github_repo', '')
+            github_repo = self._resolve_github_repo()
             if not github_repo:
+                print("[!] 未配置 github_repo / GITHUB_REPOSITORY，跳过 Release 比较")
                 return None
-            
-            # 准备请求头
-            headers = {
-                'Accept': 'application/vnd.github.v3+json',
-                'User-Agent': 'EVE-SDE-Processor'
-            }
-            
-            # 直接访问/releases API，获取所有releases
+
+            print(f"[+] Release 比较目标仓库: {github_repo}")
             repo_url = f"https://api.github.com/repos/{github_repo}/releases"
-            response = get(repo_url, headers=headers, timeout=30)
-            
+            response = get(repo_url, headers=self._github_headers(), timeout=30)
+
             all_releases = response.json()
             if not isinstance(all_releases, list):
                 return None
-            
-            # 过滤掉draft和prerelease
+
             valid_releases = [
-                r for r in all_releases 
-                if not r.get('draft', False) and not r.get('prerelease', False)
+                r for r in all_releases
+                if not r.get("draft", False) and not r.get("prerelease", False)
             ]
-            
             if not valid_releases:
                 return None
-            
-            # 按id排序，返回id最大的（最新的）
-            valid_releases.sort(key=lambda x: x.get('id', 0), reverse=True)
-            return valid_releases[0]
-            
+
+            valid_releases.sort(key=lambda x: x.get("id", 0), reverse=True)
+            latest = valid_releases[0]
+            print(f"[+] 对比上一 Release: {latest.get('tag_name')}")
+            return latest
+
         except Exception as e:
-            if hasattr(e, 'response') and hasattr(e.response, 'status_code') and e.response.status_code == 404:
-                pass  # 未找到任何Release
-            return None
-        except Exception as e:
+            print(f"[!] 获取最新 Release 失败: {e}")
             return None
     
     def download_release_assets(self, release_info: Dict[str, Any]) -> bool:
@@ -113,11 +120,13 @@ class ReleaseCompareProcessor:
                 download_url = asset.get('browser_download_url', '')
                 
                 if asset_name in ['icons.zip', 'sde.zip']:
-                    # 准备请求头
                     headers = {
                         'Accept': 'application/octet-stream',
-                        'User-Agent': 'EVE-SDE-Processor'
+                        'User-Agent': 'EVE-SDE-Processor',
                     }
+                    token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
+                    if token:
+                        headers["Authorization"] = f"Bearer {token}"
                     
                     response = get(download_url, headers=headers, timeout=300)
                     
@@ -188,18 +197,22 @@ class ReleaseCompareProcessor:
             self.write_md(f"- 删除: {len(removed_files)} 个文件\n")
             self.write_md(f"- 共同: {len(common_files)} 个文件\n\n")
             
-            # 详细列出新增文件
+            # 详细列出新增/删除（截断，避免报告过大无法入库）
+            max_list = 100
             if added_files:
                 self.write_md(f"**新增文件** ({len(added_files)} 个):\n")
-                for file_name in sorted(added_files):
+                for file_name in sorted(added_files)[:max_list]:
                     self.write_md(f"- `{file_name}`\n")
+                if len(added_files) > max_list:
+                    self.write_md(f"- ... 另有 {len(added_files) - max_list} 个未列出\n")
                 self.write_md("\n")
-            
-            # 详细列出删除文件
+
             if removed_files:
                 self.write_md(f"**删除文件** ({len(removed_files)} 个):\n")
-                for file_name in sorted(removed_files):
+                for file_name in sorted(removed_files)[:max_list]:
                     self.write_md(f"- `{file_name}`\n")
+                if len(removed_files) > max_list:
+                    self.write_md(f"- ... 另有 {len(removed_files) - max_list} 个未列出\n")
                 self.write_md("\n")
             
             # 检查文件大小变化（只检查前10个文件，避免输出过多）
@@ -272,10 +285,28 @@ class ReleaseCompareProcessor:
 
                 if result.returncode == 0:
                     if result.stdout.strip():
-                        self.write_md("**数据库差异**:\n")
+                        lines = result.stdout.strip().split("\n")
+                        # 摘要统计，避免整库 SQL 写入导致报告超 100MB
+                        inserts = sum(1 for L in lines if L.startswith("INSERT"))
+                        updates = sum(1 for L in lines if L.startswith("UPDATE"))
+                        deletes = sum(1 for L in lines if L.startswith("DELETE"))
+                        other = len(lines) - inserts - updates - deletes
+                        self.write_md("**数据库差异摘要**:\n")
+                        self.write_md(f"- 语句总数: {len(lines)}\n")
+                        self.write_md(f"- INSERT: {inserts} / UPDATE: {updates} / DELETE: {deletes}")
+                        if other:
+                            self.write_md(f" / 其他: {other}")
+                        self.write_md("\n\n")
+
+                        max_sql_lines = 200
+                        self.write_md(f"**差异样例**（前 {min(max_sql_lines, len(lines))} 行）:\n")
                         self.write_md("```sql\n")
-                        for line in result.stdout.strip().split('\n'):
+                        for line in lines[:max_sql_lines]:
                             self.write_md(f"{line}\n")
+                        if len(lines) > max_sql_lines:
+                            self.write_md(
+                                f"-- ... 另有 {len(lines) - max_sql_lines} 行未列出\n"
+                            )
                         self.write_md("```\n\n")
                     else:
                         self.write_md("数据库无差异\n\n")

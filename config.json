@@ -28,5 +28,5 @@
     "sde_download_template": "https://developers.eveonline.com/static-data/tranquility/eve-online-static-data-{build_number}-jsonl.zip"
   },
   "languages": ["en", "de", "es", "fr", "ja", "ko", "ru", "zh"],
-  "github_repo": "estamelgg/EveSDE_2.0"
+  "github_repo": "EstamelGG/EveSDE_3.0"
 }

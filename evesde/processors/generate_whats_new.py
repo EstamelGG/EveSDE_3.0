@@ -67,7 +67,10 @@ def get_latest_release_info(github_repo: str) -> Optional[Dict[str, Any]]:
             'Accept': 'application/vnd.github.v3+json',
             'User-Agent': 'EVE-SDE-Processor'
         }
-        
+        token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
+        if token:
+            headers["Authorization"] = f"Bearer {token}"
+
         repo_url = f"https://api.github.com/repos/{github_repo}/releases/latest"
         response = get(repo_url, headers=headers, timeout=30)
         
@@ -225,10 +228,14 @@ def main():
         print("[x] 无法加载配置文件，退出")
         sys.exit(1)
     
-    github_repo = config.get('github_repo', '')
+    github_repo = (
+        os.environ.get("GITHUB_REPOSITORY")
+        or config.get("github_repo", "")
+    ).strip()
     if not github_repo:
-        print("[x] 配置文件中缺少 github_repo，退出")
+        print("[x] 缺少 GITHUB_REPOSITORY / github_repo，退出")
         sys.exit(1)
+    print(f"[+] 目标仓库: {github_repo}")
     
     # 获取当前版本号（display_version 用于命名，download_version 用于下载）
     current_display, current_download = get_current_build_numbers(config)

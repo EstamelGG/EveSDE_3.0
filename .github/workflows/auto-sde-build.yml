@@ -133,6 +133,7 @@ jobs:
         env:
           BUILD_NUMBER: ${{ needs.get-build-info.outputs.build-number }}
           FINAL_BUILD_NUMBER: ${{ needs.get-build-info.outputs.final-build-number }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
         run: python -u -m evesde.processors.generate_whats_new
 
       - name: 执行SDE构建
@@ -141,6 +142,7 @@ jobs:
           FINAL_BUILD_NUMBER: ${{ needs.get-build-info.outputs.final-build-number }}
           PATCH_VERSION: ${{ needs.get-build-info.outputs.patch-version }}
           SKIP_VERSION_CHECK: ${{ github.event.inputs.skip_version_check }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
           EXTRA_ARGS=""
@@ -232,9 +234,16 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           if [ "${{ steps.release-assets.outputs.compare-exists }}" = "true" ]; then
-            mkdir -p history
-            cp "${{ steps.release-assets.outputs.compare-path }}" "history/${{ steps.release-assets.outputs.compare-new-filename }}"
-            git add "history/${{ steps.release-assets.outputs.compare-new-filename }}"
+            COMPARE_SRC="${{ steps.release-assets.outputs.compare-path }}"
+            COMPARE_SIZE=$(stat -c%s "$COMPARE_SRC" 2>/dev/null || stat -f%z "$COMPARE_SRC")
+            # GitHub 单文件上限 100MB；超过则跳过入库（仍可作为 Release 附件逻辑外的本地产物）
+            if [ "$COMPARE_SIZE" -gt 90000000 ]; then
+              echo "[!] release_compare 过大 (${COMPARE_SIZE} bytes)，跳过提交到仓库"
+            else
+              mkdir -p history
+              cp "$COMPARE_SRC" "history/${{ steps.release-assets.outputs.compare-new-filename }}"
+              git add "history/${{ steps.release-assets.outputs.compare-new-filename }}"
+            fi
           fi
 
           WHATS_NEW_BASE="${{ steps.release-assets.outputs.whats-new-basename }}"
