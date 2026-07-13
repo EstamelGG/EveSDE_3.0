@@ -130,7 +130,7 @@ jobs:
         env:
           BUILD_NUMBER: ${{ needs.get-build-info.outputs.build-number }}
           FINAL_BUILD_NUMBER: ${{ needs.get-build-info.outputs.final-build-number }}
-        run: python -u scripts/generate_whats_new.py
+        run: python -u -m evesde.processors.generate_whats_new
 
       - name: 执行SDE构建
         id: build
@@ -147,7 +147,7 @@ jobs:
 
           python -u main.py $EXTRA_ARGS
 
-          if [ -d "item_detail_en" ] && [ -d "item_detail_zh" ]; then
+          if [ -d "output/item_detail/en" ] && [ -d "output/item_detail/zh" ]; then
             echo "item-detail-extracted=true" >> "$GITHUB_OUTPUT"
           else
             echo "item-detail-extracted=false" >> "$GITHUB_OUTPUT"
@@ -158,12 +158,11 @@ jobs:
         with:
           name: sde-output-${{ needs.get-build-info.outputs.final-build-number }}
           path: |
-            output_sde/
-            output_icons/
-            item_detail_en/
-            item_detail_zh/
-            release_compare_${{ needs.get-build-info.outputs.final-build-number }}.md
-            whats_new/
+            output/sde/
+            output/icons/
+            output/item_detail/
+            output/whats_new/
+            output/release/
           retention-days: 5
 
   create-release:
@@ -187,7 +186,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
         run: |
-          python -u scripts/prepare_release_assets.py \
+          python -u -m evesde.processors.prepare_release_assets \
             --build-number "${{ needs.get-build-info.outputs.build-number }}" \
             --final-build-number "${{ needs.get-build-info.outputs.final-build-number }}" \
             --patch-version "${{ needs.get-build-info.outputs.patch-version }}" \
@@ -233,13 +232,14 @@ jobs:
 
           WHATS_NEW="${{ needs.build-sde.outputs.whats-new-name }}"
           if [ "${{ needs.build-sde.outputs.whats-new-exists }}" = "true" ] && [ -n "$WHATS_NEW" ]; then
-            mkdir -p whats_new
-            cp "../$WHATS_NEW" "whats_new/$(basename "$WHATS_NEW")"
-            git add "whats_new/$(basename "$WHATS_NEW")"
+            mkdir -p output/whats_new
+            cp "../$WHATS_NEW" "output/whats_new/$(basename "$WHATS_NEW")"
+            git add "output/whats_new/$(basename "$WHATS_NEW")"
           fi
 
-          for detail_dir in item_detail_en item_detail_zh; do
+          for detail_dir in output/item_detail/en output/item_detail/zh; do
             if [ -d "../$detail_dir" ]; then
+              mkdir -p "$(dirname "$detail_dir")"
               rm -rf "$detail_dir"
               cp -R "../$detail_dir" "$detail_dir"
               git add "$detail_dir"

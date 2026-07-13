@@ -19,12 +19,12 @@ project_root = script_path.parent.parent
 if str(project_root) not in sys.path:
     sys.path.insert(0, str(project_root))
 
-from utils.eve_client import EveClient
+from evesde.utils.eve_client import EveClient
 
 
 def load_resfile_index(keyword: Optional[str] = None) -> List[Tuple[str, str]]:
     """从 EveClient 加载 resfileindex 文件列表"""
-    client = EveClient.from_tq(project_root / "client_cache")
+    client = EveClient.from_tq(project_root / "cache/client")
     file_list = []
     for res_path, entry in client.res_index.items():
         if keyword and keyword.lower() not in res_path.lower():

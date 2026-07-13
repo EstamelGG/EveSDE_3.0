@@ -5,7 +5,7 @@ EVE SDE 处理器 - 主入口
 用于处理EVE Online静态数据导出(SDE)的主程序
 """
 
-from utils.single_db import get_db_path
+from evesde.utils.single_db import get_db_path
 import json
 import sys
 import os
@@ -13,53 +13,53 @@ import shutil
 import argparse
 from pathlib import Path
 from datetime import datetime
-from utils.http_client import get, head, create_session
-from utils.eve_client import EveClient, set_eve_client
-from brackets_decode.parse_brackets_standalone import main as parse_brackets_main
+from evesde.utils.http_client import get, head, create_session
+from evesde.utils.eve_client import EveClient, set_eve_client
+from evesde.brackets.parse_brackets_standalone import main as parse_brackets_main
 
 # 设置无缓冲输出，确保在GitHub Actions中日志能实时显示
 os.environ['PYTHONUNBUFFERED'] = '1'
 # 导入SDE处理模块
-import scripts.sde_downloader as sde_downloader
-import scripts.jsonl_loader as jsonl_loader
-import scripts.icon_builder_processor as icon_builder_processor
-import scripts.icon_fetcher as icon_fetcher
-import scripts.dynamic_items_updater as dynamic_items_updater
-import scripts.universe_processor as universe_processor
-import scripts.universe_names_processor as universe_names_processor
-import scripts.dogma_effects_processor as dogma_effects_processor
-import scripts.planet_schematics_processor as planet_schematics_processor
-import scripts.categories_processor as categories_processor
-import scripts.groups_processor as groups_processor
-import scripts.metagroups_processor as metagroups_processor
-import scripts.stations_processor as stations_processor
-import scripts.factions_processor as factions_processor
-import scripts.npcCorporations_processor as npcCorporations_processor
-import scripts.loyalty_stores_processor as loyalty_stores_processor
-import scripts.agents_processor as agents_processor
-import scripts.agent_localization_processor as agent_localization_processor
-import scripts.divisions_processor as divisions_processor
-import scripts.dogmaAttributeCategories_processor as dogmaAttributeCategories_processor
-import scripts.dogmaAttributes_processor as dogmaAttributes_processor
-import scripts.typeDogma_processor as typeDogma_processor
-import scripts.types_processor as types_processor
-import scripts.npc_ship_classifier as npc_ship_classifier
-import scripts.dbuffCollections_processor as dbuffCollections_processor
-import scripts.marketGroups_processor as marketGroups_processor
-import scripts.typeMaterials_processor as typeMaterials_processor
-import scripts.blueprints_processor as blueprints_processor
-import scripts.celestial_names_processor as celestial_names_processor
-import scripts.skill_requirements_processor as skill_requirements_processor
-import scripts.facility_rig_effects_processor as facility_rig_effects_processor
-import scripts.dogma_effect_patch_processor as dogma_effect_patch_processor
-import scripts.compressable_types_processor as compressable_types_processor
-import scripts.compression_processor as compression_processor
-import scripts.typeTraits_processor as typeTraits_processor
-import scripts.ore_color_processor as ore_color_processor
-import scripts.update_categories_icons as update_categories_icons
-import scripts.map_generator as map_generator
-import scripts.version_info_processor as version_info_processor
-import scripts.release_compare_processor as release_compare_processor
+import evesde.processors.sde_downloader as sde_downloader
+import evesde.processors.jsonl_loader as jsonl_loader
+import evesde.processors.icon_builder_processor as icon_builder_processor
+import evesde.processors.icon_fetcher as icon_fetcher
+import evesde.processors.dynamic_items_updater as dynamic_items_updater
+import evesde.processors.universe_processor as universe_processor
+import evesde.processors.universe_names_processor as universe_names_processor
+import evesde.processors.dogma_effects_processor as dogma_effects_processor
+import evesde.processors.planet_schematics_processor as planet_schematics_processor
+import evesde.processors.categories_processor as categories_processor
+import evesde.processors.groups_processor as groups_processor
+import evesde.processors.metagroups_processor as metagroups_processor
+import evesde.processors.stations_processor as stations_processor
+import evesde.processors.factions_processor as factions_processor
+import evesde.processors.npcCorporations_processor as npcCorporations_processor
+import evesde.processors.loyalty_stores_processor as loyalty_stores_processor
+import evesde.processors.agents_processor as agents_processor
+import evesde.processors.agent_localization_processor as agent_localization_processor
+import evesde.processors.divisions_processor as divisions_processor
+import evesde.processors.dogmaAttributeCategories_processor as dogmaAttributeCategories_processor
+import evesde.processors.dogmaAttributes_processor as dogmaAttributes_processor
+import evesde.processors.typeDogma_processor as typeDogma_processor
+import evesde.processors.types_processor as types_processor
+import evesde.processors.npc_ship_classifier as npc_ship_classifier
+import evesde.processors.dbuffCollections_processor as dbuffCollections_processor
+import evesde.processors.marketGroups_processor as marketGroups_processor
+import evesde.processors.typeMaterials_processor as typeMaterials_processor
+import evesde.processors.blueprints_processor as blueprints_processor
+import evesde.processors.celestial_names_processor as celestial_names_processor
+import evesde.processors.skill_requirements_processor as skill_requirements_processor
+import evesde.processors.facility_rig_effects_processor as facility_rig_effects_processor
+import evesde.processors.dogma_effect_patch_processor as dogma_effect_patch_processor
+import evesde.processors.compressable_types_processor as compressable_types_processor
+import evesde.processors.compression_processor as compression_processor
+import evesde.processors.typeTraits_processor as typeTraits_processor
+import evesde.processors.ore_color_processor as ore_color_processor
+import evesde.processors.update_categories_icons as update_categories_icons
+import evesde.processors.map_generator as map_generator
+import evesde.processors.version_info_processor as version_info_processor
+import evesde.processors.release_compare_processor as release_compare_processor
 import clean
 
 # 本地化处理通过调用localization/main.py完成
@@ -142,7 +142,7 @@ def get_latest_sde_info(config, skip_version_check=False):
 def check_existing_version():
     """检查已存在的版本信息"""
     project_root = Path(__file__).parent
-    latest_log_path = project_root / "output" / "latest.log"
+    latest_log_path = project_root / "output" / "sde" / "latest.log"
     
     if not latest_log_path.exists():
         return None
@@ -158,10 +158,10 @@ def check_existing_version():
 def write_latest_log(build_number, release_date):
     """写入latest.log文件"""
     project_root = Path(__file__).parent
-    output_sde_dir = project_root / "output_sde"
-    output_sde_dir.mkdir(exist_ok=True)
+    sde_output_dir = project_root / "output/sde"
+    sde_output_dir.mkdir(exist_ok=True)
     
-    latest_log_path = output_sde_dir / "latest.log"
+    latest_log_path = sde_output_dir / "latest.log"
     
     log_data = {
         'completion_time': datetime.now().isoformat(),
@@ -245,20 +245,20 @@ def load_config():
 def check_localization_exists() -> bool:
     """检查本地化数据是否已存在"""
     project_root = Path(__file__).parent
-    localization_output = project_root / "localization" / "output"
-    sde_localization_output = project_root / "output_sde" / "localization"
+    localization_output = project_root / "cache" / "localization" / "output"
+    sde_localization_output = project_root / "output" / "sde" / "localization"
     
     required_files = [
         "en_multi_lang_mapping.json",
         "combined_localization.json"
     ]
     
-    # 检查localization/output目录中的文件
+    # 检查 cache/localization/output 中的文件
     for file_name in required_files:
         if not (localization_output / file_name).exists():
             return False
     
-    # 检查output_sde/localization目录中的文件
+    # 检查 output/sde/localization 中的文件
     if not (sde_localization_output / "accountingentrytypes_localized.json").exists():
         return False
     
@@ -276,7 +276,7 @@ def process_localization(force: bool = False, eve_client=None) -> bool:
     print("[+] 开始处理本地化数据...")
     
     try:
-        from localization.main import main as localization_main
+        from evesde.localization.main import main as localization_main
         return localization_main(eve_client=eve_client)
         
     except Exception as e:
@@ -288,34 +288,28 @@ def rebuild_output_directory(config):
     """重构输出目录，删除所有内容并重新创建"""
     project_root = Path(__file__).parent
     
-    # 清理output_sde目录
-    output_sde_dir = project_root / "output_sde"
-    if output_sde_dir.exists():
-        print(f"[+] 清理SDE输出目录: {output_sde_dir}")
-        shutil.rmtree(output_sde_dir)
+    # 清理output/sde目录
+    sde_output_dir = project_root / "output/sde"
+    if sde_output_dir.exists():
+        print(f"[+] 清理SDE输出目录: {sde_output_dir}")
+        shutil.rmtree(sde_output_dir)
     
-    # 清理output_icons目录
-    output_icons_dir = project_root / "output_icons"
-    if output_icons_dir.exists():
-        print(f"[+] 清理图标输出目录: {output_icons_dir}")
-        shutil.rmtree(output_icons_dir)
+    # 清理output/icons目录
+    icons_output_dir = project_root / "output/icons"
+    if icons_output_dir.exists():
+        print(f"[+] 清理图标输出目录: {icons_output_dir}")
+        shutil.rmtree(icons_output_dir)
 
 
 def ensure_directories(config):
     """确保所有必要的目录存在"""
+    from evesde.paths import ensure_dirs
+    ensure_dirs(config)
+    # 确保 output/sde/localization 存在
     project_root = Path(__file__).parent
-    
-    # 创建所有配置中的目录
-    paths = config.get("paths", {})
-    for path_name, path_value in paths.items():
-        full_path = project_root / path_value
-        full_path.mkdir(parents=True, exist_ok=True)
-        print(f"[+] 确保目录存在: {full_path}")
-    
-    # 创建output_sde/localization目录（用于存放本地化输出）
-    output_sde_localization = project_root / "output_sde" / "localization"
-    output_sde_localization.mkdir(parents=True, exist_ok=True)
-    print(f"[+] 确保目录存在: {output_sde_localization}")
+    sde_localization_dir = project_root / "output" / "sde" / "localization"
+    sde_localization_dir.mkdir(parents=True, exist_ok=True)
+    print(f"[+] 确保目录存在: {sde_localization_dir}")
 
 
 def safe_execute_processor(processor_func, processor_name, config):
@@ -414,7 +408,7 @@ def main():
 
     # 初始化 EVE 客户端资源索引（全局单例，后续模块共享）
     try:
-        eve_client = EveClient.from_tq(Path(__file__).parent / config["paths"].get("client_cache", "client_cache"))
+        eve_client = EveClient.from_tq(Path(__file__).parent / config["paths"].get("client_cache", "cache/client"))
         set_eve_client(eve_client)
         config["eve_client"] = eve_client
     except Exception as e:
@@ -558,7 +552,7 @@ def main():
     # 执行数据库标准化（确保跨平台一致性）
     print("\n[+] 执行数据库标准化")
     print("=" * 30)
-    import scripts.database_normalizer as database_normalizer
+    import evesde.processors.database_normalizer as database_normalizer
     safe_execute_processor(database_normalizer.main, "数据库标准化", config)
     
     # 处理版本信息（在所有语言数据库中创建版本信息表）
@@ -598,15 +592,15 @@ def main():
     # 执行物品详细信息提取
     print("\n[+] 执行物品详细信息提取")
     print("=" * 30)
-    import scripts.item_detail_extractor as item_detail_extractor
+    import evesde.processors.item_detail_extractor as item_detail_extractor
     
     db_path = get_db_path(config)
 
     print("[+] 提取英文版物品详细信息")
-    en_success = item_detail_extractor.item_detail_extract(str(db_path), "item_detail_en", lang="en")
+    en_success = item_detail_extractor.item_detail_extract(str(db_path), "output/item_detail/en", lang="en")
 
     print("[+] 提取中文版物品详细信息")
-    zh_success = item_detail_extractor.item_detail_extract(str(db_path), "item_detail_zh", lang="zh")
+    zh_success = item_detail_extractor.item_detail_extract(str(db_path), "output/item_detail/zh", lang="zh")
     
     if en_success and zh_success:
         print("[+] 物品详细信息提取完成")

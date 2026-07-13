@@ -15,7 +15,7 @@ import sys
 project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
-from scripts.jsonl_loader import load_jsonl
+from evesde.processors.jsonl_loader import load_jsonl
 
 
 def calculate_system_ranges(
@@ -293,7 +293,7 @@ def main():
                 config = json.load(f)
             sde_input_path = project_root / config["paths"]["sde_input"]
         else:
-            sde_input_path = project_root / "sde_jsonl"
+            sde_input_path = project_root / "sde_input"
     
     if not sde_input_path.exists():
         print(f"[x] SDE路径不存在: {sde_input_path}")
@@ -314,7 +314,7 @@ def main():
     if args.output:
         output_path = Path(args.output)
     else:
-        output_dir = project_root / "output_sde"
+        output_dir = project_root / "output/sde"
         output_dir.mkdir(parents=True, exist_ok=True)
         output_path = output_dir / f"system_ranges_{args.start_system}_{args.target_region}.json"
     
