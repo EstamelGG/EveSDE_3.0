@@ -1,0 +1,49 @@
+{
+  "type_id": 81083,
+  "name": "星炫劲爽！经典款",
+  "description": "星炫劲爽！是星炫饮品™软饮企业推出的最新产品，在加达里空间内外十分流行。星炫劲爽！面向新伊甸太空工业和殖民地员工研发，满足其对高能量提神醒脑饮料日益增长的市场需求。星炫劲爽！经典款的配方旨在唤起人们对初代爱国软饮星炫舒爽口感的记忆。加成：<b>+5%灵活性，+5%速度</b>持续时间：<b>1小时</b>星炫起初由加达里帝国忠诚卫士克隆飞行员成立，目的是与酷菲争夺市场。自创立以来，它在过去的二十年间已发展成为加达里合众国内的一款流行饮品。值得一提的是，YC117年12月纳基维超级集团收购该品牌之后，这款软饮及其众多衍生品获得新生，并出现在新伊甸各地的商店和补给站中。<i>免责声明：星炫劲爽！经典款已由纳基维集团授权给所有PKN星际财团成员和合作伙伴生产。消费者应知悉，在摄取和排泄的各个代谢阶段，星炫劲爽！的专有技术始终归纳基维集团所有。使用颅下纳米控制器的用户可能会体验到性能增强或变化，如若发生意外情况，请联系首选的纳米技术服务专业人员。</i>",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "agilityBonus",
+      "value": -5.0,
+      "categoryID": 7,
+      "display_name": "惯性调整系数",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "velocityBonus",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "速度调整",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 3600000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 21544,
+  "name": "损坏的监听器",
+  "description": "一个小的窃听装置，可以安置在飞船上进行窃听，并且把信息转播给第三方。不过这个已经损坏，不能发送任何信息，但它依然可以存储数据。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

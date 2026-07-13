@@ -1,0 +1,13 @@
+{
+  "type_id": 2710,
+  "name": "Large Crates of Construction Blocks",
+  "description": "Metal girders, plasteel concrete and fiber blocks are all very common construction material used around the universe.",
+  "volume": 700.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

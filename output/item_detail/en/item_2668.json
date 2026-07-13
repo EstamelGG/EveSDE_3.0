@@ -1,0 +1,13 @@
+{
+  "type_id": 2668,
+  "name": "Group of Genetically Enhanced Livestock",
+  "description": "Livestock are domestic animals raised for home use or for profit, whether it be for their meat or dairy products.  This particular breed of livestock has been genetically enhanced using the very latest technology.",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100000.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 21043,
+  "name": "Ancient Treasure Map",
+  "description": "An ancient and partly decayed treasure map, with the name 'Otitoh' scribbled next to a picture of a crudely drawn solarsystem. A big X marks one of the moons.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

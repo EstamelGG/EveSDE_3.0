@@ -1,0 +1,13 @@
+{
+  "type_id": 23236,
+  "name": "Black Market Entry Keycard",
+  "description": "This keycard will activate the acceleration gate leading into the Black Market of Azure Canyon in Colelie.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

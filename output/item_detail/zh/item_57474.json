@@ -1,0 +1,13 @@
+{
+  "type_id": 57474,
+  "name": "雷达超光速链接通信器",
+  "description": "艾玛舰船一直以来都主要使用雷达式感应器来探测太空环境。雷达超光速链接通信器能将高频高分辨率的艾玛感应器数据直接链接到帝国海军舰队使用的超光速通信频道中。",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "常用物品",
+  "group_name": "高级旗舰级建造组件",
+  "attributes": [],
+  "traits": []
+}

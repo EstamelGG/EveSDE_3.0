@@ -1,0 +1,21 @@
+{
+  "type_id": 25338,
+  "name": "Pure Improved Mindflood Booster",
+  "description": "Improved Mindflood compound in its uncut form, ready to be processed into the final version of the combat booster.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Biochemical Material",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

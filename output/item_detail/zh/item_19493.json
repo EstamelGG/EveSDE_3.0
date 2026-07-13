@@ -1,0 +1,13 @@
+{
+  "type_id": 19493,
+  "name": "武器库",
+  "description": "用于战争和自卫的个人武器和装备。",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

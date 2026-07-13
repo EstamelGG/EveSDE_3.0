@@ -1,0 +1,13 @@
+{
+  "type_id": 23683,
+  "name": "二进制置变密码",
+  "description": "这种薄片可以轻易解密分层的二进制代码。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

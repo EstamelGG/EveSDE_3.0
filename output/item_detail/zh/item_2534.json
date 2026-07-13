@@ -1,0 +1,49 @@
+{
+  "type_id": 2534,
+  "name": "气体行星指挥中心",
+  "description": "在气体行星上对某一个地区进行控制，需要用到一种特殊的指挥中心设施。它必须要能够保持自己在气体行星上空的运行轨道，能够承载管理人员并且要能方便地与其他节点设施进行通信交流。节点设施通过专门的平衡技术悬浮于空中，并能够在最低消耗的情况下保持自身的高度。如果要问在气体行星上建立殖民站相较其他行星有什么较大优点的话，那就是在气体行星上对设施进行投放的时候，它们所采用的降下保护措施或者部署技术要简单得多。",
+  "volume": 1000.0,
+  "repackaged_volume": null,
+  "capacity": 500.0,
+  "mass": 5000.0,
+  "category_name": "行星工业",
+  "group_name": "指挥中心",
+  "attributes": [
+    {
+      "attribute_name": "powerOutput",
+      "value": 6000.0,
+      "categoryID": 1,
+      "display_name": "能量栅格输出",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuOutput",
+      "value": 1675.0,
+      "categoryID": 1,
+      "display_name": "CPU输出",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 13.0,
+      "categoryID": 7,
+      "display_name": "行星类型限制",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "exportTax",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "出口税",
+      "unit_name": "星币"
+    }
+  ],
+  "traits": []
+}

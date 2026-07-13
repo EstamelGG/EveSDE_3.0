@@ -1,0 +1,13 @@
+{
+  "type_id": 22164,
+  "name": "Navy Issue Amplifier",
+  "description": "An electronic device that generates and amplifies a carrier wave, modulates it with a meaningful signal derived from speech or other sources, and radiates the resulting signal from an antenna.",
+  "volume": 200.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

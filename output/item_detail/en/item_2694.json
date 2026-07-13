@@ -1,0 +1,13 @@
+{
+  "type_id": 2694,
+  "name": "Large Crates of Small Arms",
+  "description": "Personal weapons and armaments, used both for warfare and personal security.",
+  "volume": 600.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 600000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

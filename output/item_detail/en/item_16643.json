@@ -1,0 +1,21 @@
+{
+  "type_id": 16643,
+  "name": "Cadmium",
+  "description": "A soft, malleable metal often occuring with zinc ores. Has a wide variety of applications; used in electroplating, superconductors, and as an alloy in various types of structure and equipment.",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 3476.0,
+  "category_name": "Material",
+  "group_name": "Moon Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

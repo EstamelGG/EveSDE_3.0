@@ -1,0 +1,13 @@
+{
+  "type_id": 45653,
+  "name": "Superconducting Gravimetric Amplifier",
+  "description": "This advanced Gravimetric amplifier allows for greatly improved ship sensors without sacrificing size. It represents the latest phase in the continuous effort to reverse engineer secrets from the salvaged wrecks of Sleeper and Drifter ships. This state of the art component is the newest to be incorporated into the latest generation of Tengu Strategic Cruiser blueprints.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Hybrid Tech Components",
+  "attributes": [],
+  "traits": []
+}

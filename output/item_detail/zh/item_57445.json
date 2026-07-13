@@ -1,0 +1,13 @@
+{
+  "type_id": 57445,
+  "name": "LM复合分子冷凝器",
+  "description": "LM复合分子冷凝器是一种分子熔铸工具，与在气云中发现的一种特殊化学物配合使用。使用这一工具可以制造出目前最复杂，也最有药物效力的化学物质。\n\n\n\n分子熔铸工具是几大帝国的太空工业集团领头羊研发出的尖端技术。而这种技术也不可避免地落入到了犯罪和反叛势力的手中。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

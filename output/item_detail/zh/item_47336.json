@@ -1,0 +1,56 @@
+{
+  "type_id": 47336,
+  "name": "屹立聚焦跃迁扰频脚本",
+  "description": "这玩意儿一开始是为一群自称为“范达连帮”的青少年骇客所用，以期破解高科技安全固件。这些脚本通过在固件中插入指令可以改变那些固件的运作方式。现在随着那帮小子的成长，他们已将儿时的发明运用到了他们现在各自牵头的科研部门里。\n\n\n\n这种脚本可以装载于屹立聚焦跃迁扰断器上，以牺牲最大作用范围为代价来换取对目标舰船的微型跃迁推进器和微型跳跃引擎装备的扰断能力。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "弹药",
+  "group_name": "建筑跃迁扰断器脚本",
+  "attributes": [
+    {
+      "attribute_name": "chargeSize",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "弹药尺寸",
+      "unit_name": "1=小型  2=中型  3=大型"
+    },
+    {
+      "attribute_name": "launcherGroup",
+      "value": 1442.0,
+      "categoryID": 7,
+      "display_name": "配套使用（发射器类别）",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "warpScrambleRangeBonus",
+      "value": -70.0,
+      "categoryID": 27,
+      "display_name": "跃迁扰频器范围加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "activationBlockedStrenght",
+      "value": 1.0,
+      "categoryID": 27,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureItemVisualFlag",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

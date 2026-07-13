@@ -1,0 +1,13 @@
+{
+  "type_id": 21048,
+  "name": "Kepheur's Keycard",
+  "description": "This is a chaos-logic keycard. It had been issued to a pirate by the name of Drazin Jaruk. It will open the acceleration gate for a short time and then self-destruct.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

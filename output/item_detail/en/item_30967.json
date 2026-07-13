@@ -1,0 +1,13 @@
+{
+  "type_id": 30967,
+  "name": "Questionable Cargo",
+  "description": "This small container has been welded shut and then covered in a thin red film of hardened fullerene alloys. Gaining access would require a plethora of specialized scientific equipment. Why an entertainment company like Nugoeihuvi would be interested in such an item is anyone's guess.",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

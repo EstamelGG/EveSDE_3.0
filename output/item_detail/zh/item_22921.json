@@ -1,0 +1,126 @@
+{
+  "type_id": 22921,
+  "name": "栖息采矿器 I",
+  "description": "基础采矿激光器。能快速采集普通的矿石，但不太适合开采稀有品种。",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "装备",
+  "group_name": "采矿激光器",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 5.0,
+      "categoryID": 5,
+      "display_name": "启用耗电量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 2.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "slots",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 54.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 12000.0,
+      "categoryID": 29,
+      "display_name": "最佳射程",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 15000.0,
+      "categoryID": 7,
+      "display_name": "作用时间/单次运转时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "miningAmount",
+      "value": 14.0,
+      "categoryID": 51,
+      "display_name": "开采量",
+      "unit_name": "m3"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "miningWastedVolumeMultiplier",
+      "value": 0.0,
+      "categoryID": 51,
+      "display_name": "残渣体积系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "miningWasteProbability",
+      "value": 0.0,
+      "categoryID": 51,
+      "display_name": "残渣几率",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "miningCritChance",
+      "value": 0.01,
+      "categoryID": 51,
+      "display_name": "暴击成功率",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "miningCritBonusYield",
+      "value": 2.0,
+      "categoryID": 51,
+      "display_name": "成功暴击额外收益",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

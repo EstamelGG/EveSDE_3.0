@@ -1,0 +1,154 @@
+{
+  "type_id": 83661,
+  "name": "哈库藏改良型信号半径抑制装置",
+  "description": "这个装置使用了一系列散射抑制手段来降低舰船在敌方感应器上的信号半径强度。信号半径抑制会使敌方锁定你的舰船的时间变长，并通过干扰敌方的火力系统来降低几乎所有武器和爆炸物所造成的伤害。这个装置可以切换主动模式和被动模式，其中被动模式提供的效果低一些，而主动开启后的效果会极大增强。",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "装备",
+  "group_name": "信号半径抑制装置",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 520.0,
+      "categoryID": 5,
+      "display_name": "启用耗电量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 1.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 56.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3427.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 4.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 14.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "moduleReactivationDelay",
+      "value": 150000.0,
+      "categoryID": 7,
+      "display_name": "重启延迟",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "maxGroupActive",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "disallowRepeatingActivation",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "无法自动重复",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "heatAbsorbtionRateModifier",
+      "value": 0.01,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "canFitShipGroup01",
+      "value": 900.0,
+      "categoryID": 1,
+      "display_name": "只能装配在",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "canFitShipGroup02",
+      "value": 27.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "canFitShipGroup03",
+      "value": 898.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "maxGroupFitted",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "该武器组所允许的最大装备数量",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "metaGroupID",
+      "value": 5.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "signatureSuppressorSignatureRadiusBonusPassive",
+      "value": 0.85,
+      "categoryID": 7,
+      "display_name": "信号半径加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "signatureSuppressorSignatureRadiusBonusActive",
+      "value": 0.225,
+      "categoryID": 7,
+      "display_name": "主动信号半径加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "durationHighisGood",
+      "value": 16000.0,
+      "categoryID": 7,
+      "display_name": "作用时间/单次运转时间",
+      "unit_name": "s"
+    }
+  ],
+  "traits": []
+}

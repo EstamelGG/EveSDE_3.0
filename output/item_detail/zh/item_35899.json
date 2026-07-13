@@ -1,0 +1,133 @@
+{
+  "type_id": 35899,
+  "name": "屹立提炼设施 I",
+  "description": "屹立提炼设施是一种服务装备，装在昇威科技建筑上可以提供提炼和压缩服务。默认的提炼率是50%，这一数字可以通过加装屹立改装件来提高。注意，该设施无法压缩可采集气云和卫星矿石，只有装备了舰载压缩装备的工业指挥舰及旗舰级工业指挥舰才能进行此类压缩。如果昇威建筑启用了至少一个服务装备，将进入全能量运转模式，将会额外获得海量的护盾和装甲值以及一个额外的增强模式循环。屹立专用系统采用了昇威建筑分控纳米装配装置，由集成模版软件、纳米装配阵列和许多纳米块体构成。安装在采用昇威科技建造的建筑上的专门槽位中可以制造各种服务装备、建筑装备和建筑改装件。",
+  "volume": 4000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 500.0,
+  "category_name": "建筑装备",
+  "group_name": "建筑资源处理服务装备",
+  "attributes": [
+    {
+      "attribute_name": "power",
+      "value": 30000.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 200.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "refiningYieldMultiplier",
+      "value": 0.5,
+      "categoryID": 7,
+      "display_name": "提炼产量系数",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "canFitShipGroup01",
+      "value": 1657.0,
+      "categoryID": 1,
+      "display_name": "只能装配在",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "canFitShipGroup02",
+      "value": 1404.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "canFitShipGroup03",
+      "value": 1406.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "serviceModuleFuelConsumptionGroup",
+      "value": 1136.0,
+      "categoryID": 7,
+      "display_name": "服务装备燃料需求",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "serviceModuleFuelAmount",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "服务装备周期燃料需求",
+      "unit_name": "单位"
+    },
+    {
+      "attribute_name": "serviceModuleFuelOnlineAmount",
+      "value": 720.0,
+      "categoryID": 7,
+      "display_name": "服务装备启用燃料需求",
+      "unit_name": "单位"
+    },
+    {
+      "attribute_name": "structureItemVisualFlag",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "maxTypeFitted",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "该类型装备使用上限",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "refiningYieldNormalOres",
+      "value": 0.5,
+      "categoryID": 7,
+      "display_name": "小行星带矿石精炼产出",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "refiningYieldMoonOres",
+      "value": 0.5,
+      "categoryID": 7,
+      "display_name": "卫星矿石精炼产出",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "refiningYieldIce",
+      "value": 0.5,
+      "categoryID": 7,
+      "display_name": "冰矿精炼产出",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "serviceModuleFullPowerStateHitpointMultiplier",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "全能量模式护盾和装甲值系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "serviceModuleFullPowerStateArmorPlatingMultiplier",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "gasDecompressionBaseEfficiency",
+      "value": 0.8,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

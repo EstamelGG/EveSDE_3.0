@@ -1,0 +1,28 @@
+{
+  "type_id": 47888,
+  "name": "焦躁异种深渊纤维",
+  "description": "这个深渊纤维会将一艘<b>一级或二级科技巡洋舰</b>拉入一个深渊空间层中，这里的环境<b>有些不稳定</b>，充满了会<b>降低动能抗性</b>但<b>提高扫描分辨率</b>的异种粒子。\n\n\n\n<b><color=yellow>限制：</color></b>  不能在安全等级为1.0或0.9的星系中使用。 \n\n\n\n<b><color=yellow>警告：</color></b>深渊空间的环境极其严苛和无情。纠缠在舰船的跃迁核心上的时空纤维会让舰船的跃迁力场严重变形，并会随时间推移而加剧。<b><color=yellow>20分钟</color></b>后，跃迁力场将会彻底崩塌，<b><color=yellow>舰船和太空舱也会随之灰飞烟灭</color></b> 。\n\n\n\n一个三神裔设备会放射出与某个特定的深渊空间层相连的惰性时空纤维，被某个载有特定的能量参数的跃迁核心的舰船触发后，纤维会成为一个导管，将该舰船引入其连接的空间层中。 \n\n\n\n这种大规模能量交换会在舰船的初始点留下高能量痕迹，时空纤维会纠缠在使用那个跃迁核心的舰船上。三神裔传输导管允许这样的舰船继续前往空间层，但初始导管会将舰船传回其在正常空间中的初始位置。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "常用物品",
+  "group_name": "深渊纤维",
+  "attributes": [
+    {
+      "attribute_name": "weatherID",
+      "value": 47862.0,
+      "categoryID": 7,
+      "display_name": "深渊环境",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "difficultyTier",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "难度等级",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

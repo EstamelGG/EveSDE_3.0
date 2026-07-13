@@ -1,0 +1,13 @@
+{
+  "type_id": 26780,
+  "name": "水晶蛋包装箱",
+  "description": "这种药品可以暂时缓解你的不适。",
+  "volume": 90.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 90000.0,
+  "category_name": "常用物品",
+  "group_name": "药品",
+  "attributes": [],
+  "traits": []
+}

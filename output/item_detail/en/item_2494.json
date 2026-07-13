@@ -1,0 +1,35 @@
+{
+  "type_id": 2494,
+  "name": "Gas Advanced Industry Facility",
+  "description": "Hovering eerily among the clouds of a gas giant planet, this mass production industry platform can cast a long shadow, for it requires a massive static attunement system to remain afloat. Inside, the only real difference between it and one of its terrestrial counterparts is in the material composition used in its construction. Anything that would have been made from cheap, sturdy metal is replaced with high-strength, ultra-resistant alloys. Spare parts and raw materials are kept at absolutely minimal levels to maintain the proper weight and balance, while even items as innocuous as staff personal effects are carefully monitored and regulated",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Planetary Industry",
+  "group_name": "Processors",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 700.0,
+      "categoryID": 7,
+      "display_name": "Power Load",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 500.0,
+      "categoryID": 9,
+      "display_name": "CPU Load",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 13.0,
+      "categoryID": 7,
+      "display_name": "Planet Type Restriction",
+      "unit_name": "typeID"
+    }
+  ],
+  "traits": []
+}

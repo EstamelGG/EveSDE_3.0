@@ -1,0 +1,13 @@
+{
+  "type_id": 91409,
+  "name": "Looping Audio log",
+  "description": "An audio log that displays the logo of some sort of reptile. Upon playing it, it seems to repeat the same word over and over:\n\nLizard Lizard Lizard Lizard Lizard Lizard Lizard Lizard Lizard Lizard Lizard Lizard Lizard Lizard Lizard Lizard",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

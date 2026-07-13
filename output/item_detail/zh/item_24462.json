@@ -1,0 +1,13 @@
+{
+  "type_id": 24462,
+  "name": "奥法之匙",
+  "description": "允许进入阿卡纳博物馆的精美通行证钥匙。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

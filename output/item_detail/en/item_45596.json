@@ -1,0 +1,145 @@
+{
+  "type_id": 45596,
+  "name": "Loki Defensive - Augmented Durability",
+  "description": "Capitalizing on the exceptional defensive capabilities of fullerene-based components, this subsystem allows a Loki pilot to augment their armor and shield defenses, dramatically enhancing its survivability in combat. Tiny molecular-level conduits play a crucial role in orchestrating the flow of nano-assemblers through and around the Loki, guarding the flow of vital repairs against disruptive impact.",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": 300.0,
+  "mass": 1400000.0,
+  "category_name": "Subsystem",
+  "group_name": "Defensive Subsystem",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 30545.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "shieldCapacity",
+      "value": 600.0,
+      "categoryID": 2,
+      "display_name": "Shield Capacity",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 10.0,
+      "categoryID": 6,
+      "display_name": "Signature Radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "armorHPBonusAdd",
+      "value": 600.0,
+      "categoryID": 3,
+      "display_name": "Armor Hitpoint Bonus",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "subSystemSlot",
+      "value": 126.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hiSlotModifier",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "High Slot Modifier",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "medSlotModifier",
+      "value": 2.0,
+      "categoryID": 0,
+      "display_name": "Medium Slot Modifier",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "lowSlotModifier",
+      "value": 2.0,
+      "categoryID": 0,
+      "display_name": "Low Slot Modifier",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "fitsToShipType",
+      "value": 29990.0,
+      "categoryID": 0,
+      "display_name": "Restricted to Ship Type",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "subsystemBonusMinmatarDefensive",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "subsystemBonusMinmatarDefensive2",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "covertCloakCPUPenalty",
+      "value": 10000.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b><u>Additional Base Stats</b></u>"
+    },
+    {
+      "content": "+2 Mid Slots, +2 Low Slots"
+    },
+    {
+      "content": "+600 Shield HP, +600 Armor HP"
+    },
+    {
+      "content": "+10m Signature Radius"
+    },
+    {
+      "content": "<b>5%</b> bonus to all armor and shield hitpoints"
+    },
+    {
+      "content": "<b>5%</b> bonus to the benefits of overheating armor and shield hardeners"
+    }
+  ]
+}

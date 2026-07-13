@@ -1,0 +1,13 @@
+{
+  "type_id": 62054,
+  "name": "中子流极性反转装置",
+  "description": "这个装置的设计用意是反转中子流的极性。不过这意味着什么仍然是新伊甸最具智慧的大脑至今仍然争论不休的焦点。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

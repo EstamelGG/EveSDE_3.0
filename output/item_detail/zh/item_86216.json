@@ -1,0 +1,13 @@
+{
+  "type_id": 86216,
+  "name": "星际侦察数据",
+  "description": "该数据核心包含由星际观测站收集的复杂加密数据。虽然其中包含的内容尚未可知，但肯定值得研究。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "伊甸联合防御阵线数据",
+  "attributes": [],
+  "traits": []
+}

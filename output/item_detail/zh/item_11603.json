@@ -1,0 +1,13 @@
+{
+  "type_id": 11603,
+  "name": "西尔兹·库扎克飞船数据库",
+  "description": "这块微小、玻璃状的数据芯片包含曾属于西尔兹·库扎克的飞船的数据库信息。这里面存储的信息可能是飞船日志上的任何内容。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

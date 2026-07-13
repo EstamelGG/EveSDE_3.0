@@ -1,0 +1,13 @@
+{
+  "type_id": 72258,
+  "name": "Operation Center Reward Token",
+  "description": "This token can be found within some sites related to the Caldari Union Day event and may be sold in many Caldari stations for an ISK reward.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 53291,
+  "name": "Dreadnought Systems Diagram",
+  "description": "A database containing specifics and schematics of this dreadnought's hardware and software systems. This might provide key information to parties whom have an interest in building their own dreadnought.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

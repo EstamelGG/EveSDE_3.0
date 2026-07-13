@@ -1,0 +1,13 @@
+{
+  "type_id": 28116,
+  "name": "盖伦特哨站车间",
+  "description": "针对盖伦特哨站生产能力的中级升级方案。所有旗舰级建筑结构模块生产时间减少40%。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "附件",
+  "group_name": "哨站强化",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 29278,
+  "name": "Physical Samples",
+  "description": "A sampling of various types of organic matter that has been exposed to some unusual cosmic radiation.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

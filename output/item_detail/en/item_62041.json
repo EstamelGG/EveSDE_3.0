@@ -1,0 +1,13 @@
+{
+  "type_id": 62041,
+  "name": "Strange Matter Component Z-157",
+  "description": "This component contains particles in the \"strange matter\" phase state arranged in a certain configuration. The component itself uses unusual materials but seems to be a standard unit, with obvious power and data inputs and outputs that make it possible to use it with spacetime conduit technology\n\nOddly enough, these strange matter components each show signs of originating from radically different spatiotemporal locations, suggesting they have travelled through some form of spacetime transport. The simplest explanation could indeed be that these devices are used in such a transport system.\n\nSeveral of these components arranged in a certain sequence may be the key to locating specific regions or pockets of spacetime accessible using filament FTL transport systems.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Peculiar Materials",
+  "attributes": [],
+  "traits": []
+}

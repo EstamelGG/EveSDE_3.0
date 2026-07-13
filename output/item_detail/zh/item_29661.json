@@ -1,0 +1,21 @@
+{
+  "type_id": 29661,
+  "name": "粗糙的新汞合金",
+  "description": "新汞合金是一种带有银色微光的液体化合物，是许多高级感应器和处理器技术中的重要元素。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "中间产物",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

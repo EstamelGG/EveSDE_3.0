@@ -1,0 +1,13 @@
+{
+  "type_id": 30308,
+  "name": "金属富勒烯钪",
+  "description": "这种富勒烯-钪复合物是通过将一个单一的钪原子包覆在一个碳原子框架中做成的。钪这种灰白色元素曾经非常难以被发现。镶接有钪的导弹因其强大的装甲穿透能力而著称，唯一阻碍这种技术在军事武器工业领域得到大力发展的原因只是在于这种物质非常的稀有。",
+  "volume": 0.65,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "混合聚合物",
+  "attributes": [],
+  "traits": []
+}

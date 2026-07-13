@@ -1,0 +1,13 @@
+{
+  "type_id": 44118,
+  "name": "塔隆的定制散热槽蓝图",
+  "description": "此蓝图可用来制造有限数量的特殊升级版散热槽装备。散热槽提高能量炮台的伤害和射速，是许多艾玛舰船的核心装备。\n\n\n\n这个特殊的蓝图根据舰队指挥官拉法雷尔·塔隆的特别要求而定制，这位指挥官将拷贝发放给了选定的一些帝国海军官员以及可信任的盟友。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "蓝图",
+  "group_name": "散热槽蓝图",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 78887,
+  "name": "Element Containment Vessel",
+  "description": "This containment vessel has been retrieved from a Sleeper Artifact site and appears to be designed as a receptacle and regulation device for the strange and powerful Coalesced Elements associated with Drifter Hives. Although this containment vessel is only one component, evidently intended to be used with arrays of other devices and specialized control algorithms, it should provide the basis of a power system capable of tapping the energies of Coalesced Elements.\n\nDevices of this kind are of great interest to the Deathless Circle given their efforts to reactivate and expand their control over the Jovian infrastructure present in the Zarzakh system, and particularly aboard the ancient Jovian station known as \"The Fulcrum\". Together with Element Control Data and Coalesced Elements, this containment vessel can be handed in to the Deathless Circle at the Fulcrum in return for Deathless Circle Reward Chips.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Unknown Components",
+  "attributes": [],
+  "traits": []
+}

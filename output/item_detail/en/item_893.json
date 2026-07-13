@@ -1,0 +1,21 @@
+{
+  "type_id": 893,
+  "name": "Phased Plasma M Blueprint",
+  "description": null,
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Blueprint",
+  "group_name": "Projectile Ammo Blueprint",
+  "attributes": [
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

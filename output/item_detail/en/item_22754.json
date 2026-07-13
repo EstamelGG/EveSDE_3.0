@@ -1,0 +1,13 @@
+{
+  "type_id": 22754,
+  "name": "Gallente Intelligence Data Recorder",
+  "description": "A data recorder used by the Gallente Navy Intelligence division.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

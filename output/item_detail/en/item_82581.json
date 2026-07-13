@@ -1,0 +1,21 @@
+{
+  "type_id": 82581,
+  "name": "Isogen Prospecting Array 1",
+  "description": "This array locates additional ore resources in a system, prioritizing <a href=showinfo:37>isogen</a>-rich asteroids belts.\n\nThis variant will discover smaller asteroid belts at a significantly faster rate, suitable for smaller groups of miners.",
+  "volume": 5000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Infrastructure Upgrades",
+  "group_name": "Sovereignty Hub Site Detection Upgrades",
+  "attributes": [
+    {
+      "attribute_name": "distributionID01",
+      "value": 3266.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

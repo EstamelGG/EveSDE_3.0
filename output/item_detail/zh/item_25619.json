@@ -1,0 +1,21 @@
+{
+  "type_id": 25619,
+  "name": "逻辑电路",
+  "description": "一块“蚜虫”逻辑电路。“蚜虫”这个昵称是来自于“全息数据存储嵌入自编程全息信号处理器”的英文缩写。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "打捞材料",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

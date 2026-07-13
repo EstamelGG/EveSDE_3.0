@@ -1,0 +1,56 @@
+{
+  "type_id": 21855,
+  "name": "民用扩充货柜舱",
+  "description": "牺牲最大速度和结构强度来增加货柜舱容量。",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 50.0,
+  "category_name": "装备",
+  "group_name": "扩充货柜舱",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "cargoCapacityMultiplier",
+      "value": 1.1,
+      "categoryID": 4,
+      "display_name": "货柜容量加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "structureHPMultiplier",
+      "value": 0.7,
+      "categoryID": 7,
+      "display_name": "结构值加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "maxVelocityModifier",
+      "value": 0.8,
+      "categoryID": 7,
+      "display_name": "最大速度调整系数",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    }
+  ],
+  "traits": []
+}

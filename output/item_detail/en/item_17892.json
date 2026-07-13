@@ -1,0 +1,13 @@
+{
+  "type_id": 17892,
+  "name": "Drugdealer Passcard to Storage Area",
+  "description": "This security passcard is manufactured by the Serpentis Corporation and allows the user to unlock a specific acceleration gate to a storage area. The gate will remain open for a short period of time and the passcard will be rendered useless after uploading the card's data to the gate's activation device.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,28 @@
+{
+  "type_id": 2352,
+  "name": "Nuclear Reactors",
+  "description": "This power core is able to convert heavy elements into electricity by way of nuclear fission, splitting atoms to produce thermal energy on a massive scale. If they are properly shielded and cooled, there are few safer, cleaner ways to power buildings or large vehicles.",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Planetary Commodities",
+  "group_name": "Specialized Commodities - Tier 3",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 60000.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 60000.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

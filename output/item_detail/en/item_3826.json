@@ -1,0 +1,13 @@
+{
+  "type_id": 3826,
+  "name": "Mindflood",
+  "description": "Highly addictive fluid of which the toxic fumes are inhaled through the nostrils of the user. Mindflood kills braincells quicker than submerging one's brain in battery acid.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5.0,
+  "category_name": "Commodity",
+  "group_name": "Drugs",
+  "attributes": [],
+  "traits": []
+}

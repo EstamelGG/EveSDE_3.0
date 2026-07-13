@@ -1,0 +1,21 @@
+{
+  "type_id": 27820,
+  "name": "Blood Large Pulse Laser Battery Blueprint",
+  "description": null,
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Blueprint",
+  "group_name": "Starbase - Laser Battery Blueprints",
+  "attributes": [
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 40.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

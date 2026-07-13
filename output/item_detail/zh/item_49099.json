@@ -1,0 +1,154 @@
+{
+  "type_id": 49099,
+  "name": "零点质量纠缠装置",
+  "description": "深渊纤维纠缠在舰船的跃迁核心上时会提供巨大的能量交换，从而能使舰船穿越时空导管，而科学家对这一现象的研究很快就能对其进行仿制，当然，效果有所不同。人们注意到，将跃迁能量直接转移到零点能量真空场会导致舰船自身有效质量的降低。这种“跃迁大规模能量纠缠”效果能够极大地降低舰船速度并阻止跃迁。\n\n\n\n科学家们认可这种效果的重要性，但似乎并不打算将其应用于现实中。不过，熟悉克隆飞行员太空探索和阿诺基斯或虫洞空间殖民的工程师很快便发现了这种效果的市场潜力，一种标准型设备也很快诞生。",
+  "volume": 50.0,
+  "repackaged_volume": null,
+  "capacity": 1.0,
+  "mass": null,
+  "category_name": "装备",
+  "group_name": "质量纠缠装置",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 100.0,
+      "categoryID": 5,
+      "display_name": "启用耗电量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 80.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 80.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 30000.0,
+      "categoryID": 7,
+      "display_name": "作用时间/单次运转时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "warpScrambleStrength",
+      "value": 100.0,
+      "categoryID": 27,
+      "display_name": "跃迁干扰强度",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 11446.0,
+      "categoryID": 8,
+      "display_name": "副技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 4.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "massBonusPercentage",
+      "value": -80.0,
+      "categoryID": 7,
+      "display_name": "质量调整",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "speedFactorBonus",
+      "value": -90.0,
+      "categoryID": 7,
+      "display_name": "加力燃烧器和微型跃迁推进器最大速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "heatAbsorbtionRateModifier",
+      "value": 0.01,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "heatDamage",
+      "value": 3.0,
+      "categoryID": 52,
+      "display_name": "超载损耗",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "speedBoostFactorBonus",
+      "value": -90.0,
+      "categoryID": 7,
+      "display_name": "加力燃烧器和微型跃迁推进器推力加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "canFitShipGroup01",
+      "value": 894.0,
+      "categoryID": 1,
+      "display_name": "只能装配在",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "canFitShipType1",
+      "value": 89607.0,
+      "categoryID": 1,
+      "display_name": "只能装配在",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "activationBlockedStrenght",
+      "value": 1.0,
+      "categoryID": 27,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "maxVelocityMultiplier",
+      "value": 0.05,
+      "categoryID": 4,
+      "display_name": "最大速率倍增系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "maxVelocityBonus",
+      "value": -95.0,
+      "categoryID": 7,
+      "display_name": "最大速度加成",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

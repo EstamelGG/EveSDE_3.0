@@ -1,0 +1,13 @@
+{
+  "type_id": 33988,
+  "name": "Guristas Data Sequence",
+  "description": "This data salvaged from a Guristas Transponder Tower could be used to decrypt the locations of hidden pirate research sites. Unfortunately the data is in fragmentary form and hundreds, if not thousands, of sequences would be required to break the code. While individually it may be worthless, Mordu’s Legion has been offering plenty to get their hands on them.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

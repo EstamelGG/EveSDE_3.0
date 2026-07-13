@@ -1,0 +1,70 @@
+{
+  "type_id": 2430,
+  "name": "贫瘠行星基础金属采集器",
+  "description": "露天采掘是一种常见且高效的开采方式，自从星球殖民早期就已经被使用。这种方法实际上就是去除星球地表土壤，直到埋藏在下面的矿床被暴露出来。这样，矿石就可以更容易地被开采出来。露天采掘通常都不会挖掘得很深，只是在矿层较接近地表的情况下使用。出于这个原因，露天挖掘设施通常设立在海底上。",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "行星工业",
+  "group_name": "采集器",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 800.0,
+      "categoryID": 7,
+      "display_name": "能量负荷",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 200.0,
+      "categoryID": 9,
+      "display_name": "CPU载荷",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "harvesterType",
+      "value": 2267.0,
+      "categoryID": 7,
+      "display_name": "采集类别",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 2016.0,
+      "categoryID": 7,
+      "display_name": "行星类型限制",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "pinExtractionQuantity",
+      "value": 1000.0,
+      "categoryID": 7,
+      "display_name": "采集量",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "pinCycleTime",
+      "value": 300.0,
+      "categoryID": 7,
+      "display_name": "运转周期",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "extractorDepletionRange",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "extractorDepletionRate",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

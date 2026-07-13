@@ -1,0 +1,21 @@
+{
+  "type_id": 30252,
+  "name": "Thermoelectric Catalysts",
+  "description": "These tiny nanomachines have been injected into the thermoelectric power core at the heart of the Sleeper drone. Inside each one is a small array of chemicals and components, all of which play a role in producing the often violent chemical reactions that provide power to the drones. Only the most advanced Sleeper drones are known to have had their power cores enhanced in this way. \n\nEven though they all share the same fundamental role, thousands of minor variations in the machines that have emerged after millennia of use, as they adapted to the minute changes in chemical composition and electrical flux. How exactly they came to do this remains a mystery, but it is clear that the current product is the result of countless iterations. \n\nAlthough salvaged easily enough, they have been built from the ground up to be integrated into other Sleeper technology. Trying to enhance any engineering systems outside of the Sleeper's own thermoelectric power cores with the current level of technology would represent an impossible reverse-engineering task.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Ancient Salvage",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

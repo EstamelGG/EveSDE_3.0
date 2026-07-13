@@ -1,0 +1,13 @@
+{
+  "type_id": 87953,
+  "name": "探索探测器2",
+  "description": "装配这款标准探测器后，舰船扫描仪就能在用探针扫描星系时额外发现适量未经探测的遗迹和数据信号。",
+  "volume": 10000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "基础设施升级件",
+  "group_name": "主权中心地点探测升级件",
+  "attributes": [],
+  "traits": []
+}

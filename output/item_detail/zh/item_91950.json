@@ -1,0 +1,84 @@
+{
+  "type_id": 91950,
+  "name": "共和国机动性增效剂I",
+  "description": "这款增效剂由米玛塔尔共和国生产，旨在协助克隆飞行员进行军事行动作战。<b>+2%舰船速度 -3%微型跃迁推进器电容消耗 +3%跃迁速度 +4%所有采矿激光器的范围</b><b>过期时间：YC128年11月10日</b>",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3405.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "velocityBonus",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "速度调整",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "capNeedBonus",
+      "value": -3.0,
+      "categoryID": 5,
+      "display_name": "电容需求加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 7200000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "WarpSBonus",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "跃迁速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 16.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "boosterLastInjectionDatetime",
+      "value": 20767.4576388889,
+      "categoryID": 7,
+      "display_name": "有效期",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "boosterMinerMaxRangeBonus",
+      "value": 4.0,
+      "categoryID": 51,
+      "display_name": "最大采矿范围加成",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

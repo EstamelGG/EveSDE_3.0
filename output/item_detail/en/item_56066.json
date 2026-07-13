@@ -1,0 +1,49 @@
+{
+  "type_id": 56066,
+  "name": "Glorification-5 'Devana' Filament",
+  "description": "The Glorification-5 'Devana' Filament permits up to 5 ships to travel from a star system in Triglavian Space to a star system in Known Space where the Triglavians won the battle for the system but did not proceed to the Liminality stages of the invasion. EDENCOM designated such systems as \"Triglavian Minor Victory\" systems.\n\nThe Triglavian Collective refers to a \"Forest of Glorification\" and appears to consider systems where they were victorious during the invasions as resource-gathering or \"hunting\" grounds, according to one interpretation by EDENCOM Cultural Intelligence.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Commodity",
+  "group_name": "Triglavian Space Filaments",
+  "attributes": [
+    {
+      "attribute_name": "mjfgRadius",
+      "value": 6000.0,
+      "categoryID": 17,
+      "display_name": "Area Effect Radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "mjdShipJumpCap",
+      "value": 5.0,
+      "categoryID": 17,
+      "display_name": "Maximum Ship Jump cap",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "FilamentDescriptionMessageID",
+      "value": 569130.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "locationListID",
+      "value": 4516.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "filamentSpoolupTimeSeconds",
+      "value": 120.0,
+      "categoryID": 7,
+      "display_name": "Activation Delay",
+      "unit_name": "sec"
+    }
+  ],
+  "traits": []
+}

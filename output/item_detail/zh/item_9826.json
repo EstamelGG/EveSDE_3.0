@@ -1,0 +1,13 @@
+{
+  "type_id": 9826,
+  "name": "碳",
+  "description": "碳是一种非金属元素，普遍存在于许多无机化合物和所有有机化合物中。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 4400.0,
+  "category_name": "常用物品",
+  "group_name": "消费品",
+  "attributes": [],
+  "traits": []
+}

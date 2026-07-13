@@ -1,0 +1,13 @@
+{
+  "type_id": 60459,
+  "name": "自由无人机滋生数据",
+  "description": "这个数据库中包含了大量由一座统合部自由分析信标所生成的数据，记录了它所在的地区附近的自由无人机活动。 \n\n\n\n数据中还包括了对自由无人机科技的理解和被分析信标吸引来的自由无人机的行为数据。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "自由无人机分析数据",
+  "attributes": [],
+  "traits": []
+}

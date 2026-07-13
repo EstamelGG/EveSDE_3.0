@@ -1,0 +1,13 @@
+{
+  "type_id": 4329,
+  "name": "Research Abstract: Project Astrosurvey",
+  "description": "<b>Paper:</b> Astrosurvey<br>\n<b>Lead Researcher:</b> Pr. Gehen Sealbreaker<br>\n<b>Contributors:</b> Sealbreaker Labs, Vincent Athena<br>\n<b>Summary:</b> The homogeneity of the asteroids located in Anoikis is improbable, and ores extracted there have been thrown in refineries using old refining processes with no proper study. Considering current survey scanners only compare asteroid properties to a known ores database, their current classification may be wrong and not reflect their full potential.\n\nThree possibilities other than an improbable homogeneity can explain this:<br>\n   1. Ores in Anoikis are plain. Specific conditions in New Eden contributed to variants' formation.<br>\n   2. Specific ores existed in Anoikis. Their supply was depleted by intensive exploitation from previous occupants.<br>\n   3. There are specific ore variants in Anoikis. Tolerance of survey scanners made us unaware of this. (Hypothesis studied)\n\nWhen it comes to crystal formation, stellar macroscopic effects are a main factor. Cosmic phenomenon must be considered, and samples from their systems studied.\n\nThe operation had 3 steps so far:<br>\n   1. Establishment of a scientific base camp in Anoikis.<br>\n   2. Harvesting and initial study of resources.<br>\n   3. Study of the collected samples using laboratories in Empire stations. (Ongoing)<br>\n\nCurrent results are inconclusive, but there is still much to do. So far, no collected ore matches the molecular structure of any known ore variant, common or rare (Luminous Kernite, Banidine, Polygypsum, etc).\n\n<i>This abstract relates to research undertaken by the Arek'Jaalan Project.</i>\n\n<i>Authorized for capsuleer dissemination under the CONCORD Freedom of Distribution Act (Alpha-One-Five), YC 113.11.4</i>\n\n<i>Further copies of this document can be obtained through the Arek'Jaalan administrative site, located in the <a href=showinfo:5//30003413>Eram</a> system.<i>",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Research Data",
+  "attributes": [],
+  "traits": []
+}

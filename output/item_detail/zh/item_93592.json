@@ -1,0 +1,13 @@
+{
+  "type_id": 93592,
+  "name": "战争之路行动情报",
+  "description": "Intel about operations within the Warpath conflict of YC128, uncovered through active participation in military activities.\n\nThis intel is of value to any of the four factions engaged in that conflict and can be traded for equipment at their Quartermaster Traders.\n\nQuartermaster Traders locations:\n<b>Amarr: </b>Amarr, Gergish, Tash-Murkon Prime, Nare, Mehatoor, Kor-Azor Prime.\n<b>Caldari: </b>New Caldari, Ikao, Onnamon, Malkalen.\n<b>Gallente: </b>Dodixie, Luminaire, Intaki, Faurent.\n<b>Minmatar: </b>Rens, Hek, Pator, Amo.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 18029,
+  "name": "独立劳工",
+  "description": "最近从艾玛劳工主掌控中获释的劳工。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 400.0,
+  "category_name": "常用物品",
+  "group_name": "劳工接待处",
+  "attributes": [],
+  "traits": []
+}

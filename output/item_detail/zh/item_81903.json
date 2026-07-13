@@ -1,0 +1,91 @@
+{
+  "type_id": 81903,
+  "name": "克里石（4级）",
+  "description": "奥多比<a href=showinfo:81900>克里石</a>（又称4级克里石）中蕴含着极为丰富的<a href=showinfo:36>类银超金属</a>，是矿工眼中的幸运石。与克里石相比，奥多比克里石的产量要高出15%。奥多比克里石通常会分布在零安全区域内的小行星异常空间中。",
+  "volume": 1.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1e+35,
+  "category_name": "小行星",
+  "group_name": "克里石",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 60379.0,
+      "categoryID": 7,
+      "display_name": "回收再生技能",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "asteroidRadiusGrowthFactor",
+      "value": 2.0,
+      "categoryID": 31,
+      "display_name": "小行星半径系数",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "asteroidRadiusUnitSize",
+      "value": 600.0,
+      "categoryID": 31,
+      "display_name": "小行星单位半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "停滞缠绕抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 81900.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "asteroidMaxRadius ",
+      "value": 10000.0,
+      "categoryID": 31,
+      "display_name": "",
+      "unit_name": "m3"
+    },
+    {
+      "attribute_name": "ignoreMiningWaste",
+      "value": 0.0,
+      "categoryID": 51,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "ignoreMiningCrits",
+      "value": 0.0,
+      "categoryID": 51,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

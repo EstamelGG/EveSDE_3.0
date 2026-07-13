@@ -1,0 +1,13 @@
+{
+  "type_id": 16713,
+  "name": "Intermediate Medal",
+  "description": "A medal awarded to those that have completed the Intermediate Trial of the Legends Trials.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 53288,
+  "name": "旗舰级奇点辐射转化器",
+  "description": "三神裔舰船以及其他采用采用相似设计的舰船所使用的能量产生系统的组件。可能也可用于其他科技种类中。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "建造组件",
+  "attributes": [],
+  "traits": []
+}

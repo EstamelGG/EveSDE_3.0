@@ -1,0 +1,133 @@
+{
+  "type_id": 32953,
+  "name": "Unit F-435454's Modified Fighter Support Unit",
+  "description": "A combination of additional fighter hangar support drones, fighter power transmitters and advanced sensor support, the Fighter Support Unit assist all areas of fighter operation.\n\nNote: Can only be fit to Carriers, Command Carriers and Supercarriers.\nPenalty: Using more than one type of this module or similar modules that affect the same attribute on the ship or fighter squadron will be penalized.",
+  "volume": 600.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 200.0,
+  "category_name": "Module",
+  "group_name": "Fighter Support Unit",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 75000.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Usage",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 59.0,
+      "categoryID": 1,
+      "display_name": "CPU usage",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 24613.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 12.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "canFitShipGroup01",
+      "value": 547.0,
+      "categoryID": 1,
+      "display_name": "Can only be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "canFitShipGroup02",
+      "value": 659.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "canFitShipGroup03",
+      "value": 5120.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "canFitShipType1",
+      "value": 45647.0,
+      "categoryID": 1,
+      "display_name": "Can only be fitted to",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "canFitShipType2",
+      "value": 45649.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "metaGroupID",
+      "value": 5.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "fighterBonusShieldCapacityPercent",
+      "value": 1.072,
+      "categoryID": 38,
+      "display_name": "Fighter Shield Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "fighterBonusVelocityPercent",
+      "value": 1.072,
+      "categoryID": 38,
+      "display_name": "Fighter Velocity Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "fighterBonusROFPercent",
+      "value": 0.928,
+      "categoryID": 38,
+      "display_name": "Fighter ROF Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "fighterBonusShieldRechargePercent",
+      "value": 0.928,
+      "categoryID": 38,
+      "display_name": "Fighter Shield Recharge Bonus",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 13211,
+  "name": "Epidermis Sliver",
+  "description": "Sliver of the upper layer of the skin, the largest organ that provides insulation, sensation and temperature control among other things.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

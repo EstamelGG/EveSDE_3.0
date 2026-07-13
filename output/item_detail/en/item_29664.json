@@ -1,0 +1,21 @@
+{
+  "type_id": 29664,
+  "name": "Unrefined Hyperflurite",
+  "description": "Hyperflurite is one of the most radioactive substances known to man. Composed of a mixture of radioactive metals and raw hydrocarbons, this luminescent goop provides catalysis for a variety of generative and reactive machine processes.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Intermediate Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

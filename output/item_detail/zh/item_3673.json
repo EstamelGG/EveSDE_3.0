@@ -1,0 +1,13 @@
+{
+  "type_id": 3673,
+  "name": "小麦",
+  "description": "禾谷植物已经在成百上千的世界里落地生根。小麦作物的颗粒是帝国空间内食品生产的坚实基础。",
+  "volume": 1.15,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "常用物品",
+  "group_name": "消费品",
+  "attributes": [],
+  "traits": []
+}

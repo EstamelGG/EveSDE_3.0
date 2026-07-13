@@ -1,0 +1,13 @@
+{
+  "type_id": 26773,
+  "name": "Regiment of Marines",
+  "description": "When war breaks out, the demand for transporting military personnel on site can exceed the grasp of the military organization. In these cases, the aid from non-military spacecrafts is often needed.",
+  "volume": 2000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000000.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

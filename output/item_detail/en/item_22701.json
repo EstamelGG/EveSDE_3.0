@@ -1,0 +1,13 @@
+{
+  "type_id": 22701,
+  "name": "Minmatar Bluechip",
+  "description": "'Bluechip' is a name for the data chips which store valuable information on what happened shortly before a structure, normally a space structure, has been destroyed.  Introduced by Gallantean mining corporations after they endured numerous inexplicable losses of their mining barges in deep space, the Bluechip has become universally used due to its incredible survivability.  \n\nIf the Bluechip survives an explosion or crash, researchers can usually quickly determine the cause of the accident.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

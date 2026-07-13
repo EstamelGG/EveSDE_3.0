@@ -1,0 +1,13 @@
+{
+  "type_id": 11742,
+  "name": "The Damsel",
+  "description": "This is the damsel in distress.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 60.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

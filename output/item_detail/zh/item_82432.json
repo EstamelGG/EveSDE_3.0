@@ -1,0 +1,13 @@
+{
+  "type_id": 82432,
+  "name": "诺尔上将香料朗姆酒",
+  "description": "一瓶诺尔上将香料朗姆酒。尽管这个牌子的朗姆酒经常因为质量问题而遭受质疑，但得益于实惠的价格和超强的酒劲，每当有克隆飞行员来到合法饮酒年龄，它都会成为庆祝活动上的热门之选。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

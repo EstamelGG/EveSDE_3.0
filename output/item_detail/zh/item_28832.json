@@ -1,0 +1,13 @@
+{
+  "type_id": 28832,
+  "name": "落难的飞行员",
+  "description": "这个初出茅庐的飞行员，因故被迫乘着一个普通逃生舱从飞船中弹射出来，如今他既没有太空舱也没有飞行员所需的其他任何资源。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80.0,
+  "category_name": "常用物品",
+  "group_name": "有生货物",
+  "attributes": [],
+  "traits": []
+}

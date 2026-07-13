@@ -1,0 +1,13 @@
+{
+  "type_id": 2862,
+  "name": "Special Forces Weapons and Equipment",
+  "description": "The weapons and equipment containers hold a wide variety of small arms and other equipment currently in use by the Caldari Navy Special Forces, much of it designed specifically for use in maritime environments. Some of the items that can be found in a typical container are long range sniper rifles, target designation lasers, silenced pistols, high tech diving equipment, limpet mines, covert communications gear, and individual diver propulsion devices. This equipment, as you might guess, is extremely valuable and cannot be found outside the armories of the Caldari Navy, with the exception of the very small quantities that have found their way onto the black market.",
+  "volume": 25.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 25.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

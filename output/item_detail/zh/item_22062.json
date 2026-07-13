@@ -1,0 +1,13 @@
+{
+  "type_id": 22062,
+  "name": "残缺的尸骸",
+  "description": "这些支离破碎的尸体属于一群盖伦特旅行者，他们似乎死于飞船爆炸。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

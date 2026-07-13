@@ -1,0 +1,13 @@
+{
+  "type_id": 2653,
+  "name": "装箱的疫苗注射器",
+  "description": "这些一次性使用的注射器内置有预先计算好计量的自适应性疫苗，可以用于对抗几乎所有已知的病毒。",
+  "volume": 90.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 90000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 78864,
+  "name": "Scorched Angel Navigation Logs",
+  "description": "These navigation logs recovered from an Angel Cartel ship could provide vital intelligence as to the location of hidden pirate bases and supply caches in the contested Amarr-Minmatar Warzone. Unfortunately, the logs appear to have been almost completely destroyed and what data remains is heavily encrypted, as such, only a specialized facility is likely to find any success in recovering any information of value from this.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.75,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

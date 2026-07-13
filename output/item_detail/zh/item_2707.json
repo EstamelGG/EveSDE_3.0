@@ -1,0 +1,13 @@
+{
+  "type_id": 2707,
+  "name": "一大群劳工",
+  "description": "劳工业一直是一项备受争议的产业，它在艾玛帝国中广受欢迎，而盖伦特联邦却对它痛恨至极。",
+  "volume": 500.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 500000.0,
+  "category_name": "常用物品",
+  "group_name": "有生货物",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 22146,
+  "name": "Forged Waypoint Logs",
+  "description": "Logs made to look like official imperial documents giving certain waypoint settings.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

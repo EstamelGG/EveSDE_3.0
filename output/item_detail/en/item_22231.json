@@ -1,0 +1,13 @@
+{
+  "type_id": 22231,
+  "name": "Recruitment Center Data Log",
+  "description": "These data logs contain information on the comings and goings of all new recruits stationed in Fluekele, as well as messages sent to and from the control tower in the recruitment center.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

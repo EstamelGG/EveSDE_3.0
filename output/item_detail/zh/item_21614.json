@@ -1,0 +1,13 @@
+{
+  "type_id": 21614,
+  "name": "破坏坚固保险箱的计划",
+  "description": "罪犯们总能在智斗中领先一步。如果没有这些用于固定“终生质保”标记的超长螺丝钉，它真是一个无法破坏的保险箱。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

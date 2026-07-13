@@ -1,0 +1,13 @@
+{
+  "type_id": 28100,
+  "name": "加达里基础哨站精炼设施",
+  "description": "为加达里哨站安装基础精炼设施。提高矿石和冰矿的提炼效率到52%。\n\n注：只对上述两种物品有影响。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "附件",
+  "group_name": "哨站强化",
+  "attributes": [],
+  "traits": []
+}

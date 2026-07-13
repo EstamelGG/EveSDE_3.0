@@ -1,0 +1,13 @@
+{
+  "type_id": 28868,
+  "name": "Small Warded Container",
+  "description": "This small sealed container has been modified with state-of-the-art security measures to prevent ship-to-ship scanning of its contents.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 75.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

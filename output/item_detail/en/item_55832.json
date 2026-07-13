@@ -1,0 +1,13 @@
+{
+  "type_id": 55832,
+  "name": "Triglavian Holographic Transcriber",
+  "description": "This device was recovered from the wreck of a Triglavian Collective invasion vessel and, although the means by which it operates is not fully understood, it appears designed to \"transcribe\" large amounts of data into spatiotemporal storage using the holographic principle. The startling possibility raised by this device is that the Triglavian Collective stores much of its information in the fabric of spacetime itself and quite possibly in dedicated singularities. This device has a large integrated data buffer.\n\nEDENCOM Intelligence is extremely keen to acquire these devices and assess their integrated storage so as to evaluate Triglavian movements and activities. The DED is collecting the items on behalf of EDENCOM in exchange for technology sanctioned for release to anti-Triglavian capsuleers through its loyalty store.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 20.0,
+  "category_name": "Commodity",
+  "group_name": "Triglavian Data",
+  "attributes": [],
+  "traits": []
+}

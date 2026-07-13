@@ -1,0 +1,13 @@
+{
+  "type_id": 85724,
+  "name": "YC115.08.19 - 约瑟夫·奥卡达的日志记录",
+  "description": "一份恢复的日志记录。原本是某位探险家在几年前与本地计算机系统连接的部分共享档案内容，后来被自动清理程序删除了。本系统的垃圾数据中还有已删除文件的残留内容，你可以使用舰船上的计算机重组此条目。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

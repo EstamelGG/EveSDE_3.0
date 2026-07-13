@@ -1,0 +1,13 @@
+{
+  "type_id": 46381,
+  "name": "Agency Support Drop",
+  "description": "Compounds with the Agency identifier are being seeded into target locations identified by the mysterious network ahead of sponsored operations. Entities occupying the target sites often collect the Agency's support drops themselves even if they realize what they must portend. The Agency’s novel method of supporting capsuleer operations is thought to be as much an experiment as it is an incentive for freelance pilots to take up the public contracts.\n\nThis kit contains one dose of a random Agency booster compound. It has a chance to contain one of the following:\n\n<url=showinfo:46001>Agency 'Hardshell' TB3 Dose I</url>\n<url=showinfo:46002>Agency 'Hardshell' TB5 Dose II</url>\n<url=showinfo:46003>Agency 'Hardshell' TB7 Dose III</url>\n<url=showinfo:48113>Agency 'Hardshell' TB9 Dose IV</url>\n\n<url=showinfo:46004>Agency 'Overclocker' SB3 Dose I</url>\n<url=showinfo:46005>Agency 'Overclocker' SB5 Dose II</url>\n<url=showinfo:46006>Agency 'Overclocker' SB7 Dose III</url>\n<url=showinfo:48114>Agency 'Overclocker' SB9 Dose IV</url>\n\n<url=showinfo:45998>Agency 'Pyrolancea' DB3 Dose I</url>\n<url=showinfo:45999>Agency 'Pyrolancea' DB5 Dose II</url>\n<url=showinfo:46000>Agency 'Pyrolancea' DB7 Dose III</url>\n<url=showinfo:48115>Agency 'Pyrolancea' DB9 Dose IV</url>",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Commodity",
+  "group_name": "Strong Boxes",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 2888,
+  "name": "Acceleration Gate Authentication Matrix",
+  "description": "This device handles timestamps and user ID validation for acceleration gates. If this part is missing or otherwise broke, the gate will refuse to activate.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 50.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

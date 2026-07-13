@@ -1,0 +1,13 @@
+{
+  "type_id": 53299,
+  "name": "泽尼塔级蓝图数据仓库",
+  "description": "这个数据仓库中有一些制造泽尼塔级所需的蓝图，是三神裔对协助其摧毁帝国舰队并保护星际加速器的克隆飞行员的奖励。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

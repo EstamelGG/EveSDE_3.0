@@ -1,0 +1,13 @@
+{
+  "type_id": 17828,
+  "name": "秘密走廊通行证",
+  "description": "这把安全通行钥匙由天蛇集团分发，使用者可打开通往中央仓库的加速轨道。轨道会打开一小段时间，通行钥匙在将钥匙数据上传到轨道激活设备后，就会失去效用。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 30746,
+  "name": "Ancient Coordinates Database",
+  "description": "Recovered from the wrecked hull of a Sleeper drone, this database stands as a testament to the lasting power of their ancient technology. Not only has it managed to survive for millennia completely intact, but it has come through the violence of its bearer's destruction without even a scratch. \n\nA brief analysis of the technology inside reveals that the database may in fact still be fully functional. The format and layout of the information within suggests it is a list of three-dimensional coordinates, charting a path to some distant place. \n\nAlthough this device could hold incredibly valuable information, there would only be a handful of people in the entire cluster that could make any sense of it. Finding a buyer may not be that easy.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Sleeper Components",
+  "attributes": [],
+  "traits": []
+}

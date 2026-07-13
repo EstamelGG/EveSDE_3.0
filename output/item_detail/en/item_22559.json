@@ -1,0 +1,63 @@
+{
+  "type_id": 22559,
+  "name": "Mining Foreman Mindlink",
+  "description": "This advanced interface link drastically improves a commander's Mining Foreman ability by directly linking to the nanites launched by the foreman burst charge.\n\n+25% bonus to Mining Foreman Burst effect strength and duration.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Implant",
+  "group_name": "Cyber Leadership",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3411.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 22552.0,
+      "categoryID": 8,
+      "display_name": "Secondary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "implantness",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "Implant Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "mindlinkBonus",
+      "value": 25.0,
+      "categoryID": 7,
+      "display_name": "Mindlink Bonus",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,105 @@
+{
+  "type_id": 42837,
+  "name": "Electronic Hardening Charge",
+  "description": "This compact bundle of active nanites can be loaded into an <a href=showinfo:42527>Information Command Burst</a> module and dispersed across allied ships to harden their sensor and tracking systems against enemy disruption.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.01,
+  "category_name": "Charge",
+  "group_name": "Information Command Burst Charges",
+  "attributes": [
+    {
+      "attribute_name": "launcherGroup",
+      "value": 1770.0,
+      "categoryID": 7,
+      "display_name": "Used with (Launcher Group)",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 20495.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 3348.0,
+      "categoryID": 8,
+      "display_name": "Secondary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff1ID",
+      "value": 18.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff2ID",
+      "value": 19.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff3ID",
+      "value": 0.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff4ID",
+      "value": 0.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff1Multiplier",
+      "value": 18.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff2Multiplier",
+      "value": -9.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff3Multiplier",
+      "value": 0.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff4Multiplier",
+      "value": 0.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

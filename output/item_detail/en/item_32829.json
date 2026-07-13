@@ -1,0 +1,21 @@
+{
+  "type_id": 32829,
+  "name": "Unrefined Crystallite Alloy",
+  "description": "A polynuclear heterometallic compound created from cobalt and cadmium. Crystallite alloys are a fundamental building block in the creation of crystalline composites.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Intermediate Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

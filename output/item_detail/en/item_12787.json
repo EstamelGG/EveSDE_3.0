@@ -1,0 +1,119 @@
+{
+  "type_id": 12787,
+  "name": "Null L",
+  "description": "The Null is an improved version of the standard Thorium charge that possesses greatly improved molecular cohesion, resulting in superior range and reduced particle dissipation.\n\n40% increased optimal range.\n25% reduced tracking speed.\n40% increased falloff range.\n\nNote: This ammunition can only be used by large tech level II, faction and officer Blasters.",
+  "volume": 0.025,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.01,
+  "category_name": "Charge",
+  "group_name": "Advanced Blaster Charge",
+  "attributes": [
+    {
+      "attribute_name": "emDamage",
+      "value": 0.0,
+      "categoryID": 29,
+      "display_name": "EM damage",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "explosiveDamage",
+      "value": 0.0,
+      "categoryID": 29,
+      "display_name": "Explosive damage",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "kineticDamage",
+      "value": 20.0,
+      "categoryID": 29,
+      "display_name": "Kinetic damage",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "thermalDamage",
+      "value": 24.0,
+      "categoryID": 29,
+      "display_name": "Thermal damage",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "weaponRangeMultiplier",
+      "value": 1.4,
+      "categoryID": 7,
+      "display_name": "Range bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "mainColor",
+      "value": 11835778.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "chargeSize",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "Charge size",
+      "unit_name": "1=small 2=medium 3=l"
+    },
+    {
+      "attribute_name": "launcherGroup",
+      "value": 74.0,
+      "categoryID": 7,
+      "display_name": "Used with (Launcher Group)",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 12212.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "trackingSpeedMultiplier",
+      "value": 0.75,
+      "categoryID": 26,
+      "display_name": "Tracking Speed Multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "fallofMultiplier",
+      "value": 1.4,
+      "categoryID": 7,
+      "display_name": "Falloff Modifier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "entityFlyRangeMultiplier",
+      "value": 1.4,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

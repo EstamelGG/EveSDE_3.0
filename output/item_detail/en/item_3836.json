@@ -1,0 +1,13 @@
+{
+  "type_id": 3836,
+  "name": "Pilot Certification Documents",
+  "description": "This document, specifically designed for capsuleers, certifies that the holder has passed basic training and is cleared for further instruction, as well as general employment throughout the cluster. A basic level of piloting proficiency is required before being awarded the certification, and the capsuleers must demonstrate competency in a range of fundamental navigation and combat tasks.\n\nAlthough the document is not required by CONCORD police or empire law, it significantly adds to the employment prospects of a newly-graduated capsuleer. Throughout repeated surveys and tests one common pattern emerges; those capsuleers who complete this basic training and other more advanced courses have a much higher chance of employment with other capsuleer corporations, and generally finds themselves more confident and knowledgeable in the often turbulent and confusing first few days of becoming a full-fledged capsuleer.\n\nNot only that, but graduates get a swanky new outfit to show off to the dropouts and plebeians who couldn't cut it.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

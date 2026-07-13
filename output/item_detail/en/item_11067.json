@@ -1,0 +1,13 @@
+{
+  "type_id": 11067,
+  "name": "Nugoeihuvi Data Chip",
+  "description": "A data chip containing the ship logs of a Nugoeihuvi secret agent.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

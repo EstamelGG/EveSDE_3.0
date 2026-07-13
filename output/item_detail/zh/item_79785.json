@@ -1,0 +1,56 @@
+{
+  "type_id": 79785,
+  "name": "高密度厚质复稀金矿",
+  "description": "这种厚质复稀金矿可以用在大规模建造项目中，大受工程师的欢迎。新兴的全星系矿石扫描技术让加达里合众国、外空联合矿业集团等利益相关方得以探测到不易发现的含有该矿石的小行星带。这种矿物被压缩过，比它的原始形态紧密得多。复稀金矿需要极其专业的设备进行提炼，所以对于克隆飞行员工业而言没什么用处，不过有传言说扎尔扎克要塞的不死守护愿意收购这种压缩形态的矿石。",
+  "volume": 0.001,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 4000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [
+    {
+      "attribute_name": "asteroidRadiusGrowthFactor",
+      "value": 3.5,
+      "categoryID": 31,
+      "display_name": "小行星半径系数",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "停滞缠绕抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 72902.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "ignoreMiningWaste",
+      "value": 1.0,
+      "categoryID": 51,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "ignoreMiningCrits",
+      "value": 1.0,
+      "categoryID": 51,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

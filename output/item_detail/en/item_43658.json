@@ -1,0 +1,217 @@
+{
+  "type_id": 43658,
+  "name": "Amarr Phenomena Generator",
+  "description": "Adapted from advanced research into natural wormhole phenomena, this module wields an Avatar's massive Radar sensor array to bend local space and affect the properties of all nearby vessels.\nThe effects of this phenomenon impact both friendly and hostile ships, altering the entire battlefield in subtle but significant ways. Clever fleet commanders can take advantage of these effects to ensure victory, even against insurmountable odds.\n\n<b>Affected ships receive:</b>\n+30% capacitor recharge rate\n+10% kinetic resistances\n-15% EM resistances\n-10% velocity",
+  "volume": 8000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Module",
+  "group_name": "Titan Phenomena Generator",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 25000.0,
+      "categoryID": 5,
+      "display_name": "Activation Cost",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 99999.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 100000.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Usage",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 100.0,
+      "categoryID": 1,
+      "display_name": "CPU usage",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 20000000.0,
+      "categoryID": 29,
+      "display_name": "Optimal Range",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 300000.0,
+      "categoryID": 7,
+      "display_name": "Activation time / duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 43728.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "moduleReactivationDelay",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Reactivation Delay",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "consumptionType",
+      "value": 16274.0,
+      "categoryID": 7,
+      "display_name": "Consumption Type",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "consumptionQuantity",
+      "value": 40000.0,
+      "categoryID": 7,
+      "display_name": "Consumption Quantity",
+      "unit_name": "units"
+    },
+    {
+      "attribute_name": "maxGroupActive",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "canFitShipType1",
+      "value": 11567.0,
+      "categoryID": 1,
+      "display_name": "Can only be fitted to",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "canFitShipType2",
+      "value": 42241.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "maxGroupFitted",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "Max Modules Of This Group Allowed",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "disallowActivateInForcefield",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Disallow activation in forcefield",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "disallowTethering",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Disallow Tethering",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "disallowDocking",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Disallow Docking",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "warfareBuff1ID",
+      "value": 39.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff1Value",
+      "value": -30.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff2ID",
+      "value": 40.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff2Value",
+      "value": -10.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff3ID",
+      "value": 41.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff3Value",
+      "value": 15.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "buffDuration",
+      "value": 300000.0,
+      "categoryID": 37,
+      "display_name": "Modifier duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "warfareBuff4ID",
+      "value": 51.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff4Value",
+      "value": -10.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

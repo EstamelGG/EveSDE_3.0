@@ -1,0 +1,21 @@
+{
+  "type_id": 21011,
+  "name": "旗舰炮台挂点",
+  "description": "炮台挂点装置，用来在旗舰级飞船上安装超大型武器炮台。",
+  "volume": 2000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000.0,
+  "category_name": "常用物品",
+  "group_name": "旗舰建造组件",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

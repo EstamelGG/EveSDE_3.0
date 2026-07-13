@@ -1,0 +1,49 @@
+{
+  "type_id": 53977,
+  "name": "噪声-5“挺针”纤维",
+  "description": "在霜线实验室对三神裔纤维技术的实验性应用大获成功后，联合矿业集团授权开展了“挺针计划”。与霜线实验室进行联合攻坚后，联合矿业的技术人员研发出了一种性价比更高的产品，不过精确指定通道的位置对科学家来说仍是个难题。\n\n\n\n它的设计原型是一种能开启一条能将5艘舰船传送到随机地点的通道的纤维，具体参数由时空量子波动中蕴含的“噪声曲线”来决定。联合矿业研发团队将这种原型产品设定为能够捕捉具有代表性的已知0.0地区的量子信号分布曲线。\n\n\n\n噪声-5“挺针”纤维据称落入了新伊甸许多非法集团的手里，并且可以在他们的数据地点中找到。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "常用物品",
+  "group_name": "跳跃纤维",
+  "attributes": [
+    {
+      "attribute_name": "mjfgRadius",
+      "value": 6000.0,
+      "categoryID": 17,
+      "display_name": "范围效果半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "mjdShipJumpCap",
+      "value": 5.0,
+      "categoryID": 17,
+      "display_name": "最大舰船跳跃数量",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "ActiveSystemJump",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "FilamentDescriptionMessageID",
+      "value": 561098.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "filamentSpoolupTimeSeconds",
+      "value": 30.0,
+      "categoryID": 7,
+      "display_name": "激活延迟",
+      "unit_name": "s"
+    }
+  ],
+  "traits": []
+}

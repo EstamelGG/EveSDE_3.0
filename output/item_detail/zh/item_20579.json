@@ -1,0 +1,168 @@
+{
+  "type_id": 20579,
+  "name": "拦截雷达ECM",
+  "description": "通过产生一个无序感应器噪声场来干扰敌方的锁定系统。对集成在艾玛、血袭者、萨沙和三神裔舰船上的雷达系统特别有效。",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "装备",
+  "group_name": "ECM",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 32.0,
+      "categoryID": 5,
+      "display_name": "启用耗电量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 1.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 30.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 34560.0,
+      "categoryID": 29,
+      "display_name": "最佳射程",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 20000.0,
+      "categoryID": 7,
+      "display_name": "作用时间/单次运转时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3427.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "scanGravimetricStrengthBonus",
+      "value": 1.3,
+      "categoryID": 25,
+      "display_name": "引力ECM干扰强度",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "scanLadarStrengthBonus",
+      "value": 1.3,
+      "categoryID": 25,
+      "display_name": "光雷达ECM干扰强度",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "scanMagnetometricStrengthBonus",
+      "value": 1.3,
+      "categoryID": 25,
+      "display_name": "磁力ECM干扰强度",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "scanRadarStrengthBonus",
+      "value": 3.8,
+      "categoryID": 25,
+      "display_name": "雷达ECM干扰强度",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "ewTargetJam",
+      "value": 0.0,
+      "categoryID": 25,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "heatAbsorbtionRateModifier",
+      "value": 0.01,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "heatDamage",
+      "value": 6.6,
+      "categoryID": 52,
+      "display_name": "超载损耗",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredThermoDynamicsSkill",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "所需热力学等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "overloadECMStrengthBonus",
+      "value": 20.0,
+      "categoryID": 7,
+      "display_name": "超载ECM加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaGroupID",
+      "value": 3.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "falloffEffectiveness",
+      "value": 32400.0,
+      "categoryID": 29,
+      "display_name": "效果失准范围",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "remoteResistanceID",
+      "value": 2253.0,
+      "categoryID": 36,
+      "display_name": "",
+      "unit_name": "属性ID"
+    }
+  ],
+  "traits": []
+}

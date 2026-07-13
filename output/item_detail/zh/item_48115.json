@@ -1,0 +1,42 @@
+{
+  "type_id": 48115,
+  "name": "星际代理处‘火枪’DB9药剂 IV",
+  "description": "<font color=\"#ff3399cc\"><b>+9%炮台伤害，+9%导弹伤害，+9%电弧弦投射器伤害。持续30分钟。</b></font>作为一种面向克隆飞行员的新型强效神经增效剂，星际代理处“火枪”合成物可以为使用者提供适应性极强的临时增益。这种“火枪”合成物可以在高度紧张的战斗中增强武器装载的校准值和武器的供能方式。对于克隆飞行员来说，这就意味着对任何目标的伤害提升。带有星际代理处标识的合成物会在由神秘网络认证过的目标地点中出售。占领者这些目标地点的一方一般会自己讲代理处投放的这些合成物扫光，即使他们明白这意味着什么也在所不惜。星际代理处的这种对克隆飞行员的支持行为被认为是一种实验，用以激励独立飞行员来执行一些公共任务。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "damageMultiplierBonus",
+      "value": 9.0,
+      "categoryID": 7,
+      "display_name": "伤害倍增系数加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 1800000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 11.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    }
+  ],
+  "traits": []
+}

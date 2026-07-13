@@ -1,0 +1,13 @@
+{
+  "type_id": 57482,
+  "name": "Genetic Safeguard Filter",
+  "description": "Genetic Safeguard Filters are complex multi-component suites that are an element of the counter-subversion measures installed on naval ships since the Triglavian Invasions began. If any of the component elements detect subversion or alteration beyond acceptable parameters the filter will progressively limit command and control functions, ultimately locking out a pilot that is deemed corrupted by Triglavian biotechnology.\n\nDue to the mastery of mutaplasmids and other biotechnology demonstrated by the Triglavians, the risk of subversion through genetic tampering or outright mutagenic warfare attacks led EDENCOM to mandate safeguards for capsuleers piloting the most powerful naval vessels.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Construction Components",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 16044,
+  "name": "小型密封的货柜",
+  "description": "这些小型集装箱配备了密码保护安全锁。",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

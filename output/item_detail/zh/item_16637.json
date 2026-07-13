@@ -1,0 +1,21 @@
+{
+  "type_id": 16637,
+  "name": "钨",
+  "description": "目前最坚硬的金属之一，能够与多种其他元素合成极其耐久的合金，在许多深空场合非常有用。",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 7720.0,
+  "category_name": "材料",
+  "group_name": "卫星原料",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

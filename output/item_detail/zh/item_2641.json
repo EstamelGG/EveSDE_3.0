@@ -1,0 +1,13 @@
+{
+  "type_id": 2641,
+  "name": "装箱的报告",
+  "description": "这些加密报告在外行人眼里也许没什么用处，但对相关机构来却非常有价值。",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 40000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 44115,
+  "name": "Torelle's Custom Magnetic Field Stabilizer Blueprint",
+  "description": "This blueprint can be used to build a limited number of special upgraded versions of the Magnetic Field Stabilizer module. Magnetic Field Stabilizers improve the damage and rate of fire of hybrid turrets and are key modules in some Gallente and Caldari ship loadouts.\n\nThis particular blueprint has been created to the custom specifications of Fleet Commander Kole Torelle, who has been known to issue copies to whoever he owes a favor.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Blueprint",
+  "group_name": "Gunnery Upgrade Blueprint",
+  "attributes": [],
+  "traits": []
+}

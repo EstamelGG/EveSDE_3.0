@@ -1,0 +1,13 @@
+{
+  "type_id": 57280,
+  "name": "晨曦新年特典白银战利品箱",
+  "description": "打开后可获得神秘奖品。\n\n奖品概率如下：\n\n节日限定大脑加速器 50%\n节日限定药剂 41.6%\n狂怒守卫者级 8.4%\n\n额外有机会获得：\n\n晨曦新年特典勋章*5 10%",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

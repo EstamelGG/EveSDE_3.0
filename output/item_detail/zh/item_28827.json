@@ -1,0 +1,13 @@
+{
+  "type_id": 28827,
+  "name": "加密的数据水晶",
+  "description": "这些水晶体中含有某种数据，但显然它们已采用先进方法进行过加密，因此只有技术最高超的破译员才能访问。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 50.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

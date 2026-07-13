@@ -1,0 +1,13 @@
+{
+  "type_id": 48761,
+  "name": "Triglavian Cache Data Vault",
+  "description": "This Triglavian trinary data vault was obtained by inputting Triglavian survey data into a <b>Bioadaptive Cache</b> in Abyssal Deadspace. The contents of the output data vault seem to vary according to some inscrutable formula that presumably depends on the contents of the inputted survey data. Alternatively, the output may simply be determined by a probabilistic exchange algorithm that only a Triglavian would understand.",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Trinary Data Vaults",
+  "attributes": [],
+  "traits": []
+}

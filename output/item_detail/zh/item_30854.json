@@ -1,0 +1,75 @@
+{
+  "type_id": 30854,
+  "name": "六类黑洞效果光束",
+  "description": "本地空间现象可能会对你的舰船系统造成影响。",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "天体",
+  "group_name": "效果光束",
+  "attributes": [
+    {
+      "attribute_name": "agilityMultiplier",
+      "value": 1.5,
+      "categoryID": 7,
+      "display_name": "惯性调整",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "maxTargetRangeMultiplier",
+      "value": 2.0,
+      "categoryID": 24,
+      "display_name": "锁定范围加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "missileVelocityMultiplier",
+      "value": 1.5,
+      "categoryID": 7,
+      "display_name": "导弹速度倍增系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "maxVelocityMultiplier",
+      "value": 2.0,
+      "categoryID": 4,
+      "display_name": "最大速率倍增系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "aoeVelocityMultiplier",
+      "value": 2.0,
+      "categoryID": 1,
+      "display_name": "爆炸速度倍增系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "stasisWebStrengthMultiplier",
+      "value": 0.5,
+      "categoryID": 0,
+      "display_name": "停滞缠绕光束强度系数",
+      "unit_name": "x"
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b>100%</b> 舰船速度加成"
+    },
+    {
+      "content": "<b>100%</b> 最大锁定距离加成"
+    },
+    {
+      "content": "<b>50%</b> 导弹飞行速度加成"
+    },
+    {
+      "content": "<b>100%</b> 导弹和电弧弦投射器爆炸速度加成"
+    },
+    {
+      "content": "<b>50%</b> 舰船灵活性惩罚"
+    },
+    {
+      "content": "<b>50%</b> 停滞缠绕光束强度惩罚"
+    }
+  ]
+}

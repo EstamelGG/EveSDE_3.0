@@ -1,0 +1,28 @@
+{
+  "type_id": 9832,
+  "name": "Coolant",
+  "description": "This specially blended fluid is ideal for transferring thermal energy away from sensitive machinery or computer components, rerouting it to heat sinks so it can be eliminated from the system.",
+  "volume": 0.75,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Planetary Commodities",
+  "group_name": "Refined Commodities - Tier 2",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 7200.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 7200.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

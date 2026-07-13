@@ -1,0 +1,13 @@
+{
+  "type_id": 32267,
+  "name": "Ishukone Operational Reports",
+  "description": "Bluechip devices like these serve a similar role to the \"black boxes\" used aboard planetary aircraft. They are capable of storing vast amounts of information, and protecting it in a secure shell that can withstand immense destructive forces. Due to their resilience, they are also the favored data storage unit of military companies who need vital operational data to be safeguarded from attack. <br><br>\n\nThis particular bluechip has been modified to protect the contents in even more ways. A distinctively unique hybrid cipher has reduced the contents of each report to a series of 1's and 0's.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

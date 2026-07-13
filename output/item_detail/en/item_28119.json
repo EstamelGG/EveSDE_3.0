@@ -1,0 +1,13 @@
+{
+  "type_id": 28119,
+  "name": "Gallente Outpost Office",
+  "description": "An intermediate upgrade to Gallente Outpost office facilities. Gives an additional twenty four office slots.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Accessories",
+  "group_name": "Outpost Improvements",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,28 @@
+{
+  "type_id": 76206,
+  "name": "运输中继数据核心蓝图",
+  "description": "该数据示意蓝图可以用来重建部分研究与技术累积数据，这些数据由全面掌握运输中继技术（星际舰船弹射台的核心技术）的构建与运行方法的帝国所收集。为了重建部分数据，你需要使用<a href=showinfo:76211>运输中继研究数据片段</a>、<a href=showinfo:76212>加密密钥</a>和<a href=showinfo:76210>索引文件</a>作为输入材料。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "蓝图",
+  "group_name": "工具蓝图",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 20.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

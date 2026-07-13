@@ -1,0 +1,49 @@
+{
+  "type_id": 3127,
+  "name": "Zainou 'Deadeye' Guided Missile Precision GP-806",
+  "description": "A Zainou missile hardwiring designed to enhance skill with missiles.\n\n6% reduced factor of signature radius for all missile explosions.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Implant",
+  "group_name": "Cyber Missile",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3411.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "implantness",
+      "value": 8.0,
+      "categoryID": 7,
+      "display_name": "Implant Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "aoeCloudSizeBonus",
+      "value": -6.0,
+      "categoryID": 37,
+      "display_name": "Explosion Radius Bonus",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

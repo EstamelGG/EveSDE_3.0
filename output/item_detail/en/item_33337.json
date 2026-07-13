@@ -1,0 +1,21 @@
+{
+  "type_id": 33337,
+  "name": "Promethium Mercurite",
+  "description": "A metallic radioactive compound, Promethium Mercurite emits a faint green glow visible to the naked eye. It is a crucial part of a new generation of processors and capacitor units being developed by the Amarr Empire.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Intermediate Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

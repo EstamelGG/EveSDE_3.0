@@ -1,0 +1,13 @@
+{
+  "type_id": 81920,
+  "name": "Integrated Moon Drill Armature",
+  "description": "An integral component of the <a href=showinfo:81826>Metenox Moon Drill</a>.\n\nUnlike other Quantum Cores, this component is a required part of the industrial inputs when constructing a <a href=showinfo:81826>Metenox Moon Drill</a> and will be automatically placed into the quantum core slot on the structure when it is deployed.",
+  "volume": 3000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 4000.0,
+  "category_name": "Structure Module",
+  "group_name": "Quantum Cores",
+  "attributes": [],
+  "traits": []
+}

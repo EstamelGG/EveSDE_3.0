@@ -1,0 +1,13 @@
+{
+  "type_id": 92569,
+  "name": "Crystalline Raspite",
+  "description": "The crystalline residue of reprocessed Raspite.\n\nThe Amarr Empire will reward Capsuleers who bring this mineral to their Trade-In transport outside the Amarr Navy Anchorage Station located in <url=showinfo:5//30002974>Mehatoor</url>.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Mineral",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,49 @@
+{
+  "type_id": 60575,
+  "name": "Quafe Zero Green Apple",
+  "description": "Capsuleers can now enjoy <b>Quafe Zero Green Apple</b>, the new flavor of New Eden's favorite performance drink with the potency of a booster!\nA taste explosion that will help avoid ship explosions, the Green Apple edition of Quafe Zero provides the benefits of increased agility and power with Zero drawbacks!\n\n<font color=\"yellow\">Benefits:</font>\n+5% Agility, +5% Capacitor Recharge Rate. Duration: 1 hour.\n\n<b>Quafe Zero Green Apple</b> is fortified with a proprietary mix of performance enhancers, oxidizers, and natural fruit juices designed to push your abilities to the limit.\n\nThe secret is in our patented fulleroferrocene nanite delivery system, which attaches our exclusive pro-capsuleer formula directly to the neurons you want, not the ones you don't. The result is an immediate and direct boost to your performance, with Zero drawbacks!\n\nFor maximum experience overload Quafe Zero Green Apple has been further enhanced with proprietary Quafe nanoparticles responsive to popular brands of subcranial nanocontroller personal enhancements, such as the LD-X100 range from Lai Dai!\n\n<font size=\"2\"><i>Note: Quafe Zero is a product of the Quafe Company. Quafe does not condone the use of boosters or other illicit substances. The Quafe Company disavows responsibility for any side effects caused by consuming technology developed from research into Sleeper, Drifter, Triglavian, Rogue Drone, and/or illegal, extralegal, ancient, or unknown technologies.</i>\n\n<b>Warning:</b>Quafe Zero is designed for capsuleer use only. Side effects experienced by non-capsuleers include but are not limited to dizziness, blindness, nausea, internal hemorrhaging, bowel irritation, sleepwalking, violent impulses, amnesia, sexual dysfunction, vision changes, acute epidermal sloughing, partial or total loss of motor control, and minor skin rash.</font>",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Implant",
+  "group_name": "Booster",
+  "attributes": [
+    {
+      "attribute_name": "agilityBonus",
+      "value": -5.0,
+      "categoryID": 7,
+      "display_name": "Inertia Modifier",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "capRechargeBonus",
+      "value": -5.0,
+      "categoryID": 5,
+      "display_name": "Cap Recharge Time Reduction",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 3600000.0,
+      "categoryID": 7,
+      "display_name": "Booster Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Booster Slot",
+      "unit_name": "Slot"
+    }
+  ],
+  "traits": []
+}

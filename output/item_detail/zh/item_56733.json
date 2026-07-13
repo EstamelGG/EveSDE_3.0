@@ -1,0 +1,49 @@
+{
+  "type_id": 56733,
+  "name": "纳米触发式克隆映射装置",
+  "description": "纳米触发式克隆映射装置是一种增强体，特殊的纳米体以此为中心在克隆体全身各处游动。纳米体通过与映射装置间的电分子通信来提供克隆体的实时纳米级映射分布。\n\n\n\n如果克隆飞行员的太空舱被毁，纳米触发式克隆映射装置能够瞬间留存克隆状态的快照，并将其传输到该克隆飞行员在自己的母星系中激活的战术克隆重制体中。如果克隆映射装置发现有可用的克隆重制体，则太空舱的神经传输回声刻录扫描仪数据将被传输到这个克隆重制体中。\n\n\n\n用于映射和维持与克隆飞行员的人工神经和内分泌系统之间的通信的纳米体数量是有限的，所以克隆映射装置在一定时间后就会失效，需要更换。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3402.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 21600000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 65.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "nondestructible",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "无法摧毁",
+      "unit_name": "1=True 0=False"
+    }
+  ],
+  "traits": []
+}

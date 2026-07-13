@@ -1,0 +1,21 @@
+{
+  "type_id": 25604,
+  "name": "聚合导体",
+  "description": "一种导电性极强的高分子量化合物。用于电子产品的制造。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "打捞材料",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

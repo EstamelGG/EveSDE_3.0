@@ -1,0 +1,21 @@
+{
+  "type_id": 88348,
+  "name": "Lux Ballistra",
+  "description": "This Drifter weapon system appears to be semi-autonomous, floating freely from the vessel deploying it. Analysis of the weapon's firing signature indicates a broad spectrum of disruptive energies are used against its targets.",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Module",
+  "group_name": "Energy Weapon",
+  "attributes": [
+    {
+      "attribute_name": "reloadTime",
+      "value": 0.01,
+      "categoryID": 7,
+      "display_name": "Reload Time",
+      "unit_name": "s"
+    }
+  ],
+  "traits": []
+}

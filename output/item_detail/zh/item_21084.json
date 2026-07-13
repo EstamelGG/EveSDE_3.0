@@ -1,0 +1,42 @@
+{
+  "type_id": 21084,
+  "name": "塔洛迦数学图表",
+  "description": null,
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "解码器—塔洛迦",
+  "attributes": [
+    {
+      "attribute_name": "inventionPropabilityMultiplier",
+      "value": 4.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "inventionMEModifier",
+      "value": 0.6,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "inventionTEModifier",
+      "value": 0.5,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "inventionMaxRunModifier",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

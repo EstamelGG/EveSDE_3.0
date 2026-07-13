@@ -1,0 +1,13 @@
+{
+  "type_id": 91086,
+  "name": "ORE Friable Cache",
+  "description": "Obtained by trading in Friable Volatile Ice ore and a Cryograph Exactor at an ORE processor vessel.\n\nIt contains items salvaged by ORE or filtered out of processed ice.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

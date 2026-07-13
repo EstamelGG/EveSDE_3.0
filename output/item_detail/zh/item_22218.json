@@ -1,0 +1,13 @@
+{
+  "type_id": 22218,
+  "name": "运送毒品的包裹",
+  "description": "这些非法物质被装在一个特制磁性密封集装箱内，这样帝国的安全部队就无法侦测到它们。",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 25.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

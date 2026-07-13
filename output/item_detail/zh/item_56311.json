@@ -1,0 +1,28 @@
+{
+  "type_id": 56311,
+  "name": "旗舰级深渊掠能器",
+  "description": "吸取对方舰船的能量为自己所用。\n\n\n\n注意：所有能量吸噬装备都不会将目标的电容器电量值抽取到比你自己的当前电量值更低的水平。注：只能装配在旗舰级舰船上。",
+  "volume": 4000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2000.0,
+  "category_name": "装备",
+  "group_name": "掠能器",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3423.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

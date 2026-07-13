@@ -1,0 +1,13 @@
+{
+  "type_id": 29483,
+  "name": "Zydrine Wine",
+  "description": "This delicate wine is brewed from rice leaves. It often takes on a faint green hue akin to that of raw Zydrine ore, whence it derives its popular name.\n\nWhile Zydrine wine is in fact quite potent, it is very light on the palate and has an aftertaste of green tea. The resultant tendency for drinkers to assume the wine is non-alcoholic has led to some very amusing situations.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 500.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

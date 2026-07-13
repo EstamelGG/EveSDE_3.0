@@ -1,0 +1,13 @@
+{
+  "type_id": 21465,
+  "name": "Ancient Weapon",
+  "description": "Excavated by the Wiyrkomi Corporation, many factions seek to gain hold of these weapons. They are rumoured to contain abilities previously unknown to the empires.",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

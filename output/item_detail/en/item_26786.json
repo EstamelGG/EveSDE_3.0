@@ -1,0 +1,13 @@
+{
+  "type_id": 26786,
+  "name": "Crates of Spirits",
+  "description": "Alcoholic beverages made by distilling a fermented mash of grains.",
+  "volume": 60.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 25000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

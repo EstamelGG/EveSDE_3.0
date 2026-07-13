@@ -1,0 +1,13 @@
+{
+  "type_id": 21566,
+  "name": "Impregnable Safe",
+  "description": "A safe for use in banks and other financial establishments that handle lot of money. Guaranteed to be absolutely, totally and eternally impregnable to any and all kinds of assaults and infringements.",
+  "volume": 120.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

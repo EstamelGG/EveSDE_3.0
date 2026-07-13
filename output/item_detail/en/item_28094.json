@@ -1,0 +1,13 @@
+{
+  "type_id": 28094,
+  "name": "Caldari Advanced Outpost Office",
+  "description": "An advanced upgrade to Caldari Outpost office facilities. Gives an additional twenty office slots.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Accessories",
+  "group_name": "Outpost Improvements",
+  "attributes": [],
+  "traits": []
+}

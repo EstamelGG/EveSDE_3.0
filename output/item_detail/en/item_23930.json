@@ -1,0 +1,13 @@
+{
+  "type_id": 23930,
+  "name": "Foreman's Head",
+  "description": "This is the head of a foreman working for the Blood Raiders in the Araz constellation.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

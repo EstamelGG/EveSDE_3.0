@@ -1,0 +1,21 @@
+{
+  "type_id": 16633,
+  "name": "Hydrocarbons",
+  "description": "Raw fossil fuels such as petroleum and mineral oil. Hydrocarbons are crucial building blocks in the production of organic chemicals, plastics and waxes, and are thus one of the most useful materials harvestable from any source.",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Moon Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

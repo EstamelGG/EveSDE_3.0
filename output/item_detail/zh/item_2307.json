@@ -1,0 +1,28 @@
+{
+  "type_id": 2307,
+  "name": "长英矿物岩浆",
+  "description": "熔岩行星翻腾搅动的内核中充满了大量的长英矿物岩浆，或者同更轻的元素结合在一起的硅酸盐物质。从这些物质中人们可以提取到硅元素或者其他原子。硅在大多数类地行星上都有丰富的储藏，但获取它的最便捷方式是，凭借先进的行星开采技术直接从长英矿物岩浆中取得。",
+  "volume": 0.005,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "行星资源",
+  "group_name": "行星固体 - 原始资源",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

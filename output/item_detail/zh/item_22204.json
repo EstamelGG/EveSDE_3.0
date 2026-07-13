@@ -1,0 +1,13 @@
+{
+  "type_id": 22204,
+  "name": "红色铁锤的个人财产",
+  "description": "这些财产属于一个绰号为红色铁锤的瘾君子。",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 25.0,
+  "category_name": "常用物品",
+  "group_name": "识别卡",
+  "attributes": [],
+  "traits": []
+}

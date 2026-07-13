@@ -1,0 +1,13 @@
+{
+  "type_id": 80011,
+  "name": "B-53纠缠型GQD",
+  "description": "纠缠型石墨烯量子点是一种构造独特的碳纳米粒子，已经与深渊空间中的粒子相纠缠。在与孤立空间线程结合时可以利用此特性，建造定向到深渊空间的跳跃纤维。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "深渊战场纤维材料",
+  "attributes": [],
+  "traits": []
+}

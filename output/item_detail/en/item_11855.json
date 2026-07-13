@@ -1,0 +1,13 @@
+{
+  "type_id": 11855,
+  "name": "Protein Delicacies",
+  "description": "Protein Delicacies are cheap and nutritious food products manufactured by one of the Caldari mega corporations, Sukuuvestaa. It comes in many flavors and tastes delicious. Despite its cheap price and abundance it is favored by many gourmet chefs in some of the finest restaurants around for its rich, earthy flavor and fragrance.",
+  "volume": 0.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 400.0,
+  "category_name": "Commodity",
+  "group_name": "Frozen",
+  "attributes": [],
+  "traits": []
+}

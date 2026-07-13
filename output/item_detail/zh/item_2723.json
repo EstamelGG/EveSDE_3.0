@@ -1,0 +1,13 @@
+{
+  "type_id": 2723,
+  "name": "大箱的病毒媒质",
+  "description": "传染病的致病药剂，这种病毒载体是一种无细胞核的寄生虫，结构基本就是由蛋白外皮包裹着的核酸组织。",
+  "volume": 800.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 800000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

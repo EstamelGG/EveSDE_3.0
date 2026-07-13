@@ -1,0 +1,13 @@
+{
+  "type_id": 29211,
+  "name": "Faulty Suntendi Virtu-Real Implant",
+  "description": "This implant has proven unreliable at best. Due to an unforeseen complication, the implant can cause some hosts to emit erratic and intense bio-electric pulses capable of damaging nearby audiovisual technology.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

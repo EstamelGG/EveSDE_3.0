@@ -1,0 +1,42 @@
+{
+  "type_id": 54614,
+  "name": "Limited Synth Frentix Booster",
+  "description": "This booster has been provided through Daily Rewards. It will apply immediately when redeemed.\n2% bonus to turret optimal range\nBase duration: 1 hour",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Implant",
+  "group_name": "Booster",
+  "attributes": [
+    {
+      "attribute_name": "rangeSkillBonus",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Optimal Range Modifier",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 3600000.0,
+      "categoryID": 7,
+      "display_name": "Booster Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Booster Slot",
+      "unit_name": "Slot"
+    }
+  ],
+  "traits": []
+}

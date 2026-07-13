@@ -1,0 +1,13 @@
+{
+  "type_id": 17987,
+  "name": "Command Relay Key",
+  "description": "This security passkey allows access into the core area of Sansha's command relay stations.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

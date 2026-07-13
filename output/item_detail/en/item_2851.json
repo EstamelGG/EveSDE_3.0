@@ -1,0 +1,13 @@
+{
+  "type_id": 2851,
+  "name": "Incriminating Evidence",
+  "description": "This evidence proves beyond the shadow of a doubt that foul play was involved.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

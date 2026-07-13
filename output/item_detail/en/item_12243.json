@@ -1,0 +1,13 @@
+{
+  "type_id": 12243,
+  "name": "Science Graduates",
+  "description": "People that have recently graduated with a degree in science at an acknowledged university.",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 250.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

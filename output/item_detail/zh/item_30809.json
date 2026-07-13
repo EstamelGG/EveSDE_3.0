@@ -1,0 +1,13 @@
+{
+  "type_id": 30809,
+  "name": "沃夫·巴尔干的替身",
+  "description": "这块生物体组织本来是某个克隆飞行员的克隆体。通过对你提供的那个人工病毒和样本的研究发现，这生物体组织是沃夫·巴尔干的一个完美DNA序列克隆体。当然了，你只有在拼命眯着眼的时候这东西看上去才像他，不过这就是爆炸要的效果。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

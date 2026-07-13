@@ -1,0 +1,13 @@
+{
+  "type_id": 57454,
+  "name": "富氧有机溶剂",
+  "description": "富氧有机溶剂是诸多涉及氧气和碳化学物质的工业流程所不可缺少的组件。这些化学物可以通过提炼多种气云和碳氢化合物沉积体来获得。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "中间产物",
+  "attributes": [],
+  "traits": []
+}

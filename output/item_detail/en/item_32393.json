@@ -1,0 +1,13 @@
+{
+  "type_id": 32393,
+  "name": "Sealed Research Cache",
+  "description": "The contents of this container remain sealed behind some kind of proprietary Cartel technology. A thin, red film of hardened fullerene alloys forms a perfect, unbreakable seal around the contents. As if that wasn't enough to deter attackers, the surface underneath the film is covered in tiny nanite-plasma explosives. Any attempt at forced entry past the film would produce enough explosive power to level a small town.",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

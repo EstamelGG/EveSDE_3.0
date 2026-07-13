@@ -1,0 +1,21 @@
+{
+  "type_id": 48536,
+  "name": "Republic Justice Department Gold Reward",
+  "description": "Awarded on behalf of the Republic Justice Department for dedicated participation in its anti-slavery campaign.",
+  "volume": 10000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [
+    {
+      "attribute_name": "boosterLastInjectionDatetime",
+      "value": 17724.4583333,
+      "categoryID": 7,
+      "display_name": "Expiry Date",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

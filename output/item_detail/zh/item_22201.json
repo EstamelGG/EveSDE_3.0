@@ -1,0 +1,13 @@
+{
+  "type_id": 22201,
+  "name": "一次元运算密码",
+  "description": "这段令人好奇的代码内含有许多不常见的数学算法。唯一可以确定的是它能用来激活某个加速轨道。它内置了一段重新校正代码，因此是只能使用一次的通行钥匙。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

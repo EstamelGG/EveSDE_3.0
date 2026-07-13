@@ -1,0 +1,13 @@
+{
+  "type_id": 33539,
+  "name": "Shattered Villard Wheel",
+  "description": "This item appears to be a collection of Villard Wheel parts barely hanging together.<br><br>Villard Wheels are believed to have originated thousands of years ago as highly complex wooden contraptions that were embedded in wagon wheels and various other designs, primarily in areas where sparks and heat might cause catastrophic reactions with local materials both earthbound and airborne. The Villard Wheels allowed for an immensly rapid revolution of moving parts with almost no heat from friction, and the principles behind them were later put to use in the space industries of New Eden's various factions. Under normal circumstances they are nearly unbreakable.<br><br>This particular unit, however, is completely shattered, scorched and covered in soot. Some subparts may still be useable for those of a tinkering persuasion, but others can only wonder at what type of madman could or would push a Villard Wheel to go too fast, and for what infernal purpose.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 25.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

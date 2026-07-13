@@ -1,0 +1,13 @@
+{
+  "type_id": 84519,
+  "name": "钛合金衰变共振",
+  "description": "一座信标，包含了与钛合金轻子的衰变速率对应的虫洞共振频率。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

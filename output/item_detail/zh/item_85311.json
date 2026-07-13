@@ -1,0 +1,13 @@
+{
+  "type_id": 85311,
+  "name": "尤尔节饰品箱",
+  "description": "这个箱子中含有一款随机尤尔节饰品。",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

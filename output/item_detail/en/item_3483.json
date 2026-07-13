@@ -1,0 +1,13 @@
+{
+  "type_id": 3483,
+  "name": "Captured Civilians",
+  "description": "There are countless numbers of civilians living out on independent colonies and minor stations. Although life in such remote areas is often harsh, the inhabitants of these stations generally live a quiet, trouble-free life. This is a fact well understood by Sansha leadership, who prey upon these same people, exploiting the sad fact that their absence will not be easily noticed.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

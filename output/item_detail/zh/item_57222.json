@@ -1,0 +1,13 @@
+{
+  "type_id": 57222,
+  "name": "新人驱逐舰补给箱",
+  "description": "打开这个箱子可获得一艘对应你的种族的驱逐舰，相应的武器、装备及弹药，以及一款适用于该舰船的涂装。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

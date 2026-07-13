@@ -1,0 +1,13 @@
+{
+  "type_id": 74387,
+  "name": "尤尔节的腾空焰火宝箱",
+  "description": "打开这个箱子就能获得尤尔节腾空焰火和一个节日发射器。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,21 @@
+{
+  "type_id": 16641,
+  "name": "Chromium",
+  "description": "A steel-gray, lustrous metal with a wide variety of applications. Commonly used as a catalyst for chemical processes.",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 4290.0,
+  "category_name": "Material",
+  "group_name": "Moon Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

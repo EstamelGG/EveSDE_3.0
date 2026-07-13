@@ -1,0 +1,13 @@
+{
+  "type_id": 3709,
+  "name": "Drop",
+  "description": "This highly hallucinogenic booster can easily cause temporary dementia. It is commonly poured into a wet rag, which is then laid over, or bound across, sensitive parts of the skin.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5.0,
+  "category_name": "Commodity",
+  "group_name": "Drugs",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,21 @@
+{
+  "type_id": 30021,
+  "name": "改进的流体路由器",
+  "description": "流体路由器是宇宙通讯的关键技术，有了它才使超光速通讯成为现实。冬眠者无人机上装载了和当代星舰所使用的通讯技术相类似的设备，最大的不同只是在于信息解译的方式上。这些无人机肯定是在以某种自我形成的语言系统进行沟通。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "远古打捞",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

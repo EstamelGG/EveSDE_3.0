@@ -1,0 +1,13 @@
+{
+  "type_id": 2681,
+  "name": "Group of VIPs",
+  "description": "Very important people. Business executives, politicians, diplomats and game designers.",
+  "volume": 50.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 50000.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

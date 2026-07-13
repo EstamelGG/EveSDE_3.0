@@ -1,0 +1,13 @@
+{
+  "type_id": 17756,
+  "name": "Virgin Forest Pulp",
+  "description": "Tree pulp used to produce paper.",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

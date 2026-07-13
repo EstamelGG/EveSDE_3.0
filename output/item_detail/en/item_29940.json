@@ -1,0 +1,13 @@
+{
+  "type_id": 29940,
+  "name": "Advisory Notes",
+  "description": "Found among the wreckage of Serpentis Lieutenant Rautte Viriette's vessel, these notes offer a glimpse into her recent scientific pursuits. From what little is decipherable, Viriette seems to be advising Serpentis Inquest scientists on various methods of production efficiency, all of which appear to be applied to the manufacture of Drop boosters. Although there is no evidence directly linking any of her previous Poteque research to her current work with the Serpentis, it is clear that the methods she has learned in the last few decades are being put to good use.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

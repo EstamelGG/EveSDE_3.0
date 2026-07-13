@@ -1,0 +1,13 @@
+{
+  "type_id": 34450,
+  "name": "Intravenous Oscillation Fluid",
+  "description": "This thick liquid is used by the Central Archive Cerebrum to operate its intricate machinery.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

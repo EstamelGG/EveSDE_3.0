@@ -1,0 +1,65 @@
+{
+  "type_id": 30860,
+  "name": "二类磁星效果光束",
+  "description": "本地空间现象可能会对你的舰船系统造成影响。",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "天体",
+  "group_name": "效果光束",
+  "attributes": [
+    {
+      "attribute_name": "maxTargetRangeMultiplier",
+      "value": 0.78,
+      "categoryID": 24,
+      "display_name": "锁定范围加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "trackingSpeedMultiplier",
+      "value": 0.78,
+      "categoryID": 26,
+      "display_name": "跟踪速度倍增系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "damageMultiplierMultiplier",
+      "value": 1.44,
+      "categoryID": 1,
+      "display_name": "伤害倍增系数增量",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "aoeCloudSizeMultiplier",
+      "value": 1.44,
+      "categoryID": 0,
+      "display_name": "爆炸半径系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "targetPainterStrengthMultiplier",
+      "value": 0.78,
+      "categoryID": 21,
+      "display_name": "目标标记装置效果系数",
+      "unit_name": "x"
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b>44%</b> 炮台、导弹、电弧弦投射器和无人机伤害加成"
+    },
+    {
+      "content": "<b>22%</b> 炮台和无人机跟踪速度惩罚"
+    },
+    {
+      "content": "<b>22%</b> 导弹和电弧弦投射器爆炸半径惩罚"
+    },
+    {
+      "content": "<b>22%</b> 目标标记装置效果惩罚"
+    },
+    {
+      "content": "<b>22%</b> 锁定范围上限惩罚"
+    }
+  ]
+}

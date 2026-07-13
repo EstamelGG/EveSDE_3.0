@@ -1,0 +1,84 @@
+{
+  "type_id": 49792,
+  "name": "霜线 '杂食' 采集能力提升器",
+  "description": "这种采集能力提升器由联合矿业霜线部门的工程师研发，可以提高采集矿石和冰矿材料的装备的效率，但效果不如针对某种专门材料的采集能力提升器。",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "装备",
+  "group_name": "采矿改良设备",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 1.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 38.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 22578.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 16281.0,
+      "categoryID": 8,
+      "display_name": "副技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 3.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 3.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "miningAmountBonus",
+      "value": 7.0,
+      "categoryID": 51,
+      "display_name": "开采量加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "iceHarvestCycleBonus",
+      "value": -8.0,
+      "categoryID": 7,
+      "display_name": "循环时间加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "cpuPenaltyPercent",
+      "value": 12.5,
+      "categoryID": 1,
+      "display_name": "CPU惩罚",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

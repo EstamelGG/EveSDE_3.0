@@ -1,0 +1,21 @@
+{
+  "type_id": 17769,
+  "name": "熔融冷凝物",
+  "description": "当熔融冷凝物与其他物质和合金混合时，能促成一种独一无二的有益于高效反应堆操作的量子状态。",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "中间产物",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

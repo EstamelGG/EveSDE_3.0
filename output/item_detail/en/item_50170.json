@@ -1,0 +1,13 @@
+{
+  "type_id": 50170,
+  "name": "Triglavian Semiosis Data Vault (HFN)",
+  "description": "This Triglavian data vault has been integrated with a piece of technology designed to conduct semiosis, or sign and symbol processing, on the data it holds. It may be that the semiosis conduction device can be recovered from this vault, together with datastreams in various formats, by carefully opening it and extracting relevant pieces of technology and storage.\n\nThis particular semiosis data vault is marked with the Triglavian symbols for \"Hivelinked Foreign Narodnya\".",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Trinary Data Vaults",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 24597,
+  "name": "Ammatar Mandate Starbase Charter",
+  "description": "An electronic charter code issued by the Ammatar Mandate which permits the bearer to use a starbase around a moon in Mandate sovereign space for 1 hour. The code is stored on tamperproof chips which must be inserted into the starbase control tower.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Lease",
+  "attributes": [],
+  "traits": []
+}

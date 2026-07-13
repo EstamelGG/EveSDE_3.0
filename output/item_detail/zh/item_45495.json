@@ -1,0 +1,77 @@
+{
+  "type_id": 45495,
+  "name": "黑稀金矿",
+  "description": "黑稀金矿是卫星中开采出的一种普通矿石，用处很大，能够产出丰富的<a href=showinfo:16639>钪</a>，可作为许多高级矿物的重要元素。",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 4000.0,
+  "category_name": "小行星",
+  "group_name": "普通的卫星小行星(R8)",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 46153.0,
+      "categoryID": 7,
+      "display_name": "回收再生技能",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "asteroidRadiusGrowthFactor",
+      "value": 0.75,
+      "categoryID": 31,
+      "display_name": "小行星半径系数",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "asteroidRadiusUnitSize",
+      "value": 600.0,
+      "categoryID": 31,
+      "display_name": "小行星单位半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "停滞缠绕抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 45495.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "asteroidMaxRadius ",
+      "value": 5000.0,
+      "categoryID": 31,
+      "display_name": "",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,21 @@
+{
+  "type_id": 33139,
+  "name": "Clone Soldier Recruiter Tag",
+  "description": "This tag came from a pirate who had been negotiating combat contracts for pirate-trained clone soldiers.\n\nGiven the extraordinary dangers that result from clone soldiers, CONCORD has taken a firm stance against anyone involved with them, and will award a security status boost to the person who brings in these tags. They may be handed in at station Security Offices in low-security space.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Security Tags",
+  "attributes": [
+    {
+      "attribute_name": "securityProcessingFee",
+      "value": 4000000.0,
+      "categoryID": 7,
+      "display_name": "Processing Fee",
+      "unit_name": "ISK"
+    }
+  ],
+  "traits": []
+}

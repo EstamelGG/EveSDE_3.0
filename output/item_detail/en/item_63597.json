@@ -1,0 +1,126 @@
+{
+  "type_id": 63597,
+  "name": "Halcyon R-2 Booster",
+  "description": "It will apply immediately when redeemed. Base Duration 2 Hours.\n\n2% bonus to local shield and armor repair module effectiveness\n2% bonus to ship max velocity\n2% bonus to turret, vorton projector and missile launcher rate of fire\n2% bonus to capacitor recharge rate\n2% bonus to signature radius\n4% bonus to drone max velocity and tracking speed\n4% bonus to mining laser and ice harvester range\n4% bonus to scan resolution\n4% bonus to scan probe deviation and scan speed",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Implant",
+  "group_name": "Booster",
+  "attributes": [
+    {
+      "attribute_name": "durationBonus",
+      "value": -4.0,
+      "categoryID": 7,
+      "display_name": "Duration Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "rofBonus",
+      "value": -2.0,
+      "categoryID": 7,
+      "display_name": "Rate Of Fire Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "capRechargeBonus",
+      "value": -2.0,
+      "categoryID": 5,
+      "display_name": "Cap Recharge Time Reduction",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "velocityBonus",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Velocity Modifier",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 7200000.0,
+      "categoryID": 7,
+      "display_name": "Booster Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "maxRangeBonus",
+      "value": 4.0,
+      "categoryID": 37,
+      "display_name": "Optimal Range Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "turretSpeeBonus",
+      "value": -2.0,
+      "categoryID": 7,
+      "display_name": "Rate of Fire Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldBoostMultiplier",
+      "value": 2.0,
+      "categoryID": 2,
+      "display_name": "Shield Boost Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "signatureRadiusBonus",
+      "value": -2.0,
+      "categoryID": 21,
+      "display_name": "Signature Radius Modifier",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanResolutionBonus",
+      "value": 4.0,
+      "categoryID": 37,
+      "display_name": "Scan Resolution Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "droneMaxVelocityBonus",
+      "value": 4.0,
+      "categoryID": 10,
+      "display_name": "Drone Velocity Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "armorDamageAmountBonus",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Armor Repair Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Booster Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "maxScanDeviationModifier",
+      "value": -4.0,
+      "categoryID": 7,
+      "display_name": "Maximum Scan Deviation Modifier",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "droneTrackingBonus",
+      "value": 4.0,
+      "categoryID": 37,
+      "display_name": "Drone Tracking Speed Bonus",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 32020,
+  "name": "睿萨的安全卡",
+  "description": "这张安全卡由萨沙国制造，使用者可以用它开启某个特定的加速轨道。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

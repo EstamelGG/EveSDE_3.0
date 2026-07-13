@@ -1,0 +1,84 @@
+{
+  "type_id": 57301,
+  "name": "”金牛-21”高效大脑加速器",
+  "description": "波特克制药公司将技能注入器技术与大脑加速器技术相结合，生产出这种特殊的高效大脑加速器，在短时间内可以极大地提升飞行员学习的效率，不会产生任何副作用。\n\n使用后的效果为：\n\n所有属性+2021\n\n此效果可以在使用后的至少21分钟内持续发挥效能，具体时间根据植入者的生物学技能等级而定。\n\n有效期至YC123年3月31日。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "charismaBonus",
+      "value": 2021.0,
+      "categoryID": 7,
+      "display_name": "魅力调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "intelligenceBonus",
+      "value": 2021.0,
+      "categoryID": 7,
+      "display_name": "智力调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "memoryBonus",
+      "value": 2021.0,
+      "categoryID": 7,
+      "display_name": "记忆调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "perceptionBonus",
+      "value": 2021.0,
+      "categoryID": 7,
+      "display_name": "感知调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "willpowerBonus",
+      "value": 2021.0,
+      "categoryID": 7,
+      "display_name": "毅力调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 1260000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 104.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "nondestructible",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "无法摧毁",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "followsJumpClones",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "跟随远距克隆",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "boosterLastInjectionDatetime",
+      "value": 18717.6659722222,
+      "categoryID": 7,
+      "display_name": "有效期",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

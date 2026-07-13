@@ -1,0 +1,13 @@
+{
+  "type_id": 28886,
+  "name": "囚犯",
+  "description": "运送囚犯这个任务需要得到执法当局对你的忠诚和诚信的认可，目前这项工作是宇宙中最不受欢迎的职业之一。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80.0,
+  "category_name": "常用物品",
+  "group_name": "有生货物",
+  "attributes": [],
+  "traits": []
+}

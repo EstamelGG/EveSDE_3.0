@@ -1,0 +1,13 @@
+{
+  "type_id": 89219,
+  "name": "Stability Telemetry",
+  "description": "Recordings of the local Abyssal energy ‘stability’ levels within an area of Pochven.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Stability Telemetry",
+  "attributes": [],
+  "traits": []
+}

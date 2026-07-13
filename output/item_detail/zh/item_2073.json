@@ -1,0 +1,28 @@
+{
+  "type_id": 2073,
+  "name": "微生物",
+  "description": "任何小到人类裸眼不能看见的的生命体都是微生物。作为一个整体，这个类别覆盖了一个广泛而又庞大的生物群落。从寄生虫和病毒到真菌和昆虫，人类对这些生物的研究和利用相当地广泛。",
+  "volume": 0.005,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "行星资源",
+  "group_name": "行星有机物 - 原始资源",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

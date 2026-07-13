@@ -1,0 +1,13 @@
+{
+  "type_id": 28362,
+  "name": "Drone Capillary Fluid",
+  "description": "The same fluid that flows through rogue drone relays, this substance is an amalgamation of various chemical compounds that many scientists theorize to be akin to the life blood of a rogue drone.  \n\nWhatever the reason, the fluid combined with synaptic relays allows for an astonishingly high flow of data.",
+  "volume": 0.02,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Material",
+  "group_name": "Rogue Drone Components",
+  "attributes": [],
+  "traits": []
+}

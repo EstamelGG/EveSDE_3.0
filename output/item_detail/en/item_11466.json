@@ -1,0 +1,21 @@
+{
+  "type_id": 11466,
+  "name": "R.Db - CreoDron",
+  "description": "A searchable database of the corporations scientific research. Used in blueprint copying as well as material and time efficiency blueprint research.",
+  "volume": 0.04,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Commodity",
+  "group_name": "Tool",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 100.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

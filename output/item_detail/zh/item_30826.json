@@ -1,0 +1,13 @@
+{
+  "type_id": 30826,
+  "name": "改过的身份记录",
+  "description": "这些身份记录将会覆盖系统中的原始数据。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 50.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

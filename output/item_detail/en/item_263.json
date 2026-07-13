@@ -1,0 +1,42 @@
+{
+  "type_id": 263,
+  "name": "Cap Booster 25",
+  "description": "Provides a quick injection of power into your capacitor. Good for tight situations!",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2.5,
+  "category_name": "Charge",
+  "group_name": "Capacitor Booster Charge",
+  "attributes": [
+    {
+      "attribute_name": "capacitorBonus",
+      "value": 25.0,
+      "categoryID": 5,
+      "display_name": "Capacitor Bonus",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "launcherGroup",
+      "value": 76.0,
+      "categoryID": 7,
+      "display_name": "Used with (Launcher Group)",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "capNeedBonus",
+      "value": -100.0,
+      "categoryID": 5,
+      "display_name": "Capacitor Need Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "launcherGroup2",
+      "value": 1156.0,
+      "categoryID": 7,
+      "display_name": "Used with (Launcher Group)",
+      "unit_name": "groupID"
+    }
+  ],
+  "traits": []
+}

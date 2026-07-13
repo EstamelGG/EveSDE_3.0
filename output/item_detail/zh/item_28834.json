@@ -1,0 +1,13 @@
+{
+  "type_id": 28834,
+  "name": "联邦法庭日志",
+  "description": "这些报告中含有对于联邦司法部门至关重要的数据。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

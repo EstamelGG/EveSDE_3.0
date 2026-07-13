@@ -1,0 +1,13 @@
+{
+  "type_id": 28365,
+  "name": "Drone Epidermal Shielding Chunk",
+  "description": "A chunk of the epidermal shielding from a rogue drone, while being both more durable and resistant than standard drone shielding, it is also thinner and more flexible forming, as it does, the skin of a rogue drone.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5.0,
+  "category_name": "Material",
+  "group_name": "Rogue Drone Components",
+  "attributes": [],
+  "traits": []
+}

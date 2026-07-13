@@ -1,0 +1,13 @@
+{
+  "type_id": 30308,
+  "name": "Scandium Metallofullerene",
+  "description": "A fullerene-scandium compound made by encasing a single scandium atom in a cage of carbon atoms. Scandium is a grey-white element that has historically been incredibly hard to find. Scandium-tipped missiles were once valued for their armor-piercing qualities, which allowed them to wreack havoc deep inside starship hulls. The only thing holding the weapons industry back from these and other similar applications has been the low supply of the material.",
+  "volume": 0.65,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Hybrid Polymers",
+  "attributes": [],
+  "traits": []
+}

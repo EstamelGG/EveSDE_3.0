@@ -1,0 +1,13 @@
+{
+  "type_id": 32403,
+  "name": "加达里海军覆盖应答器",
+  "description": "这个应答器是从考利的特工那里弄到的，你需要用它来同海军进行会合。特工的舰船爆炸后使这个东西的功能受到了损坏，它里面包含的识别数据能够干扰欺骗安全频道，使其将你的舰船识别为伊洛玛的舰船。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 81945,
+  "name": "Drone Graviton Emitter",
+  "description": "This drone-designed emitter can be found equipped on some small drone commander units and appears to allow impressively precise manipulation of cargo with tractor beams.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.5,
+  "category_name": "Material",
+  "group_name": "Rogue Drone Components",
+  "attributes": [],
+  "traits": []
+}

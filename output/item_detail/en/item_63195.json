@@ -1,0 +1,56 @@
+{
+  "type_id": 63195,
+  "name": "Standup Flak Round I",
+  "description": "Specialized \"flak\" ammunition designed for use in Upwell structure Point Defense Battery systems. These unique, caseless rounds are constructed with an explosive Strontium Clathrates core with a Megacyte primer and are designed to be fired en mass from structure defensive installations.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5.0,
+  "category_name": "Charge",
+  "group_name": "Structure Area Denial Ammunition",
+  "attributes": [
+    {
+      "attribute_name": "emDamage",
+      "value": 250.0,
+      "categoryID": 29,
+      "display_name": "EM damage",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "explosiveDamage",
+      "value": 250.0,
+      "categoryID": 29,
+      "display_name": "Explosive damage",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "kineticDamage",
+      "value": 250.0,
+      "categoryID": 29,
+      "display_name": "Kinetic damage",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "thermalDamage",
+      "value": 250.0,
+      "categoryID": 29,
+      "display_name": "Thermal damage",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "chargeSize",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "Charge size",
+      "unit_name": "1=small 2=medium 3=l"
+    },
+    {
+      "attribute_name": "launcherGroup",
+      "value": 1330.0,
+      "categoryID": 7,
+      "display_name": "Used with (Launcher Group)",
+      "unit_name": "groupID"
+    }
+  ],
+  "traits": []
+}

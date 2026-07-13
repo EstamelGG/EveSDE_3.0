@@ -1,0 +1,13 @@
+{
+  "type_id": 32126,
+  "name": "自制的萨沙信标",
+  "description": "在这个科学奇迹中，装载了萨沙的信号放大器。另外还有睿萨的头，还有大量的电工胶带。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

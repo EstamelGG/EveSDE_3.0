@@ -1,0 +1,28 @@
+{
+  "type_id": 55914,
+  "name": "Encounter Surveillance System",
+  "description": "CONCORD has centralized the Encounter Surveillance System program under the authority of the Secure Commerce Commission. ESS installations have been placed in star systems eligible for enhanced bounty programs by the SCC.\n\nOnce operated on a freelancer basis by individual empires, the ESS program was re-organized under SCC control to improve efficiency, and combat corruption and financial crimes by pirate groups.\n\n<b>Main Bank</b>\n\nThe Main Bank is a datavault within the ESS that stores ISK in the form of Encrypted Bonds. The Main Bank is used for periodic payouts of its stored value, with the ISK digitally paid to the bounty contributors' wallets, unless it is broken into and emptied by a third party first.\n\n<b>Reserve Bank</b>\n\nThe Reserve Bank is another, higher security datavault within the ESS that stores ISK in the form of Encrypted Bonds. This bank is locked, does not make periodic payments, and can only be accessed with a specifically coded Reserve Security Key.",
+  "volume": 200.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100000.0,
+  "category_name": "Celestial",
+  "group_name": "Encounter Surveillance System",
+  "attributes": [
+    {
+      "attribute_name": "warpScrambleStrength",
+      "value": 100.0,
+      "categoryID": 27,
+      "display_name": "Warp Scramble Strength",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "untargetable",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Untargetable",
+      "unit_name": "1=True 0=False"
+    }
+  ],
+  "traits": []
+}

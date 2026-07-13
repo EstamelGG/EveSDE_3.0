@@ -1,0 +1,13 @@
+{
+  "type_id": 28362,
+  "name": "无人机组织液",
+  "description": "这是一种在自由无人机继电器中流动的液体，该物质是各种化学物质组成的混合物，根据很多科学家的理论，它就是自由无人机的生命血液。\n\n这种液体和联合继电器结合可实现惊人的高速数据流，但其运作机理无人知晓。",
+  "volume": 0.02,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "材料",
+  "group_name": "自由无人机组件",
+  "attributes": [],
+  "traits": []
+}

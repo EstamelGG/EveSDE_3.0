@@ -1,0 +1,13 @@
+{
+  "type_id": 57444,
+  "name": "纳米级过滤板",
+  "description": "纳米级过滤板用于增强旗舰的舰载系统抵抗敌方的渗透和破坏行为的能力。这种组件的高级型号还融合了海军旗舰飞行员使用的最为安全的克隆飞行员神经链接保护技术。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

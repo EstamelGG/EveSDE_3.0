@@ -1,0 +1,13 @@
+{
+  "type_id": 25304,
+  "name": "皮特古斯塔斯疗养卡",
+  "description": "这种密匙非常昂贵，专门为皮特古斯塔斯死亡空间的成员而制，发给那些“表现优异”的人。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

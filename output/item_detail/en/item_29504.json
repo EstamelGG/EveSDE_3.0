@@ -1,0 +1,13 @@
+{
+  "type_id": 29504,
+  "name": "OP Insecticide",
+  "description": "Organophosphates, similar to nerve gases, have long been used as insecticides, and as bugs evolve, so too must the methods for dealing with them. This particular insecticide is perhaps the most lethal known to humankind, and can kill nearly anything exposed to it.",
+  "volume": 0.25,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 250.0,
+  "category_name": "Commodity",
+  "group_name": "Biohazard",
+  "attributes": [],
+  "traits": []
+}

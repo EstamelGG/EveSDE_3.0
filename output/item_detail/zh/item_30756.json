@@ -1,0 +1,13 @@
+{
+  "type_id": 30756,
+  "name": "红衣男",
+  "description": "这是个穿着红色上衣男子的遗骸。看上去几个钟头之前他还是个鲜活的猛男。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

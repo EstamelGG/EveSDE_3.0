@@ -1,0 +1,13 @@
+{
+  "type_id": 22102,
+  "name": "ST 59 Memory Chip",
+  "description": "A small wafer of semiconductor material that forms the base for an integrated circuit.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

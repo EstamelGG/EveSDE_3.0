@@ -1,0 +1,21 @@
+{
+  "type_id": 16663,
+  "name": "镉化铯",
+  "description": "一种由镉和铯组成的带有暗金色的合金。由于其颜色和三钛合金相似，因此经常容易混淆。它是很多合成物和冷凝物的必要成分。",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "中间产物",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

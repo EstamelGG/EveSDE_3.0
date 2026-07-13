@@ -1,0 +1,13 @@
+{
+  "type_id": 21620,
+  "name": "Assistant's Keychain",
+  "description": "This is the keychain of an assistant bank manager for the State and Region Bank in Vahunomi. It can be used to access to outer security vault in the bank.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

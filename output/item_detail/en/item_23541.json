@@ -1,0 +1,13 @@
+{
+  "type_id": 23541,
+  "name": "Shady Goods",
+  "description": "Crate of various unidentifiable goods of shady origin.",
+  "volume": 80.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

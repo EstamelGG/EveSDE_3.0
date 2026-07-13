@@ -1,0 +1,21 @@
+{
+  "type_id": 29660,
+  "name": "粗糙的镝汞合金",
+  "description": "镝和水银混合产生了柔软却极具复原力的镝汞合金，作为一种汞合金，它在最先进的感应器和反应堆技术中扮演关键角色。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "中间产物",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

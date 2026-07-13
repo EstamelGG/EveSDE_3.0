@@ -1,0 +1,28 @@
+{
+  "type_id": 2373,
+  "name": "损坏的自协调能源核心",
+  "description": "监视无人机对这些高级核反应堆的温度、放射性以及电量输出进行密切监控，在没有人员参与的情况下也能够对密封隔膜的动态性适应层进行即时调整，让能源核心在最大输出能力下安全运行。",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 250.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 250.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

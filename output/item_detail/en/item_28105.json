@@ -1,0 +1,13 @@
+{
+  "type_id": 28105,
+  "name": "Caldari Outpost Refinery",
+  "description": "An intermediate upgrade to Caldari Outpost refining facilities. Increases ore and ice reprocessing efficiency to 54%.\n\nNote: does not affect anything else but the two groups mentioned above.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Accessories",
+  "group_name": "Outpost Improvements",
+  "attributes": [],
+  "traits": []
+}

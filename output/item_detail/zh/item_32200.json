@@ -1,0 +1,13 @@
+{
+  "type_id": 32200,
+  "name": "隐秘记录装置",
+  "description": "把它安装在任何设施的主机上，就可以记录所有来往的通讯，无论这些通讯是否加密。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

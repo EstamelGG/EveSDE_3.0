@@ -1,0 +1,13 @@
+{
+  "type_id": 57468,
+  "name": "Stress-Responding Neurolink Stabilizer",
+  "description": "Stress-Responding Neurolink Stabilizers are highly advanced pharmaceuticals developed for use by the Federation Navy in conjunction with military capsuleer neurolink technology.\n\nEach of the empire militaries keys their neurolink stabilization to specific autonomic biosystems. These provide baselines, cycles and triggers that allow implants and capsule systems to maintain stable synchronization of capsuleer neurolinks with ship systems.",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Molecular-Forged Materials",
+  "attributes": [],
+  "traits": []
+}

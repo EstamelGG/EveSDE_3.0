@@ -1,0 +1,28 @@
+{
+  "type_id": 47736,
+  "name": "Abyssal Warp Disruptor",
+  "description": "Disrupts the target ship's navigation computer which prevents it from warping.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Module",
+  "group_name": "Warp Scrambler",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3435.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 2.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

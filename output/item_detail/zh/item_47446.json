@@ -1,0 +1,21 @@
+{
+  "type_id": 47446,
+  "name": "短剑之辉",
+  "description": "这个流浪者武器系统似乎是流浪者战列舰使用的能量武器的精简版本。它是半自动发射，可以自由漂浮于发射它的舰船四周。该武器开火时能对目标产生频率宽广的扰断能量波。",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "装备",
+  "group_name": "能量武器",
+  "attributes": [
+    {
+      "attribute_name": "reloadTime",
+      "value": 0.01,
+      "categoryID": 7,
+      "display_name": "重新装填时间",
+      "unit_name": "s"
+    }
+  ],
+  "traits": []
+}

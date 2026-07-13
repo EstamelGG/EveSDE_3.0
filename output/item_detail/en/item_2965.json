@@ -1,0 +1,13 @@
+{
+  "type_id": 2965,
+  "name": "Crate of Aerogel Counteragent",
+  "description": "Refrigerated secure cargo containers containing aerogel infused with dormant prototype anti-nanites. These containers have been specially modified with the latest security encryption protocols, to better ensure that any Gallente saboteurs will be unable to access and tamper with this critical cargo.",
+  "volume": 300.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 300.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

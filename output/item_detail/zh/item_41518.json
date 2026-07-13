@@ -1,0 +1,63 @@
+{
+  "type_id": 41518,
+  "name": "装甲热能抗性脚本",
+  "description": "这玩意儿一开始是为一群自称为“范达连帮”的青少年骇客所用，以期破解高科技安全固件。这些脚本通过在固件中插入指令可以改变那些固件的运作方式。现在随着那帮小子的成长，他们已将儿时的发明运用到了他们现在各自牵头的科研部门里。\n\n\n\n这种脚本装载至弯曲装甲增强器装备，能通过牺牲其它伤害类型的抗性加成来提升装备的热能抗性加成。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "弹药",
+  "group_name": "弯曲装甲增强器脚本",
+  "attributes": [
+    {
+      "attribute_name": "chargeSize",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "弹药尺寸",
+      "unit_name": "1=小型  2=中型  3=大型"
+    },
+    {
+      "attribute_name": "launcherGroup",
+      "value": 1699.0,
+      "categoryID": 7,
+      "display_name": "配套使用（发射器类别）",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "emDamageResistanceBonusBonus",
+      "value": -100.0,
+      "categoryID": 7,
+      "display_name": "电磁伤害抗性加成调整系数",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "explosiveDamageResistanceBonusBonus",
+      "value": -100.0,
+      "categoryID": 7,
+      "display_name": "爆炸伤害抗性加成调整系数",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "kineticDamageResistanceBonusBonus",
+      "value": -100.0,
+      "categoryID": 7,
+      "display_name": "动能伤害抗性加成调整系数",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "thermalDamageResistanceBonusBonus",
+      "value": 200.0,
+      "categoryID": 7,
+      "display_name": "热能伤害抗性加成调整系数",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

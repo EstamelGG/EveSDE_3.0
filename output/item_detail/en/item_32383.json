@@ -1,0 +1,13 @@
+{
+  "type_id": 32383,
+  "name": "Guristas 'Dirty' Explosive System",
+  "description": "A rudimentary, though effective, explosion matrix, used specifically for Guristas special operation tactical strikes. Once inside a ship's cargo bay, this “dirty” bomb will, upon detonation, cause massive damage to any ship, structure, or starship base. It's volatility, however, is also a liability: Getting the bomb to its destination is more dangerous than actually utilizing the explosion system.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

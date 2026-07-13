@@ -1,0 +1,21 @@
+{
+  "type_id": 34412,
+  "name": "完整的小型船体舱段",
+  "description": "这些冬眠者舰船的小块船体漂浮在冬眠者据点的废墟中，可以说是一项重大的考古发现。这些船体不仅数量极其稀少，而且保存完好，使它成为了研究冬眠者舰船建造方法的极佳对象。\n\n这些古老而具有研究价值的冬眠者技术不仅稀有，而且珍贵。借助合适的技能和设备，我们可以更深入了解创造它们的古老种族的科技全貌。",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "古文物",
+  "group_name": "冬眠者船体",
+  "attributes": [
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

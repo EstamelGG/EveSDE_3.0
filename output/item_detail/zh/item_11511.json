@@ -1,0 +1,13 @@
+{
+  "type_id": 11511,
+  "name": "米玛塔尔的特殊图纹",
+  "description": "该物品为了纪念那些在米玛塔尔起义中与艾玛人作战的战士。原先只授予那些在起义中死去的英雄，现在也给予那些为共和国执着献身的人们。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

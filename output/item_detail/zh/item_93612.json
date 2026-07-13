@@ -1,0 +1,13 @@
+{
+  "type_id": 93612,
+  "name": "共和舰队军械处补给包",
+  "description": "由共和舰队军械处集团采购和制造的补给包。旨在向前线的米玛塔尔共和国运送关键军事物资。艾玛帝国将奖励那些截获这些补给包并将其运送到帝国圣战十字第二十四军团空间站的克隆飞行员，需前往忠诚点商店兑换。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.01,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

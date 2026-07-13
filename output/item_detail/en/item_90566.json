@@ -1,0 +1,13 @@
+{
+  "type_id": 90566,
+  "name": "Proof of Transmission",
+  "description": "Data chip containing proof of transmission of the incriminating Upwell data.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

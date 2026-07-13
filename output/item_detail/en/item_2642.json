@@ -1,0 +1,13 @@
+{
+  "type_id": 2642,
+  "name": "Crates of Robotics",
+  "description": "These pre-programmed or remote control mechanical tools are commonly used in mass production facilities, hazardous material handling, or dangerous front line military duties such as bomb disarming and disposal.",
+  "volume": 70.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 70000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

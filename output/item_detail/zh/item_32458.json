@@ -1,0 +1,56 @@
+{
+  "type_id": 32458,
+  "name": "主权中心",
+  "description": "该主权中心由昇威财团负责开发，是零安全区域管理技术的巅峰之作。凭借着模块化升级基础设施和能源捕获能力，主权中心可以产生充足的能量，并借此宣布主权，开始转移必要的劳动力。此外，如果能在附近的行星安装<a href=showinfo:81080>轨道天钩</a>，将能够让主权中心不断升级，以满足各种不同的需求。要想宣布对恒星系的主权，需要在恒星附近部署主权中心，并将其设置为侵噬链接目标，直到你的联盟完全获得控制权。只有克隆飞行员联盟的成员才能部署和控制主权中心。一个星系最多只能有一个主权中心。同时注意，不得在非克隆飞行员主权星系或虫洞空间部署主权中心。",
+  "volume": 60000.0,
+  "repackaged_volume": null,
+  "capacity": 10000.0,
+  "mass": 1000000.0,
+  "category_name": "主权设施",
+  "group_name": "主权中心",
+  "attributes": [
+    {
+      "attribute_name": "scanRadarStrength",
+      "value": 25.0,
+      "categoryID": 6,
+      "display_name": "雷达感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanLadarStrength",
+      "value": 25.0,
+      "categoryID": 6,
+      "display_name": "光雷达感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrength",
+      "value": 25.0,
+      "categoryID": 6,
+      "display_name": "磁力感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanGravimetricStrength",
+      "value": 25.0,
+      "categoryID": 6,
+      "display_name": "引力感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 4000.0,
+      "categoryID": 6,
+      "display_name": "信号半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "tierDifficulty",
+      "value": 5.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

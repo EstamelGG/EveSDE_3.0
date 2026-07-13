@@ -1,0 +1,21 @@
+{
+  "type_id": 30558,
+  "name": "Malfunctioning Thruster Sections",
+  "description": "After millennia of exposure to space, these thruster sections have begun to wear significantly, offering only a limited example of their full functionality. The modular design of Sleeper propulsion systems is still observable however, and is notably similar to that of the empires, only deviating in a few interesting areas.\n\nA determined and lucky researcher could still successfully reverse engineer something useful from this, but they would certainly stand a better chance with a more functional design.",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Ancient Relics",
+  "group_name": "Sleeper Propulsion Relics",
+  "attributes": [
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

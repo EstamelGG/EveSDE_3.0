@@ -1,0 +1,21 @@
+{
+  "type_id": 16639,
+  "name": "Scandium",
+  "description": "A transition element harnessed from rare minerals, Scandium commonly sees use as a component of high-intensity light fixtures for deep-space environments, as well as being a strong building block in many deep-space structures and spacecraft due to its extremely high melting point.",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1196.0,
+  "category_name": "Material",
+  "group_name": "Moon Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

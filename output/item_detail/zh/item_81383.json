@@ -1,0 +1,13 @@
+{
+  "type_id": 81383,
+  "name": "违禁品数据",
+  "description": "这份数据被三层加密保护，但已被列为违禁品。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 500.0,
+  "category_name": "常用物品",
+  "group_name": "国土行动物品",
+  "attributes": [],
+  "traits": []
+}

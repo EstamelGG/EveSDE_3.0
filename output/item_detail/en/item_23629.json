@@ -1,0 +1,13 @@
+{
+  "type_id": 23629,
+  "name": "Fedo Blood",
+  "description": "Sealed bags of thick plastic, filled with viscous dark fedo blood.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

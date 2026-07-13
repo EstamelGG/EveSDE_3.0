@@ -1,0 +1,13 @@
+{
+  "type_id": 26131,
+  "name": "Booster Pack",
+  "description": "Apparently the pirates were researching a pack to store drugs in. It's supposed to have 11 racks, one for strong boosters, three for improved boosters and seven for standard boosters. What a curious idea.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,91 @@
+{
+  "type_id": 28164,
+  "name": "Thermodynamics",
+  "description": "Advanced understanding of the laws of thermodynamics. Allows you to deliberately overheat a ship's modules in order to push them beyond their intended limit. Also gives you the ability to frown in annoyance whenever you hear someone mention a perpetual motion unit. Reduces heat damage by 5% per level.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Skill",
+  "group_name": "Engineering",
+  "attributes": [
+    {
+      "attribute_name": "primaryAttribute",
+      "value": 165.0,
+      "categoryID": 7,
+      "display_name": "Primary attribute",
+      "unit_name": "attributeID"
+    },
+    {
+      "attribute_name": "secondaryAttribute",
+      "value": 166.0,
+      "categoryID": 7,
+      "display_name": "Secondary attribute",
+      "unit_name": "attributeID"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3413.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 3418.0,
+      "categoryID": 8,
+      "display_name": "Secondary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill3",
+      "value": 3402.0,
+      "categoryID": 8,
+      "display_name": "Tertiary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "skillTimeConstant",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "Training time multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 4.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 3.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill3Level",
+      "value": 4.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "skillLevel",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Level",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "thermodynamicsHeatDamage",
+      "value": -5.0,
+      "categoryID": 52,
+      "display_name": "Heat damage modifier",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,21 @@
+{
+  "type_id": 16649,
+  "name": "Technetium",
+  "description": "A silvery metal, primarily used as a corrosion inhibitor and a superconductor.",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 8800.0,
+  "category_name": "Material",
+  "group_name": "Moon Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

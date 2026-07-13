@@ -1,0 +1,13 @@
+{
+  "type_id": 29191,
+  "name": "幸存者",
+  "description": "这个不幸但是坚强的人再一次严酷的考验中幸存下来。他的创伤是身体和精神上两方面的，但是他对活下去的信念很强。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80.0,
+  "category_name": "常用物品",
+  "group_name": "有生货物",
+  "attributes": [],
+  "traits": []
+}

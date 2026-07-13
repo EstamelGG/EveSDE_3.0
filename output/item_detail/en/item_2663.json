@@ -1,0 +1,13 @@
+{
+  "type_id": 2663,
+  "name": "Group of Cattle",
+  "description": "Cattle are domestic animals raised for home use or for profit, whether it be for their meat or dairy products.",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100000.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

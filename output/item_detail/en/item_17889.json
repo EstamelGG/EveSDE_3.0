@@ -1,0 +1,13 @@
+{
+  "type_id": 17889,
+  "name": "Hydrogen Isotopes",
+  "description": "Hydrogen-2, otherwise known as Deuterium. Due to its unique properties the hydrogen-2 isotope is able to very effectively fuse with other atoms. Useful in a variety of nuclear scenarios, and an essential material for the maintenance of Minmatar Control Towers.\n\nMay be obtained by reprocessing the following ice ores:\n\n<color='0xFF33FFFF'>1.0</color> security status solar system or lower:\n<a href=showinfo:16263>Glacial Mass</a>\n\n<color='0xFFFF0000'>0.0</color> security status solar system or lower:\n<a href=showinfo:17977>Smooth Glacial Mass</a>",
+  "volume": 0.03,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Ice Product",
+  "attributes": [],
+  "traits": []
+}

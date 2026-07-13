@@ -1,0 +1,193 @@
+{
+  "type_id": 45598,
+  "name": "圣卒攻击 - 液晶放大器",
+  "description": "高效液晶镜头是冬眠者科技遗产众多的结晶中的一个。艾玛研究人员对这些镜头进行了改进，增加了激光器的焦距以获得更长的射程和射击时长，这样激光武器就能够以更强的功率攻击更远的目标。同时，采用了富勒烯技术的镜头能够产生更高温高强的光束。",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 800000.0,
+  "category_name": "子系统",
+  "group_name": "攻击子系统",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "powerOutput",
+      "value": 400.0,
+      "categoryID": 1,
+      "display_name": "能量栅格输出",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuOutput",
+      "value": 90.0,
+      "categoryID": 1,
+      "display_name": "CPU输出",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 30537.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "droneCapacity",
+      "value": 0.0,
+      "categoryID": 10,
+      "display_name": "无人机容量",
+      "unit_name": "m3"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "capacitorCapacity",
+      "value": 100.0,
+      "categoryID": 5,
+      "display_name": "电容容量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "droneBandwidth",
+      "value": 0.0,
+      "categoryID": 10,
+      "display_name": "无人机带宽",
+      "unit_name": "Mbit/s"
+    },
+    {
+      "attribute_name": "subSystemSlot",
+      "value": 127.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "turretHardPointModifier",
+      "value": 6.0,
+      "categoryID": 0,
+      "display_name": "炮塔安装数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "launcherHardPointModifier",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "发射器安装数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "hiSlotModifier",
+      "value": 7.0,
+      "categoryID": 0,
+      "display_name": "高槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "medSlotModifier",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "中槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "lowSlotModifier",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "低槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "fitsToShipType",
+      "value": 29986.0,
+      "categoryID": 0,
+      "display_name": "受限于船型",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "subsystemBonusAmarrOffensive",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "subsystemBonusAmarrOffensive2",
+      "value": -10.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "subsystemBonusAmarrOffensive3",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareLinkCPUPenalty",
+      "value": 10000.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "subsystemMETFittingReduction",
+      "value": -25.0,
+      "categoryID": 1,
+      "display_name": "中型能量炮台装配需求降低",
+      "unit_name": "%"
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b>25%</b> 装配<a href=showinfo:3306>中型能量炮台</a>能量栅格和CPU消耗减少"
+    },
+    {
+      "content": "<b><u>附加基础数值</b></u>"
+    },
+    {
+      "content": "高槽+7，炮台+6"
+    },
+    {
+      "content": "能量栅格+400 CPU+90"
+    },
+    {
+      "content": "电容器电容量+100GJ"
+    },
+    {
+      "content": "<b>10%</b> <a href=showinfo:3306>中型能量炮台</a>启动消耗降低"
+    },
+    {
+      "content": "<b>10%</b> <a href=showinfo:3306>中型能量炮台</a>伤害加成"
+    },
+    {
+      "content": "<b>10%</b> <a href=showinfo:3306>中型能量炮台</a>最佳射程加成"
+    }
+  ]
+}

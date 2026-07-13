@@ -1,0 +1,13 @@
+{
+  "type_id": 62032,
+  "name": "Time Crystal Oscillator",
+  "description": "This device is clearly a practical application of the so-called \"time crystal\" type of matter where particles are arranged in a special class of quantum system with periodic structure across both space and time.\n\nThe special properties of time crystals are useful for constructing devices that can accurately fix space and time co-ordinates while resisting entropy and temporal distortions caused by local spacetime deformation. This time crystal oscillator appears to be a component used to assure synchronization of spatiotemporal data.",
+  "volume": 0.005,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Peculiar Materials",
+  "attributes": [],
+  "traits": []
+}

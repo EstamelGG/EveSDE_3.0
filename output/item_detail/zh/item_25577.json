@@ -1,0 +1,13 @@
+{
+  "type_id": 25577,
+  "name": "自由海盗的秘密数据 贝它型",
+  "description": "这个数据密匙允许你进入自由海盗的采矿设施。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

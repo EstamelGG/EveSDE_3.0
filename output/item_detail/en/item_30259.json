@@ -1,0 +1,21 @@
+{
+  "type_id": 30259,
+  "name": "Melted Nanoribbons",
+  "description": "Most of these tiny circuits have fused together from the heat and force of the Sleeper drone's explosion. The detonation of the drone's power core must have been immense to have had such an effect on these resilient nanostructures.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Ancient Salvage",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

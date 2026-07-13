@@ -1,0 +1,13 @@
+{
+  "type_id": 3027,
+  "name": "Crate of Contained Cerrocentite",
+  "description": "A slick-looking, translucent amber mineral with a hexagonal crystalline structure. Its radioactive properties require the material to be stored in special containment units; handling by anyone other than a trained engineer is strongly discouraged.<br><br>\nCerrocentite is used primarily in stationside security networks, mostly in the systems which detect unbalance in the atmosphere mix.",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

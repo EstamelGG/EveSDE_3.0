@@ -1,0 +1,42 @@
+{
+  "type_id": 30391,
+  "name": "Omni Effect Beacon",
+  "description": "Local spatial phenomena may cause strange effects on your ship systems.",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Celestial",
+  "group_name": "Effect Beacon",
+  "attributes": [
+    {
+      "attribute_name": "durationBonus",
+      "value": -50.0,
+      "categoryID": 7,
+      "display_name": "Duration Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "maxVelocityModifier",
+      "value": -50.0,
+      "categoryID": 7,
+      "display_name": "Maximum Velocity Modifier",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "maxTargetRangeBonus",
+      "value": -50.0,
+      "categoryID": 37,
+      "display_name": "Maximum Targeting Range Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "trackingSpeedBonus",
+      "value": -50.0,
+      "categoryID": 37,
+      "display_name": "Tracking Speed Bonus",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

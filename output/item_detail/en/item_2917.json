@@ -1,0 +1,13 @@
+{
+  "type_id": 2917,
+  "name": "Survivors",
+  "description": "These rattled individuals move with languid motions. It looks like some of them have gone weeks without food.",
+  "volume": 50.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 50.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

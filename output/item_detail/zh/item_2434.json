@@ -1,0 +1,70 @@
+{
+  "type_id": 2434,
+  "name": "等离子行星贵金属采集器",
+  "description": "这座设施由具有抗震能力的平台组成，其配备的重型连接式传送带一直伸向隧道的深处。嗜极生物无人机专门用于在具有腐蚀性，变化剧烈且高低压力大气中工作，在传送带上来回巡视，进行维修和清理碎石的工作。一批采矿专家和技术人员坚守在主建筑中，在自动化系统失效的时候可以进行手动操作。",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "行星工业",
+  "group_name": "采集器",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 800.0,
+      "categoryID": 7,
+      "display_name": "能量负荷",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 200.0,
+      "categoryID": 9,
+      "display_name": "CPU载荷",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "harvesterType",
+      "value": 2270.0,
+      "categoryID": 7,
+      "display_name": "采集类别",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 2063.0,
+      "categoryID": 7,
+      "display_name": "行星类型限制",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "pinExtractionQuantity",
+      "value": 1000.0,
+      "categoryID": 7,
+      "display_name": "采集量",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "pinCycleTime",
+      "value": 300.0,
+      "categoryID": 7,
+      "display_name": "运转周期",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "extractorDepletionRange",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "extractorDepletionRate",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

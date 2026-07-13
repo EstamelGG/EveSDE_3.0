@@ -1,0 +1,13 @@
+{
+  "type_id": 30311,
+  "name": "C3-FTM酸",
+  "description": "难以获取且造价昂贵，这种稀有的化学合成物是克隆飞行员重要的神经保护制剂。它被整合进了克隆飞行员逃生舱的生命维持系统之中，能够有效的控制脑细胞死亡和神经退化性疾病的发生。",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "混合聚合物",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 54225,
+  "name": "Used Ectoplasmic Fluid",
+  "description": "This thick goo has previously served as the filler liquid for a starship's hydrostatic capsule.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

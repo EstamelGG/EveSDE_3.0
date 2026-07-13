@@ -1,0 +1,13 @@
+{
+  "type_id": 89156,
+  "name": "警惕级共振密钥",
+  "description": "该数据密钥详细说明了从警戒点发出的引力波溢散的共振频率。加速轨道需要使用此数据提供稳定的站点地点跃迁通道。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

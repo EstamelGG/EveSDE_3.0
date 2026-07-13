@@ -1,0 +1,70 @@
+{
+  "type_id": 95274,
+  "name": "Exordium Filament",
+  "description": "Once activated, the Exordium Filament instantly transports a capsuleer from <b>High Security Space</b> to a system in the Exordium region.\n\nThis filament can only be activated by capsuleers <b>under 35 days old</b> with <b>2 million or fewer</b> skill points.\n\nAIR has issued this filament to celebrate the opening of Exordium, a region dedicated to new pilots. With CONCORD’s protection and AIR’s guidance, capsuleers in Exordium can learn the skills they need to face the threats of wider New Eden, and earn the rewards they offer.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Commodity",
+  "group_name": "Jump Filaments",
+  "attributes": [
+    {
+      "attribute_name": "mjfgRadius",
+      "value": 6000.0,
+      "categoryID": 17,
+      "display_name": "Area Effect Radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "mjdShipJumpCap",
+      "value": 1.0,
+      "categoryID": 17,
+      "display_name": "Maximum Ship Jump cap",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "FilamentDescriptionMessageID",
+      "value": 1046355.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "locationListID",
+      "value": 5079.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "filamentSpoolupTimeSeconds",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "Activation Delay",
+      "unit_name": "sec"
+    },
+    {
+      "attribute_name": "filamentHighSecOnly",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Exclusive to High Security Space",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "filamentCharacterSPLimit",
+      "value": 2000000.0,
+      "categoryID": 7,
+      "display_name": "Character Skill Point Limit",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "filamentCharacterAgeLimit",
+      "value": 840.0,
+      "categoryID": 7,
+      "display_name": "Character Age Limit",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

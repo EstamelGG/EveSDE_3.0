@@ -1,0 +1,49 @@
+{
+  "type_id": 3200,
+  "name": "Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-604",
+  "description": "An Eifyr and Co. gunnery hardwiring designed to enhance skill with small projectile turrets.\n\n4% bonus to small projectile turret damage.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Implant",
+  "group_name": "Cyber Gunnery",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3411.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 3.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "damageMultiplierBonus",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "Damage Multiplier Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "implantness",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "Implant Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    }
+  ],
+  "traits": []
+}

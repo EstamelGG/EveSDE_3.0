@@ -1,0 +1,13 @@
+{
+  "type_id": 29321,
+  "name": "损坏的采矿设备",
+  "description": "这座大型集装箱安装了密码保护安全锁。里面装满了需要重新修复的手动表面采矿钻。",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 700.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 16714,
+  "name": "Legends Medal",
+  "description": "A medal awarded to those that have completed the final trial of the Legends Trials. Only the greatest combat pilots of the Eve universe can claim to have accomplished this great feat.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

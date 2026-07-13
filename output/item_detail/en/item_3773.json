@@ -1,0 +1,13 @@
+{
+  "type_id": 3773,
+  "name": "Hydrochloric Acid",
+  "description": "A clear, colorless, fuming, poisonous, highly acidic aqueous solution of hydrogen chloride, used as a chemical intermediate and in petroleum production, ore reduction, and food processing.",
+  "volume": 0.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "Commodity",
+  "group_name": "Biohazard",
+  "attributes": [],
+  "traits": []
+}

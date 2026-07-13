@@ -1,0 +1,13 @@
+{
+  "type_id": 26270,
+  "name": "联邦正义之星",
+  "description": "联邦正义之星是一个金制的奖章，盖伦特联邦政府用它来鼓励那些在宇宙中表现出高度的勇敢、智慧和无私精神的人。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

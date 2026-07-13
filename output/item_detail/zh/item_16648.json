@@ -1,0 +1,21 @@
+{
+  "type_id": 16648,
+  "name": "铪",
+  "description": "一种用于多种金属合金的银色耐腐蚀金属，有时也用于混合武器系统。",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10640.0,
+  "category_name": "材料",
+  "group_name": "卫星原料",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

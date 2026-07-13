@@ -1,0 +1,145 @@
+{
+  "type_id": 45588,
+  "name": "圣卒防御 - 纳米机器人喷注器",
+  "description": "这个子系统中所采用的冬眠者高级技术增加了舰船装甲纳米机器人的工作效率。当这个设备被整合到圣卒级船体中后，它能有效地增强所装配的自身维修设备对装甲的维修量。尽管这个子系统所达成的效果同其他舰载装甲维修增强装置所提供的没有什么大的区别，但实际上这个设备背后的支持技术却有相当大的优势，它不但能整合在船体结构中而且还能够方便的进行拆除。",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": 300.0,
+  "mass": 1400000.0,
+  "category_name": "子系统",
+  "group_name": "防御子系统",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 30532.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "shieldCapacity",
+      "value": 100.0,
+      "categoryID": 2,
+      "display_name": "护盾容量",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "capacitorCapacity",
+      "value": 300.0,
+      "categoryID": 5,
+      "display_name": "电容容量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "armorHPBonusAdd",
+      "value": 500.0,
+      "categoryID": 3,
+      "display_name": "装甲值加成",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "subSystemSlot",
+      "value": 126.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hiSlotModifier",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "高槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "medSlotModifier",
+      "value": 2.0,
+      "categoryID": 0,
+      "display_name": "中槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "lowSlotModifier",
+      "value": 2.0,
+      "categoryID": 0,
+      "display_name": "低槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "fitsToShipType",
+      "value": 29986.0,
+      "categoryID": 0,
+      "display_name": "受限于船型",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "subsystemBonusAmarrDefensive",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "covertCloakCPUPenalty",
+      "value": 10000.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "subsystemBonusAmarrDefensive3",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b><u>附加基础数值</b></u>"
+    },
+    {
+      "content": "中槽+2，低槽+2"
+    },
+    {
+      "content": "护盾值+100，装甲值+500"
+    },
+    {
+      "content": "电容器电容量+300GJ"
+    },
+    {
+      "content": "<b>10%</b> <a href=showinfo:3393>装甲维修器</a>效果加成"
+    },
+    {
+      "content": "<b>10%</b> <a href=showinfo:3393>装甲维修器</a>过载效果加成"
+    }
+  ]
+}

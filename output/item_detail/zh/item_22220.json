@@ -1,0 +1,13 @@
+{
+  "type_id": 22220,
+  "name": "破坏大脑的毒品",
+  "description": "只要吸入此物品一次就可能让人大脑失常。吸食者会听从他人摆布，甚至失去求生的欲望。大部分上瘾者最后都自杀了。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.4,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 17888,
+  "name": "氮同位素",
+  "description": "氮-14是一种稳定的、非放射性同位素，对维持加达里控制塔至关重要。\n\n可以从下列冰矿石中提炼获得：\n\n安全等级<color='0xFF33FFFF'>1.0</color>及以下星系：\n<a href=showinfo:16265>白釉冰</a>\n\n安全等级<color='0xFFFF0000'>0.0</color>及以下星系：\n<a href=showinfo:17976>朴白釉冰</a>",
+  "volume": 0.03,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "冰矿产物",
+  "attributes": [],
+  "traits": []
+}

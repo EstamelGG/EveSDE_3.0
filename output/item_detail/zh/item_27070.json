@@ -1,0 +1,49 @@
+{
+  "type_id": 27070,
+  "name": "天赋植体 诺贝尔 维修系统 RS-601",
+  "description": "一款神经接口升级芯片，可以增强飞行员操作装甲/船体维修设备的技能。维修系统运转周期缩短1%。注：该植入体对远程装甲维修装备和旗舰级装备不起作用。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "脑控装甲",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3411.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "durationSkillBonus",
+      "value": -1.0,
+      "categoryID": 7,
+      "display_name": "单次运转时间加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "implantness",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "植入体槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    }
+  ],
+  "traits": []
+}

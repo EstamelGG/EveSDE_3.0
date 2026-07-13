@@ -1,0 +1,13 @@
+{
+  "type_id": 59755,
+  "name": "赛季物资补给箱",
+  "description": "纪念日庆典活动（2021年7月）物资补给箱",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

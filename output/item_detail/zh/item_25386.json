@@ -1,0 +1,13 @@
+{
+  "type_id": 25386,
+  "name": "监狱区域通行卡",
+  "description": "这张安全通行卡是由古斯塔斯海盗制造，允许使用者进入O-LR1H内与以阿塔星原相连的监狱场所。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

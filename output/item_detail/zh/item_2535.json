@@ -1,0 +1,35 @@
+{
+  "type_id": 2535,
+  "name": "海洋行星储藏设施",
+  "description": "比起在更加适居的陆地行星上，货物和资源物品在海洋行星上的储藏方式并无多大不同。尽管大多数水下工业生产都在适居穹顶之内进行，但水下储藏舱因其体积巨大，都必须被放置在这些穹顶之外，同时还要能抵御强大的水压和海底环境的挑战。",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": 12000.0,
+  "mass": null,
+  "category_name": "行星工业",
+  "group_name": "储藏设施",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 700.0,
+      "categoryID": 7,
+      "display_name": "能量负荷",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 500.0,
+      "categoryID": 9,
+      "display_name": "CPU载荷",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 2014.0,
+      "categoryID": 7,
+      "display_name": "行星类型限制",
+      "unit_name": "类别ID"
+    }
+  ],
+  "traits": []
+}

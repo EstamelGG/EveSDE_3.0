@@ -1,0 +1,13 @@
+{
+  "type_id": 2731,
+  "name": "Crates of Silicon",
+  "description": "As one of the most common elements in the universe, it's no surprise that silicon has found its way into almost every aspect of manufacturing, resulting in a steady price and perpetual mining operations on most solid planets.",
+  "volume": 50.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,28 @@
+{
+  "type_id": 2348,
+  "name": "凝胶基质生物胶",
+  "description": "凝胶基质是一种非常不稳定的物质，只能由在普通条件下无法结合的元素来合成。强行地让它们达成所需的状态，需要耗费巨大的能量，但是最终产物却是十分有价值的，可以用于高端电子设备和控制论医学研究。",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "行星商品",
+  "group_name": "特种资源物品 - 第三等级",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 60000.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 60000.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,84 @@
+{
+  "type_id": 89618,
+  "name": "姐妹会远征指挥思维网络芯片",
+  "description": "这种为EVE姐妹会及其科学家生产的高级接口链接会直接链接到由指挥脉冲波弹药发射的纳米体，从而极大地提高指挥官的远征指挥和装甲指挥能力。远征和装甲指挥脉冲波强度和持续时间提高25%。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "脑控指挥",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3411.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 89610.0,
+      "categoryID": 8,
+      "display_name": "副技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill3",
+      "value": 11569.0,
+      "categoryID": 8,
+      "display_name": "三级技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill3Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "implantness",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "植入体槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "mindlinkBonus",
+      "value": 25.0,
+      "categoryID": 7,
+      "display_name": "思维网络加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaGroupID",
+      "value": 4.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 17988,
+  "name": "加尔顿的私人钥匙",
+  "description": "加尔顿曾亲自分发这些能打开奇幻建筑旁边加速轨道的钥匙。钥匙可以打开后面的加速轨道，打开的加速轨道会持续一小段时间。这张出入卡只能使用一次。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

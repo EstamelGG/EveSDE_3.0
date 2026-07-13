@@ -1,0 +1,13 @@
+{
+  "type_id": 2618,
+  "name": "Crates of Harroule Dryweed",
+  "description": "Grown on a terrestrial world in the Harroule system, the Dryweed plant has fragile, yellowish leaves that burn very slowly, giving off a pleasant vapor that is known to have a soothing effect when inhaled.",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 40000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

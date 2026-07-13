@@ -1,0 +1,28 @@
+{
+  "type_id": 9832,
+  "name": "冷却剂",
+  "description": "这种特殊的混合液体是十分理想的热传导物质，可将热能从敏感的机器和电脑元件上导离，并传导至散热槽从而将多余的热能从系统中消除。",
+  "volume": 0.75,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "行星商品",
+  "group_name": "加工过的资源物品 - 第二等级",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 7200.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 7200.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

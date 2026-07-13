@@ -1,0 +1,13 @@
+{
+  "type_id": 23621,
+  "name": "欧内的克拉什兴奋剂",
+  "description": "这种药品可以暂时缓解你的不适。",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

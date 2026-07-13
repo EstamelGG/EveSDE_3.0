@@ -1,0 +1,13 @@
+{
+  "type_id": 77476,
+  "name": "M.R.F. Supplies",
+  "description": "A collection of essential supplies intended for the Republic Fleet. Inside could be anything from military rations, medical supplies, ammunition, or even ship parts. \n\nThis also contains a discreet tracking device so the Republic military can hunt down their property should it ever fall into undesirable hands.",
+  "volume": 3500.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 20000.0,
+  "category_name": "Commodity",
+  "group_name": "Homefront Operations Commodity",
+  "attributes": [],
+  "traits": []
+}

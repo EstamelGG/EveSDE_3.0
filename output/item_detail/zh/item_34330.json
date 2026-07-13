@@ -1,0 +1,112 @@
+{
+  "type_id": 34330,
+  "name": "资源集装箱",
+  "description": "这个上了栓的集装箱悄然无声地在星际之间漂移，丝毫不向人们透露其中可能隐藏了什么宝藏。",
+  "volume": 2750.0,
+  "repackaged_volume": null,
+  "capacity": 2700.0,
+  "mass": 10000.0,
+  "category_name": "空间实体",
+  "group_name": "可重生的货柜",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 1000000.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 0.0,
+      "categoryID": 29,
+      "display_name": "最佳射程",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "falloff",
+      "value": 0.0,
+      "categoryID": 29,
+      "display_name": "失准范围",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "trackingSpeed",
+      "value": 0.0,
+      "categoryID": 29,
+      "display_name": "炮台跟踪速度",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "entityAttackRange",
+      "value": 0.0,
+      "categoryID": 6,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "entityFlyRange",
+      "value": 0.0,
+      "categoryID": 17,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "entityEquipmentMin",
+      "value": 2.0,
+      "categoryID": 19,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "entityEquipmentMax",
+      "value": 6.0,
+      "categoryID": 19,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "lootRespawnTime",
+      "value": 2400000.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "capacitorCapacity",
+      "value": 2700.0,
+      "categoryID": 5,
+      "display_name": "电容容量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "structureUniformity",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 500.0,
+      "categoryID": 6,
+      "display_name": "信号半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "entityChaseMaxDistance",
+      "value": 0.0,
+      "categoryID": 17,
+      "display_name": "",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "disallowAssistance",
+      "value": 1.0,
+      "categoryID": 6,
+      "display_name": "不允许援助",
+      "unit_name": "1=True 0=False"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 32366,
+  "name": "Proof of Discovery: Data",
+  "description": "This document has been placed inside a Data site secured by Empire agents. It serves as physical proof that a capsuleer-in-training has been able to locate the signature and successfully perform a hacking attempt inside the area.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

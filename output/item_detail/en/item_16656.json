@@ -1,0 +1,21 @@
+{
+  "type_id": 16656,
+  "name": "Fernite Alloy",
+  "description": "An intensely durable and extremely versatile alloy, Fernite, when combined with certain other materials, is a crucial stepping stone in the creation of a whole host of advanced technologies.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Intermediate Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

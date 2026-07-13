@@ -1,0 +1,13 @@
+{
+  "type_id": 24763,
+  "name": "Encryption Code Book",
+  "description": "A book used to decrypt messages",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

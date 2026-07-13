@@ -1,0 +1,13 @@
+{
+  "type_id": 18644,
+  "name": "赌徒的通行卡",
+  "description": "这种通行卡分发给一些古斯塔斯特工，藉此能够进入古斯塔斯复兴营地里的赌徒天堂。轨道的打开状态会持续一小段时间。通行卡在将卡上数据上传到加速装置之后，就会失效。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

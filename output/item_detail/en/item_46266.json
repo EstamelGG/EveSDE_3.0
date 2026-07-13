@@ -1,0 +1,13 @@
+{
+  "type_id": 46266,
+  "name": "A3 Destroyer Package",
+  "description": "This crate contains a destroyer ship and some useful modules to go with it. Unfortunately the instruction manual for unpacking and assembling the ship seems to be missing.",
+  "volume": 50000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

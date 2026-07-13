@@ -1,0 +1,13 @@
+{
+  "type_id": 54226,
+  "name": "Burned Transneural Scanner",
+  "description": "This elaborate device utilizes a combination of magnetic resonance imaging and emission tomography to quickly acquire a detailed scan of a human brain down to the quantum level. This information can then be transmitted to a cortex reconstructor in a remote facility to transfer the subject's memories and personality into a fresh clone. This process is both rapid and destructive, leaving the original brain and the transneural scanner damaged beyond repair.\n\nThis particular transneural scanning unit has served its purpose and is no longer operational.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

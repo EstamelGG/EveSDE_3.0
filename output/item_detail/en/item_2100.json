@@ -1,0 +1,13 @@
+{
+  "type_id": 2100,
+  "name": "Phenod's DNA",
+  "description": "Identification tags such as these may prove valuable if handed to the proper organization.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

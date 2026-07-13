@@ -1,0 +1,13 @@
+{
+  "type_id": 13211,
+  "name": "上皮组织切片",
+  "description": "皮肤上层的切片——皮肤是提供隔离、感觉和温度控制的面积最大的器官。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

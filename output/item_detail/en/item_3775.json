@@ -1,0 +1,28 @@
+{
+  "type_id": 3775,
+  "name": "Viral Agent",
+  "description": "The causative agent of an infectious disease, the viral agent is a parasite with a noncellular structure composed mainly of nucleic acid within a protein coat.",
+  "volume": 0.75,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Planetary Commodities",
+  "group_name": "Refined Commodities - Tier 2",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 7200.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 7200.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

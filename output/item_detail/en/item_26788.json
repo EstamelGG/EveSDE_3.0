@@ -1,0 +1,13 @@
+{
+  "type_id": 26788,
+  "name": "Gang of Miners",
+  "description": "A sturdy miner.",
+  "volume": 6000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 200000.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 34132,
+  "name": "人物重塑凭证",
+  "description": "此凭证可让你对飞行员的面部特征、体型和性别进行一次重塑。此凭证激活即使用，下次进入飞行员定制界面时，你就能使用完整的重塑功能。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "附件",
+  "group_name": "服务",
+  "attributes": [],
+  "traits": []
+}

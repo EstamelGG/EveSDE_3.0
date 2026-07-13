@@ -1,0 +1,13 @@
+{
+  "type_id": 25398,
+  "name": "Tikui's Message",
+  "description": "Tikui's message has been recorded inside this data chip.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

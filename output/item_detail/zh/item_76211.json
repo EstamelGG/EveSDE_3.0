@@ -1,0 +1,13 @@
+{
+  "type_id": 76211,
+  "name": "运输中继研究数据片段",
+  "description": "该运输中继研究数据片段可以作为带有<a href=showinfo:76206>运输中继数据核心蓝图</a>的输入材料，用来重建部分研究与技术累积数据，这些数据由全面掌握运输中继技术（星际舰船弹射台的核心技术）的构建与运行方法的帝国所收集。要重建这些数据，你还必须获取<a href=showinfo:76212>运输中继研究加密密钥</a>和<a href=showinfo:76210>索引文件</a>。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

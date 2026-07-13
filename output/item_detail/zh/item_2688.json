@@ -1,0 +1,13 @@
+{
+  "type_id": 2688,
+  "name": "大箱的单电池",
+  "description": "尽管单电池的设计相当古老，但是它们依然是一种可靠的电能储藏方式，特别适用于长期在空间站和行星载具上使用。",
+  "volume": 800.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 800000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

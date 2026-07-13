@@ -1,0 +1,55 @@
+{
+  "type_id": 30870,
+  "name": "Class 2 Red Giant Effects",
+  "description": "Local spatial phenomena may cause strange effects on your ship systems.",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Celestial",
+  "group_name": "Effect Beacon",
+  "attributes": [
+    {
+      "attribute_name": "heatDamageMultiplier",
+      "value": 1.22,
+      "categoryID": 52,
+      "display_name": "Heat damage multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "overloadBonusMultiplier",
+      "value": 1.44,
+      "categoryID": 4,
+      "display_name": "Overload bonus multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "empFieldRangeMultiplier",
+      "value": 1.44,
+      "categoryID": 7,
+      "display_name": "Smart bomb range multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "smartbombDamageMultiplier",
+      "value": 1.44,
+      "categoryID": 7,
+      "display_name": "Smart bomb damage multiplier",
+      "unit_name": "x"
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b>44%</b> bonus to the benefits of overloading modules"
+    },
+    {
+      "content": "<b>44%</b> bonus to smartbomb damage and range"
+    },
+    {
+      "content": "<b>44%</b> bonus to bomb damage"
+    },
+    {
+      "content": "<b>22%</b> increased heat damage from overloading modules"
+    }
+  ]
+}

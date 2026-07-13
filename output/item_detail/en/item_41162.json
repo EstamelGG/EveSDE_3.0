@@ -1,0 +1,21 @@
+{
+  "type_id": 41162,
+  "name": "Gallium Ample Hexa 2500mm Repeating Cannon Blueprint",
+  "description": null,
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Blueprint",
+  "group_name": "Projectile Weapon Blueprint",
+  "attributes": [
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 200.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

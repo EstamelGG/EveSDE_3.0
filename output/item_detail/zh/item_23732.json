@@ -1,0 +1,21 @@
+{
+  "type_id": 23732,
+  "name": "武士SW-300蓝图",
+  "description": null,
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "蓝图",
+  "group_name": "停滞缠绕无人机蓝图",
+  "attributes": [
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

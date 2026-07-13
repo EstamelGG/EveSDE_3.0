@@ -1,0 +1,13 @@
+{
+  "type_id": 56714,
+  "name": "模块化系统全息影像",
+  "description": "模块化系统全息影像可以提供如何将许多模块化设备装到船体上的技术数据。这种数据往往可以从已经失去功能或已损毁的舰船上的计算机系统中获得。三神裔非常愿意用某些物品来交换这种珍贵的数据。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

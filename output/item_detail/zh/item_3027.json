@@ -1,0 +1,13 @@
+{
+  "type_id": 3027,
+  "name": "一箱密封的峰币岩",
+  "description": "这是一种漂亮、会发光，具有六角晶体结构的琥珀色矿物。这种放射性物质需要存放在一个特殊的密封箱里，只有受过培训的专业人员才能安全地对其进行处理。<br><br>\n峰币岩主要用在空间站安全网络设备里，最常见的是用在探测大气组成失衡的系统中。",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

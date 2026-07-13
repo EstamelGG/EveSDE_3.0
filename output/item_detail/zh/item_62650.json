@@ -1,0 +1,13 @@
+{
+  "type_id": 62650,
+  "name": "守护者庆典补给箱",
+  "description": "这个箱子中装有焰火、一个试炼场纤维和一份随机补给，帮助克隆飞行员去守护者庆典闹个天翻地覆。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

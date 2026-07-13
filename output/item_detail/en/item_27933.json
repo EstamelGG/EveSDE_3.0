@@ -1,0 +1,21 @@
+{
+  "type_id": 27933,
+  "name": "Small Remote Hull Repairer I Blueprint",
+  "description": null,
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Blueprint",
+  "group_name": "Remote Hull Repairer Blueprint",
+  "attributes": [
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

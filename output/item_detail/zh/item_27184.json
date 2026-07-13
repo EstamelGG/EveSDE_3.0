@@ -1,0 +1,49 @@
+{
+  "type_id": 27184,
+  "name": "载诺 守财奴 科学 SC-805",
+  "description": "一款神经接口升级芯片，可以增强飞行员的研究技能。\n\n\n\n蓝图复制速度提高5%。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "脑控科学",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3411.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "implantness",
+      "value": 8.0,
+      "categoryID": 7,
+      "display_name": "植入体槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "copySpeedBonus",
+      "value": -5.0,
+      "categoryID": 7,
+      "display_name": "复制速度加成",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

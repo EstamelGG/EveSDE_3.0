@@ -1,0 +1,154 @@
+{
+  "type_id": 83643,
+  "name": "Domination Signature Radius Suppressor",
+  "description": "This device uses a variety of emissions suppression and masking methods to reduce the overall signature radius of a ship observable by enemy sensors and represented in targeting computer algorithms. Signature radius suppression has the advantage of increasing the time to lock of enemy targeting sensors, while also reducing incoming damage from almost all weapon systems by confounding enemy firing solutions and proximity detonators.\n\nThis device operates in both passive and active modes, providing a small benefit through passive emissions reduction and a dramatically enhanced benefit in active masking mode.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Module",
+  "group_name": "Signature Suppressor",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 660.0,
+      "categoryID": 5,
+      "display_name": "Activation Cost",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 1.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Usage",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 50.0,
+      "categoryID": 1,
+      "display_name": "CPU usage",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3427.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 4.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 8.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "moduleReactivationDelay",
+      "value": 150000.0,
+      "categoryID": 7,
+      "display_name": "Reactivation Delay",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "maxGroupActive",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "disallowRepeatingActivation",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Cannot Auto Repeat",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "heatAbsorbtionRateModifier",
+      "value": 0.01,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "canFitShipGroup01",
+      "value": 900.0,
+      "categoryID": 1,
+      "display_name": "Can only be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "canFitShipGroup02",
+      "value": 27.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "canFitShipGroup03",
+      "value": 898.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "maxGroupFitted",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "Max Modules Of This Group Allowed",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "metaGroupID",
+      "value": 4.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "signatureSuppressorSignatureRadiusBonusPassive",
+      "value": 0.875,
+      "categoryID": 7,
+      "display_name": "Signature Radius Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "signatureSuppressorSignatureRadiusBonusActive",
+      "value": 0.25,
+      "categoryID": 7,
+      "display_name": "Active Signature Radius Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "durationHighisGood",
+      "value": 14000.0,
+      "categoryID": 7,
+      "display_name": "Activation time / duration",
+      "unit_name": "s"
+    }
+  ],
+  "traits": []
+}

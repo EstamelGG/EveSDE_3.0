@@ -1,0 +1,49 @@
+{
+  "type_id": 13240,
+  "name": "埃菲尔公司 游侠 规避机动 EM-703",
+  "description": "一款神经交互强化芯片，可增强飞行员的机动技术。\n\n舰船灵活性提升3%。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "脑控导航",
+  "attributes": [
+    {
+      "attribute_name": "agilityBonus",
+      "value": -3.0,
+      "categoryID": 7,
+      "display_name": "惯性调整系数",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3411.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 2.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "implantness",
+      "value": 7.0,
+      "categoryID": 7,
+      "display_name": "植入体槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    }
+  ],
+  "traits": []
+}

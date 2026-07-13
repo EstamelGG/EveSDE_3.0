@@ -1,0 +1,13 @@
+{
+  "type_id": 17992,
+  "name": "普克斯勒的9D通行证",
+  "description": "这种九维通行证可以打开天使海军船坞里的第二加速轨道，使用之后它会自行销毁。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

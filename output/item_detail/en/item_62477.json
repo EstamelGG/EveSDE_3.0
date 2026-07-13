@@ -1,0 +1,77 @@
+{
+  "type_id": 62477,
+  "name": "Compressed Titanite",
+  "description": "A common ore commercially mined from moons, Titanite is very useful as it yields good quantities of <a href=showinfo:16638>Titanium</a>, a significant element of many advanced materials.\n\nThis material is compressed and a much more compact form of the original material.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 4000.0,
+  "category_name": "Asteroid",
+  "group_name": "Common Moon Asteroids(R8)",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 46153.0,
+      "categoryID": 7,
+      "display_name": "Reprocessing Skill",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "asteroidRadiusGrowthFactor",
+      "value": 0.75,
+      "categoryID": 31,
+      "display_name": "Asteroid radius size multiplier",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "asteroidRadiusUnitSize",
+      "value": 600.0,
+      "categoryID": 31,
+      "display_name": "Asteroid unit radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "Stasis Webifier Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 45496.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "asteroidMaxRadius ",
+      "value": 5000.0,
+      "categoryID": 31,
+      "display_name": "",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 21669,
+  "name": "Guristas Communications Logs",
+  "description": "This salvaged data from a destroyed Guristas vessel contains an audio record of all communications between the pilot and his commanding officers for the last month.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

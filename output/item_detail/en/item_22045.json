@@ -1,0 +1,13 @@
+{
+  "type_id": 22045,
+  "name": "Remains of Thukker Pest",
+  "description": "Smoldering remains of a Thukker pirate.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

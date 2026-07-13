@@ -1,0 +1,13 @@
+{
+  "type_id": 78857,
+  "name": "Guristas Insurgency Data Sequence",
+  "description": "This data sequence recovered from a Guristas Pirate ship could be host to a whole trove of valuable information that would be of interest to the Caldari State or Gallente Federation in securing their borders and launching counter-attacks against the pirate insurgents. The data is in fragmentary form and hundreds, if not thousands, of sequences would be required to break the code, as such, only a specialized facility is likely to find any value or success in decrypting this.\n\nThe Caldari State will reward Capsuleers who bring this item to their State Counter-Insurgency Outpost located in the <url=showinfo:5//30045324>Onnamon</url> solarsystem.\n\nThe Gallente Federation will reward Capsuleers who bring this item to their Federation Counter-Insurgency Outpost located in the <url=showinfo:5//30003788>Intaki</url> solarsystem.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.75,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

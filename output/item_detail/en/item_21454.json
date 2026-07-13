@@ -1,0 +1,13 @@
+{
+  "type_id": 21454,
+  "name": "Moa Parts",
+  "description": "These crates contain parts needed to build a Moa cruiser.",
+  "volume": 30.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 128000.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

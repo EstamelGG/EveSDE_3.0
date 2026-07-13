@@ -1,0 +1,13 @@
+{
+  "type_id": 72373,
+  "name": "加密星际研究数据",
+  "description": "这包加密数据中含有附近恒星的敏感观测数据。艾玛和米玛塔尔当局都要求克隆飞行员前去夺得这些数据包，供自己的机密研究项目使用。\n\n\n\n想要帮助艾玛帝国的克隆飞行员可以将数据上交给<url=showinfo:5//30002974>莫哈托尔</url>星系中的帝国研究设施里的帝国星际突变器研究实验室。\n\n\n\n想要帮助米玛塔尔共和国的克隆飞行员可以将数据上交给<url=showinfo:5//30002055>阿莫</url>星系中的共和国研究设施里的共和国星际突变器研究实验室。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 57720,
+  "name": "ESS-SW-15 Reserve Security Key",
+  "description": "This ESS-SW-15 Reserve Security Key is a quadrant security key for Encounter Surveillance System (ESS) reserve banks in the Secure Commerce Commission's South-West Encounter Surveillance Quadrant.\n\n<b>This Reserve Security Key is configured to permit a maximum total of 15 releases of funds after activation.</b>\n\nThe SCC defines its South-West Encounter Surveillance Quadrant as encompassing star systems in the following regions:\n\n<b><a href=showinfo:3//10000056>Feythabolis</a>, <a href=showinfo:3//10000031>Impass</a>, <a href=showinfo:3//10000060>Delve</a>, <a href=showinfo:3//10000063>Period Basis</a>, <a href=showinfo:3//10000050>Querious</a>, <a href=showinfo:3//10000014>Catch</a>, <a href=showinfo:3//10000039>Esoteria</a>, <a href=showinfo:3//10000059>Paragon Soul</a>, and <a href=showinfo:3//10000047>Providence</a></b>\n\nReserve Security Keys are generated and issued at <b>SCC Secure Key Storage</b> facilities. For security, the keys for a given region are generated and issued by facilities located well outside the region. ESS Reserve Keys are single-use only, providing access to one Reserve Bank before their key codes are removed from the access database.\n\nKeyholder officials of the SCC are periodically issued with heavily-encrypted ESS Reserve Keys in order to inspect the integrity of ESS Reserve Banks. The keys also allow a keyholder to trigger a release of funds from the Reserve Bank in the form of Encrypted Bonds. For security purposes, such a release of funds is carried out over a lengthy period of time.\n\nIf an SCC Keyholder carries out an inspection as part of their duties the ESS is secured by SCC guard forces. Anyone using the key to effect a security intrusion does so at their own risk.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "ESS Reserve Bank Keys",
+  "attributes": [],
+  "traits": []
+}

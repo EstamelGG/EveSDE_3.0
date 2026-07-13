@@ -1,0 +1,13 @@
+{
+  "type_id": 3822,
+  "name": "Frentix",
+  "description": "The Frentix fluid is used as a relaxative drug on subjects in heavy pain. Abuse of this booster is common in underground communities around the universe.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5.0,
+  "category_name": "Commodity",
+  "group_name": "Drugs",
+  "attributes": [],
+  "traits": []
+}

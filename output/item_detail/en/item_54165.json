@@ -1,0 +1,13 @@
+{
+  "type_id": 54165,
+  "name": "Spiked Quafe",
+  "description": "This Quafe has been spiked with a generous amount of high proof grain alcohol and a few drops of deathglow extract. It would be wise to update your backup clone before consumption.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

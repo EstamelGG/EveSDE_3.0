@@ -1,0 +1,13 @@
+{
+  "type_id": 57453,
+  "name": "Carbon Fiber",
+  "description": "Cheap and formed from abundant resources, basic carbon fiber is a material with almost unlimited applications. It is particularly useful in the space industries when reinforced with additional polymers.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Intermediate Materials",
+  "attributes": [],
+  "traits": []
+}

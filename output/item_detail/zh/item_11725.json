@@ -1,0 +1,13 @@
+{
+  "type_id": 11725,
+  "name": "纤维复合物",
+  "description": "珍贵的矿物化合物，可提炼多种矿物。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "常用物品",
+  "group_name": "可精炼物质",
+  "attributes": [],
+  "traits": []
+}

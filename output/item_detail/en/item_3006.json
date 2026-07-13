@@ -1,0 +1,13 @@
+{
+  "type_id": 3006,
+  "name": "Conditioned House Slaves",
+  "description": "These highly trained and expensive slaves undergo several years of conditioning and training prior to being sold or transferred into their duties, which most often include butler and maid duties at the homes of senior political or industrial leaders. These slaves are more highly valued than ordinary slaves and in return often receive decent treatment from their masters, as well as better-than-normal housing conditions and food.",
+  "volume": 30.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 300.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

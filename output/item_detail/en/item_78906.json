@@ -1,0 +1,13 @@
+{
+  "type_id": 78906,
+  "name": "Deathless Circle Reward Token",
+  "description": "This electronic token is encoded with a set reward value by the Deathless Circle, and can be exchanged at Angel Cartel or Guristas Pirates loyalty point stores for special access to their latest destroyer-class designs.",
+  "volume": 0.001,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

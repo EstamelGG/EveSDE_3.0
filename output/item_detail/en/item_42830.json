@@ -1,0 +1,105 @@
+{
+  "type_id": 42830,
+  "name": "Mining Laser Optimization Charge",
+  "description": "This compact bundle of active nanites can be loaded into a <a href=showinfo:42528>Mining Foreman Burst</a> module and dispersed across allied ships to greatly enhance the speed of their mining modules, allowing increased yield over time. This effect also reduces the capacitor requirements of the mining laser to compensate for the faster cycle times.\n\nAll mining foreman bursts also enable upgraded functionality for any integrated Mining Surveyors on affected ships",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.01,
+  "category_name": "Charge",
+  "group_name": "Mining Foreman Burst Charges",
+  "attributes": [
+    {
+      "attribute_name": "launcherGroup",
+      "value": 1770.0,
+      "categoryID": 7,
+      "display_name": "Used with (Launcher Group)",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 22536.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 3348.0,
+      "categoryID": 8,
+      "display_name": "Secondary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff1ID",
+      "value": 24.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff2ID",
+      "value": 2474.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff3ID",
+      "value": 0.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff4ID",
+      "value": 0.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff1Multiplier",
+      "value": -15.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff2Multiplier",
+      "value": 2.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff3Multiplier",
+      "value": 0.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareBuff4Multiplier",
+      "value": 0.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

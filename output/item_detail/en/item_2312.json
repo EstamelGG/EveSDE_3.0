@@ -1,0 +1,28 @@
+{
+  "type_id": 2312,
+  "name": "Supertensile Plastics",
+  "description": "“Hyperoxidation” was the term given to the process of rapidly fossilizing the carbon structures, readily available in the form of biomass, which forms the basic framework of supertensile plastics. The only amorphous solid known to retain the resilience of other such materials while also adopting conductive properties, supertensile plastic is highly sought after for a wide range of industrial applications.",
+  "volume": 0.75,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Planetary Commodities",
+  "group_name": "Refined Commodities - Tier 2",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 7200.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 7200.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

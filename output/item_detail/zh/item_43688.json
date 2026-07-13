@@ -1,0 +1,13 @@
+{
+  "type_id": 43688,
+  "name": "星形矿业保险柜",
+  "description": "属于星形矿业的一个保险柜。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "常用物品",
+  "group_name": "保险柜",
+  "attributes": [],
+  "traits": []
+}

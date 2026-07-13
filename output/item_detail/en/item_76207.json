@@ -1,0 +1,13 @@
+{
+  "type_id": 76207,
+  "name": "Stellar Transmuter Research Index File",
+  "description": "This Stellar Transmuter Research Index File can be used as an input with a <a href=showinfo:76205>Stellar Transmuter Datacore Blueprint</a> in order to reconstruct a portion of the accumulated research and technical data gathered by those empires with a comprehensive understanding of the means to construct and control Stellar Transmuters.\n\nTo reconstruct such data it will also be necessary to acquire <a href=showinfo:76208>Stellar Transmuter Research Data Fragments</a> and <a href=showinfo:76209>Encryption Keys</a>.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

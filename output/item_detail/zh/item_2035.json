@@ -1,0 +1,70 @@
+{
+  "type_id": 2035,
+  "name": "弃用的诱捕阵列3",
+  "description": "该物品已弃用。虽然目前依然有效，但计划未来将不再流通。该升级件可以提高在星系中找到复合体的几率。",
+  "volume": 20000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "基础设施升级件",
+  "group_name": "基础设施中心军事升级件",
+  "attributes": [
+    {
+      "attribute_name": "devIndexMilitary",
+      "value": 4.0,
+      "categoryID": 0,
+      "display_name": "发展指数等级需求（军事）",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "sovUpgradeRequiredUpgradeID",
+      "value": 2034.0,
+      "categoryID": 7,
+      "display_name": "先决升级安装",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "distributionIDAngel01",
+      "value": 401.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDBlood01",
+      "value": 406.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDGurista01",
+      "value": 411.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDRogueDrone01",
+      "value": 426.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDSansha01",
+      "value": 416.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDSerpentis01",
+      "value": 421.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,231 @@
+{
+  "type_id": 47921,
+  "name": "潮上视野型熵能分解者",
+  "description": "大型熵能分解者只用于三神裔战列舰上，这种大型战舰可以承受武器发射时产生的放射性物质和重力场。在能量层面上，这种超重武器系统产生的重力场是如此之强，使得装配它的舰船不得不安装特殊系统来抵御。\n\n\n\n熵能分解者的强大威力得益于三神裔基于奇点的能量系统，能将异种物质转化为粒子流，由自身产生的熵能加以引导。虽然威力无俦，这种武器的射程却受到熵能衰变的影响，在最佳射程之外就消于无形。所以，这种武器不具有失准范围。\n\n\n\n粒子流会产生热能和爆炸反应，熵能会产生一个重力导管来使粒子流大大加速。在实际使用中，该武器的伤害会随着对同一目标的不断发射而逐渐提高，直到达到上限。\n\n\n\n需要使用的异种等离子弹药类型：重子、介子和四重子。",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": 5.0,
+  "mass": 2000.0,
+  "category_name": "装备",
+  "group_name": "先驱者武器",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 63.0,
+      "categoryID": 5,
+      "display_name": "启用耗电量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 16500.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "slots",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 300.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "speed",
+      "value": 8000.0,
+      "categoryID": 29,
+      "display_name": "射击速度",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 27100.0,
+      "categoryID": 29,
+      "display_name": "最佳射程",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "chargeRate",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "单次消耗量",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "targetModule",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "damageMultiplier",
+      "value": 0.88,
+      "categoryID": 29,
+      "display_name": "伤害量调整",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "chargeSize",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "弹药尺寸",
+      "unit_name": "1=小型  2=中型  3=大型"
+    },
+    {
+      "attribute_name": "trackingSpeed",
+      "value": 5.45,
+      "categoryID": 29,
+      "display_name": "炮台跟踪速度",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 47872.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 3300.0,
+      "categoryID": 8,
+      "display_name": "副技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "chargeGroup1",
+      "value": 1987.0,
+      "categoryID": 7,
+      "display_name": "配套使用（弹药类别）",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "optimalSigRadius",
+      "value": 40000.0,
+      "categoryID": 29,
+      "display_name": "信号分辨率",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "heatAbsorbtionRateModifier",
+      "value": 0.01,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "overloadDamageModifier",
+      "value": 15.0,
+      "categoryID": 7,
+      "display_name": "超载伤害加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "heatDamage",
+      "value": 4.2,
+      "categoryID": 52,
+      "display_name": "超载损耗",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredThermoDynamicsSkill",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "所需热力学等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "canFitShipType1",
+      "value": 47271.0,
+      "categoryID": 1,
+      "display_name": "只能装配在",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "canFitShipType2",
+      "value": 88001.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "metaGroupID",
+      "value": 1.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "typeColorScheme",
+      "value": 11313.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reloadTime",
+      "value": 0.01,
+      "categoryID": 7,
+      "display_name": "重新装填时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "damageMultiplierBonusPerCycle",
+      "value": 0.07,
+      "categoryID": 29,
+      "display_name": "每循环伤害倍增系数加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "damageMultiplierBonusMax",
+      "value": 2.125,
+      "categoryID": 29,
+      "display_name": "最大伤害系数加成",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

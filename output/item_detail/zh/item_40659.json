@@ -1,0 +1,154 @@
+{
+  "type_id": 40659,
+  "name": "旗舰级能量中和器 I",
+  "description": "中和目标舰船电容器的部分能量。\n\n注：只能用于旗舰级舰船。",
+  "volume": 4000.0,
+  "repackaged_volume": 1000.0,
+  "capacity": null,
+  "mass": 2000.0,
+  "category_name": "装备",
+  "group_name": "能量中和器",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 3600.0,
+      "categoryID": 5,
+      "display_name": "启用耗电量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 80000.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 90.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 30000.0,
+      "categoryID": 29,
+      "display_name": "最佳射程",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 48000.0,
+      "categoryID": 7,
+      "display_name": "作用时间/单次运转时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "energyNeutralizerAmount",
+      "value": 3600.0,
+      "categoryID": 22,
+      "display_name": "能量中和值",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3423.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 4.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "heatAbsorbtionRateModifier",
+      "value": 0.01,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "overloadSelfDurationBonus",
+      "value": -15.0,
+      "categoryID": 7,
+      "display_name": "超载持续时间加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "heatDamage",
+      "value": 4.6,
+      "categoryID": 52,
+      "display_name": "超载损耗",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredThermoDynamicsSkill",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "所需热力学等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "entityCapacitorLevelModifierSmall",
+      "value": 0.318,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "entityCapacitorLevelModifierMedium",
+      "value": 0.53,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "entityCapacitorLevelModifierLarge",
+      "value": 0.814,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "falloffEffectiveness",
+      "value": 15000.0,
+      "categoryID": 29,
+      "display_name": "效果失准范围",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "energyNeutralizerSignatureResolution",
+      "value": 8000.0,
+      "categoryID": 22,
+      "display_name": "能量中和信号分辨率",
+      "unit_name": "m"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 21612,
+  "name": "Dynamite Crate",
+  "description": "A crate of the finest TNT money can buy. Guaranteed to blow even the largest of problems into smithereens.",
+  "volume": 80.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

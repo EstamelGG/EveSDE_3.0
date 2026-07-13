@@ -1,0 +1,126 @@
+{
+  "type_id": 37258,
+  "name": "Standup L-Set Point Defense Battery Control I",
+  "description": "The Standup L-Set Point Defense Battery Control I rig provides a means for structure operators to adjust hardware systems involved in point defense battery power and firing solution control so as to improve the capacitor efficiency and point defense fire projection of Upwell technology structures.\n\nStandup is a proprietary system that uses a Structure Autonomous Nanoassembly Device (Upwell) containing integrated template software, a nanoassembler array and sufficient nanomass to enable the construction of a variety of service modules, structure modules and structure rigs when inserted into the appropriate slots on a structure built with Upwell technology.\n\nNote: Only one rig of the same type, counting both tech variations, may be fitted at the same time on a structure.",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 200.0,
+  "category_name": "Structure Module",
+  "group_name": "Structure Combat Rig L - Point Defense Battery Application and Projection",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 26252.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "upgradeCost",
+      "value": 100.0,
+      "categoryID": 1,
+      "display_name": "Calibration cost",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "canFitShipGroup01",
+      "value": 1657.0,
+      "categoryID": 1,
+      "display_name": "Can only be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "canFitShipGroup02",
+      "value": 1404.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "canFitShipGroup03",
+      "value": 1406.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "maxGroupFitted",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "Max Modules Of This Group Allowed",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "rigSize",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "Rig Size",
+      "unit_name": "1=small 2=medium 3=l"
+    },
+    {
+      "attribute_name": "structureItemVisualFlag",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hiSecModifier",
+      "value": 1.0,
+      "categoryID": 37,
+      "display_name": "High Security Bonus Multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "lowSecModifier",
+      "value": 1.2,
+      "categoryID": 37,
+      "display_name": "Low Security Bonus Multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "nullSecModifier",
+      "value": 1.2,
+      "categoryID": 37,
+      "display_name": "Nullsec and Wormhole Bonus Multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "securityModifier",
+      "value": 1.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureRigPDRangeBonus",
+      "value": 500.0,
+      "categoryID": 7,
+      "display_name": "Point Defense Battery Range Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "structureRigPDCapUseBonus",
+      "value": -30.0,
+      "categoryID": 7,
+      "display_name": "Point Defense Battery Capacitor Use Bonus",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

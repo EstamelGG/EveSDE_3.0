@@ -1,0 +1,13 @@
+{
+  "type_id": 32235,
+  "name": "Tattered Doll",
+  "description": "Formerly belonging to a young child, this doll has been through rough times. Tattered and worn, the synthetic material is stained with odd markings, presumably blood or tears from the doll's former owner.",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

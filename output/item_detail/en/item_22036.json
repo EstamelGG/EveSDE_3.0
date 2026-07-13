@@ -1,0 +1,13 @@
+{
+  "type_id": 22036,
+  "name": "Republic Fleet Deserter",
+  "description": "The remains of a Republic Fleet pilot that deserted.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

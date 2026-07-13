@@ -1,0 +1,13 @@
+{
+  "type_id": 47027,
+  "name": "生物力学接口数据",
+  "description": "这份复原出的数据似乎提供了一种新型的生物力学接口，用受使用者自身基因结构控制的纳米体来建立一个神经网络。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

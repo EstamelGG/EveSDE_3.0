@@ -1,0 +1,84 @@
+{
+  "type_id": 23785,
+  "name": "壁垒1600mm钢附甲板",
+  "description": "增加装甲的最大强度。\n\n\n\n惩罚：增加舰船质量，使其灵活性和机动能力降低，减少诸如加力燃烧器和微型跃迁推进器等加速装备的推力加成效果。",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "装备",
+  "group_name": "装甲附甲板",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 470.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 27.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3394.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 3.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "massAddition",
+      "value": 3500000.0,
+      "categoryID": 7,
+      "display_name": "质量增加值",
+      "unit_name": "kg"
+    },
+    {
+      "attribute_name": "armorHPBonusAdd",
+      "value": 4500.0,
+      "categoryID": 3,
+      "display_name": "装甲值加成",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "metaGroupID",
+      "value": 3.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

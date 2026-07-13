@@ -1,0 +1,13 @@
+{
+  "type_id": 32234,
+  "name": "加密传输",
+  "description": "这是一条从RSS代理人的米玛塔尔间谍那里传来的加密传输信息。这就是一大段完全无法理解的0和1组成的字符串。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

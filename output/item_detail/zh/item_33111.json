@@ -1,0 +1,91 @@
+{
+  "type_id": 33111,
+  "name": "实验级大脑加速器",
+  "description": "大脑加速器是一种军事级别的植入体，能够大大地增强新手飞行员的技能增长。这种科技通常只提供给海军官员，但是统合部也批准了少量的这种植入体提供给出色的自由克隆飞行员。<br><br>这个植入体控制大脑中的神经通路和海马体，使大脑对反复的改变适应性更强。这样一来，新手飞行员就更容易接受各种新的信息和知识。<br><br>这种植入体唯一的副作用就是会在一段时间的技能训练后变得失去作用，也就是说会在飞行员注册超过14天的时候失效。<br><br>\n加成：所有属性加9",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "charismaBonus",
+      "value": 9.0,
+      "categoryID": 7,
+      "display_name": "魅力调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "intelligenceBonus",
+      "value": 9.0,
+      "categoryID": 7,
+      "display_name": "智力调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "memoryBonus",
+      "value": 9.0,
+      "categoryID": 7,
+      "display_name": "记忆调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "perceptionBonus",
+      "value": 9.0,
+      "categoryID": 7,
+      "display_name": "感知调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "willpowerBonus",
+      "value": 9.0,
+      "categoryID": 7,
+      "display_name": "毅力调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3402.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "boosterMaxCharAgeHours",
+      "value": 336.0,
+      "categoryID": 7,
+      "display_name": "最大飞行员年龄",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "nondestructible",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "无法摧毁",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "followsJumpClones",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "跟随远距克隆",
+      "unit_name": "1=True 0=False"
+    }
+  ],
+  "traits": []
+}

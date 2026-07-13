@@ -1,0 +1,13 @@
+{
+  "type_id": 2693,
+  "name": "Large Crates of Reports",
+  "description": "These encoded reports may mean little to the untrained eye, but can prove valuable to the relevant institution.",
+  "volume": 400.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 400000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

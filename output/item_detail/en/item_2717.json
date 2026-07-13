@@ -1,0 +1,13 @@
+{
+  "type_id": 2717,
+  "name": "Large Crates of Garbage",
+  "description": "Production waste can mean garbage to some but valuable resource material to others.",
+  "volume": 900.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 900000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

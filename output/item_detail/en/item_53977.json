@@ -1,0 +1,49 @@
+{
+  "type_id": 53977,
+  "name": "Noise-5 'Needlejack' Filament",
+  "description": "Following the success of the Frostline Laboratories experimental trials with Triglavian filament technology, the Outer Ring Excavations group authorized the commencement of \"Project Needlejack\". Working in conjunction with Frostline, ORE Technologies was able to refine the technology into a cost-effective product even though the means of precisely establishing a conduit destination continued to elude its scientists.\n\nThe prototype designs include a filament device that opens a conduit able to transport 5 ships to an apparently random destination, within broad parameters based on \"noise profiles\" in the underlying quantum fluctuations of space-time. ORE's development team configured their prototype to target quantum noise profiles typical of known nullsec space regions.\n\nThe Noise-5 'Needlejack' Filament device has been reported as falling into the hands of a number of outlaw and underworld groups across New Eden, and is likely to be found in certain of their secure data sites.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Commodity",
+  "group_name": "Jump Filaments",
+  "attributes": [
+    {
+      "attribute_name": "mjfgRadius",
+      "value": 6000.0,
+      "categoryID": 17,
+      "display_name": "Area Effect Radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "mjdShipJumpCap",
+      "value": 5.0,
+      "categoryID": 17,
+      "display_name": "Maximum Ship Jump cap",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "ActiveSystemJump",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "FilamentDescriptionMessageID",
+      "value": 561098.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "filamentSpoolupTimeSeconds",
+      "value": 30.0,
+      "categoryID": 7,
+      "display_name": "Activation Delay",
+      "unit_name": "sec"
+    }
+  ],
+  "traits": []
+}

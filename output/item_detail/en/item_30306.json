@@ -1,0 +1,13 @@
+{
+  "type_id": 30306,
+  "name": "Methanofullerene",
+  "description": "One of the most useful organic semiconductors discovered in recent years, methanofullerene can be blended with other polymers to create incredibly efficient solar cells, offering a near-endless source of power in places that would otherwise be difficult to supply.",
+  "volume": 0.75,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Hybrid Polymers",
+  "attributes": [],
+  "traits": []
+}

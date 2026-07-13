@@ -1,0 +1,13 @@
+{
+  "type_id": 28897,
+  "name": "Food-Borne Toxin",
+  "description": "This virulent toxin, when placed into many kinds of food or drink, is virtually undetectable save by the most advanced microbiological scanning technology... which is generally available only to the very wealthy.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

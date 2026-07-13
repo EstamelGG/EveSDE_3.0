@@ -1,0 +1,13 @@
+{
+  "type_id": 33018,
+  "name": "舰船装配手册",
+  "description": "我的乌鸦级装配如下：\n\n高槽\n巡航导弹发射器 I x 6\n小型牵引光束 I x 1\n打捞器 x 1\n\n中槽\n大型护盾扩展装置 x 4\n许普诺斯ECM发生器 x 1\n中型护盾回充增量器 x 1\n\n低槽\n紧急损伤控制 x 1\n装甲动能增强器 I x 1\n装甲热能增强器 I x 1\n跃迁核心稳定器 I x 2\n\n无人机\n武士 I x 2\n战锤 I x 3\n\n升级件\n火箭燃料缓冲隔离装置 I x 1\n装卸加速装置 I x 1",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.01,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

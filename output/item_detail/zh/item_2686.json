@@ -1,0 +1,13 @@
+{
+  "type_id": 2686,
+  "name": "大箱的利帕尔芝士",
+  "description": "由于利帕尔星系行星所具有的特殊条件，那里生活的动物拥有非常少的脂肪，所出产的奶制品味道非常淡，却更加的健康。",
+  "volume": 1000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

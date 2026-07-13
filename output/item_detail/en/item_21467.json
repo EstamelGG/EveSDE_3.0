@@ -1,0 +1,13 @@
+{
+  "type_id": 21467,
+  "name": "Spy",
+  "description": "A captured spy.",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

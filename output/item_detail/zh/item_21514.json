@@ -1,0 +1,13 @@
+{
+  "type_id": 21514,
+  "name": "修改过的进出港日志",
+  "description": "这些进出港日志经过精心修改，可以插入某特定空间站数据库。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

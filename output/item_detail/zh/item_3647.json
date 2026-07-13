@@ -1,0 +1,13 @@
+{
+  "type_id": 3647,
+  "name": "全息记忆盘",
+  "description": "全息影像盘片（也称为“全息记忆盘”）是最常见的个人娱乐用品。这种盘片每张可以容纳数百部作品。",
+  "volume": 0.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "常用物品",
+  "group_name": "消费品",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 2616,
+  "name": "Large Crates of Coolant",
+  "description": "This specially blended fluid is ideal for transferring thermal energy away from sensitive machinery or computer components, rerouting it to heat sinks so it can be eliminated from the system.",
+  "volume": 800.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 800000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

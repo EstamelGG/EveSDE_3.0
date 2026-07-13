@@ -1,0 +1,13 @@
+{
+  "type_id": 23690,
+  "name": "Raid Drone Navigation Chip",
+  "description": "The Navigation Chip of the damaged drone. Hooking it up reveals the next destination the drone was supposed to go to: Parchanier VI - Moon 5.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

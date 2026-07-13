@@ -1,0 +1,13 @@
+{
+  "type_id": 23552,
+  "name": "FON标示牌",
+  "description": "显示了FON组织标志的横幅。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

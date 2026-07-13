@@ -1,0 +1,13 @@
+{
+  "type_id": 34557,
+  "name": "碉堡元素",
+  "description": "这个物体奇特又虚幻，甚至让你开始产生错觉。\n这种幻象干扰了信号接收，同时也阻碍着对其解码。\n除此之外，混沌之中还传来一个坚定的声音， \n不断重复着，\n\n碉堡。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "未知组件",
+  "attributes": [],
+  "traits": []
+}

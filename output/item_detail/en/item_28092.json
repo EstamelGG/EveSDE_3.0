@@ -1,0 +1,13 @@
+{
+  "type_id": 28092,
+  "name": "Caldari Advanced Outpost Laboratory",
+  "description": "An advanced upgrade to Caldari Outpost research capabilities. Gives an additional 10% cost reduction to Material Efficiency, Time Efficiency, Copy, Invention jobs (stacks with all other improvements of the same type) and increases the research time reduction on all ME, PE and Copying research to 50%.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Accessories",
+  "group_name": "Outpost Improvements",
+  "attributes": [],
+  "traits": []
+}

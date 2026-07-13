@@ -1,0 +1,147 @@
+{
+  "type_id": 33702,
+  "name": "'Magpie' Mobile Tractor Unit",
+  "description": "The mobile tractoring unit takes some of the work out of looting the scorched ruins left by capsuleers, be it pulverized asteroids, wrecked ships, or obliterated inhabitation modules of various kinds. Once it has been deployed and completed its automatic activation process, it will lock on to any containers or wrecks within range, reel them in one by one, and empty their contents into its own cargo bay. All the capsuleer needs to do is keep up the pace of destruction.\n\n175km effective range.\n10 second activation time.\n\nMay not be deployed within 5km of another Mobile Tractor Unit, within 50km of Stargates, Stations or Upwell Structures, or within 40km of a Starbase.\nAutomatically decays if abandoned for two days.",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": 27000.0,
+  "mass": 10000.0,
+  "category_name": "Deployable",
+  "group_name": "Mobile Tractor Unit",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 30000.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 175000.0,
+      "categoryID": 29,
+      "display_name": "Optimal Range",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 30000.0,
+      "categoryID": 7,
+      "display_name": "Activation time / duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "maxTargetRange",
+      "value": 175000.0,
+      "categoryID": 6,
+      "display_name": "Maximum Targeting Range",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "maxLockedTargets",
+      "value": 1.0,
+      "categoryID": 6,
+      "display_name": "Maximum Locked Targets",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "scanRadarStrength",
+      "value": 300.0,
+      "categoryID": 6,
+      "display_name": "RADAR Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanLadarStrength",
+      "value": 300.0,
+      "categoryID": 6,
+      "display_name": "Ladar Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrength",
+      "value": 300.0,
+      "categoryID": 6,
+      "display_name": "Magnetometric Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanGravimetricStrength",
+      "value": 300.0,
+      "categoryID": 6,
+      "display_name": "Gravimetric Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "shieldCapacity",
+      "value": 10000.0,
+      "categoryID": 2,
+      "display_name": "Shield Capacity",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorHP",
+      "value": 10000.0,
+      "categoryID": 3,
+      "display_name": "Armor Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "shieldRechargeRate",
+      "value": 3200000.0,
+      "categoryID": 2,
+      "display_name": "Shield recharge time",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "shieldUniformity",
+      "value": 0.75,
+      "categoryID": 2,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "armorUniformity",
+      "value": 0.75,
+      "categoryID": 3,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureUniformity",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 500.0,
+      "categoryID": 6,
+      "display_name": "Signature Radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "maxTractorVelocity",
+      "value": 1500.0,
+      "categoryID": 7,
+      "display_name": "Maximum Tractor Velocity",
+      "unit_name": "m/sec"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 26138,
+  "name": "Research Tower Key",
+  "description": "Security key that grants entry into the Research Tower room.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

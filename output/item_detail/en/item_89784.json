@@ -1,0 +1,13 @@
+{
+  "type_id": 89784,
+  "name": "Sealed Projects Container",
+  "description": "A sealed container containing unknown objects used by unlisted projects carried out by the Upwell Consortium. Attempts to open it have so far failed, but the secrets it contains will be of special value to some special intelligence operatives.\n\nCan be taken to a Deathless Wraith Trader and exchanged for goods in one of the following systems:\nUttindar\nPerimeter\nIZ-AOB\nHedion\nHemin\nFWST-8\nBotane\n9IPC-E\nUT-UZB",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

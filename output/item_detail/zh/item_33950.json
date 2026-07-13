@@ -1,0 +1,98 @@
+{
+  "type_id": 33950,
+  "name": "低级游牧者—伊普西隆型",
+  "description": "图克尔科学家对这种社交适应芯片做了专门修改，以便于他们的精英官员使用。\n\n主要效果：魅力属性值增加2\n\n次要效果：灵活性提高5%\n\n套件效果：所有“游牧者”植入体次要效果增加2.5%",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "脑植入体",
+  "attributes": [
+    {
+      "attribute_name": "agilityBonus",
+      "value": -5.0,
+      "categoryID": 7,
+      "display_name": "惯性调整系数",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "charismaBonus",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "魅力调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "intelligenceBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "智力调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "memoryBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "记忆调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "perceptionBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "感知调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "willpowerBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "毅力调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3411.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 4.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "implantness",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "植入体槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 9.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "implantSetThukker",
+      "value": 1.025,
+      "categoryID": 7,
+      "display_name": "游牧者套件加成",
+      "unit_name": "x"
+    }
+  ],
+  "traits": []
+}

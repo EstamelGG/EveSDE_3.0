@@ -1,0 +1,13 @@
+{
+  "type_id": 76209,
+  "name": "星际突变器研究加密密钥",
+  "description": "该星际突变器研究加密密钥可以作为带有<a href=showinfo:76205>星际突变器数据核心蓝图</a>的输入材料，用来重建部分研究与技术累积数据，这些数据由全面掌握星际突变器的建造与控制方法的帝国所收集。要重建这些数据，你还必须获取<a href=showinfo:76208>星际突变器研究数据片段</a>和<a href=showinfo:76207>索引文件</a>。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

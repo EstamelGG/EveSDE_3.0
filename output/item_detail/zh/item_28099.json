@@ -1,0 +1,13 @@
+{
+  "type_id": 28099,
+  "name": "加达里基础哨站办公室",
+  "description": "针对加达里哨站办公设施的基础升级方案。增加十个可用办公室。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "附件",
+  "group_name": "哨站强化",
+  "attributes": [],
+  "traits": []
+}

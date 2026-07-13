@@ -1,0 +1,13 @@
+{
+  "type_id": 29202,
+  "name": "特制的奥古米内解毒剂",
+  "description": "这种血浆将改变玛塔利人的DNA，使他们能免受特制的奥古米内的副作用影响。",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

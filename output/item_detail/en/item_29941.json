@@ -1,0 +1,13 @@
+{
+  "type_id": 29941,
+  "name": "Dysfunctional Fluid Router",
+  "description": "The backbones of communication across New Eden, fluid routers play a crucial role in all faster than light (FTL) transmissions. The locator and identification subsystems on this particular model appear to have been removed entirely, most likely as part of an attempt to avoid CONCORD interference. Although the unit is heavily damaged from the explosion of Saira Katori's ship, fragments of data have survived in its cache. Most interesting among them is an unsent mail to Vepas Minimala which reveals a certain degree of familiarity between them.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

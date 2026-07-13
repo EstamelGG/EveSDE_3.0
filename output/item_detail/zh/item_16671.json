@@ -1,0 +1,21 @@
+{
+  "type_id": 16671,
+  "name": "碳化钛",
+  "description": "碳化钛因其优秀的强度和分子延展性，为加达里合众国的科技行业所钟爱，因此被广泛使用，从反应堆装置到武器系统都有它的踪影。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "合成物",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 10000.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

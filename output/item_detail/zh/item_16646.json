@@ -1,0 +1,21 @@
+{
+  "type_id": 16646,
+  "name": "汞",
+  "description": "也被称作水银，一种银色的液体金属，其主要特性是能够随意地与其他金属混合形成合金。因此，它是一种有用的基础组分。",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10826.0,
+  "category_name": "材料",
+  "group_name": "卫星原料",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

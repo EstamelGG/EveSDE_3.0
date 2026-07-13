@@ -1,0 +1,13 @@
+{
+  "type_id": 21879,
+  "name": "修复的钥匙卡片",
+  "description": "有这张钥匙卡片才能进入塔拉文星系复合体最里层的空间。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

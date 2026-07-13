@@ -1,0 +1,13 @@
+{
+  "type_id": 17893,
+  "name": "高科技数据芯片",
+  "description": "一小块由半导体组成的晶片，是集成电路的基板。高科技数据芯片比较低科技的版本容量更大。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

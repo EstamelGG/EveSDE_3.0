@@ -1,0 +1,13 @@
+{
+  "type_id": 21517,
+  "name": "Parts of Printing Machine",
+  "description": "Broken and bent pieces of a printing machine used to create counterfeit credits. If you look closely enough, you can see traces of blood smeared over some of the parts. Undoubtedly that of the printers hired by the Dry River gang. Let's hope the knowledge for creating this bad money died with them.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

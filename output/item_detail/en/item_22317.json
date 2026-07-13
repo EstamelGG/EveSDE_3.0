@@ -1,0 +1,13 @@
+{
+  "type_id": 22317,
+  "name": "Nanom Basskel's Ship Logs",
+  "description": "Logs providing information about the location of an illegal slave trading hideout.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

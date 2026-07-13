@@ -1,0 +1,13 @@
+{
+  "type_id": 32403,
+  "name": "Caldari Navy Overlay Transponder",
+  "description": "This transponder, taken from Kori's operative, is your ticket to the rendezvous with the Navy. Barely functional after the destruction of the operative's ship, it contains identification data that will scramble security frequencies, tricking them into identifying your ship as Eroma's.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

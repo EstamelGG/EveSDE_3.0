@@ -1,0 +1,13 @@
+{
+  "type_id": 3673,
+  "name": "Wheat",
+  "description": "Cereal grasses have been localized on hundreds of worlds. The grains of the wheat plant make a solid foundation for the production of foodstuffs within empire space.",
+  "volume": 1.15,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "General",
+  "attributes": [],
+  "traits": []
+}

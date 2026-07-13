@@ -1,0 +1,13 @@
+{
+  "type_id": 22100,
+  "name": "娜米安的古董",
+  "description": "这些储藏箱装有尼库恩挖宝人丝迪莉·娜米安收集的古董。",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

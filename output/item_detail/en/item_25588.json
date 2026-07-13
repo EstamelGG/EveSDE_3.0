@@ -1,0 +1,21 @@
+{
+  "type_id": 25588,
+  "name": "Scorched Telemetry Processor",
+  "description": "An expert system used in the construction of missile launchers. This one has been damaged by fire or an explosion.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Salvaged Materials",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

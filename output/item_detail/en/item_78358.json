@@ -1,0 +1,63 @@
+{
+  "type_id": 78358,
+  "name": "Wisdom of Gheinok",
+  "description": "\"And so it was,\nThat Gheinok led his people on the great exodus,\nTo the land of our Salvation,\nTo the land of God,\nTo the land of his Chosen,\nTo Athra.\"\n\n- The Scriptures, Gheinok the First 1:32\n\n<font color=\"#ff3399cc\"><b>+4% Energy Turret Damage.</b>\n<b>+7% Armor Repair</b>\n<b>+3% Max Velocity</b>\n\nBase Duration: 2 days</font>\n\nThis item cannot be sold.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Implant",
+  "group_name": "Booster",
+  "attributes": [
+    {
+      "attribute_name": "damageMultiplier",
+      "value": 1.04,
+      "categoryID": 29,
+      "display_name": "Damage Modifier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "velocityBonus",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "Velocity Modifier",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 172800000.0,
+      "categoryID": 7,
+      "display_name": "Booster Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "armorDamageAmountBonus",
+      "value": 7.0,
+      "categoryID": 7,
+      "display_name": "Armor Repair Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 11.0,
+      "categoryID": 7,
+      "display_name": "Booster Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "nondestructible",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Non-Destructible",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "followsJumpClones",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Follows Jump Clones",
+      "unit_name": "1=True 0=False"
+    }
+  ],
+  "traits": []
+}

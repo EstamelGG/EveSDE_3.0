@@ -1,0 +1,13 @@
+{
+  "type_id": 34772,
+  "name": "CSM 4 Electee Archive Script",
+  "description": "A secure holographic datapad, used to access the CONCORD public information database.\n \n \n//archive_yulai8_ict -search\n>SEARCH INITIATED\n>SEARCH SEQUENCE... COMPLETE\n//archive_csm -search\n>ARCHIVE SEARCH... COMPLETE\n>LOADING... COMPLETE \n \nCouncil of Stellar Management 4 electees:\n \n<url=showinfo:1377//725386886>Alekseyev Karrde</url>\n<url=showinfo:1377//817355844>ElvenLord</url>\n<url=showinfo:1376//741641765>Farscape Hw</url>\n<url=showinfo:1377//1170412163>Helen Highwater</url>\n<url=showinfo:1378//1059081514>Korvin</url>\n<url=showinfo:1386//1271256719>Meissa Anunthiel</url>\n<url=showinfo:1383//197776836>Mrs Trzzbk</url>\n<url=showinfo:1376//1761171880>Serenity Steele</url>\n<url=showinfo:1375//617542418>Sokratesz</url>\n<url=showinfo:1386//243938166>Song Li</url>\n<url=showinfo:1384//887054826>T'Amber</url>\n<url=showinfo:1379//899490472>TeaDaze</url>\n<url=showinfo:1380//528904696>Z0D</url>\n<url=showinfo:1375//932924156>Zastrow J</url>",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

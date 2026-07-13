@@ -1,0 +1,70 @@
+{
+  "type_id": 17437,
+  "name": "Dark Ochre III-Grade",
+  "description": "III-Grade or obsidian ochre, the most valuable member of the dark ochre family, was only first discovered a decade ago. The sleek black surface of this ore managed to absorb scanning waves, making obsidian ochre asteroids almost invisible. Advances in scanning technology revealed these beauties at last. This ore's 10% higher mineral yield makes it more than worth the effort required to find it.\n\nConsidered a worthless ore for years, dark ochre was ignored by most miners until improved reprocessing techniques managed to extract the huge amount of <a href=showinfo:37>Isogen</a> and <a href=showinfo:36>Mexallon</a> inside it. Dark ochre also contains useful amounts of <a href=showinfo:38>Nocxium</a>.\n\nAvailable primarily in low security status star systems.",
+  "volume": 8.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1e+35,
+  "category_name": "Asteroid",
+  "group_name": "Dark Ochre",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 60379.0,
+      "categoryID": 7,
+      "display_name": "Reprocessing Skill",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "asteroidRadiusGrowthFactor",
+      "value": 0.425,
+      "categoryID": 31,
+      "display_name": "Asteroid radius size multiplier",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "asteroidRadiusUnitSize",
+      "value": 600.0,
+      "categoryID": 31,
+      "display_name": "Asteroid unit radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "Stasis Webifier Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 1232.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "typeID"
+    }
+  ],
+  "traits": []
+}

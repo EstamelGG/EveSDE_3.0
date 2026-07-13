@@ -1,0 +1,13 @@
+{
+  "type_id": 17829,
+  "name": "总监的管理员钥匙卡片",
+  "description": "这张安全通行卡由天蛇集团制造，使用者可打开通往某行政区域的特定加速轨道。轨道会打开一小段时间，钥匙卡片在将卡中数据上传到轨道激活设备以后，就会失去效用。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

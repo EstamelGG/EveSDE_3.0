@@ -1,0 +1,13 @@
+{
+  "type_id": 28257,
+  "name": "金质奖牌",
+  "description": "该奖牌是授予那些在晨曦世界的重大比赛中取得最终胜利的人们。其获得者是真正的精英中的精英，受万众敬仰。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

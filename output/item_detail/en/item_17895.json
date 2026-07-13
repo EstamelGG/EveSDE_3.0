@@ -1,0 +1,21 @@
+{
+  "type_id": 17895,
+  "name": "High-Tech Manufacturing Tools",
+  "description": "Tools used in various construction projects, such as ship, module or ground vehicle manufacturing. High-Tech tools are of better quality than the more common prototypes, and are more expensive.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 100.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

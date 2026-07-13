@@ -1,0 +1,13 @@
+{
+  "type_id": 28866,
+  "name": "自由无人机的人工智能核心",
+  "description": "一块微型芯片，载有作为集成电路基板的改装型单晶硅片。该芯片储存了无人机古怪的人工智能编码。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.01,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 22218,
+  "name": "Drug Delivery Package",
+  "description": "These illegal substances are encased in a special magnetically sealed container so the Empire's security forces cannot detect them.",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 25.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

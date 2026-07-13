@@ -1,0 +1,42 @@
+{
+  "type_id": 53025,
+  "name": "三神裔无畏舰残骸",
+  "description": "一艘舰船被摧毁后的残骸。使用适当的设备或许还能够从这些残渣中打捞一些有价值的物品。",
+  "volume": 27500.0,
+  "repackaged_volume": null,
+  "capacity": 27500.0,
+  "mass": 10000.0,
+  "category_name": "天体",
+  "group_name": "残骸",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 15000.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "structureUniformity",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 5000.0,
+      "categoryID": 6,
+      "display_name": "信号半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "accessDifficulty",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "获取难度",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

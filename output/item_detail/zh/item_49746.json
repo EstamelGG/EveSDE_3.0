@@ -1,0 +1,13 @@
+{
+  "type_id": 49746,
+  "name": "小型海军弹药箱",
+  "description": "这个军品箱子里有一些小型武器的弹药。",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

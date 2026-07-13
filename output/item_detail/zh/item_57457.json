@@ -1,0 +1,13 @@
+{
+  "type_id": 57457,
+  "name": "强化碳纤维",
+  "description": "强化碳纤维含有聚合物，在强化了材料强度的同时又不损失弹性。这种材料广泛应用于太空工业。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "合成物",
+  "attributes": [],
+  "traits": []
+}

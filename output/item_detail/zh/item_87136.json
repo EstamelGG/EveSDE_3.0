@@ -1,0 +1,13 @@
+{
+  "type_id": 87136,
+  "name": "不完整的残缺典狱长投影",
+  "description": "一组不完整的更高维数学投影。根据扎尔扎克内的典狱长坐标得出的计算结果，试图映射超空间连接。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

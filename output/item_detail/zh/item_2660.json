@@ -1,0 +1,13 @@
+{
+  "type_id": 2660,
+  "name": "装箱的泽姆纳尔",
+  "description": "泽姆纳尔是一种不常用的抗生素，特别用于对抗罕见的细菌感染。最初由盖伦特生物学家拉默尔·泽姆纳尔发现，这种药品目前往往存放在星系中的富人区，以防病毒大肆传播。",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 40000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

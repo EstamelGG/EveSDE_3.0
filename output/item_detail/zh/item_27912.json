@@ -1,0 +1,196 @@
+{
+  "type_id": 27912,
+  "name": "震荡炸弹",
+  "description": "爆炸时发射一个全向脉冲，对周围的飞船造成动能伤害。由于炸弹上使用了高级装甲增强系统，具有很强的动能抗性，因而能够对目标区域发射多个炸弹。",
+  "volume": 75.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "弹药",
+  "group_name": "炸弹",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "maxVelocity",
+      "value": 2500.0,
+      "categoryID": 17,
+      "display_name": "最大速度",
+      "unit_name": "m/s"
+    },
+    {
+      "attribute_name": "agility",
+      "value": 0.0275356911146,
+      "categoryID": 17,
+      "display_name": "惯性调整",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "empFieldRange",
+      "value": 15000.0,
+      "categoryID": 7,
+      "display_name": "效果范围",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "explosionRange",
+      "value": 15000.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "detonationRange",
+      "value": 35.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "emDamage",
+      "value": 0.0,
+      "categoryID": 29,
+      "display_name": "电磁伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "explosiveDamage",
+      "value": 0.0,
+      "categoryID": 29,
+      "display_name": "爆炸伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "kineticDamage",
+      "value": 5800.0,
+      "categoryID": 29,
+      "display_name": "动能伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "thermalDamage",
+      "value": 0.0,
+      "categoryID": 29,
+      "display_name": "热能伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "launcherGroup",
+      "value": 862.0,
+      "categoryID": 7,
+      "display_name": "配套使用（发射器类别）",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 28073.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "armorHP",
+      "value": 88.0,
+      "categoryID": 3,
+      "display_name": "装甲值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorKineticDamageResonance",
+      "value": 0.002,
+      "categoryID": 3,
+      "display_name": "装甲动能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "explosionDelay",
+      "value": 12000.0,
+      "categoryID": 7,
+      "display_name": "最长飞行时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "armorUniformity",
+      "value": 1.0,
+      "categoryID": 3,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureUniformity",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 400.0,
+      "categoryID": 6,
+      "display_name": "信号半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "aimedLaunch",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "aoeCloudSize",
+      "value": 400.0,
+      "categoryID": 7,
+      "display_name": "爆炸半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "aoeFalloff",
+      "value": 1500.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "disallowInEmpireSpace",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "帝国区禁用",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "allowInFullyCorruptedLowSec",
+      "value": 1.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

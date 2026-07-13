@@ -1,0 +1,13 @@
+{
+  "type_id": 22044,
+  "name": "Vat of Aqua Regia Acid",
+  "description": "A fuming yellowish liquid made by combining hydrochloric acid and nitric acid. Extremely corrosive. Often used as an ingredient in chemical weapons.",
+  "volume": 500.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

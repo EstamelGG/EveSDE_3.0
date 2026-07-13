@@ -1,0 +1,13 @@
+{
+  "type_id": 32201,
+  "name": "档案馆的通行密匙",
+  "description": "这个电子设备通常是作为远距离遥控的数字通行密匙，允许使用者直接从太空中进入保密的设施区域。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

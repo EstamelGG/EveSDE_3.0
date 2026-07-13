@@ -1,0 +1,13 @@
+{
+  "type_id": 40520,
+  "name": "Large Skill Injector",
+  "description": "This item can be activated in a station to grant the user unallocated skill points. The injectors are consumed immediately once activated.\n\nThe amount of skill points granted depends on the total skill points (including unallocated skill points) the using character possesses, according to the following scale:\n\nCharacters with less than 5,000,000 skill points will receive 500,000 unallocated skill points.\nCharacters with between 5,000,000 and 50,000,000 skill points will receive 400,000 unallocated skill points.\nCharacters with between 50,000,000 and 80,000,000 skill points will receive 300,000 unallocated skill points.\nCharacters with more than 80,000,000 skill points will receive 150,000 unallocated skill points.\n\nLarge Skill Injectors are created using a <a href=showinfo:40519>Skill Extractor</a>.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Accessories",
+  "group_name": "Skill Injectors",
+  "attributes": [],
+  "traits": []
+}

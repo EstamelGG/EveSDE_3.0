@@ -1,0 +1,42 @@
+{
+  "type_id": 46006,
+  "name": "Agency 'Overclocker' SB7 Dose III",
+  "description": "<font color=\"#ff3399cc\"><b>+7% Max Velocity. Duration 30 minutes.</b></font>\n\nA novel and powerful addition to the range of neural boosters available to capsuleers, the Agency's ‘Overclocker’ compounds introduce a temporary but highly adaptive neural lace into the user’s synaptic structures. This 'Overclocker' lace increases the efficiency of navigational processing relating to spatio-temporal drag factors and effectively increases subwarp velocity as the piloted ship takes greater advantage of local space-time topology.\n\nCompounds with the Agency identifier are being seeded into target locations identified by the mysterious network ahead of sponsored operations. Entities occupying the target sites often collect the Agency's support drops themselves even if they realize what they must portend. The Agency’s novel method of supporting capsuleer operations is thought to be as much an experiment as it is an incentive for freelance pilots to take up the public contracts.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Implant",
+  "group_name": "Booster",
+  "attributes": [
+    {
+      "attribute_name": "velocityBonus",
+      "value": 7.0,
+      "categoryID": 7,
+      "display_name": "Velocity Modifier",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 1800000.0,
+      "categoryID": 7,
+      "display_name": "Booster Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 11.0,
+      "categoryID": 7,
+      "display_name": "Booster Slot",
+      "unit_name": "Slot"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 17988,
+  "name": "Gardan's Private Key",
+  "description": "Gardan personally distributes keys to the acceleration gate near his Fantasy Complex. These unlock the acceleration gate behind it and the gate will remain open for a short period of time. The access cards are single-use.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

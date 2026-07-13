@@ -1,0 +1,13 @@
+{
+  "type_id": 11399,
+  "name": "Morphite",
+  "description": "Morphite is a highly unorthodox mineral that can only be found in the hard-to-get <a href=showinfo:11396>mercoxit</a> ore. It is hard to use morphite as a basic building material, but when it is joined with existing structures it can enhance the performance and durability manifold. This astounding quality makes this the material responsible for ushering in a new age in technology breakthroughs.\n\nMay be obtained by reprocessing <a href=showinfo:11396>mercoxit</a> ore and its variations which are available in null security status star systems.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Mineral",
+  "attributes": [],
+  "traits": []
+}

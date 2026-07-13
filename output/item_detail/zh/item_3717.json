@@ -1,0 +1,13 @@
+{
+  "type_id": 3717,
+  "name": "乳制品",
+  "description": "这些从家畜中提取的产品是食品生产机制里最大的一环。乳制品含钙丰富，能够帮助EVE宇宙里的所有居民拥有光亮的牙齿。",
+  "volume": 0.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 400.0,
+  "category_name": "常用物品",
+  "group_name": "冷藏品",
+  "attributes": [],
+  "traits": []
+}

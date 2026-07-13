@@ -1,0 +1,13 @@
+{
+  "type_id": 21850,
+  "name": "Infected Refugees",
+  "description": "When wars and epidemics break out, people flee from their homes, forming massive temporary migrations. These innocent civilans are the victims of chemical warfare.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 400.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

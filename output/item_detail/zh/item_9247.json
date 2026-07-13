@@ -1,0 +1,203 @@
+{
+  "type_id": 9247,
+  "name": "双联425mm侦查员自动加农炮 I",
+  "description": "它是两门425mm中程加农炮的破坏力之合体。    必须装填以下类型的弹药：碳铅弹、贫铀弹、电磁脉冲弹、聚变弹、核芯弹、定相离子弹、质子弹和钛合金萨博弹。",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": 5.0,
+  "mass": 200.0,
+  "category_name": "装备",
+  "group_name": "射弹武器",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 0.0,
+      "categoryID": 5,
+      "display_name": "启用耗电量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 1250.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "slots",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 29.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "speed",
+      "value": 6750.0,
+      "categoryID": 29,
+      "display_name": "射击速度",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 3840.0,
+      "categoryID": 29,
+      "display_name": "最佳射程",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "chargeRate",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "单次消耗量",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "accuracyBonus",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "damageMultiplier",
+      "value": 2.475,
+      "categoryID": 29,
+      "display_name": "伤害量调整",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "chargeSize",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "弹药尺寸",
+      "unit_name": "1=小型  2=中型  3=大型"
+    },
+    {
+      "attribute_name": "falloff",
+      "value": 17200.0,
+      "categoryID": 29,
+      "display_name": "失准范围",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "trackingSpeed",
+      "value": 5.7132,
+      "categoryID": 29,
+      "display_name": "炮台跟踪速度",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3308.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 3300.0,
+      "categoryID": 8,
+      "display_name": "副技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "chargeGroup1",
+      "value": 83.0,
+      "categoryID": 7,
+      "display_name": "配套使用（弹药类别）",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "optimalSigRadius",
+      "value": 40000.0,
+      "categoryID": 29,
+      "display_name": "信号分辨率",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "heatAbsorbtionRateModifier",
+      "value": 0.01,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "overloadDamageModifier",
+      "value": 15.0,
+      "categoryID": 7,
+      "display_name": "超载伤害加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "heatDamage",
+      "value": 0.7,
+      "categoryID": 52,
+      "display_name": "超载损耗",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredThermoDynamicsSkill",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "所需热力学等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "typeColorScheme",
+      "value": 11342.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reloadTime",
+      "value": 10000.0,
+      "categoryID": 7,
+      "display_name": "重新装填时间",
+      "unit_name": "s"
+    }
+  ],
+  "traits": []
+}

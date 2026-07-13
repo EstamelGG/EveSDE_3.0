@@ -1,0 +1,126 @@
+{
+  "type_id": 31398,
+  "name": "旗舰级能量栅格子程序优化器 I",
+  "description": "这个飞船改装件用于减少所有能源升级设备的CPU需求",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 200.0,
+  "category_name": "装备",
+  "group_name": "改装件核心",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "rangeSkillBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "最佳射程调整",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "cpuNeedBonus",
+      "value": -15.0,
+      "categoryID": 1,
+      "display_name": "CPU需求加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "powerEngineeringOutputBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "能量输出加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "capRechargeBonus",
+      "value": 0.0,
+      "categoryID": 5,
+      "display_name": "电容回充时间缩减",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "capNeedBonus",
+      "value": 0.0,
+      "categoryID": 5,
+      "display_name": "电容需求加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "powerNeedBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "能量需求加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "rechargeratebonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "回充速率加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "miningAmountBonus",
+      "value": 0.0,
+      "categoryID": 51,
+      "display_name": "开采量加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "repairBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "维修加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "propulsionSkillPropulsionStrengthBonus",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "capacitorCapacityBonus",
+      "value": 0.0,
+      "categoryID": 5,
+      "display_name": "电容量调整",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "upgradeCost",
+      "value": 50.0,
+      "categoryID": 1,
+      "display_name": "校准值消耗",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "rigSize",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "改装件尺寸",
+      "unit_name": "1=小型  2=中型  3=大型"
+    }
+  ],
+  "traits": []
+}

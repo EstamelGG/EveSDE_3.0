@@ -1,0 +1,13 @@
+{
+  "type_id": 87618,
+  "name": "典狱长连接谐波",
+  "description": "扎尔扎克典狱长的谐波信号。在不死循环远程访问典狱长的过程中，这些谐波起到了关键作用。只要信号充足，群组就能获得远程访问典狱长处理系统的权限，从而深入了解朱庇特和流浪者科技。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

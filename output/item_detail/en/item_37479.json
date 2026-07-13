@@ -1,0 +1,168 @@
+{
+  "type_id": 37479,
+  "name": "Micro Jump Field Generator",
+  "description": "This module spools up and then teleports the user and up to 24 nearby ships along with all drones, fighters, probes and bombs 100km in the direction the ship is facing. All ships teleported will retain their movement direction and velocity in the new location.\n\nNote: The micro jump field only affects capsuleer-piloted ships and will not move certain ship types, including; Capital Ships, Freighters, and Industrial Command Ships.",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Module",
+  "group_name": "Micro Jump Field Generators",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 85.0,
+      "categoryID": 5,
+      "display_name": "Activation Cost",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 5.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Usage",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 31.0,
+      "categoryID": 1,
+      "display_name": "CPU usage",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 9000.0,
+      "categoryID": 7,
+      "display_name": "Activation time / duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 4385.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "moduleReactivationDelay",
+      "value": 160000.0,
+      "categoryID": 7,
+      "display_name": "Reactivation Delay",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "maxGroupActive",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "disallowEarlyDeactivation",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "signatureRadiusBonusPercent",
+      "value": 150.0,
+      "categoryID": 7,
+      "display_name": "Signature radius bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "disallowRepeatingActivation",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Cannot Auto Repeat",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "canFitShipGroup02",
+      "value": 1534.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "canFitShipType2",
+      "value": 89808.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "maxGroupFitted",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "Max Modules Of This Group Allowed",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "disallowInHighSec",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Banned in High Sec Space",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "mjdJumpRange",
+      "value": 100000.0,
+      "categoryID": 17,
+      "display_name": "Jump Distance",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "mjfgRadius",
+      "value": 6000.0,
+      "categoryID": 17,
+      "display_name": "Area Effect Radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "disallowTethering",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Disallow Tethering",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "mjdShipJumpCap",
+      "value": 24.0,
+      "categoryID": 17,
+      "display_name": "Maximum Ship Jump cap",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

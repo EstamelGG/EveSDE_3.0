@@ -1,0 +1,13 @@
+{
+  "type_id": 21839,
+  "name": "Training Complex Passkey",
+  "description": "This security passkey is made by CONCORD and placed aboard one of the automated pirate vessels in the training complex CONCORD designed. It will open up an Acceleration Gate which will remain open for a short period of time and render the passkey unusable afterwards.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

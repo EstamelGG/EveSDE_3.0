@@ -1,0 +1,21 @@
+{
+  "type_id": 41143,
+  "name": "碳化物紧凑型双联1000mm磁轨炮蓝图",
+  "description": null,
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "蓝图",
+  "group_name": "混合武器蓝图",
+  "attributes": [
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 200.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 11707,
+  "name": "Strange Mechanical Device",
+  "description": "A strange mechanical device, with a fading Gallente symbol painted on its side.",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

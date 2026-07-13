@@ -1,0 +1,13 @@
+{
+  "type_id": 53490,
+  "name": "节日一级纤维箱",
+  "description": "这个箱子中有3个镇静深渊纤维箱。\n\n从镇静深渊纤维箱中可以获取深渊纤维。使用深渊纤维可以进入深渊空间，在规定时间内完成深渊空间将获取珍贵的掉落物品。",
+  "volume": 4.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

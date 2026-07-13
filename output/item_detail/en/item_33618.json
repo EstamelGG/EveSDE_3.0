@@ -1,0 +1,13 @@
+{
+  "type_id": 33618,
+  "name": "Rogue Drone 46-X Nexus Chip",
+  "description": "This chip is part of little-understood evolved rogue drone technology. It apparently connects both to the drones' propulsion systems and to their sensory equipment, and thus plays a part in allowing them to detect and pursue objects, sites, or victims of interest.\n\nUnfortunately, it is extremely fragile and doesn't react well to being forced into any machinery other than its native habitat, meaning that its uses as a research object are strongly limited by its availability. Some organizations in New Eden, particularly those interested in exploration and dark sciences, are rumored to pay well for this kind of item. \n\nThe 46-X chip is designed for frigate class vessels.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

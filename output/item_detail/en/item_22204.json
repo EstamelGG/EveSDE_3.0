@@ -1,0 +1,13 @@
+{
+  "type_id": 22204,
+  "name": "Red Hammer's Personal Effects",
+  "description": "These are the personal effects of a drug addict who goes by the nickname Red Hammer.",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 25.0,
+  "category_name": "Commodity",
+  "group_name": "Identification",
+  "attributes": [],
+  "traits": []
+}

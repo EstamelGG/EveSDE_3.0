@@ -1,0 +1,13 @@
+{
+  "type_id": 28121,
+  "name": "米玛塔尔高级哨站车间",
+  "description": "针对米玛塔尔哨站生产能力的高级升级方案。所有装备生产时间减少60%。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "附件",
+  "group_name": "哨站强化",
+  "attributes": [],
+  "traits": []
+}

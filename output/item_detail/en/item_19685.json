@@ -1,0 +1,49 @@
+{
+  "type_id": 19685,
+  "name": "Inherent Implants 'Noble' Repair Proficiency RP-905",
+  "description": "A neural Interface upgrade for analyzing and repairing starship damage.\n\n5% bonus to repair system repair amount.\n\nNote: This implant has no effect on remote armor repair modules or capital sized modules.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Implant",
+  "group_name": "Cyber Armor",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3411.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 4.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "implantness",
+      "value": 9.0,
+      "categoryID": 7,
+      "display_name": "Implant Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "repairBonus",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Repair Bonus",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

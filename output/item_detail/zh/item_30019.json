@@ -1,0 +1,21 @@
+{
+  "type_id": 30019,
+  "name": "粉化的C-540石墨",
+  "description": "这种白色的粉末是从冬眠者无人机装甲的撞击点上收集到的。当与其他物质混合后，它会变成一种粘性的脂状物。可以用作连接船体板块的材料或者生产防护辐射和热能的涂料。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "远古打捞",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

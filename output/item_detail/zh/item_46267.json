@@ -1,0 +1,13 @@
+{
+  "type_id": 46267,
+  "name": "A3工业包裹",
+  "description": "这个箱子包含一艘工业舰。不巧的是拆包并组装这艘船的说明书找不到了。",
+  "volume": 50000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

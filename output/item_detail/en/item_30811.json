@@ -1,0 +1,13 @@
+{
+  "type_id": 30811,
+  "name": "Drone Tracking Data",
+  "description": "An analysis of this data may help to uncover the mysteries of that evasive rogue drone.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

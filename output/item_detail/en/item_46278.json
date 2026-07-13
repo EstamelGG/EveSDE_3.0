@@ -1,0 +1,13 @@
+{
+  "type_id": 46278,
+  "name": "Corrupted Trinary Relics",
+  "description": "A varied collection of relics found close by the wreckage of Drifter ships seemingly destroyed in a fierce fight with parties unknown. These items appear to be trinary data repositories of many different designs, seemingly for use with different data systems and perhaps even of varied age. The relics are apparently corrupted and recovery drones located them in a stasis vault that was evidently hastily abandoned for some reason.\n\nAlbeit these items are ancient technology and heavily corrupted they would perhaps be of interest to a collector. Possibly someone gathering enough of this kind of relic could even make something out of the data they contain.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

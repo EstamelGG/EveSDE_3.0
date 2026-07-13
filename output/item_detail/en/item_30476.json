@@ -1,0 +1,21 @@
+{
+  "type_id": 30476,
+  "name": "Fulleroferrocene Power Conduits",
+  "description": "These conduits supply power to minute, molecular-level devices. Extremely strong and yet surprising flexible, they have traditionally been used in rare situations where the normal methods of power supply were rendered impossible. The advent of Tech III starship technology and the influx of fullerene-based materials have seen the conduits take on new and more widespread roles. \n\nThe addition or removal of a single subsystem in a Tech III vessel can drastically change the ship's structure, and with it the internal wiring and available power supply routes.  Fulleroferrocene power conduits have become an essential component in the construction of these new vessels for this very reason. The conduits can be remapped through a ship with relative ease, allowing for the near-endless variations of subsystems to be completely interchangeable without posing any problems of how to power them.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Hybrid Tech Components",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

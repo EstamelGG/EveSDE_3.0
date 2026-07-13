@@ -1,0 +1,13 @@
+{
+  "type_id": 13206,
+  "name": "Defiled Relics",
+  "description": "Sacred objects from the Tal-Romon Cathedral that have become tainted through touch with the elements. Though once proud pieces worthy of reverence and penance, they are now nothing more than debris cluttering space.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

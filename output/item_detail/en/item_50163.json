@@ -1,0 +1,13 @@
+{
+  "type_id": 50163,
+  "name": "Semiosis Conduction Console (Svarog Clade)",
+  "description": "This self-contained unit seems to be a device combining a number of sophisticated interfaces with internal processing and storage capacity geared towards symbolic or conceptual modelling. The device evidently provides for communication of constructed models either through its built-in holographic and nanomemetic functions, or via a variety of outputs if these are connected to an appropriate network. It is possible that the device also incorporates quantum entanglement communications technology.\n\nPut simply, this would appear to be a Triglavian computing device with a variety of built-in communications capabilities. This particular console has internal power and displays the symbol of the \"Svarog Clade\" in standby mode.\n\n<b>CONCORD would no doubt prefer this device be handed over to them but the curious could probably keep it and carefully monitor it without too much risk. Probably.</b>",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Triglavian Artifacts",
+  "attributes": [],
+  "traits": []
+}

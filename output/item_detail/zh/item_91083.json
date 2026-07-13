@@ -1,0 +1,13 @@
+{
+  "type_id": 91083,
+  "name": "冰蚀执行器",
+  "description": "用于分析不稳定冰成分的实验性技术。类似于萨沙共和国用于资源加工的先进化学分析设备，联合矿业科技研究团队对此颇感兴趣。<i>可以与易碎的不稳定冰矿石在易碎的不稳定冰带换取更高级的打捞箱。</i>",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "常用物品",
+  "group_name": "真理低温技术",
+  "attributes": [],
+  "traits": []
+}

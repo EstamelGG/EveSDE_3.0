@@ -1,0 +1,13 @@
+{
+  "type_id": 2595,
+  "name": "Encoded Data Chip",
+  "description": "This small, portable disk is only about two centimeters in diameter, yet it is capable of holding a vast amount of information. A durable outer casing made from plasteel rotates away to reveal the raw data surface when the device is inserted into a reader.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

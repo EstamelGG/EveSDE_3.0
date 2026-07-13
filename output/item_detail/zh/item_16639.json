@@ -1,0 +1,21 @@
+{
+  "type_id": 16639,
+  "name": "钪",
+  "description": "从稀有矿物中产生的过渡元素。由于其极高的熔点，钪经常被用作深空环境下高强度光具的固定设备，还是很多深空建筑和太空飞船的坚固构件。",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1196.0,
+  "category_name": "材料",
+  "group_name": "卫星原料",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

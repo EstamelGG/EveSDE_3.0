@@ -1,0 +1,13 @@
+{
+  "type_id": 28870,
+  "name": "AIMEDs",
+  "description": "On most stations, robotic AI Medical Doctors (AIMEDs, more commonly known as \"AI Docs\" or just \"AIDs\") are much more common than human medical practitioners, and much more affordable.",
+  "volume": 25.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

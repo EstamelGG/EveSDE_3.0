@@ -1,0 +1,13 @@
+{
+  "type_id": 23937,
+  "name": "永室监护",
+  "description": "用来追踪建筑物里面的运动和其他活动的安全监控设备。这个设备可以跟踪并记录埃拉克兰大人私人住宅里面的所有活动。",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

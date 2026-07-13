@@ -1,0 +1,13 @@
+{
+  "type_id": 47020,
+  "name": "探索计划DNA参考样本（朱庇特）",
+  "description": "这是一串属于已知的朱庇特血脉的基因数据。\n\n\n\n这串数据的指定名为： 朱庇特 // GCT ATG // 1180309 // 1190710",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "研究数据",
+  "attributes": [],
+  "traits": []
+}

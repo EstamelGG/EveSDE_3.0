@@ -1,0 +1,21 @@
+{
+  "type_id": 16648,
+  "name": "Hafnium",
+  "description": "A silvery, corrosion-resistant metal used in various metal alloys and, to a lesser extent, in hybrid weapons systems.",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10640.0,
+  "category_name": "Material",
+  "group_name": "Moon Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

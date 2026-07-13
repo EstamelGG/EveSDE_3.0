@@ -1,0 +1,42 @@
+{
+  "type_id": 33329,
+  "name": "格鲁汀 曙光 AU-79",
+  "description": "这个植入体允许其携带者驾驶<a href=showinfo:33328>格鲁汀 曙光 197-衍生型</a>太空舱。植入后，该植入体即永久成为飞行员大脑的一部分（除非携带者主动将其拔除），而且依照与格鲁汀集团签订的合同，飞行员每次激活新克隆体时都会重新植入一个该植入体。\n\n这个植入体不会因太空舱被毁或远距克隆而消失。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "特别版植入体",
+  "attributes": [
+    {
+      "attribute_name": "implantness",
+      "value": 79.0,
+      "categoryID": 7,
+      "display_name": "植入体槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "nondestructible",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "无法摧毁",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "followsJumpClones",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "跟随远距克隆",
+      "unit_name": "1=True 0=False"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,56 @@
+{
+  "type_id": 21855,
+  "name": "Civilian Expanded Cargohold",
+  "description": "Increases cargo hold capacity at the expense of maximum velocity and hull strength.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 50.0,
+  "category_name": "Module",
+  "group_name": "Expanded Cargohold",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "cargoCapacityMultiplier",
+      "value": 1.1,
+      "categoryID": 4,
+      "display_name": "Cargo capacity bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "structureHPMultiplier",
+      "value": 0.7,
+      "categoryID": 7,
+      "display_name": "Structure Hitpoint Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "maxVelocityModifier",
+      "value": 0.8,
+      "categoryID": 7,
+      "display_name": "Maximum Velocity Modifier",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    }
+  ],
+  "traits": []
+}

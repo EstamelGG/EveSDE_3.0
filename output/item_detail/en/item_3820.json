@@ -1,0 +1,13 @@
+{
+  "type_id": 3820,
+  "name": "Sooth Sayer",
+  "description": "This booster causes the subject to fall into a blissful sleep. Reports tell of abusers falling into a deep coma, never to regain consciousness.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 800.0,
+  "category_name": "Commodity",
+  "group_name": "Drugs",
+  "attributes": [],
+  "traits": []
+}

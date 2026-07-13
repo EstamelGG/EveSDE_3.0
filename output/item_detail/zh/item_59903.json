@@ -1,0 +1,13 @@
+{
+  "type_id": 59903,
+  "name": "飞行员生产与贸易技能速成许可证宝箱",
+  "description": "打开后可获得一份行星开发类、贸易类或者采矿类的技能速成许可证，也可能获得一枚新伊甸年中狂欢大脑加速器。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

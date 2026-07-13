@@ -1,0 +1,13 @@
+{
+  "type_id": 86216,
+  "name": "Stellar Surveillance Data",
+  "description": "This data core contains the complex encrypted data gathered by a stellar observatory. Though what information it contains is unclear, it is certainly valuable research.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "EDENCOM Data",
+  "attributes": [],
+  "traits": []
+}

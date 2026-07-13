@@ -1,0 +1,13 @@
+{
+  "type_id": 57483,
+  "name": "Neurolink Enhancer Reservoir",
+  "description": "Neurolink Enhancer Reservoirs are  sophisticated tanks with built in biotechnology seals, filters and flow control mechanisms. The advanced nature of these tanks allows them to function as reservoirs of highly-complex pharmaceuticals that handle the filtering and flow control needs particular to the neurolink enhancer the tank is programmed to handle.",
+  "volume": 400.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Construction Components",
+  "attributes": [],
+  "traits": []
+}

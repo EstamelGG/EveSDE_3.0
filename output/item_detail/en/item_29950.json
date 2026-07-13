@@ -1,0 +1,13 @@
+{
+  "type_id": 29950,
+  "name": "Customs Patrol Schedule",
+  "description": "Found among the wreckage of Angel Captain Artey Vinck's vessel, this innocuous looking data core actually holds a wealth of information about previous Federation Customs patrol routes, now probably a little outdated. The level of detail is staggering: including locations of almost every single Customs vessel in operation across the entire Sinq Laison region. With information like this, a smuggler could pass undetected anywhere they pleased with complete impunity. Attached to the information is a brief note bearing the logo of Serpentis Corporation that reads “Fly safe Artey, times change. As ever, I.C.”",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 62709,
+  "name": "联合矿业研究数据残片",
+  "description": "这是从海盗数据仓库中复原出的被盗取的联合矿业矿物压缩研究数据的一小部分。联合矿业集团非常乐于回收这些被盗走的研究数据，并将与上交了足够多的数据残片的飞行员分享某些研究成果。\n\n\n\n联合矿业研究数据残片可以在联合矿业忠诚点商店中换取矿石压缩技术的技能书。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

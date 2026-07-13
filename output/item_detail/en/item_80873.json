@@ -1,0 +1,13 @@
+{
+  "type_id": 80873,
+  "name": "Triglavian Encrypted Conduit Data",
+  "description": "This Triglavian data storage device is highly encrypted and loaded with a variety of counter-intrusion programs and defensive security devices that would probably scramble and erase the contents beyond all possibility of retrieval, if not forensically and carefully decrypted and accessed by a specialized facility.\n\nSOCT scientists are keenly interested in the recently collapsed conduits connecting Abyssal Deadspace to New Eden, hinting at a potential reward for any capsuleer delivering this valuable data to their facilities. Both the DED and the Deathless Custodians also exhibit an interest in this matter, offering rewards to capsuleers for providing the data.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Triglavian Data",
+  "attributes": [],
+  "traits": []
+}

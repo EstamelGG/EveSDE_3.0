@@ -1,0 +1,28 @@
+{
+  "type_id": 2287,
+  "name": "复杂有机生命体",
+  "description": "有机体的动植物在整个星群都有分布，技术上它们被称作是“外星生物”，但目前尚还没有一种被鉴定为是智慧生物。不过话说回来，它们在食品和建筑材料等方面还是非常有用处的。",
+  "volume": 0.005,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "行星资源",
+  "group_name": "行星有机物 - 原始资源",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,21 @@
+{
+  "type_id": 16640,
+  "name": "钴",
+  "description": "一种银色、带铁磁性的元素，与其他成分一起用于超合金、磁性材料、电池电极以及许多金属与钢铁中。",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 3544.0,
+  "category_name": "材料",
+  "group_name": "卫星原料",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

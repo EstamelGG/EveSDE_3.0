@@ -1,0 +1,21 @@
+{
+  "type_id": 11300,
+  "name": "800mm Steel Plates I Blueprint",
+  "description": null,
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Blueprint",
+  "group_name": "Armor Plate Blueprint",
+  "attributes": [
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 17916,
+  "name": "特里坦的叉状钥匙",
+  "description": "这是把形状怪异的混沌逻辑钥匙。拥有者是天使军事复合体里的监察官。它可以打开加速轨道一小段时间，然后自行销毁。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,21 @@
+{
+  "type_id": 3495,
+  "name": "Shield Transfer Control Tower",
+  "description": "This control tower is responsible for coordinating and powering the shield defenses on nearby structures. Like many other neighboring facilities, the tower was once CONCORD property. Now it rests in the hands of Sansha pirates, who use it for their own unknown ends. CONCORD guards proprietary technologies fiercely; some valuable secrets of theirs are no doubt hidden inside these complexes, which are now under Sansha control. \n\nLocal CONCORD commanders have been instructed to coordinate capsuleer resistance against the Nation forces, and they have been granted hefty funds to help incentivize the recapture of lost industrial facilities.",
+  "volume": 1150.0,
+  "repackaged_volume": null,
+  "capacity": 10000000.0,
+  "mass": 100000.0,
+  "category_name": "Entity",
+  "group_name": "Mission Container",
+  "attributes": [
+    {
+      "attribute_name": "disallowAssistance",
+      "value": 1.0,
+      "categoryID": 6,
+      "display_name": "Disallows Assistance",
+      "unit_name": "1=True 0=False"
+    }
+  ],
+  "traits": []
+}

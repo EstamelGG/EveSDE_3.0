@@ -1,0 +1,13 @@
+{
+  "type_id": 56206,
+  "name": "Azbel Upwell Quantum Core",
+  "description": "This Upwell Quantum Core is capable of supporting fully-functional and efficient operations of an Azbel-class structure, given that the structure is also fuelled and fully-powered.\n\nMany of the functions of Upwell structures depend on stable, high-bandwidth FTL communications that enable many vital systems to query navigation infrastructure, remote market databases, ship registries and a host of other datasets in a timely fashion. The heart of any major structure's communications technology is the Quantum Core. This facility is essentially a large array of fluid routers coupled with an integrated restricted AI that acts as the orchestrator of all FTL communications traffic flowing through it.\n\nQuantum Cores not only contain some of the most advanced RAIs permitted under the Yulai Convention but also necessarily contain relatively large quantities of quantum-entangled 4-Helium distributed through the many fluid routers in the core array. These characteristics make Quantum Cores some of the most valuable pieces of technology in New Eden, and their vital role in Upwell structure operations means they are housed in the most central and heavily-protected location on any given structure.",
+  "volume": 50000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 4000.0,
+  "category_name": "Structure Module",
+  "group_name": "Quantum Cores",
+  "attributes": [],
+  "traits": []
+}

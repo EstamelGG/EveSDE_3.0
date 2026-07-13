@@ -1,0 +1,13 @@
+{
+  "type_id": 73400,
+  "name": "Gallente Decoder Package",
+  "description": "A decoder package used to obtain a <a href=showinfo:73272>Caldari Listening Outpost</a> that will listen in on the Gallente communications network. This particular splice can occasionally be found in <a href=showinfo:73430>Gallente Cryptograph Storage</a> that are located in <b>Gallente Operation Centers</b>. \n\nThis item can be exchanged along with some LP for a Caldari Listening Outpost at a <a href=showinfo:2//1000180>State Protectorate</a> loyalty point store.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 28366,
+  "name": "无人机心脏",
+  "description": "自由无人机的心脏，这个能源结构是项技术奇迹，它的尺寸/能量比超过了现代设计所能达到的水平。只要用一些巧妙的方法，就可能使它与当前的无人机技术相适应。",
+  "volume": 0.08,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2.0,
+  "category_name": "材料",
+  "group_name": "自由无人机组件",
+  "attributes": [],
+  "traits": []
+}

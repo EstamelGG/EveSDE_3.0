@@ -1,0 +1,13 @@
+{
+  "type_id": 89784,
+  "name": "密封项目容器",
+  "description": "密封容器内含未知物，据说是用于昇威财团执行的未公开项目。虽然至今仍无法打开，但对某些情报特工而言，其中蕴藏的机密极具价值。\n\n可以带到不死幽魂商人处，在以下星系之一兑换商品：\n乌汀达\n皮尔米特\nIZ-AOB\n赫迪农\n赫明\nFWST-8\n波塔尼\n9IPC-E\nUT-UZB",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

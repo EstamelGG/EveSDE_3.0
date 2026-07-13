@@ -1,0 +1,13 @@
+{
+  "type_id": 3019,
+  "name": "Crate of Unidentified Ancient Technology",
+  "description": "These pieces appear to all be some form of polyhedral from truncated pyramids that can be gripped in the hand to barrel-sized fullerene-faceted globes. Each is shaped as if in one complete piece from bluish or steely-gray material, all edges beveled and smoothed. When rapped with a knuckle, the pieces ring like a bell, but the material feels more like ceramic.<br><br>\nEvery item bears a sort of dim, inner glow that pulses irregularly, like a dying light bulb. A tingle like electricity can be felt just above their surfaces, though preliminary examinations have dismissed the presence of any electrical activity. There is some speculation that the pieces form some sort of modular information annex, with contact between matching faces forming the necessary connections. No amount of fitting has yielded any results, however, so the disparate parts sit in their individually labeled crates like the pieces of several puzzles mixed together.",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

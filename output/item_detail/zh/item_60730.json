@@ -1,0 +1,13 @@
+{
+  "type_id": 60730,
+  "name": "统合部紧急干预和安全局加密安全密钥SCCF-FTS",
+  "description": "统合部紧急干预和安全局的旗舰建造和装配作业需要海量的工具和资源。这些贵重物品保存在一座储存设施中，只有使用正确的统合部紧急干预和安全局加密安全密钥才能打开。\n\n\n\n这个密钥的收发器使用了独特的编码，只能对特定的加速轨道使用。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

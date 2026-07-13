@@ -1,0 +1,70 @@
+{
+  "type_id": 76373,
+  "name": "岛状硅酸盐拉克岩",
+  "description": "深渊通道附近的放射性环境混乱，中子沉积现象长期存在，这彻底改变了这类小行星的矿物成分（以前可能是一种灼烧岩），进而演变成一种新型拉克岩构造。这颗小行星所在的星域长期暴露于深渊通道下，也受到波赫文发生微妙改变的时空环境的影响。提炼可以获得高浓度的岛状硅酸盐类矿物（如岛状贾达尔石）以及特定数量的三钛合金、同位聚合体和晶状石英核岩。",
+  "volume": 0.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "小行星",
+  "group_name": "拉克岩",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 60381.0,
+      "categoryID": 7,
+      "display_name": "回收再生技能",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "asteroidRadiusGrowthFactor",
+      "value": 20.0,
+      "categoryID": 31,
+      "display_name": "小行星半径系数",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "asteroidRadiusUnitSize",
+      "value": 2000.0,
+      "categoryID": 31,
+      "display_name": "小行星单位半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "ignoreMiningWaste",
+      "value": 0.0,
+      "categoryID": 51,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "ignoreMiningCrits",
+      "value": 0.0,
+      "categoryID": 51,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

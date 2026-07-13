@@ -1,0 +1,13 @@
+{
+  "type_id": 28083,
+  "name": "Amarr Basic Outpost Laboratory",
+  "description": "A basic upgrade to Amarr Outpost research capabilities. Gives a 10% cost reduction to Material Efficiency, Time Efficiency, Copy jobs (stacks with all other improvements of the same type) and gives a research time reduction on all PE research of 20%.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Accessories",
+  "group_name": "Outpost Improvements",
+  "attributes": [],
+  "traits": []
+}

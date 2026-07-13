@@ -1,0 +1,13 @@
+{
+  "type_id": 21566,
+  "name": "坚固保险箱",
+  "description": "银行和其他处理大量财物的金融公司所使用的保险箱。在任何攻击和侵犯面前，它永远是固若金汤。",
+  "volume": 120.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

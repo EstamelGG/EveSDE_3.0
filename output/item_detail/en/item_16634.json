@@ -1,0 +1,21 @@
+{
+  "type_id": 16634,
+  "name": "Atmospheric Gases",
+  "description": "Nitrogen, oxygen, neon, helium, xenon, methane, nitrous oxide, ozone - a host of trapped vapours that can be used to catalyze numerous chemical processes.",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Moon Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

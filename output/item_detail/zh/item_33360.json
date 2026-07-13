@@ -1,0 +1,21 @@
+{
+  "type_id": 33360,
+  "name": "太赫兹超材料",
+  "description": "太赫兹超材料是一种用来控制高于微波频段的电磁波的高级合成物，用于艾玛最新一代的微处理器和电容器单元。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "合成物",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 300.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

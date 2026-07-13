@@ -1,0 +1,13 @@
+{
+  "type_id": 16274,
+  "name": "Helium Isotopes",
+  "description": "The Helium-3 isotope is extremely sought-after for use in fusion processes, and also has various applications in the fields of cryogenics and machine cooling. One of the materials required to keep Amarr Control Towers online.\n\nMay be obtained by reprocessing the following ice ores:\n\n<color='0xFF33FFFF'>1.0</color> security status solar system or lower:\n<a href=showinfo:16262>Clear Icicle</a>\n\n<color='0xFFFF0000'>0.0</color> security status solar system or lower:\n<a href=showinfo:17978>Enriched Clear Icicle</a>",
+  "volume": 0.03,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Ice Product",
+  "attributes": [],
+  "traits": []
+}

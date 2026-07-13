@@ -1,0 +1,13 @@
+{
+  "type_id": 78858,
+  "name": "烧焦的古斯塔斯航行日志",
+  "description": "复原自古斯塔斯海盗舰船的航行日志中含有与海盗基地隐蔽点和加达里-盖伦特战区的供给隐藏地有关的重要情报。可惜，这些日志似乎已被销毁殆尽，残存的数据也都经过高度加密。因此，必须使用专业设施，才有可能成功复原当中的宝贵信息。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.75,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

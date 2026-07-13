@@ -1,0 +1,13 @@
+{
+  "type_id": 30967,
+  "name": "可疑的货柜",
+  "description": "这个小型的货柜四周都被焊死，外面还包覆得有一层红色的强化富勒烯合金薄膜。想要打开它的话得需要很多的特种科学设备。没人清楚为什么一个像纳基维这样的娱乐公司会对这种东西感兴趣。",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

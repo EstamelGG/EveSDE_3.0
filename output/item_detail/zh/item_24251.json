@@ -1,0 +1,13 @@
+{
+  "type_id": 24251,
+  "name": "朝圣者",
+  "description": "在帝国内遍布的神圣遗迹中寻求启示的艾玛朝圣者。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 20.0,
+  "category_name": "常用物品",
+  "group_name": "有生货物",
+  "attributes": [],
+  "traits": []
+}

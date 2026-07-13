@@ -1,0 +1,13 @@
+{
+  "type_id": 23907,
+  "name": "Shiny Sentry Key",
+  "description": "This security passcard is one of two needed to pass this sentry station.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

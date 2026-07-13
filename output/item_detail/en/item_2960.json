@@ -1,0 +1,13 @@
+{
+  "type_id": 2960,
+  "name": "Spools of Quantrium Wiring",
+  "description": "While the universe is full of metals of all shapes, sizes, and compositions, there are some metals that are of such rarity and quality that they command prices far beyond those of the more easily accessible metals, such as tritanium. Amongst these, the very small quantities of a rare metal called quantrium are among the most valuable. This metal can only be found in the polar regions of certain moons, and these only in systems that meet very specific astrogeological conditions. So rare is this metal that, to date, only two known moons have quantities of this metal sufficient to warrant the very expensive mining and refining equipment required to extract it. Both of these moons are in Caldari space, giving the State a monopoly on its production and sale. Currently, all processed quantrium is on long-term contract to Kaalakiota Corporation. While rumors occasionally surface that one or more of the other three races have discovered quantrium, this has not been verified.",
+  "volume": 300.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 300.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

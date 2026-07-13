@@ -1,0 +1,13 @@
+{
+  "type_id": 24731,
+  "name": "Khanid Marine",
+  "description": "When war breaks out, the demand for transporting military personnel on site can exceed the grasp of the military organization. In these cases, the aid from non-military spacecrafts is often needed.",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

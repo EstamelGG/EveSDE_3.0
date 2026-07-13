@@ -1,0 +1,42 @@
+{
+  "type_id": 30382,
+  "name": "艾玛子系统数据接口",
+  "description": "这种数据接口能整合古代科技设备与艾玛系统。\n\n可以用于逆向工程项目。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "解码器",
+  "group_name": "解码器—混合型",
+  "attributes": [
+    {
+      "attribute_name": "inventionPropabilityMultiplier",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "inventionMEModifier",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "inventionTEModifier",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "inventionMaxRunModifier",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

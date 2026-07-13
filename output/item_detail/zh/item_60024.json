@@ -1,0 +1,13 @@
+{
+  "type_id": 60024,
+  "name": "圣洁王座中小型舰船涂装宝箱",
+  "description": "打开后随机获得圣洁王座系列中小型舰船（护卫舰、驱逐舰、巡洋舰、穿梭机）涂装一款。\n\n概率如下：\n\n穿梭机：5.425%\n\n护卫舰：58.951%\n\n驱逐舰：12.658%\n\n巡洋舰：22.966%",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,63 @@
+{
+  "type_id": 17470,
+  "name": "凡晶石（2级）",
+  "description": "凡晶石的集束被称为富凡晶石，矿物含量高5%，有时存在于遍布普通凡晶石的地方。凡晶石是已知空间的核心星域中最为常见的矿石。它富含人们大量使用的<a href=showinfo:34>三钛合金</a>，因此需求仍然十分稳定。主要分布于高安全等级星系。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 4000.0,
+  "category_name": "小行星",
+  "group_name": "凡晶石",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 60377.0,
+      "categoryID": 7,
+      "display_name": "回收再生技能",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "asteroidRadiusGrowthFactor",
+      "value": 0.5,
+      "categoryID": 31,
+      "display_name": "小行星半径系数",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "停滞缠绕抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 1230.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "类别ID"
+    }
+  ],
+  "traits": []
+}

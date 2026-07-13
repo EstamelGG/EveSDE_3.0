@@ -1,0 +1,119 @@
+{
+  "type_id": 30832,
+  "name": "遗迹分析仪 II",
+  "description": "这是一个用于分析和研究古代遗迹的考古系统，有可能会发掘出珍贵的藏品。\n\n\n\n注意：由于最近发现的特定昇威递推计算模块的漏洞，这个分析仪也可能用于收集关于昇威建筑增强时间的机密信息。",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "装备",
+  "group_name": "数据采掘设备",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 20.0,
+      "categoryID": 5,
+      "display_name": "启用耗电量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 1.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 25.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 6000.0,
+      "categoryID": 29,
+      "display_name": "最佳射程",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 10000.0,
+      "categoryID": 7,
+      "display_name": "作用时间/单次运转时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 13278.0,
+      "categoryID": 8,
+      "display_name": "副技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "accessDifficultyBonus",
+      "value": 7.0,
+      "categoryID": 7,
+      "display_name": "获取成功率",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "disallowRepeatingActivation",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "无法自动重复",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "virusCoherence",
+      "value": 60.0,
+      "categoryID": 7,
+      "display_name": "病毒同步率",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "virusStrength",
+      "value": 30.0,
+      "categoryID": 7,
+      "display_name": "病毒强度",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "virusElementSlots",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "病毒功能元槽位",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

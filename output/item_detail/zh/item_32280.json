@@ -1,0 +1,13 @@
+{
+  "type_id": 32280,
+  "name": "血色黑曜石圆球",
+  "description": "黑曜石教会将这个圣物保存了有四百年之久了，但它最初的意义却仍然没有被真正地揭示出来。这个圆球是用血色黑曜石雕琢而成，和在野火库马克头中找到的物质是一样的。这个球体的表面非常的光滑，而且重量也比看上去要轻。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

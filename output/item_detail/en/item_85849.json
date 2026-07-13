@@ -1,0 +1,13 @@
+{
+  "type_id": 85849,
+  "name": "Deathless Research Honorarium",
+  "description": "The Deathless Circle give these honorariums to capsuleers for their help in researching the Shrouded Structure. They can be traded for ISK in Zarzakh.",
+  "volume": 0.001,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

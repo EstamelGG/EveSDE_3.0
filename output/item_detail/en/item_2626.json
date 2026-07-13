@@ -1,0 +1,13 @@
+{
+  "type_id": 2626,
+  "name": "Crates of Missile Guidance Systems",
+  "description": "Guidance systems allow both atmospheric and vacuum launched missiles to find targets using sophisticated electronics and specially calibrated sensors.",
+  "volume": 90.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 90000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

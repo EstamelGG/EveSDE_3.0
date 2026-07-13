@@ -1,0 +1,13 @@
+{
+  "type_id": 13215,
+  "name": "Complex Fullerene Shard",
+  "description": "Fullerene is a molecule composed entirely of carbon. It is usually spherical in shape and can be harmful to living organisms. Basic Fullerene is used as superconductors and in the biotech industry. Complex Fullerene is an advanced version of basic fullerene that only the Jovians know how to produce. It is much harder than basic fullerene and is indestructible by all conventional methods used by the other races and thus useless in the current technological environment. The force involved in breaking it into shards must have been staggering.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

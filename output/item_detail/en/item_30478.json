@@ -1,0 +1,21 @@
+{
+  "type_id": 30478,
+  "name": "Reconfigured Subspace Calibrator",
+  "description": "Subspace calibrators perform the crucial role of tuning in on subspace frequencies. Being able to accurately pinpoint a destination on the other side of a wormhole is vital to interstellar travel, as it allows pilots to traverse wormholes safe in the knowledge that they won't accidentally arrive out the other side at the centre of a sun. \n\nThis particular calibrator was produced from a combination of fullerene polymers and salvaged Sleeper technology. The unique grouping enables some drastic reconfigurations to the basic design. The end result is a vastly increased efficiency in calculation time. Due to the modular design of Tech III vessels, tuning into subspace frequencies must be done individually for each subsystem. The development of this particular component has been an important time-saver in an area where mere seconds can mean life or death.",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Hybrid Tech Components",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

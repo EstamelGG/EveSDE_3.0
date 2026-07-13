@@ -1,0 +1,13 @@
+{
+  "type_id": 21801,
+  "name": "烈酒",
+  "description": "高质量的私酿烈酒。大量饮用会导致行为放乱、丧失肌肉运动能力以及其他可笑症状。",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

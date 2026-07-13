@@ -1,0 +1,49 @@
+{
+  "type_id": 11489,
+  "name": "巨大的安全货柜",
+  "description": "这个巨型集装箱安装了由密码保护的安全锁。\n\n\n\n注意：安全货柜必须在锚定过后才能启动密码保护功能。只能在安全等级等于或者低于0.7的恒星系锚定安全货柜。",
+  "volume": 3000.0,
+  "repackaged_volume": 300.0,
+  "capacity": 3900.0,
+  "mass": 6000000.0,
+  "category_name": "天体",
+  "group_name": "安全货柜",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 500000.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 11584.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureUniformity",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 3000.0,
+      "categoryID": 6,
+      "display_name": "信号半径",
+      "unit_name": "m"
+    }
+  ],
+  "traits": []
+}

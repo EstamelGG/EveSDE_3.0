@@ -1,0 +1,13 @@
+{
+  "type_id": 23883,
+  "name": "Methros Enhanced Decoding Device",
+  "description": "A standard decoding device, used to decode valuable transmissions often sent via non-FTL transport.",
+  "volume": 50.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

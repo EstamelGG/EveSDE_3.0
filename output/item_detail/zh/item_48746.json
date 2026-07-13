@@ -1,0 +1,63 @@
+{
+  "type_id": 48746,
+  "name": "主宰\"巨人\"无人机调节器T25-10S",
+  "description": "主宰\"巨人\"无人机调节器T25-10S能提高无人机防御系统的强度，代价是无人机的速度有所降低。\n\n允许克隆飞行员在标准型无人机飞行时改写其固件的植入体是最近的研究成果，它使用了自由无人机科技来达到近似的效果。使用舰载的纳米系统之后，无人机的物理属性就会按照植入体的预设进行更改。\n\n无人机科技领域巨头西顿工业最近研发出并投放了一种类似的系统，不过这款植入体属于科技领域的灰色产品，只供克隆飞行员使用。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "脑控无人机",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3411.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 3.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hullHpBonus",
+      "value": 25.0,
+      "categoryID": 4,
+      "display_name": "HP加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "implantness",
+      "value": 7.0,
+      "categoryID": 7,
+      "display_name": "植入体槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "armorHpBonus",
+      "value": 25.0,
+      "categoryID": 3,
+      "display_name": "装甲值加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldCapacityBonus",
+      "value": 25.0,
+      "categoryID": 2,
+      "display_name": "护盾容量加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "droneMaxVelocityBonus",
+      "value": -10.0,
+      "categoryID": 10,
+      "display_name": "无人机速度加成",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

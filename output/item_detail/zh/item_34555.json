@@ -1,0 +1,13 @@
+{
+  "type_id": 34555,
+  "name": "堡垒索引",
+  "description": "这段有趣的代码是用未知的数学算法写成的。人们对它知之甚少，只知道它可以用来打开某个特定的货柜。它内置了重校代码，只能使用一次。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "未知组件",
+  "attributes": [],
+  "traits": []
+}

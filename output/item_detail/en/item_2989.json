@@ -1,0 +1,13 @@
+{
+  "type_id": 2989,
+  "name": "Decoy Prototype Cloaking Devices",
+  "description": "This decoy prototype cloaking device appears to be a working model; however, closer scrutiny reveals that it is nothing more than a useless hunk of metal and wires.",
+  "volume": 60.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 60.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

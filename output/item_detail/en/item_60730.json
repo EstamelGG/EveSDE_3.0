@@ -1,0 +1,13 @@
+{
+  "type_id": 60730,
+  "name": "AEGIS Coded Security Key SCCF-FTS",
+  "description": "The capital ship construction and refitting operations being carried out by AEGIS require significant numbers of forging tools and resources. These valuable items are kept in a storage location that is only accessible with the correct AEGIS Coded Security Key.\n\nThis security key's transponder is set with the unique code that acts as a key to the specified acceleration gate.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

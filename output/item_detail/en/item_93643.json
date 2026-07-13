@@ -1,0 +1,13 @@
+{
+  "type_id": 93643,
+  "name": "Supplies: Battle of Pator",
+  "description": "Everything required for the completion of the Battle of Pator simulation experience.",
+  "volume": 3000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

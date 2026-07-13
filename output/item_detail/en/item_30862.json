@@ -1,0 +1,65 @@
+{
+  "type_id": 30862,
+  "name": "Class 4 Magnetar Effects",
+  "description": "Local spatial phenomena may cause strange effects on your ship systems.",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Celestial",
+  "group_name": "Effect Beacon",
+  "attributes": [
+    {
+      "attribute_name": "maxTargetRangeMultiplier",
+      "value": 0.64,
+      "categoryID": 24,
+      "display_name": "Targeting Range Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "trackingSpeedMultiplier",
+      "value": 0.64,
+      "categoryID": 26,
+      "display_name": "Tracking Speed Multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "damageMultiplierMultiplier",
+      "value": 1.72,
+      "categoryID": 1,
+      "display_name": "Damage multiplier multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "aoeCloudSizeMultiplier",
+      "value": 1.72,
+      "categoryID": 0,
+      "display_name": "Explosion radius multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "targetPainterStrengthMultiplier",
+      "value": 0.64,
+      "categoryID": 21,
+      "display_name": "Target painter effectiveness multiplier",
+      "unit_name": "x"
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b>72%</b> bonus to turret, missile, vorton projector and drone damage"
+    },
+    {
+      "content": "<b>36%</b> penalty to turret and drone tracking speed"
+    },
+    {
+      "content": "<b>36%</b> penalty to missile and vorton projector explosion radius"
+    },
+    {
+      "content": "<b>36%</b> penalty to target painter effectiveness"
+    },
+    {
+      "content": "<b>36%</b> penalty to maximum targeting range"
+    }
+  ]
+}

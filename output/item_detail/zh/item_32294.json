@@ -1,0 +1,13 @@
+{
+  "type_id": 32294,
+  "name": "圣阿尔扎德之书",
+  "description": "这本书只剩下一些残片，一些书页已经破烂或者丢失，但大部分的内容还可以阅读。这本书讲述了阿尔扎德·哈姆里的一生，他是艾玛在斯塔科马首星的管理者。这应该是从斯塔克马尼叛乱中留下的遗物。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

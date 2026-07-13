@@ -1,0 +1,13 @@
+{
+  "type_id": 2672,
+  "name": "Group of Miners",
+  "description": "Covered in a perpetual layer of grime and dust, these grizzled laborers seem out of place anywhere but deep underground on some lonely planet or boring through the core of a wandering asteroid.",
+  "volume": 50.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 50000.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

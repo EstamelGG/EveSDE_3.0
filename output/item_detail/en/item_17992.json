@@ -1,0 +1,13 @@
+{
+  "type_id": 17992,
+  "name": "Puxley's 9D Pass",
+  "description": "This nine-dimensional pass unlocks the second acceleration gate in the Angel Cartel Naval Shipyard. It is destroyed on use.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

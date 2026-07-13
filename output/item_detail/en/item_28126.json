@@ -1,0 +1,13 @@
+{
+  "type_id": 28126,
+  "name": "Minmatar Basic Outpost Factory",
+  "description": "A basic upgrade to Minmatar Outpost manufacturing capabilities. Gives a manufacturing time reduction on all Modules of 20%.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Accessories",
+  "group_name": "Outpost Improvements",
+  "attributes": [],
+  "traits": []
+}

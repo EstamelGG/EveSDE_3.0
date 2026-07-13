@@ -1,0 +1,21 @@
+{
+  "type_id": 16646,
+  "name": "Mercury",
+  "description": "Also known as quicksilver, mercury is a silvery liquid metal whose primary characteristic is the ease with which it forms amalgamatic alloys with other metals. It is therefore extremely useful as a base-block component.",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10826.0,
+  "category_name": "Material",
+  "group_name": "Moon Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

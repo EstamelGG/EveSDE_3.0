@@ -1,0 +1,13 @@
+{
+  "type_id": 12110,
+  "name": "Homeless",
+  "description": "In most societies there are those who, for various reasons, live a life considered below the living standards of the normal citizen. These people are sometimes called tramps, beggars, drifters, vagabonds or homeless. They are especially common in the ultra-capitalistic Caldari State, but are also found elsewhere in most parts of the galaxy.",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 600.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 44992,
+  "name": "PLEX",
+  "description": "PLEX is an item that can be traded between players on the market. PLEX can also be used in the New Eden Store to upgrade your account to Omega Clone State, purchase virtual goods, and activate other account services.\n\n<font size=\"14\"><b>Getting PLEX</b></font>\nPLEX can be purchased on the market for ISK, from the PLEX Vault, or securely on <url=https://store.eveonline.com/#plex>https://store.eveonline.com/#plex</url> using a variety of methods.\n\n<font color=\"#ff3399cc\">TIP: Purchasing PLEX to sell for ISK to other players is a great way to kickstart your capsuleer career!</font>\n\n<font size=\"14\"><b>Using PLEX</b></font>\nPLEX can be used to upgrade your account to Omega Clone State, purchase virtual goods, and activate account services via the New Eden Store. To use PLEX in the New Eden Store, PLEX must be placed in your PLEX Vault.\n\n<font size=\"14\"><b>PLEX Vault</b></font>\nThe PLEX Vault is a secure location in your inventory, shared across all characters on your account, where PLEX can be placed for use in the New Eden Store. You can find the PLEX Vault in your inventory in the list of locations to the left of the window.",
+  "volume": 0.0002,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Accessories",
+  "group_name": "PLEX",
+  "attributes": [],
+  "traits": []
+}

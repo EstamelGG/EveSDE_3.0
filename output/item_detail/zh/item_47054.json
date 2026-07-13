@@ -1,0 +1,13 @@
+{
+  "type_id": 47054,
+  "name": "损坏严重的全息影像盘",
+  "description": "当你尝试播放这个全息记忆盘时，只有很小一部分影像能被播放，其余的部分已因为全息记忆盘的损坏而不可辨识。经过仔细辨别，只能辨认出“打脸”这个词语。不久，全息记忆盘开始发出非常刺耳的声音。很明显，这东西是修不好了。",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

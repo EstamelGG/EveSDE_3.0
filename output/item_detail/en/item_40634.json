@@ -1,0 +1,273 @@
+{
+  "type_id": 40634,
+  "name": "Gravitational Transportation Field Oscillator",
+  "description": "The Society of Conscious Thought has long been at the forefront of making new technologies available to capsuleers but their decision to release certain types of spacetime weaponry on the open market represents a significant escalation in the level of power that the Society is willing to place in the hands of independent pilots. The Gravitational Transportation Field Oscillator is a remarkable device that can move capsuleer vessels involuntarily through a localized wormhole created by setting up gravitational field resonances at the origin and destination target points.\n\nNote: Due to their increased mass, this module is unable to transport capital sized ships, but the residual effects of its localised wormhole will prevent them from warping for 60 seconds. Activating this module triggers a massive capacitor disruption wave that impacts ships in the immediate vicinity of the Titan, friend or foe. After firing, you will be immobile for thirty seconds and unable to dock, tether, cloak, or activate your jump drive for five minutes.",
+  "volume": 8000.0,
+  "repackaged_volume": 2000.0,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "Module",
+  "group_name": "Super Weapon",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 30000.0,
+      "categoryID": 5,
+      "display_name": "Activation Cost",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 99999.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "speedFactor",
+      "value": -100.0,
+      "categoryID": 28,
+      "display_name": "Maximum Velocity Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "power",
+      "value": 100000.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Usage",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 100.0,
+      "categoryID": 1,
+      "display_name": "CPU usage",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 100000.0,
+      "categoryID": 29,
+      "display_name": "Optimal Range",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 300000.0,
+      "categoryID": 7,
+      "display_name": "Activation time / duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 24563.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 24562.0,
+      "categoryID": 8,
+      "display_name": "Secondary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "moduleReactivationDelay",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Reactivation Delay",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "consumptionType",
+      "value": 16275.0,
+      "categoryID": 7,
+      "display_name": "Consumption Type",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "consumptionQuantity",
+      "value": 2000.0,
+      "categoryID": 7,
+      "display_name": "Consumption Quantity",
+      "unit_name": "units"
+    },
+    {
+      "attribute_name": "maxGroupActive",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "siegeModeWarpStatus",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "disallowEarlyDeactivation",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "disallowRepeatingActivation",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Cannot Auto Repeat",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "canCloak",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "canFitShipGroup01",
+      "value": 30.0,
+      "categoryID": 1,
+      "display_name": "Can only be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "maxGroupFitted",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "Max Modules Of This Group Allowed",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "doomsdayEnergyNeutRadius",
+      "value": 10000.0,
+      "categoryID": 39,
+      "display_name": "Warm-up Neutralization Radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "doomsdayEnergyNeutAmount",
+      "value": 30000.0,
+      "categoryID": 39,
+      "display_name": "Warm-up Neutralization Amount",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "doomsdayEnergyNeutSignatureRadius",
+      "value": 20000.0,
+      "categoryID": 39,
+      "display_name": "Warm-up Neutralization Signature Radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "doomsdayWarningDuration",
+      "value": 15000.0,
+      "categoryID": 39,
+      "display_name": "Warm-up Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "speedFactorFloor",
+      "value": -100.0,
+      "categoryID": 28,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "isPointTargeted",
+      "value": 1.0,
+      "categoryID": 6,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "doomsdayAOERange",
+      "value": 10000.0,
+      "categoryID": 39,
+      "display_name": "AOE Range",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "disallowTethering",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Disallow Tethering",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "disallowDocking",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Disallow Docking",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "doomsdayNoJumpOrCloakDuration",
+      "value": 300000.0,
+      "categoryID": 39,
+      "display_name": "Jump/Dock/Tether/Cloak restriction duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "doomsdayImmobilityDuration",
+      "value": 30000.0,
+      "categoryID": 39,
+      "display_name": "Immobility Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "doomsdayAOEShape",
+      "value": 4.0,
+      "categoryID": 39,
+      "display_name": "Shape of Superweapon Effect",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "doomsdayRangeIsFixed",
+      "value": 0.0,
+      "categoryID": 39,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "doomsdayEnergyNeutResistanceID",
+      "value": 2045.0,
+      "categoryID": 39,
+      "display_name": "",
+      "unit_name": "attributeID"
+    }
+  ],
+  "traits": []
+}

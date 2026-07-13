@@ -1,0 +1,13 @@
+{
+  "type_id": 28701,
+  "name": "鲜绿磷胶溶质",
+  "description": "在大型小行星和行星卫星内部高压环境中形成的淡蓝色晶体，常用于电子和军火制造业。只在几个区域有丰富储量。",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "天体",
+  "group_name": "可采集云团",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 57451,
+  "name": "Enhanced Electro-Neural Signaller",
+  "description": "Enhanced Electro-Neural Signallers are a component used to harden supercapital capsuleer neurolink systems against hostile information warfare and subversion efforts. Specially enhanced versions of these devices are used to obtain the ultimate in secure capsuleer neurolinks for naval supercapital pilots.",
+  "volume": 2.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

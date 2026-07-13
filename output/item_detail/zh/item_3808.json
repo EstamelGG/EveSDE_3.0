@@ -1,0 +1,13 @@
+{
+  "type_id": 3808,
+  "name": "囚犯们",
+  "description": "运送囚犯任务需要获得帝国立法机构的信任，但在已知宇宙中，它是最不受欢迎的工作之一。",
+  "volume": 7.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 560.0,
+  "category_name": "常用物品",
+  "group_name": "有生货物",
+  "attributes": [],
+  "traits": []
+}

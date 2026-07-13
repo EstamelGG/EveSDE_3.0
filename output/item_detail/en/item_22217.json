@@ -1,0 +1,13 @@
+{
+  "type_id": 22217,
+  "name": "Strange Construction Blocks",
+  "description": "These construction blocks feel lighter than normal. Perhaps they are hollow on the inside?",
+  "volume": 4.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

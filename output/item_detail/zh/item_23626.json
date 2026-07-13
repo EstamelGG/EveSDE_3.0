@@ -1,0 +1,13 @@
+{
+  "type_id": 23626,
+  "name": "奇袭无人机控制芯片",
+  "description": "这是已被毁的奇袭无人机的控制芯片，表明当无人机被毁时有人在幕后操控。芯片还表明无人机的下一个目标是帕查尼尔VI-卫星5附近的一个机巢。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

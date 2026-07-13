@@ -1,0 +1,13 @@
+{
+  "type_id": 87226,
+  "name": "模拟基准人类",
+  "description": "大量数据被收集，用以构建这个精确模拟新伊甸众多基准人类之一的模型。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

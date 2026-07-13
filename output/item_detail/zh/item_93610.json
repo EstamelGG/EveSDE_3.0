@@ -1,0 +1,13 @@
+{
+  "type_id": 93610,
+  "name": "合众国军事储备处补给包",
+  "description": "由合众国军事储备处集团采购和制造的补给包。旨在向前线的加达里合众国运送关键军事物资。盖伦特联邦将奖励那些截获这些补给包并将其运送到联邦防务联合会空间站的克隆飞行员，需前往忠诚点商店兑换。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.01,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

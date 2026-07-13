@@ -1,0 +1,161 @@
+{
+  "type_id": 45619,
+  "name": "洛基推进 - 拦截湮灭者",
+  "description": "这个子系统被古斯塔斯称为“拦截湮灭者”，因为他们在战斗中首次遇到这种装备时吃了大亏。它可以提高拦截失效装备的性能。\n\n\n\n该装备的起源至今是个谜，但多数人猜测其在虫洞打开后不久，远在该技术广为流传之前就已出现。在设计出第一艘金鹏级巡洋舰后不久，加达里海军就截获了来自维纳尔、特纳与静寂谷星域的古斯塔斯紧急电报。所有电报都提到了洛基级舰船穿越各种防御阻碍直捣古斯塔斯老巢。  \n\n\n\n之后，就不断有他人发现并运用这种超新技术的说法传出。但在所有势力派系中，没有谁像那些已把0.0区作为自家领地的独立克隆飞行员与海盗组织那样拼命地运用此技术。",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1400000.0,
+  "category_name": "子系统",
+  "group_name": "推进子系统",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "maxTargetRange",
+      "value": -20000.0,
+      "categoryID": 6,
+      "display_name": "锁定范围上限",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 30554.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 20.0,
+      "categoryID": 6,
+      "display_name": "信号半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "subSystemSlot",
+      "value": 128.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hiSlotModifier",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "高槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "medSlotModifier",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "中槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "lowSlotModifier",
+      "value": 1.0,
+      "categoryID": 0,
+      "display_name": "低槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "fitsToShipType",
+      "value": 29990.0,
+      "categoryID": 0,
+      "display_name": "受限于船型",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "subsystemBonusMinmatarPropulsion",
+      "value": -15.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "subsystemBonusMinmatarPropulsion2",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "shipBonusRole1",
+      "value": -80.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "shipBonusRole2",
+      "value": 100.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "agilityBonusAdd",
+      "value": 0.1,
+      "categoryID": 7,
+      "display_name": "附加惯性调整系数",
+      "unit_name": ""
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b>80%</b> <a href=showinfo:58919>拦截失效装置</a>重启延迟和最大锁定距离惩罚降低"
+    },
+    {
+      "content": "<b><u>附加基础数值</b></u>"
+    },
+    {
+      "content": "低槽+1"
+    },
+    {
+      "content": "惯性调整系数+0.1"
+    },
+    {
+      "content": "最大锁定距离减少20km"
+    },
+    {
+      "content": "信号半径+20m"
+    },
+    {
+      "content": "<b>100%</b> <a href=showinfo:58919>拦截失效装置</a>持续时间加成"
+    },
+    {
+      "content": "<b>10%</b> 跃迁速度和跃迁加速加成"
+    },
+    {
+      "content": "<b>15%</b> 跃迁启动电容量减耗"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type_id": 3695,
+  "name": "合成纺织品",
+  "description": "无论是合成还是自然形成的合成材料，都可以用作生产合成织物，这是一种广泛用于服装行业的耐用纤维，也被用于太阳帆甚至传统工艺品的生产。",
+  "volume": 0.75,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 200.0,
+  "category_name": "行星商品",
+  "group_name": "加工过的资源物品 - 第二等级",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 7200.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 7200.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

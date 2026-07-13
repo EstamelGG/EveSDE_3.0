@@ -1,0 +1,13 @@
+{
+  "type_id": 23597,
+  "name": "Serpentis Data Chip Decoder",
+  "description": "A decoder to unlock information stored on an encoded data chip.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

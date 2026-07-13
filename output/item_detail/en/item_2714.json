@@ -1,0 +1,13 @@
+{
+  "type_id": 2714,
+  "name": "Large Crates of Fertilizer",
+  "description": "Fertilizer is particularly valued on agricultural worlds, where there is constant supply for all commodities that boost export value.",
+  "volume": 800.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 800000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 57330,
+  "name": "新春臻品宝箱",
+  "description": "打开后可获得神秘奖品。\n\n奖品概率如下：\n\n臻牛系列大脑加速器 52.24%\n飞行员高效作业增效剂 22.39%\n舰船皮肤 22.39%\n胜利者级 2.99%",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

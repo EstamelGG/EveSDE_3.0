@@ -1,0 +1,28 @@
+{
+  "type_id": 12836,
+  "name": "透颅微控器",
+  "description": "透颅微控器最初是应用知识学院使用来自几个人道主义组织的基金开发而成的，它可以帮助紧张精神症患者恢复意识，不过成功几率有限。这种微控器可以用在人类和机械上，并且也取得了巨大的成功。于是异株湖集团也涉足该行业，买下了芯片的所有权。自此之后，异株湖技术人员在进一步研究中发现了微控器的其他几种用途，例如工业用机器人的控制装置。专家称，这种微芯片用在机器人上时不比现有的方法更有效率，因为它需要依赖生化宿主系统。",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "行星商品",
+  "group_name": "特种资源物品 - 第三等级",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 60000.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 60000.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}
