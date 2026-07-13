@@ -89,13 +89,27 @@ def create_release_archives(config: Dict[str, Any]) -> Dict[str, Path]:
     """单库架构：output/sde 整包进 sde.zip，另附 icons.zip，产物写入 output/release。"""
     out = release_dir(config)
     sde_output = PROJECT_ROOT / config["paths"].get("sde_output", "output/sde")
-    icons_source = PROJECT_ROOT / config["paths"].get("icons_output", "output/icons") / "icons.zip"
+    icons_dir = PROJECT_ROOT / config["paths"].get("icons_output", "output/icons")
+    icons_source = icons_dir / "icons.zip"
     icons_zip = out / "icons.zip"
     sde_zip = out / "sde.zip"
     db_path = get_db_path(config)
 
     if not icons_source.exists():
-        raise FileNotFoundError("output/icons/icons.zip was not generated")
+        # 兼容 artifact 解压异常或路径偏移：在 output/ 下搜索
+        candidates = sorted(PROJECT_ROOT.joinpath("output").rglob("icons.zip")) if (PROJECT_ROOT / "output").exists() else []
+        print(f"[x] 预期路径不存在: {icons_source}")
+        print(f"[!] output 下找到的 icons.zip: {[str(p.relative_to(PROJECT_ROOT)) for p in candidates]}")
+        if (PROJECT_ROOT / "output").exists():
+            for p in sorted((PROJECT_ROOT / "output").rglob("*"))[:40]:
+                if p.is_file():
+                    print(f"    {p.relative_to(PROJECT_ROOT)}")
+        if candidates:
+            icons_source = candidates[0]
+            print(f"[+] 改用: {icons_source}")
+        else:
+            raise FileNotFoundError("output/icons/icons.zip was not generated")
+
     if not db_path.exists():
         raise FileNotFoundError(f"Missing database: {db_path}")
     shutil.copy2(icons_source, icons_zip)

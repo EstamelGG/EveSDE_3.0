@@ -147,6 +147,18 @@ jobs:
 
           python -u main.py $EXTRA_ARGS
 
+          if [ ! -f output/icons/icons.zip ]; then
+            echo "[x] 构建结束但缺少 output/icons/icons.zip"
+            ls -la output/icons/ 2>/dev/null || true
+            find output -name 'icons.zip' 2>/dev/null || true
+            exit 1
+          fi
+          if [ ! -f output/sde/db/item_db.sqlite ]; then
+            echo "[x] 构建结束但缺少 output/sde/db/item_db.sqlite"
+            exit 1
+          fi
+          ls -lh output/icons/icons.zip output/sde/db/item_db.sqlite
+
           if [ -d "output/item_detail/en" ] && [ -d "output/item_detail/zh" ]; then
             echo "item-detail-extracted=true" >> "$GITHUB_OUTPUT"
           else
@@ -157,9 +169,10 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: sde-output-${{ needs.get-build-info.outputs.final-build-number }}
+          if-no-files-found: error
           path: |
             output/sde/
-            output/icons/
+            output/icons/icons.zip
             output/item_detail/
             output/whats_new/
             output/release/
@@ -180,6 +193,15 @@ jobs:
         with:
           name: sde-output-${{ needs.get-build-info.outputs.final-build-number }}
           path: ./
+
+      - name: 校验产物路径
+        run: |
+          set -euo pipefail
+          echo "[+] workspace: $(pwd)"
+          find output -type f 2>/dev/null | head -80 || true
+          test -f output/icons/icons.zip
+          test -f output/sde/db/item_db.sqlite
+          ls -lh output/icons/icons.zip output/sde/db/item_db.sqlite
 
       - name: 准备Release文件
         id: release-assets

@@ -49,58 +49,46 @@ class CompressionProcessor:
                               compression: int = zipfile.ZIP_STORED, 
                               sort_files: bool = True) -> bool:
         """
-        创建具有一致元数据的ZIP文件
-        
-        Args:
-            zip_path: 输出ZIP文件路径
-            files_to_add: 要添加到ZIP的文件列表
-            compression: 压缩类型
-            sort_files: 是否按文件名排序
-        
-        Returns:
-            bool: 是否创建成功
+        创建具有一致元数据的ZIP文件（先写临时文件再替换，避免失败时丢掉旧包）
         """
         try:
-            # 确保输出目录存在
             zip_path.parent.mkdir(parents=True, exist_ok=True)
-            
-            # 如果ZIP文件已存在，先删除
-            if zip_path.exists():
-                zip_path.unlink()
-            
-            with zipfile.ZipFile(zip_path, 'w', compression=compression) as zipf:
-                # 处理文件列表
+            tmp_path = zip_path.with_suffix(zip_path.suffix + ".tmp")
+            if tmp_path.exists():
+                tmp_path.unlink()
+
+            with zipfile.ZipFile(tmp_path, 'w', compression=compression) as zipf:
                 file_list = []
                 for file_path in files_to_add:
                     file_path = Path(file_path)
                     if file_path.exists() and file_path.is_file():
                         file_list.append(file_path)
-                
-                # 按文件名排序（如果需要）
+
                 if sort_files:
                     file_list.sort(key=lambda x: x.name.lower())
-                
-                # 添加文件到ZIP
+
+                if not file_list:
+                    print(f"[x] 没有可打包的文件: {zip_path}")
+                    tmp_path.unlink(missing_ok=True)
+                    return False
+
                 for file_path in file_list:
-                    # 创建ZIP信息对象
                     zip_info = zipfile.ZipInfo(filename=file_path.name)
                     zip_info.compress_type = compression
-                    
-                    # 设置固定元数据
                     for key, value in self.FIXED_METADATA.items():
                         setattr(zip_info, key, value)
-                    
-                    # 读取文件内容
                     with open(file_path, 'rb') as f:
-                        file_data = f.read()
-                    
-                    # 添加到ZIP
-                    zipf.writestr(zip_info, file_data)
-            
+                        zipf.writestr(zip_info, f.read())
+
+            tmp_path.replace(zip_path)
             return True
-            
+
         except Exception as e:
             print(f"[x] 创建ZIP文件失败 {zip_path}: {e}")
+            try:
+                zip_path.with_suffix(zip_path.suffix + ".tmp").unlink(missing_ok=True)
+            except Exception:
+                pass
             return False
     
     def create_uncompressed_icons_zip(self):
@@ -231,21 +219,26 @@ class CompressionProcessor:
 
 
 def main(config=None):
-    """主函数"""
+    """主函数。最终必须留下 output/icons/icons.zip。"""
     print("[+] 压缩处理器启动")
     
-    # 如果没有传入配置，则尝试加载本地配置（用于独立运行）
     if config is None:
         import json
         config_path = PROJECT_ROOT / "config.json"
         with open(config_path, 'r', encoding='utf-8') as f:
             config = json.load(f)
     
-    # 创建处理器并执行
     processor = CompressionProcessor(config)
-    processor.process_compression()
-    
+    ok = processor.process_compression()
+    if not processor.icons_zip_path.exists():
+        print(f"[x] icons.zip 未生成: {processor.icons_zip_path}")
+        print("\n[+] 压缩处理器完成")
+        return False
+    if not ok:
+        print(f"[!] 压缩流程部分失败，但保留已有 icons.zip: {processor.icons_zip_path}")
+
     print("\n[+] 压缩处理器完成")
+    return True
 
 
 if __name__ == "__main__":
