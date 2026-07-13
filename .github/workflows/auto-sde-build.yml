@@ -29,6 +29,9 @@ concurrency:
   group: ${{ github.workflow }}
   cancel-in-progress: false
 
+permissions:
+  contents: write
+
 jobs:
   get-build-info:
     name: 获取SDE版本信息
@@ -210,22 +213,9 @@ jobs:
             --release-date "${{ needs.get-build-info.outputs.release-date }}" \
             --github-repository "$GITHUB_REPOSITORY"
 
-      - name: 创建Release
-        uses: softprops/action-gh-release@v2
-        with:
-          files: ${{ steps.release-assets.outputs.release-files }}
-          tag_name: sde-build-${{ needs.get-build-info.outputs.final-build-number }}
-          name: EVE SDE Build ${{ needs.get-build-info.outputs.final-build-number }}
-          body_path: ${{ steps.release-assets.outputs.release-notes }}
-          draft: false
-          prerelease: false
-          fail_on_unmatched_files: true
-          generate_release_notes: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
-
+      # 先 push 报告到 main，再发 Release，避免说明里的 raw URL 404
       - name: 检出代码用于提交历史记录
-        if: steps.release-assets.outputs.compare-exists == 'true' || needs.build-sde.outputs.whats-new-exists == 'true' || needs.build-sde.outputs.item-detail-extracted == 'true'
+        if: steps.release-assets.outputs.compare-exists == 'true' || steps.release-assets.outputs.whats-new-exists == 'true' || needs.build-sde.outputs.item-detail-extracted == 'true'
         uses: actions/checkout@v4
         with:
           ref: main
@@ -233,7 +223,7 @@ jobs:
           token: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
 
       - name: 提交历史记录和物品详情
-        if: steps.release-assets.outputs.compare-exists == 'true' || needs.build-sde.outputs.whats-new-exists == 'true' || needs.build-sde.outputs.item-detail-extracted == 'true'
+        if: steps.release-assets.outputs.compare-exists == 'true' || steps.release-assets.outputs.whats-new-exists == 'true' || needs.build-sde.outputs.item-detail-extracted == 'true'
         run: |
           set -euo pipefail
 
@@ -247,11 +237,13 @@ jobs:
             git add "history/${{ steps.release-assets.outputs.compare-new-filename }}"
           fi
 
-          WHATS_NEW_BASE="${{ needs.build-sde.outputs.whats-new-basename }}"
-          if [ "${{ needs.build-sde.outputs.whats-new-exists }}" = "true" ] && [ -n "$WHATS_NEW_BASE" ]; then
+          WHATS_NEW_BASE="${{ steps.release-assets.outputs.whats-new-basename }}"
+          if [ "${{ steps.release-assets.outputs.whats-new-exists }}" = "true" ]; then
+            test -n "$WHATS_NEW_BASE"
+            test -f "../output/whats_new/$WHATS_NEW_BASE"
             mkdir -p output/whats_new
             cp "../output/whats_new/$WHATS_NEW_BASE" "output/whats_new/$WHATS_NEW_BASE"
-            git add -f "output/whats_new/$WHATS_NEW_BASE"
+            git add "output/whats_new/$WHATS_NEW_BASE"
           fi
 
           for detail_dir in item_detail/en item_detail/zh; do
@@ -259,7 +251,7 @@ jobs:
               mkdir -p "output/$(dirname "$detail_dir")"
               rm -rf "output/$detail_dir"
               cp -R "../output/$detail_dir" "output/$detail_dir"
-              git add -f "output/$detail_dir"
+              git add "output/$detail_dir"
             fi
           done
 
@@ -270,6 +262,20 @@ jobs:
 
           git commit -m "Update SDE data for build ${{ needs.get-build-info.outputs.final-build-number }} [skip ci]"
           git push origin main
+
+      - name: 创建Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ${{ steps.release-assets.outputs.release-files }}
+          tag_name: sde-build-${{ needs.get-build-info.outputs.final-build-number }}
+          name: EVE SDE Build ${{ needs.get-build-info.outputs.final-build-number }}
+          body_path: ${{ steps.release-assets.outputs.release-notes }}
+          draft: false
+          prerelease: false
+          fail_on_unmatched_files: true
+          generate_release_notes: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
 
   notify-completion:
     name: 通知完成

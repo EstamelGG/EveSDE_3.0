@@ -10,8 +10,9 @@ __pycache__/
 /temp_whats_new
 /test_output
 /dist-ci.tar.gz
+/dist/
 
-# 运行时缓存与构建产出
+# 运行时缓存与可再生构建产出（whats_new / item_detail 需入库，不忽略）
 /cache/
 /output/sde/
 /output/icons/
@@ -32,5 +33,3 @@ __pycache__/
 tools/sqlite_comparison_report_*.txt
 tools/sqlite_field_diff_*.txt
 tools/sqlite_sync_*.sql
-/output
-/dist
