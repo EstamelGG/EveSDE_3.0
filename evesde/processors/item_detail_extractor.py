@@ -26,11 +26,11 @@ class ItemDetailExtractor:
         if not self.db_path.exists():
             raise FileNotFoundError(f"数据库文件不存在: {self.db_path}")
 
-        # 加载 texts.zip（与 db/ 同级的 output/sde/texts.zip；desc_id = 数组索引）
+        # 加载 texts.zip（与 db/ 同级；texts.json 为 {hex_id: text} 对象）
         import zipfile
         texts_zip = self.db_path.parent.parent / "texts.zip"
         if texts_zip.exists():
-            with zipfile.ZipFile(texts_zip, 'r') as zf:
+            with zipfile.ZipFile(texts_zip, "r") as zf:
                 with zf.open("texts.json") as f:
                     self.texts = json.load(f)
             print(f"[+] 加载 texts.zip: {len(self.texts):,} 条文本")
@@ -97,12 +97,14 @@ class ItemDetailExtractor:
         conn.row_factory = sqlite3.Row
         cursor = conn.cursor()
 
-        # 注册文本查找函数（desc_id → 文本，从内存 texts.json 查找）
-        _texts = self.texts or []
+        # 注册文本查找函数（desc_id 为十六进制键，如 "0"/"a"/"10"）
+        _texts = self.texts if isinstance(self.texts, dict) else {}
+
         def _get_text(desc_id):
-            if desc_id is not None and 0 <= desc_id < len(_texts):
-                return _texts[desc_id]
-            return None
+            if desc_id is None:
+                return None
+            return _texts.get(str(desc_id))
+
         conn.create_function("get_text", 1, _get_text)
 
         try:

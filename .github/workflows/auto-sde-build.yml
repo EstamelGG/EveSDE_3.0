@@ -147,15 +147,19 @@ jobs:
 
           python -u main.py $EXTRA_ARGS
 
-          test -f dist/icons.zip
-          test -f dist/sde/db/item_db.sqlite
-          ls -lh dist/icons.zip dist/sde/db/item_db.sqlite
+          test -f output/icons/icons.zip
+          test -f output/sde/db/item_db.sqlite
+          ls -lh output/icons/icons.zip output/sde/db/item_db.sqlite
 
-          # 打成单文件再上传，避免 upload-artifact 目录层级不确定
-          tar -C dist -czf dist-ci.tar.gz .
+          # 单文件交接；upload-artifact 不读 .gitignore，直接打 output 即可
+          TAR_PATHS=(output/icons/icons.zip output/sde)
+          [ -d output/whats_new ] && TAR_PATHS+=(output/whats_new)
+          [ -d output/item_detail ] && TAR_PATHS+=(output/item_detail)
+          [ -d output/release ] && TAR_PATHS+=(output/release)
+          tar -czf dist-ci.tar.gz "${TAR_PATHS[@]}"
           ls -lh dist-ci.tar.gz
 
-          if [ -d "dist/item_detail/en" ] && [ -d "dist/item_detail/zh" ]; then
+          if [ -d "output/item_detail/en" ] && [ -d "output/item_detail/zh" ]; then
             echo "item-detail-extracted=true" >> "$GITHUB_OUTPUT"
           else
             echo "item-detail-extracted=false" >> "$GITHUB_OUTPUT"
@@ -185,16 +189,14 @@ jobs:
           name: sde-output-${{ needs.get-build-info.outputs.final-build-number }}
           path: ./
 
-      - name: 解压并校验 dist
+      - name: 解压并校验产物
         run: |
           set -euo pipefail
           test -f dist-ci.tar.gz
-          rm -rf dist
-          mkdir -p dist
-          tar -C dist -xzf dist-ci.tar.gz
-          test -f dist/icons.zip
-          test -f dist/sde/db/item_db.sqlite
-          ls -lh dist/icons.zip dist/sde/db/item_db.sqlite
+          tar -xzf dist-ci.tar.gz
+          test -f output/icons/icons.zip
+          test -f output/sde/db/item_db.sqlite
+          ls -lh output/icons/icons.zip output/sde/db/item_db.sqlite
 
       - name: 准备Release文件
         id: release-assets
@@ -248,16 +250,16 @@ jobs:
           WHATS_NEW_BASE="${{ needs.build-sde.outputs.whats-new-basename }}"
           if [ "${{ needs.build-sde.outputs.whats-new-exists }}" = "true" ] && [ -n "$WHATS_NEW_BASE" ]; then
             mkdir -p output/whats_new
-            cp "../dist/whats_new/$WHATS_NEW_BASE" "output/whats_new/$WHATS_NEW_BASE"
-            git add "output/whats_new/$WHATS_NEW_BASE"
+            cp "../output/whats_new/$WHATS_NEW_BASE" "output/whats_new/$WHATS_NEW_BASE"
+            git add -f "output/whats_new/$WHATS_NEW_BASE"
           fi
 
           for detail_dir in item_detail/en item_detail/zh; do
-            if [ -d "../dist/$detail_dir" ]; then
+            if [ -d "../output/$detail_dir" ]; then
               mkdir -p "output/$(dirname "$detail_dir")"
               rm -rf "output/$detail_dir"
-              cp -R "../dist/$detail_dir" "output/$detail_dir"
-              git add "output/$detail_dir"
+              cp -R "../output/$detail_dir" "output/$detail_dir"
+              git add -f "output/$detail_dir"
             fi
           done
 

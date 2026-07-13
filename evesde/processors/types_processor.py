@@ -176,14 +176,14 @@ class TypesProcessor:
             ko_name TEXT,
             ru_name TEXT,
             zh_name TEXT,
-            de_desc_id INTEGER,
-            en_desc_id INTEGER,
-            es_desc_id INTEGER,
-            fr_desc_id INTEGER,
-            ja_desc_id INTEGER,
-            ko_desc_id INTEGER,
-            ru_desc_id INTEGER,
-            zh_desc_id INTEGER,
+            de_desc_id TEXT,
+            en_desc_id TEXT,
+            es_desc_id TEXT,
+            fr_desc_id TEXT,
+            ja_desc_id TEXT,
+            ko_desc_id TEXT,
+            ru_desc_id TEXT,
+            zh_desc_id TEXT,
             icon_filename TEXT,
             bpc_icon_filename TEXT,
             published BOOLEAN,
@@ -237,7 +237,7 @@ class TypesProcessor:
 
     def create_texts_table(self, cursor: sqlite3.Cursor):
         """创建全局文本池表，对 description 做跨行去重。
-        id 从 0 开始，与 JSON 数组索引一致。
+        内部用整数序号；写入 types.*_desc_id 与 texts.json 时转为无前缀十六进制键（0,1,…,a,…,f,10,…）。
         构建末尾会调用 export_texts_to_json 将 texts 拆分为独立 JSON 文件。"""
         cursor.execute('DROP TABLE IF EXISTS texts')
         cursor.execute('''
@@ -248,9 +248,14 @@ class TypesProcessor:
         ''')
         print("[+] 创建texts表（description 文本池）")
 
+    @staticmethod
+    def text_id_hex(seq: int) -> str:
+        """序号 → 无前缀小写十六进制字符串。"""
+        return format(seq, "x")
+
     def export_texts_to_json(self, conn: sqlite3.Connection):
-        """将 texts 表导出为 zip 压缩的 JSON 文件并从数据库中移除。
-        iOS 端加载 .zip → 解压 texts.json → JSON 解码 → 通过 desc_id 直接索引。"""
+        """将 texts 表导出为 zip 压缩的 JSON 对象并从数据库中移除。
+        格式: {"0":"...","1":"...","a":"...","10":"..."}，indent=2 便于阅读。"""
         import zipfile
 
         cur = conn.cursor()
@@ -259,25 +264,25 @@ class TypesProcessor:
         if not all_rows:
             return
 
-        # 导出为 JSON 数组（index = id，0-based）
-        texts_list = [content if content else "" for _, content in all_rows]
-        json_bytes = json.dumps(texts_list, ensure_ascii=False).encode('utf-8')
+        texts_obj = {
+            self.text_id_hex(i): (content if content else "")
+            for i, content in all_rows
+        }
+        json_bytes = json.dumps(texts_obj, ensure_ascii=False, indent=2).encode("utf-8")
 
-        # 写入 zip 压缩文件（内部文件名为 texts.json）
         zip_path = self.db_output_path.parent / "texts.zip"
-        with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED, compresslevel=9) as zf:
+        with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED, compresslevel=9) as zf:
             zf.writestr("texts.json", json_bytes)
 
         zip_size = zip_path.stat().st_size
         raw_size = len(json_bytes)
 
-        # 从数据库中删除 texts 表
-        cur.execute('DROP TABLE texts')
-        cur.execute('DROP TABLE IF EXISTS _zstd_dict')
+        cur.execute("DROP TABLE texts")
+        cur.execute("DROP TABLE IF EXISTS _zstd_dict")
         conn.commit()
 
         ratio = (1 - zip_size / raw_size) * 100
-        print(f"[+] texts 导出: {len(texts_list):,} 条 → {zip_path.name}")
+        print(f"[+] texts 导出: {len(texts_obj):,} 条 → {zip_path.name}")
         print(f"    {raw_size/(1024*1024):.1f} MB → {zip_size/(1024*1024):.1f} MB (zip {ratio:.0f}%)")
         print(f"    已从数据库移除 texts 表")
     
@@ -599,10 +604,14 @@ class TypesProcessor:
                     all_texts.add(descs[lang])
         sorted_texts = sorted(all_texts)
         if sorted_texts:
-            cursor.executemany('INSERT INTO texts (id, content) VALUES (?, ?)',
-                                [(i, t) for i, t in enumerate(sorted_texts)])
-        text_to_id = {content: i for i, content in enumerate(sorted_texts)}
-        print(f"[+] 文本池去重: {len(text_to_id):,} 个唯一描述文本")
+            cursor.executemany(
+                "INSERT INTO texts (id, content) VALUES (?, ?)",
+                [(i, t) for i, t in enumerate(sorted_texts)],
+            )
+        text_to_id = {
+            content: self.text_id_hex(i) for i, content in enumerate(sorted_texts)
+        }
+        print(f"[+] 文本池去重: {len(text_to_id):,} 个唯一描述文本（desc_id 为十六进制）")
 
         # 如果是英文数据库，建立英文名称映射
         if lang == 'en':

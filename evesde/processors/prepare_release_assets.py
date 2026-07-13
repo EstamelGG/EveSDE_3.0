@@ -34,8 +34,8 @@ def load_config() -> Dict[str, Any]:
 
 
 def release_dir(config: Dict[str, Any]) -> Path:
-    """发布打包输出目录：固定为 dist/。"""
-    d = PROJECT_ROOT / config["paths"]["dist"]
+    """发布打包输出目录：output/release/。"""
+    d = PROJECT_ROOT / config["paths"]["release_output"]
     d.mkdir(parents=True, exist_ok=True)
     return d
 
@@ -84,11 +84,12 @@ def add_directory_to_zip(zipf: zipfile.ZipFile, root: Path, excludes: Iterable[P
 
 
 def create_release_archives(config: Dict[str, Any]) -> Dict[str, Path]:
-    """从 dist/ 固定路径读取制品，在 dist/ 写出 sde.zip；icons.zip 已在 dist/。"""
-    dist = release_dir(config)
-    icons_source = dist / "icons.zip"
-    sde_dir = dist / "sde"
-    sde_zip = dist / "sde.zip"
+    """从 output/ 读取制品，在 output/release/ 写出 sde.zip。"""
+    paths = config["paths"]
+    out = release_dir(config)
+    icons_source = PROJECT_ROOT / paths["icons_output"] / "icons.zip"
+    sde_dir = PROJECT_ROOT / paths["sde_output"]
+    sde_zip = out / "sde.zip"
     db_path = sde_dir / "db" / "item_db.sqlite"
 
     if not icons_source.is_file():
@@ -198,7 +199,7 @@ def write_metadata(
 
 
 def find_whats_new(final_build_number: str, config: Dict[str, Any]) -> Optional[Path]:
-    whats_new_dir = PROJECT_ROOT / config["paths"]["dist"] / "whats_new"
+    whats_new_dir = PROJECT_ROOT / config["paths"].get("whats_new", "output/whats_new")
     if not whats_new_dir.exists():
         return None
     return next(iter(sorted(whats_new_dir.glob(f"whats_new_*_{final_build_number}.md"))), None)

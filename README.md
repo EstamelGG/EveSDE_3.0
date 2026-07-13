@@ -30,15 +30,13 @@ output/
   icons/          # icons.zip
   item_detail/    # en、zh 物品详情（可提交）
   whats_new/      # 变更报告（可提交）
-  release/        # 构建期 compare 报告
-dist/             # CI artifact / Release 暂存（构建末尾从 output 复制，不入 gitignore）
+  release/        # 构建期 compare / release 打包产物
 data/             # 静态源数据
 tools/            # 开发辅助工具
 ```
 
 ## 输出数据
 
-- `output/sde/db/item_db.sqlite`: 单库全语言宽列
-- `output/sde/texts.zip`: 长文本包
+- `output/sde/db/item_db.sqlite`: 单库全语言宽列（`*_desc_id` 为十六进制文本键）
+- `output/sde/texts.zip`: 长文本包（内部 `texts.json` 为 `{hex_id: text}`，如 `"0"`/`"a"`/`"10"`）
 - `output/icons/icons.zip`: 图标包
-- `dist/`: CI / Release 暂存目录（由构建末尾从 `output/` 复制，不受 gitignore 影响）

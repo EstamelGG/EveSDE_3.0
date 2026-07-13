@@ -28,8 +28,9 @@ __pycache__/
 /output_icons/
 /item_detail_en/
 /item_detail_zh/
-/whats_new/
 
 tools/sqlite_comparison_report_*.txt
 tools/sqlite_field_diff_*.txt
 tools/sqlite_sync_*.sql
+/output
+/dist
