@@ -151,6 +151,10 @@ jobs:
           test -f dist/sde/db/item_db.sqlite
           ls -lh dist/icons.zip dist/sde/db/item_db.sqlite
 
+          # 打成单文件再上传，避免 upload-artifact 目录层级不确定
+          tar -C dist -czf dist-ci.tar.gz .
+          ls -lh dist-ci.tar.gz
+
           if [ -d "dist/item_detail/en" ] && [ -d "dist/item_detail/zh" ]; then
             echo "item-detail-extracted=true" >> "$GITHUB_OUTPUT"
           else
@@ -162,7 +166,7 @@ jobs:
         with:
           name: sde-output-${{ needs.get-build-info.outputs.final-build-number }}
           if-no-files-found: error
-          path: dist/
+          path: dist-ci.tar.gz
           retention-days: 5
 
   create-release:
@@ -181,9 +185,13 @@ jobs:
           name: sde-output-${{ needs.get-build-info.outputs.final-build-number }}
           path: ./
 
-      - name: 校验产物路径
+      - name: 解压并校验 dist
         run: |
           set -euo pipefail
+          test -f dist-ci.tar.gz
+          rm -rf dist
+          mkdir -p dist
+          tar -C dist -xzf dist-ci.tar.gz
           test -f dist/icons.zip
           test -f dist/sde/db/item_db.sqlite
           ls -lh dist/icons.zip dist/sde/db/item_db.sqlite

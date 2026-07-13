@@ -51,6 +51,7 @@ def clean_all():
         "output/icons",
         "output/release",
         "dist",
+        "dist-ci.tar.gz",
         # 迁移前遗留目录
         "client_cache",
         "custom_icons",

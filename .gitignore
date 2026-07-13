@@ -9,6 +9,7 @@ __pycache__/
 /tmp
 /temp_whats_new
 /test_output
+/dist-ci.tar.gz
 
 # 运行时缓存与构建产出
 /cache/
