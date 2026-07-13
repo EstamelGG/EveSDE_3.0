@@ -10,8 +10,8 @@
 - mapStargates.jsonl: 星门（星系间连接关系）
 
 输出：
-- regions_data.json: 星域列表（id, faction_id, center, relations）
-- systems_data.json: 按星域分组的星系（坐标、跳跃关系）
+- regions_data.json: 星域列表（id, faction_id, center, relations；不含虫洞星域）
+- systems_data.json: 按星域分组的星系（坐标、跳跃关系；不含 x=y=0 虫洞星系）
 - neighbors_data.json: 星系邻居关系
 """
 
@@ -21,6 +21,12 @@ from pathlib import Path
 from collections import defaultdict
 from typing import Dict, List, Any, Set, Tuple
 import evesde.processors.jsonl_loader as jsonl_loader
+
+
+def _is_wormhole_system(sys_data: dict) -> bool:
+    """虫洞星系：position2D 的 x、y 均为 0（或缺失视为 0）。"""
+    pos = sys_data.get("position2D") or {}
+    return float(pos.get("x", 0) or 0) == 0.0 and float(pos.get("y", 0) or 0) == 0.0
 
 
 class MapGenerator:
@@ -33,18 +39,18 @@ class MapGenerator:
 
         self.maps_output_path.mkdir(parents=True, exist_ok=True)
 
-        # SDE 数据
+        # SDE 数据（过滤后仅保留非虫洞星系 / 非空星域）
         self.map_regions: Dict[int, dict] = {}
         self.map_solar_systems: Dict[int, dict] = {}
 
     def _load_jsonl_data(self):
-        """加载 SDE JSONL 数据"""
+        """加载 SDE JSONL，并剔除虫洞星系（x=y=0）及无有效星系的星域。"""
         print("[+] 加载 SDE 数据...")
 
         regions_file = self.sde_input_path / "mapRegions.jsonl"
         if regions_file.exists():
             regions_list = jsonl_loader.load_jsonl(str(regions_file))
-            self.map_regions = {item['_key']: item for item in regions_list}
+            self.map_regions = {item["_key"]: item for item in regions_list}
             print(f"[+] 加载了 {len(self.map_regions)} 个星域")
         else:
             print(f"[x] 星域文件不存在: {regions_file}")
@@ -52,13 +58,37 @@ class MapGenerator:
         systems_file = self.sde_input_path / "mapSolarSystems.jsonl"
         if systems_file.exists():
             systems_list = jsonl_loader.load_jsonl(str(systems_file))
-            self.map_solar_systems = {item['_key']: item for item in systems_list}
-            print(f"[+] 加载了 {len(self.map_solar_systems)} 个星系")
+            all_systems = {item["_key"]: item for item in systems_list}
+            kept = {
+                sid: data
+                for sid, data in all_systems.items()
+                if not _is_wormhole_system(data)
+            }
+            skipped = len(all_systems) - len(kept)
+            self.map_solar_systems = kept
+            print(f"[+] 加载了 {len(all_systems)} 个星系，跳过虫洞 {skipped}，保留 {len(kept)}")
         else:
             print(f"[x] 星系文件不存在: {systems_file}")
 
+        # 仅保留仍有非虫洞星系的星域
+        regions_with_systems = {
+            data.get("regionID")
+            for data in self.map_solar_systems.values()
+            if data.get("regionID") is not None
+        }
+        before = len(self.map_regions)
+        self.map_regions = {
+            rid: region
+            for rid, region in self.map_regions.items()
+            if rid in regions_with_systems
+        }
+        print(
+            f"[+] 星域过滤: {before} → {len(self.map_regions)} "
+            f"（忽略 {before - len(self.map_regions)} 个虫洞/空星域）"
+        )
+
     def build_system_neighbors(self) -> Dict[int, List[int]]:
-        """从 mapStargates.jsonl 构建星系邻居关系"""
+        """从 mapStargates.jsonl 构建星系邻居关系（仅非虫洞星系）。"""
         print("[+] 构建星系邻居关系...")
 
         neighbors: Dict[int, Set[int]] = defaultdict(set)
@@ -71,9 +101,12 @@ class MapGenerator:
         stargates_data = jsonl_loader.load_jsonl(str(stargates_file))
         print(f"[+] 加载了 {len(stargates_data)} 个星门")
 
+        known = self.map_solar_systems
         for stargate in stargates_data:
             source_system = stargate["solarSystemID"]
             dest_system = stargate["destination"]["solarSystemID"]
+            if source_system not in known or dest_system not in known:
+                continue
             neighbors[source_system].add(dest_system)
             neighbors[dest_system].add(source_system)
 
@@ -104,55 +137,55 @@ class MapGenerator:
         """计算坐标缩放参数，将 SDE position2D（~1e17）缩放到百级范围。
         使用统一的缩放因子保持比例，平移使最小值从 0 开始。"""
         coords = [
-            s['position2D'] for s in self.map_solar_systems.values()
-            if s.get('position2D')
+            s["position2D"]
+            for s in self.map_solar_systems.values()
+            if s.get("position2D")
         ]
         if not coords:
-            self._coord_offset = {'x': 0.0, 'y': 0.0}
+            self._coord_offset = {"x": 0.0, "y": 0.0}
             self._coord_scale = 1.0
             return
 
-        min_x = min(c['x'] for c in coords)
-        min_y = min(c['y'] for c in coords)
-        max_x = max(c['x'] for c in coords)
-        max_y = max(c['y'] for c in coords)
+        min_x = min(c["x"] for c in coords)
+        min_y = min(c["y"] for c in coords)
+        max_x = max(c["x"] for c in coords)
+        max_y = max(c["y"] for c in coords)
 
-        # 统一缩放因子（取较大维度映射到 1000）
         width = max_x - min_x
         height = max_y - min_y
         self._coord_scale = 1000.0 / max(width, height) if max(width, height) > 0 else 1.0
-        self._coord_offset = {'x': min_x, 'y': min_y}
+        self._coord_offset = {"x": min_x, "y": min_y}
 
         print(f"[+] 坐标缩放: scale={self._coord_scale:.2e}, offset=({min_x:.2e}, {min_y:.2e})")
 
     def scale_coord(self, pos: Dict[str, float]) -> Dict[str, float]:
         """将原始 position2D 坐标缩放到百级范围"""
         return {
-            'x': round((pos['x'] - self._coord_offset['x']) * self._coord_scale, 1),
-            'y': round((pos['y'] - self._coord_offset['y']) * self._coord_scale, 1)
+            "x": round((pos["x"] - self._coord_offset["x"]) * self._coord_scale, 1),
+            "y": round((pos["y"] - self._coord_offset["y"]) * self._coord_scale, 1),
         }
 
     def compute_region_center(self, region_id: int) -> Dict[str, float]:
         """计算星域中心点（该星域所有星系 position2D 缩放后的平均值）"""
         systems = [
-            s for s in self.map_solar_systems.values()
-            if s.get('regionID') == region_id and s.get('position2D')
+            s
+            for s in self.map_solar_systems.values()
+            if s.get("regionID") == region_id and s.get("position2D")
         ]
         if not systems:
-            return {'x': 0.0, 'y': 0.0}
-        scaled = [self.scale_coord(s['position2D']) for s in systems]
-        cx = sum(c['x'] for c in scaled) / len(scaled)
-        cy = sum(c['y'] for c in scaled) / len(scaled)
-        return {'x': round(cx, 1), 'y': round(cy, 1)}
+            return {"x": 0.0, "y": 0.0}
+        scaled = [self.scale_coord(s["position2D"]) for s in systems]
+        cx = sum(c["x"] for c in scaled) / len(scaled)
+        cy = sum(c["y"] for c in scaled) / len(scaled)
+        return {"x": round(cx, 1), "y": round(cy, 1)}
 
     def build_systems_data(self, system_neighbors: Dict[int, List[int]]) -> Tuple[list, dict]:
-        """构建星域数据列表和按星域分组的星系数据"""
+        """构建星域数据列表和按星域分组的星系数据（已排除虫洞）。"""
         print("[+] 构建星系数据...")
 
-        # 按星域分组星系
         region_systems: Dict[int, List[int]] = defaultdict(list)
         for sys_id, sys_data in self.map_solar_systems.items():
-            rid = sys_data.get('regionID')
+            rid = sys_data.get("regionID")
             if rid is not None:
                 region_systems[rid].append(sys_id)
 
@@ -161,47 +194,52 @@ class MapGenerator:
 
         for region_id in sorted(self.map_regions.keys()):
             region = self.map_regions[region_id]
-            faction_id = region.get('factionID', 0)
+            sys_ids = region_systems.get(region_id, [])
+            if not sys_ids:
+                continue
+
+            faction_id = region.get("factionID", 0)
             center = self.compute_region_center(region_id)
 
-            # 星域连接
             region_conns = self._region_connections.get(region_id, [])
-            # 转为字符串列表保持与旧版兼容
-            relations = [str(r) for r in region_conns]
+            # 只保留仍被导出的星域之间的连接
+            relations = [str(r) for r in region_conns if r in self.map_regions]
 
-            # 星域内的星系坐标
             sys_coords = {}
             sys_jumps = {}
-            for sys_id in region_systems.get(region_id, []):
+            for sys_id in sys_ids:
                 sys_data = self.map_solar_systems[sys_id]
-                pos2d = sys_data.get('position2D')
-                sys_coords[str(sys_id)] = self.scale_coord(pos2d) if pos2d else {'x': 0.0, 'y': 0.0}
+                pos2d = sys_data.get("position2D")
+                if not pos2d:
+                    continue
+                sys_coords[str(sys_id)] = self.scale_coord(pos2d)
 
-                # 星系跳跃关系（仅同星域内）
                 nbrs = system_neighbors.get(sys_id, [])
                 same_region_nbrs = [
-                    str(n) for n in nbrs
-                    if self.map_solar_systems.get(n, {}).get('regionID') == region_id
+                    str(n)
+                    for n in nbrs
+                    if self.map_solar_systems.get(n, {}).get("regionID") == region_id
                 ]
                 if same_region_nbrs:
                     sys_jumps[str(sys_id)] = same_region_nbrs
 
-            # regions_data.json 条目
+            if not sys_coords:
+                continue
+
             regions_data.append({
                 "region_id": region_id,
                 "faction_id": faction_id,
                 "center": center,
-                "relations": relations
+                "relations": relations,
             })
 
-            # systems_data.json 条目
             systems_data[str(region_id)] = {
                 "region_id": region_id,
                 "faction_id": faction_id,
                 "center": center,
                 "relations": relations,
                 "systems": sys_coords,
-                "jumps": sys_jumps
+                "jumps": sys_jumps,
             }
 
         print(f"[+] 处理了 {len(regions_data)} 个星域")
