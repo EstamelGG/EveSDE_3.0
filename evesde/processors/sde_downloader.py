@@ -40,6 +40,7 @@ def check_existing_download(config, build_number):
     """检查是否已经下载过指定构建版本的SDE"""
     project_root = PROJECT_ROOT
     sde_zip_path = project_root / config["paths"]["sde_zip"]
+    build_number = str(build_number).split(".", 1)[0]
     zip_filename = f"eve-online-static-data-{build_number}-jsonl.zip"
     zip_path = sde_zip_path / zip_filename
     
@@ -66,9 +67,11 @@ def check_existing_download(config, build_number):
     return False, zip_path
 
 def download_sde(config, build_number):
-    """下载SDE压缩包"""
+    """下载SDE压缩包。build_number 必须是 CCP 原始号（不含补丁后缀）。"""
     project_root = PROJECT_ROOT
     sde_zip_path = project_root / config["paths"]["sde_zip"]
+    # 防御：补丁展示号 3430261.01 不能用于官方下载 URL
+    build_number = str(build_number).split(".", 1)[0]
     download_url = config["urls"]["sde_download_template"].format(build_number=build_number)
     zip_filename = f"eve-online-static-data-{build_number}-jsonl.zip"
     zip_path = sde_zip_path / zip_filename

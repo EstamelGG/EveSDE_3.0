@@ -362,28 +362,29 @@ def main():
     
     current_build_number = latest_sde_info['build_number']
     current_release_date = latest_sde_info['release_date']
-    
-    # 检查是否有环境变量指定的最终build number（用于补丁包）
-    final_build_number = os.environ.get('FINAL_BUILD_NUMBER')
-    patch_version = os.environ.get('PATCH_VERSION', '0')
-    
-    if final_build_number:
-        print(f"[+] 当前最新SDE版本: {current_build_number}")
+
+    # CCP 原始构建号（用于下载 SDE）；FINAL_BUILD_NUMBER 可带补丁后缀（如 3430261.01）
+    ccp_build_number = str(current_build_number).split(".", 1)[0]
+    final_build_number = os.environ.get("FINAL_BUILD_NUMBER") or ccp_build_number
+    patch_version = os.environ.get("PATCH_VERSION", "0")
+
+    if final_build_number != ccp_build_number:
+        print(f"[+] 当前最新SDE版本: {ccp_build_number}")
         print(f"[+] 最终构建版本: {final_build_number}")
         print(f"[+] 补丁版本: {patch_version}")
-        # 使用最终的build number进行后续处理
-        current_build_number = final_build_number
     else:
-        print(f"[+] 当前最新SDE版本: {current_build_number}")
+        print(f"[+] 当前最新SDE版本: {ccp_build_number}")
         print(f"[+] 发布时间: {current_release_date}")
 
-    config["sde_build_number"] = current_build_number
-    
+    # 下载 / 本地 zip 始终用 CCP 号；版本入库与比较报告用最终展示号
+    config["sde_build_number"] = ccp_build_number
+    display_build_number = final_build_number
+
     # 检查是否需要强制重建
     if not args.force_rebuild:
         existing_build_number = check_existing_version()
-        if existing_build_number and existing_build_number == current_build_number:
-            print(f"[+] 检测到相同版本 ({current_build_number})，跳过重新构建")
+        if existing_build_number and str(existing_build_number) == str(display_build_number):
+            print(f"[+] 检测到相同版本 ({display_build_number})，跳过重新构建")
             print("[+] 如需强制重建，请使用 --force-rebuild 参数或删除 'output/latest.log' 文件")
             return
 
@@ -429,9 +430,9 @@ def main():
     else:
         print("\n[+] 跳过本地化数据处理")
     
-    # 执行SDE下载 - 必须成功才能继续
+    # 执行SDE下载 - 必须成功才能继续（始终用 CCP 原始构建号）
     print("\n[+] 开始执行SDE下载")
-    sde_success = sde_downloader.main(config, build_number=current_build_number)
+    sde_success = sde_downloader.main(config, build_number=ccp_build_number)
     if not sde_success:
         print("[x] SDE下载或解压失败，程序退出")
         print("[!] 请检查网络连接或重试")
@@ -560,7 +561,7 @@ def main():
     print("=" * 30)
     version_success = version_info_processor.main(
         config, 
-        build_number=current_build_number, 
+        build_number=display_build_number, 
         release_date=current_release_date,
         build_key=latest_sde_info.get('key')
     )
@@ -578,7 +579,7 @@ def main():
     print("\n[+] 执行Release比较")
     print("=" * 30)
     
-    compare_success = release_compare_processor.main(config, current_build_number)
+    compare_success = release_compare_processor.main(config, display_build_number)
     if not compare_success:
         print("[!] Release比较失败，但继续执行")
     else:
@@ -587,7 +588,7 @@ def main():
     # 写入版本日志
     print("\n[+] 写入版本日志")
     print("=" * 30)
-    write_latest_log(current_build_number, current_release_date)
+    write_latest_log(display_build_number, current_release_date)
     
     # 执行物品详细信息提取
     print("\n[+] 执行物品详细信息提取")

@@ -62,6 +62,8 @@ class IconBuilderProcessor:
 
             print("[+] 加载SDE数据...")
             build_number = self.config.get("sde_build_number")
+            if build_number is not None:
+                build_number = str(build_number).split(".", 1)[0]
             sde_zip_dir = self.project_root / self.config["paths"]["sde_zip"]
             source_zip = None
             if build_number:
