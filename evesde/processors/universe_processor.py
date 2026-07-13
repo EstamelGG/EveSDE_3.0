@@ -345,7 +345,7 @@ class UniverseProcessor:
         try:
             conn = sqlite3.connect(str(db_file))
             cursor = conn.cursor()
-            self.process_universe_data_to_db(cursor, 'en')
+            self.process_universe_data_to_db(cursor)
             conn.commit()
             conn.close()
             print("[+] 单库更新完成")

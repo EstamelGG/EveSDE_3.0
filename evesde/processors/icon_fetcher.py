@@ -50,30 +50,44 @@ class IconProcessor:
         self.metadata = self.load_service_metadata()
     
     def load_service_metadata(self) -> Dict[str, Any]:
-        """加载service_metadata.json文件"""
-        print("[+] 加载service_metadata.json...")
-        
-        # 查找service_metadata.json文件
+        """加载图标索引。优先 icon_index.json（iec），回退 service_metadata.json。"""
+        print("[+] 加载图标元数据...")
+
+        # iec 模式: {"6": "type_6.png", ...}
+        index_files = list(self.icons_input_path.glob("**/icon_index.json"))
+        if index_files:
+            index_file = index_files[0]
+            print(f"[+] 找到 icon_index.json: {index_file}")
+            try:
+                with open(index_file, "r", encoding="utf-8") as f:
+                    raw = json.load(f)
+                # 统一为 {type_id: {"icon": filename}}，兼容后续 find_icon_from_metadata
+                metadata = {
+                    int(k): {"icon": v}
+                    for k, v in raw.items()
+                    if str(k).isdigit() and isinstance(v, str)
+                }
+                print(f"[+] 加载了 {len(metadata)} 个 Type ID 的图标索引")
+                return metadata
+            except Exception as e:
+                print(f"[x] 加载 icon_index.json 失败: {e}")
+
+        # service_bundle 模式: {"6": {"icon": "...", "bp": "..."}, ...}
         metadata_files = list(self.icons_input_path.glob("**/service_metadata.json"))
-        
         if not metadata_files:
-            print(f"[x] 未找到service_metadata.json文件在: {self.icons_input_path}")
+            print(f"[x] 未找到 icon_index.json / service_metadata.json: {self.icons_input_path}")
             return {}
-        
+
         metadata_file = metadata_files[0]
-        print(f"[+] 找到metadata文件: {metadata_file}")
-        
+        print(f"[+] 找到 service_metadata.json: {metadata_file}")
         try:
-            with open(metadata_file, 'r', encoding='utf-8') as f:
+            with open(metadata_file, "r", encoding="utf-8") as f:
                 metadata = json.load(f)
-            
-            # 转换键为整数
             int_metadata = {int(k): v for k, v in metadata.items() if k.isdigit()}
-            print(f"[+] 加载了 {len(int_metadata)} 个Type ID的图标元数据")
+            print(f"[+] 加载了 {len(int_metadata)} 个 Type ID 的图标元数据")
             return int_metadata
-            
         except Exception as e:
-            print(f"[x] 加载service_metadata.json失败: {e}")
+            print(f"[x] 加载 service_metadata.json 失败: {e}")
             return {}
     
     def get_type_ids_from_sde(self) -> List[int]:
@@ -189,7 +203,7 @@ class IconProcessor:
             return
         
         if not self.metadata:
-            print("[x] service_metadata.json未加载或为空")
+            print("[x] 图标元数据未加载或为空")
             return
         
         print(f"[+] 开始处理图标...")

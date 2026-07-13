@@ -452,7 +452,7 @@ class NPCShipClassifier:
             if unmatched_items:
                 print(f"\n[!] 未命中分类的物品（三个方法都失败）: {len(unmatched_items)} 个")
                 print("=" * 80)
-                for item in unmatched_items:
+                for item in unmatched_items[:10]:
                     print(f"  type_id: {item['type_id']:>8}, en_name: {item['en_name']:<40}, zh_name: {item['zh_name']}")
                 print("=" * 80)
             else:

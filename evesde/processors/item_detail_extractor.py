@@ -227,7 +227,7 @@ class ItemDetailExtractor:
         
         # 逐个查询和保存物品信息
         for i, type_id in enumerate(type_ids, 1):
-            if i % 100 == 0 or i == len(type_ids):
+            if i % 500 == 0 or i == len(type_ids):
                 print(f"[+] 进度: {i}/{len(type_ids)} ({i/len(type_ids)*100:.1f}%)")
             
             # 获取物品详细信息
