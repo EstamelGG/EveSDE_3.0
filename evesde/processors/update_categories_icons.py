@@ -14,50 +14,48 @@ from typing import Dict, Any
 
 
 def update_groups_with_icon_filename(cursor):
-    """根据 group_id 从 types 表获取 icon_filename，并更新 groups 表"""
+    """用组内代表物品图标无条件覆盖 groups.icon_filename（与 2.0 一致）。"""
     print("[+] 开始更新分组图标...")
-    
-    # 使用单个JOIN查询获取所有需要的数据（参考old版本）
+
     cursor.execute('''
         WITH RankedIcons AS (
-            SELECT 
+            SELECT
                 t.groupID,
                 t.icon_filename,
                 ROW_NUMBER() OVER (
-                    PARTITION BY t.groupID 
-                    ORDER BY 
-                        CASE WHEN t.published = 1 THEN 0 ELSE 1 END,  -- 优先已发布
-                        t.metaGroupID                                -- 然后按 metaGroupID 升序
+                    PARTITION BY t.groupID
+                    ORDER BY
+                        CASE WHEN t.published = 1 THEN 0 ELSE 1 END,
+                        t.metaGroupID
                 ) AS rn
             FROM types t
             WHERE t.icon_filename NOT IN (
-                "category_default.png", 
-                "type_default.png", 
-                "items_73_16_50.png", 
-                "items_7_64_15.png", 
-                "icon_0_64.png"
+                'category_default.png',
+                'type_default.png',
+                'items_73_16_50.png',
+                'items_7_64_15.png',
+                'icon_0_64.png'
             )
         )
         UPDATE groups
         SET icon_filename = COALESCE(
-            (SELECT icon_filename 
-             FROM RankedIcons 
+            (SELECT icon_filename
+             FROM RankedIcons
              WHERE groupID = groups.group_id AND rn = 1),
-            "category_default.png"
+            'category_default.png'
         );
     ''')
-    
-    # 获取更新统计
+
     cursor.execute('''
-        SELECT 
-            COUNT(*) as total_groups,
-            SUM(CASE WHEN icon_filename = "category_default.png" THEN 1 ELSE 0 END) as default_icons,
-            SUM(CASE WHEN icon_filename != "category_default.png" THEN 1 ELSE 0 END) as updated_icons
+        SELECT
+            COUNT(*) AS total_groups,
+            SUM(CASE WHEN icon_filename = 'category_default.png' THEN 1 ELSE 0 END) AS default_icons,
+            SUM(CASE WHEN icon_filename != 'category_default.png' THEN 1 ELSE 0 END) AS updated_icons
         FROM groups
     ''')
-    
+
     stats = cursor.fetchone()
-    print(f"[+] 分组图标更新完成:")
+    print("[+] 分组图标更新完成:")
     print(f"    总分组数: {stats[0]}")
     print(f"    使用默认图标: {stats[1]}")
     print(f"    使用物品图标: {stats[2]}")
