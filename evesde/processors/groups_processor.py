@@ -6,13 +6,13 @@
 """
 
 from evesde.paths import PROJECT_ROOT
-from evesde.utils.single_db import get_db_path
+from evesde.utils.single_db import get_db_path, open_item_db
 from evesde.utils.wide_i18n import wide_texts, names_row
 import json
 import sqlite3
 import time
 from pathlib import Path
-from typing import Dict, Any, List
+from typing import Dict, Any, List, Optional
 import evesde.processors.jsonl_loader as jsonl_loader
 import evesde.processors.icon_finder as icon_finder
 
@@ -178,6 +178,47 @@ class GroupsProcessor:
         print(f"    - 组: {groups_count} 个")
         print(f"    - 耗时: {end_time - start_time:.2f} 秒")
     
+    def backfill_icons_from_types(self, cursor: sqlite3.Cursor) -> None:
+        """用组内代表物品图标无条件覆盖 groups.icon_filename（与 2.0 一致）。"""
+        print("[+] 回填分组图标（自 types）...")
+        cursor.execute('''
+            WITH RankedIcons AS (
+                SELECT
+                    t.groupID,
+                    t.icon_filename,
+                    ROW_NUMBER() OVER (
+                        PARTITION BY t.groupID
+                        ORDER BY
+                            CASE WHEN t.published = 1 THEN 0 ELSE 1 END,
+                            t.metaGroupID
+                    ) AS rn
+                FROM types t
+                WHERE t.icon_filename NOT IN (
+                    'category_default.png',
+                    'type_default.png',
+                    'items_73_16_50.png',
+                    'items_7_64_15.png',
+                    'icon_0_64.png'
+                )
+            )
+            UPDATE groups
+            SET icon_filename = COALESCE(
+                (SELECT icon_filename
+                 FROM RankedIcons
+                 WHERE groupID = groups.group_id AND rn = 1),
+                'category_default.png'
+            );
+        ''')
+        cursor.execute('''
+            SELECT
+                COUNT(*) AS total_groups,
+                SUM(CASE WHEN icon_filename = 'category_default.png' THEN 1 ELSE 0 END) AS default_icons,
+                SUM(CASE WHEN icon_filename != 'category_default.png' THEN 1 ELSE 0 END) AS filled_icons
+            FROM groups
+        ''')
+        total, default_icons, filled = cursor.fetchone()
+        print(f"[+] 分组图标回填完成: 总计 {total}, 默认 {default_icons}, 已填 {filled}")
+
     def update_all_databases(self, config):
         """更新所有语言的数据库"""
         project_root = PROJECT_ROOT
@@ -188,17 +229,24 @@ class GroupsProcessor:
         self.load_groups_data()
         
         db_file = get_db_path(config)
-        db_file.parent.mkdir(parents=True, exist_ok=True)
         print(f"\n[+] 处理数据库: {db_file}")
         try:
-            conn = sqlite3.connect(str(db_file))
-            cursor = conn.cursor()
-            self.process_groups_to_db(cursor, 'en')
-            conn.commit()
-            conn.close()
+            with open_item_db(config) as conn:
+                self.process_groups_to_db(conn.cursor(), 'en')
             print("[+] 单库更新完成")
         except Exception as e:
             print(f"[x] 处理数据库 {db_file} 时出错: {e}")
+
+
+def backfill_group_icons(config: Optional[Dict[str, Any]] = None) -> bool:
+    """types 写入后回填 groups 图标。"""
+    if config is None:
+        config_path = PROJECT_ROOT / "config.json"
+        with open(config_path, "r", encoding="utf-8") as f:
+            config = json.load(f)
+    with open_item_db(config) as conn:
+        GroupsProcessor(config).backfill_icons_from_types(conn.cursor())
+    return True
 
 
 def main(config=None):

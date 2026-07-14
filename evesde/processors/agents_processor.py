@@ -10,7 +10,7 @@ agent字段包含agentTypeID、divisionID、isLocator、level等信息
 """
 
 from evesde.paths import PROJECT_ROOT
-from evesde.utils.single_db import get_db_path
+from evesde.utils.single_db import get_db_path, open_item_db
 from evesde.utils.wide_i18n import wide_texts, names_row, names_ddl, NAME_COLS
 import json
 import sqlite3
@@ -168,14 +168,10 @@ class AgentsProcessor:
         self.load_agents_data()
         
         db_file = get_db_path(config)
-        db_file.parent.mkdir(parents=True, exist_ok=True)
         print(f"\n[+] 处理数据库: {db_file}")
         try:
-            conn = sqlite3.connect(str(db_file))
-            cursor = conn.cursor()
-            self.process_agents_data(cursor)
-            conn.commit()
-            conn.close()
+            with open_item_db(config) as conn:
+                self.process_agents_data(conn.cursor())
             print("[+] 单库更新完成")
         except Exception as e:
             print(f"[x] 处理数据库 {db_file} 时出错: {e}")
@@ -195,6 +191,11 @@ def main(config=None):
     # 创建处理器并执行
     processor = AgentsProcessor(config)
     processor.update_all_databases(config)
+
+    # 代理人写入后再补本地化（原独立回填步骤）
+    from evesde.processors.agent_localization_processor import AgentLocalizationProcessor
+    print("[+] 回填代理人本地化...")
+    AgentLocalizationProcessor(config).update_agents_localization()
     
     print("\n[+] 代理人处理器完成")
 

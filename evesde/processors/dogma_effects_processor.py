@@ -7,7 +7,7 @@ Dogma效果处理器模块
 """
 
 from evesde.paths import PROJECT_ROOT
-from evesde.utils.single_db import get_db_path
+from evesde.utils.single_db import get_db_path, open_item_db
 from evesde.utils.wide_i18n import wide_texts, names_row
 import json
 import sqlite3
@@ -163,17 +163,34 @@ class DogmaEffectsProcessor:
         self.load_dogma_effects_data()
         
         db_file = get_db_path(config)
-        db_file.parent.mkdir(parents=True, exist_ok=True)
         print(f"\n[+] 处理数据库: {db_file}")
         try:
-            conn = sqlite3.connect(str(db_file))
-            cursor = conn.cursor()
-            self.process_dogma_effects_to_db(cursor, 'en')
-            conn.commit()
-            conn.close()
+            with open_item_db(config) as conn:
+                cursor = conn.cursor()
+                self.process_dogma_effects_to_db(cursor, 'en')
+                self._apply_effect_patches(cursor)
             print("[+] 单库更新完成")
         except Exception as e:
             print(f"[x] 处理数据库 {db_file} 时出错: {e}")
+
+    def _apply_effect_patches(self, cursor: sqlite3.Cursor) -> None:
+        """应用 data/dogma_effect_patches.json（原独立回填步骤）。"""
+        patch_path = PROJECT_ROOT / "data" / "dogma_effect_patches.json"
+        if not patch_path.exists():
+            print(f"[!] 修补文件不存在，跳过: {patch_path}")
+            return
+        with patch_path.open("r", encoding="utf-8") as f:
+            patches = json.load(f)
+        if not patches:
+            return
+        for patch in patches:
+            effect_name = patch["effect_name"]
+            modifier_info = json.dumps(patch["modifier_info"], separators=(",", ":"))
+            cursor.execute(
+                "UPDATE dogmaEffects SET modifier_info = ? WHERE effect_name = ?",
+                (modifier_info, effect_name),
+            )
+            print(f"[+] dogmaEffects 已修补 {cursor.rowcount} 条 {effect_name}")
 
 
 def main(config=None):
