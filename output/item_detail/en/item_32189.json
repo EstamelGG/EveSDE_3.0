@@ -1,0 +1,13 @@
+{
+  "type_id": 32189,
+  "name": "Shanty Town Gate Clearance",
+  "description": "This gate clearance allows the user to unlock a specific acceleration gate.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

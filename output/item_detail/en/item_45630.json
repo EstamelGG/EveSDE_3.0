@@ -1,0 +1,121 @@
+{
+  "type_id": 45630,
+  "name": "Proteus Core - Friction Extension Processor",
+  "description": "The friction extension processor capitalizes on recent advances made in fullerene-based component development. The system works on a similar design to interdiction spheres by expanding a ship's warp interdiction range. The technology behind it has existed in theory for some years, dating back to when engineers first began development of Heavy Interdiction Cruisers. They noticed an increased efficiency in the electronic disruption of fullerene molecules when combined with the static disruption energies of the spheres. When more fullerene-based materials suddenly became available, it was only a matter of further testing before theory became reality.",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1200000.0,
+  "category_name": "Subsystem",
+  "group_name": "Core Subsystem",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 30546.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "subSystemSlot",
+      "value": 125.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hiSlotModifier",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "High Slot Modifier",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "medSlotModifier",
+      "value": 2.0,
+      "categoryID": 0,
+      "display_name": "Medium Slot Modifier",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "lowSlotModifier",
+      "value": 2.0,
+      "categoryID": 0,
+      "display_name": "Low Slot Modifier",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "fitsToShipType",
+      "value": 29988.0,
+      "categoryID": 0,
+      "display_name": "Restricted to Ship Type",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "subsystemBonusGallenteCore",
+      "value": -5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "subsystemBonusGallenteCore2",
+      "value": 7.5,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "subsystemBonusGallenteCore3",
+      "value": 15.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b><u>Additional Base Stats</b></u>"
+    },
+    {
+      "content": "+2 Mid Slots, +2 Low Slots"
+    },
+    {
+      "content": "<b>7.5%</b> bonus to <a href=showinfo:447>Warp Scrambler</a> and <a href=showinfo:3242>Warp Disruptor</a> range"
+    },
+    {
+      "content": "<b>15%</b> bonus to the benefits of overheating <a href=showinfo:447>Warp Scrambler</a> and <a href=showinfo:3242>Warp Disruptor</a> modules"
+    },
+    {
+      "content": "<b>5%</b> reduction in module damage from overheating"
+    }
+  ]
+}

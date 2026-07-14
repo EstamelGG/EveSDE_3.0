@@ -1,0 +1,13 @@
+{
+  "type_id": 81599,
+  "name": "Chemal Tech Geneticist",
+  "description": "A scientist employed by Chemal Tech that specializes in human cloning.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 65.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

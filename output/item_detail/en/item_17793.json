@@ -1,0 +1,13 @@
+{
+  "type_id": 17793,
+  "name": "Amarr TIL-1 Nexus Chip",
+  "description": "This small data chip stores the key elements of a ship's artificial intelligence system, and is used primarily for controlling the vessel's autonomous functions. This particular chip has been modified by top Viziam scientists for the Imperial Navy, made to be of better quality than what is available on the open market. \n\nThe TIL-1 chip is designed for battleship class vessels.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

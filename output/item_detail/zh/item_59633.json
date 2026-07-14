@@ -1,0 +1,35 @@
+{
+  "type_id": 59633,
+  "name": "超强型暗影戒卫增效体",
+  "description": "这款产品是EVE姐妹会的研究军团“避难会”的研究成果，它可以克隆飞行员任意隐形操作的稳定隐形持续时间。\n\n\n\n通过在神经药物中加入精心调配的比例的鸡尾酒，避难会的科学家成功研制出了“暗影戒卫”增效剂。这种强效配方可以提高克隆飞行员持续处理复杂的量子波动计算，从而维持稳定的隐形力场的能力。姐妹会在他们的探索和秘密营救任务中使用这款增效剂，也会向可靠的克隆飞行员出售。\n\n\n\n这种增效剂的效果过于强大，所以通常情况下只能维持最多3分钟。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "boosterDuration",
+      "value": 1800000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 14.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "stabilizeCloakDurationBonus",
+      "value": 200.0,
+      "categoryID": 7,
+      "display_name": "隐形稳定持续时间加成",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

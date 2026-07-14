@@ -1,0 +1,13 @@
+{
+  "type_id": 28896,
+  "name": "Router Encryption Key",
+  "description": "This datacore looks harmless. You find it hard to believe that such a small thing holds the secret to controlling what so many people believe.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.75,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

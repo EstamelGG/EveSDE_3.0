@@ -1,0 +1,21 @@
+{
+  "type_id": 25590,
+  "name": "Contaminated Nanite Compound",
+  "description": "A soup of nanite assemblers typically used in armor manufacturing processes. This compound needs to go through purification before it's of use again.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Salvaged Materials",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

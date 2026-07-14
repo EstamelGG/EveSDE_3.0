@@ -1,0 +1,42 @@
+{
+  "type_id": 59189,
+  "name": "采矿闪击距离提升药剂 I",
+  "description": "<b>采矿激光器最佳射程提高10%，持续时间4小时</b>\n\n这款增效剂在兑换后会直接对人物使用，而非放置在仓库中。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "boosterDuration",
+      "value": 14400000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "maxRangeBonus",
+      "value": 10.0,
+      "categoryID": 37,
+      "display_name": "最佳射程加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    }
+  ],
+  "traits": []
+}

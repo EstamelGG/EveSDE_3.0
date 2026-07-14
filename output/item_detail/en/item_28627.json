@@ -1,0 +1,84 @@
+{
+  "type_id": 28627,
+  "name": "Azure Ice",
+  "description": "Interstellar ices are formed by the accretion of gas molecules onto silicate dust particles. Azure ice forms under the same circumstances as \"blue ice,\" but due to its slightly different chemical composition, it contains substantially fewer oxygen isotopes by volume than its blue cousin, rendering it a \"lesser\" material.",
+  "volume": 1000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Asteroid",
+  "group_name": "Ice",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 16281.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 18025.0,
+      "categoryID": 7,
+      "display_name": "Reprocessing Skill",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "asteroidRadiusGrowthFactor",
+      "value": 80.0,
+      "categoryID": 31,
+      "display_name": "Asteroid radius size multiplier",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "asteroidRadiusUnitSize",
+      "value": 1000.0,
+      "categoryID": 31,
+      "display_name": "Asteroid unit radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "Stasis Webifier Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 16264.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "ignoreMiningWaste",
+      "value": 1.0,
+      "categoryID": 51,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "ignoreMiningCrits",
+      "value": 1.0,
+      "categoryID": 51,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 21514,
+  "name": "Doctored Arrivals & Departures Logs",
+  "description": "These Arrivals & Departures logs have been carefully falsified and are ready for insertion into a particular station's data banks.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

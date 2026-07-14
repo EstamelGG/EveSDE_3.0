@@ -1,0 +1,13 @@
+{
+  "type_id": 90892,
+  "name": "Men's Empire Exploration Suit crate",
+  "description": "This crate grants a <b>men's</b> version of the <b>exploration suit</b> based on the capsuleer's <b>starting empire</b>.",
+  "volume": 4.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

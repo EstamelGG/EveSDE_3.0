@@ -1,0 +1,13 @@
+{
+  "type_id": 48377,
+  "name": "联邦大奖赛白银包裹",
+  "description": "这是联邦大奖赛白银包裹，奖励给那些在这次新伊甸克隆飞行员竞速大赛中做出突出贡献的人。在众多的赞助商推动下，这个包裹中可能会包括可用的增效剂和大脑加速器。",
+  "volume": 10000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

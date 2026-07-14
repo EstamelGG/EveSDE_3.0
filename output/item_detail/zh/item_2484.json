@@ -1,0 +1,35 @@
+{
+  "type_id": 2484,
+  "name": "风暴行星高级工业设施",
+  "description": "这座工业设施并没有使用繁复措施去保护其中的生产线不受环境的影响，相反，设计师利用周围所产生的热能、干扰以及强大压力来为整座设施提供能量。冰体行星上的工厂设施可能需要非常先进和强大的散热设备。而在等离子行星上，工厂设施常常会需要其磁线圈所产生的大部分电量，这些磁线圈都按照当地的离子风进行了调整。通过利用各种星球不同的本土特性，人们不再需要花费建筑大规模工厂的高成本，这些成本原本包括了保护性外壳，环境隔离层以及强化的建筑基础。",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "行星工业",
+  "group_name": "处理设施",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 700.0,
+      "categoryID": 7,
+      "display_name": "能量负荷",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 500.0,
+      "categoryID": 9,
+      "display_name": "CPU载荷",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 2017.0,
+      "categoryID": 7,
+      "display_name": "行星类型限制",
+      "unit_name": "类别ID"
+    }
+  ],
+  "traits": []
+}

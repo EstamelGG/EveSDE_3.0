@@ -1,0 +1,21 @@
+{
+  "type_id": 16650,
+  "name": "镝",
+  "description": "一种相对稀有的柔软金属，在无机酸中易溶解。主要用于激光材料的生产。",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 8550.0,
+  "category_name": "材料",
+  "group_name": "卫星原料",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

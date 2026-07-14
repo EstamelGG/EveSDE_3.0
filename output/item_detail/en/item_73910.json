@@ -1,0 +1,70 @@
+{
+  "type_id": 73910,
+  "name": "Elite Infomorph Psychology",
+  "description": "Advanced training for those Capsuleers who want to push clone technology to its limits.\n\nAllows 1 additional jump clone per level.\n\nNote: Clones can only be installed in stations with medical facilities or in ships with clone vat bays. Installed clones are listed in the character sheet.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Skill",
+  "group_name": "Neural Enhancement",
+  "attributes": [
+    {
+      "attribute_name": "primaryAttribute",
+      "value": 164.0,
+      "categoryID": 7,
+      "display_name": "Primary attribute",
+      "unit_name": "attributeID"
+    },
+    {
+      "attribute_name": "secondaryAttribute",
+      "value": 168.0,
+      "categoryID": 7,
+      "display_name": "Secondary attribute",
+      "unit_name": "attributeID"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 33407.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "skillTimeConstant",
+      "value": 12.0,
+      "categoryID": 7,
+      "display_name": "Training time multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "skillLevel",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Level",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "maxJumpClones",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Maximum Jump Clones",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "canNotBeTrainedOnTrial",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

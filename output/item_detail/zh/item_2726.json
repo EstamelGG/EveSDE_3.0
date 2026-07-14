@@ -1,0 +1,13 @@
+{
+  "type_id": 2726,
+  "name": "一大群看门人",
+  "description": "看门人负责物业（比如公寓或办公室）的清洁、管理取暖系统并进行一些简单的修理工作。",
+  "volume": 500.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100000.0,
+  "category_name": "常用物品",
+  "group_name": "有生货物",
+  "attributes": [],
+  "traits": []
+}

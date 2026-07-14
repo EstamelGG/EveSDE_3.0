@@ -1,0 +1,13 @@
+{
+  "type_id": 52310,
+  "name": "辐射吸收推进器",
+  "description": "三神裔舰船以及其他采用采用相似设计的舰船所使用的推进系统的组件。可能也可用于其他科技种类中。\n\n\n\n这种推进技术显然是与三神裔能量系统搭配使用的，利用作为舰船核心的奇点的量子效应放出的辐射来作为动力。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "建造组件",
+  "attributes": [],
+  "traits": []
+}

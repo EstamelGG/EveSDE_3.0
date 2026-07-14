@@ -1,0 +1,21 @@
+{
+  "type_id": 16652,
+  "name": "Promethium",
+  "description": "An extremely radioactive luminescent metal, sometimes used as a heating component and a building block for laser generators.",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 7260.0,
+  "category_name": "Material",
+  "group_name": "Moon Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

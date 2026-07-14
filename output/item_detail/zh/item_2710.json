@@ -1,0 +1,13 @@
+{
+  "type_id": 2710,
+  "name": "大箱的建筑模块",
+  "description": "金属支架、塑性钢混凝土和纤维模块都是宇宙中使用非常普遍的建筑材料。",
+  "volume": 700.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

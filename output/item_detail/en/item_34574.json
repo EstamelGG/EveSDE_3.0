@@ -1,0 +1,13 @@
+{
+  "type_id": 34574,
+  "name": "CharacterLegacy14",
+  "description": "Legacy character typeID (but still valid).",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Owner",
+  "group_name": "Character",
+  "attributes": [],
+  "traits": []
+}

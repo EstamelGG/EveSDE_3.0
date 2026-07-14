@@ -1,0 +1,13 @@
+{
+  "type_id": 13267,
+  "name": "Janitor",
+  "description": "The janitor is the person who is in charge of keeping the premises of a building (as an apartment or office) clean, tends the heating system, and makes minor repairs.",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

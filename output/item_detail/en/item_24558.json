@@ -1,0 +1,21 @@
+{
+  "type_id": 24558,
+  "name": "Capital Ship Maintenance Bay",
+  "description": "Massive metal sheets and stacks of equipment which links together in modular fashion to form a gigantic maintenance bay, for insertion into capital ships.",
+  "volume": 2000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000.0,
+  "category_name": "Commodity",
+  "group_name": "Capital Construction Components",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

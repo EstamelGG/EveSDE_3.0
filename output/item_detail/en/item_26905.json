@@ -1,0 +1,13 @@
+{
+  "type_id": 26905,
+  "name": "Slave Ownership Record",
+  "description": "A Record of owner ship of a single slave, previous owners, work history and current state of health",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

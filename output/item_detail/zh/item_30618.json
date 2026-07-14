@@ -1,0 +1,21 @@
+{
+  "type_id": 30618,
+  "name": "毁坏的装甲纳米机器人",
+  "description": "从一片冬眠者废墟中发现的古老装置，它已经完全不能工作了。就这么一个装置，储藏了无数的纳米装配机器人，由此可以对冬眠者的防御系统进行非常细致的研究。不幸的是，这个装置中所有的纳米装配机器人都熔接在了一起，在这个设备内部造成了毁灭性的连锁反应。   尽管这个东西只剩下了一个空壳，要是有过硬的技能再加上连猜带蒙的运气，可能还有那么一线希望从中提取足够用于逆向工程的信息。",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "古文物",
+  "group_name": "冬眠者的古老防御装备",
+  "attributes": [
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

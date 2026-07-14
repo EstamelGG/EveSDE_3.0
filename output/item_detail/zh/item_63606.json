@@ -1,0 +1,147 @@
+{
+  "type_id": 63606,
+  "name": "寂静G-1增效剂",
+  "description": "领取后立即生效。基础持续时间：2小时。护盾值、装甲值和结构值提高1%，舰船灵活性提高1%，炮台跟踪速度提高1%，导弹爆炸速度提高1%，电弧弦投射器的爆炸半径和爆炸速度提高1%，电容回充速率提高1%，无人机伤害提高1%，采矿激光器和冰矿采集器的单次运转时间降低1%，最大锁定距离提高2%，感应强度提高2%，探针扫描强度提高2%",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "agilityBonus",
+      "value": -1.0,
+      "categoryID": 7,
+      "display_name": "惯性调整系数",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "damageMultiplierBonus",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "伤害倍增系数加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "maxTargetRangeBonus",
+      "value": 2.0,
+      "categoryID": 37,
+      "display_name": "最大锁定范围加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "capRechargeBonus",
+      "value": -1.0,
+      "categoryID": 5,
+      "display_name": "电容回充时间缩减",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "hullHpBonus",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "HP加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 7200000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "armorHpBonus",
+      "value": 1.0,
+      "categoryID": 3,
+      "display_name": "装甲值加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldCapacityBonus",
+      "value": 1.0,
+      "categoryID": 2,
+      "display_name": "护盾容量加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "trackingSpeedBonus",
+      "value": 1.0,
+      "categoryID": 37,
+      "display_name": "跟踪速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "iceHarvestCycleBonus",
+      "value": -1.0,
+      "categoryID": 7,
+      "display_name": "循环时间加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanStrengthBonus",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "探针扫描强度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "aoeVelocityBonus",
+      "value": 1.0,
+      "categoryID": 37,
+      "display_name": "爆炸速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "aoeCloudSizeBonus",
+      "value": -1.0,
+      "categoryID": 37,
+      "display_name": "爆炸半径加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanGravimetricStrengthPercent",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "引力强度",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanLadarStrengthPercent",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "光雷达强度",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrengthPercent",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "磁力强度",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanRadarStrengthPercent",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "雷达强度",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    }
+  ],
+  "traits": []
+}

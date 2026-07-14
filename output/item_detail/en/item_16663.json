@@ -1,0 +1,21 @@
+{
+  "type_id": 16663,
+  "name": "Caesarium Cadmide",
+  "description": "A dark-golden hued alloy composed of cadmium and caesium. Often confused with tritanium due to its tint. An essential ingredient in various composites and condensates.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Intermediate Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

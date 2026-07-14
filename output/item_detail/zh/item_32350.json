@@ -1,0 +1,13 @@
+{
+  "type_id": 32350,
+  "name": "目标证据：异常现象",
+  "description": "这份文档被存放在一个由帝国特工保护的空间异常区域中。它的作用是，作为在训练任务中使用舰载扫描设备成功定位空间异常并抵达这里的克隆飞行员的实物证据。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

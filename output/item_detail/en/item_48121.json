@@ -1,0 +1,13 @@
+{
+  "type_id": 48121,
+  "name": "Triglavian Survey Database",
+  "description": "Initial analysis of this database indicates it contains a significant quantity of data generated from regular surveys of Abyssal Deadspace by the Triglavian Collective. Undoubtedly, the Triglavians have gathered a vast amount of information on abyssal environments. This data is likely to be vital to their mastery of the shifting depths of the Abyss.\n\nFull recovery and deciphering of the data requires specialist skills and equipment, but the possibilities for exploiting the information lend value to any databases recovered intact from Abyssal Deadspace. It is likely that this database will command a good price on the market from a buyer willing and able to make use of its contents.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Triglavian Data",
+  "attributes": [],
+  "traits": []
+}

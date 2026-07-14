@@ -1,0 +1,13 @@
+{
+  "type_id": 3483,
+  "name": "被捕的平民",
+  "description": "在各个独立的定居点和小型空间站里，居住着无数的平民。尽管这些偏僻的地方条件通常比较艰苦，但人们往往能得到宁静平和的生活。萨沙领导者特别能够理解这一点，他们正是靠掠夺这些人来过日子，因为就算这些人消失了也不会受到特别的重视。",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "常用物品",
+  "group_name": "有生货物",
+  "attributes": [],
+  "traits": []
+}

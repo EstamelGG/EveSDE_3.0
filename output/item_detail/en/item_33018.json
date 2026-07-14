@@ -1,0 +1,13 @@
+{
+  "type_id": 33018,
+  "name": "Ship Fitting Guide",
+  "description": "My Raven was equipped with the following:\n\nHIGH\n06 x Cruise Missile Launcher I\n01 x SMALL TRACTOR BEAM 1\n01 x SALVAGER I\n\nMEDIUM\n04 x LARGE SHIELD EXTENDERS\n01 x 'HYPHNOS' ECM\n01 x MEDIUM SHIELD BOOSTER\n\nLOW\n01 x EMERGENCY DAMAGE CONTROL\n01 x ARMOR KINETIC HARDENER I\n01 x ARMOR THREMIC HARDENER I\n02 x WARP CORE STABILIZER I \n\nDRONES\n02 x WARRIOR I DRONES\n03 x HAMMERHEAD I DRONES\n\nUPGRADES\n01 x ROCKET FUEL CACHE PARTINTION I\n01 x BAY LOADING ACCELERATOR I",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.01,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

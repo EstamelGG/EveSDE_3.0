@@ -1,0 +1,28 @@
+{
+  "type_id": 2374,
+  "name": "Broken Recursive Computing Module",
+  "description": "Not all automated functions are delicate or complicated enough to warrant advanced computer hardware; relatively mundane tasks are best when assigned to an RCM bank. These sturdy, reliable processing units are able to effectively handle most of the day-to-day operations of stations, starships, and stargates.",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 250.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 250.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

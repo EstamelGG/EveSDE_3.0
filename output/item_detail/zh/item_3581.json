@@ -1,0 +1,126 @@
+{
+  "type_id": 3581,
+  "name": "缴获的萨沙数据分析仪",
+  "description": "在最近几次的清剿行动中，统合部从被摧毁的萨沙舰船中缴获了一定数量的这种设备，但他们并没有透露具体数目。这些设备看上去像是标准的数据分析仪，但将它们与一艘经过相应改造的舰船上的系统连接之后，这些设备的能力可以获得很大提升。<br><br>虽然DED对这种设备内部运作机制的官方解释是“不确定”，统合部还是将它们分发给了克隆飞行员，希望它们能在与库瓦柯伊这一派人的较量中发挥作用。\n\n\n\n注意：由于最近发现的特定昇威递推计算模块的漏洞，这个分析仪也可能用于收集关于昇威建筑增强时间的机密信息。",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1800.0,
+  "category_name": "装备",
+  "group_name": "数据采掘设备",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 20.0,
+      "categoryID": 5,
+      "display_name": "启用耗电量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 0.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 0.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 10000.0,
+      "categoryID": 29,
+      "display_name": "最佳射程",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 8000.0,
+      "categoryID": 7,
+      "display_name": "作用时间/单次运转时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 21718.0,
+      "categoryID": 8,
+      "display_name": "副技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "accessDifficultyBonus",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "获取成功率",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "disallowRepeatingActivation",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "无法自动重复",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "canFitShipType1",
+      "value": 3532.0,
+      "categoryID": 1,
+      "display_name": "只能装配在",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "virusCoherence",
+      "value": 80.0,
+      "categoryID": 7,
+      "display_name": "病毒同步率",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "virusStrength",
+      "value": 40.0,
+      "categoryID": 7,
+      "display_name": "病毒强度",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "virusElementSlots",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "病毒功能元槽位",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

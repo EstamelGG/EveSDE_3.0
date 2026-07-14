@@ -1,0 +1,13 @@
+{
+  "type_id": 2684,
+  "name": "大箱的哈洛勒干草",
+  "description": "生长在哈洛勒星系中行星表面的一种植物。它有着脆弱、微黄的叶子，燃烧起来非常缓慢，并且产生气味好闻的烟气，传说吸入后有舒缓神经的功效。",
+  "volume": 400.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 400000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

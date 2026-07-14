@@ -1,0 +1,13 @@
+{
+  "type_id": 32201,
+  "name": "Archives Passkey",
+  "description": "These electronic devices are commonly used as long-range digital passkeys, allowing access to secure facilities directly from space.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

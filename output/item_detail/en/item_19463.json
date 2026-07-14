@@ -1,0 +1,13 @@
+{
+  "type_id": 19463,
+  "name": "Autrech Voucher",
+  "description": "This is a candidate voucher for Eman Autrech, used to determine the biggest supporters of this particular candidate for selecting candidate emissaries.",
+  "volume": 0.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

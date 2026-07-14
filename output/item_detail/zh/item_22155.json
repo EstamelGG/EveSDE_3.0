@@ -1,0 +1,13 @@
+{
+  "type_id": 22155,
+  "name": "西斯普尔的保安监视器日志",
+  "description": "这些保安监视器日志主要记录了几周来西斯普尔私人产业的人员进出状况。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

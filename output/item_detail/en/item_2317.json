@@ -1,0 +1,28 @@
+{
+  "type_id": 2317,
+  "name": "Oxides",
+  "description": "Technically, any chemical compound that contains at least one oxygen atom is an oxide, though some are far more valuable than others. Once broken down and separated from waste material, many oxides can be applied to various industrial processes.",
+  "volume": 0.75,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Planetary Commodities",
+  "group_name": "Refined Commodities - Tier 2",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 7200.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 7200.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

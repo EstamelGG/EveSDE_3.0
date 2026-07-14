@@ -1,0 +1,13 @@
+{
+  "type_id": 88179,
+  "name": "黑体加速器",
+  "description": "该装置的具体性质未知。这是流浪者无畏舰的核心部件，能够有规律地发射黑体辐射脉冲。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

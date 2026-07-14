@@ -1,0 +1,21 @@
+{
+  "type_id": 30258,
+  "name": "谐波校准矩阵",
+  "description": "在进行空间跃迁的时候，舰船需要先进行对齐机动，而谐波校准矩阵（简称RCM）就是专门负责这个机动执行的舰载设备。冬眠者无人机RCM系统的工作原理同当代舰船相比是完全不同的，它们在最终运算中所产生的对齐角总是唯一的。尽管冬眠者RCM设备的内在运算机制目前还是一个没有解答的秘密，但它的矩阵功能却是有极高的预知性和可靠性，它所进行的跃迁也因此具有较高的效率。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "远古打捞",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

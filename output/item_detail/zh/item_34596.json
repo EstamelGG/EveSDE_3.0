@@ -1,0 +1,21 @@
+{
+  "type_id": 34596,
+  "name": "侵噬链接蓝图 II",
+  "description": "这个侵噬链接由天主凝聚会通过对流浪者科技的逆向工程研发。它似乎使用了古老的朱庇特科技和材料，使人机之间的交互效率提升到了我们以前从来未敢想过的高度。这种技术已经证明是与主权基础设施进行交互的最有效方式。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "蓝图",
+  "group_name": "侵噬链接蓝图",
+  "attributes": [
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    }
+  ],
+  "traits": []
+}

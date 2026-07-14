@@ -1,0 +1,13 @@
+{
+  "type_id": 3727,
+  "name": "Plutonium",
+  "description": "Plutonium is used in arms manufacturing, among other things, making it a steady trade commodity.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2000.0,
+  "category_name": "Commodity",
+  "group_name": "Radioactive",
+  "attributes": [],
+  "traits": []
+}

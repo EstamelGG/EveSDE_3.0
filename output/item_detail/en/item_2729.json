@@ -1,0 +1,13 @@
+{
+  "type_id": 2729,
+  "name": "Crates of Consumer Electronics",
+  "description": "Consumer electronics encompass a wide variety of individual goods, from entertainment media and personal computers to slave collars and children's toys.",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 40000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

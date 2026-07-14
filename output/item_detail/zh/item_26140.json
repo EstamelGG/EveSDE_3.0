@@ -1,0 +1,13 @@
+{
+  "type_id": 26140,
+  "name": "自由采集者",
+  "description": "一个自由采集者。",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "常用物品",
+  "group_name": "有生货物",
+  "attributes": [],
+  "traits": []
+}

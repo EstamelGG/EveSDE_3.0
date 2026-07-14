@@ -1,0 +1,13 @@
+{
+  "type_id": 80382,
+  "name": "深流适应性容器",
+  "description": "这个容器的设计初衷是让克隆飞行员在安全空间层以外的深渊深处探险时能够幸存，因此其内部设置始终是个谜。",
+  "volume": 6.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,84 @@
+{
+  "type_id": 90041,
+  "name": "棱柱石",
+  "description": "棱柱石是一种漂砾矿石。经过重新处理后，它将坍缩成<b>多种不同矿物之一</b>。棱柱岩必须压缩成<a href=showinfo:90307>高密度棱柱岩</a>才能用于反应。这种矿石的独特属性源于基础维度的不稳定性。它是在一个不可知的高维环境中形成的。",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "棱柱岩",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 90040.0,
+      "categoryID": 7,
+      "display_name": "回收再生技能",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "asteroidRadiusGrowthFactor",
+      "value": 0.425,
+      "categoryID": 31,
+      "display_name": "小行星半径系数",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "asteroidRadiusUnitSize",
+      "value": 600.0,
+      "categoryID": 31,
+      "display_name": "小行星单位半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "停滞缠绕抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 90041.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "ignoreMiningWaste",
+      "value": 0.0,
+      "categoryID": 51,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "ignoreMiningCrits",
+      "value": 0.0,
+      "categoryID": 51,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

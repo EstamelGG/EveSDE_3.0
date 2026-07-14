@@ -1,0 +1,13 @@
+{
+  "type_id": 2653,
+  "name": "Crates of Vaccine Injectors",
+  "description": "These single-use syringes contain a predetermined dose of adaptive vaccines designed to counteract almost any known virus.",
+  "volume": 90.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 90000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

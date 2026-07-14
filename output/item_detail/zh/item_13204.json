@@ -1,0 +1,13 @@
+{
+  "type_id": 13204,
+  "name": "大教堂的砖块",
+  "description": "来自泰罗曼大教堂的砖头，这座大教堂是献给那位据说拥有超视能力的圣人的。每块砖头都受过使徒的祝福，甚至连泥浆也使用圣水调和，这样整座建筑到处都是圣洁的。只要靠近其中哪怕一块砖头，你都会离神更近一步，所以现在好好表现吧。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,21 @@
+{
+  "type_id": 80000,
+  "name": "过期的灾变伽玛纤维",
+  "description": "这个深渊纤维会将<b>两艘T1巡洋舰</b>拉入充满伽玛射线脉冲波残留的放射性余波的深渊空间层中，虽然会<b>降低爆炸抗性</b>，但也会<b>提高舰船护盾强度</b>。理性思维社团的科学家在深渊空间的这片星域内侦测到了能量飙升现象，说明这里近期发生了大规模战斗。通过正在进行的活动可以发现多艘舰船的踪迹。理性思维社团号召克隆飞行员部署战列巡洋舰并展开调查，希望能获取前沿科技和数据。随着导管崩塌，附近的空间和时间也发生严重扭曲，完全与外界隔绝。因此难以分辨到底是离开还是进入了安全区。该空间层的难度为“困难”，对于战斗经验丰富的克隆飞行员而言易如反掌。<b><color=yellow>警告：</color></b>深渊空间的环境极其严苛和无情。<b><color=yellow>30分钟</color></b>后，跃迁力场将会彻底崩塌，<b><color=yellow>舰船和太空舱也会随之灰飞烟灭</color></b>。三神裔初始导管将允许启动的舰船返回已知空间。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "常用物品",
+  "group_name": "过期的深渊战场纤维",
+  "attributes": [
+    {
+      "attribute_name": "FilamentDescriptionMessageID",
+      "value": 561098.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

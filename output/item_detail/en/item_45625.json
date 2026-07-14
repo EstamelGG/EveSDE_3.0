@@ -1,0 +1,131 @@
+{
+  "type_id": 45625,
+  "name": "Tengu Core - Electronic Efficiency Gate",
+  "description": "New technologies have resulted in a noticeable increase in CPU efficiency, as better nanotech enables further miniaturization of circuits, the result of which is a marked decrease in system bottlenecking. This electronic efficiency gate capitalizes on that technology, offering a pilot greater CPU output and significantly improved sensor integrity.",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1200000.0,
+  "category_name": "Subsystem",
+  "group_name": "Core Subsystem",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 30548.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "maxLockedTargetsBonus",
+      "value": 1.0,
+      "categoryID": 37,
+      "display_name": "Maximum Locked Targets Bonus",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "cpuOutputBonus2",
+      "value": 25.0,
+      "categoryID": 1,
+      "display_name": "CPU Output Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "subSystemSlot",
+      "value": 125.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hiSlotModifier",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "High Slot Modifier",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "medSlotModifier",
+      "value": 3.0,
+      "categoryID": 0,
+      "display_name": "Medium Slot Modifier",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "lowSlotModifier",
+      "value": 1.0,
+      "categoryID": 0,
+      "display_name": "Low Slot Modifier",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "fitsToShipType",
+      "value": 29984.0,
+      "categoryID": 0,
+      "display_name": "Restricted to Ship Type",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "subsystemBonusCaldariCore",
+      "value": 15.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "subsystemBonusCaldariCore2",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b>25%</b> bonus to ship CPU output"
+    },
+    {
+      "content": "<b><u>Additional Base Stats</b></u>"
+    },
+    {
+      "content": "+3 Mid Slots, +1 Low Slot"
+    },
+    {
+      "content": "+1 max locked target"
+    },
+    {
+      "content": "<b>15%</b> bonus to ship sensor strength"
+    },
+    {
+      "content": "<b>5%</b> bonus to max targeting range"
+    }
+  ]
+}

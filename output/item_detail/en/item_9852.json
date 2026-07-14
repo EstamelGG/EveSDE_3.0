@@ -1,0 +1,13 @@
+{
+  "type_id": 9852,
+  "name": "Tobacco",
+  "description": "Tubular rolls of tobacco designed for smoking. The tube consists of finely shredded tobacco enclosed in a paper wrapper and is generally outfitted with a filter tip at the end.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "Commodity",
+  "group_name": "General",
+  "attributes": [],
+  "traits": []
+}

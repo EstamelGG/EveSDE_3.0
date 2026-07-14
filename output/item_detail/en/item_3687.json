@@ -1,0 +1,13 @@
+{
+  "type_id": 3687,
+  "name": "Electronic Parts",
+  "description": "These basic elements of all electronic hardware are sought out by those who require spare parts in their hardware. Factories and manufacturers take these parts and assemble them into finished products, which are then sold on the market.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "General",
+  "attributes": [],
+  "traits": []
+}

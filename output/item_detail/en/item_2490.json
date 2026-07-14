@@ -1,0 +1,35 @@
+{
+  "type_id": 2490,
+  "name": "Oceanic Basic Industry Facility",
+  "description": "Because of the difficulties involved in maintaining a habitable environment for human workers, all requirements for such personnel have been eliminated on oceanic mass production facilities. Instead, the building's focus is centered on maintaining production quotas under extreme circumstances, with reinforced bulkheads occupying almost every space that would normally have been reserved for hallways, offices, and living quarters.",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Planetary Industry",
+  "group_name": "Processors",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 800.0,
+      "categoryID": 7,
+      "display_name": "Power Load",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 200.0,
+      "categoryID": 9,
+      "display_name": "CPU Load",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 2014.0,
+      "categoryID": 7,
+      "display_name": "Planet Type Restriction",
+      "unit_name": "typeID"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 26790,
+  "name": "Crates of Tobacco",
+  "description": "Tubular rolls of tobacco designed for smoking. The tube consists of finely shredded tobacco enclosed in a paper wrapper and is generally outfitted with a filter tip at the end.",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 250000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,49 @@
+{
+  "type_id": 27177,
+  "name": "Zainou 'Beancounter' Research RR-603",
+  "description": "A neural Interface upgrade that boosts the pilot's research skills.\n\n3% bonus to blueprint manufacturing time research.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Implant",
+  "group_name": "Cyber Science",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3411.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 3.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "implantness",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "Implant Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "blueprintmanufactureTimeBonus",
+      "value": -3.0,
+      "categoryID": 7,
+      "display_name": "Blueprint Manufacture Time Bonus",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

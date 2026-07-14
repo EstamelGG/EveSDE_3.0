@@ -1,0 +1,49 @@
+{
+  "type_id": 56081,
+  "name": "家园-15'波赫文'纤维",
+  "description": "家园-15\"波赫文\"纤维能将最多15艘舰船从已知空间传送到由特定三神裔演化枝控制的星座（或称“边疆”）的主星系。\n\n\n\n三神裔对时空导管技术的精通让他们得以完美控制超光速导管的生成和路径。三神裔军队使用的特定纤维设备连接到每个三神裔演化枝控制的“边疆”（也就是由演化枝控制的星座）的主星系。即使是对如何精确定位并不了解的人也不难发觉，这种纤维所生成的导管会通向三神裔所占领的波赫文星域的“主星系”。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "常用物品",
+  "group_name": "三神裔星系纤维",
+  "attributes": [
+    {
+      "attribute_name": "mjfgRadius",
+      "value": 6000.0,
+      "categoryID": 17,
+      "display_name": "范围效果半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "mjdShipJumpCap",
+      "value": 15.0,
+      "categoryID": 17,
+      "display_name": "最大舰船跳跃数量",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "FilamentDescriptionMessageID",
+      "value": 569137.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "locationListID",
+      "value": 4515.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "filamentSpoolupTimeSeconds",
+      "value": 45.0,
+      "categoryID": 7,
+      "display_name": "激活延迟",
+      "unit_name": "s"
+    }
+  ],
+  "traits": []
+}

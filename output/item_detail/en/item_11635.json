@@ -1,0 +1,13 @@
+{
+  "type_id": 11635,
+  "name": "Personal Information Data",
+  "description": "This is a stack of data chips holding personal information about a station's general population.  Although information on wealthy or important citizens is rarely kept on these disks, they are still quite valuable for criminals.  Accessing this information without consent is illegal in most parts of the galaxy.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

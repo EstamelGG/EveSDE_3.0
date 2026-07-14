@@ -1,0 +1,84 @@
+{
+  "type_id": 90283,
+  "name": "Unrefined Tritanium",
+  "description": "An unrefined form of the mineral <a href=showinfo:34>Tritanium</a>.\n\nIt can be reprocessed into a variable quantity of the base form of that mineral, which can then be used in a variety of industry jobs.",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Unrefined Mineral",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 90398.0,
+      "categoryID": 7,
+      "display_name": "Reprocessing Skill",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "asteroidRadiusGrowthFactor",
+      "value": 0.425,
+      "categoryID": 31,
+      "display_name": "Asteroid radius size multiplier",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "asteroidRadiusUnitSize",
+      "value": 600.0,
+      "categoryID": 31,
+      "display_name": "Asteroid unit radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "Stasis Webifier Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 90041.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "ignoreMiningWaste",
+      "value": 0.0,
+      "categoryID": 51,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "ignoreMiningCrits",
+      "value": 0.0,
+      "categoryID": 51,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

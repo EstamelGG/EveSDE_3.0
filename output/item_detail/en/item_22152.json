@@ -1,0 +1,13 @@
+{
+  "type_id": 22152,
+  "name": "ID Card Generator",
+  "description": "Generates fake ID's for those who wish to avoid detection by CONCORD.",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

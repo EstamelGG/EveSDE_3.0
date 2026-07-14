@@ -1,0 +1,21 @@
+{
+  "type_id": 34396,
+  "name": "Self-Assembling Nanolattice",
+  "description": "Self-Assembling Nanolattices are the result of a breakthrough in applied fullerene technology achieved by a joint Carthum-Viziam research team formed at the request of the Imperial Navy in late YC116. The development of this technology was made possible by the contributions of numerous capsuleers, most notably members of the venerable loyalist alliance <url=showinfo:16159//1186465684>Praetoria Imperialis Excubitoris</url>.\n\nAlthough these carbon-based structures are exceptional in their high strength and low mass, it is their ability to reconfigure rapidly when exposed to electromagnetic fields that makes Self-Assembling Nanolattices one of the most significant advancements in starship engineering in decades.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Hybrid Tech Components",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

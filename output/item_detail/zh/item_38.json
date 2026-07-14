@@ -1,0 +1,13 @@
+{
+  "type_id": 38,
+  "name": "超新星诺克石",
+  "description": "一种只有在超新星中才能形成的极不稳定矿物，这在很大程度上限制了它的分布。它是太空舱生产中重要的材料，因此被许多人觊觎。可以从下列分布在低安全等级星系的矿石及其变种中提炼获得：<a href=showinfo:1226>杰斯贝矿</a>、<a href=showinfo:1231>希莫非特</a>、<a href=showinfo:21>同位原矿</a>、<a href=showinfo:1232>黑赭石</a>和<a href=showinfo:1225>克洛基石</a>。它还大量存在于多种稀有矿石之中，例如<a href=showinfo:19>灰岩</a>和<a href=showinfo:52306>塔拉岩</a>。分布在零安全等级星系的<a href=showinfo:82016>诺克希特</a>中也含有超新星诺克石。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "矿物",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 56715,
+  "name": "人文符号化数据",
+  "description": "从已经失去功能或已损毁的舰船上的系统中提取出的数据往往没有什么技术上的价值，更多的是船员情感等方面的人文价值。三神裔试图通过对这种数据进行符号化分析来获取人文情报，于是这种数据就具有了交换价值。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

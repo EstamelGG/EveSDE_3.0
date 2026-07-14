@@ -1,0 +1,13 @@
+{
+  "type_id": 73249,
+  "name": "Gallente Loyalty Token",
+  "description": "These tokens are given to capsuleers who have contributed to the security and prosperity of the Gallente Federation. They can be traded on the market for ISK in most Gallente stations.",
+  "volume": 0.001,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

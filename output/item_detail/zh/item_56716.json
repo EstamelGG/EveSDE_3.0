@@ -1,0 +1,13 @@
+{
+  "type_id": 56716,
+  "name": "受保护的设备样式",
+  "description": "从已经失去功能或已损毁的舰船上的系统中提取出的数据中有时会包含受保护的设备的规格和参数，以及船员的服饰。三神裔试图通过对这种设备图案进行分析来获取技术和人文情报，于是这种数据就具有了交换价值。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

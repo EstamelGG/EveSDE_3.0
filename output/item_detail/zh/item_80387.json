@@ -1,0 +1,13 @@
+{
+  "type_id": 80387,
+  "name": "无法解密的贮藏图",
+  "description": "这或许曾是一张藏宝图，指向埋在深渊深流底部的宝藏。但随着时间推移，其表面已然受损，内容变得难以辨认。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

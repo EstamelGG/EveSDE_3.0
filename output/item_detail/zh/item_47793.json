@@ -1,0 +1,35 @@
+{
+  "type_id": 47793,
+  "name": "超大型深渊护盾回充增量器",
+  "description": "消耗能量以快速提高护盾强度。",
+  "volume": 50.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "装备",
+  "group_name": "护盾回充增量器",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3416.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 90892,
+  "name": "男式帝国探索套装箱",
+  "description": "打开此箱子可获得<b>男式</b>帝国<b>探索套装</b>，其样式将根据克隆飞行员的<b>起始帝国</b>而定。",
+  "volume": 4.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

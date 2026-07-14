@@ -1,0 +1,56 @@
+{
+  "type_id": 47846,
+  "name": "大型深渊辅助装甲维修器",
+  "description": "该装备使用纳米级装配器来修复对舰船装甲造成的损伤。该装备可以选用纳米体修复粘合剂来增强其效果。如果货柜舱里有纳米体修复粘合剂，那么该装备停转之后，它将自动装填那些粘合剂。 \n\n\n\n注：可将纳米体修复粘合剂用作燃料。重新装填时间为60秒。",
+  "volume": 50.0,
+  "repackaged_volume": null,
+  "capacity": 0.64,
+  "mass": 500.0,
+  "category_name": "装备",
+  "group_name": "辅助装甲维修器",
+  "attributes": [
+    {
+      "attribute_name": "chargeRate",
+      "value": 8.0,
+      "categoryID": 7,
+      "display_name": "单次消耗量",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3393.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 3392.0,
+      "categoryID": 8,
+      "display_name": "副技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 4.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "chargeGroup2",
+      "value": 916.0,
+      "categoryID": 7,
+      "display_name": "配套使用（弹药类别）",
+      "unit_name": "组别ID"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,28 @@
+{
+  "type_id": 81623,
+  "name": "超级旗舰建造设施",
+  "description": "这个升级件使得克隆飞行员能够在星系的任何<a href=showinfo:35827>索迪约</a>级工程复合体中启动<a href=showinfo:35877>屹立超级旗舰船坞</a>。",
+  "volume": 200000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "基础设施升级件",
+  "group_name": "主权中心服务基础设施升级件",
+  "attributes": [
+    {
+      "attribute_name": "sovBillSystemCostDEPRECATED",
+      "value": 40000000.0,
+      "categoryID": 7,
+      "display_name": "每日维护费用",
+      "unit_name": "星币"
+    },
+    {
+      "attribute_name": "devIndexSovereignty",
+      "value": 1.0,
+      "categoryID": 0,
+      "display_name": "发展指数需求（战略）",
+      "unit_name": "等级"
+    }
+  ],
+  "traits": []
+}

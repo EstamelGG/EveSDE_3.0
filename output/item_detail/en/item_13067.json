@@ -1,0 +1,13 @@
+{
+  "type_id": 13067,
+  "name": "Smurgleblaster",
+  "description": "A drink like having your brains smashed out by a slice of lemon wrapped round a large gold brick.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

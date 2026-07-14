@@ -1,0 +1,13 @@
+{
+  "type_id": 2951,
+  "name": "Large Crate of Improved Inertial Compensation Systems",
+  "description": "The internal components of smaller Minmatar ships are constructed largely of nanofiber mesh which is low-cost, low-mass, and has a lower heat-conduction threshold than most solid industrial sheeting. Unfortunately, the lightweight structures are also susceptible to stress from the high-velocity maneuvers performed by frigate and interceptor pilots, and require added inertial compensation systems and routine inspections.",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

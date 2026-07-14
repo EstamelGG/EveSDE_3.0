@@ -1,0 +1,63 @@
+{
+  "type_id": 25233,
+  "name": "军团合同规则",
+  "description": "有关自己军团与其他主体订立正式合同的进阶技能。 \n\n每升一级，你可以代表军团同时签订的军团或联盟合同的数量增加10份，最多可达到60份。 \n\n此技能对于私人签订的合同无效。\n\n军团拥有的合同数量没有限制。 \n\n军团未决公开合同的数量上限为500份。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "技能",
+  "group_name": "贸易学",
+  "attributes": [
+    {
+      "attribute_name": "primaryAttribute",
+      "value": 164.0,
+      "categoryID": 7,
+      "display_name": "主属性",
+      "unit_name": "属性ID"
+    },
+    {
+      "attribute_name": "secondaryAttribute",
+      "value": 168.0,
+      "categoryID": 7,
+      "display_name": "副属性",
+      "unit_name": "属性ID"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 25235.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "skillTimeConstant",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "训练时间倍增系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 4.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "skillLevel",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "等级",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "canNotBeTrainedOnTrial",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,121 @@
+{
+  "type_id": 45630,
+  "name": "海神核心 - 分歧缓散处理器",
+  "description": "分歧缓散处理器建立在对新近出现的多种以富勒烯技术为基础的组件研发之上。这个系统实际上比较类似拦截泡，增加了舰船的跃迁干扰范围。它背后的技术其实在理论研究领域已经存在了好些年了，早在技术人员开始研发重型拦截巡洋舰的时候就已经开始了研究。他们发现富勒烯分子同拦截泡的静态散布能量结合的时候会产生更强的电能传导效率。富勒烯材料出现之后，这种技术终于派上了用场。",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1200000.0,
+  "category_name": "子系统",
+  "group_name": "核心子系统",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 30546.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "subSystemSlot",
+      "value": 125.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hiSlotModifier",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "高槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "medSlotModifier",
+      "value": 2.0,
+      "categoryID": 0,
+      "display_name": "中槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "lowSlotModifier",
+      "value": 2.0,
+      "categoryID": 0,
+      "display_name": "低槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "fitsToShipType",
+      "value": 29988.0,
+      "categoryID": 0,
+      "display_name": "受限于船型",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "subsystemBonusGallenteCore",
+      "value": -5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "subsystemBonusGallenteCore2",
+      "value": 7.5,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "subsystemBonusGallenteCore3",
+      "value": 15.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b><u>附加基础数值</b></u>"
+    },
+    {
+      "content": "中槽+2，低槽+2"
+    },
+    {
+      "content": "<b>7.5%</b> <a href=showinfo:447>跃迁扰频器</a>和<a href=showinfo:3242>跃迁扰断器</a>距离加成"
+    },
+    {
+      "content": "<b>15%</b> <a href=showinfo:447>跃迁扰频器</a>和<a href=showinfo:3242>跃迁扰断器</a>过载效果加成"
+    },
+    {
+      "content": "<b>5%</b> 装备过载损伤降低"
+    }
+  ]
+}

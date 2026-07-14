@@ -1,0 +1,13 @@
+{
+  "type_id": 20476,
+  "name": "Drifter Spur",
+  "description": "This spur is used as a method of identification.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Identification",
+  "attributes": [],
+  "traits": []
+}

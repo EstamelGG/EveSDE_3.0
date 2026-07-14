@@ -1,0 +1,13 @@
+{
+  "type_id": 22208,
+  "name": "失足妇女",
+  "description": "提供特殊服务以换取报酬的人。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 50.0,
+  "category_name": "常用物品",
+  "group_name": "有生货物",
+  "attributes": [],
+  "traits": []
+}

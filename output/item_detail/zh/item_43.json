@@ -1,0 +1,13 @@
+{
+  "type_id": 43,
+  "name": "抗生素",
+  "description": "抗生素在宇宙各处都有着稳定的需求，针对细菌对抗生素不断增强的免疫力，始终有更新更有效的抗生素面市。",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5.0,
+  "category_name": "常用物品",
+  "group_name": "消费品",
+  "attributes": [],
+  "traits": []
+}

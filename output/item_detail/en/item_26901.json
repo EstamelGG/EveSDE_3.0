@@ -1,0 +1,13 @@
+{
+  "type_id": 26901,
+  "name": "Breeder Slave",
+  "description": "These slaves are held within breeder colonies for years for the sole purpose of increasing a slaver's stock. Discarded when they have outlived their usefulness, these poor creatures have a short life expectancy that might be a blessing when compared to the misery of their existence in captivity.",
+  "volume": 1.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

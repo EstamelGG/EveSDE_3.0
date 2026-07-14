@@ -1,0 +1,13 @@
+{
+  "type_id": 3004,
+  "name": "Amarr Marine Counter-Boarding Company",
+  "description": "Amarr Marine Counter-Boarding Teams are regarded as among the most elite units of their type across all four races. This expertise was developed not long after other states rediscovered warp technology. It occurred to senior Amarr military leaders that wars of the future would include ship-to-ship actions in space, to include the possibility of an enemy ship boarding another, as they had in millennia past when their ancestors sailed warships on the high seas. To that end, boarding and counterboarding training became a mandatory part of every Amarr marine's advanced infantry training. The development of this capability led to the development of highly-specialized equipment for use in “boarding ops,” to include manportable high-speed welding gear, outer hatchway breaching explosives, and personal weapons for close quarters combat.",
+  "volume": 300.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 900.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

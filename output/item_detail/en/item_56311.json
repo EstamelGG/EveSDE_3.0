@@ -1,0 +1,28 @@
+{
+  "type_id": 56311,
+  "name": "Capital Abyssal Energy Nosferatu",
+  "description": "Drains energy from the target ship and adds it to your own.\n\nNote: A Nosferatu module will not drain your target's capacitor below your own capacitor level. May only be fitted to capital ships.",
+  "volume": 4000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2000.0,
+  "category_name": "Module",
+  "group_name": "Energy Nosferatu",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3423.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

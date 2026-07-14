@@ -1,0 +1,21 @@
+{
+  "type_id": 17353,
+  "name": "Graviton Reactor Unit Blueprint",
+  "description": null,
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Blueprint",
+  "group_name": "Construction Component Blueprints",
+  "attributes": [
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

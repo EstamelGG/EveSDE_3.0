@@ -1,0 +1,13 @@
+{
+  "type_id": 44252,
+  "name": "Blueprint Documents for Naval Capsuleers",
+  "description": "Congratulations Pilot, for your successful graduation as a Naval Capsuleer!\n\nTo mark your graduation we have supplied you with a blueprint and enough materials to start a single industry job. The resulting equipment can be fitted on your ship to improve your chances against our enemies. Take the blueprint and the materials to a station with Industry services, and start crafting. You don't need to wait for the results - come back and collect them later.\n\nFly safe, Capsuleer!",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.01,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

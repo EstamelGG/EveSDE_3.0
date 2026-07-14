@@ -1,0 +1,13 @@
+{
+  "type_id": 84482,
+  "name": "过期的特里蒙基地捷径钥匙卡",
+  "description": "这张钥匙卡可以激活通往特里蒙基地和特里蒙前线基地复合体的加速轨道，仅限单次使用。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

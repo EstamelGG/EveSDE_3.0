@@ -1,0 +1,13 @@
+{
+  "type_id": 28364,
+  "name": "无人机战术臂",
+  "description": "一架自由无人机的多功能手臂，如果是战斗型号，这个手臂将是主武器的安装座。这种手臂的模块化设计使它们在被装入标准无人机时具有一定独特性。",
+  "volume": 0.07,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2.0,
+  "category_name": "材料",
+  "group_name": "自由无人机组件",
+  "attributes": [],
+  "traits": []
+}

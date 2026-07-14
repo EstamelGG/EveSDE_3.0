@@ -1,0 +1,245 @@
+{
+  "type_id": 37296,
+  "name": "Quad Mega Pulse Laser II",
+  "description": "Three specialized high angle turrets fitted with quad-barreled weapons are designed for engaging sub-capital threats.\nNote: May only be fitted to capital class ships.\n\nRequires either regular or advanced frequency crystal ammo types: Gamma, Infrared, Microwave, Multifrequency, Radio, Standard, Ultraviolet, Xray, Conflagration, Scorch.",
+  "volume": 4000.0,
+  "repackaged_volume": 1000.0,
+  "capacity": 1.0,
+  "mass": 40000.0,
+  "category_name": "Module",
+  "group_name": "Energy Weapon",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 180.0,
+      "categoryID": 5,
+      "display_name": "Activation Cost",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 137500.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Usage",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "slots",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 80.0,
+      "categoryID": 1,
+      "display_name": "CPU usage",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "speed",
+      "value": 6000.0,
+      "categoryID": 29,
+      "display_name": "Rate of fire",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 36300.0,
+      "categoryID": 29,
+      "display_name": "Optimal Range",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "targetModule",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "damageMultiplier",
+      "value": 1.26225,
+      "categoryID": 29,
+      "display_name": "Damage Modifier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "chargeSize",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "Charge size",
+      "unit_name": "1=small 2=medium 3=l"
+    },
+    {
+      "attribute_name": "falloff",
+      "value": 16000.0,
+      "categoryID": 29,
+      "display_name": "Accuracy falloff",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "trackingSpeed",
+      "value": 1.5,
+      "categoryID": 29,
+      "display_name": "Turret Tracking",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 41407.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 20327.0,
+      "categoryID": 8,
+      "display_name": "Secondary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill3",
+      "value": 3312.0,
+      "categoryID": 8,
+      "display_name": "Tertiary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill3Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "chargeGroup1",
+      "value": 86.0,
+      "categoryID": 7,
+      "display_name": "Used with (Charge Group)",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "chargeGroup2",
+      "value": 375.0,
+      "categoryID": 7,
+      "display_name": "Used with (Charge Group)",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "optimalSigRadius",
+      "value": 40000.0,
+      "categoryID": 29,
+      "display_name": "Signature Resolution",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "heatAbsorbtionRateModifier",
+      "value": 0.01,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "overloadDamageModifier",
+      "value": 15.0,
+      "categoryID": 7,
+      "display_name": "Overload damage bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "heatDamage",
+      "value": 1.2,
+      "categoryID": 52,
+      "display_name": "Heat Damage",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredThermoDynamicsSkill",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Required Thermodynamics Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "requiredSkill4",
+      "value": 3300.0,
+      "categoryID": 8,
+      "display_name": "Quaternary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill4Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "Level 5 required",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "canFitShipGroup01",
+      "value": 485.0,
+      "categoryID": 1,
+      "display_name": "Can only be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "canFitShipGroup02",
+      "value": 4594.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "typeColorScheme",
+      "value": 11313.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reloadTime",
+      "value": 0.01,
+      "categoryID": 7,
+      "display_name": "Reload Time",
+      "unit_name": "s"
+    }
+  ],
+  "traits": []
+}

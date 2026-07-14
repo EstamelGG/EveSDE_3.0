@@ -1,0 +1,13 @@
+{
+  "type_id": 87273,
+  "name": "临界点参数",
+  "description": "对被破坏型审查者观测到的个体反应进行建模的数据。该数据已被构建，以便为详细的模拟提供参数。此类信息对于科学家和情报组织都很有价值。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

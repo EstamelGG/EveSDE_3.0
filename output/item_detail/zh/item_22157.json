@@ -1,0 +1,13 @@
+{
+  "type_id": 22157,
+  "name": "西斯普尔财产钥匙卡片",
+  "description": "这种钥匙卡片可以激活通往西斯普尔产业的加速轨道。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

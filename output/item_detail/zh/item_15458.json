@@ -1,0 +1,119 @@
+{
+  "type_id": 15458,
+  "name": "加强型X—本能增效体",
+  "description": "这种激发增效剂能极大提高使用者分析维持太空飞行需要的数据流的效率。它最大的效用不在于增强实际的能力，而是减少数据传输和外部微操作中的资源浪费。这样，飞行员就能更流畅地专注于飞行，而且更加不容易被侦测到。这个增效剂的唯一主要缺陷就是会让飞行员产生一些疯狂的念头。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3405.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 2.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 1800000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "signatureRadiusBonus",
+      "value": -11.25,
+      "categoryID": 21,
+      "display_name": "信号半径修正值",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "boosterEffectChance1",
+      "value": 0.3,
+      "categoryID": 7,
+      "display_name": "副作用几率",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterEffectChance2",
+      "value": 0.3,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterEffectChance3",
+      "value": 0.3,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterEffectChance4",
+      "value": 0.3,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterEffectChance5",
+      "value": 0.3,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterArmorHPPenalty",
+      "value": -25.0,
+      "categoryID": 7,
+      "display_name": "装甲值惩罚",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterShieldCapacityPenalty",
+      "value": -25.0,
+      "categoryID": 7,
+      "display_name": "护盾容量惩罚",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterTurretFalloffPenalty",
+      "value": -25.0,
+      "categoryID": 7,
+      "display_name": "炮塔失准范围惩罚",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterMissileVelocityPenalty",
+      "value": -25.0,
+      "categoryID": 7,
+      "display_name": "导弹速度惩罚",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,21 @@
+{
+  "type_id": 21009,
+  "name": "Capital Propulsion Engine",
+  "description": "A centralized propulsion engine designed to send power to a capital ship's thrusters, propelling the behemoth forward.",
+  "volume": 2000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000.0,
+  "category_name": "Commodity",
+  "group_name": "Capital Construction Components",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

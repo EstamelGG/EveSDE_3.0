@@ -1,0 +1,13 @@
+{
+  "type_id": 63706,
+  "name": "Capsule Subsystem Holostorage EH-CN-J44-005",
+  "description": "Although battered and scorched by the destruction of the capsule it was installed in, this subsystem holostorage device seems to retain some recoverable and relatively easily decrypted data:\n\n<i>\"–ound another monitoring routine installed in the block's subnet. Sniffer and heuristics engine almost ignored it. Pretty sophisticated camo for general residence block monitoring but could be they don't want to piss off all the brass and tech-heads living in this dump. Don't think this indicates a problem with cell opsec. Standard CalNav paranoia I think. The navy factions are still tearing at one another over the invas –\"</i>",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

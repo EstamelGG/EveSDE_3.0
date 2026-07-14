@@ -1,0 +1,126 @@
+{
+  "type_id": 41314,
+  "name": "Hail XL",
+  "description": "Hail is an attempt to combine the penetration of titanium sabot with the versatility of a depleted uranium shell. It has tremendous damage potential, but should not be used at long ranges. Any pilot using this ammunition should be prepared to trade optimal range, falloff range, and tracking speed for a devastating amount of damage.\n\n25% reduced falloff.\n50% reduced optimal range.\n30% reduced tracking speed.\n\nNote: This ammunition can only be used by capital tech level II and faction Autocannons.",
+  "volume": 0.125,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Charge",
+  "group_name": "Advanced Autocannon Ammo",
+  "attributes": [
+    {
+      "attribute_name": "emDamage",
+      "value": 0.0,
+      "categoryID": 29,
+      "display_name": "EM damage",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "explosiveDamage",
+      "value": 111.3,
+      "categoryID": 29,
+      "display_name": "Explosive damage",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "kineticDamage",
+      "value": 30.4,
+      "categoryID": 29,
+      "display_name": "Kinetic damage",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "thermalDamage",
+      "value": 0.0,
+      "categoryID": 29,
+      "display_name": "Thermal damage",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "weaponRangeMultiplier",
+      "value": 0.5,
+      "categoryID": 7,
+      "display_name": "Range bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "mainColor",
+      "value": 11835778.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "chargeSize",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "Charge size",
+      "unit_name": "1=small 2=medium 3=l"
+    },
+    {
+      "attribute_name": "launcherGroup",
+      "value": 55.0,
+      "categoryID": 7,
+      "display_name": "Used with (Launcher Group)",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 41403.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "trackingSpeedMultiplier",
+      "value": 0.7,
+      "categoryID": 26,
+      "display_name": "Tracking Speed Multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "fallofMultiplier",
+      "value": 0.75,
+      "categoryID": 7,
+      "display_name": "Falloff Modifier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "powerNeedMultiplier",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Turret Power Need",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "entityFlyRangeMultiplier",
+      "value": 0.5,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 91021,
+  "name": "Cryostatic Nullifier",
+  "description": "Experimental technology capable of calibrating protections for electronics inside Volatile Ice Storms. It resembles Sansha’s Nation devices used to ensure access to secure relays hidden inside these storms.\n\n<i>Can be deposited in a Sansha’s Stormfield Projector in Wightstorm Strategic Node sites to enable hacking attempts on relays normally scrambled by storm interference.</i>",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Verity Cryo Tech",
+  "attributes": [],
+  "traits": []
+}

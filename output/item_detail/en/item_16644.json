@@ -1,0 +1,21 @@
+{
+  "type_id": 16644,
+  "name": "Platinum",
+  "description": "A corrosion-resistant precious metal with an extremely wide range of applications. Often used as a chemical catalyst.",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 21460.0,
+  "category_name": "Material",
+  "group_name": "Moon Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

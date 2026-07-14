@@ -1,0 +1,13 @@
+{
+  "type_id": 91414,
+  "name": "小纸片",
+  "description": "一张写着暗语的纸片，据说持有者可以借此进入一个非常私密的社交俱乐部。该俱乐部的坐标与已知空间中的任何位置都不匹配。纸上的文字写着：<i>“告诉他们是Captator派你来的。鲍勃保佑。”</i>",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

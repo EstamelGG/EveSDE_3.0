@@ -1,0 +1,77 @@
+{
+  "type_id": 57318,
+  "name": "舰队协调理论",
+  "description": "让舰队指挥官能够扩大舰队阵型范围的技能。每升一级都可以按如下顺序解锁额外的舰队阵型调整选项：\n\n\n\n等级0：10km范围，1km间隔（默认）\n\n等级1：20km范围，2km间隔\n\n等级2：30km范围，3km间隔\n\n等级3：40km范围，4km间隔\n\n等级4：50km范围，5km间隔\n\n等级5：100km范围，10km间隔",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "技能",
+  "group_name": "舰队支援",
+  "attributes": [
+    {
+      "attribute_name": "primaryAttribute",
+      "value": 164.0,
+      "categoryID": 7,
+      "display_name": "主属性",
+      "unit_name": "属性ID"
+    },
+    {
+      "attribute_name": "secondaryAttribute",
+      "value": 168.0,
+      "categoryID": 7,
+      "display_name": "副属性",
+      "unit_name": "属性ID"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3348.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 57317.0,
+      "categoryID": 8,
+      "display_name": "副技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "skillTimeConstant",
+      "value": 8.0,
+      "categoryID": 7,
+      "display_name": "训练时间倍增系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "skillLevel",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "等级",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "canNotBeTrainedOnTrial",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

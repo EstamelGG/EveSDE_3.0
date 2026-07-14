@@ -1,0 +1,13 @@
+{
+  "type_id": 29272,
+  "name": "Air Show Entrance Badge",
+  "description": "This badge signifies that the owner is qualified to participate in an air show.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

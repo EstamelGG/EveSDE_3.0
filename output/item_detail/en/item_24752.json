@@ -1,0 +1,13 @@
+{
+  "type_id": 24752,
+  "name": "Angel Cartel Pilot",
+  "description": "A pilot working for the Angel Cartel.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

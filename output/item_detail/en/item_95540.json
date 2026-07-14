@@ -1,0 +1,56 @@
+{
+  "type_id": 95540,
+  "name": "Zero-In Volatile Booster",
+  "description": "<b>+16% Turret Tracking Speed. Base duration: 3.5 minutes.</b>\n\nThis booster has been manufactured using volatile compounds and will expire on <b>July 27th, YC128</b>.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Implant",
+  "group_name": "Booster",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3405.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 210000.0,
+      "categoryID": 7,
+      "display_name": "Booster Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "trackingSpeedBonus",
+      "value": 16.0,
+      "categoryID": 37,
+      "display_name": "Tracking Speed Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 17.0,
+      "categoryID": 7,
+      "display_name": "Booster Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "boosterLastInjectionDatetime",
+      "value": 20661.4576388889,
+      "categoryID": 7,
+      "display_name": "Expiry Date",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

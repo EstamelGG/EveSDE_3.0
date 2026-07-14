@@ -1,0 +1,13 @@
+{
+  "type_id": 19582,
+  "name": "古斯塔斯研究数据",
+  "description": "这些文件包含了关于古斯塔斯飞船科技有价值的技术资料。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

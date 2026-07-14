@@ -1,0 +1,49 @@
+{
+  "type_id": 27184,
+  "name": "Zainou 'Beancounter' Science SC-805",
+  "description": "A neural Interface upgrade that boosts the pilot's research skills.\n\n5% bonus to blueprint copying speed.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Implant",
+  "group_name": "Cyber Science",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3411.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "implantness",
+      "value": 8.0,
+      "categoryID": 7,
+      "display_name": "Implant Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "copySpeedBonus",
+      "value": -5.0,
+      "categoryID": 7,
+      "display_name": "Copy Speed Bonus",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

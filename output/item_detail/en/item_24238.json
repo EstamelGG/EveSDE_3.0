@@ -1,0 +1,13 @@
+{
+  "type_id": 24238,
+  "name": "Blood Raider Scientist",
+  "description": "Scientists working for the Blood Raider organization, most likely involved in their human breeding programs.",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 250.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

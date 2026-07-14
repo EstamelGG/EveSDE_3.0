@@ -1,0 +1,13 @@
+{
+  "type_id": 45635,
+  "name": "Small Skill Injector",
+  "description": "This item can be activated in a station to grant the user unallocated skill points. The injectors are consumed immediately once activated.\n\nThe amount of skill points granted depends on the total skill points (including unallocated skill points) the using character possesses, according to the following scale:\n\nCharacters with less than 5,000,000 skill points will receive 100,000 unallocated skill points.\nCharacters with between 5,000,000 and 50,000,000 skill points will receive 80,000 unallocated skill points.\nCharacters with between 50,000,000 and 80,000,000 skill points will receive 60,000 unallocated skill points.\nCharacters with more than 80,000,000 skill points will receive 30,000 unallocated skill points.\n\nSmall Skill Injectors are created by splitting <a href=showinfo:40520>Large Skill Injectors</a> into five Small Skill Injectors each.",
+  "volume": 0.002,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Accessories",
+  "group_name": "Skill Injectors",
+  "attributes": [],
+  "traits": []
+}

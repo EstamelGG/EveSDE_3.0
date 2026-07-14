@@ -1,0 +1,13 @@
+{
+  "type_id": 17989,
+  "name": "托拉卡的私人钥匙",
+  "description": "托拉卡至死都拼命保护的钥匙，它能打开通往第二死亡空间的加速轨道一小段时间。该钥匙一经使用就会自行销毁。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

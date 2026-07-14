@@ -1,0 +1,21 @@
+{
+  "type_id": 30009,
+  "name": "加强型金属富勒烯合金蓝图",
+  "description": null,
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "蓝图",
+  "group_name": "混合组件蓝图",
+  "attributes": [
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

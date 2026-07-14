@@ -1,0 +1,21 @@
+{
+  "type_id": 32827,
+  "name": "Unrefined Titanium Chromide",
+  "description": "Titanium Chromide is in high demand among technicians and manufacturers for its unique combination of strength, light weight and catalytic potential.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Intermediate Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

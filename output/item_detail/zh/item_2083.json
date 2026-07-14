@@ -1,0 +1,140 @@
+{
+  "type_id": 2083,
+  "name": "彩虹女神探针发射器原型机",
+  "description": "彩虹女神探针发射系统是一种只能被装配在微风级勘测船上的原型系统。\n\n通过集成式的设计，这个设备在能源供给能力和CPU处理能力都很有限的微风级上也能够有效地运转。同时，由于为了在微风级上搭载这个设备而进行的优化采用了非标准的接口界面，这使得它完全不能在其它类型的舰船上使用。",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": 0.8,
+  "mass": 5.0,
+  "category_name": "装备",
+  "group_name": "扫描探针发射器",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 0.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "slots",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 0.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "speed",
+      "value": 2000.0,
+      "categoryID": 29,
+      "display_name": "射击速度",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 10000.0,
+      "categoryID": 7,
+      "display_name": "作用时间/单次运转时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3412.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "chargeGroup1",
+      "value": 479.0,
+      "categoryID": 7,
+      "display_name": "配套使用（弹药类别）",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "maxGroupActive",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "disallowRepeatingActivation",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "无法自动重复",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "canFitShipGroup01",
+      "value": 1022.0,
+      "categoryID": 1,
+      "display_name": "只能装配在",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "maxGroupFitted",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "该武器组所允许的最大装备数量",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reloadTime",
+      "value": 10000.0,
+      "categoryID": 7,
+      "display_name": "重新装填时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "expeditionCommandBurstProbeStrengthBonusCharID",
+      "value": 1.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "expeditionCommandBurstProbeDeviationBonusCharID",
+      "value": 1.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

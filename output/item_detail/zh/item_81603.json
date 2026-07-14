@@ -1,0 +1,13 @@
+{
+  "type_id": 81603,
+  "name": "神秘增效剂箱I",
+  "description": "作为与派瑞根交易的一部分，这个箱子在运往星际网络直播分部的途中消失。失落之物，再度重现，你只管来取。\n\n打开后，你将收到以下物品之一：\n\n一个随机星际代理处药剂\n一个随机酷菲增效剂\n一个随机星炫增效剂\n一个随机抗药增效剂",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

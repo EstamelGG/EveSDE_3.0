@@ -1,0 +1,35 @@
+{
+  "type_id": 2562,
+  "name": "温和行星储藏设施",
+  "description": "行星上使用的储藏设施单元，它的建造需要涉及各种技术，以使其能可靠有效地运转。这种超级建筑是采用适应性的材料生产的，用以抵御极端气候状况，因为温和行星上的气候变化通常十分明显。同样，建筑的每个模块都被设计用于储存不同状态的物质，这种设计要求进一步提高了对保质性能和密封性的要求。",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": 12000.0,
+  "mass": null,
+  "category_name": "行星工业",
+  "group_name": "储藏设施",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 700.0,
+      "categoryID": 7,
+      "display_name": "能量负荷",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 500.0,
+      "categoryID": 9,
+      "display_name": "CPU载荷",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 11.0,
+      "categoryID": 7,
+      "display_name": "行星类型限制",
+      "unit_name": "类别ID"
+    }
+  ],
+  "traits": []
+}

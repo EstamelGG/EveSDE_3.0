@@ -1,0 +1,21 @@
+{
+  "type_id": 33361,
+  "name": "Plasmonic Metamaterials",
+  "description": "Carefully fabricated composites of neo mercurite and fernite alloy, plasmonic metamaterials are a key component in advanced Minmatar processors and capacitor units.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Composite",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 300.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

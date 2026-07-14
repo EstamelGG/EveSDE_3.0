@@ -1,0 +1,13 @@
+{
+  "type_id": 80024,
+  "name": "F-41 Entangled GQD",
+  "description": "Entangled Graphene Quantum Dots are uniquely configured carbon nanoparticles that have been entangled with particles present in Abyssal Deadspace. This makes them capable of being used in the construction of jump filaments targeting Abyssal Deadspace when combined with an Isolated Dimensional Thread.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Abyssal Battlefield Filament Materials",
+  "attributes": [],
+  "traits": []
+}

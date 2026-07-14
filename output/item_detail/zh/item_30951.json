@@ -1,0 +1,13 @@
+{
+  "type_id": 30951,
+  "name": "验证密匙",
+  "description": "这种密匙在加达里的各个集团企业中非常常见，用来快速地辨别持有者是否是值得信任的本集团员工，一般用它可以获取一些秘密的或者内部的信息。",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 22210,
+  "name": "克隆的姐妹会官员",
+  "description": "这是一个前姐妹共济会指挥官的克隆。被插入了一个奇怪的脑控植入体。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80.0,
+  "category_name": "常用物品",
+  "group_name": "有生货物",
+  "attributes": [],
+  "traits": []
+}

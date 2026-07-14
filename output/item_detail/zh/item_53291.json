@@ -1,0 +1,13 @@
+{
+  "type_id": 53291,
+  "name": "无畏舰系统示意图",
+  "description": "这个数据库中包含了这艘无畏舰的硬件和软件系统的参数和原理图。对于有兴趣建造一艘自己的无畏舰的人来说，这里面的信息非常关键。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 26455,
+  "name": "管理密匙",
+  "description": "这个通行密匙允许携带者进入这个复合体的管控区域。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

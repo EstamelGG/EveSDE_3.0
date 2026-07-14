@@ -1,0 +1,159 @@
+{
+  "type_id": 45597,
+  "name": "洛基防御 - 自适应防御节点",
+  "description": "经过多年在阿诺基斯复原冬眠者和塔洛迦科技的经验，赛毕斯托工程师取得了不可思议的巨大突破：他们成功研制出了能够高效地进行护盾维修和装甲维修而且效果相当的富勒烯纳米机器人。这些细微的纳米机器人在飞行中能够在护盾维修和装甲维修之间自由切换，允许洛基级无需重新装配就能获得强大的维修系统。",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": 300.0,
+  "mass": 1400000.0,
+  "category_name": "子系统",
+  "group_name": "防御子系统",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 30545.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "shieldCapacity",
+      "value": 300.0,
+      "categoryID": 2,
+      "display_name": "护盾容量",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "capacitorCapacity",
+      "value": 300.0,
+      "categoryID": 5,
+      "display_name": "电容容量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "armorHPBonusAdd",
+      "value": 300.0,
+      "categoryID": 3,
+      "display_name": "装甲值加成",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "subSystemSlot",
+      "value": 126.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hiSlotModifier",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "高槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "medSlotModifier",
+      "value": 2.0,
+      "categoryID": 0,
+      "display_name": "中槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "lowSlotModifier",
+      "value": 2.0,
+      "categoryID": 0,
+      "display_name": "低槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "fitsToShipType",
+      "value": 29990.0,
+      "categoryID": 0,
+      "display_name": "受限于船型",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "subsystemBonusMinmatarDefensive",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "subsystemBonusMinmatarDefensive2",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "covertCloakCPUPenalty",
+      "value": 10000.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "subsystemBonusMinmatarDefensive3",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureHPBonusAdd",
+      "value": 100.0,
+      "categoryID": 4,
+      "display_name": "结构值加成",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b><u>附加基础数值</b></u>"
+    },
+    {
+      "content": "中槽+2，低槽+2"
+    },
+    {
+      "content": "护盾值+300，装甲值+300，结构值+100"
+    },
+    {
+      "content": "电容器电容量+300GJ"
+    },
+    {
+      "content": "<b>10%</b> <a href=showinfo:3393>装甲维修器</a>和<a href=showinfo:3416>护盾回充增量器</a>效果加成"
+    },
+    {
+      "content": "<b>10%</b> <a href=showinfo:3393>装甲维修器</a>和<a href=showinfo:3416>护盾回充增量器</a>过载效果加成"
+    }
+  ]
+}

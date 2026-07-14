@@ -1,0 +1,13 @@
+{
+  "type_id": 2640,
+  "name": "装箱的替换零件",
+  "description": "各种替换用的零件，从诸如塑料外壳和金属框这样的机械部件到基本的螺钉螺帽都有。",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 40000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

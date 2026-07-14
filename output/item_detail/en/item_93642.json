@@ -1,0 +1,13 @@
+{
+  "type_id": 93642,
+  "name": "Supplies: Intaki Liberation",
+  "description": "Everything required for the completion of the Intaki Liberation simulation experience.",
+  "volume": 3000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 13212,
+  "name": "胆汁",
+  "description": "肝脏分泌的碱性液体，储存在胆囊之中，能帮助消化，分解血红蛋白。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 26138,
+  "name": "研究塔台的钥匙",
+  "description": "通往研究塔台的通行密匙。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

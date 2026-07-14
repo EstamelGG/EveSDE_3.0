@@ -1,0 +1,21 @@
+{
+  "type_id": 22054,
+  "name": "图克尔的战利品",
+  "description": "从古老的内凡达基地搜寻到的破碎战利品。",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 100.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

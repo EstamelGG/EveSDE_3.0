@@ -1,0 +1,13 @@
+{
+  "type_id": 85757,
+  "name": "Eradicator Datacore",
+  "description": "The central datacore of a Patient Eradicator. The code it runs is based on ancient Jovian principles, but its unblemished surface betrays its recent construction.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

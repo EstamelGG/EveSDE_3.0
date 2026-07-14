@@ -1,0 +1,13 @@
+{
+  "type_id": 2957,
+  "name": "Crate of Refurbished Mining Drones",
+  "description": "There are hints of rusty and damaged surfaces beneath the shiny new paint-job. These may not work as efficiently as the client wishes.",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

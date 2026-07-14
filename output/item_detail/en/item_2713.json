@@ -1,0 +1,13 @@
+{
+  "type_id": 2713,
+  "name": "Large Crates of Electronic Parts",
+  "description": "These basic elements of all electronic hardware are sought out by those who require spare parts in their hardware. Factories and manufacturers take these parts and assemble them into finished products, which are then sold on the market.",
+  "volume": 400.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 400000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

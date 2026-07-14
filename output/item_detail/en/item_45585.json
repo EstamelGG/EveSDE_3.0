@@ -1,0 +1,13 @@
+{
+  "type_id": 45585,
+  "name": "Thukker Capital Component Manufacturing Technical Data Chip",
+  "description": "This Technical Data Chip holds specifications and proprietary nano-assembler instructions for advanced black market Thukker capital component manufacturing upgrades.\n\nIt should theoretically be possible for a talented capsuleer to interface with this data chip and recover usable blueprint data.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Commodity",
+  "group_name": "Technical Data Chips",
+  "attributes": [],
+  "traits": []
+}

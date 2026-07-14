@@ -1,0 +1,42 @@
+{
+  "type_id": 21574,
+  "name": "Esoteric Accelerant",
+  "description": "Rough outlines for a revolutionary new manufacture technique that improve the time efficiency of Caldari invention jobs considerably.<br><br>Probability Multiplier: +20% <br>Max. Run Modifier: +1 <br>Material Efficiency Modifier: +2 <br>Time Efficiency Modifier: +10",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Decryptors",
+  "group_name": "Decryptors - Caldari",
+  "attributes": [
+    {
+      "attribute_name": "inventionPropabilityMultiplier",
+      "value": 1.2,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "inventionMEModifier",
+      "value": 2.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "inventionTEModifier",
+      "value": 10.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "inventionMaxRunModifier",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

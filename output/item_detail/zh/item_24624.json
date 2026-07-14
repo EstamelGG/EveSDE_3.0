@@ -1,0 +1,70 @@
+{
+  "type_id": 24624,
+  "name": "高级实验室运作理论",
+  "description": "操作多个实验室的高级技能。每升一级，可同时多运行一个研究项目。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "技能",
+  "group_name": "科学",
+  "attributes": [
+    {
+      "attribute_name": "primaryAttribute",
+      "value": 165.0,
+      "categoryID": 7,
+      "display_name": "主属性",
+      "unit_name": "属性ID"
+    },
+    {
+      "attribute_name": "secondaryAttribute",
+      "value": 166.0,
+      "categoryID": 7,
+      "display_name": "副属性",
+      "unit_name": "属性ID"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3406.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "skillTimeConstant",
+      "value": 8.0,
+      "categoryID": 7,
+      "display_name": "训练时间倍增系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "skillLevel",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "等级",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "laboratorySlotsBonus",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "canNotBeTrainedOnTrial",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

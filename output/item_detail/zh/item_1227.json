@@ -1,0 +1,70 @@
+{
+  "type_id": 1227,
+  "name": "奥贝尔石",
+  "description": "奥贝尔石虽然是一种普通的矿石，但对采矿新手来说，它仍然是一个不错的矿种，因为它含有大量的<a href=showinfo:37>同位聚合体</a>，以及一些<a href=showinfo:35>类晶体胶矿</a>。新手只要进行几趟开采奥贝尔石的旅程，他的资历就会显著提升。大多数情况下，你可以在低安全等级星系和虫洞中找到它。",
+  "volume": 0.6,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1e+35,
+  "category_name": "小行星",
+  "group_name": "奥贝尔石",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 60378.0,
+      "categoryID": 7,
+      "display_name": "回收再生技能",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "asteroidRadiusGrowthFactor",
+      "value": 0.5,
+      "categoryID": 31,
+      "display_name": "小行星半径系数",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "asteroidRadiusUnitSize",
+      "value": 600.0,
+      "categoryID": 31,
+      "display_name": "小行星单位半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "停滞缠绕抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 1227.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "类别ID"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 35,
+  "name": "类晶体胶矿",
+  "description": "一种类水晶的柔软矿物，有着非常易辨认的桔黄光辉，仿佛是在燃烧一样。用于导管和生化工业。可以在多种小行星矿石中找到。可以从下列矿石及其变种中提炼获得：高安全等级星系：<a href=showinfo:1228>灼烧岩</a>和<a href=showinfo:1224>干焦岩</a>。低安全等级星系：<a href=showinfo:1224>干焦岩</a>、<a href=showinfo:1227>奥贝尔石</a>、<a href=showinfo:21>同位原矿</a>、<a href=showinfo:1229>片麻岩</a>和<a href=showinfo:1225>克洛基石</a>。零安全等级星系：<a href=showinfo:1224>干焦岩</a>、<a href=showinfo:1223>双多特石</a>、<a href=showinfo:22>艾克诺岩</a>、<a href=showinfo:81900>克里石</a>和<a href=showinfo:82016>诺克希特</a>。虫洞星系：<a href=showinfo:1224>干焦岩</a>、<a href=showinfo:1227>奥贝尔石</a>、<a href=showinfo:1229>片麻岩</a>、<a href=showinfo:1223>双多特石</a>，以及<a href=showinfo:22>艾克诺岩</a>。此外，从<a href=showinfo:74521>莫德合金</a>中也能提炼出相当可观的数量。这种稀有矿石主要分布在零安全等级星系和虫洞星系的A0恒星（蓝色小型），以及帝国和零安全区域边境的已探明地点。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "矿物",
+  "attributes": [],
+  "traits": []
+}

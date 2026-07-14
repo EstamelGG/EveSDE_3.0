@@ -1,0 +1,13 @@
+{
+  "type_id": 63707,
+  "name": "Capsule Subsystem Holostorage EH-CN-J44-006",
+  "description": "Although battered and scorched by the destruction of the capsule it was installed in, this subsystem holostorage device seems to retain some recoverable and relatively easily decrypted data:\n\n<i>\"–erp contact came through with something interesting but it's got nothing to do with Firebird. Seems Upwell and PKN might be playing a double game behind the scenes when it comes to the Intaki. Hard to believe that old man Mordu would put up with something like that but word is he's got new obsessions these days. I believe anything of the Forest Faction and Upwell's so distributed and murky any number of the players could be up to something. Could be useful info down the lin–\"</i>",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

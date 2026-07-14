@@ -1,0 +1,13 @@
+{
+  "type_id": 3721,
+  "name": "Slaves",
+  "description": "Slavery has always been a questionable industry, favored by the Amarr Empire and detested by the Gallente Federation.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 450.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

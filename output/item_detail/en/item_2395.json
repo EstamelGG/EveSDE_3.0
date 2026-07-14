@@ -1,0 +1,28 @@
+{
+  "type_id": 2395,
+  "name": "Proteins",
+  "description": "One of the most basic components of biological life, proteins form the core DNA structure and are involved in almost every process that sustains a living being. Harvested at the microscopic level, proteins can be put to use in everything from medical genetics to nanite technology.",
+  "volume": 0.19,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Planetary Commodities",
+  "group_name": "Basic Commodities - Tier 1",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 400.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 400.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

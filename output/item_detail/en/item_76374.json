@@ -1,0 +1,13 @@
+{
+  "type_id": 76374,
+  "name": "Neo-Jadarite",
+  "description": "This mineral is morphologically similar to the nesosilicate jadarite but shows subtle differences owing to the process by which radioactive neutron deposition altered the asteroid ore from which it has been extracted. Neo-jadarite shares with its morphotype a relatively plentiful amount of lithium and boron in its chemical composition, making this mineral highly desirable for a number of industrial processes.\n\nNeo-jadarite is most readily found in nesosilicate rakovene ore obtained from fields scattered across the Triglavian-occupied region of Pochven.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Mineral",
+  "attributes": [],
+  "traits": []
+}

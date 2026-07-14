@@ -1,0 +1,42 @@
+{
+  "type_id": 23182,
+  "name": "隐秘获取装置",
+  "description": "对艾玛发明项目的动态指导，只要稍微牺牲材料效率，便可大幅提升流程数量和成功率。<br><br>机率调节值：+80%<br> 最大流程调节值：+4<br>材料效率调节值：-1<br>时间效率调节值：+4",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "解码器",
+  "group_name": "解码器—艾玛",
+  "attributes": [
+    {
+      "attribute_name": "inventionPropabilityMultiplier",
+      "value": 1.8,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "inventionMEModifier",
+      "value": -1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "inventionTEModifier",
+      "value": 4.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "inventionMaxRunModifier",
+      "value": 4.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

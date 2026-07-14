@@ -1,0 +1,70 @@
+{
+  "type_id": 40334,
+  "name": "Missile Range Disruption Script",
+  "description": "This script can be loaded into a guidance disruptor module to increase the module's missile range disruption effects at the expense of its missile precision disruption effects.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Charge",
+  "group_name": "Guidance Disruption Script",
+  "attributes": [
+    {
+      "attribute_name": "mainColor",
+      "value": 11646664.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "chargeSize",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Charge size",
+      "unit_name": "1=small 2=medium 3=l"
+    },
+    {
+      "attribute_name": "launcherGroup",
+      "value": 1396.0,
+      "categoryID": 7,
+      "display_name": "Used with (Launcher Group)",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "aoeCloudSizeBonusBonus",
+      "value": -100.0,
+      "categoryID": 7,
+      "display_name": "Modification of Explosion Radius Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "aoeVelocityBonusBonus",
+      "value": -100.0,
+      "categoryID": 7,
+      "display_name": "Modification of Explosion Velocity Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "missileVelocityBonusBonus",
+      "value": 100.0,
+      "categoryID": 7,
+      "display_name": "Modification of Missile Velocity Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "explosionDelayBonusBonus",
+      "value": 100.0,
+      "categoryID": 7,
+      "display_name": "Modification of Flight Time Bonus",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 12302,
+  "name": "试验假人",
+  "description": "这些塑料假人用于不同产品的测试过程，包括生物舱、私人车辆和重力压缩机。",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

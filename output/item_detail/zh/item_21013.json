@@ -1,0 +1,21 @@
+{
+  "type_id": 21013,
+  "name": "旗舰感应器组",
+  "description": "为旗舰级飞船设计的集合了大量感应装置的巨型储存设备。",
+  "volume": 2000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000.0,
+  "category_name": "常用物品",
+  "group_name": "旗舰建造组件",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

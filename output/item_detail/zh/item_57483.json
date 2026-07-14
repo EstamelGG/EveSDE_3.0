@@ -1,0 +1,13 @@
+{
+  "type_id": 57483,
+  "name": "神经链接增强器存储装置",
+  "description": "神经链接增强器存储装置  是一种精密的容器，内含生物科技密封、过滤器以及流体控制系统。这种容器可以保存用于满足神经链接增强器对于过滤和流体控制的需求的极为复杂的药物。",
+  "volume": 400.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "常用物品",
+  "group_name": "建造组件",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 21801,
+  "name": "Firewater",
+  "description": "High quality moonshine. Inhaling causes uninhibited behavior, loss of muscle motor skills and similar hilarity.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

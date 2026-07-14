@@ -1,0 +1,56 @@
+{
+  "type_id": 62561,
+  "name": "Compressed Crokite II-Grade",
+  "description": "In certain belts, environmental conditions will carve sharp, jagged edges into crokite rocks, resulting in the formation of sharp crokite. The increased density of these formations leads to a 5% greater mineral yield than standard crokite.\n\nCrokite is a very heavy ore that is always in high demand because it has the largest ratio of <a href=showinfo:38>Nocxium</a> and <a href=showinfo:36>Mexallon</a> for any ore in the known universe. Valuable deposits of <a href=showinfo:35>Pyerite</a> can also be found within this rare ore.\n\nThis material is compressed and a much more compact form of the original material.",
+  "volume": 0.16,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1e+35,
+  "category_name": "Asteroid",
+  "group_name": "Crokite",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 60379.0,
+      "categoryID": 7,
+      "display_name": "Reprocessing Skill",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "Stasis Webifier Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 1225.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "typeID"
+    }
+  ],
+  "traits": []
+}

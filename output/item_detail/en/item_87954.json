@@ -1,0 +1,13 @@
+{
+  "type_id": 87954,
+  "name": "Exploration Detector 3",
+  "description": "This advanced detector allows ship scanners to pick up many undetected relic and data signatures for probe scanning within a system.",
+  "volume": 20000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Infrastructure Upgrades",
+  "group_name": "Sovereignty Hub Site Detection Upgrades",
+  "attributes": [],
+  "traits": []
+}

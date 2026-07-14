@@ -1,0 +1,13 @@
+{
+  "type_id": 24766,
+  "name": "Ship's Crew",
+  "description": "A non-capsuleer member of a ship's crew relegated to manual tasks essential for maintaining the operational status of the ship.",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

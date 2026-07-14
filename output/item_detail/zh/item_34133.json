@@ -1,0 +1,13 @@
+{
+  "type_id": 34133,
+  "name": "多人物训练凭证",
+  "description": "此凭证可以让你同一账户下的多个人物同时进行技能训练。使用后，你可以额外激活一个人物的技能训练队列（最多额外激活两个），也可以延长已经激活的多人物技能训练时间。此凭证使用后立即消失，额外的技能训练时长为30天。\n\n请注意，在任何情况下你都不能让<b>同一个</b>人物同时训练两个技能。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "附件",
+  "group_name": "服务",
+  "attributes": [],
+  "traits": []
+}

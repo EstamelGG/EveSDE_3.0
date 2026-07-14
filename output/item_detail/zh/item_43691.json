@@ -1,0 +1,13 @@
+{
+  "type_id": 43691,
+  "name": "米玛塔尔矿业集团保险柜",
+  "description": "属于米玛塔尔矿业集团的一个保险柜。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "常用物品",
+  "group_name": "保险柜",
+  "attributes": [],
+  "traits": []
+}

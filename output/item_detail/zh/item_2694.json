@@ -1,0 +1,13 @@
+{
+  "type_id": 2694,
+  "name": "大箱的小型枪械",
+  "description": "用于战争和自卫的个人武器和装备。",
+  "volume": 600.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 600000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

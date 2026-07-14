@@ -1,0 +1,13 @@
+{
+  "type_id": 28080,
+  "name": "艾玛高级哨站精炼设施",
+  "description": "针对艾玛哨站提炼能力的高级升级方案。提高矿石和冰矿的提炼效率到57%。\n\n注：只对上述两种物品有影响。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "附件",
+  "group_name": "哨站强化",
+  "attributes": [],
+  "traits": []
+}

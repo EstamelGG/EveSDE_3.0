@@ -1,0 +1,13 @@
+{
+  "type_id": 17995,
+  "name": "盗取的通行证钥匙",
+  "description": "这个通行证钥匙可以打开通往位于天蛇二十一哨站复合体的毒贩秘密基地的加速轨道。该通行证钥匙只能使用一次。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 32252,
+  "name": "Amphere 9",
+  "description": "A synthetic drug long banned by the Empires, Amphere 9 can still be found in the border regions and outlawed territories of New Eden. The drug contains bits of nitrazepam, amphetamine, sodium pentothal, and synthetically rendered dopamine, plus a number of other potentially lethal substances. \n\nThere is still a thriving black market for the pill, which many consider to be a dirtier version of Vitoc, keeping workers sedate and stable yet remarkably open to suggestion by others. The drug is especially effective on children under the age of twelve with no serious physical side effects, though no conclusive medical study has been conducted to support this claim.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

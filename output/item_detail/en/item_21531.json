@@ -1,0 +1,13 @@
+{
+  "type_id": 21531,
+  "name": "Barbed Wire Scanner",
+  "description": "A prototype scanner that can be easily linked into a scanner array to get a full and detailed coverage of the area under surveillance.",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

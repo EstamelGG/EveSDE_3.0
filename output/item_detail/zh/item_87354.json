@@ -1,0 +1,13 @@
+{
+  "type_id": 87354,
+  "name": "信标数据核心",
+  "description": "伤患信标的中央数据核心。其代码运行遵循古代朱庇特法则，虽然表面无瑕，但无法掩饰其新生痕迹。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

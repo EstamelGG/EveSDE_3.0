@@ -1,0 +1,13 @@
+{
+  "type_id": 53290,
+  "name": "旗舰级三元态处理器",
+  "description": "三神裔舰船以及其他采用采用相似设计的舰船所使用的信息处理系统的组件。可能也可用于其他科技种类中。\n\n\n\n三神裔科技是基于三进制代码的，这个设备就是这类系统进行信息处理的关键部件。搞清如何与它进行连接以及如何转译输入和输出是对应用三神裔技术的突破性进展。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "建造组件",
+  "attributes": [],
+  "traits": []
+}

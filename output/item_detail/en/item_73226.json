@@ -1,0 +1,126 @@
+{
+  "type_id": 73226,
+  "name": "Minmatar Propaganda Broadcast Structure",
+  "description": "Propaganda Broadcast Structures are deployable structures that increase advantage points in the system they are deployed in. They must be defended for a period of time in order to gain advantage points. You can buy Propaganda Broadcast Structures from your militia's LP Store.",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000.0,
+  "category_name": "Deployable",
+  "group_name": "FW Propaganda Broadcast Structure",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 50000.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 11584.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "scanRadarStrength",
+      "value": 20.0,
+      "categoryID": 6,
+      "display_name": "RADAR Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanLadarStrength",
+      "value": 20.0,
+      "categoryID": 6,
+      "display_name": "Ladar Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrength",
+      "value": 20.0,
+      "categoryID": 6,
+      "display_name": "Magnetometric Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanGravimetricStrength",
+      "value": 20.0,
+      "categoryID": 6,
+      "display_name": "Gravimetric Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "shieldCapacity",
+      "value": 50000.0,
+      "categoryID": 2,
+      "display_name": "Shield Capacity",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorHP",
+      "value": 50000.0,
+      "categoryID": 3,
+      "display_name": "Armor Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 3.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "shieldRechargeRate",
+      "value": 2400000.0,
+      "categoryID": 2,
+      "display_name": "Shield recharge time",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "shieldUniformity",
+      "value": 0.75,
+      "categoryID": 2,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "armorUniformity",
+      "value": 0.75,
+      "categoryID": 3,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureUniformity",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 400.0,
+      "categoryID": 6,
+      "display_name": "Signature Radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    }
+  ],
+  "traits": []
+}

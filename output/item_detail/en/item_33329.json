@@ -1,0 +1,42 @@
+{
+  "type_id": 33329,
+  "name": "Genolution 'Auroral' AU-79",
+  "description": "This implant allows the bearer to operate the <a href=showinfo:33328>Genolution 'Auroral' 197-variant</a> capsule instead of the standard type. Once installed, the implant is a permanent part of the capsuleer's brain (unless intentionally removed by the wearer), and according to contracts with the Genolution corp a fresh copy will be reinserted in every new clone activated by the capsuleer.\n\nThis implant is not removed during podding or clone jumping.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Implant",
+  "group_name": "Special Edition Implant",
+  "attributes": [
+    {
+      "attribute_name": "implantness",
+      "value": 79.0,
+      "categoryID": 7,
+      "display_name": "Implant Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "nondestructible",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Non-Destructible",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "followsJumpClones",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Follows Jump Clones",
+      "unit_name": "1=True 0=False"
+    }
+  ],
+  "traits": []
+}

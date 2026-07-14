@@ -1,0 +1,13 @@
+{
+  "type_id": 59902,
+  "name": "飞行员工业升级增效剂宝箱",
+  "description": "打开后可获得一份研发生产增效剂或一份资源收集增效剂。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

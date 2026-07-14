@@ -1,0 +1,13 @@
+{
+  "type_id": 23635,
+  "name": "埃尔塔净化器",
+  "description": "这个笨重的医学仪器是为某些患罕见血液病的病人输血的必要设备。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": 50.0,
+  "mass": 1000.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

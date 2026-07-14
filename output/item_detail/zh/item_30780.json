@@ -1,0 +1,13 @@
+{
+  "type_id": 30780,
+  "name": "奇怪的加密文档",
+  "description": "这个文档看上去全是乱码，要不是下面有哒加恩的签名可能都不会意识到这是个有用的东西。伽流斯说不定能够破译它。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.75,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

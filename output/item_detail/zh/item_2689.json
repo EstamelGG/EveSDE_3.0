@@ -1,0 +1,13 @@
+{
+  "type_id": 2689,
+  "name": "大箱的氧气",
+  "description": "氧气是需求量稳定的日用品。尽管大多数空间站都有自己的供给装置，但是小型太空站和飞行器上所需氧气仍依赖进口。",
+  "volume": 700.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 700000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

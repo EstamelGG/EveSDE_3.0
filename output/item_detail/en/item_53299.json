@@ -1,0 +1,13 @@
+{
+  "type_id": 53299,
+  "name": "Zirnitra Blueprint Data Vault",
+  "description": "This data vault contains some blueprints required to create the Zirnitra, gifted to Capsuleers by the Triglavian Collective in return for their aid in destroying Empire forces threatening their Stellar Accelerators throughout New Eden.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

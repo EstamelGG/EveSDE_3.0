@@ -1,0 +1,13 @@
+{
+  "type_id": 18585,
+  "name": "罪恶林荫道的假期通行证",
+  "description": "该通行证被分发给那些获得了复兴营地内特殊疗养权的古斯塔斯特工。轨道会打开一小段时间，出入卡在将卡中数据上传到轨道激活设备后，就会失去效用。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

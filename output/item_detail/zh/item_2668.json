@@ -1,0 +1,13 @@
+{
+  "type_id": 2668,
+  "name": "一群基因增强的家畜",
+  "description": "家畜是人工驯养的动物，由于它们是肉类及奶制品来源，因此既可供家用，也可换取利润。这个特殊的家畜品种已使用最新的技术加强了其基因。",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100000.0,
+  "category_name": "常用物品",
+  "group_name": "有生货物",
+  "attributes": [],
+  "traits": []
+}

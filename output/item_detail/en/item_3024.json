@@ -1,0 +1,13 @@
+{
+  "type_id": 3024,
+  "name": "Large Crate of Archaeological Lot GV87-426-E Artifacts",
+  "description": "This looks like little more than half a starship, perhaps one which was modified into ground-based living quarters. Several panels are inscribed with decorative symbols, possibly writing. The carefully-dismantled panels are accompanied by several crates filled with pieces of what appear to be small-industry mining tools, encrusted with moon-dust. The oxygen-free lunar atmosphere prevented rust from forming on the metal, and writing etched into the flat surfaces is clearly visible. Another crate is filled with core samples and geodes. A note accompanying the find indicates that the minerals have no known industrial property in any part of the present-day Federation, and further research will be needed to determine the purpose of the pre-Federation miners.",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

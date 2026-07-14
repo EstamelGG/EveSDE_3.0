@@ -1,0 +1,42 @@
+{
+  "type_id": 54597,
+  "name": "限量合成型思维冲击增效体",
+  "description": "这个增效剂通过每日登录奖励发放。领取后立即生效。\n\n电容器电容量提高2%\n\n基础持续时间：1小时",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "boosterDuration",
+      "value": 3600000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "capacitorCapacityBonus",
+      "value": 2.0,
+      "categoryID": 5,
+      "display_name": "电容量调整",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    }
+  ],
+  "traits": []
+}

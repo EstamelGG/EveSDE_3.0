@@ -1,0 +1,13 @@
+{
+  "type_id": 33017,
+  "name": "Deactivated Station Key Pass",
+  "description": "At the end of YC114, station managers across New Eden were surprised and shocked by the accidental delivery of station key passes to large numbers of pilots due to an inventory error in the InterBus central database. With recall next to impossible, the recommendation of veteran station manager Scotty, now consulting with the SCC, was to simply send out a general deactivation order and replace the master key passes used by station staff. The mistakenly delivered passes are now nothing more than souvenirs of an odd but ultimately harmless incident.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.01,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

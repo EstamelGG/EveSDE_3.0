@@ -1,0 +1,55 @@
+{
+  "type_id": 30872,
+  "name": "四类红巨星效果光束",
+  "description": "本地空间现象可能会对你的舰船系统造成影响。",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "天体",
+  "group_name": "效果光束",
+  "attributes": [
+    {
+      "attribute_name": "heatDamageMultiplier",
+      "value": 1.36,
+      "categoryID": 52,
+      "display_name": "超载伤害倍增系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "overloadBonusMultiplier",
+      "value": 1.72,
+      "categoryID": 4,
+      "display_name": "超载加成倍增系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "empFieldRangeMultiplier",
+      "value": 1.72,
+      "categoryID": 7,
+      "display_name": "立体炸弹范围倍增系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "smartbombDamageMultiplier",
+      "value": 1.72,
+      "categoryID": 7,
+      "display_name": "立体炸弹伤害倍增系数",
+      "unit_name": "x"
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b>72%</b> 装备过载效果加成"
+    },
+    {
+      "content": "<b>72%</b> 立体炸弹伤害和范围加成"
+    },
+    {
+      "content": "<b>72%</b> 炸弹伤害加成"
+    },
+    {
+      "content": "<b>36%</b> 装备过载损伤提高"
+    }
+  ]
+}

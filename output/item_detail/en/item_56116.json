@@ -1,0 +1,13 @@
+{
+  "type_id": 56116,
+  "name": "Test crate 2",
+  "description": "This is for internal test only.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

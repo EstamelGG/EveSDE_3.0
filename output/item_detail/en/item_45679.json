@@ -1,0 +1,13 @@
+{
+  "type_id": 45679,
+  "name": "Blood Raider Dagon Blueprint Armored Cache",
+  "description": "This armored and electromagnetically hardened data cache is normally integrated into the Blood Raider Covenant's shipyard facilities, providing a high level of security and protection from corruption while building Dagon-class Force Auxiliaries.\n\nThese armored caches have a good chance of surviving the destruction of the facility they are installed in. If recovered by suitable ships, the caches can be accessed and the Dagon blueprint data recovered.",
+  "volume": 400000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Commodity",
+  "group_name": "Strong Boxes",
+  "attributes": [],
+  "traits": []
+}

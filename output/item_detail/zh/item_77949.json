@@ -1,0 +1,13 @@
+{
+  "type_id": 77949,
+  "name": "帝国开发日志",
+  "description": "在艾玛人病毒试图进行暴力破解攻击时记录的一系列错误，旨在从目标的代码中找到关键漏洞。日志中记录了一些关于病毒传播方式的线索。如果有充分的日志记录，或许能够帮助米玛塔尔安全部队防范未来的袭击。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "国土行动物品",
+  "attributes": [],
+  "traits": []
+}

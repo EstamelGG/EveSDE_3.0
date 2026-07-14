@@ -1,0 +1,13 @@
+{
+  "type_id": 30307,
+  "name": "金属富勒烯镧",
+  "description": "这种富勒烯-镧复合物是通过将一个单一的镧原子包覆在一个碳原子框架中制作的。镧合金所具有的超高熔点使它成为铸造一些特殊部件的理想材料，这些部件长期遭受高温和极限热能的考验，使武器系统能够长期保持运转效率。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "混合聚合物",
+  "attributes": [],
+  "traits": []
+}

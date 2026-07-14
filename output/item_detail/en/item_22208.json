@@ -1,0 +1,13 @@
+{
+  "type_id": 22208,
+  "name": "Prostitute",
+  "description": "An individual who provides sexual services in exchange for currency.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 50.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

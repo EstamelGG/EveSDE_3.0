@@ -1,0 +1,13 @@
+{
+  "type_id": 79192,
+  "name": "不死循环起义军忠诚点凭证",
+  "description": "这个电子凭证是由不死循环加密的一组奖励值，可以在“支点”、天使或古斯塔斯海盗的空间站中换取星币奖励。",
+  "volume": 0.001,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

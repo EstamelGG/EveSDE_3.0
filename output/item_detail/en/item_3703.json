@@ -1,0 +1,13 @@
+{
+  "type_id": 3703,
+  "name": "Nerve Sticks",
+  "description": "This booster is used as a stress-reliever and is ingested with a sip of water.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "Commodity",
+  "group_name": "Drugs",
+  "attributes": [],
+  "traits": []
+}

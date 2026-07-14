@@ -1,0 +1,13 @@
+{
+  "type_id": 30814,
+  "name": "FR Personnel",
+  "description": "Peaceful emissaries of comfort and salvation, the Food Relief personnel are not a threat to anybody. But try telling that to a swarm of rogue drones.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 70.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

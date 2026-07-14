@@ -1,0 +1,49 @@
+{
+  "type_id": 19698,
+  "name": "载诺 狙击手 大型混合炮台 LH-1005",
+  "description": "载诺集团生产的射击技能神经交互强化芯片，可增强大型混合炮台操纵技能。大型混合炮台伤害增加5%。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "脑控炮术学",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3411.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 4.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "damageMultiplierBonus",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "伤害倍增系数加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "implantness",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "植入体槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    }
+  ],
+  "traits": []
+}

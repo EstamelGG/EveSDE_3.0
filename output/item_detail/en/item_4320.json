@@ -1,0 +1,13 @@
+{
+  "type_id": 4320,
+  "name": "Research Abstract: Project Theta",
+  "description": "<b>Paper:</b> Project Theta<br>\n<b>Lead Researcher:</b> Norman Vales<br>\n<b>Contributors:</b> Authochthonian, Chevalleis<br>\n<b>Summary:</b> The present goal of Project Theta is to produce laboratory equipment for use in attempting safe communications with rogue drones. Project Theta aims to achieve this goal by repurposing and reverse engineering available rogue drone technology to create a communications subnet intended to interface with the more advanced rogue drone networks.\n\nThe three-unit communications system includes an override of the present comms systems, designed as a protective measure. It has also been designed to provide on-the-fly encoding and decoding. Future testing will be necessary to determine if the system will work as required.\n\nBased on the <a href=showinfo:23678>Aether Hive Link</a> the network remains experimental, and will be part of an isolated communications system. Recent lab tests have indicated a bandwidth of at least ten times that which is available to typical businesses.\n\n<i>This abstract relates to research undertaken by the Arek'Jaalan Project.</i>\n\n<i>Authorized for capsuleer dissemination under the CONCORD Freedom of Distribution Act (Alpha-One-Five), YC 113.11.4</i>\n\n<i>Further copies of this document can be obtained through the Arek'Jaalan administrative site, located in the <a href=showinfo:5//30003413>Eram</a> system.<i>",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Research Data",
+  "attributes": [],
+  "traits": []
+}

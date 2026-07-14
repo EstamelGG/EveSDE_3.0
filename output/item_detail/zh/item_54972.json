@@ -1,0 +1,13 @@
+{
+  "type_id": 54972,
+  "name": "超导烧蚀纳米电缆",
+  "description": "超高能量负荷会烧坏电缆，即使是最高级的超导线缆也撑不住，所以以相对高频率传输高能量波是一种比较激进的解决方案。超导烧蚀纳米电缆会在脉冲间隙替换电缆的纳米材料，因此可以反复传输高能量负荷。",
+  "volume": 0.25,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "打捞材料",
+  "attributes": [],
+  "traits": []
+}

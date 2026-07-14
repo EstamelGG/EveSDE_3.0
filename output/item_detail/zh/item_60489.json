@@ -1,0 +1,13 @@
+{
+  "type_id": 60489,
+  "name": "白刃中小型舰船涂装宝箱",
+  "description": "打开后随机获得白刃系列中小型舰船（护卫舰、驱逐舰、巡洋舰）涂装一款。\n\n概率如下：\n\n护卫舰：63.32%\n\n驱逐舰：13.13%\n\n巡洋舰：23.55%",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

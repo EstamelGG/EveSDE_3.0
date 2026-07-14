@@ -1,0 +1,13 @@
+{
+  "type_id": 26901,
+  "name": "繁育劳工",
+  "description": "这些劳工多年来被圈养在繁育殖民地，唯一的目的是为了增加劳工贩子拥有的劳工总数。这些可怜的人一旦活过了最具使用价值的时期，就将被抛弃，因此他们的生命极其短暂，不过想想他们悲惨的一生，这也算是一种解脱。",
+  "volume": 1.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80.0,
+  "category_name": "常用物品",
+  "group_name": "有生货物",
+  "attributes": [],
+  "traits": []
+}

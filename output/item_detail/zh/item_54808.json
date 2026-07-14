@@ -1,0 +1,13 @@
+{
+  "type_id": 54808,
+  "name": "预测光锥绘图装置",
+  "description": "这种古怪技术的组件名称和序列号清楚地带有统合部、昇威财团和伊甸联合防御阵线的识别码。这个特别的装置是一部精密的锁定系统的一部分，似乎可以预测未来事件，但还不能确定它是否能够开火射击。它显然是某个大型装置的一部分。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 20.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

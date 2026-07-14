@@ -1,0 +1,13 @@
+{
+  "type_id": 21461,
+  "name": "Wiyrkomi Rifles",
+  "description": "These rifles belong to the Wiyrkomi Corporation.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

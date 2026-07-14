@@ -1,0 +1,13 @@
+{
+  "type_id": 87217,
+  "name": "军用停滞舱",
+  "description": "紧急情况下，机组成员可前往该舱室避难，甚至有可能在舰船完全毁坏的情况下幸存。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

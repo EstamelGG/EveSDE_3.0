@@ -1,0 +1,21 @@
+{
+  "type_id": 16647,
+  "name": "Caesium",
+  "description": "A golden Alkali metal used primarily in propulsion systems. Also performs a variety of catalytic functions in the nuclear and photoelectric arenas.",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1544.0,
+  "category_name": "Material",
+  "group_name": "Moon Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

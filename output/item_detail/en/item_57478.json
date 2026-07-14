@@ -1,0 +1,13 @@
+{
+  "type_id": 57478,
+  "name": "Auto-Integrity Preservation Seal",
+  "description": "Auto-Integrity Preservation Seals are specialized components used for automatic damage control in key space vessel zones where crew and other personnel aboard ship are operating. While most ships have a variety of internal forcefields, bulkhead dividers, air-locks and similar systems built into the basic design, breaches of all kinds can occur in the heat of space combat.\n\nTo address small but potentially dangerous breaches, temporary force-fields, smart materials and nanotechnology have often been used but can be energy intensive or use otherwise valuable resources such as nanite paste.\n\nThe new auto-integrity technology takes a leaf out of the Triglavian Collective's book and uses mutaplasmid technology as the inspiration for cheaper, standard components that release biotech nanobes tailored to seek and repair microfractures and other defects threatening physical compartment integrity.",
+  "volume": 16.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Construction Components",
+  "attributes": [],
+  "traits": []
+}

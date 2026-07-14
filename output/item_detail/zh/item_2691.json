@@ -1,0 +1,13 @@
+{
+  "type_id": 2691,
+  "name": "大箱的合成纺织品",
+  "description": "这种合成织物不仅可以用来做衣物，也可以在气候恶劣的殖民地充当临时遮蔽物。",
+  "volume": 500.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 500000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

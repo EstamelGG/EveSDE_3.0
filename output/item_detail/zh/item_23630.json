@@ -1,0 +1,13 @@
+{
+  "type_id": 23630,
+  "name": "未装配的钻机",
+  "description": "这些钻机能对环境产生极大的破坏。尚未装配。",
+  "volume": 12.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2000.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

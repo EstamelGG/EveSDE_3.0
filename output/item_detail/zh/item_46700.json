@@ -1,0 +1,56 @@
+{
+  "type_id": 46700,
+  "name": "聚合高密度奥贝尔石（4级）",
+  "description": "这种及其稀有和珍贵的奥贝尔石变种是最近由ORE工程师在对新型卫星开采技术进行初期实地实验时发现的。经过进一步检测后确认这种矿石提炼后的矿物产出比普通的奥贝尔石高15%。奥贝尔石虽然是一种普通的矿石，但对采矿新手来说，它仍然是一个不错的矿种，因为它含有大量的<a href=showinfo:37>同位聚合体</a>，以及一些<a href=showinfo:35>类晶体胶矿</a>。新手只要进行几趟开采奥贝尔石的旅程，他的资历就会显著提升。<i>这种材料使用了比较老旧的压缩方式，对原材料进行一次性批量压缩。最新的压缩技术则更为灵活，可以按单位体积进行压缩。</i>",
+  "volume": 0.3,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "小行星",
+  "group_name": "奥贝尔石",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 60378.0,
+      "categoryID": 7,
+      "display_name": "回收再生技能",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "停滞缠绕抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 46684.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "类别ID"
+    }
+  ],
+  "traits": []
+}

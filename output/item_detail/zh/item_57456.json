@@ -1,0 +1,13 @@
+{
+  "type_id": 57456,
+  "name": "增压氧化剂",
+  "description": "增压氧化剂在太空工业中应用广泛，包括可以作为燃料系统和冷却系统的资源。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "合成物",
+  "attributes": [],
+  "traits": []
+}

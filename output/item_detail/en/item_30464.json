@@ -1,0 +1,21 @@
+{
+  "type_id": 30464,
+  "name": "Metallofullerene Plating",
+  "description": "Metallofullerene plating is used to protect the connective joins in hull and subsystem structures so that Tech III vessels can be taken apart and put back together endlessly, all without the risk of wear. Mechanical engineers first attempted to create the plating using plutonium metallofullerenes, but it was quickly discovered that even miniscule amounts of them had a sizeable impact on ship mass. When integrated into armor plating in larger amounts, they also risked turning the vessel into a giant warhead, something even less desirable. \n\nA solution was finally found. Tiny amounts of metallofullerenes would be integrated in conjunction with far larger quantities of graphene nanoribbons and then coated in powdered C-540 graphite. This process allowed the material to maintain structural durability whilst keeping mass down. The last and most ingenious addition was to incorporate fulleroferrocene into the metal beneath layers of electromechanical hull sheeting. This had the effect of turning the normally dangerous explosive reactions into kinetic energy, which could then be used to supplement the power supply to local nanoassemblers.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Hybrid Tech Components",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

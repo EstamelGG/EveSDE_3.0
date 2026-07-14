@@ -1,0 +1,13 @@
+{
+  "type_id": 17991,
+  "name": "9D逻辑钥匙卡片",
+  "description": "这张钥匙卡片可以激活天使海军船坞内的第一加速轨道。这种钥匙卡片很难伪造，一旦使用之后就会在空间转换时消失。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

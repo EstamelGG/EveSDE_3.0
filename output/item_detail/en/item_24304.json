@@ -1,0 +1,13 @@
+{
+  "type_id": 24304,
+  "name": "Excavation Note",
+  "description": "A scribbled note from an earlier digger, telling that he has uncovered evidence that another Yan Jung site orbits the moon around Deltole VI.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 23538,
+  "name": "Store Goods",
+  "description": "Crate of various store goods.",
+  "volume": 80.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

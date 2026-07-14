@@ -1,0 +1,21 @@
+{
+  "type_id": 32829,
+  "name": "粗糙的微晶合金",
+  "description": "一种由钴和镉生成的多核非金属化合物。微晶合金是结晶混合物制造中的一个基本构件。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "中间产物",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

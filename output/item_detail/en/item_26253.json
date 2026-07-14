@@ -1,0 +1,63 @@
+{
+  "type_id": 26253,
+  "name": "Armor Rigging",
+  "description": "Advanced understanding of armor systems. Allows makeshift modifications to armor systems through the use of rigs. \n\n10% reduction in Armor Rig drawbacks per level.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Skill",
+  "group_name": "Rigging",
+  "attributes": [
+    {
+      "attribute_name": "primaryAttribute",
+      "value": 165.0,
+      "categoryID": 7,
+      "display_name": "Primary attribute",
+      "unit_name": "attributeID"
+    },
+    {
+      "attribute_name": "secondaryAttribute",
+      "value": 166.0,
+      "categoryID": 7,
+      "display_name": "Secondary attribute",
+      "unit_name": "attributeID"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 26252.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "skillTimeConstant",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "Training time multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 3.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "skillLevel",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Level",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "rigDrawbackBonus",
+      "value": -10.0,
+      "categoryID": 7,
+      "display_name": "Rig Drawback Reduction",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 57476,
+  "name": "Magnetometric-FTL Interlink Communicator",
+  "description": "Gallente ship designs use magnetometric-based sensors as their primary means of building a picture of the local space environment. The Magnetometric-FTL Interlink Communicator is used to tie high-frequency, high-resolution Gallente sensor data directly into the FTL communications channels used by Federation Navy fleets.",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Advanced Capital Construction Components",
+  "attributes": [],
+  "traits": []
+}

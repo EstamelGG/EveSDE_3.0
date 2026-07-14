@@ -1,0 +1,13 @@
+{
+  "type_id": 29150,
+  "name": "加密的舰船日志",
+  "description": "这份看似普通的舰船日志被精密地加密保护了。你的舰船计算机无法读取这些数据。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "航行日志",
+  "attributes": [],
+  "traits": []
+}

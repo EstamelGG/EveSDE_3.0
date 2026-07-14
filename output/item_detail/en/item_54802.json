@@ -1,0 +1,42 @@
+{
+  "type_id": 54802,
+  "name": "Expired Capsuleer Day Signal-10 'Needlejack' Filament",
+  "description": "This limited edition Needlejack filament has been developed and distributed by Upwell and CONCORD to celebrate the 17th anniversary of the first independent Capsuleer licenses.\n\nThis filament has been produced using especially unstable compounds and therefore has a limited shelf life. It will cease to function after June 15, YC122.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Commodity",
+  "group_name": "Expired Jump Filaments",
+  "attributes": [
+    {
+      "attribute_name": "mjfgRadius",
+      "value": 6000.0,
+      "categoryID": 17,
+      "display_name": "Area Effect Radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "mjdShipJumpCap",
+      "value": 10.0,
+      "categoryID": 17,
+      "display_name": "Maximum Ship Jump cap",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "ActiveSystemJump",
+      "value": 1.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "FilamentDescriptionMessageID",
+      "value": 561098.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

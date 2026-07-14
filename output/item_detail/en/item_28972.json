@@ -1,0 +1,13 @@
+{
+  "type_id": 28972,
+  "name": "Cryogenic Stasis Capsule",
+  "description": "This cryo capsule is fitted with a password-protected security lock to protect its occupant.",
+  "volume": 25.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 400.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

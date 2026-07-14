@@ -1,0 +1,13 @@
+{
+  "type_id": 2602,
+  "name": "Crates of Drill Parts",
+  "description": "These large containers are fitted with a password-protected security lock.  These particular containers are filled with spare parts needed to build a drill used for drilling through rock and ice sheets.",
+  "volume": 90.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 90000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

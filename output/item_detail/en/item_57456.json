@@ -1,0 +1,13 @@
+{
+  "type_id": 57456,
+  "name": "Pressurized Oxidizers",
+  "description": "Pressurized oxidizers are used for various purposes in space technology, including as component resources for fuel systems and cryogenic cooling systems.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Composite",
+  "attributes": [],
+  "traits": []
+}

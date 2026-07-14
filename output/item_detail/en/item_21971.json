@@ -1,0 +1,13 @@
+{
+  "type_id": 21971,
+  "name": "Broken ComLink Scanner",
+  "description": "A hi-tech surveillance equipment capable of breaking into secure communication lines and listen in on the chatter. It's broken beyond repair.",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

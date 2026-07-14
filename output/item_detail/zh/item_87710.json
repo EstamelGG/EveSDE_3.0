@@ -1,0 +1,13 @@
+{
+  "type_id": 87710,
+  "name": "劳动力机械工具1",
+  "description": "限定机械工具为工人赋能，可利用其他能量略微提高工作效率。生成的劳动力仅限于本地使用，仅支持同一星系内优先级较低的升级件。",
+  "volume": 8000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "基础设施升级件",
+  "group_name": "主权中心殖民地资源管理升级件",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,49 @@
+{
+  "type_id": 56066,
+  "name": "荣耀-5\"女神\"纤维",
+  "description": "荣耀-5\"女神\"纤维能将最多5艘舰船从某个位于三神裔领地的星系传送到位于已知空间的一个三神裔已经获得胜利，但还未开始入侵最终阶段的星系。伊甸联合防御阵线将这类星系定义为三神裔获得“小胜”的星系。\n\n\n\n据伊甸联合防御阵线文化情报机构的一篇译稿所称，三神裔已开始将获得入侵胜利的星系视为他们的资源采集地或“狩猎场”。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "常用物品",
+  "group_name": "三神裔星系纤维",
+  "attributes": [
+    {
+      "attribute_name": "mjfgRadius",
+      "value": 6000.0,
+      "categoryID": 17,
+      "display_name": "范围效果半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "mjdShipJumpCap",
+      "value": 5.0,
+      "categoryID": 17,
+      "display_name": "最大舰船跳跃数量",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "FilamentDescriptionMessageID",
+      "value": 569130.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "locationListID",
+      "value": 4516.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "filamentSpoolupTimeSeconds",
+      "value": 120.0,
+      "categoryID": 7,
+      "display_name": "激活延迟",
+      "unit_name": "s"
+    }
+  ],
+  "traits": []
+}

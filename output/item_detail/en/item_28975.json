@@ -1,0 +1,13 @@
+{
+  "type_id": 28975,
+  "name": "Cargo Manifest",
+  "description": "These complicated data sheets may mean little to the layman's eye, but they contain a great deal of information about trade routes, taxes, and other arcane business data.",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

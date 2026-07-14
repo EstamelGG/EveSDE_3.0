@@ -1,0 +1,182 @@
+{
+  "type_id": 85230,
+  "name": "Mercenary Den",
+  "description": "The Deathless Circle has developed an open-source facility known throughout the cluster as a “Mercenary Den.” Allegedly designed as a hub for Upwell clones to rest and relax, they have quickly become congregating points for mercenaries looking for work and clones seeking to escape it. This facility provides an ideal environment for enjoying alcoholic drinks, watching the latest SCOPE broadcasts, and engaging in impromptu combat training.\n\nThe Deathless has released a statement that any Upwell legal teams bothered about misuse of the Transneural Echo Burn Scanner “booths” included with the structure should \"kindly leave and pass away peacefully.\"\n\nPlease note that at this time, Mercenary Dens can only sustain themselves when linked to a nearby temperate planet Skyhook.",
+  "volume": 50.0,
+  "repackaged_volume": null,
+  "capacity": 3000.0,
+  "mass": 10000.0,
+  "category_name": "Deployable",
+  "group_name": "Mercenary Den",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 500000.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "scanRadarStrength",
+      "value": 50.0,
+      "categoryID": 6,
+      "display_name": "RADAR Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanLadarStrength",
+      "value": 50.0,
+      "categoryID": 6,
+      "display_name": "Ladar Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrength",
+      "value": 50.0,
+      "categoryID": 6,
+      "display_name": "Magnetometric Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanGravimetricStrength",
+      "value": 50.0,
+      "categoryID": 6,
+      "display_name": "Gravimetric Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "shieldCapacity",
+      "value": 500000.0,
+      "categoryID": 2,
+      "display_name": "Shield Capacity",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorHP",
+      "value": 500000.0,
+      "categoryID": 3,
+      "display_name": "Armor Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorEmDamageResonance",
+      "value": 0.75,
+      "categoryID": 3,
+      "display_name": "Armor EM Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorExplosiveDamageResonance",
+      "value": 0.75,
+      "categoryID": 3,
+      "display_name": "Armor Explosive Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorKineticDamageResonance",
+      "value": 0.75,
+      "categoryID": 3,
+      "display_name": "Armor Kinetic Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorThermalDamageResonance",
+      "value": 0.75,
+      "categoryID": 3,
+      "display_name": "Armor Thermal Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldEmDamageResonance",
+      "value": 0.75,
+      "categoryID": 2,
+      "display_name": "Shield EM Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldExplosiveDamageResonance",
+      "value": 0.75,
+      "categoryID": 2,
+      "display_name": "Shield Explosive Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldKineticDamageResonance",
+      "value": 0.75,
+      "categoryID": 2,
+      "display_name": "Shield Kinetic Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldThermalDamageResonance",
+      "value": 0.75,
+      "categoryID": 2,
+      "display_name": "Shield Thermal Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "shieldRechargeRate",
+      "value": 86400000.0,
+      "categoryID": 2,
+      "display_name": "Shield recharge time",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "shieldUniformity",
+      "value": 0.75,
+      "categoryID": 2,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "armorUniformity",
+      "value": 0.75,
+      "categoryID": 3,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureUniformity",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 10000.0,
+      "categoryID": 6,
+      "display_name": "Signature Radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "anchoringDelay",
+      "value": 3600000.0,
+      "categoryID": 7,
+      "display_name": "Anchoring Delay",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "fighterAbilityAntiCapitalMissileResistance",
+      "value": 1.0,
+      "categoryID": 38,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

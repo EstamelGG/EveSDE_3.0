@@ -1,0 +1,28 @@
+{
+  "type_id": 2875,
+  "name": "无菌管道",
+  "description": "空间站中有很多来自不同地域不同生物圈的人，要在这样的环境中保持多样化的站内人口共同生存，一直都是一场医学噩梦，直到无菌管道的发明才结束了这种状况。这种灵活并可自我修复的管道的每一段能源都来自于分解其中所运送的水体中的化学能量，管道中具有非常高效的疫苗可以杀灭各种抗原。",
+  "volume": 50.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "行星商品",
+  "group_name": "高级资源物品 - 第四等级",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 1200000.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 1200000.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

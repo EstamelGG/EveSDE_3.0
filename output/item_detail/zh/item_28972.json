@@ -1,0 +1,13 @@
+{
+  "type_id": 28972,
+  "name": "低温停滞舱",
+  "description": "这个低温舱装有密码保护的安全锁以保护其乘坐者。",
+  "volume": 25.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 400.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

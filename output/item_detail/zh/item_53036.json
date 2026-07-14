@@ -1,0 +1,13 @@
+{
+  "type_id": 53036,
+  "name": "旗舰级辐射转化装置",
+  "description": "模块化的建造单位，用于为应用了三神裔奇点技术的旗舰提供和分配能量。",
+  "volume": 2000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000.0,
+  "category_name": "常用物品",
+  "group_name": "旗舰建造组件",
+  "attributes": [],
+  "traits": []
+}

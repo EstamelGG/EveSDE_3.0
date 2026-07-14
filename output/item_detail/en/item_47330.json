@@ -1,0 +1,140 @@
+{
+  "type_id": 47330,
+  "name": "Standup XL Energy Neutralizer II",
+  "description": "The Standup XL Energy Neutralizer is superheavy capacitor warfare device capable of draining the energy reserves of extra-large ships, such as capital ships. The XL Energy Neutralizer is designed to be mounted in structure emplacements and can be installed as a module in Upwell technology structures.\n\nStandup is a proprietary system that uses a Structure Autonomous Nanoassembly Device (Upwell) containing integrated template software, a nanoassembler array and sufficient nanomass to enable the construction of a variety of service modules, structure modules and structure rigs when inserted into the appropriate slots on a structure built with Upwell technology.",
+  "volume": 8000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Structure Module",
+  "group_name": "Structure Energy Neutralizer",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 6000.0,
+      "categoryID": 5,
+      "display_name": "Activation Cost",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 240000.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Usage",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 1800.0,
+      "categoryID": 1,
+      "display_name": "CPU usage",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 180000.0,
+      "categoryID": 29,
+      "display_name": "Optimal Range",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 30000.0,
+      "categoryID": 7,
+      "display_name": "Activation time / duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "energyNeutralizerAmount",
+      "value": 12000.0,
+      "categoryID": 22,
+      "display_name": "Neutralization Amount",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "canFitShipGroup01",
+      "value": 1657.0,
+      "categoryID": 1,
+      "display_name": "Can only be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "canFitShipGroup02",
+      "value": 1404.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "canFitShipGroup03",
+      "value": 1406.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "entityCapacitorLevelModifierSmall",
+      "value": 0.35,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "entityCapacitorLevelModifierMedium",
+      "value": 0.58,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "entityCapacitorLevelModifierLarge",
+      "value": 0.9,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "falloffEffectiveness",
+      "value": 120000.0,
+      "categoryID": 29,
+      "display_name": "Effectiveness Falloff",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "structureItemVisualFlag",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "energyNeutralizerSignatureResolution",
+      "value": 15000.0,
+      "categoryID": 22,
+      "display_name": "Neutralization Signature Resolution",
+      "unit_name": "m"
+    }
+  ],
+  "traits": []
+}

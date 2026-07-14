@@ -1,0 +1,13 @@
+{
+  "type_id": 77476,
+  "name": "M.R.F.补给",
+  "description": "为共和舰队准备的一系列基本补给品。里面可能包含军粮、医疗物资、弹药，甚至舰船部件。这里面还有一个隐秘的追踪设备，如果落入不法分子之手，共和国军方可以借此追查。",
+  "volume": 3500.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 20000.0,
+  "category_name": "常用物品",
+  "group_name": "国土行动物品",
+  "attributes": [],
+  "traits": []
+}

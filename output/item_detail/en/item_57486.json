@@ -1,0 +1,13 @@
+{
+  "type_id": 57486,
+  "name": "Life Support Backup Unit",
+  "description": "The pressure of the Triglavian Invasions on spaceship crew numbers and other military personnel risked becoming unsustainable without additional survival measures to reduce losses. Life Support Backup Units are placed in key survival zones to enhance the survival prospects of crew and other personnel in the aftermath of combat.",
+  "volume": 45.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Construction Components",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,193 @@
+{
+  "type_id": 45598,
+  "name": "Legion Offensive - Liquid Crystal Magnifiers",
+  "description": "One of the many gems discovered amidst Sleeper technology was the creation of more efficient liquid crystal lenses. Amarr researchers have engineered these lenses to increase a laser's focus for longer stretches, both in distance and in timing, allowing a laser to reach farther targets with more efficiency of energy output. Additionally, the fullerene-infused lenses can generate higher temperatures and stronger, more damaging beams and pulses.",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 800000.0,
+  "category_name": "Subsystem",
+  "group_name": "Offensive Subsystem",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "powerOutput",
+      "value": 400.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Output",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuOutput",
+      "value": 90.0,
+      "categoryID": 1,
+      "display_name": "CPU Output",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 30537.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "droneCapacity",
+      "value": 0.0,
+      "categoryID": 10,
+      "display_name": "Drone Capacity",
+      "unit_name": "m3"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "capacitorCapacity",
+      "value": 100.0,
+      "categoryID": 5,
+      "display_name": "Capacitor Capacity",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "droneBandwidth",
+      "value": 0.0,
+      "categoryID": 10,
+      "display_name": "Drone Bandwidth",
+      "unit_name": "Mbit/sec"
+    },
+    {
+      "attribute_name": "subSystemSlot",
+      "value": 127.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "turretHardPointModifier",
+      "value": 6.0,
+      "categoryID": 0,
+      "display_name": "Turret Hardpoint Modifier",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "launcherHardPointModifier",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "Launcher Hardpoint Modifier",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "hiSlotModifier",
+      "value": 7.0,
+      "categoryID": 0,
+      "display_name": "High Slot Modifier",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "medSlotModifier",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "Medium Slot Modifier",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "lowSlotModifier",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "Low Slot Modifier",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "fitsToShipType",
+      "value": 29986.0,
+      "categoryID": 0,
+      "display_name": "Restricted to Ship Type",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "subsystemBonusAmarrOffensive",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "subsystemBonusAmarrOffensive2",
+      "value": -10.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "subsystemBonusAmarrOffensive3",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warfareLinkCPUPenalty",
+      "value": 10000.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "subsystemMETFittingReduction",
+      "value": -25.0,
+      "categoryID": 1,
+      "display_name": "Medium Energy Turret fitting reduction",
+      "unit_name": "%"
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b>25%</b> reduction in the PWG and CPU fitting costs of <a href=showinfo:3306>Medium Energy Turrets</a>"
+    },
+    {
+      "content": "<b><u>Additional Base Stats</b></u>"
+    },
+    {
+      "content": "+7 High Slots, +6 Turret Hardpoints"
+    },
+    {
+      "content": "+400 PWG, +90 CPU"
+    },
+    {
+      "content": "+100GJ Capacitor Capacity"
+    },
+    {
+      "content": "<b>10%</b> reduction in <a href=showinfo:3306>Medium Energy Turret</a> activation cost"
+    },
+    {
+      "content": "<b>10%</b> bonus to <a href=showinfo:3306>Medium Energy Turret</a> damage"
+    },
+    {
+      "content": "<b>10%</b> bonus to <a href=showinfo:3306>Medium Energy Turret</a> optimal range"
+    }
+  ]
+}

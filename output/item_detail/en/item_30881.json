@@ -1,0 +1,79 @@
+{
+  "type_id": 30881,
+  "name": "Class 3 Cataclysmic Variable Effects",
+  "description": "Local spatial phenomena may cause strange effects on your ship systems.",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Celestial",
+  "group_name": "Effect Beacon",
+  "attributes": [
+    {
+      "attribute_name": "armorDamageAmountMultiplier",
+      "value": 0.71,
+      "categoryID": 3,
+      "display_name": "Repair amount multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "shieldBonusMultiplier",
+      "value": 0.71,
+      "categoryID": 2,
+      "display_name": "Shield repair multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "shieldBonusMultiplierRemote",
+      "value": 1.58,
+      "categoryID": 2,
+      "display_name": "Shield transfer amount multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "armorDamageAmountMultiplierRemote",
+      "value": 1.58,
+      "categoryID": 3,
+      "display_name": "Remote repair amount multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "capacitorCapacityMultiplierSystem",
+      "value": 1.58,
+      "categoryID": 5,
+      "display_name": "Capacitor capacity multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "rechargeRateMultiplier",
+      "value": 1.29,
+      "categoryID": 5,
+      "display_name": "Capacitor recharge multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "energyTransferAmountBonus",
+      "value": 0.71,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b>58%</b> bonus to remote armor repairer and remote shield booster effectiveness"
+    },
+    {
+      "content": "<b>58%</b> bonus to capacitor capacity"
+    },
+    {
+      "content": "<b>29%</b> penalty to capacitor recharge time"
+    },
+    {
+      "content": "<b>29%</b> penalty to remote capacitor transmitter effectiveness"
+    },
+    {
+      "content": "<b>29%</b> penalty to local armor repairer and shield booster effectiveness"
+    }
+  ]
+}

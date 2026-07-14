@@ -1,0 +1,112 @@
+{
+  "type_id": 47298,
+  "name": "Standup Multirole Missile Launcher II",
+  "description": "The Standup Multirole Missile Launcher is a space superiority missile capable of efficiently intercepting and destroying targets in the sub-capital ship size classes. This launcher may be used with Standup Light, Heavy, or Cruise missiles. The Multirole Launcher system can be installed as a module in Upwell technology structures.\n\nStandup is a proprietary system that uses a Structure Autonomous Nanoassembly Device (Upwell) containing integrated template software, a nanoassembler array and sufficient nanomass to enable the construction of a variety of service modules, structure modules and structure rigs when inserted into the appropriate slots on a structure built with Upwell technology.",
+  "volume": 4000.0,
+  "repackaged_volume": null,
+  "capacity": 33.0,
+  "mass": 500.0,
+  "category_name": "Structure Module",
+  "group_name": "Structure Multirole Missile Launcher",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 120000.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Usage",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "slots",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 1200.0,
+      "categoryID": 1,
+      "display_name": "CPU usage",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "speed",
+      "value": 2400.0,
+      "categoryID": 29,
+      "display_name": "Rate of fire",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "chargeRate",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Charges Per Cycle",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "chargeGroup1",
+      "value": 1547.0,
+      "categoryID": 7,
+      "display_name": "Used with (Charge Group)",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "canFitShipGroup01",
+      "value": 1657.0,
+      "categoryID": 1,
+      "display_name": "Can only be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "canFitShipGroup02",
+      "value": 1404.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "canFitShipGroup03",
+      "value": 1406.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "reloadTime",
+      "value": 10000.0,
+      "categoryID": 7,
+      "display_name": "Reload Time",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "structureItemVisualFlag",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

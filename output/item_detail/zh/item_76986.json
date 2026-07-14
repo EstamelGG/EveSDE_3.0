@@ -1,0 +1,13 @@
+{
+  "type_id": 76986,
+  "name": "烧焦的货柜",
+  "description": "一个凹陷的破货柜。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

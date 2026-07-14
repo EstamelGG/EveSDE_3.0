@@ -1,0 +1,70 @@
+{
+  "type_id": 17425,
+  "name": "Arkonor II-Grade",
+  "description": "While fairly invisible to all but the most experienced miners, there are significant molecular differences between arkonor and crimson arkonor, colloquially referred to as such because of the blood-red veins running through it. Miners who search for this diamond in the rough will be rewarded with mineral yields 5% higher than standard arkonor.\n\nArkonor is one of the rarest and most sought-after ores in the known universe. A sizable nugget of this can sweep anyone from rags to riches in no time. It has high amount of <a href=showinfo:40>Megacyte</a>, and also contains some <a href=showinfo:36>Mexallon</a> and <a href=showinfo:35>Pyerite</a>.\n\nAvailable primarily in null security status and wormhole systems.",
+  "volume": 16.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1e+35,
+  "category_name": "Asteroid",
+  "group_name": "Arkonor",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 60380.0,
+      "categoryID": 7,
+      "display_name": "Reprocessing Skill",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "asteroidRadiusGrowthFactor",
+      "value": 0.425,
+      "categoryID": 31,
+      "display_name": "Asteroid radius size multiplier",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "asteroidRadiusUnitSize",
+      "value": 600.0,
+      "categoryID": 31,
+      "display_name": "Asteroid unit radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "Stasis Webifier Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 22.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "typeID"
+    }
+  ],
+  "traits": []
+}

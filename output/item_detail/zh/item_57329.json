@@ -1,0 +1,63 @@
+{
+  "type_id": 57329,
+  "name": "联合矿业 开采 效能 臻牛型",
+  "description": "这种特殊型号的增效剂可以稳定地提升飞行员资源采集的效率，不会产生任何负作用。\n\n使用后的效果为：\n\n气云采集器循环时间减少5%\n\n采矿量增加5%\n\n冰矿采集器循环时间减少5%\n\n此效果可以在使用后的至少7天内持续发挥效能，具体时间根据植入者的<a href=showinfo:3405>生物学</a>技能等级而定。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "durationBonus",
+      "value": -5.0,
+      "categoryID": 7,
+      "display_name": "单次运转时间加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 604800000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "miningAmountBonus",
+      "value": 5.0,
+      "categoryID": 51,
+      "display_name": "开采量加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "iceHarvestCycleBonus",
+      "value": -5.0,
+      "categoryID": 7,
+      "display_name": "循环时间加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 111.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "nondestructible",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "无法摧毁",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "followsJumpClones",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "跟随远距克隆",
+      "unit_name": "1=True 0=False"
+    }
+  ],
+  "traits": []
+}

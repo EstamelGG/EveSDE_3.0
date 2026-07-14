@@ -1,0 +1,13 @@
+{
+  "type_id": 24465,
+  "name": "Runic Inscription",
+  "description": "An elaborate parchment inscribed with runic signs declaring the bearer to be a true scholar.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

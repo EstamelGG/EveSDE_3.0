@@ -1,0 +1,119 @@
+{
+  "type_id": 15477,
+  "name": "加强型坠落感增效体",
+  "description": "这个增效剂可以使飞行员进入暂时性的混乱状态，会觉得身边的一切目标都是极具危险的，必须全力消灭。飞行员会强制他的炮台具有更高的跟踪速度，但需要一段时间才能平息内心试图摧毁身边一切目标的冲动。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3405.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 2.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 1800000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "trackingSpeedBonus",
+      "value": 31.25,
+      "categoryID": 37,
+      "display_name": "跟踪速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "boosterEffectChance1",
+      "value": 0.3,
+      "categoryID": 7,
+      "display_name": "副作用几率",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterEffectChance2",
+      "value": 0.3,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterEffectChance3",
+      "value": 0.3,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterEffectChance4",
+      "value": 0.3,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterEffectChance5",
+      "value": 0.3,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterArmorRepairAmountPenalty",
+      "value": -25.0,
+      "categoryID": 7,
+      "display_name": "装甲维修量惩罚",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterShieldCapacityPenalty",
+      "value": -25.0,
+      "categoryID": 7,
+      "display_name": "护盾容量惩罚",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterTurretFalloffPenalty",
+      "value": -25.0,
+      "categoryID": 7,
+      "display_name": "炮塔失准范围惩罚",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterMaxVelocityPenalty",
+      "value": -25.0,
+      "categoryID": 7,
+      "display_name": "速度惩罚",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

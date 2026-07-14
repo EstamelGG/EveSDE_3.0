@@ -1,0 +1,105 @@
+{
+  "type_id": 2333,
+  "name": "采矿调查芯片组 II",
+  "description": "为采矿船的集成采矿勘测器升级的芯片组，可提供更优越的小行星信息，并提高获得最佳采矿结果的几率。提高采矿激光器和冰块采集器的暴击成功率和暴击成功加成收益。降低采矿激光器、冰块收集器和气体云收集器残留物的概率。通过添加有关扫描小行星中剩余矿石数量的信息，增强采矿船上的集成采矿勘测器。",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "装备",
+  "group_name": "采矿调查芯片组",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 1.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 12.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3426.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 2.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "maxGroupOnline",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "maxGroupFitted",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "该武器组所允许的最大装备数量",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "miningScannerUpgrade",
+      "value": 1.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "miningCritChanceBonus",
+      "value": 20.0,
+      "categoryID": 51,
+      "display_name": "采矿暴击成功率加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "miningCritBonusYieldBonus",
+      "value": 20.0,
+      "categoryID": 51,
+      "display_name": "采矿成功暴击额外收益",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "miningWasteProbabilityBonus",
+      "value": -20.0,
+      "categoryID": 51,
+      "display_name": "产生残渣几率降低",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

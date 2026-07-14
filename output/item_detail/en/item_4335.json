@@ -1,0 +1,13 @@
+{
+  "type_id": 4335,
+  "name": "Research Abstract: Project Compass",
+  "description": "<b>Paper:</b> Project Compass<br>\n<b>Lead Researcher:</b> Mark726<br>\n<b>Contributors:</b> Rhavas<br>\n<b>Summary:</b> Project Compass represents an attempt to experimentally verify the spatial relationship between wormhole space and New Eden. The project is primarily aimed at identifying stellar objects – both in New Eden and in wormhole space – through spectroscopic analysis, and by using the properties of parallax and triangulation to determine the location of wormhole space in relation to New Eden. The Lead Researcher surveyed a random sample of wormhole systems and was able to identify a star cluster identifiable in both New Eden and wormhole space. Through mathematical extrapolation and analysis, the location of wormhole space was determined.\n\nProject Compass draws no final conclusions at this stage, as researchers are awaiting potential changes to capsule sensor technology that may yield new data.\n\n<i>This abstract relates to research undertaken by the <a href=evebrowser: http://wiki.eveonline.com/en/wiki/Arek%27Jaalan>Arek'Jaalan Project.</a></i>\n\n<i>Authorized for capsuleer dissemination under the CONCORD Freedom of Distribution Act (Alpha-One-Five), YC 113.11.4</i>\n\n<i>Further copies of this document can be obtained through the Arek'Jaalan administrative site, located in the <a href=showinfo:5//30003413>Eram</a> system.<i>",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Research Data",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 62709,
+  "name": "ORE Research Data Fragment",
+  "description": "This is a fragment of stolen Outer Ring Excavations (ORE) materials compression research data retrieved from pirate databanks. The ORE corporation is keenly interested in recovering any stolen research data and is willing to share some of its findings with those who return sufficient fragments.\n\nORE Research Data Fragments can be turned in at ORE loyalty point stores for early access to compression technology skillbooks.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

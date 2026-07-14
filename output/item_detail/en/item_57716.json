@@ -1,0 +1,13 @@
+{
+  "type_id": 57716,
+  "name": "ESS-NE-15 Reserve Security Key",
+  "description": "This ESS-NE-15 Reserve Security Key is a quadrant security key for Encounter Surveillance System (ESS) reserve banks in the Secure Commerce Commission's North-East Encounter Surveillance Quadrant.\n\n<b>This Reserve Security Key is configured to permit a maximum total of 15 releases of funds after activation.</b>\n\nThe SCC defines its North-East Encounter Surveillance Quadrant as encompassing star systems in the following regions:\n\n<b><a href=showinfo:3//10000053>Cobalt Edge</a>, <a href=showinfo:3//10000027>Etherium Reach</a>, <a href=showinfo:3//10000013>Malpais</a>, <a href=showinfo:3//10000040>Oasa</a>, <a href=showinfo:3//10000021>Outer Passage</a>, <a href=showinfo:3//10000066>Perrigen Falls</a>, <a href=showinfo:3//10000018>The Spire</a>, and <a href=showinfo:3//10000007>Cache</a></b>\n\nReserve Security Keys are generated and issued at <b>SCC Secure Key Storage</b> facilities. For security, the keys for a given region are generated and issued by facilities located well outside the region. ESS Reserve Keys are single-use only, providing access to one Reserve Bank before their key codes are removed from the access database.\n\nKeyholder officials of the SCC are periodically issued with heavily-encrypted ESS Reserve Keys in order to inspect the integrity of ESS Reserve Banks. The keys also allow a keyholder to trigger a release of funds from the Reserve Bank in the form of Encrypted Bonds. For security purposes, such a release of funds is carried out over a lengthy period of time.\n\nIf an SCC Keyholder carries out an inspection as part of their duties the ESS is secured by SCC guard forces. Anyone using the key to effect a security intrusion does so at their own risk.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "ESS Reserve Bank Keys",
+  "attributes": [],
+  "traits": []
+}

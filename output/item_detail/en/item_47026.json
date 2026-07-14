@@ -1,0 +1,13 @@
+{
+  "type_id": 47026,
+  "name": "Recovered Radioactive Materials",
+  "description": "This mildly radioactive material was recovered from a concealed laboratory compartment with the aid of novel scanning methods and exhibits some unusual properties. It could be useful in a controlled mutagenic process.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 57457,
+  "name": "Reinforced Carbon Fiber",
+  "description": "Reinforced carbon fiber is enhanced with polymers that increase the tensile strength of the material without notable loss of flexibility. This form of the material is widely used for many purposes in the space industries.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Composite",
+  "attributes": [],
+  "traits": []
+}

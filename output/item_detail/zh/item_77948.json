@@ -1,0 +1,13 @@
+{
+  "type_id": 77948,
+  "name": "超级集团交易线程",
+  "description": "一个单独的线程，从某个不知名加达里超级集团进行的系列复杂交易中提取而来。线程本身没有任何意义，但只要累积的数量足够多，联邦就可以据此开始建立一个交易链，追踪这些资金的来源。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "国土行动物品",
+  "attributes": [],
+  "traits": []
+}

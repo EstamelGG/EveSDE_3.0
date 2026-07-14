@@ -1,0 +1,13 @@
+{
+  "type_id": 89156,
+  "name": "Vigilance Resonance Key",
+  "description": "This data-key details the resonance frequencies of gravitational waves emanating from a Vigilance Point site. Acceleration gates require this data to provide stable transit into the site.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

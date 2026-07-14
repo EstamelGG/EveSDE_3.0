@@ -1,0 +1,13 @@
+{
+  "type_id": 17987,
+  "name": "司令部加密钥匙",
+  "description": "有了这把加密钥匙，就能进入萨沙司令部的核心地区。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

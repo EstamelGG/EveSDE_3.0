@@ -1,0 +1,13 @@
+{
+  "type_id": 83472,
+  "name": "Serpentis NET Resonator",
+  "description": "Neuro-Electron Tunnel Resonators makes use of electron tunneling to fast-track electric impulses from neurons associated with key autonomic responses to receivers in the ship in which they are installed. Using quantum resonance to activate tunneling for key impulses, this device provides an efficient neurolink with greater bandwidth required by more advanced vessels. \n\nThe NET Resonator used in the construction of ships by the Serpentis Corporation tunnels signals sent by neurons associated with the goal-orienting autonomic heuristics and stress-response mechanisms.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Construction Components",
+  "attributes": [],
+  "traits": []
+}

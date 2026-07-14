@@ -1,0 +1,13 @@
+{
+  "type_id": 16041,
+  "name": "Colossal Sealed Cargo Containers",
+  "description": "These colossal containers are fitted with a password-protected security lock.",
+  "volume": 1000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

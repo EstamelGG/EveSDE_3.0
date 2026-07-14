@@ -1,0 +1,28 @@
+{
+  "type_id": 2867,
+  "name": "Broadcast Node",
+  "description": "By integrating transcranial microcontrollers into a circuit made from synthetic synapses, the broadcast node is able to communicate directly with various station functions and with negligible signal loss and latency. The addition of computerized guidance systems, each running independent navigation system software routines, allows a single node to coordinate starship docking procedures, drone operations, and even station defenses.",
+  "volume": 50.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Planetary Commodities",
+  "group_name": "Advanced Commodities - Tier 4",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 1200000.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 1200000.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

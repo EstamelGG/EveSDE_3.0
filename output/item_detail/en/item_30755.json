@@ -1,0 +1,13 @@
+{
+  "type_id": 30755,
+  "name": "Strange Datacore",
+  "description": "This item, clearly salvaged from one of the wrecked ships, is recognizable as a datacore, but has a foreign interface that doesn't quite look like it came from any empire you're familiar with.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.75,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

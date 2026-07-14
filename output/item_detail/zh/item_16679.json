@@ -1,0 +1,21 @@
+{
+  "type_id": 16679,
+  "name": "富勒化合物",
+  "description": "富勒化合物是用于电容器、装甲附甲和武器系统中的一种超导材料。",
+  "volume": 0.15,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "合成物",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 3000.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

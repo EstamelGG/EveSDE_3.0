@@ -1,0 +1,13 @@
+{
+  "type_id": 21623,
+  "name": "纳基维空间站图纸",
+  "description": "经加密的纳基维集团空间站图表。如果正确解密，慢着，这玩意能被纳基维集团以外的人解密并使用吗？",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

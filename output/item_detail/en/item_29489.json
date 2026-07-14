@@ -1,0 +1,13 @@
+{
+  "type_id": 29489,
+  "name": "Fugitive Slaves",
+  "description": "These slaves have escaped from their masters, but have yet to gain legal protection or recognition as free people.",
+  "volume": 1.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

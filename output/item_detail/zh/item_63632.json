@@ -1,0 +1,13 @@
+{
+  "type_id": 63632,
+  "name": "YC124年猎捕加速轨道钥匙",
+  "description": "这个量子加密密钥上面纹饰了古斯塔斯海盗的标识。它允许舰船通过加速轨道前往古斯塔斯猎捕哨站或猎捕安全储藏地点的最后一层。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

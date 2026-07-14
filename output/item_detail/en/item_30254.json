@@ -1,0 +1,21 @@
+{
+  "type_id": 30254,
+  "name": "Electromechanical Hull Sheeting",
+  "description": "These ultra-thin nanoplastic sheets are resilient enough to survive the explosion of the Sleeper drones that carry them. The molecular-level circuitry inside them can be encased in layers of protective fullerene alloys that are billions of times their size, allowing electronics systems to be safely embedded just beneath the armor surface.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Ancient Salvage",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

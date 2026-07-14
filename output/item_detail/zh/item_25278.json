@@ -1,0 +1,13 @@
+{
+  "type_id": 25278,
+  "name": "赤红丝胶溶质",
+  "description": "红色晶体，在大型小行星或卫星内部深处的高压环境中形成。用于电子和武器制造业。仅在少数地区储量丰富。",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "天体",
+  "group_name": "可采集云团",
+  "attributes": [],
+  "traits": []
+}

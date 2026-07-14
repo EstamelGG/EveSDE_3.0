@@ -1,0 +1,13 @@
+{
+  "type_id": 63699,
+  "name": "Classified Caldari Databank",
+  "description": "Heavily encrypted and partially fried by some kind of security failsafe installed over the standard firmware, this databank is clearly the property of the Caldari Navy, if the dire warnings of imprisonment and asset seizure issuing from the flickering holointerface are any indication. The device was recovered from the debris of a capsule apparently hijacked by a Guristas agent, and even considering the layers of encryption and massive data corruption, there's no doubt the Caldari Navy would like this item returned and will compensate anyone doing so.\n\nOf course, many empires and \"independent\" quasi-state actors have access to the kind of expertise that would be required to make anything of this burned and encrypted holostorage device. Perhaps somebody else might be interested in offering a \"finder's fee\" for the item.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

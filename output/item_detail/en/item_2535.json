@@ -1,0 +1,35 @@
+{
+  "type_id": 2535,
+  "name": "Oceanic Storage Facility",
+  "description": "Goods and commodities are stored on ocean planets in a similar fashion as on more habitable terrestrial planets. Even though most underwater industrial processes conventionally take place inside residential dome habitats, underwater silos, due to their sheer size, must be stored outside these domes and be able to withstand the immense pressures and environmental stresses at the ocean floor.",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": 12000.0,
+  "mass": null,
+  "category_name": "Planetary Industry",
+  "group_name": "Storage Facilities",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 700.0,
+      "categoryID": 7,
+      "display_name": "Power Load",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 500.0,
+      "categoryID": 9,
+      "display_name": "CPU Load",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 2014.0,
+      "categoryID": 7,
+      "display_name": "Planet Type Restriction",
+      "unit_name": "typeID"
+    }
+  ],
+  "traits": []
+}

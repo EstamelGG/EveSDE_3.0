@@ -1,0 +1,28 @@
+{
+  "type_id": 2321,
+  "name": "聚芳酰胺",
+  "description": "通过将从自给养生物中提取的工业纤维放入活性气体活塞中进行高压处理，人们便得到了聚芳酰胺纺织品。它能够吸收大量的动能，这种材料制成的薄板能够用于各种不同的结构之上，以增强其对武器级别冲击之外其他力量冲击的抵抗。",
+  "volume": 0.75,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "行星商品",
+  "group_name": "加工过的资源物品 - 第二等级",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 7200.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 7200.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 87268,
+  "name": "改良型冬眠者尸体",
+  "description": "一具被改造过的冬眠者尸体，用以更好地服务于流浪者意识。与流浪者使用的所有克隆体一样，其声带已被移除，血液被辐射并注入纳米机器人，且依赖于由二级智能管理的人工生命支持系统。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

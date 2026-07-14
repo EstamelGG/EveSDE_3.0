@@ -1,0 +1,13 @@
+{
+  "type_id": 44209,
+  "name": "[CNS] Kiirasha Final Broadcast Fragment",
+  "description": ">>> BREAK – CPD AUTH 66401\n>>> FTL/FR – 30045340\n>>> TS/REF – DISTRESS – UNAUTHORIZED AIRLOCK ACCESS\n>>> STATUS:\nPARTIAL ATMOSPHERE CONTAINMENT FAILURE\nREACTOR CONTAINMENT FAILURE\nPROPULSION OFFLINE\nCAPACITOR BUSBAR SYSTEM OFFLINE\nFTL HARMONIZATION COILS OFFLINE",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

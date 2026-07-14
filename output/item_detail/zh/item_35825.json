@@ -1,0 +1,509 @@
+{
+  "type_id": 35825,
+  "name": "莱塔卢",
+  "description": "莱塔卢工程复合体以一位在现代导弹技术领域做出过突出贡献的米玛塔尔人——提玛·莱塔卢命名，是一座专门从事制造和研究项目的昇威财团中型建筑。\n\n莱塔卢是昇威财团的全新系列建筑中的入门级工业复合体，还能使用昇威的屹立服务装备，从而实现更灵活且可定制的功能。这座专门的工业建筑还可以加装昇威中型改装件，以提高生产率并从多方面改善制造和研究的效率。\n\n莱塔卢工程复合体还为非旗舰和货舰提供驻留和停靠功能。",
+  "volume": 8000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 3000000000.0,
+  "category_name": "建筑",
+  "group_name": "工程复合体",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 1200000.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "powerOutput",
+      "value": 800000.0,
+      "categoryID": 1,
+      "display_name": "能量栅格输出",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "lowSlots",
+      "value": 1.0,
+      "categoryID": 1,
+      "display_name": "低能量槽",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "medSlots",
+      "value": 2.0,
+      "categoryID": 1,
+      "display_name": "中能量槽",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hiSlots",
+      "value": 3.0,
+      "categoryID": 1,
+      "display_name": "高能量槽",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "cpuOutput",
+      "value": 12000.0,
+      "categoryID": 1,
+      "display_name": "CPU输出",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "rechargeRate",
+      "value": 3600000.0,
+      "categoryID": 5,
+      "display_name": "电容回充时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "maxTargetRange",
+      "value": 350000.0,
+      "categoryID": 6,
+      "display_name": "锁定范围上限",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "launcherSlotsLeft",
+      "value": 1.0,
+      "categoryID": 1,
+      "display_name": "发射器安装数",
+      "unit_name": "安装座"
+    },
+    {
+      "attribute_name": "kineticDamageResonance",
+      "value": 0.8,
+      "categoryID": 4,
+      "display_name": "结构动能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "thermalDamageResonance",
+      "value": 0.8,
+      "categoryID": 4,
+      "display_name": "结构热能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "explosiveDamageResonance",
+      "value": 0.8,
+      "categoryID": 4,
+      "display_name": "结构爆炸伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "emDamageResonance",
+      "value": 0.8,
+      "categoryID": 4,
+      "display_name": "结构电磁伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "uniformity",
+      "value": 1.0,
+      "categoryID": 2,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "maxLockedTargets",
+      "value": 8.0,
+      "categoryID": 6,
+      "display_name": "目标锁定数上限加成",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "scanRadarStrength",
+      "value": 500.0,
+      "categoryID": 6,
+      "display_name": "雷达感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanLadarStrength",
+      "value": 500.0,
+      "categoryID": 6,
+      "display_name": "光雷达感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrength",
+      "value": 500.0,
+      "categoryID": 6,
+      "display_name": "磁力感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanGravimetricStrength",
+      "value": 500.0,
+      "categoryID": 6,
+      "display_name": "引力感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "shieldCapacity",
+      "value": 2400000.0,
+      "categoryID": 2,
+      "display_name": "护盾容量",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorHP",
+      "value": 1200000.0,
+      "categoryID": 3,
+      "display_name": "装甲值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorEmDamageResonance",
+      "value": 0.8,
+      "categoryID": 3,
+      "display_name": "装甲电磁伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorExplosiveDamageResonance",
+      "value": 0.8,
+      "categoryID": 3,
+      "display_name": "装甲爆炸伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorKineticDamageResonance",
+      "value": 0.8,
+      "categoryID": 3,
+      "display_name": "装甲动能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorThermalDamageResonance",
+      "value": 0.8,
+      "categoryID": 3,
+      "display_name": "装甲热能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldEmDamageResonance",
+      "value": 0.8,
+      "categoryID": 2,
+      "display_name": "护盾电磁伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldExplosiveDamageResonance",
+      "value": 0.8,
+      "categoryID": 2,
+      "display_name": "护盾爆炸伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldKineticDamageResonance",
+      "value": 0.8,
+      "categoryID": 2,
+      "display_name": "护盾动能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldThermalDamageResonance",
+      "value": 0.8,
+      "categoryID": 2,
+      "display_name": "护盾热能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldRechargeRate",
+      "value": 999999999999.0,
+      "categoryID": 2,
+      "display_name": "护盾回充时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "capacitorCapacity",
+      "value": 100000.0,
+      "categoryID": 5,
+      "display_name": "电容容量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "shieldUniformity",
+      "value": 1.0,
+      "categoryID": 2,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "armorUniformity",
+      "value": 1.0,
+      "categoryID": 3,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 50000.0,
+      "categoryID": 6,
+      "display_name": "信号半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "scanResolution",
+      "value": 65.0,
+      "categoryID": 6,
+      "display_name": "扫描分辨率",
+      "unit_name": "mm"
+    },
+    {
+      "attribute_name": "maximumRangeCap",
+      "value": 490000.0,
+      "categoryID": 6,
+      "display_name": "锁定范围理论上限值",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "upgradeCapacity",
+      "value": 400.0,
+      "categoryID": 7,
+      "display_name": "校准值",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "rigSlots",
+      "value": 3.0,
+      "categoryID": 1,
+      "display_name": "改装件安装座",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "upgradeSlotsLeft",
+      "value": 3.0,
+      "categoryID": 1,
+      "display_name": "改装件槽位",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "rigSize",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "改装件尺寸",
+      "unit_name": "1=小型  2=中型  3=大型"
+    },
+    {
+      "attribute_name": "tierDifficulty",
+      "value": 3.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hackable",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "shieldDamageLimit",
+      "value": 9600000.0,
+      "categoryID": 2,
+      "display_name": "护盾伤害上限（每秒）",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorDamageLimit",
+      "value": 5000.0,
+      "categoryID": 3,
+      "display_name": "装甲伤害上限（每秒）",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "structureDamageLimit",
+      "value": 5000.0,
+      "categoryID": 4,
+      "display_name": "结构伤害上限（每秒）",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "energyWarfareResistance",
+      "value": 1e-05,
+      "categoryID": 36,
+      "display_name": "电容战抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "serviceSlots",
+      "value": 3.0,
+      "categoryID": 1,
+      "display_name": "服务槽位",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "sensorDampenerResistance",
+      "value": 1e-05,
+      "categoryID": 36,
+      "display_name": "感应战抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "weaponDisruptionResistance",
+      "value": 1e-05,
+      "categoryID": 36,
+      "display_name": "武器干扰抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 1e-05,
+      "categoryID": 36,
+      "display_name": "停滞缠绕抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "remoteRepairImpedance",
+      "value": 1e-05,
+      "categoryID": 36,
+      "display_name": "远程后勤阻扰",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "remoteAssistanceImpedance",
+      "value": 1e-05,
+      "categoryID": 36,
+      "display_name": "远程电子协助阻抗",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "fighterAbilityAntiCapitalMissileResistance",
+      "value": 1.0,
+      "categoryID": 38,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "ECMResistance",
+      "value": 1e-05,
+      "categoryID": 36,
+      "display_name": "ECM抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "tetheringRange",
+      "value": 10000.0,
+      "categoryID": 7,
+      "display_name": "最大驻留范围",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "structureServiceRoleBonus",
+      "value": -25.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "strEngMatBonus",
+      "value": 0.99,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "strEngCostBonus",
+      "value": 0.97,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "strEngTimeBonus",
+      "value": 0.85,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureFullPowerStateHitpointMultiplier",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hiddenMissileDamageMultiplier",
+      "value": 1.0,
+      "categoryID": 30,
+      "display_name": "",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "hiddenArmorHPMultiplier",
+      "value": 1.0,
+      "categoryID": 3,
+      "display_name": "",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "cargoDeliveryRange",
+      "value": 10000.0,
+      "categoryID": 7,
+      "display_name": "最大货柜存放距离",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "structurePowerStateArmorPlatingMultiplier",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureRequiresDeedType",
+      "value": 56203.0,
+      "categoryID": 1,
+      "display_name": "量子芯类型",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "pauseShieldRepairDpsThreshold",
+      "value": 500.0,
+      "categoryID": 2,
+      "display_name": "停止护盾维修的DPS阈值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "pauseArmorRepairDpsThreshold",
+      "value": 500.0,
+      "categoryID": 3,
+      "display_name": "停止装甲维修的DPS阈值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "pauseHullRepairDpsThreshold",
+      "value": 500.0,
+      "categoryID": 4,
+      "display_name": "停止结构维修的DPS阈值",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b>1%</b> 生产项目的材料需求降低"
+    },
+    {
+      "content": "<b>15%</b> 生产和科研项目的时间需求降低"
+    },
+    {
+      "content": "<b>3%</b> 生产和科研项目的星币需求降低"
+    },
+    {
+      "content": "<b>25%</b> 工程服务装备的燃料消耗降低"
+    },
+    {
+      "content": "这个建筑启用了至少一个服务装备，已进入全能量运转模式，将会获得额外的护盾和装甲值。"
+    },
+    {
+      "content": "这座建筑需要安装一个<a href=showinfo:56203>莱塔卢昇威量子芯</a>才能完成锚定。"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 2670,
+  "name": "一群海军陆战队员",
+  "description": "当战争爆发后，为了向战场源源不断地运送武装人员，军方总是需要大量的运输力量，但军事机构本身无法满足这种需求。在这种情况下，通常需要非军用舰船的协助。",
+  "volume": 60.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 60000.0,
+  "category_name": "常用物品",
+  "group_name": "有生货物",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,98 @@
+{
+  "type_id": 93998,
+  "name": "联邦海军“银星”磁性力场稳定器",
+  "description": "联邦海军“银星”磁性力场稳定器是对标准磁性力场稳定器的特殊改进，加装了指令、控制和交互固件，能够强化无人机和混合炮台。惩罚：在一艘舰船上使用多个这类装备或多个与该装备作用一致的类似装备将削弱实际使用效果。",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "装备",
+  "group_name": "磁场稳定设备",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 1.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 32.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "damageMultiplier",
+      "value": 1.07,
+      "categoryID": 29,
+      "display_name": "伤害量调整",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3318.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 3436.0,
+      "categoryID": 8,
+      "display_name": "副技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "speedMultiplier",
+      "value": 0.93,
+      "categoryID": 7,
+      "display_name": "射击速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 2.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 2.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 8.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "droneDamageBonus",
+      "value": 10.0,
+      "categoryID": 10,
+      "display_name": "无人机伤害加成",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

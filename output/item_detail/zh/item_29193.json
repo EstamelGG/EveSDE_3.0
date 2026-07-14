@@ -1,0 +1,21 @@
+{
+  "type_id": 29193,
+  "name": "电子效果光束",
+  "description": "本地空间现象可能会对你的舰船系统造成影响。",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "天体",
+  "group_name": "效果光束",
+  "attributes": [
+    {
+      "attribute_name": "maxTargetRangeBonus",
+      "value": -75.0,
+      "categoryID": 37,
+      "display_name": "最大锁定范围加成",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

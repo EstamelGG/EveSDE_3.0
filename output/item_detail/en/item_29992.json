@@ -1,0 +1,21 @@
+{
+  "type_id": 29992,
+  "name": "Optimized Nano-Engines",
+  "description": "Forming the beating heart of the Sleeper's automated drones, these tiny engines count in the billions. When fully intact, they deliver levels of power efficiency unrivalled by current technology. Unfortunately, whenever a Sleeper drone is destroyed, these engines are the first to go with them, making it difficult to emulate their functionality without the addition of other materials. \n\nTo recreate a functional nanoengine housing, PPD fullerene fibers are combined with metallofullerenes and fullerene fiber conduits to rebuild the basic structures that once housed them. After that, the fused nanomechanical engines are connected to one another, forming a composite whole. \n\nAlthough mechanical engineers have theorized about this construction method for many decades, the process was always held back by a lack of fullerene material. It is said that only hours after the discovery of fullerite clouds in wormhole space, the empires used significant amounts of their fullerene stockpiles to produce these engines. The reasoning behind this is simply the staggering breadth of potential applications these engines have. When it comes to engineering, there isn't much they can't do.",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Hybrid Tech Components",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

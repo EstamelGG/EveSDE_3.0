@@ -1,0 +1,13 @@
+{
+  "type_id": 73401,
+  "name": "艾玛编码器接片",
+  "description": "用于获取<a href=showinfo:73226>米玛塔尔广播宣传建筑</a>的编码器接头，将向艾玛通信网络进行广播。这种特殊接头有时会出现在<b>艾玛行动中心</b>的<a href=showinfo:73427>艾玛加密存储库</a>中。只需再花费一些忠诚点，就能前往<a href=showinfo:2//1000182>部族解放力量</a>的忠诚点商店中兑换米玛塔尔广播宣传建筑。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

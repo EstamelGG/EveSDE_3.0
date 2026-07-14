@@ -1,0 +1,13 @@
+{
+  "type_id": 2623,
+  "name": "一箱监听哨站的记录",
+  "description": "经过一段时间对空间现象或军事动态进行监听，人们将监听哨站的数据被写入加密芯片，然后小心地进行转运。",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 40000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

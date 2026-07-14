@@ -1,0 +1,21 @@
+{
+  "type_id": 43696,
+  "name": "血袭者保险柜",
+  "description": "属于血袭者的一个保险柜。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "常用物品",
+  "group_name": "保险柜",
+  "attributes": [
+    {
+      "attribute_name": "metaGroupID",
+      "value": 4.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

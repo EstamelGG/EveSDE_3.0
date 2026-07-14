@@ -1,0 +1,21 @@
+{
+  "type_id": 30268,
+  "name": "Jump Drive Control Nexus",
+  "description": "Barely salvageable from the wreck of a Sleeper drone, this device could have been something much more impressive when it was fully functional. In its current state it is almost unrecognizable, having been scratched, burned and even chemically melted. It looks like it was housed next to the drone's power core, which would explain the extreme heat damage it suffered when the drone exploded. \n\nStranger yet, it almost seems as if it was lined with some kind of triggered-release corrosive. The self-destruct mechanism – if that's even what it was – only caused so much damage, and the acid didn't burn cleanly through the center of the drive. \n\nEven as a shadow of its former self, it can be combined with other components to form a fully functional warp drive. Being capable of this, even in such a bad state, strongly suggests that the device was capable of other types of more advanced interstellar travel. Why a Sleeper drone was equipped with this level of technology remains a mystery.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Ancient Salvage",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

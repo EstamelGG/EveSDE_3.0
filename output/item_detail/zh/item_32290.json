@@ -1,0 +1,13 @@
+{
+  "type_id": 32290,
+  "name": "黑曜石数据核心",
+  "description": "从血色黑曜石球中找到的，这个数据核心应该记录得有丢失的<i>圣阿尔扎德之书</i>的位置。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

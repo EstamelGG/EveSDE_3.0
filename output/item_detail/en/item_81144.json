@@ -1,0 +1,13 @@
+{
+  "type_id": 81144,
+  "name": "Superionic Ice",
+  "description": "For centuries, superionic ice, synthesized from superionic water, was considered too unstable for practical use. However, a scientific breakthrough in YC126 revealed that the immense pressures on ice planets partially stabilize superionic ice over millennia, enabling safe collection into an orbital skyhook for further maturation. After this artificial maturation, the superionic ice is completely stable and can be safely transported. These naturally occurring forms exhibit unique metallic properties, making them invaluable for specialized engineering applications, particularly in fueling systems that require precise cooling and electrical conductivity.\n\nSuperionic ice is obtained via <a href=showinfo:81080>orbital skyhooks</a> anchored above ice planets in null security sovereignty space.",
+  "volume": 1.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 3000.0,
+  "category_name": "Colony Resources",
+  "group_name": "Colony Reagents",
+  "attributes": [],
+  "traits": []
+}

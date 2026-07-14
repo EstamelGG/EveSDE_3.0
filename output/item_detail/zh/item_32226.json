@@ -1,0 +1,49 @@
+{
+  "type_id": 32226,
+  "name": "失效的主权宣布设施",
+  "description": "在YC126年之前，联盟实际上使用主权宣布设施来占领零安全区域。随着昇威财团引入主权中心，主权宣布设施已经过时并不再部署。",
+  "volume": 5000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000000.0,
+  "category_name": "主权设施",
+  "group_name": "主权宣布设施",
+  "attributes": [
+    {
+      "attribute_name": "scanRadarStrength",
+      "value": 400.0,
+      "categoryID": 6,
+      "display_name": "雷达感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanLadarStrength",
+      "value": 400.0,
+      "categoryID": 6,
+      "display_name": "光雷达感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrength",
+      "value": 400.0,
+      "categoryID": 6,
+      "display_name": "磁力感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanGravimetricStrength",
+      "value": 400.0,
+      "categoryID": 6,
+      "display_name": "引力感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 4000.0,
+      "categoryID": 6,
+      "display_name": "信号半径",
+      "unit_name": "m"
+    }
+  ],
+  "traits": []
+}

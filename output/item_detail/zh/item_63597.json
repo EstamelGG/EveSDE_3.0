@@ -1,0 +1,126 @@
+{
+  "type_id": 63597,
+  "name": "寂静R-2增效剂",
+  "description": "领取后立即生效。基础持续时间：2小时。自身护盾和装甲维修装备的效果提高2%，舰船最大速度提高2%，炮台、电弧弦投射器和导弹发射器的发射速率提高2%，电容回充速率提高2%，信号半径提高2%，无人机最大速度和跟踪速度提高4%，采矿激光器和冰矿采集器的射程提高4%，扫描分辨率提高4%，探针扫描偏差降低4%，扫描速度提高4%",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "durationBonus",
+      "value": -4.0,
+      "categoryID": 7,
+      "display_name": "单次运转时间加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "rofBonus",
+      "value": -2.0,
+      "categoryID": 7,
+      "display_name": "射击速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "capRechargeBonus",
+      "value": -2.0,
+      "categoryID": 5,
+      "display_name": "电容回充时间缩减",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "velocityBonus",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "速度调整",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 7200000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "maxRangeBonus",
+      "value": 4.0,
+      "categoryID": 37,
+      "display_name": "最佳射程加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "turretSpeeBonus",
+      "value": -2.0,
+      "categoryID": 7,
+      "display_name": "射击速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldBoostMultiplier",
+      "value": 2.0,
+      "categoryID": 2,
+      "display_name": "护盾回充加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "signatureRadiusBonus",
+      "value": -2.0,
+      "categoryID": 21,
+      "display_name": "信号半径修正值",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanResolutionBonus",
+      "value": 4.0,
+      "categoryID": 37,
+      "display_name": "扫描分辨率加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "droneMaxVelocityBonus",
+      "value": 4.0,
+      "categoryID": 10,
+      "display_name": "无人机速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "armorDamageAmountBonus",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "装甲维修加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "maxScanDeviationModifier",
+      "value": -4.0,
+      "categoryID": 7,
+      "display_name": "扫描偏差上限调整",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "droneTrackingBonus",
+      "value": 4.0,
+      "categoryID": 37,
+      "display_name": "无人机跟踪速度加成",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

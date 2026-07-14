@@ -1,0 +1,13 @@
+{
+  "type_id": 46269,
+  "name": "A3 Combat Gear",
+  "description": "This crate contains modules that are useful for a small combat ship.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 57764,
+  "name": "晨曦周年庆典宝箱",
+  "description": "打开后可随机获得神秘奖品。\n\n奖品概率如下：\n\n晨曦周年系列大脑加速器 51.8%\n晨曦周年系列增效剂 33.8%\n晨曦周年庆典限定皮肤宝箱 10%\n收藏家级 4.4%",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

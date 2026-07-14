@@ -1,0 +1,13 @@
+{
+  "type_id": 23961,
+  "name": "Serpentis Sentry Station Gate Crystal",
+  "description": "This is one half of the crystal that activates the first Ancient Acceleration Gate in the SCCCCCS deadspace complex.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 33023,
+  "name": "一罐荣耀",
+  "description": "一个膨大的玻璃罐子，里面的东西看起来像是……呃……荣耀。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

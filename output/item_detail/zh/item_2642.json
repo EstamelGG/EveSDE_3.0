@@ -1,0 +1,13 @@
+{
+  "type_id": 2642,
+  "name": "装箱的机器人",
+  "description": "这些机械工具可以通过预编程或者遥控进行操作，通常被用在进行大规模量产的工厂中使用，也被用于有害物处理作业以及诸如排雷等前线军事行动。",
+  "volume": 70.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 70000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

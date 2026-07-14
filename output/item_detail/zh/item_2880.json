@@ -1,0 +1,13 @@
+{
+  "type_id": 2880,
+  "name": "无名死尸",
+  "description": "这批联邦的飞行员与士兵是在第一次盖伦特加达里大战时失踪的。虽然他们的身体在低温环境中保存了下来，但毕竟还很脆弱，处理起来必须要小心。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

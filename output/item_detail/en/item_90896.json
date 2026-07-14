@@ -1,0 +1,13 @@
+{
+  "type_id": 90896,
+  "name": "Cryostorm Reconciler",
+  "description": "Experimental technology that compensates for Volatile Ice Storm shifts. It is similar to devices used by Sansha’s Nation to survive transit into otherwise inaccessible storm sectors.\n\n<i>Can be deposited in a Sansha’s Transit Modulator near the entry gate of a Wightstorm Muster Point, granting access to a more dangerous sector of the storm.</i>",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Verity Cryo Tech",
+  "attributes": [],
+  "traits": []
+}

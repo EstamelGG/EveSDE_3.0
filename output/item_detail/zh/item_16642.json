@@ -1,0 +1,21 @@
+{
+  "type_id": 16642,
+  "name": "钒",
+  "description": "一种在军火领域具有非常广泛应用的柔软银白色金属，既能用在核心部分，也能用在结构上。其化合物形式同样是一种用途广泛的催化剂。",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 6000.0,
+  "category_name": "材料",
+  "group_name": "卫星原料",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

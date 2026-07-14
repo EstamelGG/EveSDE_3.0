@@ -1,0 +1,13 @@
+{
+  "type_id": 93609,
+  "name": "帝国战争后备处补给包",
+  "description": "由帝国战争后备处集团采购和制造的补给包。旨在向前线的艾玛帝国运送关键军事物资。米玛塔尔共和国将奖励那些截获这些补给包并将其运送到部族解放力量空间站的克隆飞行员，需前往忠诚点商店兑换。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.01,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

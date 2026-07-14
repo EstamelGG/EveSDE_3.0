@@ -1,0 +1,63 @@
+{
+  "type_id": 57317,
+  "name": "舰队布阵理论",
+  "description": "让舰队指挥官能够编制舰队阵型并以固定阵型进行跃迁的技能。每升一级都可以按如下顺序解锁额外的舰队阵型：\n\n\n\n等级0：定点阵型（默认阵型）\n\n等级1：球状阵型\n\n等级2：水平阵型\n\n等级3：竖直阵型\n\n等级4：箭头阵型\n\n等级5：关联阵型",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "技能",
+  "group_name": "舰队支援",
+  "attributes": [
+    {
+      "attribute_name": "primaryAttribute",
+      "value": 164.0,
+      "categoryID": 7,
+      "display_name": "主属性",
+      "unit_name": "属性ID"
+    },
+    {
+      "attribute_name": "secondaryAttribute",
+      "value": 168.0,
+      "categoryID": 7,
+      "display_name": "副属性",
+      "unit_name": "属性ID"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3348.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "skillTimeConstant",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "训练时间倍增系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "skillLevel",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "等级",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "canNotBeTrainedOnTrial",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

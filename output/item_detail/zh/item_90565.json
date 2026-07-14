@@ -1,0 +1,13 @@
+{
+  "type_id": 90565,
+  "name": "摧毁证明",
+  "description": "这些印证昇威犯罪事实的数据已被彻底摧毁，无法恢复。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

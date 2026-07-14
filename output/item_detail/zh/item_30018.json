@@ -1,0 +1,21 @@
+{
+  "type_id": 30018,
+  "name": "熔合的纳米引擎",
+  "description": "冬眠者无人机的仿生心脏就是由数以亿计的这种纳米引擎构成，它们所能够产生的能效是现今的科学技术所不可匹敌的。不幸的是，当冬眠者无人机被摧毁的时候，这些纳米引擎即随之被摧毁。如不加入其他部件，就很难再造它们的功能。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "远古打捞",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

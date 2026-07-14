@@ -1,0 +1,13 @@
+{
+  "type_id": 24264,
+  "name": "堡垒万能钥匙",
+  "description": "这是在名为血腥城堡的古代皇家堡垒中使用的通行钥匙，可以进入其中最内层的密室。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

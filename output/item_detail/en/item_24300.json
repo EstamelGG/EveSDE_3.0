@@ -1,0 +1,13 @@
+{
+  "type_id": 24300,
+  "name": "Yamia Mida's Remains",
+  "description": "The remains of Yamia Mida. The body has completely decomposed.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 80.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

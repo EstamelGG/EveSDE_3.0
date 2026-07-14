@@ -1,0 +1,105 @@
+{
+  "type_id": 18843,
+  "name": "森塔姆电磁电压薄膜 C型",
+  "description": "电磁装甲涂层的加强版本。使用了先进的磁场发生器来提高效果。提高装甲的电磁抗性。\n\n\n\n惩罚：在一艘舰船上使用多个这类装备或多个与该装备作用一致的类似装备将削弱实际使用效果。",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "装备",
+  "group_name": "电压装甲薄膜",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 1.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 28.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "armorHPMultiplier",
+      "value": 1.0,
+      "categoryID": 3,
+      "display_name": "装甲值加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3394.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 3.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "emDamageResistanceBonus",
+      "value": -41.78,
+      "categoryID": 7,
+      "display_name": "电磁伤害抗性加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "explosiveDamageResistanceBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "爆炸伤害抗性加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "kineticDamageResistanceBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "动能伤害抗性加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "thermalDamageResistanceBonus",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "热能伤害抗性加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaGroupID",
+      "value": 6.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

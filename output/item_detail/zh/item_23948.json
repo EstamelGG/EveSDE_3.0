@@ -1,0 +1,13 @@
+{
+  "type_id": 23948,
+  "name": "特级土产",
+  "description": "特级土产是富含肉类的佳肴，在米玛塔尔共和国内非常受欢迎。该美事的烹饪方法世代相传，已成为米玛塔尔传统的一部分。",
+  "volume": 0.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 400.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

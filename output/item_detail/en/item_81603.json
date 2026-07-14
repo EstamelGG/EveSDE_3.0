@@ -1,0 +1,13 @@
+{
+  "type_id": 81603,
+  "name": "Mysterious Booster Crate I",
+  "description": "Part of a deal with Paragon, this crate was en route to a GalNet Streamcast Unit when it disappeared. Once lost, now recovered, it is yours for the taking.\n\nUpon opening, you will receive one of the following:\n\na random Agency dose\na random Quafe booster\na random Starsi booster\na random Antipharmakon booster",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

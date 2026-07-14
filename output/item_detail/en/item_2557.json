@@ -1,0 +1,49 @@
+{
+  "type_id": 2557,
+  "name": "Storm Launchpad",
+  "description": "After years of customer complaints about catastrophic failures resulting from punctured fuel pods and corroded launch towers, a new line of hazardous environment launch facility was introduced. In addition to improving the overall structural integrity of the entire facility, each section is heavily compartmentalized. Should any one section fail or collapse, the faulty section is immediately locked down. Redundant systems allow the entire facility to continue functioning for some time. The rockets used by this type of launch pad are also heavily modified, sacrificing some cargo capacity for additional protection.",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": 10000.0,
+  "mass": null,
+  "category_name": "Planetary Industry",
+  "group_name": "Spaceports",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 700.0,
+      "categoryID": 7,
+      "display_name": "Power Load",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 3600.0,
+      "categoryID": 9,
+      "display_name": "CPU Load",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 2017.0,
+      "categoryID": 7,
+      "display_name": "Planet Type Restriction",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "importTax",
+      "value": 0.5,
+      "categoryID": 7,
+      "display_name": "Import Tax",
+      "unit_name": "ISK"
+    },
+    {
+      "attribute_name": "exportTax",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Export Tax",
+      "unit_name": "ISK"
+    }
+  ],
+  "traits": []
+}

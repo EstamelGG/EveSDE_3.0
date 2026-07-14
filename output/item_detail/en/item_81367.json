@@ -1,0 +1,63 @@
+{
+  "type_id": 81367,
+  "name": "Multi-thread Sequencing",
+  "description": "Advanced skill in running multiple concurrent sequencing jobs.\n\nIncreases maximum concurrent sequencing jobs by 2 per skill level.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Skill",
+  "group_name": "Sequencing",
+  "attributes": [
+    {
+      "attribute_name": "primaryAttribute",
+      "value": 164.0,
+      "categoryID": 7,
+      "display_name": "Primary attribute",
+      "unit_name": "attributeID"
+    },
+    {
+      "attribute_name": "secondaryAttribute",
+      "value": 167.0,
+      "categoryID": 7,
+      "display_name": "Secondary attribute",
+      "unit_name": "attributeID"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 81366.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "skillTimeConstant",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "Training time multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "skillPoints",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Skill Points",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 4.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "canNotBeTrainedOnTrial",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

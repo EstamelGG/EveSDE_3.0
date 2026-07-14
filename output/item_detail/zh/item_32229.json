@@ -1,0 +1,13 @@
+{
+  "type_id": 32229,
+  "name": "烧毁的数据板",
+  "description": "这个已经不太能正常工作的个人电子设备里面储存了大量的分类财务报表，高层会议记录以及多个公公和私有的米玛塔尔组织的名册。大部分的数据都采用了一种高级加密技术进行加密，使得它完全失去了情报作用。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

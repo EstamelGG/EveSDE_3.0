@@ -1,0 +1,13 @@
+{
+  "type_id": 23543,
+  "name": "Spoiled Drugs",
+  "description": "Drugs that have been damaged by coming into contact with dirty substances.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

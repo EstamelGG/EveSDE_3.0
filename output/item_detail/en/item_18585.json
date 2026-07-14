@@ -1,0 +1,13 @@
+{
+  "type_id": 18585,
+  "name": "Weekend Pass for Sin Boulevard",
+  "description": "This pass is handed out to Guristas operatives that have earned a special treatment in their reinvigoration camp. The gate will remain open for a short period of time and the accesscard will be rendered useless after uploading the card's data to the gate's activation device.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,42 @@
+{
+  "type_id": 33321,
+  "name": "Optimized Cryptic Augmentation",
+  "description": "A rare and valuable Minmatar decryptor that gives solid boost to number of runs an invented BPC will have, plus improved material efficiency, with just a slight decrease in invention success.<br><br>Probability Multiplier: -10% <br>Max. Run Modifier: +7 <br>Material Efficiency Modifier: +2 <br>Time Efficiency Modifier: 0",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Decryptors",
+  "group_name": "Decryptors - Minmatar",
+  "attributes": [
+    {
+      "attribute_name": "inventionPropabilityMultiplier",
+      "value": 0.9,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "inventionMEModifier",
+      "value": 2.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "inventionTEModifier",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "inventionMaxRunModifier",
+      "value": 7.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

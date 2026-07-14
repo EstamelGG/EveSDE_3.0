@@ -1,0 +1,13 @@
+{
+  "type_id": 24756,
+  "name": "Stolen Documents",
+  "description": "Documents reported stolen.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

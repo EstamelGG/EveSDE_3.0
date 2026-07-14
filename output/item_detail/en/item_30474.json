@@ -1,0 +1,21 @@
+{
+  "type_id": 30474,
+  "name": "Nanowire Composites",
+  "description": "Nanowire composites function as connective links between subsystems. Graphene nanoribbons form the base of the components, carrying electrical power between other devices integrated into electromechanical hull sheets. A final coating of thermal diffusion film ensures efficient heat dispersion, allowing a starship captain to overload modules connected to subsystems without risking the entire vessel.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Hybrid Tech Components",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

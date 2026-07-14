@@ -1,0 +1,371 @@
+{
+  "type_id": 27647,
+  "name": "天使中型自动加农炮塔台",
+  "description": "向控制塔指定的敌人连续发射大型射弹炮弹。它的持续发射有利于追踪高速移动的目标，但缺少同级别火炮的威力。",
+  "volume": 1000.0,
+  "repackaged_volume": null,
+  "capacity": 1000.0,
+  "mass": 50000000.0,
+  "category_name": "母星",
+  "group_name": "移动式射弹岗哨炮",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 100000.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 121500.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 0.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "speed",
+      "value": 7880.0,
+      "categoryID": 29,
+      "display_name": "射击速度",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 15000.0,
+      "categoryID": 29,
+      "display_name": "最佳射程",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "chargeRate",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "单次消耗量",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "damageMultiplier",
+      "value": 47.0,
+      "categoryID": 29,
+      "display_name": "伤害量调整",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "maxTargetRange",
+      "value": 500000.0,
+      "categoryID": 6,
+      "display_name": "锁定范围上限",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "kineticDamageResonance",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "结构动能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "thermalDamageResonance",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "结构热能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "explosiveDamageResonance",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "结构爆炸伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "emDamageResonance",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "结构电磁伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "chargeSize",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "弹药尺寸",
+      "unit_name": "1=小型  2=中型  3=大型"
+    },
+    {
+      "attribute_name": "uniformity",
+      "value": 1.0,
+      "categoryID": 2,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "proximityRange",
+      "value": 90000.0,
+      "categoryID": 7,
+      "display_name": "作用范围",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "incapacitationRatio",
+      "value": 0.001,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "falloff",
+      "value": 63000.0,
+      "categoryID": 29,
+      "display_name": "失准范围",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "trackingSpeed",
+      "value": 0.03456,
+      "categoryID": 29,
+      "display_name": "炮台跟踪速度",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 11584.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "maxLockedTargets",
+      "value": 1.0,
+      "categoryID": 6,
+      "display_name": "目标锁定数上限加成",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "scanRadarStrength",
+      "value": 200.0,
+      "categoryID": 6,
+      "display_name": "雷达感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanLadarStrength",
+      "value": 200.0,
+      "categoryID": 6,
+      "display_name": "光雷达感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrength",
+      "value": 200.0,
+      "categoryID": 6,
+      "display_name": "磁力感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanGravimetricStrength",
+      "value": 200.0,
+      "categoryID": 6,
+      "display_name": "引力感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "gfxTurretID",
+      "value": 489.0,
+      "categoryID": 31,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "shieldCapacity",
+      "value": 75000.0,
+      "categoryID": 2,
+      "display_name": "护盾容量",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorHP",
+      "value": 1125000.0,
+      "categoryID": 3,
+      "display_name": "装甲值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "entityFlyRange",
+      "value": 15000.0,
+      "categoryID": 17,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "entityReactionFactor",
+      "value": 0.5,
+      "categoryID": 6,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "entityAttackDelayMin",
+      "value": 7500.0,
+      "categoryID": 6,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "entityAttackDelayMax",
+      "value": 30000.0,
+      "categoryID": 6,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "shieldRechargeRate",
+      "value": 5000000.0,
+      "categoryID": 2,
+      "display_name": "护盾回充时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "shieldUniformity",
+      "value": 0.75,
+      "categoryID": 2,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "armorUniformity",
+      "value": 0.75,
+      "categoryID": 3,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureUniformity",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 12000.0,
+      "categoryID": 6,
+      "display_name": "信号半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "anchoringDelay",
+      "value": 5000.0,
+      "categoryID": 7,
+      "display_name": "锚定耗时",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "scanResolution",
+      "value": 82.0,
+      "categoryID": 6,
+      "display_name": "扫描分辨率",
+      "unit_name": "mm"
+    },
+    {
+      "attribute_name": "chargeGroup1",
+      "value": 83.0,
+      "categoryID": 7,
+      "display_name": "配套使用（弹药类别）",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "optimalSigRadius",
+      "value": 125.0,
+      "categoryID": 29,
+      "display_name": "信号分辨率",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "unanchoringDelay",
+      "value": 5000.0,
+      "categoryID": 7,
+      "display_name": "解锚耗时",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "onliningDelay",
+      "value": 120000.0,
+      "categoryID": 7,
+      "display_name": "上线耗时",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "targetSwitchDelay",
+      "value": 60000.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "ammoCapacity",
+      "value": 10000.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "disallowOffensiveModifiers",
+      "value": 1.0,
+      "categoryID": 6,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "controlTowerMinimumDistance",
+      "value": 5000.0,
+      "categoryID": 7,
+      "display_name": "锚定离母星护盾最短距离",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "posPlayerControlStructure",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "玩家可控",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "metaGroupID",
+      "value": 4.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "typeColorScheme",
+      "value": 11318.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "fighterAbilityAntiCapitalMissileResistance",
+      "value": 1.0,
+      "categoryID": 38,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

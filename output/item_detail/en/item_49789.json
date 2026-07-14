@@ -1,0 +1,77 @@
+{
+  "type_id": 49789,
+  "name": "Hiemal Tricarboxyl Condensate",
+  "description": "Spectrographic analyses of ice asteroids of this type have indicated the presence of trace condensates of chromodynamic tricarboxyls trapped in the frozen material. \n\nProcessing this ice material at an appropriate facility should yield usable quantities of chromodynamic tricarboxyls.",
+  "volume": 6.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1e+35,
+  "category_name": "Asteroid",
+  "group_name": "Temporal Resources",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 12195.0,
+      "categoryID": 7,
+      "display_name": "Reprocessing Skill",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "asteroidRadiusGrowthFactor",
+      "value": 0.85,
+      "categoryID": 31,
+      "display_name": "Asteroid radius size multiplier",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "asteroidRadiusUnitSize",
+      "value": 300.0,
+      "categoryID": 31,
+      "display_name": "Asteroid unit radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "Stasis Webifier Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "ignoreMiningWaste",
+      "value": 1.0,
+      "categoryID": 51,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "ignoreMiningCrits",
+      "value": 1.0,
+      "categoryID": 51,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

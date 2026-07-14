@@ -1,0 +1,13 @@
+{
+  "type_id": 40456,
+  "name": "Research Component",
+  "description": "This component was once used to help construct the first Citadel structures in New Eden.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

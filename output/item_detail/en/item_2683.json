@@ -1,0 +1,13 @@
+{
+  "type_id": 2683,
+  "name": "Large Crates of Guidance Systems",
+  "description": "An electrical device used in targeting systems and tracking computers.",
+  "volume": 1000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

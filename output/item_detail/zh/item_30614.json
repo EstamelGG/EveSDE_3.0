@@ -1,0 +1,21 @@
+{
+  "type_id": 30614,
+  "name": "完整的装甲纳米机器人",
+  "description": "从一片冬眠者建筑物废墟中发现的一个装置，这个古老的设备居然还处于可工作的状态。就这么一个装置，储藏了无数的纳米装配机器人，由此可以对冬眠者的防御系统进行非常细致的研究。  一个古老而且依然处于工作状态的冬眠者技术结晶，这是非常罕见而且价值不菲的发现。使用适当的装备和技能就能够窥见史前文明设计和建造技术的精华。",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "古文物",
+  "group_name": "冬眠者的古老防御装备",
+  "attributes": [
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

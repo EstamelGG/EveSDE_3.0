@@ -1,0 +1,13 @@
+{
+  "type_id": 37,
+  "name": "Isogen",
+  "description": "Light-bluish crystal, formed by intense pressure deep within large asteroids and moons. Used in electronic and weapon manufacturing. Only found in abundance in a few areas.\n\nMay be obtained by reprocessing the following ores and their variations:\n\nLow security status star systems: <a href=showinfo:1227>omber</a>, <a href=showinfo:20>kernite</a>, <a href=showinfo:1231>hemorphite</a>, <a href=showinfo:1229>gneiss</a>, and <a href=showinfo:1232>dark ochre</a>.\n\nNull security status star systems: <a href=showinfo:20>kernite</a>, <a href=showinfo:81975>griemeer</a>, and <a href=showinfo:82163>hezorime</a>.\n\nWormhole systems: <a href=showinfo:1227>omber</a>, <a href=showinfo:20>kernite</a>, and <a href=showinfo:1229>gneiss</a>.\n\nIt is also present in huge amounts in rare ores like <a href=showinfo:19>spodumain</a>, <a href=showinfo:52316>bezdnacine</a> and <a href=showinfo:52315>rakovene</a>.\n\nThe rare ore <a href=showinfo:74525>ytirium</a> also contains significant quantities and is found primarily in nullsec and W-space systems containing A0 (Blue Small) stars, as well as surveyed locations on the borders of empire and nullsec space.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Mineral",
+  "attributes": [],
+  "traits": []
+}

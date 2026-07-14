@@ -1,0 +1,13 @@
+{
+  "type_id": 63709,
+  "name": "Capsule Subsystem Holostorage EH-CN-J44-008",
+  "description": "Although battered and scorched by the destruction of the capsule it was installed in, this subsystem holostorage device seems to retain some recoverable and relatively easily decrypted data:\n\n<i>\"–he Peacock told me he'd requested another operation against the Autaris. I think it's a mistake. I told him as much but he laughed it off. I think he was drunk or high actually but you never know with him. I don't like that a merc like him is running this op but Rabbit made him the connect back to the nest. Sparks told me he pulled off a job against the Feds that the Black Eagles don't even know happened. Hard to bel–\"</i>",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

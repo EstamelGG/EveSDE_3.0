@@ -1,0 +1,13 @@
+{
+  "type_id": 60191,
+  "name": "再见樱花系列舰船涂装宝箱",
+  "description": "打开后可随机获得一款樱之惬舰船涂装。\n\n奖品概率如下：\n\n战列舰级以下舰船涂装综合概率 81.75%\n\n战列舰级（含）以上舰船涂装综合概率 18.25%",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

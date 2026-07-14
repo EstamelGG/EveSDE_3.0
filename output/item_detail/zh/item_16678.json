@@ -1,0 +1,21 @@
+{
+  "type_id": 16678,
+  "name": "多晶碳化硅纤维",
+  "description": "用于层压装甲附甲上的超高强度纤维。",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "合成物",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 6000.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

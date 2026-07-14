@@ -1,0 +1,42 @@
+{
+  "type_id": 21582,
+  "name": "Cryptic Augmentation",
+  "description": "If you can assimilate these ideas into a Minmatar invention job it could greatly multiply your output runs.<br><br>Probability Multiplier: -40% <br>Max. Run Modifier: +9 <br>Material Efficiency Modifier: -2 <br>Time Efficiency Modifier: +2",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Decryptors",
+  "group_name": "Decryptors - Minmatar",
+  "attributes": [
+    {
+      "attribute_name": "inventionPropabilityMultiplier",
+      "value": 0.6,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "inventionMEModifier",
+      "value": -2.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "inventionTEModifier",
+      "value": 2.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "inventionMaxRunModifier",
+      "value": 9.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 25864,
+  "name": "拉格夫官员密匙",
+  "description": "这把通行密匙可以开启拉格夫行政复合体的最高等级加速轨道。这把钥匙只能使用一次，因此请谨慎使用。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

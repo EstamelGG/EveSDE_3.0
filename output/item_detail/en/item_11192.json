@@ -1,0 +1,707 @@
+{
+  "type_id": 11192,
+  "name": "Buzzard",
+  "description": "Designed for commando and espionage operation, its main strength is the ability to travel unseen through enemy territory and to avoid unfavorable encounters.\n\nThe Buzzard was developed according to the exacting specifications of Admiral Okaseilen Fukashi, head of the Caldari Navy Recon Division, and was the first production level ship specifically built to take full advantage of the cloaking breakthroughs achieved by Project Mirage at Crielere.",
+  "volume": 19400.0,
+  "repackaged_volume": 2500.0,
+  "capacity": 190.0,
+  "mass": 1270000.0,
+  "category_name": "Ship",
+  "group_name": "Covert Ops",
+  "attributes": [
+    {
+      "attribute_name": "damage",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Item Damage",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 316.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "powerOutput",
+      "value": 15.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Output",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "lowSlots",
+      "value": 3.0,
+      "categoryID": 1,
+      "display_name": "Low Slots",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "medSlots",
+      "value": 5.0,
+      "categoryID": 1,
+      "display_name": "Medium Slots",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hiSlots",
+      "value": 3.0,
+      "categoryID": 1,
+      "display_name": "High Slots",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "powerLoad",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Power Load",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "powerToSpeed",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warpFactor",
+      "value": 0.0,
+      "categoryID": 17,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "maxVelocity",
+      "value": 306.0,
+      "categoryID": 17,
+      "display_name": "Maximum Velocity",
+      "unit_name": "m/sec"
+    },
+    {
+      "attribute_name": "cpuOutput",
+      "value": 300.0,
+      "categoryID": 1,
+      "display_name": "CPU Output",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": "CPU Load",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "rechargeRate",
+      "value": 187500.0,
+      "categoryID": 5,
+      "display_name": "Capacitor Recharge time",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "agility",
+      "value": 4.27,
+      "categoryID": 17,
+      "display_name": "Inertia Modifier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "maxTargetRange",
+      "value": 50000.0,
+      "categoryID": 6,
+      "display_name": "Maximum Targeting Range",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "scanSpeed",
+      "value": 2500.0,
+      "categoryID": 6,
+      "display_name": "",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "launcherSlotsLeft",
+      "value": 2.0,
+      "categoryID": 1,
+      "display_name": "Launcher Hardpoints",
+      "unit_name": "hardpoints"
+    },
+    {
+      "attribute_name": "turretSlotsLeft",
+      "value": 1.0,
+      "categoryID": 1,
+      "display_name": "Turret Hardpoints",
+      "unit_name": "hardpoints"
+    },
+    {
+      "attribute_name": "kineticDamageResonance",
+      "value": 0.67,
+      "categoryID": 4,
+      "display_name": "Structure Kinetic Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "thermalDamageResonance",
+      "value": 0.67,
+      "categoryID": 4,
+      "display_name": "Structure Thermal Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "explosiveDamageResonance",
+      "value": 0.67,
+      "categoryID": 4,
+      "display_name": "Structure Explosive Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "emDamageResonance",
+      "value": 0.67,
+      "categoryID": 4,
+      "display_name": "Structure EM Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "mainColor",
+      "value": 16777215.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "maxPassengers",
+      "value": 6.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "uniformity",
+      "value": 1.0,
+      "categoryID": 2,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warpCapacitorNeed",
+      "value": 2.1645e-06,
+      "categoryID": 17,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3330.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 12093.0,
+      "categoryID": 8,
+      "display_name": "Secondary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "cargoScanResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "Cargo Scan Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "maxLockedTargets",
+      "value": 5.0,
+      "categoryID": 6,
+      "display_name": "Maximum Locked Targets",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "scanRadarStrength",
+      "value": 0.0,
+      "categoryID": 6,
+      "display_name": "RADAR Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanLadarStrength",
+      "value": 0.0,
+      "categoryID": 6,
+      "display_name": "Ladar Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrength",
+      "value": 0.0,
+      "categoryID": 6,
+      "display_name": "Magnetometric Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "scanGravimetricStrength",
+      "value": 24.0,
+      "categoryID": 6,
+      "display_name": "Gravimetric Sensor Strength",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "propulsionGraphicID",
+      "value": 395.0,
+      "categoryID": 31,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "gfxBoosterID",
+      "value": 395.0,
+      "categoryID": 31,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "shieldCapacity",
+      "value": 528.0,
+      "categoryID": 2,
+      "display_name": "Shield Capacity",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorHP",
+      "value": 316.0,
+      "categoryID": 3,
+      "display_name": "Armor Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorEmDamageResonance",
+      "value": 0.5,
+      "categoryID": 3,
+      "display_name": "Armor EM Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorExplosiveDamageResonance",
+      "value": 0.9,
+      "categoryID": 3,
+      "display_name": "Armor Explosive Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorKineticDamageResonance",
+      "value": 0.75,
+      "categoryID": 3,
+      "display_name": "Armor Kinetic Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorThermalDamageResonance",
+      "value": 0.45,
+      "categoryID": 3,
+      "display_name": "Armor Thermal Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldEmDamageResonance",
+      "value": 1.0,
+      "categoryID": 2,
+      "display_name": "Shield EM Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldExplosiveDamageResonance",
+      "value": 0.5,
+      "categoryID": 2,
+      "display_name": "Shield Explosive Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldKineticDamageResonance",
+      "value": 0.6,
+      "categoryID": 2,
+      "display_name": "Shield Kinetic Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldThermalDamageResonance",
+      "value": 0.7,
+      "categoryID": 2,
+      "display_name": "Shield Thermal Damage Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "droneCapacity",
+      "value": 0.0,
+      "categoryID": 10,
+      "display_name": "Drone Capacity",
+      "unit_name": "m3"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "shipBonusCF",
+      "value": -5.0,
+      "categoryID": 37,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "shieldRechargeRate",
+      "value": 625000.0,
+      "categoryID": 2,
+      "display_name": "Shield recharge time",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "capacitorCapacity",
+      "value": 218.75,
+      "categoryID": 5,
+      "display_name": "Capacitor Capacity",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "shieldUniformity",
+      "value": 0.75,
+      "categoryID": 2,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "shipScanResistance",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorUniformity",
+      "value": 0.75,
+      "categoryID": 3,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureUniformity",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 50.0,
+      "categoryID": 6,
+      "display_name": "Signature Radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "scanResolution",
+      "value": 405.0,
+      "categoryID": 6,
+      "display_name": "Scan Resolution",
+      "unit_name": "mm"
+    },
+    {
+      "attribute_name": "eliteBonusCovertOps1",
+      "value": -20.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "shipBonusCF2",
+      "value": -15.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warpSpeedMultiplier",
+      "value": 5.0,
+      "categoryID": 17,
+      "display_name": "Warp Speed Multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "maxDirectionalVelocity",
+      "value": 3000.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "minTargetVelDmgMultiplier",
+      "value": 0.05,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "eliteBonusCovertOps2",
+      "value": 10.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "covertOpsAndReconOpsCloakModuleDelay",
+      "value": 5000.0,
+      "categoryID": 37,
+      "display_name": "Cloak Reactivation Delay",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "upgradeCapacity",
+      "value": 400.0,
+      "categoryID": 7,
+      "display_name": "Calibration",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "rigSlots",
+      "value": 2.0,
+      "categoryID": 1,
+      "display_name": "Rig Slots",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "upgradeSlotsLeft",
+      "value": 2.0,
+      "categoryID": 1,
+      "display_name": "Rig Slots",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "heatCapacityHi",
+      "value": 100.0,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "heatDissipationRateHi",
+      "value": 0.01,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "heatDissipationRateMed",
+      "value": 0.01,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "heatDissipationRateLow",
+      "value": 0.01,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "heatCapacityMed",
+      "value": 100.0,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "heatCapacityLow",
+      "value": 100.0,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "heatGenerationMultiplier",
+      "value": 1.0,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "heatAttenuationHi",
+      "value": 0.5,
+      "categoryID": 52,
+      "display_name": "Heat Attenuation",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "heatAttenuationMed",
+      "value": 0.71,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "heatAttenuationLow",
+      "value": 0.5,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "droneBandwidth",
+      "value": 0.0,
+      "categoryID": 10,
+      "display_name": "Drone Bandwidth",
+      "unit_name": "Mbit/sec"
+    },
+    {
+      "attribute_name": "baseWarpSpeed",
+      "value": 1.0,
+      "categoryID": 17,
+      "display_name": "Ship Warp Speed",
+      "unit_name": "AU/s"
+    },
+    {
+      "attribute_name": "rigSize",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Rig Size",
+      "unit_name": "1=small 2=medium 3=l"
+    },
+    {
+      "attribute_name": "fwLpKill",
+      "value": 50.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "eliteBonusCovertOps3",
+      "value": -10.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "typeColorScheme",
+      "value": 11409.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "virusStrengthBonus",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "Analyzer Virus Strength Bonus",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "energyWarfareResistance",
+      "value": 1.0,
+      "categoryID": 36,
+      "display_name": "Capacitor Warfare Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "sensorDampenerResistance",
+      "value": 1.0,
+      "categoryID": 36,
+      "display_name": "Sensor Warfare Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "weaponDisruptionResistance",
+      "value": 1.0,
+      "categoryID": 36,
+      "display_name": "Weapon Disruption Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 1.0,
+      "categoryID": 36,
+      "display_name": "Stasis Webifier Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shipRoleBonusWarpSpeed",
+      "value": 60.0,
+      "categoryID": 37,
+      "display_name": "Warp Speed and Acceleration Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "isBlackOpsJumpPortalPassenger",
+      "value": 1.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "isBlackOpsJumpConduitPassenger",
+      "value": 1.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "maxDirectionalScanRange",
+      "value": 2147483647000.0,
+      "categoryID": 7,
+      "display_name": "Maximum Directional Scan Range",
+      "unit_name": "m"
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b>10+</b> bonus to <a href=showinfo:22177>Relic</a> and <a href=showinfo:22175>Data Analyzer</a> virus strength"
+    },
+    {
+      "content": "Can fit <a href=showinfo:11578>Covert Ops Cloaking Device</a> and <a href=showinfo:28646>Covert Cynosural Field Generator</a>"
+    },
+    {
+      "content": "<a href=showinfo:11579>Cloak</a> reactivation delay reduced to 5 seconds"
+    },
+    {
+      "content": "<b>60%</b> bonus to warp speed and warp acceleration"
+    },
+    {
+      "content": "<b>5%</b> reduction to <a href=showinfo:30013>Core</a> and <a href=showinfo:30028>Combat Scanner Probe</a> deviation"
+    },
+    {
+      "content": "<b>15%</b> reduction in <a href=showinfo:3455>warp drive</a> capacitor need"
+    },
+    {
+      "content": "<b>20%</b> reduction in <a href=showinfo:11579>Cloaking Devices</a> CPU requirement"
+    },
+    {
+      "content": "<b>10%</b> bonus to <a href=showinfo:30013>Core</a> and <a href=showinfo:30028>Combat Scanner Probe</a> strength"
+    },
+    {
+      "content": "<b>10%</b> reduction in time required for <a href=showinfo:18635>Survey Probe</a> scans"
+    }
+  ]
+}

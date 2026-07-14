@@ -1,0 +1,13 @@
+{
+  "type_id": 48428,
+  "name": "Decayed Small Cap Battery Mutaplasmid",
+  "description": "This bioadaptive mutaplasmid tool is designed to interface with and alter devices that provide additional capacitor storage. As such this mutaplasmid could be used to mutate the performance characteristics of capacitor battery modules in the correct size class.\n\nTriglavian bioadaptive technology makes extensive use of engineered colonies of extremophilic bacteria, that are used to grow, harvest and adapt various resources found in Abyssal Deadspace. Artificial colonizing plasmids integrated into specialist tools used for direct adaptation of technology can be found in Triglavian caches in various stages of development. These mutaplasmids can be used to alter the characteristics of a wide variety of equipment types, depending on the strain and the bioadaptive tool with which they are integrated.\n\nThe mutaplasmid colony integrated into this bioadaptive tool has begun to decay and mutation effects will be less pronounced as a result. While possible mutational benefits are low, the risks of using this mutaplasmid are also reduced.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Mutaplasmids",
+  "attributes": [],
+  "traits": []
+}

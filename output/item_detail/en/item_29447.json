@@ -1,0 +1,13 @@
+{
+  "type_id": 29447,
+  "name": "Gallente Politician",
+  "description": "A planetside politician of the Gallente Federation.",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 90.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

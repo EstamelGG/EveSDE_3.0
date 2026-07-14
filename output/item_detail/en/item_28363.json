@@ -1,0 +1,13 @@
+{
+  "type_id": 28363,
+  "name": "Drone Cerebral Fragment",
+  "description": "A fragment of a rogue drones cerebral cortex.",
+  "volume": 0.03,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Material",
+  "group_name": "Rogue Drone Components",
+  "attributes": [],
+  "traits": []
+}

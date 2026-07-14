@@ -1,0 +1,13 @@
+{
+  "type_id": 57449,
+  "name": "Nano Regulation Gate",
+  "description": "Nano Regulation Gates are a component used to harden supercapital ship systems against hostile infiltration and subversion attempts. Highly advanced versions of these devices are incorporated in the most secure capsuleer neurolink protection technologies used by naval capital pilots.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

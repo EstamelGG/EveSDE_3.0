@@ -1,0 +1,56 @@
+{
+  "type_id": 28437,
+  "name": "Compressed Gelidus",
+  "description": "Fairly rare and very valuable, Gelidus-type ice formations are a large-scale source of strontium clathrates, one of the rarest ice solids found in the universe, in addition to which they contain unusually large concentrations of heavy water and liquid ozone.\n\nThis material is compressed and a much more compact form of the original material.",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Asteroid",
+  "group_name": "Ice",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 16281.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 18025.0,
+      "categoryID": 7,
+      "display_name": "Reprocessing Skill",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "Stasis Webifier Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 16268.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "typeID"
+    }
+  ],
+  "traits": []
+}

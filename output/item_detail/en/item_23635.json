@@ -1,0 +1,13 @@
+{
+  "type_id": 23635,
+  "name": "Aortal Purifier",
+  "description": "This hefty piece of medical equipment is necessary for transfusions to be possible in patients with certain rare blood diseases.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": 50.0,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 2631,
+  "name": "Crates of OP Insecticide",
+  "description": "Organophosphates, similar to nerve gases, have long been used as insecticides, and as bugs evolve, so too must the methods for dealing with them. This particular insecticide is perhaps the most lethal known to humankind, and can kill nearly anything exposed to it.",
+  "volume": 60.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 60000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

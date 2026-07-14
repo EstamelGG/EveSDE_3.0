@@ -1,0 +1,13 @@
+{
+  "type_id": 34774,
+  "name": "CSM 6 Electee Archive Script",
+  "description": "A secure holographic datapad, used to access the CONCORD public information database.\n \n \n//archive_yulai8_ict -search\n>SEARCH INITIATED\n>SEARCH SEQUENCE... COMPLETE\n//archive_csm -search\n>ARCHIVE SEARCH... COMPLETE\n>LOADING... COMPLETE \n \nCouncil of Stellar Management 6 electees:\n \n<url=showinfo:1376//874265450>Darius III</url>\n<url=showinfo:1377//824281015>Draco Llasa</url>\n<url=showinfo:1383//820303498>Elise Randolph</url>\n<url=showinfo:1373//516538429>Killer2</url>\n<url=showinfo:1383//1789860477>Krutoj</url>\n<url=showinfo:1386//1271256719>Meissa Anunthiel</url>\n<url=showinfo:1378//566954154>Prometheus Exenthal</url>\n<url=showinfo:1379//465739014>Seleene</url>\n<url=showinfo:1376//443630591>The Mittani</url>\n<url=showinfo:1377//1036406382>Trebor Daehdoow</url>\n<url=showinfo:1373//960494793>Two step</url>\n<url=showinfo:1378//121154444>UAxDEATH</url>\n<url=showinfo:1373//922355212>Vile Rat</url>\n<url=showinfo:1377//1397864946>White Tree</url>",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

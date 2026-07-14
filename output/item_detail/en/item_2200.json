@@ -1,0 +1,13 @@
+{
+  "type_id": 2200,
+  "name": "Crate of Prototype Body Armor Fabric",
+  "description": "This energy and force-absorbing fabric could represent a generational advancement in light body armor technology. What makes this remarkable fabric unique is that it contains microscopically thin layers of an advanced polymer containing nanites programmed for self-repair. In short, when a suit of body armor made form this material is impacted by any significant force, the nanites instantly begin to repair any damage done, which protects the wearer from further harm. Most importantly, during the manufacturing phase, if the fabric is properly pre-stressed, the nanites are forced to bond thus creating stronger and stronger material, without any increase in weight or decrease in flexibility. For these reasons, this prototype body armor fabric will undoubtedly become the most sought-after material for those groups able to afford its exorbitant price.",
+  "volume": 2000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

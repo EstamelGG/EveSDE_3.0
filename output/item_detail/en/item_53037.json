@@ -1,0 +1,13 @@
+{
+  "type_id": 53037,
+  "name": "Capital Absorption Thruster Array",
+  "description": "Complex and powerful propulsion packs that use radiation absorption as the motive power for capital ships using Triglavian singularity technology.",
+  "volume": 2000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000.0,
+  "category_name": "Commodity",
+  "group_name": "Capital Construction Components",
+  "attributes": [],
+  "traits": []
+}

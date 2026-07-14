@@ -1,0 +1,13 @@
+{
+  "type_id": 17893,
+  "name": "High-Tech Data Chip",
+  "description": "A small wafer of semiconductor material that forms the base for an integrated circuit. High-Tech Data Chips have more capacity than their lower tech counter-parts.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

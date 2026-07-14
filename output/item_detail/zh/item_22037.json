@@ -1,0 +1,13 @@
+{
+  "type_id": 22037,
+  "name": "共和国维修工具",
+  "description": "高科技的电子器具和工具。拥有适当知识的人可以用其中一些工具修复几乎任何东西。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

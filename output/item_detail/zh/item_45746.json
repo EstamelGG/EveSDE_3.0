@@ -1,0 +1,49 @@
+{
+  "type_id": 45746,
+  "name": "反应理论",
+  "description": "允许操作反应服务装备的基本技能。每升一级，反应时间减少4%。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "技能",
+  "group_name": "资源处理",
+  "attributes": [
+    {
+      "attribute_name": "primaryAttribute",
+      "value": 166.0,
+      "categoryID": 7,
+      "display_name": "主属性",
+      "unit_name": "属性ID"
+    },
+    {
+      "attribute_name": "secondaryAttribute",
+      "value": 165.0,
+      "categoryID": 7,
+      "display_name": "副属性",
+      "unit_name": "属性ID"
+    },
+    {
+      "attribute_name": "skillTimeConstant",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "训练时间倍增系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "skillLevel",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "等级",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reactionTimeBonus",
+      "value": -4.0,
+      "categoryID": 7,
+      "display_name": "反应时间加成",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

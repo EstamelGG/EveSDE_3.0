@@ -1,0 +1,13 @@
+{
+  "type_id": 2624,
+  "name": "装箱的机械零件",
+  "description": "这些基本元件存在于所有机械硬件设备中，形状各异，大小不一，不过现在的市场上还是模块化的部件更具竞争优势。工厂和制造商将这些部件拿来组装为成品，然后再在市场出售。",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

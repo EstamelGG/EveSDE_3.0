@@ -1,0 +1,13 @@
+{
+  "type_id": 22209,
+  "name": "Refugee",
+  "description": "A person who has fled from their home because of war, political oppression or religious persecution.",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 60.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

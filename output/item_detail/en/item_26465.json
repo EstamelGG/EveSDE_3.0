@@ -1,0 +1,13 @@
+{
+  "type_id": 26465,
+  "name": "Divine Opium",
+  "description": "Religion and Opium. What a strange notion. You wonder who could have thought of such a thing.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

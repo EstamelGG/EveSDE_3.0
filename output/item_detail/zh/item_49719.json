@@ -1,0 +1,13 @@
+{
+  "type_id": 49719,
+  "name": "中型势力弹药箱",
+  "description": "这个来自军品黑市的箱子里有一些中型武器的弹药。",
+  "volume": 4.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

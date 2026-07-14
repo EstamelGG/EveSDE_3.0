@@ -1,0 +1,13 @@
+{
+  "type_id": 21064,
+  "name": "Zvarin Karsha",
+  "description": "A friendly peddler who operates in Otitoh.",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 90.0,
+  "category_name": "Commodity",
+  "group_name": "Livestock",
+  "attributes": [],
+  "traits": []
+}

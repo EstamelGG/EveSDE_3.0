@@ -1,0 +1,13 @@
+{
+  "type_id": 2899,
+  "name": "自制电路",
+  "description": "虽然无人机的人工智能复制起来很容易，但要实现有些功能还是需要修改程序。这些元件好像就是被设计成战斗力不强的样子。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

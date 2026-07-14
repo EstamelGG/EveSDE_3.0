@@ -1,0 +1,42 @@
+{
+  "type_id": 17363,
+  "name": "小型审计安全密码集装箱",
+  "description": "这个小型审计安全密码集装箱安装了密码保护安全锁装置。",
+  "volume": 100.0,
+  "repackaged_volume": 10.0,
+  "capacity": 120.0,
+  "mass": 10000.0,
+  "category_name": "天体",
+  "group_name": "审计安全密码集装箱",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 100000.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 11584.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureUniformity",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

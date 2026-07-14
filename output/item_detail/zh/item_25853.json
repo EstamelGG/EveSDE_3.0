@@ -1,0 +1,42 @@
+{
+  "type_id": 25853,
+  "name": "机密舰船数据接口",
+  "description": "这个便携接口的设计是专门对应加达里科技的，它允许使用者快速流览物品图表的电子流，找到他所需的数据串。每次生产只需要使用一个数据接口，而且可以根据需要重复使用。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "常用物品",
+  "group_name": "数据接口",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 100.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 21790.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "decryptorID",
+      "value": 731.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

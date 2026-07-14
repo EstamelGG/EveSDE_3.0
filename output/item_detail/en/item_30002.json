@@ -1,0 +1,21 @@
+{
+  "type_id": 30002,
+  "name": "Fullerene Intercalated Sheets",
+  "description": "The manufacture of this component requires the rarest and most valuable technology salvageable from Sleeper drones. These sheets represent some of the most advanced composite materials known to New Eden. When other, more valuable devices are embedded into the structure at the molecular level, the sheets' performance enhances tremendously. The end result is a component with an almost endless number of applications in starship design. \n\nUltra-resilient armor plating, defensive nanoassemblers, electronics housing, and even the molecular-level circuitry itself are only a few of the near-countless roles that fullerene intercalated sheets can perform. Although unrivalled in their modularity, the cost of construction remains a barrier on supply; consequently, they remain a component to be used only when absolutely necessary. \n\nScientists and engineers alike claim that a steadier supply of these rare Sleeper pieces would instantly advance starship design ten years. Other experts have made even more interesting claims, stating that the staggering utility of the components suggests a level of technological advancement sufficient for capsule production.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Hybrid Tech Components",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

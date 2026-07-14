@@ -1,0 +1,13 @@
+{
+  "type_id": 46266,
+  "name": "A3驱逐舰包裹",
+  "description": "这个箱子里含有一艘驱逐舰和一些它能用上的装备。不巧的是拆包并组装这艘船的说明书找不到了。",
+  "volume": 50000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

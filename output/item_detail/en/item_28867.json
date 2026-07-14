@@ -1,0 +1,13 @@
+{
+  "type_id": 28867,
+  "name": "Inexplicable Drone Junk",
+  "description": "Alloys and special materials used in the manufacture of modules based on Ancient technology.",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 150.0,
+  "category_name": "Commodity",
+  "group_name": "Materials and Compounds",
+  "attributes": [],
+  "traits": []
+}

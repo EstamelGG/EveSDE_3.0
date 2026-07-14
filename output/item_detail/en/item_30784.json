@@ -1,0 +1,13 @@
+{
+  "type_id": 30784,
+  "name": "Dr. Castille's Data Core (Property of CreoDron)",
+  "description": "This data core contains Dr. Aspasia Castille's notes on the corrupted drone problem, but it's heavily encrypted.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.75,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

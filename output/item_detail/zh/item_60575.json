@@ -1,0 +1,49 @@
+{
+  "type_id": 60575,
+  "name": "酷菲零度青苹果味",
+  "description": "新伊甸最受欢迎的饮品现推出全新口味！<b>酷菲零度青苹果味</b>，精英克隆飞行员的不二之选，还有增效剂的效果哦！\n\n舌尖上的爆炸总好过宇宙中的爆船。酷菲零度青苹果味能提高你的灵活性和精力，而且毫无副作用！\n\n\n\n<font color=\"yellow\">加成：</font>\n\n灵活性提高5%，电容回充速率提高5%。持续期：1小时。\n\n\n\n<b>酷菲零度青苹果味</b>的成分中含有功能增强剂，氧化剂以及天然果汁，能够使你将能力发挥到极致。\n\n\n\n酷菲零度的秘密就在于它享有专利的纳米传输系统，能够将我们独一无二的配方直接作用于神经元——你想让它激发哪里，它就激发哪里。这样它就将在最短时间内直接提升你的身体机能，而且绝无副作用！\n\n\n\n为了达到最佳体验，酷菲零度青苹果味甚至加入了能够对特定品牌的颅下纳米控制器（例如莱戴集团的LD-X100系列）有所反应的酷菲纳米粒子！\n\n\n\n<font size=\"2\"><i>酷菲零度是酷菲公司的产品。酷菲绝不允许使用增效剂以及其他非法成分。酷菲公司对于消费者使用冬眠者、流浪者、三神裔、自由人无人机，以及一切非法、古老和未知的科技所引起的一切副作用不负任何责任。</i>\n\n\n\n<b>警告：</b>酷菲零度仅限克隆飞行员饮用。非克隆飞行员使用引起的副作用包括（但不限于）眩晕、失明、恶心呕吐、内出血、肠胃不适、梦游、暴力冲动。健忘、机能障碍、视力下降、严重的表皮脱落、部分或完全的情绪失控以及轻微的皮疹。</font>",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "agilityBonus",
+      "value": -5.0,
+      "categoryID": 7,
+      "display_name": "惯性调整系数",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "capRechargeBonus",
+      "value": -5.0,
+      "categoryID": 5,
+      "display_name": "电容回充时间缩减",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 3600000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    }
+  ],
+  "traits": []
+}

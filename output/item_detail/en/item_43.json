@@ -1,0 +1,13 @@
+{
+  "type_id": 43,
+  "name": "Antibiotics",
+  "description": "Antibiotics are in constant demand everywhere and new, more potent versions, are always made available to counter the increased immunity of bacteria against antibiotics.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 5.0,
+  "category_name": "Commodity",
+  "group_name": "General",
+  "attributes": [],
+  "traits": []
+}

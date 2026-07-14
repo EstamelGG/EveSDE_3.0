@@ -1,0 +1,13 @@
+{
+  "type_id": 2967,
+  "name": "Crate of Target Painter Deflection Plating",
+  "description": "These hull plates are coated with a layer of crystalline structures under a protective transparent enamel. The crystalline layer shimmers reflectively and creates mirage halos around the plate when spot lights are directed at it.",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

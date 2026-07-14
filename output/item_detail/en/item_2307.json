@@ -1,0 +1,28 @@
+{
+  "type_id": 2307,
+  "name": "Felsic Magma",
+  "description": "The churning core of lava planets is rife with felsic magma, or silicate material that is infused with lighter elements, from which basic silicon and other atomic matter may be extracted. Silicon is abundant on many terrestrial planets, but the fastest and easiest way to obtain it, given advances in planetary mining processes, is from felsic magma.",
+  "volume": 0.005,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Planetary Resources",
+  "group_name": "Planet Solid - Raw Resource",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

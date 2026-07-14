@@ -1,0 +1,13 @@
+{
+  "type_id": 24466,
+  "name": "阿卡纳博物馆游客通行证",
+  "description": "该通行证可让携带者及其伙伴进入阿卡纳博物馆，它只能用一次，所以要谨慎使用。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

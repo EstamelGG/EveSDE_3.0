@@ -1,0 +1,13 @@
+{
+  "type_id": 92179,
+  "name": "Hyper-Vigilance Core",
+  "description": "Multilayered four-dimensional observatory data is fed back on itself in this incomprehensible datacore.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Vigilance Point Data",
+  "attributes": [],
+  "traits": []
+}

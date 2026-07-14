@@ -1,0 +1,13 @@
+{
+  "type_id": 49787,
+  "name": "冰冷三羧基蒸汽",
+  "description": "对此蒸汽云的光谱分析显示其中含有微量的升华的色动力学三羧基复合物。 \n\n\n\n在合适的设施中对这些气云进行提炼可以产出不定量的色动力学三羧基。",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "天体",
+  "group_name": "可采集云团",
+  "attributes": [],
+  "traits": []
+}

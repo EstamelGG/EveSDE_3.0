@@ -1,0 +1,182 @@
+{
+  "type_id": 40308,
+  "name": "Spectre Fleet's Modified Entosis Link",
+  "description": "This Compact variation of the standard Entosis Link was developed by the research division of the Capsuleer organization <url=showinfo:16159//99006373>Spectre Fleet</url>. <url=showinfo:16159//99006373>Spectre Fleet's</url> forces were among the earliest to research the applications of Entosis technology and were able to optimize the standard Entosis Link for lower powergrid requirements. Originally intended for internal use only, copies of the blueprint have slipped onto the black market and can now be found by those with the right underworld connections.\n\nThis mysterious device is the result of reverse-engineering salvaged Drifter technology. It appears to use ancient Jovian techniques and materials to allow more efficient mind-machine links than were thought possible in the past. The practical applications of this technology are still unclear.\n\nThis module cannot be fitted to Interceptors.\nThis module requires a full warm-up cycle before beginning to influence targeted structures.\nShips fitted with an Entosis Link are unable to accelerate beyond 4000m/s using their normal sub-warp engines.\nOnce activated, this module cannot be deactivated until it completes its current cycle.\nWhile an Entosis Link is active, the fitted ship cannot cloak, warp, jump, or dock.\nCapital ships cannot receive remote assistance while they have an Entosis Link active.\n\nDisclaimer: The Carthum Conglomerate, as well as its registered subsidiaries and partners, accepts absolutely no legal or ethical liability for any unforeseen consequences of connecting untested Drifter-derived technology directly to the user's mind.",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Module",
+  "group_name": "Entosis Link",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 50.0,
+      "categoryID": 5,
+      "display_name": "Activation Cost",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 9999999.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 7.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Usage",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "slots",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 1.0,
+      "categoryID": 1,
+      "display_name": "CPU usage",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 20000.0,
+      "categoryID": 29,
+      "display_name": "Optimal Range",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 300000.0,
+      "categoryID": 7,
+      "display_name": "Activation time / duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 24242.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 2.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "consumptionType",
+      "value": 16275.0,
+      "categoryID": 7,
+      "display_name": "Consumption Type",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "consumptionQuantity",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Consumption Quantity",
+      "unit_name": "units"
+    },
+    {
+      "attribute_name": "siegeModeWarpStatus",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "scanGravimetricStrengthPercent",
+      "value": 100.0,
+      "categoryID": 7,
+      "display_name": "Gravimetric Strength",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanLadarStrengthPercent",
+      "value": 100.0,
+      "categoryID": 7,
+      "display_name": "Ladar Strength",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrengthPercent",
+      "value": 100.0,
+      "categoryID": 7,
+      "display_name": "Magnetometric Strength",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "scanRadarStrengthPercent",
+      "value": 100.0,
+      "categoryID": 7,
+      "display_name": "Radar Strength",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "implantBonusVelocity",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Velocity Modifier",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "canCloak",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "maxGroupFitted",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "Max Modules Of This Group Allowed",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "speedLimit",
+      "value": 4000.0,
+      "categoryID": 17,
+      "display_name": "",
+      "unit_name": "m/sec"
+    },
+    {
+      "attribute_name": "entosisCPUAdd",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "entosisAssistanceImpedanceMultiplier",
+      "value": 1.0,
+      "categoryID": 36,
+      "display_name": "Entosis Assistance Impedance",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

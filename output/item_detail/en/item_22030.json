@@ -1,0 +1,13 @@
+{
+  "type_id": 22030,
+  "name": "Destroyed ComLink Scanner",
+  "description": "A small fragment of a ComLink Scanner. It is unusable and too badly damaged to be really discernable.",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

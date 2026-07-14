@@ -1,0 +1,98 @@
+{
+  "type_id": 47348,
+  "name": "Standup Signal Amplifier II",
+  "description": "The Standup Signal Amplifier augments the scan resolution and maximum targeting range of the host structure. Additionally, the Signal Amplifier system will add bandwidth to the structure's systems allowing it to lock additional targets. The Signal Amplifier can be installed as a module in Upwell technology structures.\n\nStandup is a proprietary system that uses a Structure Autonomous Nanoassembly Device (Upwell) containing integrated template software, a nanoassembler array and sufficient nanomass to enable the construction of a variety of service modules, structure modules and structure rigs when inserted into the appropriate slots on a structure built with Upwell technology.",
+  "volume": 4000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 500.0,
+  "category_name": "Structure Module",
+  "group_name": "Structure Signal Amplifier",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 60000.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Usage",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 1200.0,
+      "categoryID": 1,
+      "display_name": "CPU usage",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "maxLockedTargetsBonus",
+      "value": 2.0,
+      "categoryID": 37,
+      "display_name": "Maximum Locked Targets Bonus",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "maxTargetRangeBonus",
+      "value": 15.0,
+      "categoryID": 37,
+      "display_name": "Maximum Targeting Range Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "scanResolutionBonus",
+      "value": 25.0,
+      "categoryID": 37,
+      "display_name": "Scan Resolution Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "canFitShipGroup01",
+      "value": 1657.0,
+      "categoryID": 1,
+      "display_name": "Can only be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "canFitShipGroup02",
+      "value": 1404.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "canFitShipGroup03",
+      "value": 1406.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "structureItemVisualFlag",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

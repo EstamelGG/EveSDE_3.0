@@ -1,0 +1,21 @@
+{
+  "type_id": 30270,
+  "name": "Central System Controller",
+  "description": "Still fully intact and operational, this device stands as a testament to the ancient Sleeper's impressive scientific achievements. Although thousands of years old, the technology inside it is not only comparable to modern electronic designs, but in some cases even exceeds it. \n\nCentral system controllers lie at the heart of a starship's electronics systems. They are responsible for coordinating the flow of information between various analyzers and control nodes, monitoring subsystems, and ensuring they receive the appropriate supply of electrical power. Tackling such complex tasks simultaneously (and with near-zero latency) demands immense processing power and faultless, error-free programming. Traditionally, a CSC would comprise a significant portion of the cost in a starship's electronics systems, but the fullerene-based Sleeper designs have provided breakthroughs in the efficiency of circuitry and presented new and improved methods for increasing computational accuracy. The end result is a drastically reduced cost for top-of-the-line performance.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Ancient Salvage",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

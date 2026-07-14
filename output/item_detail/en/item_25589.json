@@ -1,0 +1,21 @@
+{
+  "type_id": 25589,
+  "name": "Malfunctioning Shield Emitter",
+  "description": "This Shield Emitter, while not being totally out of commission doesn't seem to be living up to its full potential. With some tender loving care the parts could be put to good use.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Salvaged Materials",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

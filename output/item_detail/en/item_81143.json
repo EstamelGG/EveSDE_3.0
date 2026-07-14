@@ -1,0 +1,13 @@
+{
+  "type_id": 81143,
+  "name": "Magmatic Gas",
+  "description": "Collected from the stratosphere of planets undergoing constant volcanic eruptions, magmatic gas is a relatively stable mix of sublimated compounds. After a brief maturation period in its recipient skyhook, the mixture's potential energy increases greatly, enabling its use as fuel. Its consistent explosive power makes for excellent use in structures where the fuel’s volume is not a detriment.\n\nAn <a href=showinfo:81080>orbital skyhook</a> anchored above a lava planet in null security sovereignty space produces magmatic gas.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 3000.0,
+  "category_name": "Colony Resources",
+  "group_name": "Colony Reagents",
+  "attributes": [],
+  "traits": []
+}

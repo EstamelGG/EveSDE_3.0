@@ -1,0 +1,13 @@
+{
+  "type_id": 32218,
+  "name": "加密的数据片段",
+  "description": "这块数据节点用强大的加密技术保护着中间的秘密。独特的加密技术设计一看就知道是私人所有，不会在别处重复使用的技术。其中的安全防护软件更是采用了一种盖伦特和加达里技术混合的奇特设计。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

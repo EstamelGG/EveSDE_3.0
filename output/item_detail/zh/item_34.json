@@ -1,0 +1,13 @@
+{
+  "type_id": 34,
+  "name": "三钛合金",
+  "description": "太空建筑的主要建造材料。一种非常坚硬但有韧性的金属。由于在大气温度下不稳定，不可在人类生活环境中使用。在已知星系的核心星域中十分常见。可以从分布在高安全等级星系中的下列矿石及其变种中提炼获得：<a href=showinfo:1230>凡晶石</a>、<a href=showinfo:1228>灼烧岩</a>和<a href=showinfo:18>斜长岩</a>。它还大量存在于多种稀有矿石之中，例如<a href=showinfo:19>灰岩</a>、<a href=showinfo:52316>贝兹岩</a>、<a href=showinfo:52315>拉克岩</a>和<a href=showinfo:52306>塔拉岩</a>。分布在零安全等级星系的<a href=showinfo:81900>克里石</a>、<a href=showinfo:82016>诺克希特</a>、<a href=showinfo:82205>尤加石</a>、<a href=showinfo:82163>赫佐利姆</a>和<a href=showinfo:81975>格里米尔</a>中也含有微量的三钛合金。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "矿物",
+  "attributes": [],
+  "traits": []
+}

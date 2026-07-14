@@ -1,0 +1,13 @@
+{
+  "type_id": 19954,
+  "name": "索兰的通行证钥匙",
+  "description": "根据标记，索兰的通行证钥匙可以激活两个加速轨道：一个是检测轨道，通过后钥匙依然可用；另一个是高度加密的、通往“奥提马太空站”的加速轨道，通过这个轨道后，钥匙会自行销毁。轨道一次只允许一艘船通过。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 17991,
+  "name": "9D Logic Keycard",
+  "description": "This keycard will activate the first acceleration gate in the Angel Cartel Naval Shipyard. This key is particularly hard to forge and is lost in a dimensional shift once it is used.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

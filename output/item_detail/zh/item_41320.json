@@ -1,0 +1,112 @@
+{
+  "type_id": 41320,
+  "name": "地震 XL",
+  "description": "一种钛合金萨博弹，可对目标造成粉碎性打击。但它的体积将近标准弹药两倍，而且射速稍慢。\n\n\n\n最佳射程减少75%。\n\n跟踪速度提高25%。\n\n\n\n注：只能用于旗舰级二级科技或势力火炮。",
+  "volume": 0.125,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "弹药",
+  "group_name": "高级火炮弹药",
+  "attributes": [
+    {
+      "attribute_name": "emDamage",
+      "value": 0.0,
+      "categoryID": 29,
+      "display_name": "电磁伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "explosiveDamage",
+      "value": 72.0,
+      "categoryID": 29,
+      "display_name": "爆炸伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "kineticDamage",
+      "value": 40.0,
+      "categoryID": 29,
+      "display_name": "动能伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "thermalDamage",
+      "value": 0.0,
+      "categoryID": 29,
+      "display_name": "热能伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "weaponRangeMultiplier",
+      "value": 0.25,
+      "categoryID": 7,
+      "display_name": "范围加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "mainColor",
+      "value": 11835778.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "chargeSize",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "弹药尺寸",
+      "unit_name": "1=小型  2=中型  3=大型"
+    },
+    {
+      "attribute_name": "launcherGroup",
+      "value": 55.0,
+      "categoryID": 7,
+      "display_name": "配套使用（发射器类别）",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 41404.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "trackingSpeedMultiplier",
+      "value": 1.25,
+      "categoryID": 26,
+      "display_name": "跟踪速度倍增系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "entityFlyRangeMultiplier",
+      "value": 0.25,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

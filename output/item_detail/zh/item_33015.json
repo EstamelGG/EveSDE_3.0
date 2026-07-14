@@ -1,0 +1,13 @@
+{
+  "type_id": 33015,
+  "name": "迷你巨石",
+  "description": "精炼产出：一些微型星球",
+  "volume": 500.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 50000.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

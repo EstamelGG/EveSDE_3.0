@@ -1,0 +1,13 @@
+{
+  "type_id": 32365,
+  "name": "目标证据：遗迹",
+  "description": "这份文档被存放在一个由帝国特工保护的遗迹地点中。它的作用是，作为在训练任务中成功定位这个信号并成功完成分析作业的实物证据。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

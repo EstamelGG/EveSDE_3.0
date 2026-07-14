@@ -1,0 +1,63 @@
+{
+  "type_id": 59197,
+  "name": "改良型新星晨曦大脑加速器",
+  "description": "大脑加速器是一种军用级别的植入体，能在一定时间内大大地增强飞行员的技能增长。通过装填脑组织和脑神经来增加知识传输过程中的数据带宽。\n\n该商品只对创建100天内的角色起效。欧米伽克隆角色最多可获得300万未分配技能点。\n\n消耗此加速器的角色在下次例行维护后将获得150万未分配技能点，并且从该次维护（含）开始的连续50个自然日内（不受100天角色创建限制）每次维护时若使用角色处于欧米伽克隆则额外发放3万未分配技能点，最多额外发放150万未分配技能点。\n\n温馨提示：此[改良型新星晨曦大脑加速器]每名角色限用1次，且与老款[新星晨曦大脑加速器]共享同一槽位，无法同时使用。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3402.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 8640000000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 20.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "boosterMaxCharAgeHours",
+      "value": 2400.0,
+      "categoryID": 7,
+      "display_name": "最大飞行员年龄",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "nondestructible",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "无法摧毁",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "followsJumpClones",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "跟随远距克隆",
+      "unit_name": "1=True 0=False"
+    }
+  ],
+  "traits": []
+}

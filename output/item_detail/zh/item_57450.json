@@ -1,0 +1,13 @@
+{
+  "type_id": 57450,
+  "name": "电子神经信号装置",
+  "description": "电子神经信号装置用于强化旗舰与克隆飞行员的神经链接系统免遭敌方信息战和干扰的影响。这种设备的高级型号还融合了海军旗舰飞行员使用的最为安全的克隆飞行员神经链接保护技术。",
+  "volume": 0.25,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

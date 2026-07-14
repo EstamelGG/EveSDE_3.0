@@ -1,0 +1,13 @@
+{
+  "type_id": 30745,
+  "name": "Sleeper Data Library",
+  "description": "Found amongst the debris of an incapacitated Sleeper drone, this large device appears to be a data archive of some sort. Although the information within remains a complete mystery, it is immediately apparent that it stretches far back into time.\n\nSmall data fragments preceding each file appear to function as time-stamps. If this is indeed what they are, then this Data Library could offer a snapshot of the universe stretching back millennia.\n\nAlthough it is obviously of great value in and of itself, those who have some basic understanding of interpreting the data would undoubtedly pay the most for it, should an opportunistic salvager wish to part with such a rare piece of technology.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Sleeper Components",
+  "attributes": [],
+  "traits": []
+}

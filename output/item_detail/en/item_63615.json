@@ -1,0 +1,133 @@
+{
+  "type_id": 63615,
+  "name": "Halcyon Y-5 Booster",
+  "description": "It will apply immediately when redeemed. Base Duration 2 Hours.\n\n5% bonus to armor resistances\n5% bonus to ship agility\n5% bonus to turret, vorton projector and missile damage\n5% bonus to capacitor capacity\n10% bonus to drone optimal range and falloff\n+20km drone control range\n10% bonus to mining laser and ice harvester range\n10% bonus to maximum targeting range\n10% bonus to energy warfare resistance\n+20 virus coherence for relic analyzers",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Implant",
+  "group_name": "Booster",
+  "attributes": [
+    {
+      "attribute_name": "agilityBonus",
+      "value": -5.0,
+      "categoryID": 7,
+      "display_name": "Inertia Modifier",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "damageMultiplierBonus",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Damage Multiplier Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "rangeSkillBonus",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "Optimal Range Modifier",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "maxTargetRangeBonus",
+      "value": 10.0,
+      "categoryID": 37,
+      "display_name": "Maximum Targeting Range Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 7200000.0,
+      "categoryID": 7,
+      "display_name": "Booster Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "falloffBonus",
+      "value": 10.0,
+      "categoryID": 37,
+      "display_name": "Falloff Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "maxRangeBonus",
+      "value": 10.0,
+      "categoryID": 37,
+      "display_name": "Optimal Range Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "droneRangeBonus",
+      "value": 20000.0,
+      "categoryID": 10,
+      "display_name": "Drone Control Range Bonus",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "passiveEmDamageResistanceBonus",
+      "value": -5.0,
+      "categoryID": 7,
+      "display_name": "Passive EM Damage Resistance Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "passiveExplosiveDamageResistanceBonus",
+      "value": -5.0,
+      "categoryID": 7,
+      "display_name": "Passive Explosive Damage Resistance Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "passiveKineticDamageResistanceBonus",
+      "value": -5.0,
+      "categoryID": 7,
+      "display_name": "Passive Kinetic Damage Resistance Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "passiveThermicDamageResistanceBonus",
+      "value": -5.0,
+      "categoryID": 7,
+      "display_name": "Passive Thermal Damage Resistance Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "capacitorCapacityBonus",
+      "value": 5.0,
+      "categoryID": 5,
+      "display_name": "Capacitor Modifier",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Booster Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "virusCoherenceBonus",
+      "value": 20.0,
+      "categoryID": 9,
+      "display_name": "Virus Coherence Bonus",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "energyWarfareResistanceBonus",
+      "value": -10.0,
+      "categoryID": 36,
+      "display_name": "Capacitor Warfare Resistance Bonus",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

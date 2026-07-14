@@ -1,0 +1,77 @@
+{
+  "type_id": 82304,
+  "name": "Compressed Nocxite",
+  "description": "Nocxite, discovered in YC126 due to new astrogeological surveying techniques, contains mostly <a href=showinfo:38>nocxium</a> with trace amounts of <a href=showinfo:34>tritanium</a> and <a href=showinfo:35>pyerite</a>.\nEven trace amounts of nocxite produces intoxicating fumes under atmospheric pressures, demanding special care when being handled planetside. Previous failures to appropriately vent the gasses have resulted in a number of workplace accidents and fatalities.\n \nNocxite may be found in null security asteroid anomalies.\n \nThis material is compressed and a much more compact form of the original material.",
+  "volume": 0.04,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1e+35,
+  "category_name": "Asteroid",
+  "group_name": "Nocxite",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 60378.0,
+      "categoryID": 7,
+      "display_name": "Reprocessing Skill",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "asteroidRadiusGrowthFactor",
+      "value": 0.5,
+      "categoryID": 31,
+      "display_name": "Asteroid radius size multiplier",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "Stasis Webifier Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 82016.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "ignoreMiningWaste",
+      "value": 0.0,
+      "categoryID": 51,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "ignoreMiningCrits",
+      "value": 0.0,
+      "categoryID": 51,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

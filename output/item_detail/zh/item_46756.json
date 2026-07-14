@@ -1,0 +1,13 @@
+{
+  "type_id": 46756,
+  "name": "猎头者箱",
+  "description": "这个箱子中含有下列涂装的随机一种：\n\n<url=showinfo:46707>富豪级猎头者涂装</url>\n<url=showinfo:46708>启示级猎头者涂装</url>\n<url=showinfo:46712>小鹰级猎头者涂装</url>\n<url=showinfo:46713>狞獾级猎头者涂装</url>\n<url=showinfo:46717>特里斯坦级猎头者涂装</url>\n<url=showinfo:46718>狂怒者级猎头者涂装</url>\n<url=showinfo:46722>伐木者级猎头者涂装</url>\n<url=showinfo:46723>断崖级猎头者涂装</url>",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

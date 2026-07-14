@@ -1,0 +1,13 @@
+{
+  "type_id": 29938,
+  "name": "Cipher Router",
+  "description": "This heavily damaged fluid router appears to offer a low-profile backdoor into classified FIO networks. In a more functional state this unit could have shed some light on whether or not Serpentis Captain Scane Essyn truly defected. Without a way to bypass the various built-in encryption systems, however, it will be impossible to make sense of any recoverable data. This could be proof of Essyn using old knowledge to his advantage in a new career, or simply his link back to one he never abandoned in the first place.",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

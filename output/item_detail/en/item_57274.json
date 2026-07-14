@@ -1,0 +1,49 @@
+{
+  "type_id": 57274,
+  "name": "Festival-only 'Longbow' HAM4 Dose",
+  "description": "This Cerebral Accelerator is only designed for and available on Serenity.\n\n4% damage bonus to Heavy Assault Missile.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Implant",
+  "group_name": "Booster",
+  "attributes": [
+    {
+      "attribute_name": "damageMultiplierBonus",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "Damage Multiplier Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 172800000.0,
+      "categoryID": 7,
+      "display_name": "Booster Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 89.0,
+      "categoryID": 7,
+      "display_name": "Booster Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "nondestructible",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Non-Destructible",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "followsJumpClones",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Follows Jump Clones",
+      "unit_name": "1=True 0=False"
+    }
+  ],
+  "traits": []
+}

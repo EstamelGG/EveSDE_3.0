@@ -1,0 +1,49 @@
+{
+  "type_id": 3898,
+  "name": "酷菲零度 经典款",
+  "description": "恭喜你，飞行员！你获得了一份限量版酷菲零度，它是像增效剂一样威猛的功能饮料。没有副作用，享受更多活力！\n\n<font color=\"yellow\">加成：</font>\n+5%速度，+5%扫描分辨率。持续期：1小时。\n\n<i>附带广告</i>\n作为克隆飞行员，你有不死之身。命运的轮盘永远掌握在你自己手里。难道你不可以拥有像你一样强大的软饮料吗？酷菲觉得，你可以有。因此我们研发了酷菲零度。\n\n我们的业内最顶尖的科学家们使用了最新最尖端的生物科技，成功地将仅在冬眠者舰船上才能找到的化合物转化成了酷菲零度。它的成分中含有功能增强剂，氧化剂以及天然果汁，能够使你将能力发挥到极致。\n\n酷菲零度的秘密就在于它享有专利的纳米传输系统，能够将我们独一无二的配方直接作用于神经元——你想让它激发哪里，它就激发哪里。这样它就将在最短时间内直接提升你的身体机能，而且绝无副作用！\n\n<font size=\"2\">酷菲零度是酷菲公司的产品。酷菲绝不允许使用增效剂以及其他非法成分。酷菲公司对于消费者使用冬眠者科技所引起的一切副作用不负任何责任。\n\n警告：酷菲零度仅限克隆飞行员饮用。非克隆飞行员使用引起的副作用包括（但不限于）眩晕、失明、恶心呕吐、内出血、肠胃不适、梦游、健忘、性反常、视力下降、严重的表皮脱落、部分或完全的情绪失控以及轻微的皮疹。\n\n酷菲零度产于凤凰星座。</font>\n\n酷菲零度：活力无限，我心飞扬！",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "velocityBonus",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "速度调整",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 3600000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "scanResolutionBonus",
+      "value": 5.0,
+      "categoryID": 37,
+      "display_name": "扫描分辨率加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    }
+  ],
+  "traits": []
+}

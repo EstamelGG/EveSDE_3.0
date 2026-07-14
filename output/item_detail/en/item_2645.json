@@ -1,0 +1,13 @@
+{
+  "type_id": 2645,
+  "name": "Crates of Soil",
+  "description": "Fertile soil rich with nutrients is very sought after by agricultural corporations and colonists on worlds with short biological history.",
+  "volume": 50.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 50000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

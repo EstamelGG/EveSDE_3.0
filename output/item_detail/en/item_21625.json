@@ -1,0 +1,13 @@
+{
+  "type_id": 21625,
+  "name": "Kusan Niemenen's Missile Launcher",
+  "description": "Only Kusan Niemenen knows how to fit this strange missile launcher.",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 3000.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

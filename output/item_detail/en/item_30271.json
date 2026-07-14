@@ -1,0 +1,21 @@
+{
+  "type_id": 30271,
+  "name": "Emergent Combat Intelligence",
+  "description": "Although emergent systems are not fully-fledged Artificial Intelligences, they are often so advanced that they can border on sentience. The means by which they are created is also a common source for claims that they are in fact, full-blown AIs. Emergent system development is said to have been an early focal point in Jovian software design, where they hoped to create an atmosphere in which an advanced system could self-assemble its own consciousness and thus “emerge” as a sentient being. What became of these projects remains unknown, although the Jovians appear to have abandoned these pursuits many millennia ago in favor of something more tangible and containable.  \n\nDesigned from the ground up to perform complex, real-time combat calculations such as weapon tracking and heat optimization, this device shows the signatures of an emergent intelligence. Despite this, various hard limitations have been encoded into the device at the most fundamental level, greatly limiting its potential to evolve any further. Even in its current state though, it represents some of the most advanced combat electronics ever built. Although nothing about the software is in itself revolutionary, it is able to tackle highly complex tasks with a frightening level of speed and efficiency.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Ancient Salvage",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

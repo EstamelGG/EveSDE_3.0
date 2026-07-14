@@ -1,0 +1,13 @@
+{
+  "type_id": 60025,
+  "name": "圣洁王座大型舰船涂装宝箱",
+  "description": "打开后随机获得圣洁王座系列大型舰船（战列巡洋舰、战列舰、旗舰、工业舰、货舰）涂装一款。\n\n概率如下：\n\n战列巡洋舰：34.146%\n\n战列舰：33.333%\n\n旗舰：9.756%\n\n工业舰：16.261%\n\n货舰：6.504%",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

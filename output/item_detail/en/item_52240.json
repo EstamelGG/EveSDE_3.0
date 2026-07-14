@@ -1,0 +1,238 @@
+{
+  "type_id": 52240,
+  "name": "Zorya's Supratidal Entropic Disintegrator",
+  "description": "This large Entropic Disintegrator is only seen in use on Triglavian battleships, these massive ships being capable of managing the considerable radiation and enormous gravitational tidal forces the weapon generates. At the energy levels of this superheavy weapon system, the tidal forces are such that special systems are built into the ship to counteract them.\n\nEntropic Disintegrators draw on the tremendous power of the Triglavian singularity-based energy systems to convert exotic matter into a particle stream directed with locally generated entropic force. While powerful, the range of the weapon is limited by the attenuation of entropic forces, which dissipate critically beyond the optimal range. As a result this weapon has no falloff range.\n\nThe particle stream generates thermal and explosive reactions on impact, and the entropic forces resolve into a localized gravitational conduit that steadily increases the acceleration on the exotic particles. In effect, the weapon's damage potential increases to a maximum level as long as the particle stream is kept on the same target.\n\nRequires exotic plasma charge ammo types: Baryon, Meson, and Tetryon.",
+  "volume": 20.0,
+  "repackaged_volume": null,
+  "capacity": 5.0,
+  "mass": 2000.0,
+  "category_name": "Module",
+  "group_name": "Precursor Weapon",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 50.0,
+      "categoryID": 5,
+      "display_name": "Activation Cost",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 15000.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Usage",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "slots",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 342.0,
+      "categoryID": 1,
+      "display_name": "CPU usage",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "speed",
+      "value": 8000.0,
+      "categoryID": 29,
+      "display_name": "Rate of fire",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 28000.0,
+      "categoryID": 29,
+      "display_name": "Optimal Range",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "chargeRate",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Charges Per Cycle",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "targetModule",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "damageMultiplier",
+      "value": 1.12,
+      "categoryID": 29,
+      "display_name": "Damage Modifier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "chargeSize",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "Charge size",
+      "unit_name": "1=small 2=medium 3=l"
+    },
+    {
+      "attribute_name": "trackingSpeed",
+      "value": 5.45,
+      "categoryID": 29,
+      "display_name": "Turret Tracking",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 47872.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 3300.0,
+      "categoryID": 8,
+      "display_name": "Secondary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "chargeGroup1",
+      "value": 1987.0,
+      "categoryID": 7,
+      "display_name": "Used with (Charge Group)",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "chargeGroup2",
+      "value": 1989.0,
+      "categoryID": 7,
+      "display_name": "Used with (Charge Group)",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "optimalSigRadius",
+      "value": 40000.0,
+      "categoryID": 29,
+      "display_name": "Signature Resolution",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 12.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "heatAbsorbtionRateModifier",
+      "value": 0.01,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "overloadDamageModifier",
+      "value": 15.0,
+      "categoryID": 7,
+      "display_name": "Overload damage bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "heatDamage",
+      "value": 3.6,
+      "categoryID": 52,
+      "display_name": "Heat Damage",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredThermoDynamicsSkill",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Required Thermodynamics Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "canFitShipType1",
+      "value": 47271.0,
+      "categoryID": 1,
+      "display_name": "Can only be fitted to",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "canFitShipType2",
+      "value": 88001.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "metaGroupID",
+      "value": 4.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "typeColorScheme",
+      "value": 11313.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reloadTime",
+      "value": 0.01,
+      "categoryID": 7,
+      "display_name": "Reload Time",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "damageMultiplierBonusPerCycle",
+      "value": 0.07,
+      "categoryID": 29,
+      "display_name": "Damage Multiplier Bonus Per Cycle",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "damageMultiplierBonusMax",
+      "value": 2.125,
+      "categoryID": 29,
+      "display_name": "Maximum Damage Multiplier Bonus",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

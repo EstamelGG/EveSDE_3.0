@@ -1,0 +1,28 @@
+{
+  "type_id": 3775,
+  "name": "病原体",
+  "description": "传染病的致病药剂，这种病毒载体是一种无细胞核的寄生虫，结构基本就是由蛋白外皮包裹着的核酸组织。",
+  "volume": 0.75,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "行星商品",
+  "group_name": "加工过的资源物品 - 第二等级",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 7200.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 7200.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

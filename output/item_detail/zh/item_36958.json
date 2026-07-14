@@ -1,0 +1,13 @@
+{
+  "type_id": 36958,
+  "name": "建筑宣传节点",
+  "description": "建造太空建筑中宣传设施所需的组件。",
+  "volume": 3000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000.0,
+  "category_name": "常用物品",
+  "group_name": "建筑组件",
+  "attributes": [],
+  "traits": []
+}

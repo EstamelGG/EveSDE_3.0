@@ -1,0 +1,13 @@
+{
+  "type_id": 55359,
+  "name": "高级流式细胞分析奖励箱",
+  "description": "这是参与统合部的探索计划中的流式细胞分析项目所获得的奖励。\n\n\n\n这个货柜用一种电子锁机制密封，确保里面的东西在各种环境中都能保存完好。\n\n\n\n解封会使这个货柜完全解体，从而露出里面的东西。",
+  "volume": 6000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

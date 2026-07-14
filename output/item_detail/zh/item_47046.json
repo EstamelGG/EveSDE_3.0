@@ -1,0 +1,13 @@
+{
+  "type_id": 47046,
+  "name": "京诺瘟疫治疗药剂",
+  "description": "这是基于帝国和参与其中的克隆飞行员在YC119年京诺事件调查中获得的成果而制造的一小瓶解药。研究成果已经成功地根除了受灾地区的瘟疫，不过留一小瓶以备不时之需也说得过去。",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 9850,
+  "name": "Spirits",
+  "description": "Alcoholic beverages made by distilling a fermented mash of grains.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "Commodity",
+  "group_name": "General",
+  "attributes": [],
+  "traits": []
+}

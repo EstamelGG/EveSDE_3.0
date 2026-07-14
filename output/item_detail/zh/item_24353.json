@@ -1,0 +1,13 @@
+{
+  "type_id": 24353,
+  "name": "兽纹钥匙",
+  "description": "该钥匙可以通往殷郡遗迹，但只能使用一次。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 23517,
+  "name": "Salvaged Data Core",
+  "description": "This data core came out of an alleged FON cruiser, part of a squad that staged a vicious attack on a mercenary outpost. It needs to be brought back to Pandon Ardillan immediately for thorough analysis.",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

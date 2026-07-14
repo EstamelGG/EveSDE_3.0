@@ -1,0 +1,13 @@
+{
+  "type_id": 34133,
+  "name": "Multiple Pilot Training Certificate",
+  "description": "This certificate allows you to train multiple pilots on the same account at the same time. Once used, it will allow you to either activate an additional training queue (up to a maximum of two) or extend the duration of an already active additional queue. The certificate is consumed immediately upon activation, and its training queue lasts thirty (30) days.\n\nPlease note that under no circumstances can you train two skills simultaneously on the <b>same</b> pilot.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Accessories",
+  "group_name": "Services",
+  "attributes": [],
+  "traits": []
+}

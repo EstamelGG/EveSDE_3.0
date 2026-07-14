@@ -1,0 +1,21 @@
+{
+  "type_id": 25597,
+  "name": "损坏的人工神经网络",
+  "description": "人工神经网络负责管理星舰的各种电子子系统并确保一切功能有条不紊，当系统受到损伤或者离线时，它要重新制定能量分配线路并进行运算处理。这个人工神经网络虽然已经损坏，但并不是完全不可救",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "打捞材料",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

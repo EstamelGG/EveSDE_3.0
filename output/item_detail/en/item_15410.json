@@ -1,0 +1,13 @@
+{
+  "type_id": 15410,
+  "name": "Neophite",
+  "description": "This priceless mineral was discovered by a band of Gallente explorers during the Caldari-Gallente war over a century ago. Closely related to morphite, its composition is only slightly different yet enough so that it has not been able to serve the same function. Only a few samples of it are known to remain intact, in the possession of some of the most wealthy collectors in the known universe.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

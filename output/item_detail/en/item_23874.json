@@ -1,0 +1,13 @@
+{
+  "type_id": 23874,
+  "name": "Lord Methros' Encrypted Data Burst",
+  "description": "A Heavily coded data fragment, retrieved from the wreckage of a transport ship.\n\nData fragments such as this are usually transported by ship rather than FTL communication systems due to their complexity and sensitivity of the data contained within them.",
+  "volume": 50.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

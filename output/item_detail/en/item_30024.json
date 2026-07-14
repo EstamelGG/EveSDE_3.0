@@ -1,0 +1,21 @@
+{
+  "type_id": 30024,
+  "name": "Cartesian Temporal Coordinator",
+  "description": "At first glance this coordinator appears to be a common enough piece of equipment, albeit an odd one to be found inside a drone. Designed to plot various points in time across a potentially infinite period, these devices are often used for scientific calculations. \n\nFor some unknown reason, this particular coordinator is configured to synchronize its processing speed in time with the distance travelled between two points. What purpose this serves remains a mystery, but the object's basic functionality can be reconfigured. With the addition of a few other components, it would allow electronics systems to more easily withstand the interference from subspace distortion.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Ancient Salvage",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 20.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    }
+  ],
+  "traits": []
+}

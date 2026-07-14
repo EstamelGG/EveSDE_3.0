@@ -1,0 +1,13 @@
+{
+  "type_id": 24123,
+  "name": "Elite Laser Pistols",
+  "description": "High-tech laser pistols.",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

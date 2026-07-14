@@ -1,0 +1,13 @@
+{
+  "type_id": 2250,
+  "name": "Neurowave Pattern Scanner",
+  "description": "This scanner will track the brainwaves of any living creatures within a ship.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

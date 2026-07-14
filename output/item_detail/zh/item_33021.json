@@ -1,0 +1,21 @@
+{
+  "type_id": 33021,
+  "name": "滞时单元",
+  "description": "由一种异常紧密的材料制成，时间仿佛都在它周围停滞了。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [
+    {
+      "attribute_name": "cpuMultiplier",
+      "value": 0.1,
+      "categoryID": 1,
+      "display_name": "CPU输出加成",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

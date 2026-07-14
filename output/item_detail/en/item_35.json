@@ -1,0 +1,13 @@
+{
+  "type_id": 35,
+  "name": "Pyerite",
+  "description": "A soft crystal-like mineral with a very distinguishing orange glow as if on fire. Used as conduit and in the bio-chemical industry. Commonly found in many asteroid-ore types.\n\nMay be obtained by reprocessing the following ores and their variations:\n\nHigh security status star systems: <a href=showinfo:1228>scordite</a>, and <a href=showinfo:1224>pyroxeres</a>.\n\nLow security status star systems: <a href=showinfo:1224>pyroxeres</a>, <a href=showinfo:1227>omber</a>, <a href=showinfo:21>hedbergite</a>, <a href=showinfo:1229>gneiss</a>, and <a href=showinfo:1225>crokite</a>.\n\nNull security status star systems: <a href=showinfo:1224>pyroxeres</a>, <a href=showinfo:1223>bistot</a>, <a href=showinfo:22>arkonor</a>, <a href=showinfo:81900>kylixium</a>, and <a href=showinfo:82016>nocxite</a>.\n\nWormhole systems: <a href=showinfo:1224>pyroxeres</a>, <a href=showinfo:1227>omber</a>, <a href=showinfo:1229>gneiss</a>, <a href=showinfo:1223>bistot</a>, and <a href=showinfo:22>arkonor</a>.\n\nThe rare ore <a href=showinfo:74521>mordunium</a> also contains significant quantities and is found primarily in nullsec and W-space systems containing A0 (Blue Small) stars, as well as surveyed locations on the borders of empire and nullsec space.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Mineral",
+  "attributes": [],
+  "traits": []
+}

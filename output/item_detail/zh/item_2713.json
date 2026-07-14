@@ -1,0 +1,13 @@
+{
+  "type_id": 2713,
+  "name": "大箱的电子元件",
+  "description": "这些基本元件存在于所有电子硬件设备中，有不少人喜欢物色这些元件作为其硬件设备的备件。工厂和制造商将这些部件拿来组装为成品，然后再在市场出售。",
+  "volume": 400.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 400000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

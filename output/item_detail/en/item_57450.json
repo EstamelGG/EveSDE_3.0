@@ -1,0 +1,13 @@
+{
+  "type_id": 57450,
+  "name": "Electro-Neural Signaller",
+  "description": "Electro-Neural Signallers are a component used to harden capital capsuleer neurolink systems against hostile information warfare and subversion efforts. Advanced versions of these devices are incorporated in the most secure capsuleer neurolink protection technologies used by naval capital pilots.",
+  "volume": 0.25,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

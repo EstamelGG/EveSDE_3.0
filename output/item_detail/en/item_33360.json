@@ -1,0 +1,21 @@
+{
+  "type_id": 33360,
+  "name": "Terahertz Metamaterials",
+  "description": "An advanced composite designed to manipulate electromagnetic waves just beyond the microwave band, terahertz metamaterials are found in the latest generation of processors and capacitor units in the Amarr Empire.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Composite",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 300.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

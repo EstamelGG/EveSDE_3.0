@@ -1,0 +1,49 @@
+{
+  "type_id": 3443,
+  "name": "Trade",
+  "description": "Knowledge of the market and skill at manipulating it. Active buy/sell order limit increased by 4 per level of skill.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Skill",
+  "group_name": "Trade",
+  "attributes": [
+    {
+      "attribute_name": "primaryAttribute",
+      "value": 168.0,
+      "categoryID": 7,
+      "display_name": "Primary attribute",
+      "unit_name": "attributeID"
+    },
+    {
+      "attribute_name": "secondaryAttribute",
+      "value": 164.0,
+      "categoryID": 7,
+      "display_name": "Secondary attribute",
+      "unit_name": "attributeID"
+    },
+    {
+      "attribute_name": "skillTimeConstant",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Training time multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "skillLevel",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Level",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "tradePremiumBonus",
+      "value": -5.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

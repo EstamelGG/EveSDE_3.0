@@ -1,0 +1,13 @@
+{
+  "type_id": 36,
+  "name": "类银超金属",
+  "description": "非常有韧性的金属矿物，颜色为暗沉至明亮的银绿色。它可以和<a href=showinfo:34>三钛合金</a>混合制作极其坚硬的合金，其本身也具有多种用途。在大多数星域非常常见。可以从下列矿石及其变种中提炼获得：高安全等级星系：<a href=showinfo:1224>干焦岩</a>和<a href=showinfo:18>斜长岩</a>。低安全等级星系：<a href=showinfo:1224>干焦岩</a>、<a href=showinfo:20>水硼砂</a>、<a href=showinfo:1226>杰斯贝矿</a>、<a href=showinfo:1229>片麻岩</a>、<a href=showinfo:1232>黑赭石</a>和<a href=showinfo:1225>克洛基石</a>。零安全等级星系：<a href=showinfo:1224>干焦岩</a>、<a href=showinfo:20>水硼砂</a>、<a href=showinfo:1223>双多特石</a>、<a href=showinfo:22>艾克诺岩</a>和<a href=showinfo:81900>克里石</a>。虫洞星系：<a href=showinfo:1224>干焦岩</a>、<a href=showinfo:20>水硼砂</a>、<a href=showinfo:1229>片麻岩</a>、<a href=showinfo:1223>双多特石</a>和<a href=showinfo:22>艾克诺岩</a>。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "矿物",
+  "attributes": [],
+  "traits": []
+}

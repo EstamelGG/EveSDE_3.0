@@ -1,0 +1,13 @@
+{
+  "type_id": 22063,
+  "name": "Empty Data Chip",
+  "description": "An empty data chip, marked as being owned by Dagras Kutill.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

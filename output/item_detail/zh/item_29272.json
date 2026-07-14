@@ -1,0 +1,13 @@
+{
+  "type_id": 29272,
+  "name": "航空展进出徽章",
+  "description": "这个徽章表示其所有者能够参加航空展。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

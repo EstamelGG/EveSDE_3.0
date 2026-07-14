@@ -1,0 +1,13 @@
+{
+  "type_id": 23558,
+  "name": "联邦情报官",
+  "description": "一个盖伦特联邦情报局的官员。",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 90.0,
+  "category_name": "常用物品",
+  "group_name": "有生货物",
+  "attributes": [],
+  "traits": []
+}

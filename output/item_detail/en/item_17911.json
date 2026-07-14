@@ -1,0 +1,13 @@
+{
+  "type_id": 17911,
+  "name": "Supply Ship Pass",
+  "description": "This cipher unlocks the third acceleration gate in the Angel Military Operations Complex. The gate will remain open for a short period of time and using the cipher will cause it to self-destruct, so use wisely.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

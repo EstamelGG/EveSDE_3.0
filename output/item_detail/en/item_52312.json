@@ -1,0 +1,13 @@
+{
+  "type_id": 52312,
+  "name": "Zero-Point Field Manipulator",
+  "description": "A power control and distribution system component used in Triglavian ship designs and others adapted from such designs. Potentially useful as a component in various other technologies.\n\nTriglavian power systems produce vast quantities of energy, harvesting and converting the energy from singularity radiation, and use zero-point field manipulation to control, distribute and even store this energy.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Construction Components",
+  "attributes": [],
+  "traits": []
+}

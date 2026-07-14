@@ -1,0 +1,13 @@
+{
+  "type_id": 88221,
+  "name": "电力监控部门2",
+  "description": "该部门的工作人员负责监控发电系统，以劳动力为代价适度提高发电量。生成的电力仅限于支持优先级较低的升级件。",
+  "volume": 8000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "基础设施升级件",
+  "group_name": "主权中心殖民地资源管理升级件",
+  "attributes": [],
+  "traits": []
+}

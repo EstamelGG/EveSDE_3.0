@@ -1,0 +1,21 @@
+{
+  "type_id": 17317,
+  "name": "费米子冷凝物",
+  "description": "人类已知的最复杂的合成物之一。费米子冷凝物由具有相同量子态的超导玻色子组成，因此产生了一个对电流的接近零阻抗的环境。这些冷凝物因此成为了制造高级反应器的主要材料。",
+  "volume": 1.3,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "合成物",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 200.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

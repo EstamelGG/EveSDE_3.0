@@ -1,0 +1,13 @@
+{
+  "type_id": 36902,
+  "name": "合并元素",
+  "description": "一种由多种发光元素组成的混合体，质地坚硬、性质稳定、形成要求极高。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "未知组件",
+  "attributes": [],
+  "traits": []
+}

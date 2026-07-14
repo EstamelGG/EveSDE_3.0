@@ -1,0 +1,13 @@
+{
+  "type_id": 90565,
+  "name": "Proof of Destruction",
+  "description": "Proof that the incriminating Upwell data has destroyed beyond recovery.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

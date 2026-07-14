@@ -1,0 +1,56 @@
+{
+  "type_id": 49979,
+  "name": "过期的'纯粹'注射增强器",
+  "description": "这款改良型增效剂可以移除征战多年的克隆飞行员在使用任何技能注入器时的递减效果。不过，实现这种效果的药品和神经传导物质形成的复杂混合物会在使用三次注射后失效。\n\n\n\n关于这种增效剂是变节的理性思维社团科学家神秘的“超意识”计划的产物的流言实在是有些言过其实了。\n\n\n\n玩家在使用这种增效剂之后会产生“宿醉”效果，可能导致玩家在最多32小时之内无法使用另一个这种增效剂。\n\n\n\n这种增效剂将在YC121年1月7日后失效。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "boosterDuration",
+      "value": 57600000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 14.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "nondestructible",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "无法摧毁",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "followsJumpClones",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "跟随远距克隆",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "boosterLastInjectionDatetime",
+      "value": 17903.4583333,
+      "categoryID": 7,
+      "display_name": "有效期",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "NonDiminishingSkillInjectorUses",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "可不受技能惩罚地使用注射器的数量",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

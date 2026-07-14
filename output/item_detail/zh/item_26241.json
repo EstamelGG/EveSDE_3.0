@@ -1,0 +1,13 @@
+{
+  "type_id": 26241,
+  "name": "VIP通行卡",
+  "description": "这张通行卡允许你和你的同伴进入到奢华的VIP层面。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

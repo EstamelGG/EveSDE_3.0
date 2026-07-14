@@ -1,0 +1,13 @@
+{
+  "type_id": 24446,
+  "name": "多咖鱼卵",
+  "description": "多咖是一种产于蒙诺瑞VI本地的海洋鱼类。由于环境恶劣，这些鱼类进化了，它们的卵是补充体力的圣品，在宇航员和那些需要在严酷环境中维生的人中需求量很大。虽然多咖鱼卵营养丰富，但口味却非常苦，导致所有市场推广活动都遭到失败。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 400.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

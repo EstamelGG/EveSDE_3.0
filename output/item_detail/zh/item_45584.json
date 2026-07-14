@@ -1,0 +1,13 @@
+{
+  "type_id": 45584,
+  "name": "三岛研究实验室技术数据芯片",
+  "description": "这种技术数据芯片包含了经过升级的三岛集团研究设施的规格参数和纳米装配专利技术的说明。\n\n\n\n理论上，厉害的飞行员可能通过与这种数据芯片的交互恢复出有用的蓝图数据。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "常用物品",
+  "group_name": "技术数据芯片",
+  "attributes": [],
+  "traits": []
+}

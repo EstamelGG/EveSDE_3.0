@@ -1,0 +1,21 @@
+{
+  "type_id": 17959,
+  "name": "Vanadium Hafnite",
+  "description": "A stable binary compound composed of vanadium and hafnium. Performs a variety of catalytic functions, and is an important intermediate for more complex construction processes.",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Intermediate Materials",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

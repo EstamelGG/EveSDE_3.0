@@ -1,0 +1,13 @@
+{
+  "type_id": 47482,
+  "name": "CDIA训练补给箱",
+  "description": "这个统合部指令情报处补给箱中含有纳米涂层，可以进行红蓝两军对垒的军事训练。",
+  "volume": 4.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

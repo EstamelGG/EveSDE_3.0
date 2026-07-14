@@ -1,0 +1,28 @@
+{
+  "type_id": 2306,
+  "name": "非立方晶体",
+  "description": "晶体本身的自然特性使得它们适用于相当广泛的生产程序，很多时候它们既是产品又是制造这些产品的工具。",
+  "volume": 0.005,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "行星资源",
+  "group_name": "行星固体 - 原始资源",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

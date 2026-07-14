@@ -1,0 +1,13 @@
+{
+  "type_id": 24763,
+  "name": "加密电码本",
+  "description": "用来解码的小册子。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

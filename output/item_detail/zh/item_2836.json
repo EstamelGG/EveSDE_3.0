@@ -1,0 +1,649 @@
+{
+  "type_id": 2836,
+  "name": "复仇女神级",
+  "description": "复仇女神级是一座大威力的疾速炮攻击平台，专门为第八届联盟锦标赛所设计。尽管在设计上同她的姐妹戴默斯级有很多相似之处（也是基于戴默斯设计的），但复仇女神级却在一些关键的参数上和她有着巨大的差异。采用轻型合金构件和尖端型的离子推进器的复仇女神级能够达到对于重型突击舰来说难以置信的飞行速度。虽然这样的结构让它不如前作那样坚固，但是缺失的防御装甲板换来的是最为先进的目标锁定系统、优化的武器搭载机构以及升级的跃迁干扰能力。不要让防御系统的缩水骗了你，在单挑独斗的情况下，外面可没有几艘战舰能在复仇女神级面前撑得起腰来。",
+  "volume": 112000.0,
+  "repackaged_volume": 10000.0,
+  "capacity": 440.0,
+  "mass": 11100000.0,
+  "category_name": "舰船",
+  "group_name": "重型突击巡洋舰",
+  "attributes": [
+    {
+      "attribute_name": "damage",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "物品损坏",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 2277.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "powerOutput",
+      "value": 1284.0,
+      "categoryID": 1,
+      "display_name": "能量栅格输出",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "lowSlots",
+      "value": 6.0,
+      "categoryID": 1,
+      "display_name": "低能量槽",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "medSlots",
+      "value": 4.0,
+      "categoryID": 1,
+      "display_name": "中能量槽",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hiSlots",
+      "value": 5.0,
+      "categoryID": 1,
+      "display_name": "高能量槽",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "powerLoad",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "能量负荷",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "powerToSpeed",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warpFactor",
+      "value": 0.0,
+      "categoryID": 17,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "maxVelocity",
+      "value": 228.0,
+      "categoryID": 17,
+      "display_name": "最大速度",
+      "unit_name": "m/s"
+    },
+    {
+      "attribute_name": "cpuOutput",
+      "value": 370.0,
+      "categoryID": 1,
+      "display_name": "CPU输出",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": "CPU载荷",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "rechargeRate",
+      "value": 335000.0,
+      "categoryID": 5,
+      "display_name": "电容回充时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "agility",
+      "value": 0.45695,
+      "categoryID": 17,
+      "display_name": "惯性调整",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "maxTargetRange",
+      "value": 45000.0,
+      "categoryID": 6,
+      "display_name": "锁定范围上限",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "scanSpeed",
+      "value": 4500.0,
+      "categoryID": 6,
+      "display_name": "",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "launcherSlotsLeft",
+      "value": 0.0,
+      "categoryID": 1,
+      "display_name": "发射器安装数",
+      "unit_name": "安装座"
+    },
+    {
+      "attribute_name": "turretSlotsLeft",
+      "value": 5.0,
+      "categoryID": 1,
+      "display_name": "炮台安装数",
+      "unit_name": "安装座"
+    },
+    {
+      "attribute_name": "kineticDamageResonance",
+      "value": 0.67,
+      "categoryID": 4,
+      "display_name": "结构动能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "thermalDamageResonance",
+      "value": 0.67,
+      "categoryID": 4,
+      "display_name": "结构热能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "explosiveDamageResonance",
+      "value": 0.67,
+      "categoryID": 4,
+      "display_name": "结构爆炸伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "emDamageResonance",
+      "value": 0.67,
+      "categoryID": 4,
+      "display_name": "结构电磁伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "mainColor",
+      "value": 16777215.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "maxPassengers",
+      "value": 580.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "uniformity",
+      "value": 1.0,
+      "categoryID": 2,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "warpCapacitorNeed",
+      "value": 8.13e-07,
+      "categoryID": 17,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3332.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 16591.0,
+      "categoryID": 8,
+      "display_name": "副技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "cargoScanResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "货柜扫描抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "maxLockedTargets",
+      "value": 6.0,
+      "categoryID": 6,
+      "display_name": "目标锁定数上限加成",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "scanRadarStrength",
+      "value": 0.0,
+      "categoryID": 6,
+      "display_name": "雷达感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanLadarStrength",
+      "value": 0.0,
+      "categoryID": 6,
+      "display_name": "光雷达感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrength",
+      "value": 15.0,
+      "categoryID": 6,
+      "display_name": "磁力感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanGravimetricStrength",
+      "value": 0.0,
+      "categoryID": 6,
+      "display_name": "引力感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "propulsionGraphicID",
+      "value": 394.0,
+      "categoryID": 31,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "gfxBoosterID",
+      "value": 394.0,
+      "categoryID": 31,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "shieldCapacity",
+      "value": 1160.0,
+      "categoryID": 2,
+      "display_name": "护盾容量",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorHP",
+      "value": 1836.0,
+      "categoryID": 3,
+      "display_name": "装甲值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorEmDamageResonance",
+      "value": 0.5,
+      "categoryID": 3,
+      "display_name": "装甲电磁伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorExplosiveDamageResonance",
+      "value": 0.9,
+      "categoryID": 3,
+      "display_name": "装甲爆炸伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorKineticDamageResonance",
+      "value": 0.1625,
+      "categoryID": 3,
+      "display_name": "装甲动能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "armorThermalDamageResonance",
+      "value": 0.325,
+      "categoryID": 3,
+      "display_name": "装甲热能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldEmDamageResonance",
+      "value": 1.0,
+      "categoryID": 2,
+      "display_name": "护盾电磁伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldExplosiveDamageResonance",
+      "value": 0.5,
+      "categoryID": 2,
+      "display_name": "护盾爆炸伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldKineticDamageResonance",
+      "value": 0.15,
+      "categoryID": 2,
+      "display_name": "护盾动能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldThermalDamageResonance",
+      "value": 0.4,
+      "categoryID": 2,
+      "display_name": "护盾热能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "droneCapacity",
+      "value": 100.0,
+      "categoryID": 10,
+      "display_name": "无人机容量",
+      "unit_name": "m3"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "shieldRechargeRate",
+      "value": 1250000.0,
+      "categoryID": 2,
+      "display_name": "护盾回充时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "capacitorCapacity",
+      "value": 2268.0,
+      "categoryID": 5,
+      "display_name": "电容容量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "shieldUniformity",
+      "value": 0.75,
+      "categoryID": 2,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "shipBonusGC",
+      "value": 20.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "armorUniformity",
+      "value": 0.75,
+      "categoryID": 3,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureUniformity",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 120.0,
+      "categoryID": 6,
+      "display_name": "信号半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "scanResolution",
+      "value": 320.0,
+      "categoryID": 6,
+      "display_name": "扫描分辨率",
+      "unit_name": "mm"
+    },
+    {
+      "attribute_name": "warpSpeedMultiplier",
+      "value": 4.0,
+      "categoryID": 17,
+      "display_name": "跃迁速度倍增系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 9.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "shipBonusGC2",
+      "value": 20.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "maxDirectionalVelocity",
+      "value": 2000.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "minTargetVelDmgMultiplier",
+      "value": 0.25,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "upgradeCapacity",
+      "value": 400.0,
+      "categoryID": 7,
+      "display_name": "校准值",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "rigSlots",
+      "value": 2.0,
+      "categoryID": 1,
+      "display_name": "改装件安装座",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "upgradeSlotsLeft",
+      "value": 2.0,
+      "categoryID": 1,
+      "display_name": "改装件槽位",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "heatCapacityHi",
+      "value": 100.0,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "heatDissipationRateHi",
+      "value": 0.01,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "heatDissipationRateMed",
+      "value": 0.01,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "heatDissipationRateLow",
+      "value": 0.01,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "heatCapacityMed",
+      "value": 100.0,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "heatCapacityLow",
+      "value": 100.0,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "heatGenerationMultiplier",
+      "value": 0.75,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "heatAttenuationHi",
+      "value": 0.71,
+      "categoryID": 52,
+      "display_name": "热量发散",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "heatAttenuationMed",
+      "value": 0.63,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "heatAttenuationLow",
+      "value": 0.76,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "droneBandwidth",
+      "value": 50.0,
+      "categoryID": 10,
+      "display_name": "无人机带宽",
+      "unit_name": "Mbit/s"
+    },
+    {
+      "attribute_name": "baseWarpSpeed",
+      "value": 1.0,
+      "categoryID": 17,
+      "display_name": "舰船跃迁速度",
+      "unit_name": "AU/s"
+    },
+    {
+      "attribute_name": "rigSize",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "改装件尺寸",
+      "unit_name": "1=小型  2=中型  3=大型"
+    },
+    {
+      "attribute_name": "fwLpKill",
+      "value": 20000.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "shipBonusATC1",
+      "value": 25.0,
+      "categoryID": 7,
+      "display_name": "特殊能力加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shipBonusATC2",
+      "value": 50.0,
+      "categoryID": 7,
+      "display_name": "特殊能力加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaGroupID",
+      "value": 4.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "energyWarfareResistance",
+      "value": 1.0,
+      "categoryID": 36,
+      "display_name": "电容战抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "sensorDampenerResistance",
+      "value": 1.0,
+      "categoryID": 36,
+      "display_name": "感应战抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "weaponDisruptionResistance",
+      "value": 1.0,
+      "categoryID": 36,
+      "display_name": "武器干扰抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 1.0,
+      "categoryID": 36,
+      "display_name": "停滞缠绕抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "maxDirectionalScanRange",
+      "value": 2147483647000.0,
+      "categoryID": 7,
+      "display_name": "最大定向扫描范围",
+      "unit_name": "m"
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b>50%</b> <a href=\"showinfo:3304\">中型混合炮台</a>失准范围加成"
+    },
+    {
+      "content": "<b>25%</b> <a href=\"showinfo:3304\">中型混合炮台</a>跟踪速度加成"
+    },
+    {
+      "content": "<b>25%</b> 舰船最大速度加成"
+    },
+    {
+      "content": "可以装配<a href=showinfo:47254>突击损伤控制</a>装备"
+    },
+    {
+      "content": "<b>20%</b> <a href=\"showinfo:3304\">中型混合炮台</a>伤害加成"
+    },
+    {
+      "content": "<b>20%</b> <a href=\"showinfo:447\">跃迁扰频器</a>和<a href=\"showinfo:3242\">跃迁扰断器</a>最佳射程加成"
+    }
+  ]
+}

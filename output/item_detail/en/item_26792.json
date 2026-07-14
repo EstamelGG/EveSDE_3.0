@@ -1,0 +1,13 @@
+{
+  "type_id": 26792,
+  "name": "Barrels of Water",
+  "description": "Water is one of the basic conditional elements of human survival. Most worlds have this compound in relative short supply and hence must rely on starship freight.",
+  "volume": 2500.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 25000000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

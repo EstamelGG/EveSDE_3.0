@@ -1,0 +1,13 @@
+{
+  "type_id": 21564,
+  "name": "牛奶",
+  "description": "新鲜冰镇的牛奶。",
+  "volume": 0.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 400.0,
+  "category_name": "常用物品",
+  "group_name": "冷藏品",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 17794,
+  "name": "艾玛KIU-1关联芯片",
+  "description": "这片小型数据芯片中存有飞船人工智能系统的关键数据，主要用来控制飞船的自主操作功能。这种特殊芯片已由维鲜集团的顶尖科学家为帝国海军进行了改良，比正规市面上的同类产品性能更佳。 \n\n  \n\nKIU-1芯片专为巡洋舰级舰船而设计。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

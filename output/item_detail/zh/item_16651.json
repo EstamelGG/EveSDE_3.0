@@ -1,0 +1,21 @@
+{
+  "type_id": 16651,
+  "name": "钕",
+  "description": "一种银色的稀有金属。由于它会与大气反应，钕主要被用来折射光线，或作为其他材料的着色剂。",
+  "volume": 0.05,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 7010.0,
+  "category_name": "材料",
+  "group_name": "卫星原料",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

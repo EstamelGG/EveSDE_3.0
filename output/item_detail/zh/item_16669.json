@@ -1,0 +1,21 @@
+{
+  "type_id": 16669,
+  "name": "铁磁流体",
+  "description": "铁磁流体是一种超顺磁性流体，它包含了漂浮在液体中的微小磁性固体粒子。它是创造钢化凝胶的首要成分。",
+  "volume": 0.2,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "中间产物",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "卫星开采量",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

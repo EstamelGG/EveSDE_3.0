@@ -1,0 +1,63 @@
+{
+  "type_id": 87711,
+  "name": "Expired Aegytica Volatile Booster",
+  "description": "+16% Capacitor\nBase duration: 3 minutes and 30 seconds.\nThis booster has been manufactured using volatile compounds and will expire on <b>April 3rd, YC127</b>.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Implant",
+  "group_name": "Booster",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3405.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 210000.0,
+      "categoryID": 7,
+      "display_name": "Booster Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "capacitorCapacityBonus",
+      "value": 16.0,
+      "categoryID": 5,
+      "display_name": "Capacitor Modifier",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 17.0,
+      "categoryID": 7,
+      "display_name": "Booster Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "boosterLastInjectionDatetime",
+      "value": 20181.4583333333,
+      "categoryID": 7,
+      "display_name": "Expiry Date",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

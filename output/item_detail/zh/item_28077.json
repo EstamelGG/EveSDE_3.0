@@ -1,0 +1,13 @@
+{
+  "type_id": 28077,
+  "name": "艾玛高级哨站工厂",
+  "description": "针对艾玛哨站生产能力的高级升级方案。所有生产项目的材料效率降低1%（可与同类效果叠加），所有二级科技舰船生产时间减少60%。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "附件",
+  "group_name": "哨站强化",
+  "attributes": [],
+  "traits": []
+}

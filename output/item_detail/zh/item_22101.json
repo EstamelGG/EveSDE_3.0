@@ -1,0 +1,13 @@
+{
+  "type_id": 22101,
+  "name": "ST58记忆芯片",
+  "description": "一小块由半导体组成的晶片，是集成电路的基板。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

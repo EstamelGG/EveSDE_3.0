@@ -1,0 +1,138 @@
+{
+  "type_id": 45590,
+  "name": "金鹏防御 - 辅助保护幕墙",
+  "description": "借助新近发现的古老科技，加达里舰船设计师成功地逆向工程了冬眠者金属富勒烯装甲板的核心技术。通过一个复杂的代换机制，经验丰富的工程技术人员和物理学家研发出了金鹏级护盾的补充机制，大大提高了强火力打击下飞船的生存能力。",
+  "volume": 40.0,
+  "repackaged_volume": null,
+  "capacity": 300.0,
+  "mass": 1400000.0,
+  "category_name": "子系统",
+  "group_name": "防御子系统",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 30544.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "shieldCapacity",
+      "value": 1000.0,
+      "categoryID": 2,
+      "display_name": "护盾容量",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 10.0,
+      "categoryID": 6,
+      "display_name": "信号半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "subSystemSlot",
+      "value": 126.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "hiSlotModifier",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": "高槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "medSlotModifier",
+      "value": 2.0,
+      "categoryID": 0,
+      "display_name": "中槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "lowSlotModifier",
+      "value": 2.0,
+      "categoryID": 0,
+      "display_name": "低槽数调整",
+      "unit_name": "+"
+    },
+    {
+      "attribute_name": "fitsToShipType",
+      "value": 29984.0,
+      "categoryID": 0,
+      "display_name": "受限于船型",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "subsystemBonusCaldariDefensive",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "subsystemBonusCaldariDefensive2",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "covertCloakCPUPenalty",
+      "value": 10000.0,
+      "categoryID": 0,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b><u>附加基础数值</b></u>"
+    },
+    {
+      "content": "中槽+2，低槽+2"
+    },
+    {
+      "content": "护盾值+1000"
+    },
+    {
+      "content": "信号半径+10m"
+    },
+    {
+      "content": "<b>5%</b> 护盾值加成"
+    },
+    {
+      "content": "<b>5%</b> 护盾增强器过载效果加成"
+    }
+  ]
+}

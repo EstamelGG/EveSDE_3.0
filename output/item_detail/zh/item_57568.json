@@ -1,0 +1,13 @@
+{
+  "type_id": 57568,
+  "name": "统合部紧急干预和安全局加密安全密钥CSSF-ENS",
+  "description": "这个加密安全密钥能激活通向旗舰安全设施中的统合部紧急干预和安全局安保部保险库的加速轨道。\n\n\n\n这个密钥的收发器使用了独特的编码，只能对特定的加速轨道使用。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "加速轨道钥匙",
+  "attributes": [],
+  "traits": []
+}

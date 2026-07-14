@@ -1,0 +1,98 @@
+{
+  "type_id": 49753,
+  "name": "Onslaught Accelerator",
+  "description": "The compounds are only guaranteed to function until YC 120-11-19.\n\nCerebral accelerators are military grade boosters that significantly increase a pilot's skill development for a given window of time. This is achieved by priming the user's brain and neural pathways for increased data bandwidth during knowledge transfer.\n\nCapsuleers using this accelerator can expect a massive increase in neural bandwidth, aiding much more rapid uptake of skill-related neural data. It will cease to function after 72 hours once activated, due to natural degradation of the biochemical compounds used to stimulate the user’s neural activity. Heightened knowledge of Biology will increase this time up to 144 hours.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Implant",
+  "group_name": "Booster",
+  "attributes": [
+    {
+      "attribute_name": "charismaBonus",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "Charisma Modifier",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "intelligenceBonus",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "Intelligence Modifier",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "memoryBonus",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "Memory Modifier",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "perceptionBonus",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "Perception Modifier",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "willpowerBonus",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "Willpower Modifier",
+      "unit_name": "points"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3402.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 259200000.0,
+      "categoryID": 7,
+      "display_name": "Booster Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "Booster Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "nondestructible",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Non-Destructible",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "followsJumpClones",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Follows Jump Clones",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "boosterLastInjectionDatetime",
+      "value": 17862.4583333,
+      "categoryID": 7,
+      "display_name": "Expiry Date",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

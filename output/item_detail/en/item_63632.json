@@ -1,0 +1,13 @@
+{
+  "type_id": 63632,
+  "name": "Hunt YC124 Acceleration Gate Key",
+  "description": "This quantum-encrypted key is emblazoned with the logo of the Guristas pirates. It appears to allow a ship passage through the acceleration gate to the final room of a Guristas Hunt Outpost or Hunt Secure Storage site.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

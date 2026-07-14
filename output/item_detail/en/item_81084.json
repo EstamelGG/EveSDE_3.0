@@ -1,0 +1,49 @@
+{
+  "type_id": 81084,
+  "name": "Starsi Blast! Orange",
+  "description": "Starsi Blast! is the latest offering from the Drink Starsi™ soft drinks business prevalent across Caldari space and beyond. Starsi Blast! is pitched at the ever-growing market for high energy, neurostimulating drinks craved by space industrial and colonial workers across New Eden. Starsi Blast! Orange is a refreshing variant of the drink designed to sharpen the senses and enhance energy uptake for key workers everywhere.\n\nBenefits: <b>+5% Scan Resolution, +5% Capacitor Recharge</b>\nDuration: <b>1 hour</b>\n\nLaunched by Caldari loyalist capsuleers as a rival to Quafe, Starsi has become a popular drink within the Caldari State in the two decades since its creation. Notably, following the Nugoeihuvi megacorporation's acquisition of the brand in December YC117, the soft drink, and its numerous variants have taken on a new lease of life, stocked in stores and commissaries across New Eden.\n\n<i>Disclaimer: Starsi Blast! Orange is licensed for production by NOH to all PKN Interstellar consortium members and partners. Consumers should be aware that proprietary Starsi Blast! technology remains the property of NOH at every metabolic stage of consumption and excretion. Users of Subcranial Nanocontrollers may experience amplified or altered performance and should contact their preferred nanotechnology service professional in the event of unforeseen effects.</i>",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Implant",
+  "group_name": "Booster",
+  "attributes": [
+    {
+      "attribute_name": "capRechargeBonus",
+      "value": -5.0,
+      "categoryID": 5,
+      "display_name": "Cap Recharge Time Reduction",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 3600000.0,
+      "categoryID": 7,
+      "display_name": "Booster Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "scanResolutionBonus",
+      "value": 5.0,
+      "categoryID": 37,
+      "display_name": "Scan Resolution Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Booster Slot",
+      "unit_name": "Slot"
+    }
+  ],
+  "traits": []
+}

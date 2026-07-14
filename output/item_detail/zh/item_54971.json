@@ -1,0 +1,13 @@
+{
+  "type_id": 54971,
+  "name": "双曲晶体管阵列",
+  "description": "这是一种非常先进的材料，是超敏传感器的核心材料，它依赖双曲各向异性效应将电磁场变化转换为光处理信号。这种传感器对电磁场的重构一般只应用于科学领域，但也可以用于军事用途。",
+  "volume": 0.25,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "打捞材料",
+  "attributes": [],
+  "traits": []
+}

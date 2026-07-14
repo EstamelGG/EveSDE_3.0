@@ -1,0 +1,91 @@
+{
+  "type_id": 48582,
+  "name": "武器大师大脑加速器",
+  "description": "统合部的联合安全局（DED）是新伊甸顶尖的军事力量。DED面向全宇宙招募人才，许多大城市、殖民地哨站和空间站中都有DED的招募站，以及在武器大师治下的训练设施。武器大师使用一种特殊的大脑加速器，用以训练新兵。\n\n\n\n大脑加速器是一种军用级别的植入体，能够大大地增强飞行员的技能增长。通过装填脑组织和脑神经来增加知识传输过程中的数据带宽。\n\n\n\n使用这个加速器能大幅增加神经带宽，大幅提升接受技能相关神经数据的速度。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "charismaBonus",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "魅力调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "intelligenceBonus",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "智力调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "memoryBonus",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "记忆调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "perceptionBonus",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "感知调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "willpowerBonus",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "毅力调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3402.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 86400000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "nondestructible",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "无法摧毁",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "followsJumpClones",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "跟随远距克隆",
+      "unit_name": "1=True 0=False"
+    }
+  ],
+  "traits": []
+}

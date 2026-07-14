@@ -1,0 +1,161 @@
+{
+  "type_id": 23735,
+  "name": "克隆舱 I",
+  "description": "启动后的克隆舱能使旗舰级战舰从船载扫描器接受跨神经脑扫描数据，并注入到舱内的克隆体，将飞船变成一个移动克隆站。\n\n\n\n注：为了克隆的顺利进行，你必须在这个舰船上已经拥有一个有效的克隆体。此外，飞船引擎将提供能量以保证跨神经脑扫描数据能安全精确地收发，所以当克隆舱启动后，旗舰将无法移动。这种能量传输同样会导致克隆舱启动后，舰船无法停靠在昇威建筑中，不过驻留效果仍将发挥作用。\n\n\n\n只能装配在泰坦以及旗舰级工业舰上。",
+  "volume": 4000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "装备",
+  "group_name": "克隆舱",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 99999.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "speedFactor",
+      "value": -100.0,
+      "categoryID": 28,
+      "display_name": "最大速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "power",
+      "value": 50000.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 100.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 300000.0,
+      "categoryID": 7,
+      "display_name": "作用时间/单次运转时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 24606.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "consumptionType",
+      "value": 16273.0,
+      "categoryID": 7,
+      "display_name": "消耗类型",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "consumptionQuantity",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "消耗量",
+      "unit_name": "单位"
+    },
+    {
+      "attribute_name": "maxGroupActive",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "deadspaceUnsafe",
+      "value": 2.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "siegeModeWarpStatus",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "disallowEarlyDeactivation",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "allowsCloneJumpsWhenActive",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "canCloak",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "canFitShipGroup01",
+      "value": 883.0,
+      "categoryID": 1,
+      "display_name": "只能装配在",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "canFitShipGroup02",
+      "value": 30.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "maxGroupFitted",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "该武器组所允许的最大装备数量",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "speedFactorFloor",
+      "value": -100.0,
+      "categoryID": 28,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

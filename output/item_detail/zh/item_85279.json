@@ -1,0 +1,77 @@
+{
+  "type_id": 85279,
+  "name": "集体日加速器",
+  "description": "纪念三神裔于YC122年在新伊甸建立波赫文要塞。<b>加成：所有属性+13</b> <b>基础持续时间：3天</b>",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "charismaBonus",
+      "value": 13.0,
+      "categoryID": 7,
+      "display_name": "魅力调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "intelligenceBonus",
+      "value": 13.0,
+      "categoryID": 7,
+      "display_name": "智力调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "memoryBonus",
+      "value": 13.0,
+      "categoryID": 7,
+      "display_name": "记忆调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "perceptionBonus",
+      "value": 13.0,
+      "categoryID": 7,
+      "display_name": "感知调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "willpowerBonus",
+      "value": 13.0,
+      "categoryID": 7,
+      "display_name": "毅力调整",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 259200000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "nondestructible",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "无法摧毁",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "followsJumpClones",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "跟随远距克隆",
+      "unit_name": "1=True 0=False"
+    }
+  ],
+  "traits": []
+}

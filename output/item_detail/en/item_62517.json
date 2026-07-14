@@ -1,0 +1,63 @@
+{
+  "type_id": 62517,
+  "name": "Compressed Veldspar II-Grade",
+  "description": "Clusters of veldspar with 5% higher yield, called II-Grade or concentrated veldspar, are sometimes found in areas where normal veldspar is already in abundance.\n\nVeldspar is the most common ore type in the central regions of known universe. It is still in constant demand as it holds a large portion of the much-used <a href=showinfo:34>Tritanium</a> mineral.\n\nThis material is compressed and a much more compact form of the original material.",
+  "volume": 0.001,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 4000.0,
+  "category_name": "Asteroid",
+  "group_name": "Veldspar",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 60377.0,
+      "categoryID": 7,
+      "display_name": "Reprocessing Skill",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "asteroidRadiusGrowthFactor",
+      "value": 0.5,
+      "categoryID": 31,
+      "display_name": "Asteroid radius size multiplier",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "Stasis Webifier Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 1230.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "typeID"
+    }
+  ],
+  "traits": []
+}

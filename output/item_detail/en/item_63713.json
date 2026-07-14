@@ -1,0 +1,13 @@
+{
+  "type_id": 63713,
+  "name": "Capsule Subsystem Holostorage EH-CN-J44-003",
+  "description": "Although battered and scorched by the destruction of the capsule it was installed in, this subsystem holostorage device seems to retain some recoverable and relatively easily decrypted data:\n\n<i>\"–eard from one of the cell members based in the Amarr Trade Registry offices. Passed on some information about EDENCOM spending priorities during the invasion he'd dug up while sifting some secure archives. Crazy those Amarr. They document everything. Three times over. And then another agency does it all over again. I mean the information doesn't really surprise me. We all knew that EDENCOM is an Amarr pl–\"</i>",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

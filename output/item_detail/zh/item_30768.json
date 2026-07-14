@@ -1,0 +1,13 @@
+{
+  "type_id": 30768,
+  "name": "一堆钱",
+  "description": "这是一大堆钱。",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

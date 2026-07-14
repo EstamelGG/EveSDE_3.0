@@ -1,0 +1,13 @@
+{
+  "type_id": 4246,
+  "name": "Hydrogen Fuel Block",
+  "description": "Frustrated with the inefficiencies involved in tracking multiple fuel types, Thukker logisticians pioneered the development of prepackaged fuel. In YC 111, after a successful trial period, they converted the Tribe's entire starbase network to use fuel blocks. Capsuleers were forced to wait for this innovation while CONCORD dithered over how to handle the transition period, but were finally granted clearance in YC 113.\n\nThis is a block of fuel designed for Minmatar control towers and Standup service modules. Forty blocks are sufficient to run a standard large tower for one hour, while medium and small towers require twenty and ten blocks respectively over the same period.\n\nStandup service modules are designed to be fit to Upwell structures such as the advanced Citadel structure line. These service modules consume fuel blocks while running and are capable of using any of the four fuel block types, for maximum convenience.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Fuel Block",
+  "attributes": [],
+  "traits": []
+}

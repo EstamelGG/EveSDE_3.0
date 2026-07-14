@@ -1,0 +1,13 @@
+{
+  "type_id": 42,
+  "name": "Spiced Wine",
+  "description": "Luxury goods are always solid commodities for inter-stellar trading. Spiced wine is not the rarest of luxury goods, but it can still be sold at small outposts and bases that don't manufacture any themselves.",
+  "volume": 0.5,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 500.0,
+  "category_name": "Commodity",
+  "group_name": "General",
+  "attributes": [],
+  "traits": []
+}

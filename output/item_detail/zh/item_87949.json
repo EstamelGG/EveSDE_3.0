@@ -1,0 +1,21 @@
+{
+  "type_id": 87949,
+  "name": "等离子稳定发生器",
+  "description": "该生成器可作用于整个星系，类似于你在深渊空间等离子环境中遇到的效果。星系内所有舰船：装甲值+5%，自身装甲维修器效果+5%，过载装备收益+10%。",
+  "volume": 10000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "基础设施升级件",
+  "group_name": "主权中心星系影响生成器升级件",
+  "attributes": [
+    {
+      "attribute_name": "distributionID01",
+      "value": 4108.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

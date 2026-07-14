@@ -1,0 +1,13 @@
+{
+  "type_id": 22207,
+  "name": "Analyzed Blood Sample",
+  "description": "This blood sample is infected with the deadly Alobe virus.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

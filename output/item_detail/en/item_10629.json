@@ -1,0 +1,147 @@
+{
+  "type_id": 10629,
+  "name": "Rocket Launcher I",
+  "description": "A tiny launcher that can carry a very limited supply of rockets. Not really intended as a primary weapon but rather as a cheap supplementary weapon system.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": 0.1875,
+  "mass": null,
+  "category_name": "Module",
+  "group_name": "Missile Launcher Rocket",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 4.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Usage",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "slots",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 15.0,
+      "categoryID": 1,
+      "display_name": "CPU usage",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "speed",
+      "value": 5000.0,
+      "categoryID": 29,
+      "display_name": "Rate of fire",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "chargeRate",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Charges Per Cycle",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3320.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 3319.0,
+      "categoryID": 8,
+      "display_name": "Secondary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "chargeGroup1",
+      "value": 387.0,
+      "categoryID": 7,
+      "display_name": "Used with (Charge Group)",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "heatAbsorbtionRateModifier",
+      "value": 0.01,
+      "categoryID": 52,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "overloadRofBonus",
+      "value": -15.0,
+      "categoryID": 7,
+      "display_name": "Overload rate of fire bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "heatDamage",
+      "value": 1.0,
+      "categoryID": 52,
+      "display_name": "Heat Damage",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredThermoDynamicsSkill",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Required Thermodynamics Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "typeColorScheme",
+      "value": 11324.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reloadTime",
+      "value": 10000.0,
+      "categoryID": 7,
+      "display_name": "Reload Time",
+      "unit_name": "s"
+    }
+  ],
+  "traits": []
+}

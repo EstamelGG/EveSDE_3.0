@@ -1,0 +1,13 @@
+{
+  "type_id": 19405,
+  "name": "6th Tier Overseer's Personal Effects",
+  "description": "Obtaining a Deadspace Overseer's personal effects is proof that you have finished clearing all major obstacles in a deadspace pocket and decimated the leading figure. <p>Anyone that procures an OPE (from the pirates themselves, their bases or from guarded containers) can sell them to CONCORD or DED for a reasonable amount of cash. <p>CONCORD has rated Deadspace Overseers by the threat they pose to society and divided them into tiers that dictate how much a seller gets for their effects.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Overseer Personal Effects",
+  "attributes": [],
+  "traits": []
+}

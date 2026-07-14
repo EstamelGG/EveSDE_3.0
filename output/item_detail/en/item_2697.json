@@ -1,0 +1,13 @@
+{
+  "type_id": 2697,
+  "name": "Large Crates of Synthetic Oil",
+  "description": "Since original oil can be harvested only from a world with a long biological history, synthetic oil has become frequently produced in laboratories all over known space.",
+  "volume": 600.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 600000.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

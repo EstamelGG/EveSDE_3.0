@@ -1,0 +1,35 @@
+{
+  "type_id": 2485,
+  "name": "海洋行星高级工业设施",
+  "description": "因为在海洋行星上建造人类适居环境非常困难，因此该类行星上的生产设施并无人类直接掌管。该设施的首要任务要在最极端的情况下完成生产指标。所有的空间几乎都被强化的防水块给塞满了，一般情况下这些地方都可以用作办公室、走廊或者生活区。",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "行星工业",
+  "group_name": "处理设施",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 700.0,
+      "categoryID": 7,
+      "display_name": "能量负荷",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 500.0,
+      "categoryID": 9,
+      "display_name": "CPU载荷",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 2014.0,
+      "categoryID": 7,
+      "display_name": "行星类型限制",
+      "unit_name": "类别ID"
+    }
+  ],
+  "traits": []
+}

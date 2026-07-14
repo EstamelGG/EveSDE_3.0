@@ -1,0 +1,70 @@
+{
+  "type_id": 2424,
+  "name": "气体行星离子溶液采集器",
+  "description": "在气体巨星上采集气体并不是打开罐子盖这样简单的事情。要采集需要的气体，需要对特殊的电离纤维丝进行校对，以从大气中捕捉对应的气体分子。如果错误的物质进入到了容器中，哪怕只有百分之几的错误都能够毁掉整个产品的质量。同样，一旦气体从大气环境中被收集起来，采集平台必须要对自身质量和浮力的变化进行校对和补偿。除此之外，至于冷却和将这些气体转存到用于运输的储藏罐的过程就简单多了。正如这项技术的一位先驱所说的：“采集器本身必须就要像一个活的生物，吸进所需要的东西，排出不要的废物。”",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "行星工业",
+  "group_name": "采集器",
+  "attributes": [
+    {
+      "attribute_name": "powerLoad",
+      "value": 800.0,
+      "categoryID": 7,
+      "display_name": "能量负荷",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpuLoad",
+      "value": 200.0,
+      "categoryID": 9,
+      "display_name": "CPU载荷",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "harvesterType",
+      "value": 2309.0,
+      "categoryID": 7,
+      "display_name": "采集类别",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "planetRestriction",
+      "value": 13.0,
+      "categoryID": 7,
+      "display_name": "行星类型限制",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "pinExtractionQuantity",
+      "value": 1000.0,
+      "categoryID": 7,
+      "display_name": "采集量",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "pinCycleTime",
+      "value": 300.0,
+      "categoryID": 7,
+      "display_name": "运转周期",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "extractorDepletionRange",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "extractorDepletionRate",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

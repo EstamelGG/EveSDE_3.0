@@ -1,0 +1,56 @@
+{
+  "type_id": 28441,
+  "name": "Compressed White Glaze IV-Grade",
+  "description": "When star fusion processes occur near high concentrations of silicate dust, such as those found in interstellar ice fields, the substance known as White Glaze is formed. While White Glaze generally is extremely high in nitrogen-14 and other stable nitrogen isotopes, a few rare fragments, such as this one, have stayed free of radioactive contaminants and are thus richer in isotopes than their more impure counterparts.\n\nThis material is compressed and a much more compact form of the original material.",
+  "volume": 100.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Asteroid",
+  "group_name": "Ice",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 16281.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 18025.0,
+      "categoryID": 7,
+      "display_name": "Reprocessing Skill",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "Stasis Webifier Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 16265.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "typeID"
+    }
+  ],
+  "traits": []
+}

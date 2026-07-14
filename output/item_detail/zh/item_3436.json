@@ -1,0 +1,49 @@
+{
+  "type_id": 3436,
+  "name": "无人机概论",
+  "description": "远程控制无人机的技能。每升一级，可多控制一架无人机。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "技能",
+  "group_name": "无人机",
+  "attributes": [
+    {
+      "attribute_name": "primaryAttribute",
+      "value": 166.0,
+      "categoryID": 7,
+      "display_name": "主属性",
+      "unit_name": "属性ID"
+    },
+    {
+      "attribute_name": "secondaryAttribute",
+      "value": 167.0,
+      "categoryID": 7,
+      "display_name": "副属性",
+      "unit_name": "属性ID"
+    },
+    {
+      "attribute_name": "skillTimeConstant",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "训练时间倍增系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "skillLevel",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "等级",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "maxActiveDroneBonus",
+      "value": 1.0,
+      "categoryID": 10,
+      "display_name": "可控无人机数上限加成",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

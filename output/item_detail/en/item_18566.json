@@ -1,0 +1,13 @@
+{
+  "type_id": 18566,
+  "name": "Shipyard Code Part (One half)",
+  "description": "This security code is one half of what is needed to enter the Serpentis Fleet HQ. The gate will remain open for a short period of time after the code will be used. After usage, the gate security system automatically creates a new password, rendering this code useless.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

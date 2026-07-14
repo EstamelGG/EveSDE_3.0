@@ -1,0 +1,13 @@
+{
+  "type_id": 90118,
+  "name": "Crimson Gauntlet Shortcut Keypass",
+  "description": "This keypass grants single-use access to private shortcut acceleration gate within Crimson Gauntlet and Dark Blood Gauntlet complexes.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

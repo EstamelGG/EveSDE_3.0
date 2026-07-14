@@ -1,0 +1,13 @@
+{
+  "type_id": 2676,
+  "name": "一群安保人员",
+  "description": "他们手持小型枪械，佩戴着短波对讲机，安保人员最适合于对小型定居点或者集团办公室进行安全保障工作，因为对于这些地点来说雇佣军显得很难控制而且容易滥杀无辜。",
+  "volume": 60.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 60000.0,
+  "category_name": "常用物品",
+  "group_name": "有生货物",
+  "attributes": [],
+  "traits": []
+}

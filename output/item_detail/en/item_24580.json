@@ -1,0 +1,13 @@
+{
+  "type_id": 24580,
+  "name": "Ritual Texts",
+  "description": "Ancient texts of the Takmahl people, describing many of their religious rituals.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

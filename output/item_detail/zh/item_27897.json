@@ -1,0 +1,252 @@
+{
+  "type_id": 27897,
+  "name": "跳跃桥接",
+  "description": "军团能够使用跳跃桥接来连接两个相邻星系内的母星，通过建立一个人工跳跃通道，实现两者之间的瞬间传送。跳跃桥接有一个限定的最大范围，在此范围以外无法连接。建议军团在购买所需建筑前，先确定将要连接的两者位置之间的距离在有效范围之内。",
+  "volume": 100000.0,
+  "repackaged_volume": null,
+  "capacity": 60000.0,
+  "mass": 25000000.0,
+  "category_name": "母星",
+  "group_name": "跳跃通道阵列",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 100000.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 750000.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 4000.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "kineticDamageResonance",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "结构动能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "thermalDamageResonance",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "结构热能伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "explosiveDamageResonance",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "结构爆炸伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "emDamageResonance",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "结构电磁伤害抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "uniformity",
+      "value": 0.75,
+      "categoryID": 2,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "incapacitationRatio",
+      "value": 0.001,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "scanRadarStrength",
+      "value": 200.0,
+      "categoryID": 6,
+      "display_name": "雷达感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanLadarStrength",
+      "value": 200.0,
+      "categoryID": 6,
+      "display_name": "光雷达感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanMagnetometricStrength",
+      "value": 200.0,
+      "categoryID": 6,
+      "display_name": "磁力感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "scanGravimetricStrength",
+      "value": 200.0,
+      "categoryID": 6,
+      "display_name": "引力感应强度",
+      "unit_name": "点"
+    },
+    {
+      "attribute_name": "shieldCapacity",
+      "value": 1000000.0,
+      "categoryID": 2,
+      "display_name": "护盾容量",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "armorHP",
+      "value": 15000000.0,
+      "categoryID": 3,
+      "display_name": "装甲值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "shieldRechargeRate",
+      "value": 100000000.0,
+      "categoryID": 2,
+      "display_name": "护盾回充时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "armorUniformity",
+      "value": 0.75,
+      "categoryID": 3,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "structureUniformity",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "signatureRadius",
+      "value": 8000.0,
+      "categoryID": 6,
+      "display_name": "信号半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "anchoringDelay",
+      "value": 30000.0,
+      "categoryID": 7,
+      "display_name": "锚定耗时",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "scanResolution",
+      "value": 0.0,
+      "categoryID": 6,
+      "display_name": "扫描分辨率",
+      "unit_name": "mm"
+    },
+    {
+      "attribute_name": "unanchoringDelay",
+      "value": 60000.0,
+      "categoryID": 7,
+      "display_name": "解锚耗时",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "onliningDelay",
+      "value": 1800000.0,
+      "categoryID": 7,
+      "display_name": "上线耗时",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "jumpDriveConsumptionType",
+      "value": 16273.0,
+      "categoryID": 7,
+      "display_name": "跳跃引擎燃料需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "jumpDriveRange",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "最大跳跃范围",
+      "unit_name": "光年"
+    },
+    {
+      "attribute_name": "jumpDriveConsumptionAmount",
+      "value": 500.0,
+      "categoryID": 7,
+      "display_name": "跳跃引擎燃料消耗量",
+      "unit_name": "单位"
+    },
+    {
+      "attribute_name": "disallowOffensiveModifiers",
+      "value": 1.0,
+      "categoryID": 6,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "jumpPortalConsumptionMassFactor",
+      "value": 1.5e-09,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "anchoringSecurityLevelMax",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "仅限于安全等级不超过",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "controlTowerMinimumDistance",
+      "value": 25000.0,
+      "categoryID": 7,
+      "display_name": "锚定离母星护盾最短距离",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "posAnchoredPerSolarSystemAmount",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "每星系锚定数上限",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "posCargobayAcceptType",
+      "value": 16273.0,
+      "categoryID": 4,
+      "display_name": "允许物品类型",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiresIHubUpgrade",
+      "value": 32422.0,
+      "categoryID": 7,
+      "display_name": "需要基础设施升级件",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "fighterAbilityAntiCapitalMissileResistance",
+      "value": 1.0,
+      "categoryID": 38,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

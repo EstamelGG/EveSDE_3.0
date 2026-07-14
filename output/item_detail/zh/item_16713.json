@@ -1,0 +1,13 @@
+{
+  "type_id": 16713,
+  "name": "中级奖章",
+  "description": "奖章，授予那些完成传奇试炼中级考验的人。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

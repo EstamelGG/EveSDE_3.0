@@ -1,0 +1,70 @@
+{
+  "type_id": 2036,
+  "name": "Deprecated Entrapment Array 4",
+  "description": "This is a deprecated item, and though it still functions there are plans for it to be removed from circulation in the future.\n\nThis upgrade increases the chance of finding a complex in the system.",
+  "volume": 40000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Infrastructure Upgrades",
+  "group_name": "Infrastructure Hub Military Upgrades",
+  "attributes": [
+    {
+      "attribute_name": "devIndexMilitary",
+      "value": 4.0,
+      "categoryID": 0,
+      "display_name": "Required Development Index Level (Military)",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "sovUpgradeRequiredUpgradeID",
+      "value": 2035.0,
+      "categoryID": 7,
+      "display_name": "Prerequisite Installed Upgrade",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "distributionIDAngel01",
+      "value": 402.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDBlood01",
+      "value": 407.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDGurista01",
+      "value": 412.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDRogueDrone01",
+      "value": 427.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDSansha01",
+      "value": 417.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "distributionIDSerpentis01",
+      "value": 422.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

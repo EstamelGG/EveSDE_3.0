@@ -1,0 +1,35 @@
+{
+  "type_id": 52227,
+  "name": "深渊损伤控制",
+  "description": "将围场发射器和冗余系统结合使用，减轻由严重系统性损坏造成的影响。 \n\n\n\n提高护盾、装甲和结构的抗性。\n\n\n\n只能同时装配一个损伤控制。",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "装备",
+  "group_name": "损伤控制",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3394.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 4.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "maxGroupFitted",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "该武器组所允许的最大装备数量",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

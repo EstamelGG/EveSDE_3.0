@@ -1,0 +1,13 @@
+{
+  "type_id": 21054,
+  "name": "Crude Sculpture",
+  "description": "A crude, but old, sculpture of a Gallente citizen.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 100.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

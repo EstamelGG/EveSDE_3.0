@@ -1,0 +1,77 @@
+{
+  "type_id": 46285,
+  "name": "Glistening Bitumens",
+  "description": "Bitumens ores carved out of moons can occasionally yield very high densities of the valuable minerals. When this happens the ore is called Glistening Bitumens and reprocessing such ores will yield twice the normal volume of useful material.\n\nA ubiquitous ore commercially mined from moons, Bitumens are very useful as they yield good quantities of <a href=showinfo:16633>Hydrocarbons</a> used as basic elements of some advanced materials. Bitumen ores will also yield <a href=showinfo:36>Mexallon</a> and <a href=showinfo:35>Pyerite</a>.",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 4000.0,
+  "category_name": "Asteroid",
+  "group_name": "Ubiquitous Moon Asteroids(R4)",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 46152.0,
+      "categoryID": 7,
+      "display_name": "Reprocessing Skill",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "asteroidRadiusGrowthFactor",
+      "value": 0.75,
+      "categoryID": 31,
+      "display_name": "Asteroid radius size multiplier",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "asteroidRadiusUnitSize",
+      "value": 600.0,
+      "categoryID": 31,
+      "display_name": "Asteroid unit radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "Stasis Webifier Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 45492.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "asteroidMaxRadius ",
+      "value": 5000.0,
+      "categoryID": 31,
+      "display_name": "",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

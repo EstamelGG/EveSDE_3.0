@@ -1,0 +1,28 @@
+{
+  "type_id": 2397,
+  "name": "工业纤维",
+  "description": "工业纤维和民用纤维的最大区别在于，其降低了舒适度但大大提高了韧性和强度。从恶劣环境中的电子元器件保护到冰冷虚无太空中的太阳帆，工业纤维都能应用于更加残酷的环境。",
+  "volume": 0.19,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "行星商品",
+  "group_name": "基础资源物品 - 第一等级",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 400.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 400.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

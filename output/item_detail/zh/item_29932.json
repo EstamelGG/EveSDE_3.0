@@ -1,0 +1,13 @@
+{
+  "type_id": 29932,
+  "name": "撒勒克的密封舱",
+  "description": "这个密封舱上自毁设备的安全定时器已经被拆除了，这个装置本身是血腥傀儡用来防止其军事官员被敌方势力活捉而设置的。在这个过程中，乘员的遗骸通常都被用某种方式液化，使得舱内的生态液体颜色变为灰暗的红宝石色。",
+  "volume": 1000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 32000.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

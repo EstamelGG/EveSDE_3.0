@@ -1,0 +1,63 @@
+{
+  "type_id": 41523,
+  "name": "Shield Kinetic Resistance Script",
+  "description": "Originally used by the adolescent hacker group The 'Fendahlian Collective' to break past high tech security firmware, these script packs contain intricate code which modify the inherent behavior of certain modules by directly inserting commands into the firmware. The applications of such technology was not lost on the major players and the kids who invented it now head their own research divisions.\n\nThis script can be loaded into a Flex Shield Hardener module to increase the module's Kinetic resistance bonus at the expense of its other damage resistances bonus.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Charge",
+  "group_name": "Flex Shield Hardener Script",
+  "attributes": [
+    {
+      "attribute_name": "chargeSize",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Charge size",
+      "unit_name": "1=small 2=medium 3=l"
+    },
+    {
+      "attribute_name": "launcherGroup",
+      "value": 1700.0,
+      "categoryID": 7,
+      "display_name": "Used with (Launcher Group)",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "emDamageResistanceBonusBonus",
+      "value": -100.0,
+      "categoryID": 7,
+      "display_name": "Modification of EM Damage Resistance Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "explosiveDamageResistanceBonusBonus",
+      "value": -100.0,
+      "categoryID": 7,
+      "display_name": "Modification of Explosive Damage Resistance Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "kineticDamageResistanceBonusBonus",
+      "value": 200.0,
+      "categoryID": 7,
+      "display_name": "Modification of Kinetic Damage Resistance Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "thermalDamageResistanceBonusBonus",
+      "value": -100.0,
+      "categoryID": 7,
+      "display_name": "Modification of Thermal Damage Resistance Bonus",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

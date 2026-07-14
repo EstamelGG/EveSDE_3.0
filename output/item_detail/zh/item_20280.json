@@ -1,0 +1,252 @@
+{
+  "type_id": 20280,
+  "name": "会战装备 I",
+  "description": "一种为扩大增强无畏舰会战攻击能力而设计的电子接口。通过一系列的电磁场磁极转换，会战模块能调拨飞船推进系统和跃迁系统的能量来增强进攻和防御能力。\n\n\n\n这不仅使飞船的伤害输出极大增强，也使飞船承受打击的能力提高不少。好处是防御上提升自身的维修和护盾回充效果，并能提升对大部分种类的电子战的抗性。但对离子力场也产生了副作用，远程维修和电容传输效果对激活该装备的舰船没有效果。\n\n另外，由于开启后造成的动力系统能量缺失，无论标准推进、停靠或跃迁都不能进行，除非飞船退出会战模式。\n\n\n\n注意： \n\n- 会战装备需要锶包合物提供能量才能有效运行。 \n\n- 护盾回充增量和持续时间的加成只对旗舰级护盾回充增量器生效。\n\n- 装甲维修量和持续时间的加成只对旗舰级装甲维修器生效。\n\n- 每艘无畏舰只能安装一个会战装备。与其它具有相似类型属性的装备一同使用会使从会战装备获得的护盾回充和装甲维修增量受到惩罚。",
+  "volume": 4000.0,
+  "repackaged_volume": 1000.0,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "装备",
+  "group_name": "会战装备",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 999999.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "speedFactor",
+      "value": -100.0,
+      "categoryID": 28,
+      "display_name": "最大速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "power",
+      "value": 100000.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 100.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 300000.0,
+      "categoryID": 7,
+      "display_name": "作用时间/单次运转时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 22043.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "consumptionType",
+      "value": 16275.0,
+      "categoryID": 7,
+      "display_name": "消耗类型",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "consumptionQuantity",
+      "value": 250.0,
+      "categoryID": 7,
+      "display_name": "消耗量",
+      "unit_name": "单位"
+    },
+    {
+      "attribute_name": "maxGroupActive",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "siegeModeWarpStatus",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "disallowEarlyDeactivation",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "disallowActivateOnWarp",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "跃迁中无法激活",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "canFitShipGroup01",
+      "value": 485.0,
+      "categoryID": 1,
+      "display_name": "只能装配在",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "canFitShipGroup02",
+      "value": 4594.0,
+      "categoryID": 1,
+      "display_name": "可装配至",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "siegeMassMultiplier",
+      "value": 10.0,
+      "categoryID": 37,
+      "display_name": "质量倍增系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "maxGroupFitted",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "该武器组所允许的最大装备数量",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "ECMResistance",
+      "value": 1e-05,
+      "categoryID": 36,
+      "display_name": "ECM抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "speedFactorFloor",
+      "value": -100.0,
+      "categoryID": 28,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "siegeTorpedoVelocityBonus",
+      "value": 150.0,
+      "categoryID": 37,
+      "display_name": "鱼雷速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "siegeLauncherROFBonus",
+      "value": -80.0,
+      "categoryID": 37,
+      "display_name": "超大型发射器射速加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "siegeMissileDamageBonus",
+      "value": 165.0,
+      "categoryID": 37,
+      "display_name": "会战型导弹伤害加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "siegeTurretDamageBonus",
+      "value": 700.0,
+      "categoryID": 37,
+      "display_name": "炮台伤害加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "remoteRepairImpedanceBonus",
+      "value": -99.9999,
+      "categoryID": 37,
+      "display_name": "远程维修阻扰加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "disallowTethering",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "不允许驻留",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "siegeLocalLogisticsDurationBonus",
+      "value": -50.0,
+      "categoryID": 37,
+      "display_name": "装甲维修器/护盾回充增量器运转周期加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "siegeLocalLogisticsAmountBonus",
+      "value": 100.0,
+      "categoryID": 37,
+      "display_name": "装甲维修量/护盾回充增量加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "sensorDampenerResistanceBonus",
+      "value": -60.0,
+      "categoryID": 37,
+      "display_name": "感应抑阻器抗性加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "remoteAssistanceImpedanceBonus",
+      "value": -80.0,
+      "categoryID": 37,
+      "display_name": "远程协助阻扰加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "weaponDisruptionResistanceBonus",
+      "value": -60.0,
+      "categoryID": 37,
+      "display_name": "武器干扰抗性加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "disallowDocking",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "不允许停靠",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "siegeHAWMissileROFBonus",
+      "value": -80.0,
+      "categoryID": 37,
+      "display_name": "快速鱼雷发射器加成",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

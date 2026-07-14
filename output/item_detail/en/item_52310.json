@@ -1,0 +1,13 @@
+{
+  "type_id": 52310,
+  "name": "Radiation Absorption Thruster",
+  "description": "A propulsion system component used in Triglavian ship designs and others adapted from such designs. Potentially useful as a component in various other technologies.\n\nThis propulsion technology is clearly designed to be used in conjunction with Triglavian power systems, harnessing for motive power some of the radiation released by quantum effects of the singularity at the heart of the ship.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Construction Components",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 93877,
+  "name": "Warpath Supply Cache",
+  "description": "A cache of parts and basic military supplies that, while not greatly useful to a capsuleer, can be sold at stations run by key government or military organizations for ISK.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Limited Rarities",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,28 @@
+{
+  "type_id": 34318,
+  "name": "忏悔者级蓝图",
+  "description": "忏悔者级战术驱逐舰于YC116年面世，它代表了艾玛帝国的荣耀。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "蓝图",
+  "group_name": "战术驱逐舰蓝图",
+  "attributes": [
+    {
+      "attribute_name": "techLevel",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 600.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

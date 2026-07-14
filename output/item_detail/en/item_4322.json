@@ -1,0 +1,13 @@
+{
+  "type_id": 4322,
+  "name": "Research Abstract: Project Catapult",
+  "description": "<b>Paper:</b> Project Catapult, A Study of the Sansha Wormhole Generator Method<br>\n<b>Lead Researcher:</b> Rhavas<br>\n<b>Contributors:</b> Grideris, Mark726, Morwen Lagann, Razz Skyshatter, Tuoro<br>\n<b>Summary:</b> New Eden is under siege by Sansha Kuvakei and his Nation. Entire systems are attacked and disabled, but he reserves his most massive, propagandist attacks for the Slaves and Citizens, who come in <a href=showinfo:3628>Nation</a>-class supercapitals to destroy the capsuleer fleets. The hallmarks of these invasions are multiple wormholes under the direct control of Sansha's Nation. While the battle between the capsuleer community and Kuvakei lies outside the scope of the Arek'Jaalan project, wormhole generation and stabilization technology represents a potentially critical link to understanding both current wormholes and the transportation capabilities and technologies of the ancient races.\n\nBy analyzing information captured by our sensors, probes and contacts, we hope to gather sufficient information to reverse engineer and recreate this technology. Three goals are indicated for this purpose: \n\n   1. Create new methods of point-to-point interstellar travel, either by enabling greater distances or a broader range of jump-capable vessels.<br>\n   2. Provide deeper insights to the basic functional physics of wormholes to help drive the efforts of <a href=showinfo:4333>Project Slipstream</a><br>\n   3. Provide potential insights into whether Sansha's Nation wormhole generators were created by the Nation, captured from the Jove, or adapted from the technology of ancient races (if so, those findings will be used to further inform <a href=evebrowser:http://wiki.eveonline.com/en/wiki/Project_Gateway>Project Gateway</a> and <a href=evebrowser:http://wiki.eveonline.com/en/wiki/Project_Rift>Project Rift</a>).\n\n<i>This abstract relates to research undertaken by the <a href=evebrowser: http://wiki.eveonline.com/en/wiki/Arek%27Jaalan>Arek'Jaalan Project.</a></i>\n\n<i>Authorized for capsuleer dissemination under the CONCORD Freedom of Distribution Act (Alpha-One-Five), YC 113.11.4</i>\n\n<i>Further copies of this document can be obtained through the Arek'Jaalan administrative site, located in the <a href=showinfo:5//30003413>Eram</a> system.<i>",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Research Data",
+  "attributes": [],
+  "traits": []
+}

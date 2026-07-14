@@ -1,0 +1,13 @@
+{
+  "type_id": 23546,
+  "name": "ComLink Encoder/Decoder",
+  "description": "A device used to encode and decode comlink messages.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

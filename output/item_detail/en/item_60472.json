@@ -1,0 +1,13 @@
+{
+  "type_id": 60472,
+  "name": "Exigent Medium Drone Navigation Mutaplasmid",
+  "description": "This bioadaptive mutaplasmid tool appears to share elements of both Triglavian and rogue drone technologies. First encountered as a key Triglavian tool for mutating the performance of various pieces of technology, this mutaplasmid is designed to colonize and radically alter a medium combat drone. It is possible this application was originally developed for use with rogue drones controlled by the Triglavians but hives controlled by the so-called \"Unshackled Overminds\" have also adopted it. As with their repurposing of the technology of New Eden's core empires, independent rogue drones clearly have no difficulties when it comes using this characteristically Triglavian technology.\n\nThe mutaplasmid colony integrated into this bioadaptive tool is very unusual, even by the standards of this bizarre Triglavian technology. It appears that rogue drone nanotechnology elements have successfully stabilized the potential for enhancement of navigation and spatial orientation functions. On the other hand, the mutation ranges for other functions are rather unstable.\n\nTriglavian bioadaptive technology makes extensive use of engineered colonies of extremophilic bacteria, that are used to grow, harvest and adapt various resources found in Abyssal Deadspace. Artificial colonizing plasmids integrated into specialist tools used for direct adaptation of technology can be found in Triglavian caches in various stages of development. These mutaplasmids can be used to alter the characteristics of a wide variety of equipment types, depending on the strain and the bioadaptive tool with which they are integrated.",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Mutaplasmids",
+  "attributes": [],
+  "traits": []
+}

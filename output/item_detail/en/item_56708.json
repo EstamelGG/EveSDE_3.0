@@ -1,0 +1,13 @@
+{
+  "type_id": 56708,
+  "name": "Interstellar Navigation Logs",
+  "description": "Navigation logs recovered from spacefaring vessels of all kinds are of great interest to the Triglavian Collective. Mapping of interstellar navigation includes transits through stargates, conduit gates, filament conduits and wormholes, all providing the Triglavians a picture of the flow of traffic within and beyond their domains.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

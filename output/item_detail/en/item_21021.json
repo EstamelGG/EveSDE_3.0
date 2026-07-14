@@ -1,0 +1,21 @@
+{
+  "type_id": 21021,
+  "name": "Capital Power Generator",
+  "description": "A gigantic hulk of machinery, designed to give life to a capital ship's power core.",
+  "volume": 2000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000.0,
+  "category_name": "Commodity",
+  "group_name": "Capital Construction Components",
+  "attributes": [
+    {
+      "attribute_name": "moonMiningAmount",
+      "value": 100.0,
+      "categoryID": 9,
+      "display_name": "Moon Mining Amount",
+      "unit_name": "m3"
+    }
+  ],
+  "traits": []
+}

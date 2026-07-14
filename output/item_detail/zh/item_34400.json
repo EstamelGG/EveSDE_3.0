@@ -1,0 +1,13 @@
+{
+  "type_id": 34400,
+  "name": "伽玛射线调节盘",
+  "description": "这个水晶盘专为在恒星伽玛射线校准单元中调节伽玛射线而设计。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

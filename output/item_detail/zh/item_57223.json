@@ -1,0 +1,13 @@
+{
+  "type_id": 57223,
+  "name": "新人能力拓展补给箱",
+  "description": "领取后，你将获得一个能提高技能训练速度的大脑加速器。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

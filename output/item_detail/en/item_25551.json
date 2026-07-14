@@ -1,0 +1,13 @@
+{
+  "type_id": 25551,
+  "name": "Blood Raider Shipyard Keycard",
+  "description": "This keycard grants access to the deepest pockets of the Blood Raider Naval Shipyard.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

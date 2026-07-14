@@ -1,0 +1,140 @@
+{
+  "type_id": 35943,
+  "name": "Standup Stasis Webifier I",
+  "description": "The Standup Stasis Webifier is a propulsion jamming system that is designed to reduce the maximum speed of targeted ships by using micro energy streams to entangle the target and reduce its effective speed. This module has incredible range, however it may only be activated in short bursts separated by cooldown periods. The Stasis Webifier system may be installed as a module in Upwell technology structures.\n\nStandup is a proprietary system that uses a Structure Autonomous Nanoassembly Device (Upwell) containing integrated template software, a nanoassembler array and sufficient nanomass to enable the construction of a variety of service modules, structure modules and structure rigs when inserted into the appropriate slots on a structure built with Upwell technology.",
+  "volume": 4000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 500.0,
+  "category_name": "Structure Module",
+  "group_name": "Structure Stasis Webifier",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 3000.0,
+      "categoryID": 5,
+      "display_name": "Activation Cost",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "speedFactor",
+      "value": -70.0,
+      "categoryID": 28,
+      "display_name": "Maximum Velocity Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "power",
+      "value": 50000.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Usage",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 2500.0,
+      "categoryID": 1,
+      "display_name": "CPU usage",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 200000.0,
+      "categoryID": 29,
+      "display_name": "Optimal Range",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 30000.0,
+      "categoryID": 7,
+      "display_name": "Activation time / duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "moduleReactivationDelay",
+      "value": 60000.0,
+      "categoryID": 7,
+      "display_name": "Reactivation Delay",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "maxGroupActive",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "maxGroupOnline",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "disallowRepeatingActivation",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Cannot Auto Repeat",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "canFitShipGroup01",
+      "value": 1657.0,
+      "categoryID": 1,
+      "display_name": "Can only be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "canFitShipGroup02",
+      "value": 1404.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "canFitShipGroup03",
+      "value": 1406.0,
+      "categoryID": 1,
+      "display_name": "Can be fitted to",
+      "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "maxGroupFitted",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "Max Modules Of This Group Allowed",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "falloffEffectiveness",
+      "value": 0.0,
+      "categoryID": 29,
+      "display_name": "Effectiveness Falloff",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "remoteResistanceID",
+      "value": 2115.0,
+      "categoryID": 36,
+      "display_name": "",
+      "unit_name": "attributeID"
+    },
+    {
+      "attribute_name": "structureItemVisualFlag",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

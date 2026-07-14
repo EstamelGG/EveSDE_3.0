@@ -1,0 +1,13 @@
+{
+  "type_id": 11068,
+  "name": "Special Delivery",
+  "description": "This box may contain personal items or commodities intended only for the delivery's recipient.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

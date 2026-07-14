@@ -1,0 +1,133 @@
+{
+  "type_id": 25812,
+  "name": "Gas Cloud Scoop II",
+  "description": "The core technology employed by Gas Scoops dates back centuries, to a time when the extraction of material in space was still a growing industry. Originally, asteroid miners had seen the tractor beams and in-space catalytic conversions used by today's Gas Scoops as a promising new method for extracting spaceborne ores. After many unsuccessful research projects and years of fruitless experiments however, the industry decided to return its focus to laser technology, which was eventually mastered to a level that has sustained the mining profession to this day.\n\nWhen the first interstellar Gas Clouds were discovered, they proved particularly challenging for industrialists to extract raw materials from. Many methods were tried, and although successful acquisition was always guaranteed, there was a need for much greater efficiency. It was not until the mining industry returned to long-abandoned projects that a solution was found. Since that time, Gas harvesting technology has slowly moved forward, giving birth to new industries and economies in the process.\n\nResearch interest picked back up in Gas harvesting technology when new, stable wormholes began proliferating across the cluster. As soon as the wormholes were discovered, so too, were the giant gas cloud pockets within the unknown systems they linked to. In a single day, the demand for Tech II Gas Cloud Scoop exploded. Research projects were hastily established and grants hurriedly thrown out to the most promising firms pursuing a redesign. It was only a few days before a breakthrough was made, and all the harvesting technology that had come before was quickly relegated to second place.",
+  "volume": 5.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Module",
+  "group_name": "Gas Cloud Scoops",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 15.0,
+      "categoryID": 5,
+      "display_name": "Activation Cost",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 5.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Usage",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "slots",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 70.0,
+      "categoryID": 1,
+      "display_name": "CPU usage",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 1500.0,
+      "categoryID": 29,
+      "display_name": "Optimal Range",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 40000.0,
+      "categoryID": 7,
+      "display_name": "Activation time / duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "miningAmount",
+      "value": 20.0,
+      "categoryID": 51,
+      "display_name": "Mining amount",
+      "unit_name": "m3"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 25544.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "maxGroupActive",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "disallowEarlyDeactivation",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "typeColorScheme",
+      "value": 11347.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "miningWastedVolumeMultiplier",
+      "value": 1.0,
+      "categoryID": 51,
+      "display_name": "Residue Volume Multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "miningWasteProbability",
+      "value": 34.0,
+      "categoryID": 51,
+      "display_name": "Residue Probability",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

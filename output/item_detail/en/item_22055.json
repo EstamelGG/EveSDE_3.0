@@ -1,0 +1,13 @@
+{
+  "type_id": 22055,
+  "name": "Motherload Bomb",
+  "description": "Huge, homemade bomb. Looks lethal.",
+  "volume": 380.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1000.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

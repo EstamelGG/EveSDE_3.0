@@ -1,0 +1,13 @@
+{
+  "type_id": 54807,
+  "name": "Encrypted Semiosis Console (Svarog Clade)",
+  "description": "This device is clearly a version of the Semiosis Conduction Consoles found in certain locations within Abyssal Deadspace but appears to be secured with additional layers of formidable encryption.\n\nLike other Semiosis Consoles, this self-contained unit combines a number of sophisticated interfaces with internal processing and storage capacity geared towards symbolic or conceptual modelling. The device provides for communication of constructed models either through its built-in holographic and nanomemetic functions, or via a variety of outputs if these are connected to an appropriate network. The device almost certainly incorporates quantum entanglement communications technology.\n\nThis particular console displays the symbol of the \"Svarog Clade\" when connected to the correct power supply format but the encryption makes it doubtful that anything else of meaningful value could be derived from the device.\n\n<b>CONCORD would no doubt prefer this device be handed over to them but the curious could probably keep it and carefully monitor it. It remains to be seen what the point would be given the encryption layers, and the risks may be very high.</b>",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Triglavian Artifacts",
+  "attributes": [],
+  "traits": []
+}

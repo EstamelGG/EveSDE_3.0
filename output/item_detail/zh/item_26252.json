@@ -1,0 +1,56 @@
+{
+  "type_id": 26252,
+  "name": "构件改装技术",
+  "description": "理解星舰部件内部原理的基本技能。允许通过改装件对舰船系统进行临时改进。它是在改装技术方面进行深入研究的必需技能。",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "技能",
+  "group_name": "改装件",
+  "attributes": [
+    {
+      "attribute_name": "primaryAttribute",
+      "value": 165.0,
+      "categoryID": 7,
+      "display_name": "主属性",
+      "unit_name": "属性ID"
+    },
+    {
+      "attribute_name": "secondaryAttribute",
+      "value": 166.0,
+      "categoryID": 7,
+      "display_name": "副属性",
+      "unit_name": "属性ID"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3392.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "skillTimeConstant",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "训练时间倍增系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 3.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "skillLevel",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "等级",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

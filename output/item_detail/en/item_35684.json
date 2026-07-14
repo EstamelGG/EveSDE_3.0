@@ -1,0 +1,28 @@
+{
+  "type_id": 35684,
+  "name": "Hecate Blueprint",
+  "description": "The Hecate-class Tactical Destroyer was developed for the defense of the Gallente Federation in YC117 with the invaluable aid of one hundred and thirty-nine valorous capsuleers. The most significant contributors among these pilots were:\n<url=showinfo:1373//101054534>Shipstorm</url>\n<url=showinfo:1373//91372910>Silverdaddy</url>\n<url=showinfo:1373//1613567968>Riyusone Haro</url>\n<url=showinfo:1373//91670949>Kiera Minaris</url>\n<url=showinfo:1373//1322769581>Lauralyn Zendatori</url>\n<url=showinfo:1373//1047741762>Oreamnos Amric</url>\n<url=showinfo:1373//228226565>snowdor</url>\n<url=showinfo:1373//93498126>Dominique Saint-Clair</url>\n<url=showinfo:1373//331279979>Fred Strangelove</url>\n<url=showinfo:1373//1157105405>Donaldo Duck</url>",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Blueprint",
+  "group_name": "Tactical Destroyer Blueprint",
+  "attributes": [
+    {
+      "attribute_name": "techLevel",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 600.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}

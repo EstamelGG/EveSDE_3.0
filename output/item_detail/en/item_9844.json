@@ -1,0 +1,13 @@
+{
+  "type_id": 9844,
+  "name": "Small Arms",
+  "description": "Personal weapons and armaments, used both for warfare and personal security.",
+  "volume": 2.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 2500.0,
+  "category_name": "Commodity",
+  "group_name": "General",
+  "attributes": [],
+  "traits": []
+}

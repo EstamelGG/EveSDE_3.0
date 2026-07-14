@@ -1,0 +1,13 @@
+{
+  "type_id": 91082,
+  "name": "Cryograph Diffractor",
+  "description": "Experimental technology designed to analyze volatile ice composition. It resembles advanced Sansha’s Nation chemical analysis devices used for processing resources and is of interest to ORE Technologies research teams.\n\n<i>Can be exchanged, together with Faded Volatile Ice, in Fading Volatile Ice Fields in return for enhanced salvage packages.</i>",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Verity Cryo Tech",
+  "attributes": [],
+  "traits": []
+}

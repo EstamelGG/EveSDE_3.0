@@ -1,0 +1,13 @@
+{
+  "type_id": 53037,
+  "name": "旗舰级吸收推进器阵列",
+  "description": "应用了三神裔奇点技术的旗舰所装配的复杂而强力的推进包，使用辐射吸收来作为推动力。",
+  "volume": 2000.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10000.0,
+  "category_name": "常用物品",
+  "group_name": "旗舰建造组件",
+  "attributes": [],
+  "traits": []
+}

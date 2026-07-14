@@ -1,0 +1,13 @@
+{
+  "type_id": 17897,
+  "name": "High-Tech Small Arms",
+  "description": "These weapons are of superior quality to those normally found on the public market, although more expensive as well.\n\nThey are implemented with a safety net which prevents them from being used illegally in stations where most types of small arms are prohibited. Therefore many regions do not apply the small arms ban on these weapons.",
+  "volume": 0.01,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

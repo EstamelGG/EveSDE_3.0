@@ -1,0 +1,13 @@
+{
+  "type_id": 30964,
+  "name": "CPF.HYA LogInt Facility POI-26: Data Cache",
+  "description": "Found amongst the rubble of the Hyasyoda Logistics Center, this heavily encrypted data cache reveals very little. There is however, one dysfunctional and damaged data partition that can be easily read. Although much of the information is banal and uninteresting administrative jargon, there is one small report included that touches upon the Serpentis facility. Strangely enough, according to the official documentation here, the last time any Hyasyoda personnel visited the area was almost a year ago.",
+  "volume": 3.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

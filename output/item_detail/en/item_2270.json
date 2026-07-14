@@ -1,0 +1,28 @@
+{
+  "type_id": 2270,
+  "name": "Noble Metals",
+  "description": "Highly resistant to corrosion and oxidation, noble metals are somewhat rarer than base metals, yet they are just as sought after for their different electrical, material, and chemical attributes. When painstakingly refined and purified, some noble metal ores can produce \"precious metals.\"",
+  "volume": 0.005,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Planetary Resources",
+  "group_name": "Planet Solid - Raw Resource",
+  "attributes": [
+    {
+      "attribute_name": "importTaxMultiplier",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "exportTaxMultiplier",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

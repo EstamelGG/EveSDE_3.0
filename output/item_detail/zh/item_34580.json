@@ -1,0 +1,21 @@
+{
+  "type_id": 34580,
+  "name": "勒克斯之矛",
+  "description": "这个流浪者武器系统看上去像是半自动的，它能游离于部署舰船而自由转动。对该武器开火时的信号分析表明，它能对目标产生频率宽广的扰断能量波。",
+  "volume": null,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "装备",
+  "group_name": "能量武器",
+  "attributes": [
+    {
+      "attribute_name": "reloadTime",
+      "value": 0.01,
+      "categoryID": 7,
+      "display_name": "重新装填时间",
+      "unit_name": "s"
+    }
+  ],
+  "traits": []
+}

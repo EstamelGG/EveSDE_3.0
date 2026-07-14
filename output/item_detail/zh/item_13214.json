@@ -1,0 +1,13 @@
+{
+  "type_id": 13214,
+  "name": "骨头碎片",
+  "description": "骨头碎片，很难辨认其属于身体哪部分。它很锋利。",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "其他",
+  "attributes": [],
+  "traits": []
+}

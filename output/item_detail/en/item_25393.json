@@ -1,0 +1,13 @@
+{
+  "type_id": 25393,
+  "name": "Imperial Navy Gate Permit Container",
+  "description": "A container, inside of which can be found standard gate permits leading to an Imperial Navy complex.",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Commodities",
+  "attributes": [],
+  "traits": []
+}

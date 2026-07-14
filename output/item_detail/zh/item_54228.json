@@ -1,0 +1,13 @@
+{
+  "type_id": 54228,
+  "name": "DED线人的冰冻尸体",
+  "description": "这具尸体曾是一位线人，为DED提供古斯塔斯海盗的消息。看起来他的卧底生涯结束了。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 70.0,
+  "category_name": "常用物品",
+  "group_name": "常见物品",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 19954,
+  "name": "Soran's Passkey",
+  "description": "Markings indicate that Soran's Passkey will activate two Acceleration Gates. One is marked as a check-gate which will leave the key intact, while the other one is some highly encrypted Accleration Gate called \"Station Ultima\". That gate will seemingly destroy the key and unlock the gate to a single ship.",
+  "volume": 0.1,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Commodity",
+  "group_name": "Acceleration Gate Keys",
+  "attributes": [],
+  "traits": []
+}

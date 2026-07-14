@@ -1,0 +1,140 @@
+{
+  "type_id": 12559,
+  "name": "极光 S",
+  "description": "天主凝聚会的小型集束激光晶体以标准型射频晶体的一种升级版本为基础制造。射程和伤害大幅提升，但冷却时间也长得多。在近距离几乎毫无用处。这种高级晶体中所用到的结晶结构会在使用的过程中降解，最终会导致晶体碎裂。\n\n\n\n最佳射程提升80%。\n\n跟踪速度降低75%。\n\n\n\n注：只能用于二级科技和势力小型集束激光器。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "弹药",
+  "group_name": "高级集束激光晶体",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 1.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "emDamage",
+      "value": 5.0,
+      "categoryID": 29,
+      "display_name": "电磁伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "explosiveDamage",
+      "value": 0.0,
+      "categoryID": 29,
+      "display_name": "爆炸伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "kineticDamage",
+      "value": 0.0,
+      "categoryID": 29,
+      "display_name": "动能伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "thermalDamage",
+      "value": 3.0,
+      "categoryID": 29,
+      "display_name": "热能伤害",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "weaponRangeMultiplier",
+      "value": 1.8,
+      "categoryID": 7,
+      "display_name": "范围加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "mainColor",
+      "value": 2833864.0,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "chargeSize",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "弹药尺寸",
+      "unit_name": "1=小型  2=中型  3=大型"
+    },
+    {
+      "attribute_name": "launcherGroup",
+      "value": 53.0,
+      "categoryID": 7,
+      "display_name": "配套使用（发射器类别）",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 11083.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "trackingSpeedMultiplier",
+      "value": 0.25,
+      "categoryID": 26,
+      "display_name": "跟踪速度倍增系数",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "entityFlyRangeMultiplier",
+      "value": 1.8,
+      "categoryID": 9,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "crystalVolatilityChance",
+      "value": 0.1,
+      "categoryID": 7,
+      "display_name": "挥发度",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "crystalVolatilityDamage",
+      "value": 0.01,
+      "categoryID": 7,
+      "display_name": "挥发损耗",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "crystalsGetDamaged",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "晶体损耗",
+      "unit_name": "1=True 0=False"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 17887,
+  "name": "Oxygen Isotopes",
+  "description": "Stable O-16 isotopes, crucial for maintenance of Gallente Control Towers.\n\nMay be obtained by reprocessing the following ice ores:\n\n<color='0xFF33FFFF'>1.0</color> security status solar system or lower:\n<a href=showinfo:16264>Blue Ice</a>\n\n<color='0xFFFF0000'>0.0</color> security status solar system or lower:\n<a href=showinfo:17975>Thick Blue Ice</a>",
+  "volume": 0.03,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Ice Product",
+  "attributes": [],
+  "traits": []
+}

@@ -1,0 +1,21 @@
+{
+  "type_id": 3495,
+  "name": "护盾传输控制塔",
+  "description": "这座控制塔负责协调并加强周围建筑的护盾防御。像周围许多其他设施一样，该控制塔曾归统合部所有。现在它落到了萨沙手里，没人知道萨沙会将它用于何种目的。统合部非常重视自主技术的保密工作。这些已被萨沙掌控的设施中毫无疑问藏有类似机密。当地的统合部指挥官按照命令负责协调克隆飞行员针对萨沙的反击行动。他们拿到了大笔由上面拨下来的资金，利用这些资金，他们就可以激励克隆飞行员去收复那些被抢占的工业设施。",
+  "volume": 1150.0,
+  "repackaged_volume": null,
+  "capacity": 10000000.0,
+  "mass": 100000.0,
+  "category_name": "空间实体",
+  "group_name": "任务货柜舱",
+  "attributes": [
+    {
+      "attribute_name": "disallowAssistance",
+      "value": 1.0,
+      "categoryID": 6,
+      "display_name": "不允许援助",
+      "unit_name": "1=True 0=False"
+    }
+  ],
+  "traits": []
+}

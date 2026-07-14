@@ -1,0 +1,13 @@
+{
+  "type_id": 3023,
+  "name": "Crate of Archaeological Lot GV87-426-D Artifacts",
+  "description": "This looks like little more than half a starship modified into ground-based living quarters. Several panels are inscribed with decorative symbols. A series of large rectangular cases contain corroded circuit boards with rows of finger-sized crystalline vials anchored to one face; some of the vials are still intact and contain a foggy gaseous substance. A section from what appears to have been a hydroponics lab contains trays of organic matter, fossilised from exposure to the moon's arid conditions and thin, nitrogen-argon atmosphere.",
+  "volume": 10.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 10.0,
+  "category_name": "Commodity",
+  "group_name": "Miscellaneous",
+  "attributes": [],
+  "traits": []
+}

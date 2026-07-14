@@ -1,0 +1,77 @@
+{
+  "type_id": 59304,
+  "name": "晨曦强效克隆飞行员之日魅惑增效剂",
+  "description": "这款增效剂由促进工业和统合部合作生产并推广，旨在庆祝第一张克隆飞行员执照发放18周年纪念日。类似于社交技能的作用方式，这种高效能的增效剂可以使代理人、军团和势力的声望获取速度提升50%。\n\n这款增效剂使用了不稳定化合物制造，效能持续时间有限。它的有效期至YC123年6月30日。",
+  "volume": 1.0,
+  "repackaged_volume": null,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3355.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": "",
+      "unit_name": ""
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 86400000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "socialBonus",
+      "value": 50.0,
+      "categoryID": 7,
+      "display_name": "社会学加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "socialMutator",
+      "value": 50.0,
+      "categoryID": 7,
+      "display_name": "社会学增变系数",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 12.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "nondestructible",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "无法摧毁",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "followsJumpClones",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "跟随远距克隆",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "boosterLastInjectionDatetime",
+      "value": 18808.125,
+      "categoryID": 7,
+      "display_name": "有效期",
+      "unit_name": ""
+    }
+  ],
+  "traits": []
+}
