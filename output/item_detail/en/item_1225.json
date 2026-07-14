@@ -20,8 +20,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "reprocessingSkillType",
@@ -35,7 +35,7 @@
       "value": 0.425,
       "categoryID": 31,
       "display_name": "Asteroid radius size multiplier",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "asteroidRadiusUnitSize",
@@ -55,14 +55,14 @@
       "attribute_name": "asteroidMetaLevel",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "oreBasicType",
       "value": 1225.0,
       "categoryID": 7,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "typeID"
     }
   ],

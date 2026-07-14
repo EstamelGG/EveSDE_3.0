@@ -34,8 +34,8 @@
       "attribute_name": "slots",
       "value": 1.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "cpu",
@@ -69,8 +69,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 3.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -98,14 +98,14 @@
       "value": 332.0,
       "categoryID": 0,
       "display_name": "可压缩",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "activationRequiresActiveIndustrialCore",
       "value": 1.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

@@ -83,8 +83,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "shieldRechargeRate",
@@ -97,22 +97,22 @@
       "attribute_name": "shieldUniformity",
       "value": 0.75,
       "categoryID": 2,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "armorUniformity",
       "value": 0.75,
       "categoryID": 3,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "structureUniformity",
       "value": 1.0,
       "categoryID": 4,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "signatureRadius",
@@ -154,27 +154,27 @@
       "value": 1.0,
       "categoryID": 7,
       "display_name": "同时使用用户数上限",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "disallowOffensiveModifiers",
       "value": 1.0,
       "categoryID": 6,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "isRAMcompatible",
       "value": 1.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "fighterAbilityAntiCapitalMissileResistance",
       "value": 1.0,
       "categoryID": 38,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     }
   ],

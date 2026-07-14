@@ -56,7 +56,7 @@
       "value": 6.0,
       "categoryID": 6,
       "display_name": "Maximum Locked Targets",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "scanRadarStrength",
@@ -125,15 +125,15 @@
       "attribute_name": "requiredSkill1Level",
       "value": 4.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill2Level",
       "value": 5.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -153,15 +153,15 @@
       "attribute_name": "shieldUniformity",
       "value": 1.0,
       "categoryID": 2,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "structureUniformity",
       "value": 1.0,
       "categoryID": 4,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "signatureRadius",
@@ -195,8 +195,8 @@
       "attribute_name": "metaGroupID",
       "value": 0.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "remoteRepairImpedance",
@@ -230,7 +230,7 @@
       "attribute_name": "fighterAbilityAntiFighterMissileResistance",
       "value": 1.0,
       "categoryID": 38,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {
@@ -252,28 +252,28 @@
       "value": 1.0,
       "categoryID": 34,
       "display_name": "Warp Disruption Strength (Per Fighter)",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "fighterAbilityWarpDisruptionPointStrengthInterim",
       "value": 0.0,
       "categoryID": 34,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "fighterSquadronIsSupport",
       "value": 1.0,
       "categoryID": 38,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "fighterSquadronMaxSize",
       "value": 3.0,
       "categoryID": 38,
       "display_name": "Squadron Size",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "fighterSquadronOrbitRange",
@@ -286,8 +286,8 @@
       "attribute_name": "fighterSquadronRole",
       "value": 3.0,
       "categoryID": 38,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "fighterRefuelingTime",

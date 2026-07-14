@@ -14,7 +14,7 @@
       "value": 17724.4583333,
       "categoryID": 7,
       "display_name": "有效期",
-      "unit_name": ""
+      "unit_name": null
     }
   ],
   "traits": []

@@ -14,7 +14,7 @@
       "value": 50000.0,
       "categoryID": 7,
       "display_name": "Skill Points",
-      "unit_name": ""
+      "unit_name": null
     }
   ],
   "traits": []

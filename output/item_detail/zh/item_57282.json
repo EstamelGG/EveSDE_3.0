@@ -42,7 +42,7 @@
       "value": 720.0,
       "categoryID": 7,
       "display_name": "最大飞行员年龄",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "nondestructible",

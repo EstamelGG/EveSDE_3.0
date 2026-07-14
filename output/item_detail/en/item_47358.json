@@ -55,15 +55,15 @@
       "attribute_name": "metaGroupID",
       "value": 0.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "structureItemVisualFlag",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

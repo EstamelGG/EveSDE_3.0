@@ -13,8 +13,8 @@
       "attribute_name": "aurumConversionRate",
       "value": 300.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

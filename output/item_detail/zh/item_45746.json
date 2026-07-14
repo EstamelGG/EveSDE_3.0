@@ -35,7 +35,7 @@
       "value": 0.0,
       "categoryID": 7,
       "display_name": "等级",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "reactionTimeBonus",

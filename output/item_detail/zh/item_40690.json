@@ -63,35 +63,35 @@
       "value": 8.0,
       "categoryID": 25,
       "display_name": "引力ECM干扰强度",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "scanLadarStrengthBonus",
       "value": 8.0,
       "categoryID": 25,
       "display_name": "光雷达ECM干扰强度",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "scanMagnetometricStrengthBonus",
       "value": 8.0,
       "categoryID": 25,
       "display_name": "磁力ECM干扰强度",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "scanRadarStrengthBonus",
       "value": 8.0,
       "categoryID": 25,
       "display_name": "雷达ECM干扰强度",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -111,15 +111,15 @@
       "attribute_name": "maxGroupActive",
       "value": 1.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "heatAbsorbtionRateModifier",
       "value": 0.01,
       "categoryID": 52,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "heatDamage",
@@ -174,15 +174,15 @@
       "attribute_name": "warpBubbleImmuneModifier",
       "value": 0.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "metaGroupID",
       "value": 4.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "canFitShipGroup05",

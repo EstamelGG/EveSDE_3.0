@@ -55,8 +55,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -76,8 +76,8 @@
       "attribute_name": "maxGroupActive",
       "value": 1.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "hullEmDamageResonance",
@@ -147,14 +147,14 @@
       "value": 1.0,
       "categoryID": 9,
       "display_name": "该武器组所允许的最大装备数量",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "metaGroupID",
       "value": 4.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "canFitShipGroup05",

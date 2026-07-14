@@ -48,8 +48,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -69,8 +69,8 @@
       "attribute_name": "metaGroupID",
       "value": 5.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

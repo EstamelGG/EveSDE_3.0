@@ -49,14 +49,14 @@
       "value": 1.4,
       "categoryID": 1,
       "display_name": "CPU Load Level Modifier",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "powerLoadLevelModifier",
       "value": 1.2,
       "categoryID": 1,
       "display_name": "Power Load Level Modifier",
-      "unit_name": ""
+      "unit_name": null
     }
   ],
   "traits": []

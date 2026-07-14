@@ -63,28 +63,28 @@
       "value": 36.0,
       "categoryID": 25,
       "display_name": "引力ECM干扰强度",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "scanLadarStrengthBonus",
       "value": 36.0,
       "categoryID": 25,
       "display_name": "光雷达ECM干扰强度",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "scanMagnetometricStrengthBonus",
       "value": 36.0,
       "categoryID": 25,
       "display_name": "磁力ECM干扰强度",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "scanRadarStrengthBonus",
       "value": 36.0,
       "categoryID": 25,
       "display_name": "雷达ECM干扰强度",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -146,15 +146,15 @@
       "attribute_name": "remoteResistanceID",
       "value": 2253.0,
       "categoryID": 36,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "属性ID"
     },
     {
       "attribute_name": "structureItemVisualFlag",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

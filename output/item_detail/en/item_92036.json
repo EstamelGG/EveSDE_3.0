@@ -62,7 +62,7 @@
       "attribute_name": "scanSpeed",
       "value": 2000.0,
       "categoryID": 6,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "s"
     },
     {
@@ -111,8 +111,8 @@
       "attribute_name": "uniformity",
       "value": 0.75,
       "categoryID": 2,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "proximityRange",
@@ -133,7 +133,7 @@
       "value": 2.4,
       "categoryID": 29,
       "display_name": "Turret Tracking",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill1",
@@ -161,14 +161,14 @@
       "value": 8.0,
       "categoryID": 6,
       "display_name": "Maximum Locked Targets",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "maxAttackTargets",
       "value": 1.0,
       "categoryID": 6,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "scanRadarStrength",
@@ -202,8 +202,8 @@
       "attribute_name": "entityAttackRange",
       "value": 3200.0,
       "categoryID": 6,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "shieldCapacity",
@@ -279,29 +279,29 @@
       "attribute_name": "requiredSkill1Level",
       "value": 5.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill2Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill3Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "entityFlyRange",
       "value": 800.0,
       "categoryID": 17,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -328,8 +328,8 @@
       "attribute_name": "shieldUniformity",
       "value": 0.75,
       "categoryID": 2,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "entityCruiseSpeed",
@@ -342,8 +342,8 @@
       "attribute_name": "armorUniformity",
       "value": 0.75,
       "categoryID": 3,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "signatureRadius",
@@ -356,14 +356,14 @@
       "attribute_name": "entityChaseMaxDelay",
       "value": 1.0,
       "categoryID": 17,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "entityChaseMaxDuration",
       "value": 2500.0,
       "categoryID": 17,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "s"
     },
     {
@@ -384,15 +384,15 @@
       "attribute_name": "entityChaseMaxDistance",
       "value": 3000.0,
       "categoryID": 17,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "m"
     },
     {
       "attribute_name": "energyNeutralizerEntityChance",
       "value": 1.0,
       "categoryID": 22,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "energyNeutralizerDuration",
@@ -420,13 +420,13 @@
       "value": 3.0,
       "categoryID": 8,
       "display_name": "Level 5 required",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "fighterAbilityAntiFighterMissileResistance",
       "value": 1.0,
       "categoryID": 38,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     }
   ],

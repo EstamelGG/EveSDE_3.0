@@ -35,14 +35,14 @@
       "value": 0.0,
       "categoryID": 7,
       "display_name": "Level",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "maxActiveDroneBonus",
       "value": 1.0,
       "categoryID": 10,
       "display_name": "Maximum Active Drone Bonus",
-      "unit_name": ""
+      "unit_name": null
     }
   ],
   "traits": []

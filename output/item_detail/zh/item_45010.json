@@ -55,15 +55,15 @@
       "attribute_name": "maxRangeHidden",
       "value": 24000.0,
       "categoryID": 9,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "m"
     },
     {
       "attribute_name": "capacitorNeedHidden",
       "value": 0.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "warpScrambleRangeBonus",

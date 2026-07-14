@@ -49,7 +49,7 @@
       "value": 720.0,
       "categoryID": 7,
       "display_name": "Maximum Pilot Age",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "nondestructible",

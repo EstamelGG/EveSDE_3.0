@@ -14,14 +14,14 @@
       "value": 1500000.0,
       "categoryID": 7,
       "display_name": "人物角色技能点上限",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "containedSkillPoints",
       "value": 25000.0,
       "categoryID": 7,
       "display_name": "技能点",
-      "unit_name": ""
+      "unit_name": null
     }
   ],
   "traits": []

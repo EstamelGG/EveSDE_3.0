@@ -27,8 +27,8 @@
       "attribute_name": "slots",
       "value": 1.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "cpu",
@@ -49,7 +49,7 @@
       "value": 1.0,
       "categoryID": 7,
       "display_name": "Charges Per Cycle",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -76,15 +76,15 @@
       "attribute_name": "maxGroupActive",
       "value": 1.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "deadspaceUnsafe",
       "value": 2.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "canFitShipType1",
@@ -119,7 +119,7 @@
       "value": 1.0,
       "categoryID": 9,
       "display_name": "Max Modules Of This Group Allowed",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "reloadTime",
@@ -153,8 +153,8 @@
       "attribute_name": "structureItemVisualFlag",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "canFitShipType7",
@@ -188,8 +188,8 @@
       "attribute_name": "onlineMaxSecurityClass",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "canFitShipType11",

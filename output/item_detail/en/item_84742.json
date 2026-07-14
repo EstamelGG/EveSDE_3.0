@@ -62,8 +62,8 @@
       "attribute_name": "requiredSkill2Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "signatureRadiusBonus",
@@ -83,8 +83,8 @@
       "attribute_name": "heatAbsorbtionRateModifier",
       "value": 0.01,
       "categoryID": 52,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "heatDamage",
@@ -104,8 +104,8 @@
       "attribute_name": "metaGroupID",
       "value": 5.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "overloadPainterStrengthBonus",
@@ -125,7 +125,7 @@
       "attribute_name": "remoteResistanceID",
       "value": 2114.0,
       "categoryID": 36,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "attributeID"
     }
   ],

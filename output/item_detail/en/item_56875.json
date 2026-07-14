@@ -63,7 +63,7 @@
       "value": 18627.125,
       "categoryID": 7,
       "display_name": "Expiry Date",
-      "unit_name": ""
+      "unit_name": null
     }
   ],
   "traits": []

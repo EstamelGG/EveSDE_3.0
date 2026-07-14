@@ -76,8 +76,8 @@
       "attribute_name": "heatAbsorbtionRateModifier",
       "value": 0.01,
       "categoryID": 52,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "overloadSelfDurationBonus",
@@ -118,7 +118,7 @@
       "attribute_name": "remoteResistanceID",
       "value": 2116.0,
       "categoryID": 36,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "属性ID"
     }
   ],

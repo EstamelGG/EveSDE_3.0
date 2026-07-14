@@ -28,21 +28,21 @@
       "value": 5.0,
       "categoryID": 1,
       "display_name": "低能量槽",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "medSlots",
       "value": 5.0,
       "categoryID": 1,
       "display_name": "中能量槽",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "hiSlots",
       "value": 7.0,
       "categoryID": 1,
       "display_name": "高能量槽",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "cpuOutput",
@@ -69,7 +69,7 @@
       "attribute_name": "scanSpeed",
       "value": 2500.0,
       "categoryID": 6,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "s"
     },
     {
@@ -111,15 +111,15 @@
       "attribute_name": "uniformity",
       "value": 1.0,
       "categoryID": 2,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "maxLockedTargets",
       "value": 7.0,
       "categoryID": 6,
       "display_name": "目标锁定数上限加成",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "scanRadarStrength",
@@ -237,22 +237,22 @@
       "attribute_name": "shieldUniformity",
       "value": 1.0,
       "categoryID": 2,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "armorUniformity",
       "value": 1.0,
       "categoryID": 3,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "structureUniformity",
       "value": 1.0,
       "categoryID": 4,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "signatureRadius",
@@ -294,14 +294,14 @@
       "value": 3.0,
       "categoryID": 1,
       "display_name": "改装件安装座",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "upgradeSlotsLeft",
       "value": 3.0,
       "categoryID": 1,
       "display_name": "改装件槽位",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "rigSize",
@@ -314,21 +314,21 @@
       "attribute_name": "metaGroupID",
       "value": 4.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "tierDifficulty",
       "value": 4.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "hackable",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "1=True 0=False"
     },
     {
@@ -371,7 +371,7 @@
       "value": 7.0,
       "categoryID": 1,
       "display_name": "服务槽位",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "sensorDampenerResistance",
@@ -413,13 +413,13 @@
       "value": 5.0,
       "categoryID": 38,
       "display_name": "铁骑舰载机中队发射管",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "fighterAbilityAntiCapitalMissileResistance",
       "value": 1.0,
       "categoryID": 38,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {
@@ -440,64 +440,64 @@
       "attribute_name": "structureRoleBonus",
       "value": 25.0,
       "categoryID": 9,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {
       "attribute_name": "structureServiceRoleBonus",
       "value": -25.0,
       "categoryID": 9,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {
       "attribute_name": "fighterAbilityKamikazeResistance",
       "value": 1.0,
       "categoryID": 38,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {
       "attribute_name": "strEngCostBonus",
       "value": 0.97,
       "categoryID": 4,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "strEngTimeBonus",
       "value": 0.85,
       "categoryID": 4,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "fighterStandupLightSlots",
       "value": 5.0,
       "categoryID": 38,
       "display_name": "屹立轻型铁骑舰载机中队限制",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "fighterStandupSupportSlots",
       "value": 3.0,
       "categoryID": 38,
       "display_name": "屹立后勤铁骑舰载机中队限制",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "fighterStandupHeavySlots",
       "value": 2.0,
       "categoryID": 38,
       "display_name": "屹立重型铁骑舰载机中队限制",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "structureFullPowerStateHitpointMultiplier",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "structureAoERoFRoleBonus",
@@ -510,14 +510,14 @@
       "attribute_name": "hiddenMissileDamageMultiplier",
       "value": 1.0,
       "categoryID": 30,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "x"
     },
     {
       "attribute_name": "hiddenArmorHPMultiplier",
       "value": 1.0,
       "categoryID": 3,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "x"
     },
     {
@@ -531,8 +531,8 @@
       "attribute_name": "structurePowerStateArmorPlatingMultiplier",
       "value": 0.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "structureRequiresDeedType",

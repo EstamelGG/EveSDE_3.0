@@ -20,8 +20,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "boosterDuration",
@@ -42,7 +42,7 @@
       "value": 2400.0,
       "categoryID": 7,
       "display_name": "最大飞行员年龄",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "nondestructible",

@@ -21,7 +21,7 @@
       "value": 6.0,
       "categoryID": 7,
       "display_name": "难度等级",
-      "unit_name": ""
+      "unit_name": null
     }
   ],
   "traits": []

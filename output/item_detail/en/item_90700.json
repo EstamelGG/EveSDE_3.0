@@ -21,14 +21,14 @@
       "value": 1.0,
       "categoryID": 17,
       "display_name": "Maximum Ship Jump cap",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "FilamentDescriptionMessageID",
       "value": 554515.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "filamentSpoolupTimeSeconds",

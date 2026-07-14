@@ -55,8 +55,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 3.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -104,8 +104,8 @@
       "attribute_name": "heatAbsorbtionRateModifier",
       "value": 0.01,
       "categoryID": 52,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "overloadHardeningBonus",
@@ -132,8 +132,8 @@
       "attribute_name": "metaGroupID",
       "value": 6.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

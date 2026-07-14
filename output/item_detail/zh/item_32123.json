@@ -55,8 +55,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 5.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "implantness",
@@ -83,8 +83,8 @@
       "attribute_name": "implantSetLGRepublicFleet",
       "value": 1.4,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

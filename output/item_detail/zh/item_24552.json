@@ -76,15 +76,15 @@
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill2Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -125,22 +125,22 @@
       "attribute_name": "maxGroupActive",
       "value": 1.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "siegeModeWarpStatus",
       "value": 100.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "disallowEarlyDeactivation",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "disallowRepeatingActivation",
@@ -168,14 +168,14 @@
       "value": 1.0,
       "categoryID": 9,
       "display_name": "该武器组所允许的最大装备数量",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "effectDeactivationDelay",
       "value": 30000.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "damageDelayDuration",
@@ -188,7 +188,7 @@
       "attribute_name": "speedFactorFloor",
       "value": -100.0,
       "categoryID": 28,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {
@@ -223,8 +223,8 @@
       "attribute_name": "doomsdayRangeIsFixed",
       "value": 0.0,
       "categoryID": 39,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

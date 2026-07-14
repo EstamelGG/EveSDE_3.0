@@ -34,7 +34,7 @@
       "attribute_name": "detonationRange",
       "value": 35.0,
       "categoryID": 9,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "m"
     },
     {
@@ -97,22 +97,22 @@
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill2Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill3Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "explosionDelay",
@@ -132,15 +132,15 @@
       "attribute_name": "structureUniformity",
       "value": 1.0,
       "categoryID": 4,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "aimedLaunch",
       "value": 1.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "aoeVelocity",
@@ -160,22 +160,22 @@
       "attribute_name": "aoeFalloff",
       "value": 1500.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "aoeDamageReductionFactor",
       "value": 0.882,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "metaGroupID",
       "value": 4.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "maxFOFTargetRange",

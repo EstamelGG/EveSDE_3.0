@@ -20,8 +20,8 @@
       "attribute_name": "uniformity",
       "value": 1.0,
       "categoryID": 2,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill1",
@@ -76,8 +76,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 2.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -97,22 +97,22 @@
       "attribute_name": "shieldUniformity",
       "value": 0.75,
       "categoryID": 2,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "armorUniformity",
       "value": 0.75,
       "categoryID": 3,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "structureUniformity",
       "value": 1.0,
       "categoryID": 4,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "signatureRadius",
@@ -126,7 +126,7 @@
       "value": 0.4,
       "categoryID": 7,
       "display_name": "Restricted To Security Level Of At Most",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "siphonWasteAmount",

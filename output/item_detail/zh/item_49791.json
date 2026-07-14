@@ -69,15 +69,15 @@
       "attribute_name": "requiredSkill1Level",
       "value": 3.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill2Level",
       "value": 3.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "accessDifficultyBonus",
@@ -98,21 +98,21 @@
       "value": 26.0,
       "categoryID": 7,
       "display_name": "病毒同步率",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "virusStrength",
       "value": 26.0,
       "categoryID": 7,
       "display_name": "病毒强度",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "virusElementSlots",
       "value": 2.0,
       "categoryID": 7,
       "display_name": "病毒功能元槽位",
-      "unit_name": ""
+      "unit_name": null
     }
   ],
   "traits": []

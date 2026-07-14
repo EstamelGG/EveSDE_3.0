@@ -49,7 +49,7 @@
       "value": 100.0,
       "categoryID": 27,
       "display_name": "Warp Scramble Strength",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill1",
@@ -62,8 +62,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -90,15 +90,15 @@
       "attribute_name": "maxGroupActive",
       "value": 1.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "disallowEarlyDeactivation",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "scanGravimetricStrengthPercent",
@@ -132,8 +132,8 @@
       "attribute_name": "canCloak",
       "value": 0.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "ewCapacitorNeedBonus",
@@ -161,7 +161,7 @@
       "value": 1.0,
       "categoryID": 9,
       "display_name": "Max Modules Of This Group Allowed",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "disallowTethering",

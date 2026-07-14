@@ -13,29 +13,29 @@
       "attribute_name": "inventionPropabilityMultiplier",
       "value": 0.9,
       "categoryID": 9,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "x"
     },
     {
       "attribute_name": "inventionMEModifier",
       "value": 2.0,
       "categoryID": 9,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "points"
     },
     {
       "attribute_name": "inventionTEModifier",
       "value": 0.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "inventionMaxRunModifier",
       "value": 7.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

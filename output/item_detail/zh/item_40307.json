@@ -34,8 +34,8 @@
       "attribute_name": "slots",
       "value": 1.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "cpu",
@@ -69,8 +69,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 2.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -104,8 +104,8 @@
       "attribute_name": "siegeModeWarpStatus",
       "value": 100.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "scanGravimetricStrengthPercent",
@@ -146,29 +146,29 @@
       "attribute_name": "canCloak",
       "value": 0.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "maxGroupFitted",
       "value": 1.0,
       "categoryID": 9,
       "display_name": "该武器组所允许的最大装备数量",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "speedLimit",
       "value": 4200.0,
       "categoryID": 17,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "m/s"
     },
     {
       "attribute_name": "entosisCPUAdd",
       "value": 0.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "entosisAssistanceImpedanceMultiplier",

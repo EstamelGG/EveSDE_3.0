@@ -13,14 +13,14 @@
       "attribute_name": "importTaxMultiplier",
       "value": 7200.0,
       "categoryID": 7,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {
       "attribute_name": "exportTaxMultiplier",
       "value": 7200.0,
       "categoryID": 7,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     }
   ],

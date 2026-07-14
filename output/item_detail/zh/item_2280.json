@@ -49,14 +49,14 @@
       "value": 1.4,
       "categoryID": 1,
       "display_name": "CPU载荷等级调节因子",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "powerLoadLevelModifier",
       "value": 1.2,
       "categoryID": 1,
       "display_name": "能量载荷等级调节因子",
-      "unit_name": ""
+      "unit_name": null
     }
   ],
   "traits": []

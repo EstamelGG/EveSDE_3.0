@@ -21,21 +21,21 @@
       "value": 1.0,
       "categoryID": 17,
       "display_name": "最大舰船跳跃数量",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "FilamentDescriptionMessageID",
       "value": 1046355.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "locationListID",
       "value": 5079.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "filamentSpoolupTimeSeconds",
@@ -56,14 +56,14 @@
       "value": 2000000.0,
       "categoryID": 7,
       "display_name": "人物角色技能点上限",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "filamentCharacterAgeLimit",
       "value": 840.0,
       "categoryID": 7,
       "display_name": "人物创建时间限制",
-      "unit_name": ""
+      "unit_name": null
     }
   ],
   "traits": []

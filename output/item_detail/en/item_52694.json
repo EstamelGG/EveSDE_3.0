@@ -55,8 +55,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -97,36 +97,36 @@
       "attribute_name": "maxGroupActive",
       "value": 1.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "deadspaceUnsafe",
       "value": 2.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "siegeModeWarpStatus",
       "value": 100.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "disallowEarlyDeactivation",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "canCloak",
       "value": 0.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "disallowActivateOnWarp",
@@ -174,8 +174,8 @@
       "attribute_name": "maxVelocityLimited",
       "value": 1.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "maxVelocityActivationLimit",
@@ -188,7 +188,7 @@
       "attribute_name": "speedFactorFloor",
       "value": -100.0,
       "categoryID": 28,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {
@@ -209,7 +209,7 @@
       "attribute_name": "cynosuralFieldSpawnRadius",
       "value": 5000.0,
       "categoryID": 7,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "m"
     },
     {

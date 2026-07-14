@@ -14,7 +14,7 @@
       "value": 8.0,
       "categoryID": 7,
       "display_name": "Charges Per Cycle",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill1",
@@ -34,15 +34,15 @@
       "attribute_name": "requiredSkill1Level",
       "value": 4.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill2Level",
       "value": 5.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "chargeGroup2",

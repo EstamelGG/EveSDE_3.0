@@ -63,7 +63,7 @@
       "value": 6.0,
       "categoryID": 6,
       "display_name": "目标锁定数上限加成",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "scanRadarStrength",
@@ -132,22 +132,22 @@
       "attribute_name": "requiredSkill1Level",
       "value": 4.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill2Level",
       "value": 5.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill3Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -167,15 +167,15 @@
       "attribute_name": "shieldUniformity",
       "value": 1.0,
       "categoryID": 2,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "structureUniformity",
       "value": 1.0,
       "categoryID": 4,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "signatureRadius",
@@ -230,15 +230,15 @@
       "attribute_name": "fighterAbilityMissilesDamageReductionFactor",
       "value": 5.0,
       "categoryID": 34,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "fighterAbilityMissilesDamageReductionSensitivity",
       "value": 5.5,
       "categoryID": 34,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "fighterAbilityMissilesDamageMultiplier",
@@ -321,22 +321,22 @@
       "attribute_name": "fighterAbilityAntiFighterMissileResistance",
       "value": 1.0,
       "categoryID": 38,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {
       "attribute_name": "fighterSquadronIsLight",
       "value": 1.0,
       "categoryID": 38,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "fighterSquadronMaxSize",
       "value": 6.0,
       "categoryID": 38,
       "display_name": "中队大小",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "fighterSquadronOrbitRange",
@@ -384,15 +384,15 @@
       "attribute_name": "fighterAbilityAttackMissileReductionFactor",
       "value": 3.0,
       "categoryID": 34,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "fighterAbilityAttackMissileReductionSensitivity",
       "value": 5.5,
       "categoryID": 34,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "fighterAbilityAttackMissileDuration",
@@ -433,8 +433,8 @@
       "attribute_name": "fighterSquadronRole",
       "value": 2.0,
       "categoryID": 38,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "fighterRefuelingTime",

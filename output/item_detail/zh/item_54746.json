@@ -34,8 +34,8 @@
       "attribute_name": "slots",
       "value": 1.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "cpu",
@@ -63,21 +63,21 @@
       "value": 1.0,
       "categoryID": 7,
       "display_name": "单次消耗量",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "targetModule",
       "value": 0.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "accuracyBonus",
       "value": 0.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "damageMultiplier",
@@ -90,8 +90,8 @@
       "attribute_name": "mainColor",
       "value": 8627698.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "chargeSize",
@@ -118,15 +118,15 @@
       "attribute_name": "requiredSkill1Level",
       "value": 3.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill2Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -167,8 +167,8 @@
       "attribute_name": "heatAbsorbtionRateModifier",
       "value": 0.01,
       "categoryID": 52,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "overloadRofBonus",
@@ -202,15 +202,15 @@
       "attribute_name": "aoeDamageReductionFactor",
       "value": 0.5,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "typeColorScheme",
       "value": 11324.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "reloadTime",
@@ -231,7 +231,7 @@
       "value": 10.0,
       "categoryID": 29,
       "display_name": "电弧链目标",
-      "unit_name": ""
+      "unit_name": null
     }
   ],
   "traits": []

@@ -42,7 +42,7 @@
       "value": 1.0,
       "categoryID": 6,
       "display_name": "Maximum Locked Targets",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "scanRadarStrength",
@@ -104,22 +104,22 @@
       "attribute_name": "shieldUniformity",
       "value": 0.75,
       "categoryID": 2,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "armorUniformity",
       "value": 0.75,
       "categoryID": 3,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "structureUniformity",
       "value": 1.0,
       "categoryID": 4,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "signatureRadius",

@@ -42,14 +42,14 @@
       "value": 17903.4583333,
       "categoryID": 7,
       "display_name": "有效期",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "NonDiminishingSkillInjectorUses",
       "value": 3.0,
       "categoryID": 7,
       "display_name": "可不受技能惩罚地使用注射器的数量",
-      "unit_name": ""
+      "unit_name": null
     }
   ],
   "traits": []

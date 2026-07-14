@@ -63,28 +63,28 @@
       "value": 39.0,
       "categoryID": 25,
       "display_name": "Gravimetric ECM Jammer Strength",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "scanLadarStrengthBonus",
       "value": 39.0,
       "categoryID": 25,
       "display_name": "Ladar ECM Jammer Strength",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "scanMagnetometricStrengthBonus",
       "value": 39.0,
       "categoryID": 25,
       "display_name": "Magnetometric ECM Jammer Strength",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "scanRadarStrengthBonus",
       "value": 39.0,
       "categoryID": 25,
       "display_name": "RADAR ECM Jammer Strength",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -132,8 +132,8 @@
       "attribute_name": "metaGroupID",
       "value": 4.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "reloadTime",
@@ -153,15 +153,15 @@
       "attribute_name": "remoteResistanceID",
       "value": 2253.0,
       "categoryID": 36,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "attributeID"
     },
     {
       "attribute_name": "structureItemVisualFlag",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

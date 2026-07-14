@@ -90,15 +90,15 @@
       "attribute_name": "structureItemVisualFlag",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "maxTypeFitted",
       "value": 1.0,
       "categoryID": 7,
       "display_name": "Max Modules Of This Type Allowed",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "canFitShipType7",
@@ -146,8 +146,8 @@
       "attribute_name": "serviceModuleFullPowerStateArmorPlatingMultiplier",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

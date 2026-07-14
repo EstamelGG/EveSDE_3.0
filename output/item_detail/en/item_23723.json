@@ -55,7 +55,7 @@
       "attribute_name": "scanSpeed",
       "value": 2000.0,
       "categoryID": 6,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "s"
     },
     {
@@ -90,8 +90,8 @@
       "attribute_name": "uniformity",
       "value": 0.75,
       "categoryID": 2,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "proximityRange",
@@ -126,14 +126,14 @@
       "value": 8.0,
       "categoryID": 6,
       "display_name": "Maximum Locked Targets",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "maxAttackTargets",
       "value": 1.0,
       "categoryID": 6,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "scanRadarStrength",
@@ -167,8 +167,8 @@
       "attribute_name": "entityAttackRange",
       "value": 25000.0,
       "categoryID": 6,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "shieldCapacity",
@@ -244,29 +244,29 @@
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill2Level",
       "value": 3.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill3Level",
       "value": 5.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "entityFlyRange",
       "value": 500.0,
       "categoryID": 17,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -293,8 +293,8 @@
       "attribute_name": "shieldUniformity",
       "value": 0.75,
       "categoryID": 2,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "entityCruiseSpeed",
@@ -307,15 +307,15 @@
       "attribute_name": "armorUniformity",
       "value": 0.75,
       "categoryID": 3,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "structureUniformity",
       "value": 1.0,
       "categoryID": 4,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "signatureRadius",
@@ -335,29 +335,29 @@
       "attribute_name": "entityChaseMaxDelay",
       "value": 1.0,
       "categoryID": 17,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "entityChaseMaxDelayChance",
       "value": 1.0,
       "categoryID": 17,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "entityChaseMaxDuration",
       "value": 2500.0,
       "categoryID": 17,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "s"
     },
     {
       "attribute_name": "entityChaseMaxDurationChance",
       "value": 1.0,
       "categoryID": 17,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "optimalSigRadius",
@@ -370,7 +370,7 @@
       "attribute_name": "entityChaseMaxDistance",
       "value": 3000.0,
       "categoryID": 17,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "m"
     },
     {
@@ -384,14 +384,14 @@
       "attribute_name": "remoteResistanceID",
       "value": 2114.0,
       "categoryID": 36,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "attributeID"
     },
     {
       "attribute_name": "fighterAbilityAntiFighterMissileResistance",
       "value": 1.0,
       "categoryID": 38,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     }
   ],

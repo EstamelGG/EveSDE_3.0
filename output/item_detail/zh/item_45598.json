@@ -41,8 +41,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "droneCapacity",
@@ -83,8 +83,8 @@
       "attribute_name": "subSystemSlot",
       "value": 127.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "turretHardPointModifier",
@@ -132,29 +132,29 @@
       "attribute_name": "subsystemBonusAmarrOffensive",
       "value": 10.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "subsystemBonusAmarrOffensive2",
       "value": -10.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "subsystemBonusAmarrOffensive3",
       "value": 10.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "warfareLinkCPUPenalty",
       "value": 10000.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "subsystemMETFittingReduction",

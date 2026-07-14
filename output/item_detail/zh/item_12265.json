@@ -69,8 +69,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 2.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -90,8 +90,8 @@
       "attribute_name": "heatAbsorbtionRateModifier",
       "value": 0.01,
       "categoryID": 52,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "overloadSelfDurationBonus",
@@ -118,21 +118,21 @@
       "attribute_name": "entityCapacitorLevelModifierSmall",
       "value": 0.558823529,
       "categoryID": 7,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {
       "attribute_name": "entityCapacitorLevelModifierMedium",
       "value": 0.875,
       "categoryID": 7,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {
       "attribute_name": "entityCapacitorLevelModifierLarge",
       "value": 0.96875,
       "categoryID": 7,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {

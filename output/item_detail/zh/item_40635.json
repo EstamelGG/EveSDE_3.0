@@ -69,8 +69,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -104,15 +104,15 @@
       "attribute_name": "maxGroupActive",
       "value": 1.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "disallowEarlyDeactivation",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "disallowRepeatingActivation",
@@ -133,13 +133,13 @@
       "value": 1.0,
       "categoryID": 9,
       "display_name": "该武器组所允许的最大装备数量",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "remoteResistanceID",
       "value": 2115.0,
       "categoryID": 36,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "属性ID"
     },
     {
@@ -153,8 +153,8 @@
       "attribute_name": "isPointTargeted",
       "value": 1.0,
       "categoryID": 6,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "doomsdayAOERange",
@@ -189,14 +189,14 @@
       "value": 4.0,
       "categoryID": 39,
       "display_name": "超级武器效果形状",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "doomsdayRangeIsFixed",
       "value": 0.0,
       "categoryID": 39,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

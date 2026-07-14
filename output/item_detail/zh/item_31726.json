@@ -105,7 +105,7 @@
       "value": 75.0,
       "categoryID": 1,
       "display_name": "校准值消耗",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "rigSize",

@@ -27,14 +27,14 @@
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "stationTypeID",
       "value": 28129.0,
       "categoryID": 7,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "类别ID"
     },
     {

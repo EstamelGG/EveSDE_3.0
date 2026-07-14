@@ -69,15 +69,15 @@
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill2Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -111,29 +111,29 @@
       "attribute_name": "metaGroupID",
       "value": 3.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "virusCoherence",
       "value": 20.0,
       "categoryID": 7,
       "display_name": "Virus Coherence",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "virusStrength",
       "value": 20.0,
       "categoryID": 7,
       "display_name": "Virus Strength",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "virusElementSlots",
       "value": 1.0,
       "categoryID": 7,
       "display_name": "Virus Utility Element Slots",
-      "unit_name": ""
+      "unit_name": null
     }
   ],
   "traits": []

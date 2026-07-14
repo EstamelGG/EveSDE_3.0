@@ -14,7 +14,7 @@
       "value": 2.0,
       "categoryID": 7,
       "display_name": "Warp Speed Increase",
-      "unit_name": ""
+      "unit_name": null
     }
   ],
   "traits": [

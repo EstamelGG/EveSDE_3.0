@@ -27,8 +27,8 @@
       "attribute_name": "slots",
       "value": 1.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "cpu",
@@ -49,7 +49,7 @@
       "value": 1.0,
       "categoryID": 7,
       "display_name": "单次消耗量",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill1",
@@ -69,15 +69,15 @@
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill2Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -104,8 +104,8 @@
       "attribute_name": "heatAbsorbtionRateModifier",
       "value": 0.01,
       "categoryID": 52,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "overloadRofBonus",
@@ -132,8 +132,8 @@
       "attribute_name": "typeColorScheme",
       "value": 20113.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "reloadTime",

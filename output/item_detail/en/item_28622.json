@@ -20,8 +20,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "reprocessingSkillType",
@@ -48,29 +48,29 @@
       "attribute_name": "asteroidMetaLevel",
       "value": 0.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "oreBasicType",
       "value": 1229.0,
       "categoryID": 7,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "typeID"
     },
     {
       "attribute_name": "ignoreMiningWaste",
       "value": 1.0,
       "categoryID": 51,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "ignoreMiningCrits",
       "value": 1.0,
       "categoryID": 51,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

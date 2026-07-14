@@ -76,8 +76,8 @@
       "attribute_name": "disallowEarlyDeactivation",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "disallowRepeatingActivation",
@@ -111,7 +111,7 @@
       "attribute_name": "remoteResistanceID",
       "value": 2112.0,
       "categoryID": 36,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "属性ID"
     },
     {
@@ -125,8 +125,8 @@
       "attribute_name": "isPointTargeted",
       "value": 1.0,
       "categoryID": 6,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "doomsdayAOERange",
@@ -153,8 +153,8 @@
       "attribute_name": "structureItemVisualFlag",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "durationSensorDampeningBurstProjector",
@@ -168,28 +168,28 @@
       "value": 4.0,
       "categoryID": 39,
       "display_name": "超级武器效果形状",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "doomsdayRangeIsFixed",
       "value": 0.0,
       "categoryID": 39,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "maxTypeFitted",
       "value": 1.0,
       "categoryID": 7,
       "display_name": "该类型装备使用上限",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "onlineMaxSecurityClass",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

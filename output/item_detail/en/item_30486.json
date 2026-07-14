@@ -34,7 +34,7 @@
       "attribute_name": "explosionRange",
       "value": 0.0,
       "categoryID": 9,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "m"
     },
     {
@@ -55,8 +55,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 2.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "explosionDelay",
@@ -76,8 +76,8 @@
       "attribute_name": "structureUniformity",
       "value": 1.0,
       "categoryID": 4,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "warpSpeedMultiplier",
@@ -118,15 +118,15 @@
       "attribute_name": "probeCanScanShips",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "metaGroupID",
       "value": 4.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

@@ -69,8 +69,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -90,15 +90,15 @@
       "attribute_name": "maxGroupActive",
       "value": 1.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "siegeModeWarpStatus",
       "value": 100.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "disallowAssistance",
@@ -111,28 +111,28 @@
       "attribute_name": "disallowOffensiveModifiers",
       "value": 1.0,
       "categoryID": 6,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "disallowEarlyDeactivation",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "jumpPortalConsumptionMassFactor",
       "value": 1e-09,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "jumpPortalDuration",
       "value": 20000.0,
       "categoryID": 9,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "s"
     },
     {
@@ -153,35 +153,35 @@
       "attribute_name": "speedFactorFloor",
       "value": -100.0,
       "categoryID": 28,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {
       "attribute_name": "enableOpenJumpPortal",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "enablePerformConduitJump",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "jumpPortalPassengerRequiredAttributeID",
       "value": 3325.0,
       "categoryID": 0,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "属性ID"
     },
     {
       "attribute_name": "jumpConduitPassengerRequiredAttributeID",
       "value": 3324.0,
       "categoryID": 0,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "属性ID"
     }
   ],

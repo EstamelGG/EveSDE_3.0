@@ -13,8 +13,8 @@
       "attribute_name": "industryBlueprintRank",
       "value": 5.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

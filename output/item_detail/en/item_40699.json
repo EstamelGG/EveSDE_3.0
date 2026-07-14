@@ -55,8 +55,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "falloffBonus",
@@ -118,8 +118,8 @@
       "attribute_name": "maxGroupActive",
       "value": 1.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "trackingSpeedBonus",
@@ -146,8 +146,8 @@
       "attribute_name": "disallowEarlyDeactivation",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "disallowRepeatingActivation",
@@ -168,13 +168,13 @@
       "value": 1.0,
       "categoryID": 9,
       "display_name": "Max Modules Of This Group Allowed",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "remoteResistanceID",
       "value": 2113.0,
       "categoryID": 36,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "attributeID"
     },
     {
@@ -188,8 +188,8 @@
       "attribute_name": "isPointTargeted",
       "value": 1.0,
       "categoryID": 6,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "doomsdayAOERange",
@@ -231,14 +231,14 @@
       "value": 4.0,
       "categoryID": 39,
       "display_name": "Shape of Superweapon Effect",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "doomsdayRangeIsFixed",
       "value": 0.0,
       "categoryID": 39,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

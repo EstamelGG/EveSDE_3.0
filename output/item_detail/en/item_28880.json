@@ -41,15 +41,15 @@
       "attribute_name": "requiredSkill1Level",
       "value": 3.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "skillLevel",
       "value": 0.0,
       "categoryID": 7,
       "display_name": "Level",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "moduleRepairRateBonus",

@@ -21,21 +21,21 @@
       "value": 1.0,
       "categoryID": 17,
       "display_name": "Maximum Ship Jump cap",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "FilamentDescriptionMessageID",
       "value": 1046355.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "locationListID",
       "value": 5079.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "filamentSpoolupTimeSeconds",
@@ -56,14 +56,14 @@
       "value": 2000000.0,
       "categoryID": 7,
       "display_name": "Character Skill Point Limit",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "filamentCharacterAgeLimit",
       "value": 840.0,
       "categoryID": 7,
       "display_name": "Character Age Limit",
-      "unit_name": ""
+      "unit_name": null
     }
   ],
   "traits": []

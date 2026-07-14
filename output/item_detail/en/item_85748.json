@@ -20,8 +20,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 5.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "implantness",
@@ -49,14 +49,14 @@
       "value": 60.0,
       "categoryID": 9,
       "display_name": "Virus Coherence Bonus",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "virusStrengthBonus",
       "value": -10.0,
       "categoryID": 7,
       "display_name": "Analyzer Virus Strength Bonus",
-      "unit_name": ""
+      "unit_name": null
     }
   ],
   "traits": []

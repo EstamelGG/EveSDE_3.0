@@ -35,21 +35,21 @@
       "value": 4.0,
       "categoryID": 1,
       "display_name": "低能量槽",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "medSlots",
       "value": 4.0,
       "categoryID": 1,
       "display_name": "中能量槽",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "hiSlots",
       "value": 3.0,
       "categoryID": 1,
       "display_name": "高能量槽",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "powerLoad",
@@ -62,15 +62,15 @@
       "attribute_name": "powerToSpeed",
       "value": 1.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "warpFactor",
       "value": 0.0,
       "categoryID": 17,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "maxVelocity",
@@ -118,7 +118,7 @@
       "attribute_name": "scanSpeed",
       "value": 3000.0,
       "categoryID": 6,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "s"
     },
     {
@@ -167,29 +167,29 @@
       "attribute_name": "mainColor",
       "value": 16777215.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "maxPassengers",
       "value": 8.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "uniformity",
       "value": 1.0,
       "categoryID": 2,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "warpCapacitorNeed",
       "value": 1.67e-06,
       "categoryID": 17,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill1",
@@ -224,7 +224,7 @@
       "value": 5.0,
       "categoryID": 6,
       "display_name": "目标锁定数上限加成",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "scanRadarStrength",
@@ -258,15 +258,15 @@
       "attribute_name": "propulsionGraphicID",
       "value": 395.0,
       "categoryID": 31,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "gfxBoosterID",
       "value": 395.0,
       "categoryID": 31,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "shieldCapacity",
@@ -342,22 +342,22 @@
       "attribute_name": "requiredSkill1Level",
       "value": 5.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill2Level",
       "value": 5.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill3Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "droneCapacity",
@@ -377,15 +377,15 @@
       "attribute_name": "shipBonusGF",
       "value": 10.0,
       "categoryID": 37,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "shipBonusCF",
       "value": -4.0,
       "categoryID": 37,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "shieldRechargeRate",
@@ -405,29 +405,29 @@
       "attribute_name": "shieldUniformity",
       "value": 0.75,
       "categoryID": 2,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "shipScanResistance",
       "value": 0.0,
       "categoryID": 9,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {
       "attribute_name": "armorUniformity",
       "value": 0.75,
       "categoryID": 3,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "structureUniformity",
       "value": 1.0,
       "categoryID": 4,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "signatureRadius",
@@ -447,8 +447,8 @@
       "attribute_name": "eliteBonusInterceptor",
       "value": -15.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "warpSpeedMultiplier",
@@ -468,29 +468,29 @@
       "attribute_name": "maxDirectionalVelocity",
       "value": 3000.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "minTargetVelDmgMultiplier",
       "value": 0.05,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "shipBonusRole7",
       "value": 375.0,
       "categoryID": 37,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "eliteBonusInterceptor2",
       "value": 5.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "upgradeCapacity",
@@ -504,84 +504,84 @@
       "value": 2.0,
       "categoryID": 1,
       "display_name": "改装件安装座",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "upgradeSlotsLeft",
       "value": 2.0,
       "categoryID": 1,
       "display_name": "改装件槽位",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "heatCapacityHi",
       "value": 100.0,
       "categoryID": 52,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "heatDissipationRateHi",
       "value": 0.01,
       "categoryID": 52,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "heatDissipationRateMed",
       "value": 0.01,
       "categoryID": 52,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "heatDissipationRateLow",
       "value": 0.01,
       "categoryID": 52,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "heatCapacityMed",
       "value": 100.0,
       "categoryID": 52,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "heatCapacityLow",
       "value": 100.0,
       "categoryID": 52,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "heatGenerationMultiplier",
       "value": 1.0,
       "categoryID": 52,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "heatAttenuationHi",
       "value": 0.5,
       "categoryID": 52,
       "display_name": "热量发散",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "heatAttenuationMed",
       "value": 0.63,
       "categoryID": 52,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "heatAttenuationLow",
       "value": 0.63,
       "categoryID": 52,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "droneBandwidth",
@@ -594,8 +594,8 @@
       "attribute_name": "eliteBonusInterceptorRole",
       "value": -80.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "baseWarpSpeed",
@@ -608,8 +608,8 @@
       "attribute_name": "warpBubbleImmune",
       "value": 0.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "rigSize",
@@ -622,22 +622,22 @@
       "attribute_name": "fwLpKill",
       "value": 50.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "typeColorScheme",
       "value": 11410.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "entosisCPUPenalty",
       "value": 10000.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "energyWarfareResistance",
@@ -671,15 +671,15 @@
       "attribute_name": "shipBonusRole1",
       "value": -80.0,
       "categoryID": 37,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "shipBonusRole2",
       "value": 100.0,
       "categoryID": 37,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "shipRoleBonusWarpSpeed",

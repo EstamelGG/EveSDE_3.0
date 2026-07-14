@@ -111,15 +111,15 @@
       "attribute_name": "remoteResistanceID",
       "value": 2112.0,
       "categoryID": 36,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "属性ID"
     },
     {
       "attribute_name": "structureItemVisualFlag",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

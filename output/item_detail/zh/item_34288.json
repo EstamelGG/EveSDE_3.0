@@ -34,8 +34,8 @@
       "attribute_name": "slots",
       "value": 1.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "cpu",
@@ -63,14 +63,14 @@
       "value": 1.0,
       "categoryID": 7,
       "display_name": "单次消耗量",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "accuracyBonus",
       "value": 0.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "damageMultiplier",
@@ -98,7 +98,7 @@
       "value": 4.968,
       "categoryID": 29,
       "display_name": "炮台跟踪速度",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill1",
@@ -125,22 +125,22 @@
       "attribute_name": "requiredSkill1Level",
       "value": 5.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill2Level",
       "value": 5.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill3Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -181,8 +181,8 @@
       "attribute_name": "heatAbsorbtionRateModifier",
       "value": 0.02,
       "categoryID": 52,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "overloadDamageModifier",
@@ -209,8 +209,8 @@
       "attribute_name": "typeColorScheme",
       "value": 11461.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "reloadTime",
@@ -230,8 +230,8 @@
       "attribute_name": "resistanceKillerHull",
       "value": 1.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

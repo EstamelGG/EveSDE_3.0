@@ -13,15 +13,15 @@
       "attribute_name": "industryJobCostMultiplier",
       "value": 0.0,
       "categoryID": 7,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "x"
     },
     {
       "attribute_name": "industryBlueprintRank",
       "value": 40.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

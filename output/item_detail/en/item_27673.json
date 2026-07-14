@@ -69,15 +69,15 @@
       "attribute_name": "uniformity",
       "value": 1.0,
       "categoryID": 2,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "incapacitationRatio",
       "value": 0.001,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "scanRadarStrength",
@@ -132,22 +132,22 @@
       "attribute_name": "shieldUniformity",
       "value": 0.75,
       "categoryID": 2,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "armorUniformity",
       "value": 0.75,
       "categoryID": 3,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "structureUniformity",
       "value": 1.0,
       "categoryID": 4,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "signatureRadius",
@@ -188,15 +188,15 @@
       "attribute_name": "disallowOffensiveModifiers",
       "value": 1.0,
       "categoryID": 6,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "anchoringSecurityLevelMax",
       "value": 0.0,
       "categoryID": 7,
       "display_name": "Restricted To Security Level Of At Most",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "controlTowerMinimumDistance",
@@ -210,14 +210,14 @@
       "value": 1.0,
       "categoryID": 7,
       "display_name": "Maximum Anchoring Amount per Solar System",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "jumpHarmonics",
       "value": -5.0,
       "categoryID": 17,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "requiresIHubUpgrade",
@@ -230,7 +230,7 @@
       "attribute_name": "fighterAbilityAntiCapitalMissileResistance",
       "value": 1.0,
       "categoryID": 38,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     }
   ],

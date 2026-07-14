@@ -35,21 +35,21 @@
       "value": 2.0,
       "categoryID": 1,
       "display_name": "Low Slots",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "medSlots",
       "value": 5.0,
       "categoryID": 1,
       "display_name": "Medium Slots",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "hiSlots",
       "value": 6.0,
       "categoryID": 1,
       "display_name": "High Slots",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "powerLoad",
@@ -62,15 +62,15 @@
       "attribute_name": "powerToSpeed",
       "value": 1.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "warpFactor",
       "value": 0.0,
       "categoryID": 17,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "maxVelocity",
@@ -118,7 +118,7 @@
       "attribute_name": "scanSpeed",
       "value": 6750.0,
       "categoryID": 6,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "s"
     },
     {
@@ -167,29 +167,29 @@
       "attribute_name": "mainColor",
       "value": 16777215.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "maxPassengers",
       "value": 150.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "uniformity",
       "value": 1.0,
       "categoryID": 2,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "warpCapacitorNeed",
       "value": 1.38e-08,
       "categoryID": 17,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill1",
@@ -210,7 +210,7 @@
       "value": 7.0,
       "categoryID": 6,
       "display_name": "Maximum Locked Targets",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "scanRadarStrength",
@@ -244,15 +244,15 @@
       "attribute_name": "propulsionGraphicID",
       "value": 397.0,
       "categoryID": 31,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "gfxBoosterID",
       "value": 394.0,
       "categoryID": 31,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "shieldCapacity",
@@ -328,8 +328,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "droneCapacity",
@@ -377,22 +377,22 @@
       "attribute_name": "shieldUniformity",
       "value": 0.75,
       "categoryID": 2,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "armorUniformity",
       "value": 0.75,
       "categoryID": 3,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "structureUniformity",
       "value": 1.0,
       "categoryID": 4,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "signatureRadius",
@@ -434,14 +434,14 @@
       "value": 10.0,
       "categoryID": 7,
       "display_name": "Maximum Concurrent Operational Users",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "hasShipMaintenanceBay",
       "value": 1.0,
       "categoryID": 40,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "shipMaintenanceBayCapacity",
@@ -454,8 +454,8 @@
       "attribute_name": "hasFleetHangars",
       "value": 1.0,
       "categoryID": 40,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "fleetHangarCapacity",
@@ -476,84 +476,84 @@
       "value": 3.0,
       "categoryID": 1,
       "display_name": "Rig Slots",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "upgradeSlotsLeft",
       "value": 3.0,
       "categoryID": 1,
       "display_name": "Rig Slots",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "heatCapacityHi",
       "value": 100.0,
       "categoryID": 52,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "heatDissipationRateHi",
       "value": 0.01,
       "categoryID": 52,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "heatDissipationRateMed",
       "value": 0.01,
       "categoryID": 52,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "heatDissipationRateLow",
       "value": 0.01,
       "categoryID": 52,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "heatCapacityMed",
       "value": 100.0,
       "categoryID": 52,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "heatCapacityLow",
       "value": 100.0,
       "categoryID": 52,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "heatGenerationMultiplier",
       "value": 0.35,
       "categoryID": 52,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "heatAttenuationHi",
       "value": 0.76,
       "categoryID": 52,
       "display_name": "Heat Attenuation",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "heatAttenuationMed",
       "value": 0.71,
       "categoryID": 52,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "heatAttenuationLow",
       "value": 0.25,
       "categoryID": 52,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "droneBandwidth",
@@ -580,14 +580,14 @@
       "attribute_name": "roleBonusTractorBeamVelocity",
       "value": 100.0,
       "categoryID": 37,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {
       "attribute_name": "shipBonusICS2",
       "value": 3.0,
       "categoryID": 37,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {
@@ -608,8 +608,8 @@
       "attribute_name": "fwLpKill",
       "value": 1000.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "generalMiningHoldCapacity",
@@ -622,8 +622,8 @@
       "attribute_name": "typeColorScheme",
       "value": 11346.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "jumpFatigueMultiplier",
@@ -664,14 +664,14 @@
       "attribute_name": "affectedByIndustrialInvulnModule",
       "value": 1.0,
       "categoryID": 37,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "shipBonusICS3",
       "value": 1.0,
       "categoryID": 9,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {
@@ -685,71 +685,71 @@
       "attribute_name": "industrialBonusDroneDamage",
       "value": 100.0,
       "categoryID": 37,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {
       "attribute_name": "industrialCommandBonusDroneDamage",
       "value": 15.0,
       "categoryID": 37,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "industrialCommandBonusFuelConsuptionCompactIndustrialCore",
       "value": -5.0,
       "categoryID": 37,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "industrialCommandBonusMiningForemanBurstRange",
       "value": 5.0,
       "categoryID": 37,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "industrialCommandBonusShipCargoCapacity",
       "value": 5.0,
       "categoryID": 37,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "industrialCommandBonusGeneralMiningHoldCapacity",
       "value": 5.0,
       "categoryID": 37,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "industrialCommandBonusDroneOreMiningYield",
       "value": 15.0,
       "categoryID": 37,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "industrialCommandBonusDroneIceHarvestingCycleTime",
       "value": -5.0,
       "categoryID": 37,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "industrialCommandBonusDroneHitPoints",
       "value": 15.0,
       "categoryID": 37,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "isCarrierJumpConduitPassenger",
       "value": 0.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "maxDirectionalScanRange",
@@ -762,8 +762,8 @@
       "attribute_name": "integratedMiningScanner",
       "value": 1.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": [

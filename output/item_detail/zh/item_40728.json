@@ -49,7 +49,7 @@
       "value": 7.0,
       "categoryID": 6,
       "display_name": "目标锁定数上限加成",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "scanRadarStrength",
@@ -90,15 +90,15 @@
       "attribute_name": "gfxTurretID",
       "value": 13929.0,
       "categoryID": 31,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "gfxBoosterID",
       "value": 395.0,
       "categoryID": 31,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "entitySecurityStatusKillBonus",
@@ -181,15 +181,15 @@
       "attribute_name": "entityEquipmentMin",
       "value": 2.0,
       "categoryID": 19,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "entityEquipmentMax",
       "value": 3.0,
       "categoryID": 19,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "shieldRechargeRate",
@@ -203,7 +203,7 @@
       "value": 350000.0,
       "categoryID": 32,
       "display_name": "赏金",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "capacitorCapacity",
@@ -223,7 +223,7 @@
       "attribute_name": "entityMissileTypeID",
       "value": 203.0,
       "categoryID": 30,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "类别ID"
     },
     {
@@ -237,15 +237,15 @@
       "attribute_name": "entityFactionLoss",
       "value": 0.0,
       "categoryID": 32,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "entitySecurityMaxGain",
       "value": 5.0,
       "categoryID": 32,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "scanResolution",

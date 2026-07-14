@@ -27,8 +27,8 @@
       "attribute_name": "mainColor",
       "value": 5215864.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "chargeSize",
@@ -62,15 +62,15 @@
       "attribute_name": "requiredSkill1Level",
       "value": 3.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill2Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "capNeedBonus",
@@ -133,7 +133,7 @@
       "value": 256.0,
       "categoryID": 51,
       "display_name": "无效的目标类型",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "specializationCrystalMiningWastedVolumeMultiplierBonus",

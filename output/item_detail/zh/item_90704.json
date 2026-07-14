@@ -21,14 +21,14 @@
       "value": 1.0,
       "categoryID": 17,
       "display_name": "最大舰船跳跃数量",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "FilamentDescriptionMessageID",
       "value": 554518.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "filamentSpoolupTimeSeconds",

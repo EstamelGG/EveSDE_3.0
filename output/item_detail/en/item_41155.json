@@ -13,8 +13,8 @@
       "attribute_name": "mainColor",
       "value": 11646664.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "chargeSize",

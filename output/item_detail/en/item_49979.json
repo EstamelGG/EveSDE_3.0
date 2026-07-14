@@ -42,14 +42,14 @@
       "value": 17903.4583333,
       "categoryID": 7,
       "display_name": "Expiry Date",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "NonDiminishingSkillInjectorUses",
       "value": 3.0,
       "categoryID": 7,
       "display_name": "Penaltyless Skill Injections Allowed",
-      "unit_name": ""
+      "unit_name": null
     }
   ],
   "traits": []

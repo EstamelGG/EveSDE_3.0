@@ -97,28 +97,28 @@
       "attribute_name": "metaGroupID",
       "value": 4.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "entityCapacitorLevelModifierSmall",
       "value": 0.35,
       "categoryID": 7,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {
       "attribute_name": "entityCapacitorLevelModifierMedium",
       "value": 0.58,
       "categoryID": 7,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {
       "attribute_name": "entityCapacitorLevelModifierLarge",
       "value": 0.9,
       "categoryID": 7,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {
@@ -132,8 +132,8 @@
       "attribute_name": "structureItemVisualFlag",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

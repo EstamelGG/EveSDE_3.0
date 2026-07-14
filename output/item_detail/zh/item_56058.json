@@ -13,8 +13,8 @@
       "attribute_name": "miningDurationMultiplier",
       "value": -10.0,
       "categoryID": 51,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "scanResolutionBonus",
@@ -55,15 +55,15 @@
       "attribute_name": "armorRepairDurationBonus",
       "value": -10.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "shieldBoosterDurationBonus",
       "value": -10.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": [

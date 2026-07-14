@@ -34,8 +34,8 @@
       "attribute_name": "maxAttackTargets",
       "value": 1.0,
       "categoryID": 6,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "skillTimeConstant",
@@ -49,7 +49,7 @@
       "value": 0.0,
       "categoryID": 7,
       "display_name": "Level",
-      "unit_name": ""
+      "unit_name": null
     }
   ],
   "traits": []

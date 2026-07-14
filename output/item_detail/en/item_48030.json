@@ -27,8 +27,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "metaLevelOld",
@@ -42,7 +42,7 @@
       "value": 50.0,
       "categoryID": 1,
       "display_name": "Calibration cost",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "canFitShipGroup01",
@@ -56,7 +56,7 @@
       "value": 1.0,
       "categoryID": 9,
       "display_name": "Max Modules Of This Group Allowed",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "rigSize",
@@ -69,21 +69,21 @@
       "attribute_name": "metaGroupID",
       "value": 4.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "structureItemVisualFlag",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "structureServiceRoleBonus",
       "value": -15.0,
       "categoryID": 9,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {

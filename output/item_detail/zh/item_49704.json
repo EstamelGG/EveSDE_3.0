@@ -14,7 +14,7 @@
       "value": 256000.0,
       "categoryID": 7,
       "display_name": "技能点",
-      "unit_name": ""
+      "unit_name": null
     }
   ],
   "traits": []

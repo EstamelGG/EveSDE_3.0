@@ -62,8 +62,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -104,8 +104,8 @@
       "attribute_name": "maxGroupActive",
       "value": 1.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "canFitShipType1",
@@ -126,7 +126,7 @@
       "value": 1.0,
       "categoryID": 9,
       "display_name": "该武器组所允许的最大装备数量",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "disallowActivateInForcefield",
@@ -153,43 +153,43 @@
       "attribute_name": "warfareBuff1ID",
       "value": 48.0,
       "categoryID": 37,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "warfareBuff1Value",
       "value": 30.0,
       "categoryID": 37,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "warfareBuff2ID",
       "value": 49.0,
       "categoryID": 37,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "warfareBuff2Value",
       "value": -10.0,
       "categoryID": 37,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "warfareBuff3ID",
       "value": 50.0,
       "categoryID": 37,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "warfareBuff3Value",
       "value": 15.0,
       "categoryID": 37,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "buffDuration",
@@ -202,15 +202,15 @@
       "attribute_name": "warfareBuff4ID",
       "value": 53.0,
       "categoryID": 37,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "warfareBuff4Value",
       "value": -10.0,
       "categoryID": 37,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

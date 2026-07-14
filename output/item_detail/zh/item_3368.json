@@ -48,28 +48,28 @@
       "attribute_name": "requiredSkill1Level",
       "value": 2.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill2Level",
       "value": 3.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "skillLevel",
       "value": 0.0,
       "categoryID": 7,
       "display_name": "等级",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "baseDefenderAllyCost",
       "value": 10000000.0,
       "categoryID": 7,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "星币"
     },
     {
@@ -77,7 +77,7 @@
       "value": -5.0,
       "categoryID": 7,
       "display_name": "每等级盟军费用乘数百分比",
-      "unit_name": ""
+      "unit_name": null
     }
   ],
   "traits": []

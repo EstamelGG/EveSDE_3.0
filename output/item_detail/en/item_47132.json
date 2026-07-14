@@ -42,7 +42,7 @@
       "value": 6.0,
       "categoryID": 6,
       "display_name": "Maximum Locked Targets",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "scanRadarStrength",
@@ -125,15 +125,15 @@
       "attribute_name": "shieldUniformity",
       "value": 1.0,
       "categoryID": 2,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "structureUniformity",
       "value": 1.0,
       "categoryID": 4,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "signatureRadius",
@@ -216,7 +216,7 @@
       "attribute_name": "fighterAbilityStasisWebifierSpeedPenaltyInterim",
       "value": 0.0,
       "categoryID": 34,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {
@@ -237,14 +237,14 @@
       "attribute_name": "fighterAbilityStasisWebifierResistanceID",
       "value": 0.0,
       "categoryID": 34,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "attributeID"
     },
     {
       "attribute_name": "fighterAbilityAntiFighterMissileResistance",
       "value": 1.0,
       "categoryID": 38,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {
@@ -266,14 +266,14 @@
       "value": 0.0,
       "categoryID": 34,
       "display_name": "Warp Disruption Strength (Per Fighter)",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "fighterAbilityWarpDisruptionPointStrengthInterim",
       "value": 0.0,
       "categoryID": 34,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "fighterAbilityEnergyNeutralizerDuration",
@@ -308,7 +308,7 @@
       "value": 3.0,
       "categoryID": 38,
       "display_name": "Squadron Size",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "fighterAbilityECMDuration",
@@ -343,56 +343,56 @@
       "value": 1.6,
       "categoryID": 34,
       "display_name": "Gravimetric ECM Jammer Strength (Per Fighter)",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "fighterAbilityECMStrengthLadar",
       "value": 1.6,
       "categoryID": 34,
       "display_name": "Ladar ECM Jammer Strength (Per Fighter)",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "fighterAbilityECMStrengthMagnetometric",
       "value": 1.6,
       "categoryID": 34,
       "display_name": "Magnetometric ECM Jammer Strength (Per Fighter)",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "fighterAbilityECMStrengthRadar",
       "value": 1.6,
       "categoryID": 34,
       "display_name": "Radar ECM Jammer Strength (Per Fighter)",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "fighterAbilityECMTargetSuccess",
       "value": 0.0,
       "categoryID": 34,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "fighterAbilityECMTargetJam",
       "value": 0.0,
       "categoryID": 34,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "fighterSquadronRole",
       "value": 3.0,
       "categoryID": 38,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "structureItemVisualFlag",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "fighterRefuelingTime",
@@ -405,8 +405,8 @@
       "attribute_name": "fighterSquadronIsStandupSupport",
       "value": 1.0,
       "categoryID": 38,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

@@ -48,14 +48,14 @@
       "attribute_name": "explosionRange",
       "value": 15000.0,
       "categoryID": 9,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "m"
     },
     {
       "attribute_name": "detonationRange",
       "value": 35.0,
       "categoryID": 9,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "m"
     },
     {
@@ -111,8 +111,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 4.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "explosionDelay",
@@ -132,8 +132,8 @@
       "attribute_name": "structureUniformity",
       "value": 1.0,
       "categoryID": 4,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "signatureRadius",
@@ -153,8 +153,8 @@
       "attribute_name": "aimedLaunch",
       "value": 1.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "aoeCloudSize",
@@ -174,15 +174,15 @@
       "attribute_name": "remoteResistanceID",
       "value": 2045.0,
       "categoryID": 36,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "属性ID"
     },
     {
       "attribute_name": "allowInFullyCorruptedLowSec",
       "value": 1.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

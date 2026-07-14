@@ -49,7 +49,7 @@
       "value": 1.0,
       "categoryID": 7,
       "display_name": "单次消耗量",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "damageMultiplier",
@@ -104,8 +104,8 @@
       "attribute_name": "uniformity",
       "value": 1.0,
       "categoryID": 2,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "proximityRange",
@@ -118,8 +118,8 @@
       "attribute_name": "incapacitationRatio",
       "value": 0.001,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "falloff",
@@ -133,7 +133,7 @@
       "value": 0.06,
       "categoryID": 29,
       "display_name": "炮台跟踪速度",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill1",
@@ -147,7 +147,7 @@
       "value": 1.0,
       "categoryID": 6,
       "display_name": "目标锁定数上限加成",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "scanRadarStrength",
@@ -181,8 +181,8 @@
       "attribute_name": "gfxTurretID",
       "value": 562.0,
       "categoryID": 31,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "shieldCapacity",
@@ -202,36 +202,36 @@
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "entityFlyRange",
       "value": 10000.0,
       "categoryID": 17,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "entityReactionFactor",
       "value": 0.5,
       "categoryID": 6,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "entityAttackDelayMin",
       "value": 7500.0,
       "categoryID": 6,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "entityAttackDelayMax",
       "value": 30000.0,
       "categoryID": 6,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "shieldRechargeRate",
@@ -244,22 +244,22 @@
       "attribute_name": "shieldUniformity",
       "value": 0.75,
       "categoryID": 2,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "armorUniformity",
       "value": 0.75,
       "categoryID": 3,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "structureUniformity",
       "value": 1.0,
       "categoryID": 4,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "signatureRadius",
@@ -314,22 +314,22 @@
       "attribute_name": "targetSwitchDelay",
       "value": 60000.0,
       "categoryID": 9,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "s"
     },
     {
       "attribute_name": "ammoCapacity",
       "value": 10000.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "disallowOffensiveModifiers",
       "value": 1.0,
       "categoryID": 6,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "controlTowerMinimumDistance",
@@ -349,14 +349,14 @@
       "attribute_name": "typeColorScheme",
       "value": 11331.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "fighterAbilityAntiCapitalMissileResistance",
       "value": 1.0,
       "categoryID": 38,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     }
   ],

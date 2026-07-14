@@ -34,8 +34,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -62,8 +62,8 @@
       "attribute_name": "subSystemSlot",
       "value": 128.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "hiSlotModifier",
@@ -97,36 +97,36 @@
       "attribute_name": "subsystemBonusCaldariPropulsion",
       "value": -15.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "subsystemBonusCaldariPropulsion2",
       "value": 10.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "shipBonusRole1",
       "value": -80.0,
       "categoryID": 37,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "shipBonusRole2",
       "value": 100.0,
       "categoryID": 37,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "agilityBonusAdd",
       "value": 0.1,
       "categoryID": 7,
       "display_name": "Additional Inertia Modifier",
-      "unit_name": ""
+      "unit_name": null
     }
   ],
   "traits": [

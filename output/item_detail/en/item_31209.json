@@ -35,7 +35,7 @@
       "value": 300.0,
       "categoryID": 1,
       "display_name": "Calibration cost",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "accessDifficultyBonusModifier",
@@ -56,7 +56,7 @@
       "value": 20.0,
       "categoryID": 9,
       "display_name": "Virus Coherence Bonus",
-      "unit_name": ""
+      "unit_name": null
     }
   ],
   "traits": []

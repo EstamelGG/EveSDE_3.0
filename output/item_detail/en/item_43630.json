@@ -14,14 +14,14 @@
       "value": 1500000.0,
       "categoryID": 7,
       "display_name": "Character Skill Point Limit",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "containedSkillPoints",
       "value": 25000.0,
       "categoryID": 7,
       "display_name": "Skill Points",
-      "unit_name": ""
+      "unit_name": null
     }
   ],
   "traits": []

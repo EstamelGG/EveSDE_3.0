@@ -62,15 +62,15 @@
       "attribute_name": "uniformity",
       "value": 0.75,
       "categoryID": 2,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "incapacitationRatio",
       "value": 0.001,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "scanRadarStrength",
@@ -125,15 +125,15 @@
       "attribute_name": "armorUniformity",
       "value": 0.75,
       "categoryID": 3,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "structureUniformity",
       "value": 1.0,
       "categoryID": 4,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "signatureRadius",
@@ -195,22 +195,22 @@
       "attribute_name": "disallowOffensiveModifiers",
       "value": 1.0,
       "categoryID": 6,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "jumpPortalConsumptionMassFactor",
       "value": 1.5e-09,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "anchoringSecurityLevelMax",
       "value": 0.0,
       "categoryID": 7,
       "display_name": "仅限于安全等级不超过",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "controlTowerMinimumDistance",
@@ -224,7 +224,7 @@
       "value": 1.0,
       "categoryID": 7,
       "display_name": "每星系锚定数上限",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "posCargobayAcceptType",
@@ -244,7 +244,7 @@
       "attribute_name": "fighterAbilityAntiCapitalMissileResistance",
       "value": 1.0,
       "categoryID": 38,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     }
   ],

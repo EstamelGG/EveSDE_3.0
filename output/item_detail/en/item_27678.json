@@ -56,35 +56,35 @@
       "value": 5.0,
       "categoryID": 25,
       "display_name": "Gravimetric ECM Jammer Strength",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "scanLadarStrengthBonus",
       "value": 5.0,
       "categoryID": 25,
       "display_name": "Ladar ECM Jammer Strength",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "scanMagnetometricStrengthBonus",
       "value": 5.0,
       "categoryID": 25,
       "display_name": "Magnetometric ECM Jammer Strength",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "scanRadarStrengthBonus",
       "value": 5.0,
       "categoryID": 25,
       "display_name": "RADAR ECM Jammer Strength",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -118,22 +118,22 @@
       "attribute_name": "maxGroupActive",
       "value": 1.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "siegeModeWarpStatus",
       "value": 100.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "disallowEarlyDeactivation",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "disallowRepeatingActivation",
@@ -146,8 +146,8 @@
       "attribute_name": "canCloak",
       "value": 0.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "canFitShipGroup01",
@@ -161,13 +161,13 @@
       "value": 1.0,
       "categoryID": 9,
       "display_name": "Max Modules Of This Group Allowed",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "remoteResistanceID",
       "value": 2253.0,
       "categoryID": 36,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "attributeID"
     },
     {
@@ -181,8 +181,8 @@
       "attribute_name": "isPointTargeted",
       "value": 1.0,
       "categoryID": 6,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "doomsdayAOERange",
@@ -224,14 +224,14 @@
       "value": 4.0,
       "categoryID": 39,
       "display_name": "Shape of Superweapon Effect",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "doomsdayRangeIsFixed",
       "value": 0.0,
       "categoryID": 39,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

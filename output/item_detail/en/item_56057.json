@@ -42,13 +42,13 @@
       "value": 25.0,
       "categoryID": 9,
       "display_name": "Virus Coherence Bonus",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "disallowCloaking",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "1=True 0=False"
     },
     {

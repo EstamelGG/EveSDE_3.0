@@ -34,7 +34,7 @@
       "attribute_name": "detonationRange",
       "value": 35.0,
       "categoryID": 9,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "m"
     },
     {
@@ -69,8 +69,8 @@
       "attribute_name": "armorPiercingChance",
       "value": 1.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "chargeSize",
@@ -97,8 +97,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "explosionDelay",
@@ -118,22 +118,22 @@
       "attribute_name": "structureUniformity",
       "value": 1.0,
       "categoryID": 4,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "baseShieldDamage",
       "value": 0.0,
       "categoryID": 7,
       "display_name": "护盾伤害基数",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "baseArmorDamage",
       "value": 0.0,
       "categoryID": 7,
       "display_name": "装甲伤害基数",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "metaLevelOld",
@@ -146,8 +146,8 @@
       "attribute_name": "aimedLaunch",
       "value": 1.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "dotDuration",

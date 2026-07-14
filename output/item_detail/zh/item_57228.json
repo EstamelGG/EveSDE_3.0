@@ -49,7 +49,7 @@
       "value": 18717.125,
       "categoryID": 7,
       "display_name": "有效期",
-      "unit_name": ""
+      "unit_name": null
     }
   ],
   "traits": []

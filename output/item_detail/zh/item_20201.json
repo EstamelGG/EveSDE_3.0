@@ -63,35 +63,35 @@
       "value": 3.1,
       "categoryID": 25,
       "display_name": "引力ECM干扰强度",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "scanLadarStrengthBonus",
       "value": 3.1,
       "categoryID": 25,
       "display_name": "光雷达ECM干扰强度",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "scanMagnetometricStrengthBonus",
       "value": 3.1,
       "categoryID": 25,
       "display_name": "磁力ECM干扰强度",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "scanRadarStrengthBonus",
       "value": 3.1,
       "categoryID": 25,
       "display_name": "雷达ECM干扰强度",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -111,15 +111,15 @@
       "attribute_name": "ewTargetJam",
       "value": 0.0,
       "categoryID": 25,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "heatAbsorbtionRateModifier",
       "value": 0.01,
       "categoryID": 52,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "heatDamage",
@@ -146,8 +146,8 @@
       "attribute_name": "metaGroupID",
       "value": 5.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "falloffEffectiveness",
@@ -160,7 +160,7 @@
       "attribute_name": "remoteResistanceID",
       "value": 2253.0,
       "categoryID": 36,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "属性ID"
     }
   ],

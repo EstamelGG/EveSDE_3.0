@@ -28,21 +28,21 @@
       "value": 3.0,
       "categoryID": 1,
       "display_name": "Low Slots",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "medSlots",
       "value": 4.0,
       "categoryID": 1,
       "display_name": "Medium Slots",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "hiSlots",
       "value": 4.0,
       "categoryID": 1,
       "display_name": "High Slots",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "cpuOutput",
@@ -69,7 +69,7 @@
       "attribute_name": "scanSpeed",
       "value": 2500.0,
       "categoryID": 6,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "s"
     },
     {
@@ -111,15 +111,15 @@
       "attribute_name": "uniformity",
       "value": 1.0,
       "categoryID": 2,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "maxLockedTargets",
       "value": 7.0,
       "categoryID": 6,
       "display_name": "Maximum Locked Targets",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "scanRadarStrength",
@@ -237,22 +237,22 @@
       "attribute_name": "shieldUniformity",
       "value": 1.0,
       "categoryID": 2,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "armorUniformity",
       "value": 1.0,
       "categoryID": 3,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "structureUniformity",
       "value": 1.0,
       "categoryID": 4,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "signatureRadius",
@@ -287,14 +287,14 @@
       "value": 3.0,
       "categoryID": 1,
       "display_name": "Rig Slots",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "upgradeSlotsLeft",
       "value": 3.0,
       "categoryID": 1,
       "display_name": "Rig Slots",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "rigSize",
@@ -307,14 +307,14 @@
       "attribute_name": "tierDifficulty",
       "value": 3.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "hackable",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "1=True 0=False"
     },
     {
@@ -357,7 +357,7 @@
       "value": 3.0,
       "categoryID": 1,
       "display_name": "Service Slots",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "sensorDampenerResistance",
@@ -399,13 +399,13 @@
       "value": 3.0,
       "categoryID": 38,
       "display_name": "Fighter Squadron Launch Tubes",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "fighterAbilityAntiCapitalMissileResistance",
       "value": 1.0,
       "categoryID": 38,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {
@@ -426,21 +426,21 @@
       "attribute_name": "structureRoleBonus",
       "value": 25.0,
       "categoryID": 9,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {
       "attribute_name": "structureServiceRoleBonus",
       "value": -25.0,
       "categoryID": 9,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {
       "attribute_name": "fighterAbilityKamikazeResistance",
       "value": 1.0,
       "categoryID": 38,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "%"
     },
     {
@@ -448,41 +448,41 @@
       "value": 3.0,
       "categoryID": 38,
       "display_name": "Standup Light Fighter Squadron Limit",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "fighterStandupSupportSlots",
       "value": 1.0,
       "categoryID": 38,
       "display_name": "Standup Support Fighter Squadron Limit",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "fighterStandupHeavySlots",
       "value": 0.0,
       "categoryID": 38,
       "display_name": "Standup Heavy Fighter Squadrons Limit",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "structureFullPowerStateHitpointMultiplier",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "hiddenMissileDamageMultiplier",
       "value": 1.0,
       "categoryID": 30,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "x"
     },
     {
       "attribute_name": "hiddenArmorHPMultiplier",
       "value": 1.0,
       "categoryID": 3,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "x"
     },
     {
@@ -496,8 +496,8 @@
       "attribute_name": "structurePowerStateArmorPlatingMultiplier",
       "value": 0.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "structureRequiresDeedType",

@@ -27,8 +27,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -49,7 +49,7 @@
       "value": 150.0,
       "categoryID": 1,
       "display_name": "校准值消耗",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "canFitShipGroup01",
@@ -77,7 +77,7 @@
       "value": 1.0,
       "categoryID": 9,
       "display_name": "该武器组所允许的最大装备数量",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "rigSize",
@@ -90,8 +90,8 @@
       "attribute_name": "structureItemVisualFlag",
       "value": 1.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "hiSecModifier",
@@ -118,8 +118,8 @@
       "attribute_name": "securityModifier",
       "value": 1.0,
       "categoryID": 37,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

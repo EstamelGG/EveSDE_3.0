@@ -34,8 +34,8 @@
       "attribute_name": "requiredSkill1Level",
       "value": 1.0,
       "categoryID": 8,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "techLevel",
@@ -69,8 +69,8 @@
       "attribute_name": "cloakingCpuNeedBonus",
       "value": 0.0,
       "categoryID": 9,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "covertOpsAndReconOpsCloakModuleDelay",
@@ -83,8 +83,8 @@
       "attribute_name": "subSystemSlot",
       "value": 126.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "hiSlotModifier",
@@ -118,29 +118,29 @@
       "attribute_name": "subsystemBonusAmarrDefensive",
       "value": 7.5,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "subsystemBonusAmarrDefensive2",
       "value": 10.0,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "virusStrengthBonus",
       "value": 10.0,
       "categoryID": 7,
       "display_name": "Analyzer Virus Strength Bonus",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "subsystemBonusAmarrDefensive3",
       "value": 7.5,
       "categoryID": 7,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "structureHPBonusAdd",
@@ -160,15 +160,15 @@
       "attribute_name": "isBlackOpsJumpPortalPassenger",
       "value": 1.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     },
     {
       "attribute_name": "isBlackOpsJumpConduitPassenger",
       "value": 1.0,
       "categoryID": 0,
-      "display_name": "",
-      "unit_name": ""
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": [

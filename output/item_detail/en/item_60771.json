@@ -14,7 +14,7 @@
       "value": 0.15,
       "categoryID": 31,
       "display_name": "Asteroid radius size multiplier",
-      "unit_name": ""
+      "unit_name": null
     },
     {
       "attribute_name": "asteroidRadiusUnitSize",
@@ -27,7 +27,7 @@
       "attribute_name": "oreBasicType",
       "value": 1230.0,
       "categoryID": 7,
-      "display_name": "",
+      "display_name": null,
       "unit_name": "typeID"
     }
   ],
