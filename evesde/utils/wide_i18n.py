@@ -2,23 +2,37 @@
 # -*- coding: utf-8 -*-
 """SDE 多语宽列：de_name / en_description 等，不含裸 name / description 列。"""
 
-from typing import Any, Dict, List, Tuple
+from typing import Any, Dict, List, Optional, Tuple
 
 LANGS: Tuple[str, ...] = ("de", "en", "es", "fr", "ja", "ko", "ru", "zh")
 
 NAME_COLS: List[str] = [f"{lang}_name" for lang in LANGS]
 DESC_COLS: List[str] = [f"{lang}_description" for lang in LANGS]
 
+TextMap = Dict[str, Optional[str]]
 
-def wide_texts(value: Any) -> Dict[str, str]:
+
+def _norm(value: Any) -> Optional[str]:
     if value is None:
-        return {lang: "" for lang in LANGS}
+        return None
+    text = str(value)
+    return text or None
+
+
+def wide_texts(value: Any) -> TextMap:
+    if value is None:
+        return {lang: None for lang in LANGS}
     if isinstance(value, str):
-        return {lang: value for lang in LANGS}
+        text = value or None
+        return {lang: text for lang in LANGS}
     if not isinstance(value, dict):
-        return {lang: "" for lang in LANGS}
-    en = str(value.get("en") or "")
-    return {lang: str(value.get(lang) or en) for lang in LANGS}
+        return {lang: None for lang in LANGS}
+    en = _norm(value.get("en"))
+    out: TextMap = {}
+    for lang in LANGS:
+        text = _norm(value.get(lang))
+        out[lang] = text if text is not None else en
+    return out
 
 
 def prefixed_name_cols(prefix: str) -> List[str]:
@@ -39,7 +53,7 @@ def descs_ddl(prefix: str = "") -> str:
     return ",\n                ".join(f"{c} TEXT" for c in cols)
 
 
-def names_row(texts: Dict[str, str]) -> Tuple[str, ...]:
+def names_row(texts: TextMap) -> Tuple[Optional[str], ...]:
     return tuple(texts[lang] for lang in LANGS)
 
 
@@ -64,9 +78,9 @@ def contents_ddl(prefix: str = "") -> str:
     return ",\n                ".join(f"{c} TEXT" for c in cols)
 
 
-def contents_row(texts: Dict[str, str]) -> Tuple[str, ...]:
+def contents_row(texts: TextMap) -> Tuple[Optional[str], ...]:
     return tuple(texts[lang] for lang in LANGS)
 
 
-def row_to_texts(row: tuple) -> Dict[str, str]:
-    return {lang: (row[i] or "") for i, lang in enumerate(LANGS)}
+def row_to_texts(row: tuple) -> TextMap:
+    return {lang: row[i] for i, lang in enumerate(LANGS)}

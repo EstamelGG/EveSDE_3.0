@@ -218,7 +218,7 @@ class DogmaAttributesProcessor:
             icon_filename = self.get_icon_filename(icon_id)
             
             unit_id = attr_data.get('unitID', None)
-            unit_names = {lang: "" for lang in LANGS}
+            unit_names = {lang: None for lang in LANGS}
             if unit_id is not None and unit_id in self.units_data:
                 unit_data = self.units_data[unit_id]
                 unit_names = wide_texts(unit_data.get('displayName'))
