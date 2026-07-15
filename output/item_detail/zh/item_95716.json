@@ -1,7 +1,7 @@
 {
   "type_id": 95716,
-  "name": "Ranking Vanguard Resonant Cypher",
-  "description": "A more valuable cypher used to encrypt or decrypt a strand of a ranking member of the Vanguard’s resonant consciousness. \n\nThese cyphers are only shared with those who have earned the Vanguard’s trust. The theft or recreation of a Resonant Cypher is a sign of malicious intent against the Vanguard and is considered a heinous crime by the Avalon Flotilla.\n\nAvalon Flotilla Traders will gladly trade for any Vanguard Resonant Cyphers that have been either earned or recovered from their enemies.",
+  "name": "先锋共振密码卡排名",
+  "description": "一种更有价值的密码卡，用于加密或解密先锋高级成员的共振意识片段。只有赢得先锋信任的人，才会获准持有这种密码卡。窃取或仿制共振密码卡均被视为对先锋怀有恶意，并被阿瓦隆分舰队认定为重罪。无论是由先锋队自行赚取，还是从敌人手中收缴的共振密码卡，阿瓦隆舰队贸易官均十分乐意进行交易。",
   "volume": 0.1,
   "repackaged_volume": null,
   "capacity": null,
