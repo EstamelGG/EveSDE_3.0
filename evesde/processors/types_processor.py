@@ -52,6 +52,12 @@ WORMHOLE_SIZE_MAP = {
     5000000: {"zh": "S(驱逐舰)", "other": "S(Destroyer)"}
 }
 
+# 描述文本池的哈希 ID 长度（SHA-256 前 N 个十六进制字符）。
+# 16 字符 = 64 位，~50k 文本的碰撞概率 ≈ 7e-11（可忽略）。
+# desc_id 为内容哈希而非排序位置，确保相同内容跨构建得到相同 ID，
+# 避免 sqldiff 因文本池排序偏移产生海量虚假 UPDATE。
+HASH_LEN = 16
+
 # 全局缓存
 type_en_name_cache = {}
 
@@ -237,25 +243,27 @@ class TypesProcessor:
 
     def create_texts_table(self, cursor: sqlite3.Cursor):
         """创建全局文本池表，对 description 做跨行去重。
-        内部用整数序号；写入 types.*_desc_id 与 texts.json 时转为无前缀十六进制键（0,1,…,a,…,f,10,…）。
+        id 为内容的 SHA-256 哈希（前 HASH_LEN 个十六进制字符），直接作为
+        types.*_desc_id 的值与 texts.json 的键。
+        相同内容跨构建得到相同 ID，避免文本池排序偏移导致 sqldiff 产生虚假差异。
         构建末尾会调用 export_texts_to_json 将 texts 拆分为独立 JSON 文件。"""
         cursor.execute('DROP TABLE IF EXISTS texts')
         cursor.execute('''
             CREATE TABLE texts (
-                id INTEGER PRIMARY KEY,
+                id TEXT PRIMARY KEY,
                 content TEXT
             ) WITHOUT ROWID
         ''')
-        print("[+] 创建texts表（description 文本池）")
+        print("[+] 创建texts表（description 文本池，哈希 ID）")
 
     @staticmethod
-    def text_id_hex(seq: int) -> str:
-        """序号 → 无前缀小写十六进制字符串。"""
-        return format(seq, "x")
+    def content_hash(content: str) -> str:
+        """内容 → SHA-256 前 HASH_LEN 个十六进制字符（稳定 ID，不随文本池排序变化）。"""
+        return hashlib.sha256(content.encode("utf-8")).hexdigest()[:HASH_LEN]
 
     def export_texts_to_json(self, conn: sqlite3.Connection):
         """将 texts 表导出为 zip 压缩的 JSON 对象并从数据库中移除。
-        格式: {"0":"...","1":"...","a":"...","10":"..."}，indent=2 便于阅读。"""
+        格式: {"<哈希>":"...","<哈希>":"..."}，键为内容 SHA-256 哈希，indent=2 便于阅读。"""
         import zipfile
 
         cur = conn.cursor()
@@ -264,9 +272,10 @@ class TypesProcessor:
         if not all_rows:
             return
 
+        # id 已为内容哈希字符串，直接作为 texts.json 的键
         texts_obj = {
-            self.text_id_hex(i): (content if content else "")
-            for i, content in all_rows
+            text_id: (content if content else "")
+            for text_id, content in all_rows
         }
         json_bytes = json.dumps(texts_obj, ensure_ascii=False, indent=2).encode("utf-8")
 
@@ -596,6 +605,7 @@ class TypesProcessor:
         repackaged_volumes = read_repackaged_volumes()
 
         # 构建文本池：收集所有非空 description 文本，去重后写入 texts 表
+        # desc_id 为内容的 SHA-256 哈希，确保相同内容跨构建得到相同 ID
         all_texts = set()
         for item in types_data.values():
             descs = wide_texts(item.get('description'))
@@ -603,15 +613,21 @@ class TypesProcessor:
                 if descs[lang]:
                     all_texts.add(descs[lang])
         sorted_texts = sorted(all_texts)
+        text_to_id = {content: self.content_hash(content) for content in sorted_texts}
+
+        # 碰撞检测（64 位哈希 + ~50k 文本，碰撞概率 ≈ 7e-11）
+        if len(set(text_to_id.values())) != len(text_to_id):
+            raise RuntimeError(
+                f"文本池哈希碰撞：{len(text_to_id)} 条文本 → {len(set(text_to_id.values()))} 个唯一哈希，"
+                f"请增大 HASH_LEN（当前 {HASH_LEN}）"
+            )
+
         if sorted_texts:
             cursor.executemany(
                 "INSERT INTO texts (id, content) VALUES (?, ?)",
-                [(i, t) for i, t in enumerate(sorted_texts)],
+                [(text_to_id[t], t) for t in sorted_texts],
             )
-        text_to_id = {
-            content: self.text_id_hex(i) for i, content in enumerate(sorted_texts)
-        }
-        print(f"[+] 文本池去重: {len(text_to_id):,} 个唯一描述文本（desc_id 为十六进制）")
+        print(f"[+] 文本池去重: {len(text_to_id):,} 个唯一描述文本（desc_id 为内容哈希）")
 
         # 如果是英文数据库，建立英文名称映射
         if lang == 'en':

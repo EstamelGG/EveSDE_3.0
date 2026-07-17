@@ -8,6 +8,7 @@ Release比较处理器
 from evesde.paths import PROJECT_ROOT
 import json
 import os
+import re
 import zipfile
 import subprocess
 import difflib
@@ -17,6 +18,26 @@ from pathlib import Path
 from evesde.utils.http_client import get
 from datetime import datetime
 from typing import Dict, List, Any, Optional, Tuple, Union
+
+
+# types 表的 8 个描述文本 ID 列；当 UPDATE types 仅修改这些列时，表示仅描述文本内容
+# 变化而物品其他属性未变——在差异样例中视为噪声予以过滤。
+_DESC_ID_COLUMNS = frozenset({
+    "de_desc_id", "en_desc_id", "es_desc_id", "fr_desc_id",
+    "ja_desc_id", "ko_desc_id", "ru_desc_id", "zh_desc_id",
+})
+
+# 匹配 UPDATE <table> SET <cols...> WHERE ...，捕获表名与 SET 子句
+_UPDATE_RE = re.compile(r'^UPDATE\s+"?(?P<table>\w+)"?\s+SET\s+(?P<set>.+?)\s+WHERE\s', re.IGNORECASE)
+
+# 从 SET 子句提取列名（仅在子句起始或逗号后出现，避免匹配值内的 =）
+_SET_COL_RE = re.compile(r'(?:^|,\s*)"?(?P<col>\w+)"?\s*=', re.IGNORECASE)
+
+# 匹配 INSERT INTO / UPDATE / DELETE FROM <table>，用于按表分组统计
+_TABLE_RE = re.compile(
+    r'^(?:INSERT\s+INTO|UPDATE|DELETE\s+FROM)\s+"?(?P<table>\w+)"?',
+    re.IGNORECASE,
+)
 
 
 class ReleaseCompareProcessor:
@@ -286,7 +307,24 @@ class ReleaseCompareProcessor:
                 if result.returncode == 0:
                     if result.stdout.strip():
                         lines = result.stdout.strip().split("\n")
-                        # 摘要统计，避免整库 SQL 写入导致报告超 100MB
+
+                        # 过滤：UPDATE types 仅修改 *_desc_id 列的语句——表示仅描述文本
+                        # 内容变化而物品其他属性未变，在差异样例中视为噪声
+                        filtered_lines = []
+                        desc_only_count = 0
+                        for line in lines:
+                            m = _UPDATE_RE.match(line)
+                            if m and m.group("table").lower() == "types":
+                                set_cols = set(
+                                    c.lower()
+                                    for c in _SET_COL_RE.findall(m.group("set"))
+                                )
+                                if set_cols and set_cols.issubset(_DESC_ID_COLUMNS):
+                                    desc_only_count += 1
+                                    continue
+                            filtered_lines.append(line)
+
+                        # 原始摘要统计（反映真实变化规模）
                         inserts = sum(1 for L in lines if L.startswith("INSERT"))
                         updates = sum(1 for L in lines if L.startswith("UPDATE"))
                         deletes = sum(1 for L in lines if L.startswith("DELETE"))
@@ -296,16 +334,55 @@ class ReleaseCompareProcessor:
                         self.write_md(f"- INSERT: {inserts} / UPDATE: {updates} / DELETE: {deletes}")
                         if other:
                             self.write_md(f" / 其他: {other}")
-                        self.write_md("\n\n")
-
-                        max_sql_lines = 200
-                        self.write_md(f"**差异样例**（前 {min(max_sql_lines, len(lines))} 行）:\n")
-                        self.write_md("```sql\n")
-                        for line in lines[:max_sql_lines]:
-                            self.write_md(f"{line}\n")
-                        if len(lines) > max_sql_lines:
+                        self.write_md("\n")
+                        if desc_only_count:
                             self.write_md(
-                                f"-- ... 另有 {len(lines) - max_sql_lines} 行未列出\n"
+                                f"- 其中 **{desc_only_count}** 条仅为描述文本 ID 变化"
+                                f"（UPDATE types 仅含 *_desc_id 列，已从下方样例与表统计中过滤）\n"
+                            )
+                        self.write_md("\n")
+
+                        # 按表分组统计（基于过滤后的语句，聚焦有意义的变化）
+                        table_stats: Dict[str, Dict[str, int]] = {}
+                        for line in filtered_lines:
+                            m = _TABLE_RE.match(line)
+                            if m:
+                                table = m.group("table")
+                                op = line.split()[0].upper()
+                                if op not in ("INSERT", "UPDATE", "DELETE"):
+                                    continue
+                                table_stats.setdefault(
+                                    table, {"INSERT": 0, "UPDATE": 0, "DELETE": 0}
+                                )
+                                table_stats[table][op] += 1
+
+                        if table_stats:
+                            label = "已过滤 desc_id-only" if desc_only_count else "差异"
+                            self.write_md(f"**按表统计**（{label}）:\n\n")
+                            self.write_md("| 表 | INSERT | UPDATE | DELETE | 合计 |\n")
+                            self.write_md("|---|---|---|---|---|\n")
+                            for table in sorted(table_stats.keys()):
+                                s = table_stats[table]
+                                total = s["INSERT"] + s["UPDATE"] + s["DELETE"]
+                                self.write_md(
+                                    f"| {table} | {s['INSERT']} | {s['UPDATE']} | {s['DELETE']} | {total} |\n"
+                                )
+                            self.write_md("\n")
+
+                        # 差异样例（过滤后）
+                        max_sql_lines = 200
+                        sample_label = (
+                            "已过滤 desc_id-only" if desc_only_count else "前"
+                        )
+                        self.write_md(
+                            f"**差异样例**（{sample_label} {min(max_sql_lines, len(filtered_lines))} 行）:\n"
+                        )
+                        self.write_md("```sql\n")
+                        for line in filtered_lines[:max_sql_lines]:
+                            self.write_md(f"{line}\n")
+                        if len(filtered_lines) > max_sql_lines:
+                            self.write_md(
+                                f"-- ... 另有 {len(filtered_lines) - max_sql_lines} 行未列出\n"
                             )
                         self.write_md("```\n\n")
                     else:

@@ -849,7 +849,6 @@ class ItemChangesAnalyzer:
             lines.append(blueprint_comparison)
             
             # 添加物品属性变更部分
-            lines.append("\n")
             attribute_changes = self.create_attribute_changes_markdown(items_with_attribute_changes)
             lines.append(attribute_changes)
             
