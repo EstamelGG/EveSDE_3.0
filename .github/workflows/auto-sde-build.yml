@@ -19,11 +19,11 @@ on:
         default: false
         type: boolean
   # 定时构建已暂时禁用；需要时取消下方 schedule 注释
-  # schedule:
-  #   - cron: '20 11 * * *' # 北京时间 19:20
-  #   - cron: '40 11 * * *' # 北京时间 19:40
-  #   - cron: '0 13 * * *'  # 北京时间 21:00
-  #   - cron: '0 0 * * *'   # 北京时间 8:00
+  schedule:
+    - cron: '20 11 * * *' # 北京时间 19:20
+    - cron: '40 11 * * *' # 北京时间 19:40
+    - cron: '0 13 * * *'  # 北京时间 21:00
+    - cron: '0 0 * * *'   # 北京时间 8:00
 
 concurrency:
   group: ${{ github.workflow }}
