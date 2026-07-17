@@ -577,5 +577,12 @@
       "unit_name": "m"
     }
   ],
-  "traits": []
+  "traits": [
+    {
+      "content": "Can fit <a href=showinfo:11578>Covert Ops Cloaking Device</a>"
+    },
+    {
+      "content": "Can fit <a href=showinfo:58919>Interdiction Nullifier</a>"
+    }
+  ]
 }

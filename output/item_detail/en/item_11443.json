@@ -1,7 +1,7 @@
 {
   "type_id": 11443,
   "name": "Hydromagnetic Physics",
-  "description": "Skill and knowledge of Hydromagnetic Physics and its use in the development of advanced technology . \n\nUsed primarily in the research of shield system.\n\nAllows Hydromagnetic Physics research to be performed with the help of a research agent. \n\nNeeded for all research and manufacturing operations on related blueprints. 1% reduction in manufacturing time for all items requiring Hydromagnetic Physics per level.",
+  "description": "Skill and knowledge of Hydromagnetic Physics and its use in the development of advanced technology. \n\nUsed primarily in the research of shield systems.\n\nAllows Hydromagnetic Physics research to be performed with the help of a research agent. \n\nNeeded for all research and manufacturing operations on related blueprints. 1% reduction in manufacturing time for all items requiring Hydromagnetic Physics per level.",
   "volume": 0.01,
   "repackaged_volume": null,
   "capacity": null,
