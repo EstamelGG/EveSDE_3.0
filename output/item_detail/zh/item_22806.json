@@ -1,7 +1,7 @@
 {
   "type_id": 22806,
   "name": "电磁装甲补偿理论",
-  "description": "每升一级，装甲附甲和电压薄膜的电磁抗性提高5%。",
+  "description": "每升一级，装甲抗性涂层和电压薄膜的电磁抗性提高5%。",
   "volume": 0.01,
   "repackaged_volume": null,
   "capacity": null,

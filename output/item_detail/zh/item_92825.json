@@ -1,6 +1,6 @@
 {
   "type_id": 92825,
-  "name": "伊米尔级",
+  "name": "Horde Mode - Proximity Effect - Capacitor Capacity (DO NOT TRANSLATE)",
   "description": "随着YC128年冲突的升级，赛毕斯托阿卡萨·米杜拉司令呼吁“核心局面公司”打造一个更高级的作战平台，以支援她认为对米玛塔尔在接下来战争中取得胜利至关重要的快速反应舰队。核心局面公司在尼铎格尔级的经典设计基础上，利用最新的舰队支援技术对其进行了升级。卓越的指挥支援技术，能显著提升其舰队成员的速度与生存能力。它完美体现了共和国的军事理念，并融合了核心局面公司与赛毕斯托部族引以为傲的尖端技术。",
   "volume": 11250000.0,
   "repackaged_volume": 1300000.0,
@@ -982,7 +982,7 @@
       "content": "<b>20%</b> <a href=showinfo:83094>导管跳跃</a>容量增加"
     },
     {
-      "content": "<b>5%</b> <a href=showinfo:3350>护盾指挥</a>脉冲波强度和持续时间加成"
+      "content": "<b>5%</b> <a href=showinfo:3350>护盾指挥</a>和<a href=showinfo:3349>游击战指挥</a>脉冲波强度和持续时间加成"
     },
     {
       "content": "<b>5%</b> <a href=showinfo:83465>旗舰级微型跳跃引擎</a>和<a href=showinfo:83485>旗舰级微型跳跃力场发生器</a>加速时间减少"

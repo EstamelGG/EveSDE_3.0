@@ -1,7 +1,7 @@
 {
   "type_id": 92371,
   "name": "Veldspar 0-Grade",
-  "description": "This low purity cluster of Veldspar offers 50% lower yield than those typically found throughout wider New Eden. It is most commonly located within the region of Exordium.\n\nVeldspar is the most common ore type in the central regions of known universe. It is still in constant demand as it holds a large portion of the much-used Tritanium mineral.",
+  "description": "Veldspar is the most common ore type in the central regions of known universe. It is still in constant demand as it holds a large portion of the much-used <a href=showinfo:34>Tritanium</a> mineral.\n\nAvailable primarily in high security status star systems.",
   "volume": 0.1,
   "repackaged_volume": null,
   "capacity": null,

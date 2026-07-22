@@ -1,7 +1,7 @@
 {
   "type_id": 3402,
   "name": "科学原理",
-  "description": "理解科学原理的基本技能。每升一级，蓝图复制的速度提升5%。",
+  "description": "对科学原理的基本理解。蓝图复制速度提高1%。",
   "volume": 0.01,
   "repackaged_volume": null,
   "capacity": null,

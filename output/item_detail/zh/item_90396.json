@@ -1,7 +1,7 @@
 {
   "type_id": 90396,
   "name": "血袭者箱",
-  "description": "一批血袭者战利品储藏箱，其中始终包含一份舰船蓝图副本。",
+  "description": "血袭者战利品库中总会包含一份舰船蓝图副本。",
   "volume": 1.0,
   "repackaged_volume": null,
   "capacity": null,
