@@ -7,7 +7,7 @@
   "capacity": 30.0,
   "mass": 1000000.0,
   "category_name": "舰船",
-  "group_name": "特别版运载舰游艇",
+  "group_name": "特别版游艇",
   "attributes": [
     {
       "attribute_name": "damage",

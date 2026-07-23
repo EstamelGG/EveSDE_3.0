@@ -1,7 +1,7 @@
 {
   "type_id": 3403,
   "name": "研究概论",
-  "description": "擅长研究更高效的生产方法。蓝图制造时间研究减少5%。",
+  "description": "研究更高效生产方法的技能。每升一级，蓝图时间效率研究的速度提升5%。",
   "volume": 0.01,
   "repackaged_volume": null,
   "capacity": null,
