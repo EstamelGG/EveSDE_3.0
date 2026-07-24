@@ -18,6 +18,109 @@ from collections import defaultdict
 import evesde.processors.jsonl_loader as jsonl_loader
 
 
+# 每类最多列出的图标数（避免报告过长无法入库）
+_ICON_LIST_MAX = 200
+
+
+def _read_zip_png_hashes(zip_path: Path) -> Dict[str, str]:
+    """读取 zip 中所有 PNG 文件，返回 {文件名: 内容 SHA256}"""
+    result: Dict[str, str] = {}
+    try:
+        with zipfile.ZipFile(zip_path, 'r') as zf:
+            for info in zf.infolist():
+                if info.is_dir():
+                    continue
+                # 只关心 PNG 图标；取不带路径的文件名作为键
+                name = info.filename.rsplit('/', 1)[-1]
+                if not name.lower().endswith('.png'):
+                    continue
+                content = zf.read(info.filename)
+                result[name] = hashlib.sha256(content).hexdigest()
+    except Exception as e:
+        print(f"[!] 读取 zip 失败 {zip_path}: {e}")
+    return result
+
+
+def compare_icon_zips(old_zip: Optional[Path], new_zip: Optional[Path]) -> Dict[str, List[str]]:
+    """对比两个 icons.zip，返回新增/删除/修改的图标文件列表（基于内容 SHA256）。
+
+    任一 zip 不存在时返回空列表三件套。
+    """
+    empty: Dict[str, List[str]] = {'added': [], 'removed': [], 'modified': []}
+    if not old_zip or not new_zip:
+        return empty
+    if not Path(old_zip).exists() or not Path(new_zip).exists():
+        print(f"[!] icons.zip 不存在，跳过图标对比")
+        return empty
+
+    print(f"[+] 对比 icons.zip ...")
+    old_hashes = _read_zip_png_hashes(Path(old_zip))
+    new_hashes = _read_zip_png_hashes(Path(new_zip))
+
+    old_keys = set(old_hashes.keys())
+    new_keys = set(new_hashes.keys())
+
+    added = sorted(new_keys - old_keys)
+    removed = sorted(old_keys - new_keys)
+    modified = sorted(n for n in (old_keys & new_keys) if old_hashes[n] != new_hashes[n])
+
+    print(f"[+] 图标对比: 新增 {len(added)}，删除 {len(removed)}，修改 {len(modified)}")
+    return {'added': added, 'removed': removed, 'modified': modified}
+
+
+def format_icon_changes_markdown(
+    changes: Dict[str, List[str]],
+    top_heading: str = "# 图标文件变更",
+    sub_heading_prefix: str = "##",
+) -> str:
+    """把 compare_icon_zips 的结果格式化为 Markdown 文本。
+
+    Args:
+        changes: compare_icon_zips 的返回值
+        top_heading: 顶层标题（如 whats_new 用 "# 图标文件变更"，release_compare 用 "## 图标文件比较"）
+        sub_heading_prefix: 子标题前缀（whats_new 用 "##"，release_compare 顶层已是 ## 时可用 "###"）
+    """
+    added = changes.get('added', [])
+    removed = changes.get('removed', [])
+    modified = changes.get('modified', [])
+
+    lines = [f"{top_heading}\n\n"]
+
+    if not added and not removed and not modified:
+        lines.append("本次更新未发现图标文件变更。\n\n")
+        return ''.join(lines)
+
+    lines.append(f"- 新增图标: {len(added)} 个\n")
+    lines.append(f"- 删除图标: {len(removed)} 个\n")
+    lines.append(f"- 修改图标: {len(modified)} 个\n\n")
+
+    if added:
+        lines.append(f"{sub_heading_prefix} 新增图标\n\n")
+        for name in added[:_ICON_LIST_MAX]:
+            lines.append(f"- `{name}`\n")
+        if len(added) > _ICON_LIST_MAX:
+            lines.append(f"... 等共 {len(added)} 个\n")
+        lines.append("\n")
+
+    if removed:
+        lines.append(f"{sub_heading_prefix} 删除图标\n\n")
+        for name in removed[:_ICON_LIST_MAX]:
+            lines.append(f"- `{name}`\n")
+        if len(removed) > _ICON_LIST_MAX:
+            lines.append(f"... 等共 {len(removed)} 个\n")
+        lines.append("\n")
+
+    if modified:
+        lines.append(f"{sub_heading_prefix} 修改图标\n\n")
+        for name in modified[:_ICON_LIST_MAX]:
+            lines.append(f"- `{name}`\n")
+        if len(modified) > _ICON_LIST_MAX:
+            lines.append(f"... 等共 {len(modified)} 个\n")
+        lines.append("\n")
+
+    return ''.join(lines)
+
+
 class ItemChangesAnalyzer:
     """物品变更分析器"""
     
@@ -328,91 +431,11 @@ class ItemChangesAnalyzer:
     
     def analyze_icon_changes(self) -> Dict[str, List[str]]:
         """对比新旧 icons.zip，返回新增/删除/修改的图标文件列表（基于内容 SHA256）"""
-        added: List[str] = []
-        removed: List[str] = []
-        modified: List[str] = []
-
-        if not self.old_icons_zip or not self.current_icons_zip:
-            return {'added': added, 'removed': removed, 'modified': modified}
-        if not self.old_icons_zip.exists() or not self.current_icons_zip.exists():
-            print(f"[!] icons.zip 不存在，跳过图标对比")
-            return {'added': added, 'removed': removed, 'modified': modified}
-
-        print("[+] 对比 icons.zip ...")
-
-        def read_zip_hashes(zip_path: Path) -> Dict[str, str]:
-            result: Dict[str, str] = {}
-            try:
-                with zipfile.ZipFile(zip_path, 'r') as zf:
-                    for info in zf.infolist():
-                        if info.is_dir():
-                            continue
-                        # 只关心 png 图标
-                        name = info.filename.rsplit('/', 1)[-1]
-                        if not name.lower().endswith('.png'):
-                            continue
-                        content = zf.read(info.filename)
-                        result[name] = hashlib.sha256(content).hexdigest()
-            except Exception as e:
-                print(f"[!] 读取 zip 失败 {zip_path}: {e}")
-            return result
-
-        old_hashes = read_zip_hashes(self.old_icons_zip)
-        new_hashes = read_zip_hashes(self.current_icons_zip)
-
-        old_keys = set(old_hashes.keys())
-        new_keys = set(new_hashes.keys())
-
-        added = sorted(new_keys - old_keys)
-        removed = sorted(old_keys - new_keys)
-        modified = sorted([n for n in (old_keys & new_keys) if old_hashes[n] != new_hashes[n]])
-
-        print(f"[+] 图标对比: 新增 {len(added)}，删除 {len(removed)}，修改 {len(modified)}")
-        return {'added': added, 'removed': removed, 'modified': modified}
+        return compare_icon_zips(self.old_icons_zip, self.current_icons_zip)
 
     def create_icon_changes_markdown(self, icon_changes: Dict[str, List[str]]) -> str:
         """生成图标变更 Markdown"""
-        added = icon_changes.get('added', [])
-        removed = icon_changes.get('removed', [])
-        modified = icon_changes.get('modified', [])
-
-        lines = ["# 图标文件变更\n\n"]
-
-        if not added and not removed and not modified:
-            lines.append("本次更新未发现图标文件变更。\n\n")
-            return ''.join(lines)
-
-        lines.append(f"- 新增图标: {len(added)} 个\n")
-        lines.append(f"- 删除图标: {len(removed)} 个\n")
-        lines.append(f"- 修改图标: {len(modified)} 个\n\n")
-
-        max_show = 200  # 每类最多列出 200 个
-
-        if added:
-            lines.append("## 新增图标\n\n")
-            for name in added[:max_show]:
-                lines.append(f"- `{name}`\n")
-            if len(added) > max_show:
-                lines.append(f"... 等共 {len(added)} 个\n")
-            lines.append("\n")
-
-        if removed:
-            lines.append("## 删除图标\n\n")
-            for name in removed[:max_show]:
-                lines.append(f"- `{name}`\n")
-            if len(removed) > max_show:
-                lines.append(f"... 等共 {len(removed)} 个\n")
-            lines.append("\n")
-
-        if modified:
-            lines.append("## 修改图标\n\n")
-            for name in modified[:max_show]:
-                lines.append(f"- `{name}`\n")
-            if len(modified) > max_show:
-                lines.append(f"... 等共 {len(modified)} 个\n")
-            lines.append("\n")
-
-        return ''.join(lines)
+        return format_icon_changes_markdown(icon_changes)
 
     def analyze_blueprint_changes(self) -> Dict[str, Any]:
         """分析蓝图变更"""

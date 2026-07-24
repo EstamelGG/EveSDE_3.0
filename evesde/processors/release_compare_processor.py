@@ -19,6 +19,12 @@ from evesde.utils.http_client import get
 from datetime import datetime
 from typing import Dict, List, Any, Optional, Tuple, Union
 
+# 复用 item_changes_analyzer 中的图标对比逻辑，保证两份报告输出格式一致
+from evesde.processors.item_changes_analyzer import (
+    compare_icon_zips,
+    format_icon_changes_markdown,
+)
+
 
 # types 表的 8 个描述文本 ID 列；当 UPDATE types 仅修改这些列时，表示仅描述文本内容
 # 变化而物品其他属性未变——在差异样例中视为噪声予以过滤。
@@ -177,91 +183,32 @@ class ReleaseCompareProcessor:
             return False
     
     def compare_icons(self) -> bool:
-        """比较图标文件差异（直接比较ZIP文件内容）"""
+        """比较图标文件差异（基于 PNG 内容 SHA256，能识别同名文件内容修改）"""
         try:
-            self.write_md("## 图标文件比较\n\n")
-            
-            # 当前版本图标ZIP文件
             current_icons_zip = self.output_icons_path / "icons.zip"
             old_icons_zip = self.temp_dir / "icons.zip"
-            
+
             if not current_icons_zip.exists():
+                self.write_md("## 图标文件比较\n\n")
                 self.write_md("当前版本图标ZIP文件不存在\n\n")
                 return False
-            
+
             if not old_icons_zip.exists():
+                self.write_md("## 图标文件比较\n\n")
                 self.write_md("旧版本图标ZIP文件不存在\n\n")
                 return False
-            
-            # 读取ZIP文件内容列表
-            current_files = set()
-            old_files = set()
-            
-            # 读取当前版本ZIP文件列表
-            with zipfile.ZipFile(current_icons_zip, 'r') as zip_ref:
-                current_files = set(zip_ref.namelist())
-            
-            # 读取旧版本ZIP文件列表
-            with zipfile.ZipFile(old_icons_zip, 'r') as zip_ref:
-                old_files = set(zip_ref.namelist())
-            
-            # 分析差异
-            added_files = current_files - old_files
-            removed_files = old_files - current_files
-            common_files = current_files & old_files
-            
-            # 记录到Markdown
-            self.write_md(f"**文件统计**:\n")
-            self.write_md(f"- 当前版本: {len(current_files)} 个文件\n")
-            self.write_md(f"- 旧版本: {len(old_files)} 个文件\n")
-            self.write_md(f"- 新增: {len(added_files)} 个文件\n")
-            self.write_md(f"- 删除: {len(removed_files)} 个文件\n")
-            self.write_md(f"- 共同: {len(common_files)} 个文件\n\n")
-            
-            # 详细列出新增/删除（截断，避免报告过大无法入库）
-            max_list = 100
-            if added_files:
-                self.write_md(f"**新增文件** ({len(added_files)} 个):\n")
-                for file_name in sorted(added_files)[:max_list]:
-                    self.write_md(f"- `{file_name}`\n")
-                if len(added_files) > max_list:
-                    self.write_md(f"- ... 另有 {len(added_files) - max_list} 个未列出\n")
-                self.write_md("\n")
 
-            if removed_files:
-                self.write_md(f"**删除文件** ({len(removed_files)} 个):\n")
-                for file_name in sorted(removed_files)[:max_list]:
-                    self.write_md(f"- `{file_name}`\n")
-                if len(removed_files) > max_list:
-                    self.write_md(f"- ... 另有 {len(removed_files) - max_list} 个未列出\n")
-                self.write_md("\n")
-            
-            # 检查文件大小变化（只检查前10个文件，避免输出过多）
-            changed_files = []
-            for file_name in sorted(common_files)[:10]:
-                try:
-                    with zipfile.ZipFile(current_icons_zip, 'r') as current_zip:
-                        current_info = current_zip.getinfo(file_name)
-                        current_size = current_info.file_size
-                    
-                    with zipfile.ZipFile(old_icons_zip, 'r') as old_zip:
-                        old_info = old_zip.getinfo(file_name)
-                        old_size = old_info.file_size
-                    
-                    if current_size != old_size:
-                        changed_files.append(f"{file_name} ({old_size} -> {current_size} bytes)")
-                except KeyError:
-                    # 文件在某个ZIP中不存在，跳过
-                    continue
-            
-            if changed_files:
-                self.write_md(f"**内容变化文件** ({len(changed_files)} 个):\n")
-                for file_name in changed_files:
-                    self.write_md(f"- `{file_name}`\n")
-                self.write_md("\n")
-            
+            # 复用统一的 SHA256 内容对比逻辑
+            changes = compare_icon_zips(old_icons_zip, current_icons_zip)
+            # release_compare 的顶层标题用 ##（# 留给报告标题），子标题用 ###
+            md = format_icon_changes_markdown(
+                changes,
+                top_heading="## 图标文件比较",
+                sub_heading_prefix="###",
+            )
+            self.write_md(md)
             return True
-            
+
         except Exception as e:
             return False
     
