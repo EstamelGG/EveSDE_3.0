@@ -84,6 +84,38 @@ def get_latest_release_info(github_repo: str) -> Optional[Dict[str, Any]]:
         return None
 
 
+def download_previous_icons_zip(release_info: Dict[str, Any], output_dir: Path) -> Optional[Path]:
+    """从上一版本 Release 下载 icons.zip 资产"""
+    assets = release_info.get('assets', []) or []
+    icons_asset = next((a for a in assets if a.get('name') == 'icons.zip'), None)
+    if not icons_asset:
+        print("[!] 上一版本 Release 未包含 icons.zip 资产，跳过图标对比")
+        return None
+
+    download_url = icons_asset.get('browser_download_url')
+    if not download_url:
+        print("[!] icons.zip 资产缺少 browser_download_url")
+        return None
+
+    output_path = output_dir / "previous_icons.zip"
+    try:
+        print(f"[+] 下载上一版本 icons.zip: {download_url}")
+        headers = {'User-Agent': 'EVE-SDE-Processor'}
+        token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
+        if token:
+            headers["Authorization"] = f"Bearer {token}"
+        response = get(download_url, stream=True, timeout=300, verify=False, headers=headers)
+        with open(output_path, 'wb') as f:
+            for chunk in response.iter_content(chunk_size=8192):
+                if chunk:
+                    f.write(chunk)
+        print(f"[+] 上一版本 icons.zip 已下载: {output_path}")
+        return output_path
+    except Exception as e:
+        print(f"[!] 下载上一版本 icons.zip 失败: {e}")
+        return None
+
+
 def extract_build_number_from_tag(tag_name: str) -> Optional[str]:
     """从 tag_name 中提取原始 CCP build_number（去除补丁后缀）
     例如: "sde-build-3201939.01" -> "3201939", "sde-build-3201939" -> "3201939"
@@ -309,12 +341,23 @@ def main():
         print(f"[+] 开始生成 whats_new 报告...")
         print(f"    输出文件: {whats_new_path}")
         
+        # 下载上一版本 icons.zip 用于图标对比
+        old_icons_zip = download_previous_icons_zip(release_info, temp_dir)
+        
+        # 当前版本 icons.zip（在 build 之后才有）
+        current_icons_zip = project_root / config["paths"]["icons_output"] / "icons.zip"
+        if not current_icons_zip.exists():
+            print(f"[!] 当前版本 icons.zip 不存在: {current_icons_zip}，跳过图标对比")
+            current_icons_zip = None
+        
         # 调用 item_changes_analyzer 生成报告
         success = item_changes_analyzer.main(
             config,
             old_jsonl_path,
             current_jsonl_path,
-            whats_new_path
+            whats_new_path,
+            old_icons_zip=old_icons_zip,
+            current_icons_zip=current_icons_zip,
         )
         
         if not success:

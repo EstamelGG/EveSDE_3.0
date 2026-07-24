@@ -10,8 +10,10 @@
 from evesde.paths import PROJECT_ROOT
 import json
 import re
+import zipfile
+import hashlib
 from pathlib import Path
-from typing import Dict, List, Any, Optional, Set
+from typing import Dict, List, Any, Optional, Set, Tuple
 from collections import defaultdict
 import evesde.processors.jsonl_loader as jsonl_loader
 
@@ -19,18 +21,23 @@ import evesde.processors.jsonl_loader as jsonl_loader
 class ItemChangesAnalyzer:
     """物品变更分析器"""
     
-    def __init__(self, config: Dict[str, Any], old_jsonl_path: Path, current_jsonl_path: Path):
+    def __init__(self, config: Dict[str, Any], old_jsonl_path: Path, current_jsonl_path: Path,
+                 old_icons_zip: Optional[Path] = None, current_icons_zip: Optional[Path] = None):
         """初始化分析器
         
         Args:
             config: 配置字典
             old_jsonl_path: 旧版本 JSONL 文件目录路径
             current_jsonl_path: 当前版本 JSONL 文件目录路径
+            old_icons_zip: 旧版本 icons.zip 路径（可选，用于图标对比）
+            current_icons_zip: 当前版本 icons.zip 路径（可选，用于图标对比）
         """
         self.config = config
         self.old_jsonl_path = old_jsonl_path
         self.current_jsonl_path = current_jsonl_path
         self.project_root = PROJECT_ROOT
+        self.old_icons_zip = old_icons_zip
+        self.current_icons_zip = current_icons_zip
         
         # 缓存数据
         self.current_types_data = {}
@@ -319,6 +326,94 @@ class ItemChangesAnalyzer:
         
         return items_with_changes
     
+    def analyze_icon_changes(self) -> Dict[str, List[str]]:
+        """对比新旧 icons.zip，返回新增/删除/修改的图标文件列表（基于内容 SHA256）"""
+        added: List[str] = []
+        removed: List[str] = []
+        modified: List[str] = []
+
+        if not self.old_icons_zip or not self.current_icons_zip:
+            return {'added': added, 'removed': removed, 'modified': modified}
+        if not self.old_icons_zip.exists() or not self.current_icons_zip.exists():
+            print(f"[!] icons.zip 不存在，跳过图标对比")
+            return {'added': added, 'removed': removed, 'modified': modified}
+
+        print("[+] 对比 icons.zip ...")
+
+        def read_zip_hashes(zip_path: Path) -> Dict[str, str]:
+            result: Dict[str, str] = {}
+            try:
+                with zipfile.ZipFile(zip_path, 'r') as zf:
+                    for info in zf.infolist():
+                        if info.is_dir():
+                            continue
+                        # 只关心 png 图标
+                        name = info.filename.rsplit('/', 1)[-1]
+                        if not name.lower().endswith('.png'):
+                            continue
+                        content = zf.read(info.filename)
+                        result[name] = hashlib.sha256(content).hexdigest()
+            except Exception as e:
+                print(f"[!] 读取 zip 失败 {zip_path}: {e}")
+            return result
+
+        old_hashes = read_zip_hashes(self.old_icons_zip)
+        new_hashes = read_zip_hashes(self.current_icons_zip)
+
+        old_keys = set(old_hashes.keys())
+        new_keys = set(new_hashes.keys())
+
+        added = sorted(new_keys - old_keys)
+        removed = sorted(old_keys - new_keys)
+        modified = sorted([n for n in (old_keys & new_keys) if old_hashes[n] != new_hashes[n]])
+
+        print(f"[+] 图标对比: 新增 {len(added)}，删除 {len(removed)}，修改 {len(modified)}")
+        return {'added': added, 'removed': removed, 'modified': modified}
+
+    def create_icon_changes_markdown(self, icon_changes: Dict[str, List[str]]) -> str:
+        """生成图标变更 Markdown"""
+        added = icon_changes.get('added', [])
+        removed = icon_changes.get('removed', [])
+        modified = icon_changes.get('modified', [])
+
+        lines = ["# 图标文件变更\n\n"]
+
+        if not added and not removed and not modified:
+            lines.append("本次更新未发现图标文件变更。\n\n")
+            return ''.join(lines)
+
+        lines.append(f"- 新增图标: {len(added)} 个\n")
+        lines.append(f"- 删除图标: {len(removed)} 个\n")
+        lines.append(f"- 修改图标: {len(modified)} 个\n\n")
+
+        max_show = 200  # 每类最多列出 200 个
+
+        if added:
+            lines.append("## 新增图标\n\n")
+            for name in added[:max_show]:
+                lines.append(f"- `{name}`\n")
+            if len(added) > max_show:
+                lines.append(f"... 等共 {len(added)} 个\n")
+            lines.append("\n")
+
+        if removed:
+            lines.append("## 删除图标\n\n")
+            for name in removed[:max_show]:
+                lines.append(f"- `{name}`\n")
+            if len(removed) > max_show:
+                lines.append(f"... 等共 {len(removed)} 个\n")
+            lines.append("\n")
+
+        if modified:
+            lines.append("## 修改图标\n\n")
+            for name in modified[:max_show]:
+                lines.append(f"- `{name}`\n")
+            if len(modified) > max_show:
+                lines.append(f"... 等共 {len(modified)} 个\n")
+            lines.append("\n")
+
+        return ''.join(lines)
+
     def analyze_blueprint_changes(self) -> Dict[str, Any]:
         """分析蓝图变更"""
         print("[+] 分析蓝图变更...")
@@ -807,12 +902,14 @@ class ItemChangesAnalyzer:
                         for item in group_items:
                             description = item.get('description', '')
                             attributes = item.get('attributes')
+                            # 名称后追加 (type_id) 便于快速定位
+                            item_title = f"{item['name']}({item['type_id']})"
                             
                             if description:
-                                lines.append(f"- **{item['name']}**\n")
+                                lines.append(f"- **{item_title}**\n")
                                 lines.append(f"  - {description}\n")
                             else:
-                                lines.append(f"- **{item['name']}**\n")
+                                lines.append(f"- **{item_title}**\n")
                             
                             # 如果是目标类别且有属性信息，显示属性
                             if attributes is not None and attributes:
@@ -830,7 +927,7 @@ class ItemChangesAnalyzer:
                 lines.append("本次更新未发现新飞船。\n")
             else:
                 for ship_info in blueprint_analysis:
-                    lines.append(f"## {ship_info['ship_name']}\n")
+                    lines.append(f"## {ship_info['ship_name']}({ship_info['ship_id']})\n")
                     
                     if ship_info['status'] == "未找到蓝图":
                         lines.append("- 未找到蓝图\n")
@@ -852,6 +949,11 @@ class ItemChangesAnalyzer:
             attribute_changes = self.create_attribute_changes_markdown(items_with_attribute_changes)
             lines.append(attribute_changes)
             
+            # 添加图标文件变更部分
+            icon_changes = self.analyze_icon_changes()
+            if icon_changes.get('added') or icon_changes.get('removed') or icon_changes.get('modified'):
+                lines.append(self.create_icon_changes_markdown(icon_changes))
+            
             # 保存报告
             output_path.parent.mkdir(parents=True, exist_ok=True)
             with open(output_path, 'w', encoding='utf-8') as f:
@@ -867,7 +969,8 @@ class ItemChangesAnalyzer:
             return False
 
 
-def main(config: Dict[str, Any], old_jsonl_path: Path, current_jsonl_path: Path, output_path: Path) -> bool:
+def main(config: Dict[str, Any], old_jsonl_path: Path, current_jsonl_path: Path, output_path: Path,
+         old_icons_zip: Optional[Path] = None, current_icons_zip: Optional[Path] = None) -> bool:
     """主函数
     
     Args:
@@ -875,8 +978,11 @@ def main(config: Dict[str, Any], old_jsonl_path: Path, current_jsonl_path: Path,
         old_jsonl_path: 旧版本 JSONL 文件目录路径
         current_jsonl_path: 当前版本 JSONL 文件目录路径
         output_path: 输出文件路径
+        old_icons_zip: 旧版本 icons.zip 路径（可选）
+        current_icons_zip: 当前版本 icons.zip 路径（可选）
     """
-    analyzer = ItemChangesAnalyzer(config, old_jsonl_path, current_jsonl_path)
+    analyzer = ItemChangesAnalyzer(config, old_jsonl_path, current_jsonl_path,
+                                   old_icons_zip=old_icons_zip, current_icons_zip=current_icons_zip)
     return analyzer.generate_markdown_report(output_path)
 
 

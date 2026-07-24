@@ -128,14 +128,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: 生成 whats_new 报告
-        id: whats-new
-        env:
-          BUILD_NUMBER: ${{ needs.get-build-info.outputs.build-number }}
-          FINAL_BUILD_NUMBER: ${{ needs.get-build-info.outputs.final-build-number }}
-          GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
-        run: python -u -m evesde.processors.generate_whats_new
-
       - name: 执行SDE构建
         id: build
         env:
@@ -156,6 +148,23 @@ jobs:
           test -f output/sde/db/item_db.sqlite
           ls -lh output/icons/icons.zip output/sde/db/item_db.sqlite
 
+          if [ -d "output/item_detail/en" ] && [ -d "output/item_detail/zh" ]; then
+            echo "item-detail-extracted=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "item-detail-extracted=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 生成 whats_new 报告
+        id: whats-new
+        env:
+          BUILD_NUMBER: ${{ needs.get-build-info.outputs.build-number }}
+          FINAL_BUILD_NUMBER: ${{ needs.get-build-info.outputs.final-build-number }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python -u -m evesde.processors.generate_whats_new
+
+      - name: 打包构建产物
+        run: |
+          set -euo pipefail
           # 单文件交接；upload-artifact 不读 .gitignore，直接打 output 即可
           TAR_PATHS=(output/icons/icons.zip output/sde)
           [ -d output/whats_new ] && TAR_PATHS+=(output/whats_new)
@@ -163,12 +172,6 @@ jobs:
           [ -d output/release ] && TAR_PATHS+=(output/release)
           tar -czf dist-ci.tar.gz "${TAR_PATHS[@]}"
           ls -lh dist-ci.tar.gz
-
-          if [ -d "output/item_detail/en" ] && [ -d "output/item_detail/zh" ]; then
-            echo "item-detail-extracted=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "item-detail-extracted=false" >> "$GITHUB_OUTPUT"
-          fi
 
       - name: 上传构建产物
         uses: actions/upload-artifact@v4
