@@ -53,7 +53,7 @@ class IconProcessor:
         """加载图标索引。优先 icon_index.json（iec），回退 service_metadata.json。"""
         print("[+] 加载图标元数据...")
 
-        # iec 模式: {"6": "type_6.png", ...}
+        # iec 模式: {"6": "type_6.png", "6_bp": "type_6_bp.png", "6_bpc": "type_6_bpc.png", ...}
         index_files = list(self.icons_input_path.glob("**/icon_index.json"))
         if index_files:
             index_file = index_files[0]
@@ -61,13 +61,23 @@ class IconProcessor:
             try:
                 with open(index_file, "r", encoding="utf-8") as f:
                     raw = json.load(f)
-                # 统一为 {type_id: {"icon": filename}}，兼容后续 find_icon_from_metadata
-                metadata = {
-                    int(k): {"icon": v}
-                    for k, v in raw.items()
-                    if str(k).isdigit() and isinstance(v, str)
-                }
-                print(f"[+] 加载了 {len(metadata)} 个 Type ID 的图标索引")
+                # 统一为 {type_id: {"icon": filename, "bp": ..., "bpc": ...}}
+                metadata: Dict[int, Dict[str, str]] = {}
+                for k, v in raw.items():
+                    if not isinstance(v, str):
+                        continue
+                    k_str = str(k)
+                    if k_str.endswith("_bpc"):
+                        type_id = int(k_str[:-4])
+                        metadata.setdefault(type_id, {})["bpc"] = v
+                    elif k_str.endswith("_bp"):
+                        type_id = int(k_str[:-3])
+                        metadata.setdefault(type_id, {})["bp"] = v
+                    elif k_str.isdigit():
+                        metadata.setdefault(int(k_str), {})["icon"] = v
+                bp_count = sum(1 for m in metadata.values() if "bp" in m)
+                bpc_count = sum(1 for m in metadata.values() if "bpc" in m)
+                print(f"[+] 加载了 {len(metadata)} 个 Type ID 的图标索引 (bp: {bp_count}, bpc: {bpc_count})")
                 return metadata
             except Exception as e:
                 print(f"[x] 加载 icon_index.json 失败: {e}")
@@ -164,11 +174,13 @@ class IconProcessor:
         failed_count = 0
         
         for variant in variants:
-            # 根据变体确定输出文件名
-            if variant == 'bpc':
-                output_filename = f"type_{type_id}_bpc_64.png"
+            # 根据变体确定输出文件名（无尺寸后缀）
+            if variant == 'bp':
+                output_filename = f"type_{type_id}_bp.png"
+            elif variant == 'bpc':
+                output_filename = f"type_{type_id}_bpc.png"
             else:
-                output_filename = f"type_{type_id}_64.png"
+                output_filename = f"type_{type_id}.png"
             
             output_path = self.icons_output_path / output_filename
             

@@ -413,6 +413,8 @@ class TypesProcessor:
         图标在 eve_icon_builder 构造阶段已完成去重和命名（type_{id}.png），
         此处仅做透传复制，无需额外去重或重命名。
 
+        返回 (icon_filename, bpc_icon_filename)。bpc 图标仅在蓝图物品上存在。
+
         参数:
         - type_id: 物品类型ID
         - category_id: 物品分类ID，91/2118 无图标
@@ -436,7 +438,21 @@ class TypesProcessor:
             print(f"[!] 复制图标失败 type_id={type_id}: {e}")
             return None, None
 
-        return icon_filename, None
+        # 蓝图复制图标（bpc）：同物品可能还有一个 bpc 变体图标
+        bpc_icon_filename = self.icon_metadata.get(f"{type_id}_bpc")
+        bpc_copied = None
+        if bpc_icon_filename:
+            bpc_input = self.icons_input_path / bpc_icon_filename
+            if bpc_input.exists():
+                bpc_output = self.custom_icons_path / bpc_icon_filename
+                try:
+                    if not bpc_output.exists():
+                        shutil.copy2(bpc_input, bpc_output)
+                    bpc_copied = bpc_icon_filename
+                except Exception as e:
+                    print(f"[!] 复制 bpc 图标失败 type_id={type_id}: {e}")
+
+        return icon_filename, bpc_copied
     
     def get_attributes_value(self, cursor: sqlite3.Cursor, type_id: int, attribute_ids: List[int]) -> Tuple:
         """

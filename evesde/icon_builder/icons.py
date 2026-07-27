@@ -562,7 +562,6 @@ def _generate_output(output_mode: str, output_params: dict, icon_dir: Path,
     
     elif output_mode == 'iec':
         out_path = Path(output_params['out'])
-        # 确保输出目录存在
         out_path.parent.mkdir(parents=True, exist_ok=True)
         if log_file:
             log_file.write(f"写入IEC归档到 {out_path}\n")
@@ -570,25 +569,51 @@ def _generate_output(output_mode: str, output_params: dict, icon_dir: Path,
         # 去重：相同源文件(hash)的图标共享首个 type 的输出文件名
         hash_to_output: Dict[str, str] = {}
         icon_index: Dict[str, str] = {}
+        bp_count = 0
+        bpc_count = 0
 
         with ZipFile(out_path, 'w', ZIP_STORED) as zf:
             for type_id, icons in service_metadata.items():
-                if IconKind.ICON not in icons:
-                    continue
-                filename = icons[IconKind.ICON]
-                if filename not in hash_to_output:
-                    output_name = f"type_{type_id}.png"
-                    hash_to_output[filename] = output_name
-                    if log_file:
-                        log_file.write(f"\t{filename} -> {output_name}\n")
-                    zf.write(icon_dir / filename, output_name)
-                icon_index[str(type_id)] = hash_to_output[filename]
+                if IconKind.ICON in icons:
+                    filename = icons[IconKind.ICON]
+                    if filename not in hash_to_output:
+                        output_name = f"type_{type_id}.png"
+                        hash_to_output[filename] = output_name
+                        if log_file:
+                            log_file.write(f"\t{filename} -> {output_name}\n")
+                        zf.write(icon_dir / filename, output_name)
+                    icon_index[str(type_id)] = hash_to_output[filename]
 
-            # 写入图标索引（type_id → 文件名映射）
+                # 蓝图图标（bp）—— 仅在 bp ≠ icon 时单独导出
+                if (IconKind.BLUEPRINT in icons and
+                        icons[IconKind.BLUEPRINT] != icons.get(IconKind.ICON)):
+                    bp_filename = icons[IconKind.BLUEPRINT]
+                    if bp_filename not in hash_to_output:
+                        bp_output = f"type_{type_id}_bp.png"
+                        hash_to_output[bp_filename] = bp_output
+                        if log_file:
+                            log_file.write(f"\t{bp_filename} -> {bp_output}\n")
+                        zf.write(icon_dir / bp_filename, bp_output)
+                    icon_index[f"{type_id}_bp"] = hash_to_output[bp_filename]
+                    bp_count += 1
+
+                # 蓝图复制图标（bpc）
+                if IconKind.BLUEPRINT_COPY in icons:
+                    bpc_filename = icons[IconKind.BLUEPRINT_COPY]
+                    if bpc_filename not in hash_to_output:
+                        bpc_output = f"type_{type_id}_bpc.png"
+                        hash_to_output[bpc_filename] = bpc_output
+                        if log_file:
+                            log_file.write(f"\t{bpc_filename} -> {bpc_output}\n")
+                        zf.write(icon_dir / bpc_filename, bpc_output)
+                    icon_index[f"{type_id}_bpc"] = hash_to_output[bpc_filename]
+                    bpc_count += 1
+
+            # 写入图标索引（type_id → 文件名映射，bpc/bp 用 _bpc/_bp 后缀键）
             zf.writestr('icon_index.json', json.dumps(icon_index, ensure_ascii=False))
 
         if not silent_mode:
-            print(f"\t输出 {len(hash_to_output)} 个唯一图标，索引 {len(icon_index)} 个映射")
+            print(f"\t输出 {len(hash_to_output)} 个唯一图标，索引 {len(icon_index)} 个映射 (bp: {bp_count}, bpc: {bpc_count})")
     
     elif output_mode == 'web_dir':
         out_dir = Path(output_params['out'])
