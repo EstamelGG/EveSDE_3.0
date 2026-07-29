@@ -1,7 +1,7 @@
 {
   "type_id": 25235,
   "name": "Contracting",
-  "description": "This skill allows you to create formal agreements with other characters. \n\nFor each level of this skill the number of outstanding contracts is increased by four (up to a maximum of 21 at level 5)",
+  "description": "This skill allows you to create formal agreements with other characters. \n\nFor each level of this skill the number of outstanding contracts is increased by four (up to a maximum of 21 at level 5).",
   "volume": 0.01,
   "repackaged_volume": null,
   "capacity": null,
