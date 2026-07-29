@@ -166,18 +166,13 @@ class MapGenerator:
         }
 
     def compute_region_center(self, region_id: int) -> Dict[str, float]:
-        """计算星域中心点（该星域所有星系 position2D 缩放后的平均值）"""
-        systems = [
-            s
-            for s in self.map_solar_systems.values()
-            if s.get("regionID") == region_id and s.get("position2D")
-        ]
-        if not systems:
+        """计算星域中心点（使用区域自身的 3D position，转为 2D：x_2D = x_3D, y_2D = z_3D）"""
+        region = self.map_regions.get(region_id, {})
+        pos3d = region.get("position")
+        if not pos3d:
             return {"x": 0.0, "y": 0.0}
-        scaled = [self.scale_coord(s["position2D"]) for s in systems]
-        cx = sum(c["x"] for c in scaled) / len(scaled)
-        cy = sum(c["y"] for c in scaled) / len(scaled)
-        return {"x": round(cx, 1), "y": round(cy, 1)}
+        pos2d = {"x": pos3d["x"], "y": pos3d["z"]}
+        return self.scale_coord(pos2d)
 
     def build_systems_data(self, system_neighbors: Dict[int, List[int]]) -> Tuple[list, dict]:
         """构建星域数据列表和按星域分组的星系数据（已排除虫洞）。"""
