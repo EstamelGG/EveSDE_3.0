@@ -135,7 +135,7 @@ def check_network_connectivity() -> bool:
     for url in test_urls:
         try:
             print(f"[+] 检查URL: {url}")
-            response = session.head(url, allow_redirects=True)
+            response = session.get(url, allow_redirects=True)
             if response.status_code == 200:
                 print(f"[+] URL可访问: {url}")
             else:
