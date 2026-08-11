@@ -878,11 +878,11 @@
       "unit_name": "attributeID"
     },
     {
-      "attribute_name": "conduitPassengerBonusPercent",
-      "value": 100.0,
+      "attribute_name": "conduitPassengerBonusModAdd",
+      "value": 0.0,
       "categoryID": 17,
       "display_name": "Conduit Passenger Bonus",
-      "unit_name": "%"
+      "unit_name": null
     },
     {
       "attribute_name": "isCarrierJumpConduitPassenger",

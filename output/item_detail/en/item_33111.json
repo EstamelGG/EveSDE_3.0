@@ -1,7 +1,7 @@
 {
   "type_id": 33111,
   "name": "Prototype Cerebral Accelerator",
-  "description": "Cerebral accelerators are military-grade boosters that significantly increase a new pilot's skill development. This technology is usually available only to naval officers, but CONCORD has authorized the release of a small number to particularly promising freelance capsuleers.<br><br>This booster primes the brain's neural pathways and hippocampus, making it much more receptive to intensive remapping. This allows new capsuleers to more rapidly absorb information of all kinds.<br><br>The only drawback to this booster is that capsuleer training renders it ineffective after a while; as such, it will cease to function for pilots who have been registered for more than 14 days.<br><br>\nBonuses: +9 to all attributes",
+  "description": "Cerebral accelerators are military-grade boosters that significantly increase a new pilot's skill development. This technology is usually available only to naval officers, but CONCORD has authorized the release of a small number to particularly promising freelance capsuleers.<br><br>This booster primes the brain's neural pathways and hippocampus, making it much more receptive to intensive remapping. This allows new capsuleers to more rapidly absorb information of all kinds.<br><br>The only drawback to this booster is that capsuleer training renders it ineffective after a while; as such, it will cease to function for pilots who have been registered for more than 14 days.<br>\nBonuses: +9 to all attributes",
   "volume": 1.0,
   "repackaged_volume": null,
   "capacity": null,

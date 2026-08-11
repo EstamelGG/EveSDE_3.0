@@ -1,7 +1,7 @@
 {
   "type_id": 83094,
   "name": "Capital Jump Portal Generation",
-  "description": "Skill for the generation of jump portals to distant solar systems. \n\n100% increase to the maximum number of ships that can be moved with a capital ship conduit jump per level.",
+  "description": "Skill for the generation of jump portals to distant solar systems. \n\nEach level increases the number of ships that can be moved with a capital ship conduit jump by 5 per level.",
   "volume": 0.01,
   "repackaged_volume": null,
   "capacity": null,
@@ -55,6 +55,13 @@
       "attribute_name": "canNotBeTrainedOnTrial",
       "value": 1.0,
       "categoryID": 9,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "conduitPassengerBonusModAddSkill",
+      "value": 5.0,
+      "categoryID": 0,
       "display_name": null,
       "unit_name": null
     }

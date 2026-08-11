@@ -57,6 +57,13 @@
       "categoryID": 9,
       "display_name": null,
       "unit_name": null
+    },
+    {
+      "attribute_name": "conduitPassengerBonusModAddSkill",
+      "value": 5.0,
+      "categoryID": 0,
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

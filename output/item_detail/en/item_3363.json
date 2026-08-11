@@ -1,7 +1,7 @@
 {
   "type_id": 3363,
   "name": "Corporation Management",
-  "description": "Basic corporation operation. +20 corporation members allowed per level.\n\nNote: The CEO must update his corporation through the corporation user interface before the skill takes effect",
+  "description": "Basic corporation operation. +20 corporation members allowed per level.\n\nNote: The CEO must update their corporation through the corporation user interface before the skill takes effect",
   "volume": 0.01,
   "repackaged_volume": null,
   "capacity": null,

@@ -1,7 +1,7 @@
 {
   "type_id": 3731,
   "name": "Megacorp Management",
-  "description": "Advanced corporation operation. +100 members per level.\n\nNote: The CEO must update his corporation through the corporation user interface before the skill takes effect.",
+  "description": "Advanced corporation operation. +100 members per level.\n\nNote: The CEO must update their corporation through the corporation user interface before the skill takes effect.",
   "volume": 0.01,
   "repackaged_volume": null,
   "capacity": null,

@@ -934,11 +934,11 @@
       "unit_name": "属性ID"
     },
     {
-      "attribute_name": "conduitPassengerBonusPercent",
-      "value": 100.0,
+      "attribute_name": "conduitPassengerBonusModAdd",
+      "value": 0.0,
       "categoryID": 17,
       "display_name": "导管乘客加成",
-      "unit_name": "%"
+      "unit_name": null
     },
     {
       "attribute_name": "isCarrierJumpConduitPassenger",

@@ -1,7 +1,7 @@
 {
   "type_id": 90727,
   "name": "Mining Precision",
-  "description": "Skill at maximizing the chance of a mining critical success when using a mining lasers or ice harvester.\n10% bonus to mining laser and ice harvester critical success chance per skill level.",
+  "description": "Skill at maximizing the chance of a mining critical success when using a mining laser or ice harvester.\n10% bonus to mining laser and ice harvester critical success chance per skill level.",
   "volume": 0.01,
   "repackaged_volume": null,
   "capacity": null,
