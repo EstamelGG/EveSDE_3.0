@@ -3,7 +3,7 @@
   "name": "Verity Tech Crate",
   "description": "Contains a randomly selected Verity Cryo Tech.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

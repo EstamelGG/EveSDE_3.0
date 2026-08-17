@@ -3,7 +3,7 @@
   "name": "萨沙爱国者能量中和波发射台",
   "description": "帝国海军能量中和阵列的一种加强版本。",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": 100000000.0,
   "category_name": "母星",

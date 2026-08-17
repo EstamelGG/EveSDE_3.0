@@ -3,7 +3,7 @@
   "name": "Rolled Tungsten Alloy",
   "description": "An extremely strong compound, made from tungsten rolled in a sheath of platinum. A crucial component in the creation of carbides which have a wide field of utility in the manufacture of various equipment.",
   "volume": 0.2,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.2,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

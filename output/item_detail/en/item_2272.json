@@ -3,7 +3,7 @@
   "name": "Heavy Metals",
   "description": "In small quantities, heavy metals are vital to life, providing essential minerals for biological processes. In bulk, they are commonly found in most construction materials, forming the most basic components of computer electronics and reinforced structures.",
   "volume": 0.005,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.005,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Resources",

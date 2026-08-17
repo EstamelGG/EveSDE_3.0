@@ -3,7 +3,7 @@
   "name": "Hazmat Detection Systems",
   "description": "A critical component of space stations, starships, or any other isolated environment, these tiny devices are set to trigger alarms when the genetically engineered viruses inside mutate — which means that they've encountered a significant dose of radiation, natural contaminant, or airborne pathogen, signifying that the surrounding crew is in danger.",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

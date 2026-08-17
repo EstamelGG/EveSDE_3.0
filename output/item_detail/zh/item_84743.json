@@ -3,7 +3,7 @@
   "name": "将军改良重型停滞捕捉光束",
   "description": "停滞捕捉光束通过使用微能流来降低目标舰船的最大速度，该装备可以有效地暂时束缚目标，降低其速度。这种减速效果在近距离时十分有效，随着距离增加而逐渐减弱。装配重型停滞捕捉光束需要非常稳定的基础平台，所以只能装配在战列舰和旗舰级舰船上。",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

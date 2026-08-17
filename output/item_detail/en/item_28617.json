@@ -3,7 +3,7 @@
   "name": "Banidine",
   "description": "A variant of the common ore Veldspar, Banidine is found in far lesser abundance - which causes no problems for miners since the latter ore is virtually worthless, being riddled with impurities.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "Asteroid",

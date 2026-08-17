@@ -3,7 +3,7 @@
   "name": "高密度克里石（4级）",
   "description": "奥多比<a href=showinfo:81900>克里石</a>中蕴含着极为丰富的<a href=showinfo:36>类银超金属</a>，是矿工眼中的幸运石。与克里石相比，奥多比克里石的产量要高出15%。奥多比克里石通常会分布在零安全区域内的小行星异常空间中。这种矿物被压缩过，比它的原始形态紧密得多。",
   "volume": 0.012,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.012,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

@@ -3,7 +3,7 @@
   "name": "The Chief of Security",
   "description": "The Chief of Security.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 90.0,
   "category_name": "Commodity",

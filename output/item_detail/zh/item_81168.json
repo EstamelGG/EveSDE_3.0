@@ -3,7 +3,7 @@
   "name": "工业家职业箱",
   "description": "此物品无法在市场中交易或出售。",
   "volume": 4.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4.0,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

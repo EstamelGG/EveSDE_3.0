@@ -3,7 +3,7 @@
   "name": "Mantis II",
   "description": "<b>Type:</b> Heavy Fighter\n<b>Role:</b> Heavy Attack\n<b>Description:</b> The Mantis is purpose designed for anti-capital and anti-structure combat.\n\n<b>Blaster Cannon</b>: This weapon-system does large amounts of damage, but its tracking systems limit its effectiveness against fast moving targets.\n<b>Microwarpdrive</b>: Giving a significant speed boost at the cost of higher signature radius. The Microwarpdrive has a long cool-down cycle between uses.\n<b>Torpedo Salvo</b>: A salvo of super heavy unguided torpedoes. These weapons do significant damage against capital class starships and structures. They are unsuited to firing against sub-capital class starships.",
   "volume": 1800.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1800.0,
   "capacity": null,
   "mass": 2000.0,
   "category_name": "Fighter",

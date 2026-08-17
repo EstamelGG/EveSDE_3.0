@@ -3,7 +3,7 @@
   "name": "Small Focused Modulated Pulse Energy Beam I",
   "description": "A high-powered pulse laser. Good for short to medium range encounters. \n\nRequires frequency crystal ammo types: Gamma, Infrared, Microwave, Multifrequency, Radio, Standard, Ultraviolet, Xray.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 1.0,
   "mass": 500.0,
   "category_name": "Module",

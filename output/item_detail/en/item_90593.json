@@ -3,7 +3,7 @@
   "name": "Abyssal Gas Cloud Harvester",
   "description": "Ever-increasing demand for the products derived from gas cloud resources finally drove yet another breakthrough in gas harvesting technology, with the old scoop tech's integrated tractor beam and gas conversion systems massively overhauled to include broad-sweep beams and high-efficiency, multiplexed catalytic conversion arrays. The large increase in the size of the installed hardware and the power requirements of the equipment has meant that only larger ships can be contemplated as platforms for the new Gas Cloud Harvesters. Given these demands and the advantages of using dedicated mining ships, the practical module designs were soon specialized for use on mining barges and exhumers.\n\nWhen the first interstellar Gas Clouds were discovered, they proved particularly challenging for industrialists to extract raw materials from. Many methods were tried, and although successful acquisition was always guaranteed, there was a need for much greater efficiency. It was not until the mining industry returned to long-abandoned projects that a solution was found. Since that time, gas harvesting technology has slowly moved forward, giving birth to new industries and economies in the process.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

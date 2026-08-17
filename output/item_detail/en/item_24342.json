@@ -3,7 +3,7 @@
   "name": "Lord Arachnan",
   "description": "The resplendent Lord Arachnan, disguised as a humble janitor.  Even through the disguise, the sheen of his glory stings your eyes.",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Commodity",

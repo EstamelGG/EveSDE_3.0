@@ -3,7 +3,7 @@
   "name": "用作陷阱的尖端型隐形装置",
   "description": "这个尖端型隐形装置初看上去还能用，但仔细一瞧才发现它不过是一堆没用的金属与线圈而已。",
   "volume": 60.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 60.0,
   "capacity": null,
   "mass": 60.0,
   "category_name": "常用物品",

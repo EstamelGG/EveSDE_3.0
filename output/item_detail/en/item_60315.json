@@ -3,7 +3,7 @@
   "name": "ORE Gas Cloud Harvester",
   "description": "Ever-increasing demand for the products derived from gas cloud resources finally drove yet another breakthrough in gas harvesting technology, with the old scoop tech's integrated tractor beam and gas conversion systems massively overhauled to include broad-sweep beams and high-efficiency, multiplexed catalytic conversion arrays. The large increase in the size of the installed hardware and the power requirements of the equipment has meant that only larger ships can be contemplated as platforms for the new Gas Cloud Harvesters. Given these demands and the advantages of using dedicated mining ships, the practical module designs were soon specialized for use on mining barges and exhumers.\n\nThe specialist engineers and scientists of Outer Ring Development took the basic technology of barge-operated Gas Cloud Harvesters and massively improved the efficiency of the units to produce the ORE Gas Cloud Harvester. CONCORD's AG12 technology monitoring section believes ORE's staff were significantly assisted by the collaboration of Intaki Syndicate engineers working within the Upwell Consortium partnership. CONCORD is concerned that illegal booster manufacturing and smuggling may increase due to the development of such enhanced gas harvesting technology.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

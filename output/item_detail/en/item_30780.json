@@ -3,7 +3,7 @@
   "name": "Strange Coded Document",
   "description": "This document would look like gibberish if it weren't for Dagan's signature at the bottom. Perhaps Canius can decipher it.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 0.75,
   "category_name": "Commodity",

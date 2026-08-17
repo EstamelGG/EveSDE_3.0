@@ -3,7 +3,7 @@
   "name": "古斯塔斯鞭挞重型导弹",
   "description": "鞭挞重型导弹是遗留自加达里-盖伦特大战时期的老式导弹，不过由于其价格便宜且泛用性强，目前仍被广泛使用。",
   "volume": 0.03,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.03,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "弹药",

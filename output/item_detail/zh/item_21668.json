@@ -3,7 +3,7 @@
   "name": "超大型鱼雷",
   "description": "操作和发射超大型鱼雷的技能。每升一级，超大型鱼雷伤害提高5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

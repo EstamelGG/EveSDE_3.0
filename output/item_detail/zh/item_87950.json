@@ -3,7 +3,7 @@
   "name": "电力稳定发生器",
   "description": "该生成器可作用于整个星系，类似于你在深渊空间电子环境中遇到的效果。星系内所有舰船：电容回充速率提高25%，锁定范围和定向扫描范围+25%。",
   "volume": 10000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "基础设施升级件",

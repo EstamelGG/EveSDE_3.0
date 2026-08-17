@@ -3,7 +3,7 @@
   "name": "高密度诺克希特（3级）",
   "description": "即使在低气压环境中，迷醉<a href=showinfo:82016>诺克希特</a>也很难保持稳定，但它可以给坚持不懈的矿工额外带来10%的产量。迷醉诺克希特通常会分布在零安全区域内的小行星异常空间中。这种矿物被压缩过，比它的原始形态紧密得多。",
   "volume": 0.04,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.04,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

@@ -3,7 +3,7 @@
   "name": "Ice Harvesting Drone Specialization",
   "description": "Advanced proficiency at controlling ice harvesting drones. 2% reduction in cycle time and bonus to max velocity of drones requiring Ice Harvesting Drone Specialization per level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

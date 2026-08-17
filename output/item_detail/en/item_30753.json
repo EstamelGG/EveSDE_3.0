@@ -3,7 +3,7 @@
   "name": "Malfunctioning Hull Section",
   "description": "Found drifting amongst the ruins of a Sleeper compound, these large sections of a Sleeper vessel represent a significant archaeological discovery. The hull itself is an incredibly rare find, tainted only by the condition it is in. Although it was clearly built to survive the stress of space, the countless years of environmental exposure have still taken a heavy toll, stripping from it a great deal of the original functionality. \n\nEven despite the damage, it would still make a respectable case study for the Sleeper's vessel construction methods. A skilled scientist could still possibly extract enough information to try and reverse engineer it.",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": null,
   "mass": null,
   "category_name": "Ancient Relics",

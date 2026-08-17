@@ -3,7 +3,7 @@
   "name": "水硼砂",
   "description": "水硼砂是一种很常见的矿石，可以提炼出相当数量的<a href=showinfo:36>类银超金属</a>和<a href=showinfo:37>同位聚合体</a>。大多数情况下，你可以在低安全等级星系、零安全等级星系和虫洞中找到它。",
   "volume": 1.2,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.2,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

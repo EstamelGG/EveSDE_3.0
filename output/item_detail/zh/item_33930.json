@@ -3,7 +3,7 @@
   "name": "低级强势–贝它型",
   "description": "辛迪加科学家对这种记忆增强体做了专门修改，以便于他们的精英官员使用。\n\n主要效果：记忆属性值增加2 \n\n次要效果：增效剂副作用减少2%\n\n套件效果：所有“强势”植入体次要效果增加2.5%",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

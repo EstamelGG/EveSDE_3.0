@@ -3,7 +3,7 @@
   "name": "白釉冰",
   "description": "当恒星聚变的过程发生在诸如星际冰域这种硅酸盐尘埃聚集的区域时，就会形成白釉冰。白釉冰富含氮-14以及其他一些稳定的氮同位素，因而成为某些类型控制塔维持运行的必需品。可于安全等级为<color='0xFF33FFFF'>1.0</color>及以下的星系开采。",
   "volume": 1000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "小行星",

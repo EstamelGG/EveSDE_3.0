@@ -3,7 +3,7 @@
   "name": "露天采矿器 I",
   "description": "专用于采矿驳船和采掘者的大型矿石采集器。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

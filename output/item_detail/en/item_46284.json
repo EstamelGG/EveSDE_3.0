@@ -3,7 +3,7 @@
   "name": "Brimful Bitumens",
   "description": "When chunks of ore mined out of moons yield above-average densities of Bitumens, the ore is called Brimful Bitumens and reprocessing returns approximately 15% higher quantities of useful material.\n\nA ubiquitous ore commercially mined from moons, Bitumens are very useful as they yield good quantities of <a href=showinfo:16633>Hydrocarbons</a> used as basic elements of some advanced materials. Bitumen ores will also yield <a href=showinfo:36>Mexallon</a> and <a href=showinfo:35>Pyerite</a>.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "Asteroid",

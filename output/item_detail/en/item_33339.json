@@ -3,7 +3,7 @@
   "name": "Unrefined Thulium Hafnite",
   "description": "Despite its unremarkable gray appearance, Thulium Hafnite has proven to be extremely effective as shielding against electromagnetic radiation and free neutrons. It is a valuable component in the production of processor and capacitor technologies, especially in the Gallente Federation.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

@@ -3,7 +3,7 @@
   "name": "Key of the Arcane",
   "description": "Lavishly decorated passkey that allows entrance to the Museum Arcana.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

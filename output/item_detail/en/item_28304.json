@@ -3,7 +3,7 @@
   "name": "'Augmented' Warrior",
   "description": "Light Scout Drone\n\nThis drone has been augmented with so many rogue drone parts that it is unrecognizable from its original design. This new hybrid has a fearsome firepower.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "Drone",

@@ -3,7 +3,7 @@
   "name": "天赋植体 随从 电容系统操作 EO-601",
   "description": "一款神经接口升级芯片，可以增强飞行员的能源系统操控技能。电容回充速度提高1%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

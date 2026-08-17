@@ -3,7 +3,7 @@
   "name": "Siren I",
   "description": "<b>Type:</b> Support Fighter\n<b>Role:</b> Warp Disruption\n<b>Description:</b> The Siren brings warp disruption support to the battlefield.\n\n<b>Warp Disruptor</b>: Disrupts targets warp systems.\n<b>Afterburner</b>: Gives a moderate speed boost. The Afterburner has a long cool-down cycle between uses.",
   "volume": 3000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3000.0,
   "capacity": null,
   "mass": 1500.0,
   "category_name": "Fighter",

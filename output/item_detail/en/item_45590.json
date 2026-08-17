@@ -3,7 +3,7 @@
   "name": "Tengu Defensive - Supplemental Screening",
   "description": "Making full use of recent scientific advances afforded by the discovery of ancient technologies, Caldari starship designers have reverse engineered the equipment behind the Sleeper's metallofullerene armor plating. Through a complex substitution method, skilled engineers and physicists have been able to supplement a Tengu's shields, offering increased survivability for a pilot under heavy fire.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": 300.0,
   "mass": 1400000.0,
   "category_name": "Subsystem",

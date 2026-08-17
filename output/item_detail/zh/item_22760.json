@@ -3,7 +3,7 @@
   "name": "帝国别动队战场增效体—标准型",
   "description": "植入在枕叶的图像处理器，能增加人物4点的感知属性值，同时也增加飞船5%的装甲强度值。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

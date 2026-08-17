@@ -3,7 +3,7 @@
   "name": "炸弹部署理论",
   "description": "操作炸弹发射系统的基本技能。每升一级，炸弹发射器的激活延迟减少10%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

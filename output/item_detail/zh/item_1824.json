@@ -3,7 +3,7 @@
   "name": "炼狱自动锁定重型导弹 I",
   "description": "盖伦特联邦的一种重型导弹，装备有等离子体战斗部和自动导航系统。",
   "volume": 0.03,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.03,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "弹药",

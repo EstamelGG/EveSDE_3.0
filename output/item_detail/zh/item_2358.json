@@ -3,7 +3,7 @@
   "name": "生物技术研究报告",
   "description": "由于有机生命体的核心基础在微观和宏观上都处于不断的演化发展中，因此在这方面，各种分析报告源源不断地被撰写和发布，已经成为多个科学领域所必备资料。",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": null,
   "category_name": "行星商品",

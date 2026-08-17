@@ -3,7 +3,7 @@
   "name": "批量排序",
   "description": "初级技能，可在单次排序中高效排序多个涂装。单次排序任务的涂装上限会逐步增加：1级+5，2级+10，3级+20，4级+30，5级+50。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

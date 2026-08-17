@@ -3,7 +3,7 @@
   "name": "'冰河'面部改装箱",
   "description": "这个货柜中有一份特殊的礼物——男性和女性版的“冰河”面部改装。",
   "volume": 4.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4.0,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

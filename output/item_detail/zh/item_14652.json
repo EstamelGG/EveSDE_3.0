@@ -3,7 +3,7 @@
   "name": "戈丹氏改良型停滞缠绕光束",
   "description": "通过使用微能流来降低对方舰船的最大速度，该装备可以有效地暂时束缚目标，降低其速度。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

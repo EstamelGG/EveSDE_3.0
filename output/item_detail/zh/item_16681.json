@@ -3,7 +3,7 @@
   "name": "纳米晶体管",
   "description": "极其复杂的分子级晶体管，用于纳米等级电子设备，如微处理器和电容器等。",
   "volume": 0.25,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.25,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

@@ -3,7 +3,7 @@
   "name": "Liberated Barbican Filament Blueprint",
   "description": "Used to manufacture <a href=showinfo:88205>Liberated Barbican Filaments</a>.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Blueprint",

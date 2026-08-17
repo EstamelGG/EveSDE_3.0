@@ -3,7 +3,7 @@
   "name": "Structure Missile Systems",
   "description": "Basic operation of structure missile launchers.\n\n2% bonus to all structure missile and guided bomb damage per level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

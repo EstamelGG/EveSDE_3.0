@@ -3,7 +3,7 @@
   "name": "ML-EKP 'Polybolos' Ballistic Control System Blueprint Crate",
   "description": "This crate contains a three-run blueprint copy for the <a href=showinfo:49790>ML-EKP 'Polybolos' Ballistic Control System</a>",
   "volume": 4.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4.0,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

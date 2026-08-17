@@ -3,7 +3,7 @@
   "name": "蓝冰矿",
   "description": "星际里的冰通常都是由气体分子不断附着于硅酸盐尘粒而形成。蓝冰因其特有的化学构成和形成环境，比其他冰矿含有更多的氧同位素。可于安全等级为<color='0xFF33FFFF'>1.0</color>及以下的星系开采。",
   "volume": 1000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "小行星",

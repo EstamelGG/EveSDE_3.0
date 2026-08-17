@@ -3,7 +3,7 @@
   "name": "Tampered Dolls",
   "description": "Very lifelike dolls for little girls. These have been filled with drugs to fool the police.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 50.0,
   "category_name": "Commodity",

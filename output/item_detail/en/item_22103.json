@@ -3,7 +3,7 @@
   "name": "ST 60 Memory Chip",
   "description": "A small wafer of semiconductor material that forms the base for an integrated circuit.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

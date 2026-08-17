@@ -3,7 +3,7 @@
   "name": "Heavy J5b Enduring Warp Scrambler",
   "description": "Disrupts the target ship's navigation computer, disabling warping, jumping, microwarpdrives and micro jump drives.",
   "volume": 100.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 100.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

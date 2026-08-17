@@ -3,7 +3,7 @@
   "name": "Small Shield Booster I",
   "description": "Expends energy to provide a quick boost in shield strength.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

@@ -3,7 +3,7 @@
   "name": "弃用的诱导力场压制系统",
   "description": "该物品已弃用。虽然目前依然有效，但计划未来将不再流通。这个升级件允许克隆飞行员在同一星系中的<a href=showinfo:37534>暗影诱导干扰器</a>建筑中启动<a href=showinfo:35914>屹立诱导系统干扰器</a>。",
   "volume": 200000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 200000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "基础设施升级件",

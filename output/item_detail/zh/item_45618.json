@@ -3,7 +3,7 @@
   "name": "海神推进 - 分布喷注器",
   "description": "这个子系统采用分子级纳米管来提高加力燃烧器和微型跃迁推进器的燃烧效率。燃料被以一种效率更高，可控性更高的分布注入方式加入到燃烧室中，以此降低对电容系统的消耗和增加启用时的耐热性。",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 1400000.0,
   "category_name": "子系统",

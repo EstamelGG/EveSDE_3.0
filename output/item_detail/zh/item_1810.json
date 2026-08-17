@@ -3,7 +3,7 @@
   "name": "鞭挞自动锁定轻型导弹 I",
   "description": "加达里合众国的一种轻型导弹，装备有引力子战斗部和自动导航系统。",
   "volume": 0.015,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.015,
   "capacity": null,
   "mass": 700.0,
   "category_name": "弹药",

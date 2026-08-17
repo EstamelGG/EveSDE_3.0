@@ -3,7 +3,7 @@
   "name": "Republic Repair Kit",
   "description": "Hi tech electronic gadgets and tools. Those with enough knowledge can fix just about anything with one of these.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Commodity",

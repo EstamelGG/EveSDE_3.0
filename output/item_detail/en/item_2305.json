@@ -3,7 +3,7 @@
   "name": "Autotrophs",
   "description": "At the very bottom of the food chain are autotrophs, those organisms that produce carbohydrates, proteins, and fats for higher life forms to consume. When properly gathered and ordered, they can be plied into industrial fibers, which then go on to contribute to advanced material technologies.",
   "volume": 0.005,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.005,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Resources",

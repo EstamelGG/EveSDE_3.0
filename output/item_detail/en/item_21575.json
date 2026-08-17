@@ -3,7 +3,7 @@
   "name": "Esoteric Symmetry",
   "description": "Solid, if uninspiring, invention techniques, ideal for standard Caldari invention tasks.<br><br>Probability Multiplier: N/A <br>Max. Run Modifier: +2 <br>Material Efficiency Modifier: +1 <br>Time Efficiency Modifier: +8",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Decryptors",

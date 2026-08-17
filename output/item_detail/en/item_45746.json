@@ -3,7 +3,7 @@
   "name": "Reactions",
   "description": "Allows basic operation of Reaction Service Module. 4% reduction in reaction time per skill level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

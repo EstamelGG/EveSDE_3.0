@@ -3,7 +3,7 @@
   "name": "装甲指挥思维网络芯片",
   "description": "这种高级接口链路通过直接链接到指挥脉冲波弹药发射的纳米体，极大增强了指挥官的装甲指挥能力。\n\n\n\n装甲指挥脉冲波效果强度提高25%，持续时间增加25%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

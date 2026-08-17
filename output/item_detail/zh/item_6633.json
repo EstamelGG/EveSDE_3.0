@@ -3,7 +3,7 @@
   "name": "双联无焦点轻型激光器I",
   "description": "这种轻型集束能量武器配有两个独立的激光聚焦装置，以缩短两次开火之间的冷却周期。适用于中近距离作战。需要频率晶体弹药类型：伽玛、红外线、微波、多频、射频、标准、紫外线、X射线、爆燃和灼烧。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 1.0,
   "mass": 500.0,
   "category_name": "装备",

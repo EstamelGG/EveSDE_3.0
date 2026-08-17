@@ -3,7 +3,7 @@
   "name": "Kameiras",
   "description": "An elite type of foot soldier, originally bred from Minmatar slaves by the Amarr Empire. Raised from birth to become soldiers, they serve the Empire, Khanid Kingdom and Ammatar well, although always kept on a tight leash.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 90.0,
   "category_name": "Commodity",

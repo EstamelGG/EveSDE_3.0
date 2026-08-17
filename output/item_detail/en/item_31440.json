@@ -3,7 +3,7 @@
   "name": "Capital Energy Ambit Extension II",
   "description": "This ship modification is designed to increase the accuracy falloff range of a ship's energy turrets at the expense of increased power grid need for them.\n\nThe drawbacks of fitting this rig may be reduced by training the <a href=showinfo:26258>Energy Weapon Rigging</a> skill.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "Module",

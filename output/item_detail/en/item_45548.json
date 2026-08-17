@@ -3,7 +3,7 @@
   "name": "Standup XL-Set Thukker Structure and Component Manufacturing Efficiency",
   "description": "This rig has been optimized for use in low security space and will provide reduced benefits in all other areas of space. When installed in low security space it provides enhanced benefits to the materials required for construction of basic and advanced capital ship components and normal benefits to the construction of other components, Upwell structures, structure modules, structure rigs, starbase structures and fuel blocks.\n\nThe Standup XL-Set Thukker Structure and Component Manufacturing Efficiency rig provides a means for structure operators to decrease both material and time requirements manufacturing components, Upwell structures, structure modules, structure rigs, starbase structures and fuel blocks in their Upwell structures.\n\nThis facility design has been modified by Thukker specialists to utilize certain unregulated opportunities for expediting capital ship component construction in low security space.\n\nStandup is a proprietary system that uses a Structure Autonomous Nanoassembly Device (Upwell) containing integrated template software, a nanoassembler array and sufficient nanomass to enable the construction of a variety of service modules, structure modules and structure rigs when inserted into the appropriate slots on a structure built with Upwell technology.\n\nNote: Only one rig of the same type, counting both tech variations, may be fitted at the same time on a structure.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "Structure Module",

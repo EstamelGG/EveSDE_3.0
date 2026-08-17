@@ -3,7 +3,7 @@
   "name": "Single-crystal Superalloy I-beam",
   "description": "An intact section of tritanium based single-crystal alloy i-beam for use in applications requiring extremely high strength and temperature resistance. Some examples are thruster mounts or afterburner nozzles.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

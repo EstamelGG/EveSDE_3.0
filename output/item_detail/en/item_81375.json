@@ -3,7 +3,7 @@
   "name": "Batch Sequencing",
   "description": "Basic skill at producing multiple SKINs in a single sequencing job.\n\nIncreases maximum SKINs per sequencing job to 5 at level 1, 10 at level 2, 20 at level 3, 30 at level 4, and 50 at level 5.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

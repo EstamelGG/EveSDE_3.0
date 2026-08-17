@@ -3,7 +3,7 @@
   "name": "Expanded Probe Launcher II",
   "description": "Launcher for <a href=showinfo:30013>Core Scanner Probes</a> and <a href=showinfo:30028>Combat Scanner Probes</a>.\n\n<a href=showinfo:30013>Core Scanner Probes</a> are used to scan down Cosmic Signatures in space.\n<a href=showinfo:30028>Combat Scanner Probes</a> are used to scan down Cosmic Signatures, starships, structures and drones.\n\nNote: Only one scan probe launcher can be fitted per ship.\n\n5% bonus to strength of scan probes.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 8.0,
   "mass": null,
   "category_name": "Module",

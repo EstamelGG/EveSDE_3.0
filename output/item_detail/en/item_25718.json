@@ -3,7 +3,7 @@
   "name": "Heavy Assault Missile Specialization",
   "description": "Specialist training in the operation of advanced heavy assault missile launchers. 2% bonus per level to the rate of fire of modules requiring Heavy Assault Missile Specialization.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

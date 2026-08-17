@@ -3,7 +3,7 @@
   "name": "高密度柯石英",
   "description": "柯石英是卫星中开采出的一种常见矿石，它用处很大，能够提炼出丰富的<a href=showinfo:16636>硅酸盐</a>，可作为某些高级矿物的基础元素。柯石英矿石还会产出<a href=showinfo:35>类晶体胶矿</a>和<a href=showinfo:36>类银超金属</a>。\n\n\n\n这种矿物被压缩过，比它的原始形态紧密得多。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "小行星",

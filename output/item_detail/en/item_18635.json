@@ -3,7 +3,7 @@
   "name": "Discovery Survey Probe I",
   "description": "The moon survey probe is launched in the direction of a nearby moon where it will eventually land and broadcast back atmospheric and soil analysis data.\n\nThe Discovery is the standard probe used by most moon mining operations. It is fairly fast - completing its survey in about 5 minutes - but that benefit is offset by its rather considerable bulk.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

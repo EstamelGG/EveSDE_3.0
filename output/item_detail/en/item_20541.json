@@ -3,7 +3,7 @@
   "name": "Drill Parts",
   "description": "These large containers are fitted with a password-protected security lock.  These particular containers are filled with spare parts needed to build a drill used for drilling through rock and ice sheets.",
   "volume": 100.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 100.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Commodity",

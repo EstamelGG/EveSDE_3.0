@@ -3,7 +3,7 @@
   "name": "Corpum Commander Medallion",
   "description": "This medallion is worn by certain high-ranking Corpum officers, usually those who are in charge of a Blood Raider complex.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

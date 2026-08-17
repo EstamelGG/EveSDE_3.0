@@ -3,7 +3,7 @@
   "name": "工业诱导力场发生器",
   "description": "产生一片力场，供跳跃引擎锁定作为其目的地。工业诱导力场专门针对<b>战略货舰</b>和<b>长须鲸级</b>的跳跃引擎做了优化调整。",
   "volume": 25.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 25.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

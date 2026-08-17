@@ -3,7 +3,7 @@
   "name": "Diamond Ring",
   "description": "This beautiful platinum ring is inlaid with a set of cut and polished diamonds.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Special Edition Assets",

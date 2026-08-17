@@ -3,7 +3,7 @@
   "name": "抑制型护盾通量线圈 D型",
   "description": "增加护盾的回充速率，但会降低护盾的最大容量。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 20.0,
   "category_name": "装备",

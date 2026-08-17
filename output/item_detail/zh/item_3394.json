@@ -3,7 +3,7 @@
   "name": "船体加固理论",
   "description": "维护飞船装甲以及安装扩充货柜舱和惯性稳定器等船体升级设备的技能。每升一级，装甲强度提高5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

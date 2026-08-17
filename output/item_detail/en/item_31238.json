@@ -3,7 +3,7 @@
   "name": "Small Memetic Algorithm Bank I",
   "description": "This ship modification is designed to increase the efficiency of a ship's data modules.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "Module",

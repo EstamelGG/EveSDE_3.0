@@ -3,7 +3,7 @@
   "name": "天蛇跃迁扰频波发射台",
   "description": "可部署的跃迁干扰结构。",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": 100000000.0,
   "category_name": "母星",

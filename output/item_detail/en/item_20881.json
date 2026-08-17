@@ -3,7 +3,7 @@
   "name": "True Sanshas Radio L",
   "description": "Modulates the beam of a laser weapon into the radio frequencies. Offers greatly improved range but significantly lower damage.\n\nWith longer range, EM damage increases although the overall damage output is decreased.\n\nThe delicate crystalline structures used in the manufacture of this advanced crystal degrade with use, eventually causing it to shatter.\n\n60% increased optimal range.\n15% reduced capacitor need.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

@@ -3,7 +3,7 @@
   "name": "Poteque 'Prospector' Environmental Analysis EY-1005",
   "description": "A neural interface upgrade that boosts the pilot's skill at environmental analysis.\n\n5% reduction in cycle time of salvage, hacking and archaeology modules.\n+5 Virus Coherence bonus for Data and Relic Analyzers.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

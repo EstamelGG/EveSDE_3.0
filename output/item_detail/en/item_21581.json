@@ -3,7 +3,7 @@
   "name": "Cryptic Symmetry",
   "description": "As long as you can decipher the theories there is some good common sense stuff in here that can give all around benefits to Minmatar invention jobs.<br><br>Probability Multiplier: N/A <br>Max. Run Modifier: +2 <br>Material Efficiency Modifier: +1 <br>Time Efficiency Modifier: +8",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Decryptors",

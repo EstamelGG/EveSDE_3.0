@@ -3,7 +3,7 @@
   "name": "紧凑型熵辐射槽",
   "description": "熵能分解者在使用时会发出大量放射性物质，必须小心防止危险情况发生。使用熵辐射槽能让武器以更快的速度保持高能量发射，从而有效提高伤害能力。\n\n\n\n惩罚：在一艘舰船上使用多个这类装备或多个与该装备作用一致的类似装备将削弱实际使用效果。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "装备",

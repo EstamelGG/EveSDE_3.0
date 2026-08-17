@@ -3,7 +3,7 @@
   "name": "Eifyr and Co. 'Rogue' Afterburner AB-608",
   "description": "A neural interface upgrade that boosts the pilot's skill with afterburners.\n\n8% bonus to the duration of afterburners.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

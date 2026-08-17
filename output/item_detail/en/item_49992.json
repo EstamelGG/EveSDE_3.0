@@ -3,7 +3,7 @@
   "name": "Cherubic Heartburst Firework",
   "description": "This special pyrotechnic display charge celebrates love and desire in dramatic fashion with multiple fireworks tracing symbolic paths to a final explosive burst. The romantic side of the notorious Guardian Angels is shown off once again in an impressive use of micro-rockets and pyrotechnic charges.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

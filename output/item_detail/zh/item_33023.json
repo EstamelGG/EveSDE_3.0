@@ -3,7 +3,7 @@
   "name": "一罐荣耀",
   "description": "一个膨大的玻璃罐子，里面的东西看起来像是……呃……荣耀。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

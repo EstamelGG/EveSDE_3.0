@@ -3,7 +3,7 @@
   "name": "侦察飞梭",
   "description": "侦察用交通工具，是所有强大陆军的必备品。",
   "volume": 2.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2.0,
   "capacity": null,
   "mass": 2500.0,
   "category_name": "常用物品",

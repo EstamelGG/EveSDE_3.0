@@ -3,7 +3,7 @@
   "name": "Hub Promotion",
   "description": "Basic skill in listing SKINs for sale in the Paragon Hub.\n\nIncreases maximum listings on the Paragon Hub by 1 per skill level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

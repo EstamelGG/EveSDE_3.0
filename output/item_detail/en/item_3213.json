@@ -3,7 +3,7 @@
   "name": "Inherent Implants 'Lancer' Controlled Bursts CB-706",
   "description": "An Inherent Implants gunnery hardwiring designed to enhance turret energy management.\n\n6% reduction in all turret capacitor need.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

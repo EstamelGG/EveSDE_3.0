@@ -3,7 +3,7 @@
   "name": "天皇ID牌",
   "description": "ID牌是一种身份识别标签，由纳米机器人注入体内。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

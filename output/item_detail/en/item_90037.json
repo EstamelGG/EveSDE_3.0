@@ -3,7 +3,7 @@
   "name": "Mobile Phase Anchor",
   "description": "Once activated by connected industrial command ships, this deployable device resonates with the closest Phased Asteroid. This causes \"Phased-Out\" asteroids to phase into harmony with the surrounding spacetime, causing them to become \"Phased-In\".\n\nWhile Phased-In, a Phased Asteroid can be mined with far greater efficiency.\n\n<i>Visit the</i> <b>User Manual</b> <i>tab for more information</i>",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "Deployable",

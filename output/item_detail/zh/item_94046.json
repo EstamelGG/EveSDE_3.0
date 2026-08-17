@@ -3,7 +3,7 @@
   "name": "自由区增效剂VI",
   "description": "领取后立即生效。基础持续时间：2小时。混合武器伤害提高6%，结构值提高6%，自身装甲维修装备的效果6%，无人机控制范围增加10公里，舰船灵活性提高6%",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "植入体",

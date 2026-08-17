@@ -3,7 +3,7 @@
   "name": "Oxy-Organic Solvents",
   "description": "Oxy-organic solvents are indispensable to a number of industrial processes involving oxygen and carbon chemistry. These chemicals can be obtained through processing of abundant gases and hydrocarbon deposits.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

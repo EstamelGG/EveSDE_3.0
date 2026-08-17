@@ -3,7 +3,7 @@
   "name": "Organic Mortar Applicators",
   "description": "While nanites are ideal for many forms of construction, sealing joints between large structural bulkheads is a job best left to organic mortar, a thick gel that actively permeates every microscopic gap between two parts. Due to the aggressive nature of the genetically engineered bacteria that intelligently guides into place the hardening condensate material, this paste is extremely hazardous to humans and must be applied by robots.",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

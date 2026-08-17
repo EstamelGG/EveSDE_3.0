@@ -3,7 +3,7 @@
   "name": "Compressed Gelidus",
   "description": "Fairly rare and very valuable, Gelidus-type ice formations are a large-scale source of strontium clathrates, one of the rarest ice solids found in the universe, in addition to which they contain unusually large concentrations of heavy water and liquid ozone.\n\nThis material is compressed and a much more compact form of the original material.",
   "volume": 100.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 100.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Asteroid",

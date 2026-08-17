@@ -3,7 +3,7 @@
   "name": "指骨",
   "description": "指骨，取自一名海盗的尸体。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

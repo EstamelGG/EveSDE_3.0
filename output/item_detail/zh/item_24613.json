@@ -3,7 +3,7 @@
   "name": "铁骑舰载机机库管理",
   "description": "每升一级，铁骑舰载机挂舱容量增加5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

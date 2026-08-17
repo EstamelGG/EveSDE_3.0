@@ -3,7 +3,7 @@
   "name": "神经毒化控制理论",
   "description": "减轻战斗增效剂的副作用对飞行员带来的痛苦的技能。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

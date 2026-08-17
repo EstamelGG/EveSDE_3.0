@@ -3,7 +3,7 @@
   "name": "Draclira's Modified Capacitor Power Relay",
   "description": "Increases capacitor recharge rate at the expense of shield boosting.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 20.0,
   "category_name": "Module",

@@ -3,7 +3,7 @@
   "name": "Pithix",
   "description": "Pithix (sometimes spelled Pythix), sister ore to Jaspet, also contains a myriad of mineral types, but is found only in asteroids of a certain age; this oddity, combined with the fact that current Pithix refining methods are quite inefficient, makes the ore little more than a minor curiosity to the scientific community as a whole.",
   "volume": 2.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

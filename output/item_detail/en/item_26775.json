@@ -3,7 +3,7 @@
   "name": "Group of Janitors",
   "description": "The janitor is the person who is in charge of keeping the premises of a building (as an apartment or office) clean, tends the heating system, and makes minor repairs.",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "Commodity",

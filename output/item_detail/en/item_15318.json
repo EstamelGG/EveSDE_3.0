@@ -3,7 +3,7 @@
   "name": "Top-Secret Design Documents",
   "description": "These top-secret Design Documents are hidden in a large, sealed container.  A stamp has been placed on the container with the words \"DO NOT OPEN\" written in big, red letters.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

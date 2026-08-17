@@ -3,7 +3,7 @@
   "name": "监控无人机",
   "description": "这种设备最常见于空间舰船之上，特别是克隆飞行员所使用的飞行器对它的应用最多。其他种类的监控无人机也用于纳米医疗技术，监视及娱乐行业。",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": null,
   "category_name": "行星商品",

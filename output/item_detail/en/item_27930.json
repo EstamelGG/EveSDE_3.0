@@ -3,7 +3,7 @@
   "name": "Medium Remote Hull Repairer I",
   "description": "This module uses nano-assemblers to repair damage done to the hull of the Target ship.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 20.0,
   "category_name": "Module",

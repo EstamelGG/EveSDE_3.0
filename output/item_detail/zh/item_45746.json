@@ -3,7 +3,7 @@
   "name": "反应理论",
   "description": "允许操作反应服务装备的基本技能。每升一级，反应时间减少4%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

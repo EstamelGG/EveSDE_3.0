@@ -3,7 +3,7 @@
   "name": "胜利之翼烟火",
   "description": "欢庆胜利和隆重凯旋总是有盛大的烟火表演相伴。胜利之翼点火装置首屈一指，微型火箭的使用彰显智慧，名副其实，效果惊艳。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "弹药",

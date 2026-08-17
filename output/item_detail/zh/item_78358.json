@@ -3,7 +3,7 @@
   "name": "格诺克的智慧",
   "description": "“事情就是这样，格诺克率领他的人民进行了大迁徙，前往我们的救赎之地，前往上帝之地，前往他的子民之地，前往阿提拉。”-《圣典·元始之人-格诺克》1章32节<font color=\"#ff3399cc\"><b>+4%能量炮台伤害。</b> <b>装甲维修+7%</b> <b>+3%最大速度</b> 基础持续时间：2天</font> 该物品无法出售。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

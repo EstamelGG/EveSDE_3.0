@@ -3,7 +3,7 @@
   "name": "高速射击理论",
   "description": "增加炮台射击速度的技能。每升一级，武器炮台发射速率提高4%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

@@ -3,7 +3,7 @@
   "name": "米玛塔尔高级空间站工厂平台",
   "description": "针对米玛塔尔哨站生产能力的高级升级方案。所有生产项目的材料效率降低1%（可与同类效果叠加）。",
   "volume": 750000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 750000.0,
   "capacity": 7500000.0,
   "mass": null,
   "category_name": "天体",

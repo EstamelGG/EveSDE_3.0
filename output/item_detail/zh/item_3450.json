@@ -3,7 +3,7 @@
   "name": "加力燃烧器原理",
   "description": "使用加力燃烧器的技能。每升一级，加力燃烧器的运转周期缩短5%，加力燃烧器的电容消耗减少10%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

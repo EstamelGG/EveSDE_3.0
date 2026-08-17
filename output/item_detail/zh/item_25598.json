@@ -3,7 +3,7 @@
   "name": "堆砌的能源电路",
   "description": "闭合电气网络，配备有众多自控接电装置。这个部件的所有断路器都已经损坏了，但并不是无法修复。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

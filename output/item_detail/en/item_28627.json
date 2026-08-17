@@ -3,7 +3,7 @@
   "name": "Azure Ice",
   "description": "Interstellar ices are formed by the accretion of gas molecules onto silicate dust particles. Azure ice forms under the same circumstances as \"blue ice,\" but due to its slightly different chemical composition, it contains substantially fewer oxygen isotopes by volume than its blue cousin, rendering it a \"lesser\" material.",
   "volume": 1000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Asteroid",

@@ -3,7 +3,7 @@
   "name": "Drone Synaptic Relay Wiring",
   "description": "The relay wiring of a rogue drones synaptic system, these wires allow for a much higher flow of power and information than standard empire technology has yet to achieve.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": 0.5,
   "category_name": "Material",

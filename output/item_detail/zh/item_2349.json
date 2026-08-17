@@ -3,7 +3,7 @@
   "name": "超级计算机",
   "description": "当一台单个的计算机同其他的计算机、分层处理器以及其他闲置的记忆核心等网络设备相连接后，它自身就进化成了一台超级计算机。这种系统可以用于管理空间舰船，太空站甚至整个行星。",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": null,
   "category_name": "行星商品",

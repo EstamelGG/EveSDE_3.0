@@ -3,7 +3,7 @@
   "name": "Guided Missile Precision",
   "description": "Skill at precision missile homing. Proficiency at this skill increases the accuracy of a fired missile's exact point of impact, resulting in greater damage to small targets. 5% decrease per level in factor of signature radius for all missile explosions.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

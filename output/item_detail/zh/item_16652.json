@@ -3,7 +3,7 @@
   "name": "钷",
   "description": "一种高放射性发光金属，有时用作加热元件以及激光发生器的构件。",
   "volume": 0.05,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.05,
   "capacity": null,
   "mass": 7260.0,
   "category_name": "材料",

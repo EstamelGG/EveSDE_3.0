@@ -3,7 +3,7 @@
   "name": "护盾补偿",
   "description": "调整护盾所获能量流的进阶技能。每升一级，护盾回充增量器的电容需求减少2%。注：对旗舰级装备不起作用。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

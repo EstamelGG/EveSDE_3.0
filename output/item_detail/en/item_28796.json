@@ -3,7 +3,7 @@
   "name": "Mid-grade Nomad Alpha",
   "description": "This ocular filter has been modified by Thukker scientists for use by their elite officers.\n\nPrimary Effect: +3 bonus to Perception \n\nSecondary Effect: 1% bonus to agility\n\nSet Effect: 10% bonus to the strength of all Nomad implant secondary effects",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

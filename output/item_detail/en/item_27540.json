@@ -3,7 +3,7 @@
   "name": "Domination Control Tower",
   "description": "The Domination Control Tower is a special enhanced version of the Matari control tower utilizing the latest in cutting edge design techniques.\n\nRacial Bonuses:\n50% bonus to Projectile Sentry Optimal Range\n50% bonus to Projectile Sentry Fall Off Range\n25% bonus to Projectile Sentry RoF",
   "volume": 8000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 8000.0,
   "capacity": 140000.0,
   "mass": 200000000.0,
   "category_name": "Starbase",

@@ -3,7 +3,7 @@
   "name": "恐惧古斯塔斯跃迁扰频器",
   "description": "干扰对方舰船的导航计算机，防止其跃迁、跳跃、使用微型跃迁推进器或微型跳跃引擎。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

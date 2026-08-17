@@ -3,7 +3,7 @@
   "name": "电力泵",
   "description": "用于将能量从飞船电容器传送到激光增益介质。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

@@ -3,7 +3,7 @@
   "name": "加达里加密技术原理",
   "description": "用来掌握加达里及其盟友所使用的数据加密技术。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

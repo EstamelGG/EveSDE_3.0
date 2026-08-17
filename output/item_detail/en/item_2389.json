@@ -3,7 +3,7 @@
   "name": "Plasmoids",
   "description": "In the early days of humanity's return to space flight, scientists Planto and Ginch co-discovered a self-sustaining natural structure made entirely from plasma suspended in a planetary magnetic field. Since then, the term has been applied to any such construct, whether occurring under normal conditions or produced artificially using electrical currents.",
   "volume": 0.19,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.19,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

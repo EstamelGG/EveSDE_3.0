@@ -3,7 +3,7 @@
   "name": "Prototype 'Arbalest' Heavy Assault Missile Launcher I",
   "description": "A launcher intended for use on cruiser-class spacecraft. While assault launchers do not possess the sheer damage-dealing capability of regular heavy missile launchers, their blend of speed and attack power lends them application across a good range of tactical situations.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": 0.9,
   "mass": null,
   "category_name": "Module",

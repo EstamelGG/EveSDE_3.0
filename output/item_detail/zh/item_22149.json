@@ -3,7 +3,7 @@
   "name": "搜索无人机的记忆芯片",
   "description": "一小块由半导体组成的晶片，是集成电路的基板。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

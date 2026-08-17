@@ -3,7 +3,7 @@
   "name": "Unit W-634's Modified Drone Damage Amplifier",
   "description": "The Drone Damage Amplifier projects a multi-node quantum entanglement onto the ship's drone or fighter communications net, creating a bridged processor link that allows for better real-time trajectory projections.\n\nPenalty: Using more than one type of this module or similar modules that affect the same attribute on the ship will be penalized.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Module",

@@ -3,7 +3,7 @@
   "name": "Loki Core - Immobility Drivers",
   "description": "Even millennia old, the technology employed by Sleeper drones is far from lacking. This is particularly true in the field of interdiction technology, where their capabilities often exceed contemporary systems. Consequently, this aspect of their fearsome arsenal has been the focus of much study and in some rare cases, the starting point for scientific breakthroughs. Minmatar researchers studied the long-range webification systems of the Sleeper drones from the moment they were discovered, quickly reverse engineering a subsystem for their Loki that could replicate the Sleeper's own offensive modules. The end result is a noticeable amplification of a stasis webifier's effective range.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 1200000.0,
   "category_name": "Subsystem",

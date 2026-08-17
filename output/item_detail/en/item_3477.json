@@ -3,7 +3,7 @@
   "name": "Inherent Implants 'Noble' Repair Proficiency RP-904",
   "description": "A neural Interface upgrade for analyzing and repairing starship damage.\n\n4% bonus to repair system repair amount.\n\nNote: This implant has no effect on remote armor repair modules or capital sized modules.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

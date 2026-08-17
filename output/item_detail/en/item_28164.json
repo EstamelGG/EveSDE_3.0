@@ -3,7 +3,7 @@
   "name": "Thermodynamics",
   "description": "Advanced understanding of the laws of thermodynamics. Allows you to deliberately overheat a ship's modules in order to push them beyond their intended limit. Also gives you the ability to frown in annoyance whenever you hear someone mention a perpetual motion unit. Reduces heat damage by 5% per level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

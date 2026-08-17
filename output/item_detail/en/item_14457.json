@@ -3,7 +3,7 @@
   "name": "Mizuro's Modified 800mm Repeating Cannon",
   "description": "A two-barreled, intermediate-range, powerful cannon capable of causing tremendous damage. \n\nMust be loaded with any of the following projectile ammo types: Carbonized Lead, Depleted Uranium, EMP, Fusion, Nuclear, Phased Plasma, Proton, or Titanium Sabot.",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": 3.0,
   "mass": 75.0,
   "category_name": "Module",

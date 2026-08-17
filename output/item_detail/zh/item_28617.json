@@ -3,7 +3,7 @@
   "name": "班尼德勒石",
   "description": "这是普通凡晶矿的一种变体，但与凡晶石相比，班尼德勒石的储量要少得多——但这对采矿人来说并不是什么问题，因为这种矿石杂质很多，几乎毫无价值。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "小行星",

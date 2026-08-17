@@ -3,7 +3,7 @@
   "name": "采矿驳船操作",
   "description": "操作外空联合矿业采矿驳船的技能。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

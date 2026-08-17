@@ -3,7 +3,7 @@
   "name": "Dual Afocal Pulse Laser I",
   "description": "This light pulse energy weapon uses two separate laser focusing systems to reduce the cool down period between shots. Good skirmish weapon. \n\nRequires frequency crystal ammo types: Gamma, Infrared, Microwave, Multifrequency, Radio, Standard, Ultraviolet, Xray.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 1.0,
   "mass": 500.0,
   "category_name": "Module",

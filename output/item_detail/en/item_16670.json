@@ -3,7 +3,7 @@
   "name": "Crystalline Carbonide",
   "description": "An exceptionally hard material created from crystallite alloys and carbon polymers, crystalline carbonide is a primary component in various forms of advanced Gallente technology, such as thrusters and armor plating.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

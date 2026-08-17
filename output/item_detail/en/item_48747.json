@@ -3,7 +3,7 @@
   "name": "Overmind 'Hawkmoth' Drone Tuner S10-25T",
   "description": "The Overmind 'Hawkmoth' Drone Tuner S10-25T increases the speed of drones at the expense of their defensive systems.\n\nImplants that allow pilots to rewrite the firmware of standard drones on the fly are a relatively recent development but this implant uses rogue drone technology to achieve a similar effect. Using shipboard nano-systems the physical parameters of the drones will then be changed according to the tuning of the implant design.\n\nThe leading drone technology corporation CreoDron developed and marketed a remarkably similar system recently but this implant is the product of the grey market in technology limited to capsuleer use.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

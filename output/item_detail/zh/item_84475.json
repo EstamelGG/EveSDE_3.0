@@ -3,7 +3,7 @@
   "name": "冰冻鱼",
   "description": "你钓到了一条鱼！这条鱼由于冰冻太久，鱼身结构受到深渊环境的影响，扭曲程度难以估量，因此没有任何营养或贸易价值。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 0.1,
   "category_name": "特别版用品",

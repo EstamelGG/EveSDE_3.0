@@ -3,7 +3,7 @@
   "name": "信号畸变放大器 II",
   "description": "增强常规ECM目标干扰器的运行效能，使之效果更强，作用距离更远。只适用于常规ECM类装备，不适用于ECM脉冲波类装备。\n\n惩罚：在一艘舰船上使用多个这类装备或多个与该装备作用一致的类似装备将削弱实际使用效果。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "装备",

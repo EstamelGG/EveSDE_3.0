@@ -3,7 +3,7 @@
   "name": "Structure Docking Bay",
   "description": "Mechanical components required for the construction of an outpost docking bay.",
   "volume": 3000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3000.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "Broken Science Equipment",
   "description": "Left-over equipment from this abandoned research lab. It's badly damaged and probably contaminated.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 2000.0,
   "category_name": "Commodity",

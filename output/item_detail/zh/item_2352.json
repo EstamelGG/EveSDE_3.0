@@ -3,7 +3,7 @@
   "name": "核反应堆",
   "description": "这座能源核心通过核裂变反应将重元素转变为电能，原子被拆分以产生海量的热能并推动发电涡轮机的转动。只要它们能够被正确地包裹密封并进行冷却，核反应是少有的安全及干净的能源，可用于建筑物和大型载具的能源供给。",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": null,
   "category_name": "行星商品",

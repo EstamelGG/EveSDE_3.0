@@ -3,7 +3,7 @@
   "name": "Subsystem Assembly Array",
   "description": "A mobile assembly facility where advanced subsystems and hulls of strategic cruisers can be manufactured. This structure has no specific time or material requirement bonuses to subsystem manufacturing.\n\nNote: Tech III hulls cannot be assembled at starbase structures.  The hulls and subsystems can only be assembled whilst docked in a station.",
   "volume": 17000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 17000.0,
   "capacity": 2000000.0,
   "mass": 200000000.0,
   "category_name": "Starbase",

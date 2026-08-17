@@ -3,7 +3,7 @@
   "name": "Nova Auto-Targeting Cruise Missile I",
   "description": "A Minmatar cruise missile with a nuclear warhead and automatic guidance system.",
   "volume": 0.05,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.05,
   "capacity": null,
   "mass": 1250.0,
   "category_name": "Charge",

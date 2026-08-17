@@ -3,7 +3,7 @@
   "name": "Brutor Workers",
   "description": "They favor physical prowess over everything else and can be frightening to face in the flesh.",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Commodity",

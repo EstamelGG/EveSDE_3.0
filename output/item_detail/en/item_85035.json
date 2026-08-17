@@ -3,7 +3,7 @@
   "name": "Nija's Modified Warp Disruption Field Generator",
   "description": "The field generator projects a warp disruption sphere centered upon the ship for its entire duration. The field prevents any warping or jump drive activation within its area of effect.\n\nThe generator has several effects upon the parent ship whilst active. It increases its signature radius and also prevents any friendly remote effects from being rendered to the parent ship.\n\nThis module's effect can be modified with scripts. When scripted it prevents capital class ships from using stargates (excluding Jump Freighters, Freighters and the Orca). \n\nNote: Can only be fitted to the Heavy Interdiction Cruisers.",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": 1.0,
   "mass": null,
   "category_name": "Module",

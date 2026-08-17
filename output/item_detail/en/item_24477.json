@@ -3,7 +3,7 @@
   "name": "Scourge Javelin Rocket",
   "description": "A small rocket with a piercing warhead.\n\nA modified version of the Scourge rocket. It can reach higher velocity than the Scourge rocket at the expense of warhead size.",
   "volume": 0.005,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.005,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

@@ -3,7 +3,7 @@
   "name": "Loki Offensive - Projectile Scoping Array",
   "description": "Scoping arrays were mostly out of fashion in recent ship design, but Sleeper technology has brought them somewhat back into vogue. Based upon the remarkable flexibility fullerene-based technology, Sleeper-based scoping arrays allowed projectile weaponry to produce longer-ranged accuracy without reducing the weapon's rate-of-fire. While a resurgence of scoping arrays is not expected, this subsystem certainly shows its uses in modern warfare.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 800000.0,
   "category_name": "Subsystem",

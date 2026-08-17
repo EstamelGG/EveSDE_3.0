@@ -3,7 +3,7 @@
   "name": "Consolidated Holdings Commander Access Key",
   "description": "This Commander key has the information needed to unlock the acceleration gate in the Checkpoint which it was found.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": 0.01,
   "category_name": "Commodity",

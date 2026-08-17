@@ -3,7 +3,7 @@
   "name": "载诺 吉普赛 推进干扰 PJ-804",
   "description": "一款神经接口升级芯片，可以增强飞行员在推进阻扰方面的技能。对于那些要求推进干扰这一技能的装备，电容需求量降低4%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

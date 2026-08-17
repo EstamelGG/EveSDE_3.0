@@ -3,7 +3,7 @@
   "name": "深渊采矿激光器",
   "description": "能快速采集普通的矿石，但不太适合开采稀有矿石。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

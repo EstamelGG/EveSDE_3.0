@@ -3,7 +3,7 @@
   "name": "大型威胁探测阵列3",
   "description": "这个阵列能够检测出零安全区域中存在一部分最难对付的敌军的战斗异常空间，非常适合经验丰富的战斗飞行员获取主权中心升级件。此衍生版阵列会比基础版和升级版阵列更快地检测出新生的异常空间。",
   "volume": 60000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 60000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "基础设施升级件",

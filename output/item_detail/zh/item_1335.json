@@ -3,7 +3,7 @@
   "name": "强化舱隔壁 II",
   "description": "增加结构值，但会降低灵活性和货舱容量。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "装备",

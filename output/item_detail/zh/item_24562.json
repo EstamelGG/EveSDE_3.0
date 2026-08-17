@@ -3,7 +3,7 @@
   "name": "跳跃通道发生学",
   "description": "生成通往遥远星系的跳跃通道的技能。每升一级，激活跳跃通道的原料消耗减少10%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

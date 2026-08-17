@@ -3,7 +3,7 @@
   "name": "打捞出的数据核心",
   "description": "这个数据核来自一艘自称属于FON的巡洋舰，这艘船所在的小队对一个雇佣兵哨站发动了恶意攻击。它应该立刻被带给潘东·阿迪兰做全面的分析。",
   "volume": 2.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2.0,
   "capacity": null,
   "mass": 2500.0,
   "category_name": "常用物品",

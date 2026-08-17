@@ -3,7 +3,7 @@
   "name": "莫西石",
   "description": "稀少的莫西石被认为是奥贝尔石的近亲，只在化学构成上稍有不同；实际上，这两种矿石最近才被划分为两种独立类型。不过，当前的精炼技术会对莫西石造成无法弥补的损害，这使它不适于任何实际用途。",
   "volume": 0.6,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.6,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

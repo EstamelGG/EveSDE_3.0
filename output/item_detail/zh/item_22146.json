@@ -3,7 +3,7 @@
   "name": "伪造的航标日志",
   "description": "看上去像那么回事的帝国官方文档，给出了几个特定航标的位置。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

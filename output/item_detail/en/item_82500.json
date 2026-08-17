@@ -3,7 +3,7 @@
   "name": "Minor Threat Detection Array 2",
   "description": "Detecting combat anomalies containing hostiles of modest strength, this array is ideal for giving up-and-coming combat pilots a way to prove their worth.\nThis variant has a faster detection capability for new anomalies compared to its base version.",
   "volume": 20000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Infrastructure Upgrades",

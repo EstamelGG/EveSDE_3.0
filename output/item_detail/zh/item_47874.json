@@ -3,7 +3,7 @@
   "name": "中型分解者专业研究",
   "description": "操作重型熵能分解者的专业训练。每升一级，需要中型分解者专业研究技能的中型武器的伤害提高2%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

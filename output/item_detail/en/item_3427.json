@@ -3,7 +3,7 @@
   "name": "Electronic Warfare",
   "description": "Operation of ECM jamming systems. 5% less capacitor need for ECM and ECM Burst systems per skill level.\n\nNote: Does not affect capital class modules.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

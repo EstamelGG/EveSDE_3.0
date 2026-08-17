@@ -3,7 +3,7 @@
   "name": "Rank 2 Upgrade",
   "description": "An advanced upgrade to Amarr Outpost manufacturing capabilities. Gives an additional nine factory slots and increases the manufacturing time reduction on all Tech I ships to 60%",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Accessories",

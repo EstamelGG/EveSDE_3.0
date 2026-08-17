@@ -3,7 +3,7 @@
   "name": "Lanthanum Metallofullerene",
   "description": "This fullerene-lanthanum compound is made by encasing a single lanthanum atom in a cage of carbon atoms. The incredibly high melting point of lanthanum compounds make them ideal for the construction of offensive hardpoints, where heat dissipation is critical to keeping weapons systems operating effectively.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

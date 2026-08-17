@@ -3,7 +3,7 @@
   "name": "精确射击理论",
   "description": "增强炮台远程攻击能力的技能，每升一级，武器的最佳射程增加5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

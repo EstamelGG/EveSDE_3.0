@@ -3,7 +3,7 @@
   "name": "Phase Inversion Battery",
   "description": "Analyzes incoming targeting signals and attempts to counter them by emitting an out-of-phase signal back. Great against Ladar targeting systems.",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": 100000000.0,
   "category_name": "Starbase",

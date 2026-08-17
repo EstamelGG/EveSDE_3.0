@@ -3,7 +3,7 @@
   "name": "Zainou 'Gypsy' Long Range Targeting LT-804",
   "description": "A neural interface upgrade that boosts the pilot's skill at long range targeting.\n\n4% bonus to max targeting range.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

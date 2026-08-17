@@ -3,7 +3,7 @@
   "name": "Cryoprotectant Solution",
   "description": "The base elements present in certain synthetic oils can, at extreme temperatures, produce habitable environments for genetically engineered extremophile. The byproduct of their rapid life-death cycle is a highly thermal resistant solution ideal for hybrid electronics.",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

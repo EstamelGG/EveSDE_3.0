@@ -3,7 +3,7 @@
   "name": "Sansha Infiltrator Tag",
   "description": "A dogtag carried by members of the Sansha's navy. Members carrying the rank of infiltrator are often tasked with intercepting and deciphering enemy communications.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

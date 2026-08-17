@@ -3,7 +3,7 @@
   "name": "构件改装技术",
   "description": "理解星舰部件内部原理的基本技能。允许通过改装件对舰船系统进行临时改进。它是在改装技术方面进行深入研究的必需技能。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

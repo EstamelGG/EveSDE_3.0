@@ -3,7 +3,7 @@
   "name": "跃迁引擎操控基础",
   "description": "管理跳跃引擎效率的技能。每升一级，启动跃迁的电容需求降低10%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

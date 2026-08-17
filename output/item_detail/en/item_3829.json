@@ -3,7 +3,7 @@
   "name": "Medium Shield Extender I",
   "description": "Increases the maximum strength of the shield.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

@@ -3,7 +3,7 @@
   "name": "欢腾人群烟火",
   "description": "古斯塔斯海盗对他们源自加达里海军的精英铁骑舰载机和护卫舰中队引以为傲，他们标志性的“欢腾人群”烟火用火焰将太空混战以图形化的方式表达出来。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "弹药",

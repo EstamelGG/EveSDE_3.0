@@ -3,7 +3,7 @@
   "name": "Tactical Capsuleer Recloner",
   "description": "The Tactical Capsuleer Recloner allows pilots of capsules destroyed in the local system to reclone at a supercarrier equipped with an active recloner. To overcome the limitations of standard capsuleer cloning, particularly the need to pre-install compatible clone blanks at a cloning location, the system relies on capsuleers using a special augmentation: the Nanoheuristic Clone Mapper.\n\nThe Tactical Capsuleer Recloner uses rapid nanosculpting technology to tailor default clone blanks to individual capsuleers using data received from the Nanoheuristic Clone Mapper augmentation. Capsuleers with clone mappers installed are therefore able to reclone at an active Tactical Capsuleer Recloner in the local system.\n\nWhile the recloning bay is the heart of the TCR facility, it also contains industrial nanofabs capable of flash-fabricating capsules, together with launch tubes that will rapidly deliver the recloned capsuleer to their new ship. \n\nNote: The recloning action requires material from fuel blocks stored in Supercarrier. The type of fuel block needed is specific to each Supercarrier and can be found in their attributes.",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

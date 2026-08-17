@@ -3,7 +3,7 @@
   "name": "太空测量学",
   "description": "操作远程扫描仪的技能。每升一级，扫描强度提高5%。每升一级，扫描误差降低5%。每升一级，扫描探针扫描时间缩短5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

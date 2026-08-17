@@ -3,7 +3,7 @@
   "name": "Inherent Implants 'Squire' Energy Grid Upgrades EU-702",
   "description": "A neural interface upgrade that boosts the pilot's skill with energy grid upgrades.\n\n2% reduction in CPU need of modules requiring the Energy Grid Upgrades skill.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

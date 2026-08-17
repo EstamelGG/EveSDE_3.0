@@ -3,7 +3,7 @@
   "name": "Salvage Drone Specialization",
   "description": "Advanced proficiency at controlling salvage drones. 2% bonus to the max velocity and salvage chance of drones requiring Salvage Drone Specialization per level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

@@ -3,7 +3,7 @@
   "name": "硅酸盐玻璃",
   "description": "硅酸盐玻璃是一种普通的建筑材料，在新伊甸的宇宙中有着稳定的需求量，用于行星设施的建造或者经过强化后用于空间舰船。",
   "volume": 0.75,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.75,
   "capacity": null,
   "mass": null,
   "category_name": "行星商品",

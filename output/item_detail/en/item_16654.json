@@ -3,7 +3,7 @@
   "name": "Titanium Chromide",
   "description": "Titanium Chromide is in high demand among technicians and manufacturers for its unique combination of strength, light weight and catalytic potential.",
   "volume": 0.2,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.2,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

@@ -3,7 +3,7 @@
   "name": "鞭挞狂乱鱼雷",
   "description": "一种终极重型穿刺导弹。虽然慢而笨重，但是破坏力着实惊人。这是鞭挞鱼雷的一种改良版本，这个型号在设计上显得很慢而且笨重，但是却相较拥有更强大的威力。它对于大型的目标非常有效，对小型目标的效果则不是很理想。",
   "volume": 0.05,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.05,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "弹药",

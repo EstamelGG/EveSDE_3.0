@@ -3,7 +3,7 @@
   "name": "Noble Gas",
   "description": "This colorless, odorless, and usually nonflammable substance is one of seven known monoatomic gases, or those that do not easily combine with other atoms. They are thus well suited for a variety of manufacturing implementations.",
   "volume": 0.005,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.005,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Resources",

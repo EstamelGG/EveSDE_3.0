@@ -3,7 +3,7 @@
   "name": "旗舰建设构件",
   "description": "建造旗舰级之类飞船所需的各种机械和电子部件。",
   "volume": 2000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2000.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "常用物品",

@@ -3,7 +3,7 @@
   "name": "社交适应芯片—强化级",
   "description": "植入在顶叶的图像处理器，能增加人物的魅力属性值。魅力+5",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

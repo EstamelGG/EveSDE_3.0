@@ -3,7 +3,7 @@
   "name": "Scarlet Embrace Fireworks Crate",
   "description": "This crate contains Scarlet Embrace fireworks and a Festival Launcher.",
   "volume": 4.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4.0,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

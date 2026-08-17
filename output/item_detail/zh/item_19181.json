@@ -3,7 +3,7 @@
   "name": "吉斯塔姆中型护盾回充增量器 C型",
   "description": "消耗能量以快速提高护盾强度。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

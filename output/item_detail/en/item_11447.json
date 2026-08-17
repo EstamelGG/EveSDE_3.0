@@ -3,7 +3,7 @@
   "name": "Laser Physics",
   "description": "Skill and knowledge of Laser Physics and its use in the development of advanced Technology. \n\nUsed primarily in the research of Laser weaponry as well as EM based missiles and smartbombs.\n\nAllows Laser Physics research to be performed with the help of a research agent. 1% reduction in manufacturing time for all items requiring Laser Physics per level.\n\nNeeded for all research and manufacturing operations on related blueprints.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

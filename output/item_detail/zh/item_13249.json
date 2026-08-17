@@ -3,7 +3,7 @@
   "name": "载诺 狙击手 导弹发射效率 RL-1003",
   "description": "一款载诺集团开发的导弹技能神经交互强化芯片，可增强导弹操纵技能。\n\n\n\n所有导弹发射速度提高3%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

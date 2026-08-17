@@ -3,7 +3,7 @@
   "name": "Quantum Physics",
   "description": "Skill and knowledge of Quantum Physics and its use in the development of advanced Technology. \n\nUsed primarily in the research of shield systems and Particle Blasters.  \n\nAllows Quantum Physics research to be performed through a research agent. 1% reduction in manufacturing time for all items requiring Quantum Physics per level.\n\nNeeded for all research and manufacturing operations on related blueprints.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

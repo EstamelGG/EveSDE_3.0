@@ -3,7 +3,7 @@
   "name": "Inferno Rage Rocket",
   "description": "A small rocket with a plasma warhead.\n\nThis modified version of the Inferno Rocket packs a considerably stronger punch, but as a result is heavier and slower. This makes it very effective against larger targets, but markedly less effective against smaller and more agile targets.",
   "volume": 0.005,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.005,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

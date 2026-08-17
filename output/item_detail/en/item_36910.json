@@ -3,7 +3,7 @@
   "name": "Antipharmakon Iokira",
   "description": "Scanning this object reveals a substance that could be used like a neural booster. This complex chemical has some similarities to boosters used to improve capsuleer performance with tracking manipulation.\n\nGiven that the substance appears to be of Drifter origin, and exhibits some very unusual properties at the quantum level, using it as a booster should be considered carefully.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Implant",

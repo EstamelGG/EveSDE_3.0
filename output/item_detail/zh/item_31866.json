@@ -3,7 +3,7 @@
   "name": "帝国海军渗透者",
   "description": "中型侦察无人机",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 5000.0,
   "category_name": "无人机",

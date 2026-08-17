@@ -3,7 +3,7 @@
   "name": "被破坏的造假工具",
   "description": "伪造者为了在海关官员犀利的目光前隐藏非法货物而使用的工具，现在已经损坏、碎裂。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "常用物品",

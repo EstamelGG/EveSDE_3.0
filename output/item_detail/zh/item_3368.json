@@ -3,7 +3,7 @@
   "name": "外交关系学",
   "description": "与统合部商谈盟友费的技能。每升一级，降低盟友招集费用5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

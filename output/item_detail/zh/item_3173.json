@@ -3,7 +3,7 @@
   "name": "载诺 快照 火箭 RD-902",
   "description": "一款神经接口升级芯片，可以增强飞行员在火箭方面的技能。火箭伤害增加2%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

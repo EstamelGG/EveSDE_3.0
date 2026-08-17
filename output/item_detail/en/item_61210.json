@@ -3,7 +3,7 @@
   "name": "Rare Moon Mining Crystal Type C I",
   "description": "A custom-cut frequency crystal whose refractive qualities are specifically suited to boosting yield when mining Rare Moon Ores such as Carnotite, Zircon, Pollucite, and Cinnabar.\n\nDue to their molecular make-up and the strength of the modulated miner's beam, these crystals will deteriorate through extended use. Can be loaded into modulated mining lasers only.\n\nType C crystals are used with modulated mining equipment and provide low yields, with very high residues and very low reliability. Typically used for asteroid field clearance purposes only.",
   "volume": 6.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 6.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

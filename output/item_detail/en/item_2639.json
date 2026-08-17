@@ -3,7 +3,7 @@
   "name": "Crates of Repair Parts",
   "description": "Despite the enormous diversity of size and complexity of machinery across the cluster, there are numerous common elements shared by all people, such as high tension wiring, locking fasteners, and thermal shielding.",
   "volume": 70.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 70.0,
   "capacity": null,
   "mass": 70000.0,
   "category_name": "Commodity",

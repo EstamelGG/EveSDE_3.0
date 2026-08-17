@@ -3,7 +3,7 @@
   "name": "卡尔蒙·迪兹姆的勋章",
   "description": "卡尔蒙·迪兹姆的高等牧师徽章。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 0.1,
   "category_name": "常用物品",

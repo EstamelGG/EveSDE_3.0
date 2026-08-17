@@ -3,7 +3,7 @@
   "name": "统合部扫描增效型大脑加速器",
   "description": "<font color=\"#ff3399cc\"><b>探针扫描强度+5%，持续12小时。</b></font>\n<font color=\"#ff3399cc\"><b>所有属性+5。</b></font>",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "植入体",

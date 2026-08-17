@@ -3,7 +3,7 @@
   "name": "Technetium",
   "description": "A silvery metal, primarily used as a corrosion inhibitor and a superconductor.",
   "volume": 0.05,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.05,
   "capacity": null,
   "mass": 8800.0,
   "category_name": "Material",

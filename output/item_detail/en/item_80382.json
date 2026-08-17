@@ -3,7 +3,7 @@
   "name": "Deepflow Adaptive Canister",
   "description": "Designed to survive the hazardous depths of the Abyss beyond the secure pockets capsuleers have explored, the contents of this canister are a mystery.",
   "volume": 6.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 6.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Special Edition Assets",

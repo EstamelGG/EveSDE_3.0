@@ -3,7 +3,7 @@
   "name": "阿洛特工业保险柜",
   "description": "属于阿洛特工业的一个保险柜。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "常用物品",

@@ -3,7 +3,7 @@
   "name": "毕克基的破译卡",
   "description": "这把通行钥匙用于进入禁止对外开放的研究区域空间。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

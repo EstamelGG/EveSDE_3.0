@@ -3,7 +3,7 @@
   "name": "爆炸护盾补偿研究",
   "description": "每升一级，护盾增效器的爆炸抗性提高5%",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

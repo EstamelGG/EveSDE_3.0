@@ -3,7 +3,7 @@
   "name": "磷钇矿",
   "description": "磷钇矿是卫星中开采出的一种特殊矿石，价值极高，能够产出丰富的<a href=showinfo:16650>镝</a>，可作为许多高级矿物的重要元素。磷钇矿石还会产出<a href=showinfo:16642>钒</a>、<a href=showinfo:16640>钴</a>和<a href=showinfo:16634>标准大气</a>。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "小行星",

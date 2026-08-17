@@ -3,7 +3,7 @@
   "name": "凝缩液",
   "description": "为了能将稀有粒子强行从普通物质中凝结出来，需要使用氧化冷凝液来实现这个过程，这也是大量生产珍贵的基础元素最为经济的方法。",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": null,
   "category_name": "行星商品",

@@ -3,7 +3,7 @@
   "name": "200mm轻型镓金属机关炮",
   "description": "威力强大的自动加农炮，可以轻松击毁大部分配有轻型装甲的护卫舰。    必须装填以下类型的弹药：碳铅弹、贫铀弹、电磁脉冲弹、聚变弹、核芯弹、定相离子弹、质子弹和钛合金萨博弹。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 0.3,
   "mass": 500.0,
   "category_name": "装备",

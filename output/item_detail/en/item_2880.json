@@ -3,7 +3,7 @@
   "name": "Unknown Dead",
   "description": "This contingent of Federation pilots and soldier went missing during the first Caldari Gallente war. They've been preserved by the cold but they are still in a delicate state, and must be handled with care.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 80.0,
   "category_name": "Commodity",

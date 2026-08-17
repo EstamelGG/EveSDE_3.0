@@ -3,7 +3,7 @@
   "name": "共和国别动队战场增效体—伽玛型",
   "description": "植入在大脑顶叶的图像处理器，能增加人物4点的毅力属性值以及飞船5%的最大速度。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

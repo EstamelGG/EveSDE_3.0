@@ -3,7 +3,7 @@
   "name": "Scorch L",
   "description": "The Scorch is a UV crystal designed by Carthum Conglomerate. Utilizing AI microtrackers it gives a good boost to range but has fairly low damage potential, low tracking and is of limited use against heavily armored targets. The delicate crystalline structures used in the manufacture of this advanced crystal degrade with use, eventually causing it to shatter.\n\n40% increased optimal range.\n25% reduced tracking speed.\n\nNote: This ammunition can only be used by large tech level II, faction and officer Pulse Lasers.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

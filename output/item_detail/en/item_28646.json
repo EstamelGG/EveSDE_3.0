@@ -3,7 +3,7 @@
   "name": "Covert Cynosural Field Generator I",
   "description": "Generates an undetectable cynosural field which only Black Ops jump drives can lock on to.\n\nNote: Can only be fitted to Black Ops, Blockade Runners, Covert Ops, Etana, Rabisu, Prospect, Stealth Bombers and Force Recon Ships, as well as Strategic Cruisers equipped with Covert Reconfiguration Subsystems.",
   "volume": 25.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 25.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

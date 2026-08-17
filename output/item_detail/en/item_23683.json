@@ -3,7 +3,7 @@
   "name": "Binary Transpositional Code",
   "description": "This sheet can be used to dechiper layered binary codes with extreme ease.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "Manel's Servant",
   "description": "Servant of Duke Manel Kador.",
   "volume": 2.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2.0,
   "capacity": null,
   "mass": 75.0,
   "category_name": "Commodity",

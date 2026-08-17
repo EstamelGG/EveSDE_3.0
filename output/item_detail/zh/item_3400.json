@@ -3,7 +3,7 @@
   "name": "哨站建造研究",
   "description": "建造玩家控制的哨站的必需技能。每升一级，所有需要哨站建造的物品的生产时间缩短1%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

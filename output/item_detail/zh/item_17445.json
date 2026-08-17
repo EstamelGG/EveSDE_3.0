@@ -3,7 +3,7 @@
   "name": "希莫非特（3级）",
   "description": "希莫非特有许多种颜色的变体。有趣的是，颜色越鲜艳的希莫非特，矿物含量就越高。辐射希莫非特含有的矿物比色彩黯淡的同种矿石高10%。希莫非特含有大量<a href=showinfo:38>超新星诺克石</a>，因此找到这种矿石总是美事一桩。它并非十分罕见，即使是采矿新手也可能与它不期而遇。希莫非特含有一定数量的<a href=showinfo:37>同位聚合体</a>。大多数情况下，你可以在低安全等级星系找到它。",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

@@ -3,7 +3,7 @@
   "name": "Glorified Deepflow Adaptive Canister",
   "description": "A valuable cache of Sleeper and Triglavian artifacts gathered into this canister to protect them from the ravages of the Abyssal Deepflows.",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Special Edition Assets",

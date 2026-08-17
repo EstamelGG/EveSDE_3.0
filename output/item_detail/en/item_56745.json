@@ -3,7 +3,7 @@
   "name": "Forever 4-4 Firework",
   "description": "PKN Interstellar's determination to celebrate the success of its major project to expand the Jita 4-4 station has left no detail overlooked, with its public relations specialists commissioning a space pyrotechnic design for the occasion. The \"Forever 4-4 Firework\" is designed to be shot from Festival Launchers and is intended to signify the enduring future place of Jita 4-4 as the center of New Eden's trade networks.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

@@ -3,7 +3,7 @@
   "name": "Medium Industrial Core II",
   "description": "An electronic interface designed to facilitate the deployment of the Porpoise into its industrial configuration. Whilst in the deployed configuration, energy from the Porpoise's engines is channeled into incredible shield defenses, improved mining foreman bursts and significantly enhanced mining drone coordination.\n\nDeployed Porpoises also gain the ability to activate medium compressor modules, enabling compression of gas and asteroid ore.\n\nBenefits of using this module alongside other modules that affect the same attributes will be subject to diminishing returns.\n\n<b>Note: Can only be fitted to the Porpoise industrial command ship.</b>",
   "volume": 3500.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3500.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Module",

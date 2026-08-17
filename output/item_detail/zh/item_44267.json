@@ -3,7 +3,7 @@
   "name": "收割之镰烟火",
   "description": "作为血袭者同盟每年一度的血色收割祭仪的标志，“血色之镰”烟火在用作普通用途时常常招人侧目。不过这不能阻止它成为“萨萨比克”流行音乐节上狂热粉丝的最爱。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "弹药",

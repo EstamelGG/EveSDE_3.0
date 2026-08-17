@@ -3,7 +3,7 @@
   "name": "自协调能源核心",
   "description": "监视无人机对这些高级核反应堆的温度、放射性以及电量输出进行密切监控，进行即时调整，实现最佳效率。有了如此先进的自动化设施，人力自然就显得多余。",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": null,
   "mass": null,
   "category_name": "行星商品",

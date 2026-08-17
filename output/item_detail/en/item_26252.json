@@ -3,7 +3,7 @@
   "name": "Jury Rigging",
   "description": "General understanding of the inner workings of starship components. Allows makeshift modifications to ship systems through the use of rigs. Required learning for further study in the field of rigging.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

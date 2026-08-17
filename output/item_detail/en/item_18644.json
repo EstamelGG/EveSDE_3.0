@@ -3,7 +3,7 @@
   "name": "High Roller's Passcard",
   "description": "This passcard is handed out to Guristas operatives that have earned access to the gambler's paradise in the guristas reinvigoration camp. The gate will remain open for a short period of time and the card will be rendered useless after uploading the card's data to the gate's activation device.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

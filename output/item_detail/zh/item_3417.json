@@ -3,7 +3,7 @@
   "name": "电容系统操作",
   "description": "操作飞船电容器的技能，包括使用电容注电器和其他基础能源装备。每升一级，电容器回充时间缩短5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

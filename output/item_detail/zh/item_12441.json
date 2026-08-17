@@ -3,7 +3,7 @@
   "name": "导弹打击概论",
   "description": "精通远程导弹战的技能。每升一级，所有导弹的最大飞行时间增加10%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

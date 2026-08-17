@@ -3,7 +3,7 @@
   "name": "Modified Fluid Router",
   "description": "The backbones of communication across New Eden, fluid routers play a crucial role in all faster-than-light (FTL) transmissions. The Sleeper drones have been equipped with much the same communications equipment as contemporary starships. The only major difference observable with the Sleeper Fluid Routers is in the way transmissions are translated. The drones must be talking in their own proprietary language.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

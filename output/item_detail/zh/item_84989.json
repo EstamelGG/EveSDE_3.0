@@ -3,7 +3,7 @@
   "name": "马卡拉改良小型掠能器",
   "description": "吸取对方舰船的能量为自己所用。注：所有能量吸噬装备都不会将目标的电容器电量值抽取到比你当前电量值更低的水平。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "装备",

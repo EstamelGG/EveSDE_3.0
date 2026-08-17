@@ -3,7 +3,7 @@
   "name": "天赋植体 诺贝尔 船体升级 HG-1004",
   "description": "一款神经接口升级芯片，可增强飞行员维护飞船中级防御系统的技能。\n\n装甲值增加4%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

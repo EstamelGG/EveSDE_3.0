@@ -3,7 +3,7 @@
   "name": "Caldari Subsystems Data Interface",
   "description": "This data interface allows the integration of ancient technology with Caldari systems.\n\nUsed for Reverse Engineering jobs.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Decryptors",

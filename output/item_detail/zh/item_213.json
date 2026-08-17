@@ -3,7 +3,7 @@
   "name": "星爆轻型导弹",
   "description": "星爆轻型导弹是种超小型的核芯武器，源于自米玛塔尔抵抗运动早期开始就有应用的某个经典共和国设计。",
   "volume": 0.015,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.015,
   "capacity": null,
   "mass": 700.0,
   "category_name": "弹药",

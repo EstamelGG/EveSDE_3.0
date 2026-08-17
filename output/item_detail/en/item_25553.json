@@ -3,7 +3,7 @@
   "name": "Cryptic Data Interface",
   "description": "Designed for use with Minmatar technology, this portable interface permits its user to course through the electronic stream of item schematics, hunting down the stray bits of data necessary for his grand creation. Only one data interface is required for invention, and it can be re-used as often as needed.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Commodity",

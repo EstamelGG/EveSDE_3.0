@@ -3,7 +3,7 @@
   "name": "Covert Jump Portal Generator I",
   "description": "A piece of machinery designed to allow a black ops vessel to create a bridge between systems without the use of a stargate, allowing its companion vessels to travel across vast tracts of space to join it on the battlefield.<br>\nNote: Can only be fitted to Black Ops.<br>\nJump Portal Generators use the same isotopes as your ship's jump drive to jump other ships through the portal. You will need sufficient fuel in your holds in order to allow ships in your fleet to use the jump portal when it is activated.",
   "volume": 125.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 125.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Module",

@@ -3,7 +3,7 @@
   "name": "Neural Boost - Basic",
   "description": "A Data processing unit implanted in the Parietal lobe. Grants a bonus to Willpower.\n\n+3 Bonus to Willpower",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

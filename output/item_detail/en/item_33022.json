@@ -3,7 +3,7 @@
   "name": "Postcard From Poitot",
   "description": "Interesting fact: <url=showinfo:5//30003271>Poitot</url> is the only named system in the <url=showinfo:3//10000041>Syndicate</url> region.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

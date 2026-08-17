@@ -3,7 +3,7 @@
   "name": "机械学",
   "description": "维护飞船机械组件和结构安全性的技能。每升一级，结构强度提高5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

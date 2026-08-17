@@ -3,7 +3,7 @@
   "name": "高密度格里米尔",
   "description": "YC126年，格里米尔首次被发现。当时矿工们很快就注意到，晶体的颜色越深，<a href=showinfo:37>同位聚合体</a>越多，<a href=showinfo:34>三钛合金</a>的产量就越少。它的质地和利帕尔芝士略有相似，所以那些痴迷于开采格里米尔的人也会被对手戏称为“芝士痴”。格里米尔通常会分布在零安全区域内的小行星异常空间中。这种矿物被压缩过，比它的原始形态紧密得多。",
   "volume": 0.008,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.008,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

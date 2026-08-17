@@ -3,7 +3,7 @@
   "name": "发射器改装技术",
   "description": "理解导弹发射器与多种舰船系统之间接口的高级技能。允许通过改装件对飞船系统架构进行临时改进。\n\n每升一级，发射器改装件的副作用降低10%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

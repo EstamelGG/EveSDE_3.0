@@ -3,7 +3,7 @@
   "name": "Minmatar Basic Outpost Factory Platform",
   "description": "A basic upgrade to Minmatar Outpost manufacturing capabilities. Gives a manufacturing time reduction on all Modules of 20%.",
   "volume": 750000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 750000.0,
   "capacity": 7500000.0,
   "mass": null,
   "category_name": "Celestial",

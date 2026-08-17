@@ -3,7 +3,7 @@
   "name": "Nanofiber Internal Structure II",
   "description": "Replaces some of the heavier structure components with lighter, but more fragile material. Increases ship's velocity and improves maneuverability at the expense of hull strength.\n\nPenalty: Using more than one type of this module or similar modules that affect the same attribute on the ship will be penalized.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Module",

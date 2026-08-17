@@ -3,7 +3,7 @@
   "name": "Zach's Note",
   "description": "Zach Himun's note to the Emperor Family bureau, authorizing the creation of an ID card for the deliverer.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

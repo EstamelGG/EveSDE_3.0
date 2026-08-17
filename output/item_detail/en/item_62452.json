@@ -3,7 +3,7 @@
   "name": "Gas Decompression Efficiency",
   "description": "This skill improves the efficiency of the decompression process for converting compressed harvestable gases into a form usable in industrial processes. Each level improves efficiency and reduces decompression losses by 1%.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

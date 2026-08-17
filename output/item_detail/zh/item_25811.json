@@ -3,7 +3,7 @@
   "name": "天文探测学",
   "description": "掌握远程扫描仪的进阶技能。每升一级，扫描探针扫描时间缩短5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

@@ -3,7 +3,7 @@
   "name": "Freelancing",
   "description": "Skill that enables accepting a greater number of Freelance jobs simultaneously.\n\nIncreases the maximum number of Freelance Jobs that can be accepted simultaneously to 4 at Level 1, 5 at level 2, 7 at level 3, 9 at level 4, and 11 at level 5.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

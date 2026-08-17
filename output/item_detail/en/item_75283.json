@@ -3,7 +3,7 @@
   "name": "Compressed Eifyrium",
   "description": "This is the most common form of Eifyrium ore with a standard relative density of <a href=showinfo:39>Zydrine</a> mineral content.\n\nEifyrium is a rare ore that contains a useful concentration of the Zydrine mineral in relatively dense deposits. Though found in remote clusters of asteroids, the ore is readily transportable and easily refined into the useful mineral it contains.\n\nA special \"Deep Space Survey\" partnership between Ducia Foundry,  Eifyr and Co., Mordu's Legion, and Ytiri was forged by the four members of the Upwell Consortium in order to carry out prospecting expeditions at the edges of empire space, deep in nullsec, and even beyond to wormhole space. In YC124, these survey missions were able to identify a number of rare ore types, each containing an unusually pure deposit of a standard mineral. Eifyrium was the Zydrine-bearing ore discovered by this group and was named for the Eifyr and Co. contribution to the surveying expeditions.\n\nThis material is compressed and a much more compact form of the original material.",
   "volume": 0.16,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.16,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

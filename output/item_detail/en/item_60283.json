@@ -3,7 +3,7 @@
   "name": "Simple Asteroid Mining Crystal Type B II",
   "description": "An advanced custom-cut frequency crystal whose refractive qualities are specifically suited to boosting yield when mining Simple Ores such as Plagioclase, Pyroxeres, Scordite, Veldspar and Mordunium.\n\nDue to their molecular make-up and the strength of the modulated miner's beam, these crystals will deteriorate through extended use. Can be loaded into modulated mining lasers only.\n\nType B crystals are used with modulated mining equipment and achieve faster yields, with high residues and low reliability. A crystal choice for rapid extraction operations prioritizing time over resource utilization.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

@@ -3,7 +3,7 @@
   "name": "Compressed Griemeer III-Grade",
   "description": "III-Grade <a href=showinfo:81975>griemeer</a> with spots of darkness in its clear crystals is called inky griemeer and boasts a 10% extra yield.\n \nAsteroid anomalies in null security space is where inky griemeer is generally found.\n \nThis material is compressed and a much more compact form of the original material.",
   "volume": 0.008,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.008,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

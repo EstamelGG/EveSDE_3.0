@@ -3,7 +3,7 @@
   "name": "Wrecked Power Cores",
   "description": "These ancient power cores have all but succumbed to millennia of neglect and disuse. A few elements of their basic design remain intact, offering a skilled researcher some small hope that the secrets locked away inside may still be reverse engineered into something more functional.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": null,
   "category_name": "Ancient Relics",

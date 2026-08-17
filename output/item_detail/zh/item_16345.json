@@ -3,7 +3,7 @@
   "name": "改良型覆层涂层 I",
   "description": "这种涂层由几层额外的覆层构成，从而有效增加装甲强度。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "装备",

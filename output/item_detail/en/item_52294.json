@@ -3,7 +3,7 @@
   "name": "Capsuleer Day XVI Cap Crate",
   "description": "Contains commemorative Capsuleer Day XVI Caps (Men's & Women's)",
   "volume": 4.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4.0,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

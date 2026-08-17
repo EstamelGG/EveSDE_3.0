@@ -3,7 +3,7 @@
   "name": "塔克玛技术研究",
   "description": "与塔克玛技术互动的基本技能。\n\n塔克玛民族精通控制论和生物工程。\n\n虽然技能背后的科学原理还是一个谜，但这是在高科技装备制造中使用塔克玛部件所必须的技能。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

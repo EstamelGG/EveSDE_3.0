@@ -3,7 +3,7 @@
   "name": "ML-EKP 'Polybolos' Ballistic Control System",
   "description": "A computer system designed for monitoring and guiding missiles in flight, modified by Mordu's Legion to enhance kill probability of missiles against faster targets.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Module",

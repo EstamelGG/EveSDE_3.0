@@ -3,7 +3,7 @@
   "name": "合成型疯癫增效体",
   "description": "这种强效混合止痛药帮助飞行员屏蔽所有无关紧要的思绪（偶尔也会排除重要的思绪），使人将注意力完全集中于当前任务。当攻击某一目标时，这能实现更准确的命中率，不过人的四肢会在短时间内没有知觉。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "植入体",

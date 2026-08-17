@@ -3,7 +3,7 @@
   "name": "'Firewall' Signal Amplifier",
   "description": "Augments the sensor and electronics suite of the fitted ship. Benefits include additional locked targets, increased maximum target acquisition range, faster locking speed, and increased sensor strength.\nPenalty: Using more than one type of this module or similar modules that affect the same attribute on the ship will be penalized.",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

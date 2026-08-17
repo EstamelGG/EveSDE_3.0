@@ -3,7 +3,7 @@
   "name": "Signature Radius Suppressor I",
   "description": "This device uses a variety of emissions suppression and masking methods to reduce the overall signature radius of a ship observable by enemy sensors and represented in targeting computer algorithms. Signature radius suppression has the advantage of increasing the time to lock of enemy targeting sensors, while also reducing incoming damage from almost all weapon systems by confounding enemy firing solutions and proximity detonators.\n\nThis device operates in both passive and active modes, providing a small benefit through passive emissions reduction and a dramatically enhanced benefit in active masking mode.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

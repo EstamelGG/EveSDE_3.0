@@ -3,7 +3,7 @@
   "name": "Fleet Coordination",
   "description": "Advanced fleet support skill allowing commanders to increase the size and spread of their fleet formations. Unlocks additional formation scaling options at each level of training in the following order:\n\nLevel 0: 10km size, 1km spacing (default)\nLevel 1: 20km size, 2km spacing\nLevel 2: 30km size, 3km spacing\nLevel 3: 40km size, 4km spacing\nLevel 4: 50km size, 5km spacing\nLevel 5: 100km size, 10km spacing",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

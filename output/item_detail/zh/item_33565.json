@@ -3,7 +3,7 @@
   "name": "中级统御—欧米伽型",
   "description": "这款植入体自身没有什么作用，但当与其它“统御”植入体协同作用时，它能提高其它植入体的效力。\n\n\n\n套件效果：所有“统御”植入体次要效果增加35%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

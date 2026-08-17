@@ -3,7 +3,7 @@
   "name": "建筑办公室中心",
   "description": "建造许多办公室所需的建材以及每天运作所需的电脑系统和必需品。",
   "volume": 3000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3000.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "常用物品",

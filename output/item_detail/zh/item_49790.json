@@ -3,7 +3,7 @@
   "name": "ML-EKP '多重' 弹道控制系统",
   "description": "一种用于对飞行中导弹进行监控和制导的电脑系统，莫德团对它进行了改造，提高了面对快速目标的命中效果。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "装备",

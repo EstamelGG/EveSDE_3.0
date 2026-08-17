@@ -3,7 +3,7 @@
   "name": "纯标准型梦呓增效体",
   "description": "处于未加工状态的超强型梦呓化合物，可用来生产战斗增效剂。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

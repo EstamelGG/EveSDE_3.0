@@ -3,7 +3,7 @@
   "name": "Target Painting",
   "description": "Skill at using target painters. 5% less capacitor need for target painters per skill level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

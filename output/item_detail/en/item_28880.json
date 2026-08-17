@@ -3,7 +3,7 @@
   "name": "Nanite Interfacing",
   "description": "Improved control of general-purpose repair nanites, usually deployed in a paste form. 20% increase in damaged module repair amount per second.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

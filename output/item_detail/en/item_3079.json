@@ -3,7 +3,7 @@
   "name": "Zainou 'Gnome' Shield Upgrades SU-606",
   "description": "A neural Interface upgrade that reduces the shield upgrade module power needs.\n\n6% reduction in power grid needs of modules requiring the Shield Upgrades skill.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

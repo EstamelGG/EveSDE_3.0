@@ -3,7 +3,7 @@
   "name": "Promethium",
   "description": "An extremely radioactive luminescent metal, sometimes used as a heating component and a building block for laser generators.",
   "volume": 0.05,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.05,
   "capacity": null,
   "mass": 7260.0,
   "category_name": "Material",

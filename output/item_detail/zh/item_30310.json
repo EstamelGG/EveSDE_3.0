@@ -3,7 +3,7 @@
   "name": "碳86环氧树脂",
   "description": "碳86环氧树脂通常用在推进系统机房结构的外层做薄膜涂料。这种树脂的高强耐火属性能够有效阻止热量的堆积防止火灾的发生。",
   "volume": 0.4,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.4,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

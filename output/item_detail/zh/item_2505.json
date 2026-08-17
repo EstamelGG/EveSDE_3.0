@@ -3,7 +3,7 @@
   "name": "指挥中心升级理论",
   "description": "此项技能的每一等级都能提高你的指挥中心的质量，这样你就可以增加连接到指挥中心上的设施的数量。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

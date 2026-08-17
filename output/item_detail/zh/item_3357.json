@@ -3,7 +3,7 @@
   "name": "外交学",
   "description": "与敌对代理人进行互动的技能，以此来缓和双方的紧张局势。每升一级，对于敌对代理人的有效声望值增加4%。不与关系学或者犯罪关系研究技能累加。该技能对加入和保持在势力战争中的声望要求没有影响。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

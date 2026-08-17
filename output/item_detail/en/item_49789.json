@@ -3,7 +3,7 @@
   "name": "Hiemal Tricarboxyl Condensate",
   "description": "Spectrographic analyses of ice asteroids of this type have indicated the presence of trace condensates of chromodynamic tricarboxyls trapped in the frozen material. \n\nProcessing this ice material at an appropriate facility should yield usable quantities of chromodynamic tricarboxyls.",
   "volume": 6.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 6.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

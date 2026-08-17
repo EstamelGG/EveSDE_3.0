@@ -3,7 +3,7 @@
   "name": "恐惧古斯塔斯白噪发生器台站",
   "description": "通过产生一个无序感应器噪声场来干扰敌方的锁定系统。对雷达系统特别有效。",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": 100000000.0,
   "category_name": "母星",

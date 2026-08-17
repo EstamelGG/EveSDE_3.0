@@ -3,7 +3,7 @@
   "name": "阿兹达加小雕像",
   "description": "一座由普通材料制成的龙形小雕像。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 0.1,
   "category_name": "特别版用品",

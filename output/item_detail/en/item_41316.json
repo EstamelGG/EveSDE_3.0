@@ -3,7 +3,7 @@
   "name": "Barrage XL",
   "description": "An advanced version of the standard Nuclear ammo with a Morphite-enriched warhead and a smart tracking system. \n\n25% reduced tracking.\n40% increased falloff.\n\nNote: This ammunition can only be used by capital tech level II and faction Autocannons.",
   "volume": 0.125,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.125,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

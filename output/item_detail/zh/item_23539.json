@@ -3,7 +3,7 @@
   "name": "偷盗的货物",
   "description": "一个装满各种物品的箱子，都是偷来的。",
   "volume": 80.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 80.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "常用物品",

@@ -3,7 +3,7 @@
   "name": "粗糙的铂锝合金",
   "description": "一种由铂和锝组成的合金，弹性很好，在机械和军火工业中非常抢手。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

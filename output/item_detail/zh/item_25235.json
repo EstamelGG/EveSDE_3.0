@@ -3,7 +3,7 @@
   "name": "合同规则",
   "description": "与游戏中的其他玩家订立正式协议的技能。 \n\n每升一级，未决合同的数量增加4份（到5级最多可达到21份）。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

@@ -3,7 +3,7 @@
   "name": "Mutated 'Excavator' Ice Harvesting Drone",
   "description": "“Reverse-engineering of the active specimens collected last quarter in U-FQ21 has proven even more fruitful than initially projected. We estimate completion of a shippable product within the next [REDACTED]. Disruption to this project during the ownership transfer has been minimal, largely due to the location of primary development at our facility in [REDACTED].\n\nThese machines have evolved incredible harvesting capabilities during their period of isolation. Our teams encountered signs of [REDACTED] during the latest expedition, which led them to suspect the potential of [REDACTED] within infested regions. Although this hypothesis may explain the scale of unrestricted drone mineral harvesting, it does raise serious questions concerning [REDACTED] and [REDACTED].\n\nThe Directive Omega-One-Five Compliance Report awaits [REDACTED] and will be sent to the [REDACTED] list.”\n\n<b>Yarnen Haura, ORE Special Research Liaison\nProject Reaper Quarterly Report</b>\n\n<i>Insufficient clearance for unredacted access. Please contact the Department of Friendship and Mutual Assistance if you are receiving this message in error.</i>",
   "volume": 1100.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1100.0,
   "capacity": null,
   "mass": null,
   "category_name": "Drone",

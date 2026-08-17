@@ -3,7 +3,7 @@
   "name": "加达里海军能源诊断系统",
   "description": "监控并优化能量栅格。小幅提高能量核心输出量以及护盾与电容器的回充速率。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 20.0,
   "category_name": "装备",

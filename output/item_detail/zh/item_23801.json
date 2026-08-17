@@ -3,7 +3,7 @@
   "name": "熔炉小型电容器电池",
   "description": "增加电容器储量。有效抵抗能量吸取和能量中和效果。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

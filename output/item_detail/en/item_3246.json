@@ -3,7 +3,7 @@
   "name": "Inherent Implants 'Squire' Capacitor Systems Operation EO-606",
   "description": "A neural interface upgrade that boosts the pilot's skill at energy systems operation.\n\n6% reduction in capacitor recharge time.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

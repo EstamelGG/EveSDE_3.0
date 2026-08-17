@@ -3,7 +3,7 @@
   "name": "Upwell Starship Engineering",
   "description": "Skill and knowledge of Upwell Starship Engineering and its use in the development of advanced technology. \n\nUsed in the research of Upwell Ships of all Sizes.\n\nNeeded for all research and manufacturing operations on related blueprints. 1% reduction in manufacturing time for all items requiring Upwell Starship Engineering per level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

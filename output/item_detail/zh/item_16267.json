@@ -3,7 +3,7 @@
   "name": "黑闪冰",
   "description": "黑闪冰是最稀有的星际冰之一，只在含有大量残留电流的地方才能形成。人们对它的具体形成方式知之甚少；这种矿体所蕴含的数量惊人的液态臭氧使它在星球物理学家和化学家这种人心中神秘而有魅力。此外，它还含有大量的重水和相当储量的锶包合物。可于安全等级为<color='0xFFE53300'>0.1</color>及以下的星系开采。",
   "volume": 1000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "小行星",

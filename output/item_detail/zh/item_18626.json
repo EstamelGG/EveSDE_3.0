@@ -3,7 +3,7 @@
   "name": "追求者测量探针 I",
   "description": "卫星探针能被发射到邻近的卫星表面，传回大气和土壤的分析数据。\n\n追求者探针廉价，结实，对技能要求很低。但速度却极慢，需要大约20分钟来收集可靠的调查数据。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "弹药",

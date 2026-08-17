@@ -3,7 +3,7 @@
   "name": "Imperial Navy Command Mindlink",
   "description": "This advanced interface link produced for the Imperial Navy and its allies drastically improves a commander's Armored Command and Information Command abilities by directly linking to the nanites launched by the command burst charge.\n\n+25% bonus to Armor and Information Command Burst effect strength and duration.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

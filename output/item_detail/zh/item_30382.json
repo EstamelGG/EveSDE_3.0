@@ -3,7 +3,7 @@
   "name": "艾玛子系统数据接口",
   "description": "这种数据接口能整合古代科技设备与艾玛系统。\n\n可以用于逆向工程项目。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "解码器",

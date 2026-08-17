@@ -3,7 +3,7 @@
   "name": "Tengu Defensive - Amplification Node",
   "description": "When confronted with the challenge of adapting Sleeper designs to produce shield boost amplification systems, Caldari engineers turned to the defense systems used by certain Talocan structures that had also been found in a few ancient ruins. In some rare cases, the shielding systems on Talocan facilities were constructed using a harmony of Sleeper and Talocan designs. The first successful production of a shield boost amplification node drew heavily upon early study of this particular combination.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": 300.0,
   "mass": 1400000.0,
   "category_name": "Subsystem",

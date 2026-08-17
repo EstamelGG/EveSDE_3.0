@@ -3,7 +3,7 @@
   "name": "Kazue's Caiman",
   "description": "Kazue Otalen's career as a ruthless enforcer for the Guristas Pirates was a natural progression for this ex-mercenary and disgraced Caldari Navy marine. Kazue usually operates as a ground man, co-ordinating mercenary and freelancer operatives working for the Guristas but occasionally he will take to the stars on especially important missions.",
   "volume": 16250000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 16250000.0,
   "capacity": 2750.0,
   "mass": 1270000000.0,
   "category_name": "Entity",

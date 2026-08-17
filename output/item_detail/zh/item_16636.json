@@ -3,7 +3,7 @@
   "name": "硅酸盐",
   "description": "各种类型的硅基或氧基岩石成分。",
   "volume": 0.05,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.05,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

@@ -3,7 +3,7 @@
   "name": "Mobile Micro Jump Unit",
   "description": "This small deployable structure provides all nearby ships with the ability to launch themselves 100km in any direction. Twelve seconds after any ship makes use of this structure they will be jumped 100km in their direction of travel.\n\nHundreds of researchers around the New Eden Cluster have spent over a year attempting to expand upon the works of the late Avagher Xarasier after a tragic Micro Jump accident took his life. This structure represents the cutting edge in portable Micro Jump technology and is widely considered to be acceptably safe.\n\nThis structure can be used by any ship with less than 1,000,000,000kg mass.\n\nOne minute activation time. May not be deployed within 6km of another Mobile Micro Jump Unit, within 20km of Stargates, Stations or Upwell Structures, or within 40km of a Starbase. Cannot be retrieved once deployed. Self-destructs after two days of operation.",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": 27000.0,
   "mass": 10000.0,
   "category_name": "Deployable",

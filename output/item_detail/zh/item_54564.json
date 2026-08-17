@@ -3,7 +3,7 @@
   "name": "太空舱\"瀑流\"焰火",
   "description": "这种高科技焰火运用了最尖端技术，用焰火中的太空舱造型来庆祝克隆飞行员之日的到来。太空舱的终极命运，就在这漫天焰火中留给观者自己去想象了。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "弹药",

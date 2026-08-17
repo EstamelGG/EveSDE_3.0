@@ -3,7 +3,7 @@
   "name": "粗糙的镉化铯",
   "description": "一种由镉和铯组成的带有暗金色的合金。由于其颜色和三钛合金相似，因此经常容易混淆。它是很多合成物和冷凝物的必要成分。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

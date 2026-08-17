@@ -3,7 +3,7 @@
   "name": "塞特勒氏改良型反应堆控制元件",
   "description": "提升能源核心输出功率。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 20.0,
   "category_name": "装备",

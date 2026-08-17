@@ -3,7 +3,7 @@
   "name": "Nocxite II-Grade",
   "description": "Fragrant or II-Grade <a href=showinfo:82016>nocxite</a> has stronger hints of its intoxicating fumes under typical atmospheric pressure. Additionally, it yields 5% more minerals.\n \nFragrant nocxite may be found in null security asteroid anomalies.",
   "volume": 4.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

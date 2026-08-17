@@ -3,7 +3,7 @@
   "name": "Headmaster Administration Keycard",
   "description": "This security passcard is manufactured by the Serpentis Corporation and allows the user to unlock a specific acceleration gate to an administration sector. The gate will remain open for a short period of time and the keycard will be rendered useless after uploading the card's data to the gate's activation device.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

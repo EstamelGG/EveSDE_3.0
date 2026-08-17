@@ -3,7 +3,7 @@
   "name": "吉斯迪伊5MN微型跃迁推进器 C型",
   "description": "在极短时间内大幅提高航行速度。推进舰船的动力和相应的最大速度加成均受使用该装备的舰船重量所限。该系统运转所需的高额能量值意味着它必须使用部分电容输出的能量，以确保跃迁有效力场的完整性。启用该装备会显著增加舰船的电磁辐射信号。\n\n\n\n惩罚：最大电容量将减少。\n\n\n\n注：通常装配在护卫舰和驱逐舰上。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

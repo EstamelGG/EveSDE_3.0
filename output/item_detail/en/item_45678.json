@@ -3,7 +3,7 @@
   "name": "Blood Raider Chemosh Blueprint Armored Cache",
   "description": "This armored and electromagnetically hardened data cache is normally integrated into the Blood Raider Covenant's shipyard facilities, providing a high level of security and protection from corruption while building Chemosh-class Dreadnoughts.\n\nThese armored caches have a good chance of surviving the destruction of the facility they are installed in. If recovered by suitable ships, the caches can be accessed and the Chemosh blueprint data recovered.",
   "volume": 400000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 400000.0,
   "capacity": null,
   "mass": null,
   "category_name": "Commodity",

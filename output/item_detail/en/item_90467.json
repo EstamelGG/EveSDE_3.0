@@ -3,7 +3,7 @@
   "name": "Abyssal Modulated Strip Miner",
   "description": "Uses many of the same crystal frequency modulation technologies as the Modulated Deep Core Miner II, except it lacks the deep core mining capacity of its smaller sibling. \n\nCan only be fit to Mining Barges and Exhumers.\n\nUses mining crystals. \n\nCannot fit a mercoxit mining crystal.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 10.0,
   "mass": null,
   "category_name": "Module",

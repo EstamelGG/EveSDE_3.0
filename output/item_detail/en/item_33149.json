@@ -3,7 +3,7 @@
   "name": "Personal Hangar Array",
   "description": "A large hangar structure, for easy storage of materials and modules.\n\nThis hangar is designed for personal storage of moderate volume items, and each individual only has access to their own section of the storage space.",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": 50000.0,
   "mass": 100000000.0,
   "category_name": "Starbase",

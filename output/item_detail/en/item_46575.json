@@ -3,7 +3,7 @@
   "name": "Dark Blood Standup Heavy Energy Neutralizer",
   "description": "The Standup Heavy Energy Neutralizer is a precision capacitor warfare device capable of locking on and draining the energy reserves of all types of hostile ships. The Standup Heavy Energy Neutralizer is designed to be mounted in structure emplacements and can be installed as a module in Upwell technology structures.\n\nStandup is a proprietary system that uses a Structure Autonomous Nanoassembly Device (Upwell) containing integrated template software, a nanoassembler array and sufficient nanomass to enable the construction of a variety of service modules, structure modules and structure rigs when inserted into the appropriate slots on a structure built with Upwell technology.",
   "volume": 8000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 8000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Structure Module",

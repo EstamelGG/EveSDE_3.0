@@ -3,7 +3,7 @@
   "name": "Nanoscale Filter Plate",
   "description": "Nanoscale Filter Plates are a component used to harden supercapital ship systems against hostile infiltration and subversion attempts. Highly advanced versions of these components are incorporated in the most secure capsuleer neurolink protection technologies used by naval capital pilots.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 0.1,
   "category_name": "Commodity",

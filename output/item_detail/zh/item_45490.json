@@ -3,7 +3,7 @@
   "name": "沸石",
   "description": "沸石是卫星中开采出的一种常见矿石，它用处很大，能够提炼出丰富的捕获的<a href=showinfo:16634>标准大气</a>，可作为某些高级矿物的基础元素。沸石矿石还会产出<a href=showinfo:35>类晶体胶矿</a>和<a href=showinfo:36>类银超金属</a>。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "小行星",

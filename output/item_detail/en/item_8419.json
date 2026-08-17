@@ -3,7 +3,7 @@
   "name": "Large Azeotropic Restrained Shield Extender",
   "description": "Increases the maximum strength of the shield.",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

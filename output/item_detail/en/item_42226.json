@@ -3,7 +3,7 @@
   "name": "Serpentis Modified Capital Microprocessor",
   "description": "This heavily customized tactical processing unit was designed by Guardian Angel engineers for the use in Serpentis capital ships. It contains special optimizations for improved fire control routines and precise stasis webifier operation.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

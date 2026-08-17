@@ -3,7 +3,7 @@
   "name": "帝国民用集装箱",
   "description": null,
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

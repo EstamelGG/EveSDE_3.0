@@ -3,7 +3,7 @@
   "name": "囚犯",
   "description": "运送囚犯这个任务需要得到执法当局对你的忠诚和诚信的认可，目前这项工作是宇宙中最不受欢迎的职业之一。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 80.0,
   "category_name": "常用物品",

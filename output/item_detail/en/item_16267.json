@@ -3,7 +3,7 @@
   "name": "Dark Glitter",
   "description": "Dark glitter is one of the rarest of the interstellar ices, formed only in areas with large amounts of residual electrical current. Little is known about the exact way in which it comes into being; the staggering amount of liquid ozone to be found inside one of these rocks makes it an intriguing mystery for stellar physicists and chemists alike. In addition, it contains large amounts of heavy water and a decent measure of strontium clathrates.\n\nAvailable in <color='0xFFE53300'>0.1</color> security status solar systems or lower.",
   "volume": 1000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Asteroid",

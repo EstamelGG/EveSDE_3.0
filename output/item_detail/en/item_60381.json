@@ -3,7 +3,7 @@
   "name": "Abyssal Ore Processing",
   "description": "Specialization in Abyssal Ore reprocessing. Allows a skilled individual to utilize reprocessing facilities at considerably greater efficiency.\n\n2% bonus to reprocessing yield per skill level for the following Abyssal Ore types:\nBezdnacine\nRakovene\nTalassonite",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

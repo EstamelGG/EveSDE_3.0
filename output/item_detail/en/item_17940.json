@@ -3,7 +3,7 @@
   "name": "Mining Barge",
   "description": "Skill at operating ORE Mining Barges.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

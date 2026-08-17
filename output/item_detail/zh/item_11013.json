@@ -3,7 +3,7 @@
   "name": "毒贩的联系资料",
   "description": "毒品制造和销售过程所涉人员的联络清单。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

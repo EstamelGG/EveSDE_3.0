@@ -3,7 +3,7 @@
   "name": "Neural Lace 'Bluefire' Net Ablation 960-10",
   "description": "This biomechanical interface was reverse-engineered from a device designed to weave a neural lace webbing into a subject’s brain from a parcel of biohybrid nanotech, heuristically adapting itself to the user’s unique neuro-strata layout in accordance with their genetic makeup. \n\nSignaling measured in the resultant neural lace appears to aggressively screen ingressing data from mind-machine linked networks, producing a drastic yet pyrrhic boost in virus coherence.\n\nIncreases virus coherence for Data Analyzers.\nDecreases virus strength for Data Analyzers.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

@@ -3,7 +3,7 @@
   "name": "Shady Goods",
   "description": "Crate of various unidentifiable goods of shady origin.",
   "volume": 80.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 80.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Commodity",

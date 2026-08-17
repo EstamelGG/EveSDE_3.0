@@ -3,7 +3,7 @@
   "name": "金鹏推进 - 机舱优化",
   "description": "这个子系统采用了最新发现的冬眠者科技，能为金鹏级战舰提供更大的灵活性和基础推进能力。尽管这种优化系统牺牲了推进系统的其他自定义功能，但是它所提供的基础灵活性提升却大大地满足了一些整体机动性较慢的三级科技舰船的需要。",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 1400000.0,
   "category_name": "子系统",

@@ -3,7 +3,7 @@
   "name": "Capital Doomsday Weapon Mount",
   "description": "A hardpoint that allows a titan to fit a custom-made doomsday weapon, capable of obliterating its hapless target in one fell stroke.",
   "volume": 2000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2000.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "Commodity",

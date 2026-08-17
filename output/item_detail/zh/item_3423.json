@@ -3,7 +3,7 @@
   "name": "电容散发系统研究",
   "description": "操控能量转移阵列和其他能量散发系统的技能。每升一级，能量散发装备的电容消耗减少5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

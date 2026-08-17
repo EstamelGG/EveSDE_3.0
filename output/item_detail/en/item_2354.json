@@ -3,7 +3,7 @@
   "name": "Neocoms",
   "description": "As an essential component of the navigational and tactical interface of spaceships, Neocoms are a small but essential cornerstone of the interstellar economy.",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

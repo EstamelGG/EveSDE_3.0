@@ -3,7 +3,7 @@
   "name": "Medium Compact Pb-Acid Cap Battery",
   "description": "Increases capacitor storage. Provides defense against Energy Leech and Energy Neutralizer effects.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

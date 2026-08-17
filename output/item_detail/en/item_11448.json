@@ -3,7 +3,7 @@
   "name": "Electromagnetic Physics",
   "description": "Skill and knowledge of Electromagnetic Physics and its use in the development of advanced technology. \n\nUsed primarily in the research of Railgun weaponry and various electronic systems.  \n\nAllows Electromagnetic Physics research to be performed with the help of a research agent. \n\nNeeded for all research and manufacturing operations on related blueprints. 1% reduction in manufacturing time for all items requiring Electromagnetic Physics per level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

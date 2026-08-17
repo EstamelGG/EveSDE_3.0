@@ -3,7 +3,7 @@
   "name": "Large Higgs Anchor I",
   "description": "This unique rig generates drag against the energy field of space itself, causing the fitted ship to increase in mass and agility while greatly reducing maximum velocity.\nThis effect also reduces a ship's maximum warp speed, although the impact on warp velocity can be mitigated through skilled use. As a side effect of the increased warp drag, interdiction nullified ships lose the benefits of their nullification while fitted with this rig, causing them to be affected by non-targeted warp disruption like normal vessels.\n\nThe drawbacks of fitting this rig may be reduced by training the <a href=showinfo:26254>Astronautics Rigging</a> skill.\nOnly one Higgs Anchor can be fitted at a time.\n\nPenalty: Using more than one type of this module or similar modules that affect the same attribute on the ship will be penalized.",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "Module",

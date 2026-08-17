@@ -3,7 +3,7 @@
   "name": "Structure Repair Facility",
   "description": "Lathes, grinders, riveting machines, uncoilers, and various other pieces of machinery required for the operation of an outpost repair facility.",
   "volume": 3000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3000.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "Commodity",

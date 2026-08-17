@@ -3,7 +3,7 @@
   "name": "埃菲尔公司 游侠 加速控制 AC-603",
   "description": "增强速度增效器的效力。\n\n\n\n加力燃烧器和微型跃迁引擎的速度增量增加3%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

@@ -3,7 +3,7 @@
   "name": "Proteus Defensive - Covert Reconfiguration",
   "description": "From the moment Strategic Cruisers became a reality, there were whispers amongst the scientific community about the potential for advances in cloaking technology. They remained that alone for the longest time, with few involved in the reverse engineering process willing to share any news of their discoveries. Everyone knew that, should the technology ever become a reality, the capabilities of the new Strategic Cruisers would change overnight.\n\nTo many Gallente and Caldari, the development of the Proteus covert reconfiguration signaled a repeat of the technological arms race that arose from the ashes of Crielere. Once again seeking a balance of power, and entirely convinced that the Caldari were attempting to reverse-engineer their own cloak-capable Strategic Cruisers, the Federation diverted immense resources to their research. Private firms and the largest of conglomerates all played a role in development, offering up prototype designs and speculative theories that collectively resulted in some of the first Covert-Capable Proteus produced. It is not known who, or what organization led the project. Nor is known when, or where, the first Covert Reconfigurations were deployed. If it had not been for capsuleers developing the same designs, most people would have remained oblivious to their existence, just the way the Federation would have preferred.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": 300.0,
   "mass": 1400000.0,
   "category_name": "Subsystem",

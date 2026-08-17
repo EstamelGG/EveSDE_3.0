@@ -3,7 +3,7 @@
   "name": "Melted Snowball CVII",
   "description": "This snowball used to be bigger than your head. Now it is just a puddle of water. Onoes.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Special Edition Assets",

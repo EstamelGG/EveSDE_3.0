@@ -3,7 +3,7 @@
   "name": "Packaging Center Passkey",
   "description": "This is a passkey used to enter the packaging center.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

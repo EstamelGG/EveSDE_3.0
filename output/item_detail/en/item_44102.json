@@ -3,7 +3,7 @@
   "name": "Defender Launcher I",
   "description": "A Kaalakiota designed integrated launcher and sensor platform. Capable of detecting incoming threats, and on command, launching a Defender™ kill vehicle to intercept it.\n\nNote: Can only be fit to destroyer class hulls.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 0.15,
   "mass": null,
   "category_name": "Module",

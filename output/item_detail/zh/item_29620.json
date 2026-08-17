@@ -3,7 +3,7 @@
   "name": "古斯塔斯鞭挞超大型鱼雷",
   "description": "超大型鱼雷的设计目的是要对旗舰和建筑目标造成最大限度的伤害。它只能被旗舰级舰船和母星防御炮塔发射。\n\n这种武器装载有引力子脉冲发生器，可以对舰船内部结构造成巨大的伤害，还能将外部防护层和装甲板轻易撕裂。",
   "volume": 0.3,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.3,
   "capacity": null,
   "mass": 1500.0,
   "category_name": "弹药",

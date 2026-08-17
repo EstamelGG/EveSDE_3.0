@@ -3,7 +3,7 @@
   "name": "第九届联盟锦标赛: HYDRA RELOADED and 0utbreak",
   "description": "这是一张联盟锦标赛参赛队伍的卡片。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

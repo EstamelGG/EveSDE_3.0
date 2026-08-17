@@ -3,7 +3,7 @@
   "name": "'Steel Yari' Kinetic Disruptive Lance",
   "description": "Although each of the ‘Big 4’ empires claims to have independently developed ‘Disruptive Lance’ technology, it appears likely that the Caldari were the first to combine research into wider use of lance weapons with the advanced technology of ‘Lancer Dreadnoughts’. The severe breach of security caused by the Guristas espionage ring that penetrated State capital ship research and development is believed to have given the other empires vital insights and accelerated their own advanced dreadnought programs. \n\nNevertheless, the ‘Steel Yari’ Kinetic Disruptive Lance is a major achievement for State military science. The breakthrough of using a graviton energy beam as a carrier of specific disruptive energy patterns at ultra-high intensity means the weapon will disrupt warp and jump drives, prevent docking guidance and tethering connections, and massively inhibit the effectiveness of external repair beams. This comes at the price of an attenuated and less focused kinetic destructive effect but the tactical opportunities of the weapon are considered well worth that trade.\n\nDue to the extreme energies involved in the operation of this module, a disruptive lance can only be fired when in siege mode, and ships with this module fitted are unable to activate cloaking devices.\n\nNote: Activating this module triggers a massive capacitor disruption wave that impacts ships in the immediate vicinity, friend or foe. After firing, you will be immobile for thirty seconds and unable to dock, tether, cloak, or activate your jump drive for 2 minutes.",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Module",

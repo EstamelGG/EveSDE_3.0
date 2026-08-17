@@ -3,7 +3,7 @@
   "name": "海关操作专业理论",
   "description": "精于同各种海关官僚打交道的技能。每升一级，海关办公室的进出口税率降低10%。\n\n\n\n对星系捷运海关办公室不起作用。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

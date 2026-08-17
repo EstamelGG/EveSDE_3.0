@@ -3,7 +3,7 @@
   "name": "紧凑型热能电压薄膜",
   "description": "热能装甲涂层的加强版本。使用了先进的磁场发生器来提高效果。提高装甲的热能抗性。\n\n\n\n惩罚：在一艘舰船上使用多个这类装备或多个与该装备作用一致的类似装备将削弱实际使用效果。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "装备",

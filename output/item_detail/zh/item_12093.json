@@ -3,7 +3,7 @@
   "name": "隐形特勤舰操作",
   "description": "隐秘护卫舰专为侦察和间谍行动而设计。它们的主要特点在于能穿越敌方领空而不暴露行踪，避免了遭遇战的危险。它们牺牲了船内的大部分自由空间用于安装一种先进的空间力场控制系统。这使得它们能在大幅降低CPU消耗的情况下使用先进的隐形功能。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

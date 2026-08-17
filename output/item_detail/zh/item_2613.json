@@ -3,7 +3,7 @@
   "name": "雷神愤怒轻型导弹",
   "description": "雷神轻型导弹被专门设计来摧毁舰船护盾系统，并因此配备了不稳定磁化离子载荷。这是雷神轻型导弹的一种改良版本，相比其前身具备更强的伤害力，但由于其强大的密封系统及高度不稳定性，飞行时间和准确性都有所降低。",
   "volume": 0.015,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.015,
   "capacity": null,
   "mass": 700.0,
   "category_name": "弹药",

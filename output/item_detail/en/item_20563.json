@@ -3,7 +3,7 @@
   "name": "'Smokescreen' Covert Ops Cloaking Device II",
   "description": "A very specialized piece of technology, the covert ops cloak is designed for use in tandem with specific covert ops vessels. Although it could theoretically work on other ships, its spatial distortion field is so unstable that trying to compensate for its fluctuations will overwhelm non-specialized computing hardware.\n\nNote: This particular module is advanced enough that it allows a ship to warp while cloaked. However, fitting two or more cloaking devices to a ship negates their use, as unsynchronized light deflection causes interference.",
   "volume": 100.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 100.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

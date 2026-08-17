@@ -3,7 +3,7 @@
   "name": "Standup Termite II",
   "description": "<b>Type:</b> Structure-based Heavy Fighter\n<b>Role:</b> Long Range Attack\n<b>Description:</b> The Termite is purpose designed for long range attack duties. This Standup variant of the Termite is more powerful than the carrier-based variants but does not benefit from capsuleer skills and may only be launched from Upwell structures.\n\n<b>Railgun</b>: This weapon-system does good damage at long ranges.\n<b>Micro Jump Drive</b>: Jumping the fighter squadron over a significant distance. While the MJD spools up, the fighters signature radius blooms significantly.\n<b>Bomb Launcher</b>: Firing an unguided bomb that does area of effect damage.",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": 2000.0,
   "category_name": "Fighter",

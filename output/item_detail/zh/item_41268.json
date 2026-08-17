@@ -3,7 +3,7 @@
   "name": "紧凑型导体",
   "description": null,
   "volume": 0.001,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.001,
   "capacity": 1.0,
   "mass": 0.001,
   "category_name": "材料",

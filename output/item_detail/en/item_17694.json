@@ -3,7 +3,7 @@
   "name": "Xray XL",
   "description": "Extra Large Frequency Crystal. Can be used only by starbase defense batteries and capital ships like dreadnoughts. \n\nModulates the beam of a laser weapon into the xray frequencies. Reduced range. Increased damage.\n\n25% reduced optimal range.\n25% reduced capacitor need.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

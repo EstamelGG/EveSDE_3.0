@@ -3,7 +3,7 @@
   "name": "Cracked Keycard",
   "description": "This is an ancient keycard used to access the old nefantar base in this complex. It needs to be repaired to be usable.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

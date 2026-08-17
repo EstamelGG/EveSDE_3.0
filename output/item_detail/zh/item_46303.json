@@ -3,7 +3,7 @@
   "name": "闪铬铁矿",
   "description": "卫星出产的铬铁矿石有时会产出极高密度的珍稀矿物。这样的矿石就被称为闪铬铁矿，提炼后可以获得的有用矿物数量是普通矿石的两倍。\n\n\n\n铬铁矿是卫星中开采出的一种罕见矿石，价值颇高，能够产出丰富的<a href=showinfo:16641>铬</a>，可作为许多高级矿物的重要元素。铬铁矿石还会产出<a href=showinfo:16633>烃类</a>。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "小行星",

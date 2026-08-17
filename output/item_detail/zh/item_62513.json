@@ -3,7 +3,7 @@
   "name": "高密度硅铍钇矿",
   "description": "硅铍钇矿是卫星中开采出的一种特殊矿石，价值极高，能够产出丰富的<a href=showinfo:16653>铥</a>，可作为许多高级矿物的重要元素。硅铍钇矿石还会产出<a href=showinfo:16643>镉</a>、<a href=showinfo:16638>钛合金</a>和<a href=showinfo:16636>硅酸盐</a>。\n\n\n\n这种矿物被压缩过，比它的原始形态紧密得多。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "小行星",

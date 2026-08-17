@@ -3,7 +3,7 @@
   "name": "无人机改装技术",
   "description": "理解无人机控制系统的高级技能。允许通过使用改装件对无人机系统进行临时改进。\n\n每升一级，无人机改装件的副作用降低10%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

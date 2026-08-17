@@ -3,7 +3,7 @@
   "name": "粗糙的晶状石英核岩配方",
   "description": null,
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "蓝图",

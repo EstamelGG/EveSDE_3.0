@@ -3,7 +3,7 @@
   "name": "高级房车重型导弹发射舱 I",
   "description": "专为中型舰船间的长时间交战而设计。虽然发射速度慢，但巨大的导弹容积弥补了这一缺点。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": 0.99,
   "mass": null,
   "category_name": "装备",

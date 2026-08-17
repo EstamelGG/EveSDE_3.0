@@ -3,7 +3,7 @@
   "name": "Capsuleer Day XVII Omega Booster Gift Box",
   "description": "This crate contains a selection of consumable boosters, including a short duration combat booster and a limited time Cerebral Accelerator.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

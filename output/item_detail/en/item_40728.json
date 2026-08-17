@@ -3,7 +3,7 @@
   "name": "Rakka's Rattlesnake",
   "description": "Rakka 'The Fop' Tahiri is a strange character, even for the Guristas, a former special forces soldier with the Wiyrkomi Peace Corps, Rakka was dismissed for excessive drug use after being arrested for lewd behavior on the main concourse of the Wiyrkomi Corporation headquarters in Dantumi. For all his degeneracy, and strange tastes, the Fop is a fearsome battleship pilot.",
   "volume": 486000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 486000.0,
   "capacity": 815.0,
   "mass": 99300000.0,
   "category_name": "Entity",

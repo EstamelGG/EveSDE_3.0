@@ -3,7 +3,7 @@
   "name": "电脑破译原理",
   "description": "入侵受保护的计算机系统的技能。这是使用数据分析装备的必需技能。\n\n每升一级，病毒的同步率+10。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

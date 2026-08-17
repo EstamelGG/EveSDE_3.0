@@ -3,7 +3,7 @@
   "name": "Construction Blocks",
   "description": "Metal girders, plasteel concrete, and fiber blocks are all common construction materials used in almost every large-scale building or manufacturing project throughout New Eden.",
   "volume": 0.75,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.75,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

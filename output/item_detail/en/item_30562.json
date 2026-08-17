@@ -3,7 +3,7 @@
   "name": "Wrecked Thruster Sections",
   "description": "Originally misidentified by the analyzers as nothing more than scrap, these ancient thruster sections are only marginally more than that. Whether it was centuries of radiation or some violent explosion countless years ago, these thrusters have been damaged long ago and are now in a state of advanced erosion as a result. \n\nThe modular design of the Sleeper propulsion systems appears to be similar to empire technology, with only slight deviations observable. Perhaps there are secrets to the Sleeper propulsion designs locked away inside these broken relics, but it would take a significant amount of luck for even a skilled researcher to successfully reverse engineer them and find out.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": null,
   "category_name": "Ancient Relics",

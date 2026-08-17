@@ -3,7 +3,7 @@
   "name": "Federation Navy Thorium Charge M",
   "description": "Consists of two components: a shell of titanium and a core of thorium atoms suspended in plasma state. Railguns launch the shell directly, while particle blasters pump the plasma into a cyclotron and process the plasma into a bolt that is then fired.\n\n12.5% reduced optimal range.\n40% reduced capacitor need.",
   "volume": 0.0125,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.0125,
   "capacity": null,
   "mass": 0.05,
   "category_name": "Charge",

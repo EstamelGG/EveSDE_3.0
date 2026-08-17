@@ -3,7 +3,7 @@
   "name": "Resonance Calibration Matrix",
   "description": "RCM play an important role in stabilizing a ship's alignment prior to, and in the first moments of, interstellar warp. The Sleeper drone RCM system works in an entirely different manner to contemporary Empire-based technology and yet the angles of alignment produced by their final calculations are always identical. Even though their inner workings remain a mystery, the matrices operate in a predictable and reliable enough fashion to form the basis of a new, slightly more efficient jump drive.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

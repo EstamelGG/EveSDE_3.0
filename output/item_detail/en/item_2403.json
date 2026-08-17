@@ -3,7 +3,7 @@
   "name": "Advanced Planetology",
   "description": "The advanced understanding of planet evolution allowing you to interpret data from scans of planets for resources at much higher resolutions.\n\nBonus: The skill further increases the resolution of resource data when scanning a planet to allow for very precise surveying.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

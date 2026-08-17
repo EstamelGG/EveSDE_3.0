@@ -3,7 +3,7 @@
   "name": "Sareko's Capsule",
   "description": "The self-destruct unit on this capsule has had the safety timer removed, a unique Crimson Hand modification that ensures military officers are rarely captured alive. The corpse also appears to have been liquefied in some way during the process, adding a dark ruby hue to the capsule fluid within.",
   "volume": 1000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1000.0,
   "capacity": null,
   "mass": 32000.0,
   "category_name": "Commodity",

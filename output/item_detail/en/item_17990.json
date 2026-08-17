@@ -3,7 +3,7 @@
   "name": "Security Cypher for Angel Prison",
   "description": "This cypher unlocks the acceleration gate in an Angel Prison Complex. The gate will remain open for a short period of time and using the cypher will cause it to self-destruct.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

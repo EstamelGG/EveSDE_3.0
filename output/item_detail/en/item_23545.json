@@ -3,7 +3,7 @@
   "name": "Smuggler DNA",
   "description": "DNA of smugglers operating on the borders of Federation and Republic space.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

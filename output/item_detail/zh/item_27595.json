@@ -3,7 +3,7 @@
   "name": "古斯塔斯中型控制塔",
   "description": "古斯塔斯控制塔是加达里控制塔的加强版，使用了最新的前沿设计技术，提高了防御及效率。种族加成：\n\n导弹发射塔的发射速率提升25%\n\n导弹的飞行速度提升50%\n\n电子战炮塔切换目标间隔时间减少75%",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": 70000.0,
   "mass": 200000000.0,
   "category_name": "母星",

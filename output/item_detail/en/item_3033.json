@@ -3,7 +3,7 @@
   "name": "Small Focused Beam Laser II",
   "description": "A high-powered beam laser. Good for medium range encounters. \n\nRequires either regular or advanced frequency crystal ammo types: Gamma, Infrared, Microwave, Multifrequency, Radio, Standard, Ultraviolet, Xray, Aurora, Gleam.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 1.0,
   "mass": 500.0,
   "category_name": "Module",

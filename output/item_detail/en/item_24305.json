@@ -3,7 +3,7 @@
   "name": "Modulated Deep Core Strip Miner II",
   "description": "The modulated deep core miner is a technological marvel that combines the capacities of the commonly used Miner II with that of the deep core mining laser. Using a modular mining crystal system, it can be altered on the fly for maximum efficiency.\n\nCan only be fit to Mining Barges and Exhumers.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 10.0,
   "mass": null,
   "category_name": "Module",

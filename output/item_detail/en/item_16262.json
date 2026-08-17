@@ -3,7 +3,7 @@
   "name": "Clear Icicle",
   "description": "Interstellar ices are formed by accretion of gas molecules onto silicate dust particles. These crystalline formations can be found scattered around many an ice field, and are known as the universe's primary source of helium isotopes.\n\nAvailable in <color='0xFF33FFFF'>1.0</color> security status solar systems or lower.",
   "volume": 1000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Asteroid",

@@ -3,7 +3,7 @@
   "name": "洛基核心 - 散解程控装置",
   "description": "这个子系统使用纳米机电分散场来加强舰船的感应系统。由神经视觉层、自动触发响应单元和数十亿个先进的分子级电路构成的一个复杂系统组成，提升感应器范围、目标锁定速度和针对敌对ECM的防护能力。",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 1200000.0,
   "category_name": "子系统",

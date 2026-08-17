@@ -3,7 +3,7 @@
   "name": "D-34343单元改良型无人机链接增效器",
   "description": "增加无人机控制距离。",
   "volume": 25.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 25.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "装备",

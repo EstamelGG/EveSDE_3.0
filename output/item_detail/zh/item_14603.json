@@ -3,7 +3,7 @@
   "name": "托比雅斯氏改良型超大型护盾回充增量器",
   "description": "消耗能量以快速提高护盾强度。",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

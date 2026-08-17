@@ -3,7 +3,7 @@
   "name": "合众国防御增效剂I",
   "description": "这款增效剂由加达里合众国生产，旨在协助克隆飞行员进行军事行动作战。<b>+2%热能护盾、装甲和船体抗性 +1%动能护盾、装甲和船体抗性 +4数据分析仪和遗迹分析仪病毒同步率 -4%采矿、冰块和气体收集产生残留物的概率。基础持续时间：2小时<b><b>过期时间：YC128年11月10日</b>",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

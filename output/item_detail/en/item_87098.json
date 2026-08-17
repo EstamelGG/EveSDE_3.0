@@ -3,7 +3,7 @@
   "name": "Arkombine Arisen SKINs Crate",
   "description": "This crate contains a random Arkombine Arisen SKIN, including 4 new SKINs for Thanatos, Archon, Chimera and Nidhoggur.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

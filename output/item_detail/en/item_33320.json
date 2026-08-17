@@ -3,7 +3,7 @@
   "name": "Incognito Parity",
   "description": "Balanced Gallente decryptor that increases the likelihood of successful invention considerably, while still providing nice supplementary benefits with just a slight increase in production time.<br><br>Probability Multiplier: +50% <br>Max. Run Modifier: +3 <br>Material Efficiency Modifier: +1 <br>Time Efficiency Modifier: -2",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Decryptors",

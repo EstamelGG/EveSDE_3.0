@@ -3,7 +3,7 @@
   "name": "能源管道",
   "description": "能源管道贯穿舰船各部份以输送能量，就像动脉血管向身体输送血液一样。大型舰船的管道可能长达数百英里。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

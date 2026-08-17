@@ -3,7 +3,7 @@
   "name": "Four Freedoms Firework",
   "description": "This very popular Gallente firework is intended to celebrate the 'Four Freedoms' that are considered to be at the core of the Federation's way of life: the Freedoms of Thought, Expression, Association and Movement. This pyrotechnic expression of the Four Freedoms flowing out from the Federal constitution across space is a regular sight on Gallente holidays.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

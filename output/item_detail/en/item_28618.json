@@ -3,7 +3,7 @@
   "name": "Augumene",
   "description": "Despite its resemblance to common Pyroxeres, Augumene ore in its raw form is both rare and highly toxic to humans. Thus, while it is also a source of many of the minerals found in Pyroxeres ore, Augumene is generally considered virtually worthless due to the dangers posed by its handling.",
   "volume": 0.3,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.3,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

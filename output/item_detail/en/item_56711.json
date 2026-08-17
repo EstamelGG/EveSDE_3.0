@@ -3,7 +3,7 @@
   "name": "Intact Neurosynaptic Profile",
   "description": "Neurosynaptic profiles are invaluable to the Triglavian Collective for assessing any sentients they encounter, including Drifters, Sleeper and Rogue Drones. This fully intact profile provides a complete set of the core data, and the Collective will trade favorably for such an item.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 0.1,
   "category_name": "Commodity",

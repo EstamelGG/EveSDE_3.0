@@ -3,7 +3,7 @@
   "name": "Zero-Point Mass Entangler",
   "description": "Scientists experimenting with abyssal filaments and their property of entangling with a ship's warp core to achieve a mass-energy exchange capable of moving vessels through space-time conduits were soon able to replicate different aspects of the overall effect. It was noticed that a reduction in the local effective mass of a ship could be achieved by dumping warp energy directly into the zero-point energy vacuum field. This \"warp energy-mass entanglement\" effect was determined to severely reduce practical ship velocities and disable warping.\n\nScientists considered this effect important but unlikely to be of much use to anyone for practical purposes. However, engineers familiar with capsuleer exploration and colonization of Anoikis, or W-space, soon pointed out a market opportunity and a modular version of the curious device came into being.",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": 1.0,
   "mass": null,
   "category_name": "Module",

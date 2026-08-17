@@ -3,7 +3,7 @@
   "name": "视觉滤镜—强化级",
   "description": "植入在枕骨脑叶的图像处理器，能增加人物的感知属性值。感知+5",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

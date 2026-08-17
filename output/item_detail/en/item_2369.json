@@ -3,7 +3,7 @@
   "name": "Broken Sterile Conduits",
   "description": "Sustaining diverse populations of station inhabitants – many of whom come from different worlds with different ecologies – was a medical nightmare until the development of sterile conduits. Each length of flexible, self-repairing tube is powered by breaking down the chemical energy in the water they convey, which itself is laced with smart vaccines able to identify and destroy almost any known antigen.",
   "volume": 100.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 100.0,
   "capacity": null,
   "mass": null,
   "category_name": "Commodity",

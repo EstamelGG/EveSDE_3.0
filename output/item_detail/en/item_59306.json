@@ -3,7 +3,7 @@
   "name": "Serenity Basic Capsuleer Day Glamourex Booster",
   "description": "This Cerebral Accelerator is only designed for and available on Serenity.\n\nThis booster has been produced and distributed by Impetus and CONCORD to to celebrate the 18th anniversary of the first independent capsuleer licenses. Working much like the Social skill this highly potent booster provides a 20% bonus to agent, corporation and faction standing increases.\n\nVolatile compounds were used to create this booster, limiting its shelf life. It will cease to function after June 30, YC123.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Implant",

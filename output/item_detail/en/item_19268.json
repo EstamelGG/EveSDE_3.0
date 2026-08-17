@@ -3,7 +3,7 @@
   "name": "Pith B-Type Thermal Shield Hardener",
   "description": "Boosts shield resistance against thermal damage.<br><br>Penalty: Using more than one type of this module, or similar modules that affect the same resistance type, will result in a penalty to the boost you get on that type of resistance.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "Module",

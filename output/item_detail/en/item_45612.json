@@ -3,7 +3,7 @@
   "name": "Legion Propulsion - Wake Limiter",
   "description": "This subsystem limits the wake left behind by a starship's afterburner or microwarpdrive, allowing a pilot to maintain a lowered signature radius while still moving at high speed. The underlying design is based on the same technology used by smaller Sleeper drones and empire-produced Interceptors. Although the engineering processes behind wake limiters have existed for quite some time in the empires, their application in modular subsystems has only become a possibility after fullerene polymers became more widely available.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 1400000.0,
   "category_name": "Subsystem",

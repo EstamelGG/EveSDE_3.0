@@ -3,7 +3,7 @@
   "name": "Corrupted Neurosynaptic Profile",
   "description": "Neurosynaptic profiles are invaluable to the Triglavian Collective for assessing any sentients they encounter, including Drifters, Sleeper and Rogue Drones. While this profile is corrupted, the Collective willingly accepts even such fragmentary data for analysis.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 0.1,
   "category_name": "Commodity",

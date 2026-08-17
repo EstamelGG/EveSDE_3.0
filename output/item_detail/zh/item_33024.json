@@ -3,7 +3,7 @@
   "name": "动物医疗专家",
   "description": "尝起来有点酸。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

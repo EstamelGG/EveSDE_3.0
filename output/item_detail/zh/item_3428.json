@@ -3,7 +3,7 @@
   "name": "远距锁定研究",
   "description": "远程目标锁定的技能。每升一级，锁定距离提升5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

@@ -3,7 +3,7 @@
   "name": "Warp Scrambling Battery",
   "description": "Deployable warp jamming structure.",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": 100000000.0,
   "category_name": "Starbase",

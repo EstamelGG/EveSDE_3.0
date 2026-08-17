@@ -3,7 +3,7 @@
   "name": "Manufacturing Union's Placard",
   "description": "A solid morphite placard produced in celebration of the Secure Commerce Commission’s official recognition of the Manufacturing Workers Union on July 22nd, YC115.",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": 10.0,
   "category_name": "Special Edition Assets",

@@ -3,7 +3,7 @@
   "name": "Federation Electronics Booster III",
   "description": "This booster has been produced by the Gallente Federation to assist capsuleers with their military campaign war efforts.\n\n<b>\n+36% to ship Sensor Strength\n+6% Scan Probe Strength\n+6% Scan Resolution\n+12% Mining Critical Success Chance. \nBase Duration: 2 Hours<b>\n\n<b>Expiry date: November 10th YC128</b>",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

@@ -3,7 +3,7 @@
   "name": "Precious Metals",
   "description": "A cousin of noble metals, precious metals are named as such because of how infrequently they appear on terrestrial worlds where they were first encountered.",
   "volume": 0.19,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.19,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

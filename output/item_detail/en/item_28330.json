@@ -3,7 +3,7 @@
   "name": "Republic Fleet Carbonized Lead XL",
   "description": "Extra Large Projectile Ammo. Can be used only by starbase defense batteries and capital ships like dreadnoughts. This ammo uses a simple lead slug encased in a hard shell of crystalline carbon. It is fairly cheap and works very well against most armors. Shields, however, are a problem.\n\n60% increased optimal range.\n5% increased tracking speed.",
   "volume": 0.125,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.125,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

@@ -3,7 +3,7 @@
   "name": "Legion Defensive - Nanobot Injector",
   "description": "The advanced Sleeper-based technology in this subsystem is focused on increasing the effectiveness of a vessel's armor nanobots. When integrated into the hull of a Legion, it offers a substantial increase in the armor output of any local repair modules fitted. Although the subsystem offers the same end result as other built-in armor repair augmentations, the technology driving it operates in a vastly different way, allowing for easy removal from its host vessel.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": 300.0,
   "mass": 1400000.0,
   "category_name": "Subsystem",

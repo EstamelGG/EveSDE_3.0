@@ -3,7 +3,7 @@
   "name": "Ice Harvesting",
   "description": "Skill at harvesting ice. 5% reduction per skill level to the cycle time of ice harvesters.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

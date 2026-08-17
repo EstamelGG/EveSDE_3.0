@@ -3,7 +3,7 @@
   "name": "跃迁扰断器 I",
   "description": "干扰目标舰船的导航计算机从而阻止其进行跃迁。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

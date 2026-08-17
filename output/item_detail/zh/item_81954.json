@@ -3,7 +3,7 @@
   "name": "昇威原型开发奖励箱",
   "description": "昇威财团会将其作为奖励，发放给协助在<url=showinfo:5//30002744>奥围肯</url>星系开发并建造原型建筑的克隆飞行员。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

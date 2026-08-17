@@ -3,7 +3,7 @@
   "name": "并行排序",
   "description": "初级技能，可并行处理多个排序任务。技能达到1级时，并行排序项目上限增加2，之后每一级将额外增加2。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

@@ -3,7 +3,7 @@
   "name": "屹立防空弹药 I",
   "description": "这是专为昇威建筑定点防卫炮塔系统设计的防空弹药。这种弹药没有弹壳，由爆炸性锶包合物核芯和超噬矿引信组成，专门适配建筑防御系统。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 5.0,
   "category_name": "弹药",

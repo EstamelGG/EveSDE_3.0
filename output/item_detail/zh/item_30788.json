@@ -3,7 +3,7 @@
   "name": "推进子系统技术",
   "description": "掌握高级推进子系统的相关制造技术的技能。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

@@ -3,7 +3,7 @@
   "name": "Inspector Layna Whizon",
   "description": "An official ambassador of the Minmatar Republic.",
   "volume": 2.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2.0,
   "capacity": null,
   "mass": 70.0,
   "category_name": "Commodity",

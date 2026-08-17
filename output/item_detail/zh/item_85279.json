@@ -3,7 +3,7 @@
   "name": "集体日加速器",
   "description": "纪念三神裔于YC122年在新伊甸建立波赫文要塞。<b>加成：所有属性+13</b> <b>基础持续时间：3天</b>",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

@@ -3,7 +3,7 @@
   "name": "基础型'提升'大脑加速器",
   "description": "领取后，它可以在短时间内提高克隆飞行员训练技能的速度。\n\n<b>加成：所有属性+2</b>\n\n<b>基础持续时间：2天</b>",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

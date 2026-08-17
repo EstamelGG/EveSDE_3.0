@@ -3,7 +3,7 @@
   "name": "Criminal DNA",
   "description": "Identification tags such as these may prove valuable if handed to the proper organization.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "Tengu Defensive - Covert Reconfiguration",
   "description": "From the moment Strategic Cruisers became a reality, there were whispers amongst the scientific community about the potential for advances in cloaking technology. They remained that alone for the longest time, with few involved in the reverse engineering process willing to share any news of their discoveries. Everyone knew that, should the technology ever become a reality, the capabilities of the new Strategic Cruisers would change overnight.\n\nEmboldened by the development of other, more specialized subsystems, engineers and astrophysicists alike began to investigate modifications to a Strategic Cruiser that could aid their fellow scientists and explorers. The first reverse-engineering projects were predominantly focused on ways to improve a vessel's astrometric capabilities. The two-pronged solution of boosting both the strength of the launchers and the probes they deployed proved to be the most popular design in the end. It was not long after the first designs were sold that others took notice and began to reverse-engineer their own. Soon enough, the subsystem was catapulted into mainstream Tech III subsystem manufacture, although perhaps for more than just that one reason.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": 300.0,
   "mass": 1400000.0,
   "category_name": "Subsystem",

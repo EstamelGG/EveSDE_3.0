@@ -3,7 +3,7 @@
   "name": "姐妹会核心探针发射器",
   "description": "这是发射<a href=showinfo:30013>核心扫描探针</a>的发射器，用来扫描太空中的空间信号。\n\n\n\n注：每艘飞船只能安装一个扫描探针发射器。\n\n\n\n它能将探针的扫描强度增加10%。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 0.8,
   "mass": null,
   "category_name": "装备",

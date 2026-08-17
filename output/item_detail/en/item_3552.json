@@ -3,7 +3,7 @@
   "name": "Cap Booster 75",
   "description": "Provides a quick injection of power into your capacitor. Good for tight situations!",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": 7.5,
   "category_name": "Charge",

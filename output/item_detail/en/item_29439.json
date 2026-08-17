@@ -3,7 +3,7 @@
   "name": "Admiral Meledier",
   "description": "Admiral Meledier apparently wishes to defect to Amarr. Well, so be it: It's all a bit suspicious, but it's not your decision.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 85.0,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "中型自动加农炮塔台",
   "description": "向控制塔指定的敌人连续发射大型射弹炮弹。它的持续发射有利于追踪高速移动的目标，但缺少同级别火炮的威力。",
   "volume": 1000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1000.0,
   "capacity": 1000.0,
   "mass": 50000000.0,
   "category_name": "母星",

@@ -3,7 +3,7 @@
   "name": "天赋植体 枪骑兵 小型能量炮台 SE-602",
   "description": "天赋植体公司生产的射击技能神经交互强化芯片，可增强小型能量炮台操纵技能。\n\n小型能量炮台伤害增加2%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

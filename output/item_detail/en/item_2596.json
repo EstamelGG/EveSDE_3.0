@@ -3,7 +3,7 @@
   "name": "Crates of Clothing",
   "description": "It's not the latest fashion, or even the rugged survival gear colonists wear on developing worlds, but this basic, mass-produced clothing is better than nothing.",
   "volume": 60.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 60.0,
   "capacity": null,
   "mass": 60000.0,
   "category_name": "Commodity",

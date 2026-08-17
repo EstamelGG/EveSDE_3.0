@@ -3,7 +3,7 @@
   "name": "Zainou 'Snapshot' Light Missiles LM-901",
   "description": "A neural interface upgrade that boosts the pilot's skill with light missiles.\n\n1% bonus to damage of light missiles.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

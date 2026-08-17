@@ -3,7 +3,7 @@
   "name": "独立竞技委员会服装保管员",
   "description": "比抬着一个衣柜要好。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

@@ -3,7 +3,7 @@
   "name": "采矿无人机操控理论",
   "description": "操纵采矿无人机的技能。每升一级，采矿无人机的矿石开采量提高5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

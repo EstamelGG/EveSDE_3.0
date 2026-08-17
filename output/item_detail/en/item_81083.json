@@ -3,7 +3,7 @@
   "name": "Starsi Blast! Classic",
   "description": "Starsi Blast! is the latest offering from the Drink Starsi™ soft drinks business prevalent across Caldari space and beyond. Starsi Blast! is pitched at the ever-growing market for high energy, neurostimulating drinks craved by space industrial and colonial workers across New Eden. Starsi Blast! Classic is formulated to evoke the stimulating flavors of the original and patriotic Starsi soft drink.\n\nBenefits: <b>+5% Agility, +5% Velocity</b>\nDuration: <b>1 hour</b>\n\nLaunched by Caldari loyalist capsuleers as a rival to Quafe, Starsi has become a popular drink within the Caldari State in the two decades since its creation. Notably, following the Nugoeihuvi megacorporation's acquisition of the brand in December YC117, the soft drink, and its numerous variants have taken on a new lease of life, stocked in stores and commissaries across New Eden.\n\n<i>Disclaimer: Starsi Blast! Classic is licensed for production by NOH to all PKN Interstellar consortium members and partners. Consumers should be aware that proprietary Starsi Blast! technology remains the property of NOH at every metabolic stage of consumption and excretion. Users of Subcranial Nanocontrollers may experience amplified or altered performance and should contact their preferred nanotechnology service professional in the event of unforeseen effects.</i>",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Implant",

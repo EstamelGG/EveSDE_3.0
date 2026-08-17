@@ -3,7 +3,7 @@
   "name": "Counterfeit Credits",
   "description": "Counterfeit money confiscated from bandits.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 0.1,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "Moa Parts",
   "description": "These crates contain parts needed to build a Moa cruiser.",
   "volume": 30.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 30.0,
   "capacity": null,
   "mass": 128000.0,
   "category_name": "Commodity",

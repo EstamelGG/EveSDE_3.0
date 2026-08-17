@@ -3,7 +3,7 @@
   "name": "Medium Command Processor I",
   "description": "This ship modification is designed to increase the number of Command Burst modules that can be equipped to a command-capable ship.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "Module",

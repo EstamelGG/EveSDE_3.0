@@ -3,7 +3,7 @@
   "name": "纳米纤维内部构架 I",
   "description": "用较轻质但更脆弱的材料代替一些较重的结构部件。以牺牲结构强度为代价，提升舰船的速度增加其灵活性。\n\n注：在一艘舰船上使用多个这类装备或多个与该装备作用一致的类似装备将削弱实际使用效果。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 100.0,
   "category_name": "装备",

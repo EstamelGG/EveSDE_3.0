@@ -3,7 +3,7 @@
   "name": "Free-Zone Booster III",
   "description": "It will apply immediately when redeemed. Base Duration 2 Hours.\n\n3% bonus to hybrid weapon damage\n3% bonus to structure hitpoint\n3% bonus to local armor repair module effectiveness\n+4km drone control range\n3% bonus to ship agility",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Implant",

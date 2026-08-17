@@ -3,7 +3,7 @@
   "name": "Insta-Lock",
   "description": "A new type of construction component, the Insta-Lock fuses structural components together almost instantaneously.",
   "volume": 0.5,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.5,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "Paradoxical Nebula Firework",
   "description": "This space pyrotechnics and holography charge appears to defy the rules of space and time by creating a dramatic and unusual star nebula at the detonation point. This is peculiar but conceivably such a device could be used to signal a location or be used as a mapping aid. Still, strange and paradoxical as the appearance of a vast interstellar nebula inside a star system might be, the projected display is really a creation of some unknown pyrotechnician's art and skill... or is it?",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

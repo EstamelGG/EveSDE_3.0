@@ -3,7 +3,7 @@
   "name": "Test Bong",
   "description": "A curious device used by pirates to test their own product. Seems heavily used.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Commodity",

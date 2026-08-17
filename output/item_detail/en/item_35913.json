@@ -3,7 +3,7 @@
   "name": "Standup Conduit Generator I",
   "description": "The Standup Conduit Generator is a service module that enables the creation and maintenance of stable spatial conduits connected to another similar device within range. When linked with another active conduit generator within 5 light years, this module allows the passage of starships safely across the intervening distance safely and instantly. Jumping through this connection requires the consumption of large volumes of Liquid Ozone fuel in addition to the standard hourly fuel block consumption of the active service module. This Liquid Ozone fuel consumption changes depending on the mass of the jumping ship and the distance traveled. The Ozone consumption formula is:\nUnits of Ozone Consumed = (Ship Mass in kg) x (Jump Distance in LY) x 0.000003 + 50\n\nThis service module may only be onlined in a system that contains a sovereignty hub with the <a href=showinfo:81621>Advanced Logistics Network</a> upgrade active.\nThis service module is automatically included built-in to every Upwell <a href=showinfo:35841>Ansiblex Jump Bridge</a>, and cannot be removed from that structure.\n\nStandup is a proprietary system that uses a Structure Autonomous Nanoassembly Device (Upwell) containing integrated template software, a nanoassembler array and sufficient nanomass to enable the construction of a variety of service modules, structure modules and structure rigs when inserted into the appropriate slots on a structure built with Upwell technology.",
   "volume": 1000000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1000000.0,
   "capacity": null,
   "mass": 500.0,
   "category_name": "Structure Module",

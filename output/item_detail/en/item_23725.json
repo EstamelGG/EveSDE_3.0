@@ -3,7 +3,7 @@
   "name": "Infiltrator TD-600",
   "description": "Medium Tracking Disruptor Drone",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 3000.0,
   "category_name": "Drone",

@@ -3,7 +3,7 @@
   "name": "机动规避弹药",
   "description": "这种紧凑的纳米机器人集群可以装载到<a href=showinfo:42530>游击战指挥脉冲波</a>装备中，并散布到友方舰船全身，降低其有效信号半径，提高其灵活性，使敌人更难以击中它。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": 0.01,
   "category_name": "弹药",

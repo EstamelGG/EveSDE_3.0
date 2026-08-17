@@ -3,7 +3,7 @@
   "name": "天赋植体 诺贝尔 远距装甲维修系统 RA-704",
   "description": "一款神经接口升级芯片，可以增强飞行员操作远程装甲维修设备的技能。\n\n远程装甲维修系统的电容消耗减少4%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

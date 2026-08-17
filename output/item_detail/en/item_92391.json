@@ -3,7 +3,7 @@
   "name": "Political Favor",
   "description": "A record of all the information and access details your hard work canvassing has granted you. This data could prove valuable to any Presidential candidate if traded in at their campaign HQ.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 0.1,
   "category_name": "Special Edition Assets",

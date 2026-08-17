@@ -3,7 +3,7 @@
   "name": "Sense-Heuristic Neurolink Enhancer Reaction Formula",
   "description": null,
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Blueprint",

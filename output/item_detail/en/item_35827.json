@@ -3,7 +3,7 @@
   "name": "Sotiyo",
   "description": "Named after one of the co-creators of the first Caldari warp drive, the Sotiyo-Urbaata Drive, the Sotiyo serves as a mega-scale manufacturing and assembly site for everything from subcapital ships and modules, up to supercapital class hulls. \n\nThe Sotiyo is the Engineering Complex fit for megacorporations in the Upwell Consortium’s new line of structures, and is able to use Upwell's Standup Service modules, allowing flexibility and customization of its functions. This dedicated industrial structure also provides access to Upwell’s XL-Set line of rigs designed to improve productivity and optimization of various aspects of manufacturing and research.\n\nDue to its extra-large size this engineering complex can accommodate construction of supercapital ships using the Standup Supercapital Shipyard I Service Module.\n\nThe Sotiyo provides tethering technology and has docking capabilities for capital-size ships and below.\n\nOn June 14th YC125 CONCORD updated the capsuleer structure regulations to disallow the anchoring of any new XL structures in highsec space. XL structures that were anchored before this date will not be affected by this change unless they are unanchored.",
   "volume": 800000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 800000.0,
   "capacity": null,
   "mass": 50000000000.0,
   "category_name": "Structure",

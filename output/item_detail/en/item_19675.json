@@ -3,7 +3,7 @@
   "name": "Ixon Kruz's Insignia",
   "description": "The insignia of the Minmatar Warlord Ixon Kruz.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 0.1,
   "category_name": "Commodity",

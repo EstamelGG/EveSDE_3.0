@@ -3,7 +3,7 @@
   "name": "High-Tech Transmitters",
   "description": "An electronic device that generates and amplifies a carrier wave, modulates it with a meaningful signal derived from speech or other sources, and radiates the resulting signal from an antenna. The High-Tech prototype is almost immune to any type of de-scrambling devices, making the transmission more secure.",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

@@ -3,7 +3,7 @@
   "name": "Wheel of Prosperity Firework",
   "description": "The Caldari are well known for their festivals, a means by which they enliven and relieve lives marked by service to the 'Big 8' megas as they strive to climb the corporate ladder. The 'Wheel of Prosperity' firework is a great favorite with Caldari citizens of all ages, signifying as it does the opportunities that are available to all in the market-driven society of the Caldari State.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

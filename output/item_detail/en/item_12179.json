@@ -3,7 +3,7 @@
   "name": "Research Project Management",
   "description": "Skill at overseeing agent research and development projects. Allows the simultaneous use of 1 additional Research and Development agent per skill level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

@@ -3,7 +3,7 @@
   "name": "纳米线复合材料",
   "description": "纳米线复合材料的作用是链接各个子系统。石墨烯纳米环是这种材料的基本构成，能够在机电船体各设备之间传导电能。外层所披覆的热能扩散膜能够有效的进行散热，让舰船指挥官能够对模组进行超载而不用担心会对整个舰船造成威胁。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

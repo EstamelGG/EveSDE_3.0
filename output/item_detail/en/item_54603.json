@@ -3,7 +3,7 @@
   "name": "Limited Synth X-Instinct Booster Mk II",
   "description": "This energizing booster grants its user a vastly improved economy of effort when parsing the data streams needed to sustain space flight. The main benefits of this lie not in improved performance but less waste of transmission and extraneous micromaneuvers, making the pilot's ship sleeker in performance and harder to detect. The booster's only major drawback is the crazed notion that the pilot's inventory would look so much better if merely rearranged ONE MORE TIME.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Implant",

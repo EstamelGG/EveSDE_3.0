@@ -3,7 +3,7 @@
   "name": "尤堂恩的职业凭证",
   "description": "该雇佣凭证已由考茨·尤堂恩签署。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

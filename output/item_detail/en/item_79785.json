@@ -3,7 +3,7 @@
   "name": "Compressed Dense Polycrase",
   "description": "This dense variant of Polycrase ore is especially prized by engineers for use in large-scale construction projects. Recent advances in system-wide ore scanning technology has enabled the interested parties such as the Caldari State and Outer Ring Excavations to detect hidden asteroid clusters containing this ore.\n\nThis material is compressed and a much more compact form of the original material. Polycrase requires extremely specialized equipment to reprocess and is therefore generally not useful for capsuleer industry, however rumors have suggested that Deathless Custodians corporation is willing to purchase this compressed ore in their Zarzakh stronghold.",
   "volume": 0.001,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.001,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "Mikado ID Slice",
   "description": "ID slice is an identification tag injected into the body with nano-bots.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

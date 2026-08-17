@@ -3,7 +3,7 @@
   "name": "True Sansha Rocket Launcher",
   "description": "A tiny launcher that can carry a very limited supply of rockets. Not really intended as a primary weapon but rather as a cheap supplementary weapon system.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 0.2531,
   "mass": null,
   "category_name": "Module",

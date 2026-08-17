@@ -3,7 +3,7 @@
   "name": "会计学",
   "description": "精通处理商业贸易中的各种琐碎费用的技能，使你的收支处于最佳状态。每升一级，销售税减少11%。起始税率为7.5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

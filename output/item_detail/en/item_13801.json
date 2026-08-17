@@ -3,7 +3,7 @@
   "name": "Dark Blood Focused Medium Pulse Laser",
   "description": "A high-energy, concentrated laser designed for short to medium range engagements. \n\nRequires frequency crystal ammo types: Gamma, Infrared, Microwave, Multifrequency, Radio, Standard, Ultraviolet, Xray.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": 1.0,
   "mass": 1000.0,
   "category_name": "Module",

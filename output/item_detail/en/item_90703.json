@@ -3,7 +3,7 @@
   "name": "DSHR-01H Highsec Ice Storm Filament",
   "description": "Frostline Laboratories, a subsidiary division of Outer Ring Excavations, continues to be a leader in the development of new technologies to expedite resource extraction in hostile environments. Filaments acquired from skirmishes with Triglavian Collective vessels have provided a wealth of information to study and emerging metaliminal storms, such as volatile ice storms, are a clear field of interest for resource extraction technologies.\n\nTo further the spirit of Yoiul—and continue expanding their data pool—Frostline has chosen to share the latest variants of their transport filaments with capsuleers across New Eden. For a limited time, pilots will be able to use these experimental metaliminal filaments to more quickly travel to locations affected by volatile ice storms across New Eden.\n\nThis DSHR-01H Highsec Ice Storm Filament can transport one individual capsuleer and is configured to limit its range of destinations to volatile ice storms in high-sec space.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "Commodity",

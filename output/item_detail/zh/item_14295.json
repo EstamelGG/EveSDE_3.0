@@ -3,7 +3,7 @@
   "name": "初级视觉滤镜—加强版",
   "description": "植入在枕骨脑叶的图像处理器，能增加人物的感知属性值。这种初级植入体的加强版本是一种更高级的原型，最初由加达里的零重力研究公司开发，是可以替代基础植入体的经济型选择。感知+2",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

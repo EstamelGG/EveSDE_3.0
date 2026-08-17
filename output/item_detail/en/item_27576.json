@@ -3,7 +3,7 @@
   "name": "Dread Guristas Ion Field Projection Battery",
   "description": "Projects a low intensity field of ionized particles to disrupt the effectivenes of enemy sensors. Very effective against Magnetometric-based sensors.",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": 100000000.0,
   "category_name": "Starbase",

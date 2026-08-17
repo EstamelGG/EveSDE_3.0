@@ -3,7 +3,7 @@
   "name": "移动观测站",
   "description": "这个建筑被锚定并自动完成启动程序后，将周期性扫描星系中的隐形物体并使其显形。",
   "volume": 100.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 100.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "可部署物品",

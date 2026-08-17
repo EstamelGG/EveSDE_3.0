@@ -3,7 +3,7 @@
   "name": "时空奇点烟火",
   "description": "总是让人印象深刻的“时空奇点”烟火常常是多个一起燃放，用精心编排过的方式显现出巨大的几何图形。即使是单独燃放，这种烟火在空中向六个方向散射的光芒仍然让人心神目眩。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "弹药",

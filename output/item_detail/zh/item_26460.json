@@ -3,7 +3,7 @@
   "name": "绘图学：绘制藏宝地图的艺术",
   "description": "X始终标示着财宝所在地。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

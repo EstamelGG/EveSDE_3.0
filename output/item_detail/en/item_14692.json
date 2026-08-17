@@ -3,7 +3,7 @@
   "name": "Kaikka's Modified Large Graviton Smartbomb",
   "description": "Radiates an omnidirectional pulse from the ship that causes kinetic damage to surrounding vessels.",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Module",

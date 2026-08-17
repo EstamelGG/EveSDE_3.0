@@ -3,7 +3,7 @@
   "name": "Yoiul Blizzard Firework",
   "description": "The Yoiul Blizzard firework is in truth an \"icework\" as it is a unique explosive charge that creates a storm of icy crystals in space, mimicking a wintry blizzard.\n\nThe fragmentary scraps of data that the empires used to construct the New Eden Standard Calendar provide a hint that a winter festival had some importance in the later months of the year for the legendary forebears of humanity. Not all inhabited worlds of New Eden have seasons but those that do mark the increased snow and wind of their winter equivalents in various ways.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

@@ -3,7 +3,7 @@
   "name": "Hive Mind CPU",
   "description": "This cumbersome, alien-looking device, throbbing with light and humming faintly, apparently contains the mind of Professor Kajurei Delainen, somehow fused with the AI of his rogue drone nanites.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 70.0,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "Contraband Freight",
   "description": "A container filled with items restricted by the Caldari State intended for sale on the Black Market. The items inside range from entirely illegal goods to ration-controlled supplies.",
   "volume": 3500.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3500.0,
   "capacity": null,
   "mass": 20000.0,
   "category_name": "Commodity",

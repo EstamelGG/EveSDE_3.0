@@ -3,7 +3,7 @@
   "name": "加密数据接口",
   "description": "这个便携接口的设计是专门对应米玛塔尔科技的，它允许使用者快速流览物品图表的电子流，找到他所需的数据串。每次生产只需要使用一个数据接口，而且可以根据需要重复使用。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "常用物品",

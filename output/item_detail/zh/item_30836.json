@@ -3,7 +3,7 @@
   "name": "打捞器 II",
   "description": "这是一个特殊的扫描器，通过它可以检视舰船残骸中是否留有可供打捞的物件。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

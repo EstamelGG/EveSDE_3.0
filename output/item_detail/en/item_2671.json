@@ -3,7 +3,7 @@
   "name": "Group of Militants",
   "description": "A combative character; aggressive, especially in the service of a cause.",
   "volume": 60.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 60.0,
   "capacity": null,
   "mass": 60000.0,
   "category_name": "Commodity",

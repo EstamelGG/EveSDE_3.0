@@ -3,7 +3,7 @@
   "name": "建筑末日武器操作技术",
   "description": "操作堡垒末日武器的专业技能。\n\n\n\n每升一级，电弧弦投射器运转周期缩短2%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

@@ -3,7 +3,7 @@
   "name": "同位原矿（3级）",
   "description": "在诸如超新星那种超高温情况下形成的小行星中，通常含有一种浓度更高的同位原矿——光面同位原矿，它比普通的同位原矿多出10%的矿物含量。由于含有大量<a href=showinfo:35>类晶体胶矿</a>和<a href=showinfo:38>超新星诺克石</a>，同位原矿很抢手。大多数情况下，你可以在低安全等级星系找到它。",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

@@ -3,7 +3,7 @@
   "name": "莫罗的改良延展型扫描探针发射器",
   "description": "发射<a href=showinfo:30013>核心扫描探针</a>和<a href=showinfo:30028>作战扫描探针</a>的发射器。<a href=showinfo:30013>核心扫描探针</a>用来扫描太空中的空间信号。<a href=showinfo:30028>作战扫描探针</a>用来扫描空间信号、舰船、建筑和无人机。注：每艘舰船只能安装一个扫描探针发射器。它能将探针的扫描强度增加15%。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 8.0,
   "mass": null,
   "category_name": "装备",

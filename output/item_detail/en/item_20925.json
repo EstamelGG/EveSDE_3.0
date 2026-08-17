@@ -3,7 +3,7 @@
   "name": "Shadow Plutonium Charge L",
   "description": "Consists of two components: a shell of titanium and a core of plutonium atoms suspended in plasma state. Railguns launch the shell directly, while particle blasters pump the plasma into a cyclotron and process the plasma into a bolt that is then fired.\n\n37.5% reduced optimal range.\n5% reduced capacitor need.",
   "volume": 0.025,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.025,
   "capacity": null,
   "mass": 0.05,
   "category_name": "Charge",

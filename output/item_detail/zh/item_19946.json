@@ -3,7 +3,7 @@
   "name": "BZ-5视野型引力ECM",
   "description": "发射无序引力子脉冲波，干扰锁定的精确性。正如预期，该系统对装配在加达里、古斯塔斯和莫德团舰船上的引力锁定系统最有效。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

@@ -3,7 +3,7 @@
   "name": "自动锁定系统 I",
   "description": "启用后可锁定作用范围内的任意敌对舰船。使用时舰船最大锁定目标增加2个。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 30.0,
   "category_name": "装备",

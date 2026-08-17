@@ -3,7 +3,7 @@
   "name": "Dread Guristas Mjolnir Light Missile",
   "description": "An advanced missile with a volatile payload of magnetized plasma, the Mjolnir light missile is specifically engineered to take down shield systems.",
   "volume": 0.015,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.015,
   "capacity": null,
   "mass": 700.0,
   "category_name": "Charge",

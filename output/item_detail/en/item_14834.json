@@ -3,7 +3,7 @@
   "name": "Tairei's Modified Heavy Energy Neutralizer",
   "description": "Neutralizes a portion of the energy in the target ship's capacitor.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 2000.0,
   "category_name": "Module",

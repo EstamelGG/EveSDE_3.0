@@ -3,7 +3,7 @@
   "name": "新汞合金",
   "description": "新汞合金是一种带有银色微光的液体化合物，是许多高级感应器和处理器技术中的重要元素。",
   "volume": 0.2,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.2,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

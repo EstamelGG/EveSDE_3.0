@@ -3,7 +3,7 @@
   "name": "小型跃迁核心优化系统 II",
   "description": "这个飞船改装件通过增大信号半径来减少舰船跃迁启动时的电容需求。\n\n\n\n装配这个改装件的副作用可以通过训练<a href=showinfo:26254>空间航行改装技术</a>技能降低影响。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "装备",

@@ -3,7 +3,7 @@
   "name": "Cryptic Process",
   "description": "This decryptor gives insightful information into the nature of Minmatar invention jobs, but lacks inspirational touches.<br><br>Probability Multiplier: +10% <br>Max. Run Modifier: N/A <br>Material Efficiency Modifier: +3 <br>Time Efficiency Modifier: +6",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Decryptors",

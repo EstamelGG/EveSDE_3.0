@@ -3,7 +3,7 @@
   "name": "涅槃炸弹",
   "description": "在爆炸同时会发出一个全向脉冲，中和周围舰船的一部分电容能量。",
   "volume": 75.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 75.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "弹药",

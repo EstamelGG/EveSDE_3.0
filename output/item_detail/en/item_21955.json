@@ -3,7 +3,7 @@
   "name": "Structure Factory",
   "description": "Materials required for the construction of factory facilities in a space outpost.",
   "volume": 3000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3000.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "Compressed Krystallos",
   "description": "The universe's richest known source of strontium clathrates, Krystallos ice formations are formed only in areas where a very particular combination of environmental factors are at play. Krystallos compounds also include quite a bit of liquid ozone.\n\nThis material is compressed and a much more compact form of the original material.",
   "volume": 100.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 100.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Asteroid",

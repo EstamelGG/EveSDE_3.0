@@ -3,7 +3,7 @@
   "name": "Haven Booster III",
   "description": "It will apply immediately when redeemed. Base Duration 2 Hours.\n\n3% bonus to energy weapon damage\n3% bonus to armor hitpoint\n3% bonus to local armor repair module effectiveness\n3% bonus to capacitor capacity\n3% bonus to signature radius",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Implant",

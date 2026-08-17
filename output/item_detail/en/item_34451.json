@@ -3,7 +3,7 @@
   "name": "Nanoplastic Membrane Patch",
   "description": "This length of super-thin nanoplastic is used by the Central Archive Cerebrum to operate its intricate machinery.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

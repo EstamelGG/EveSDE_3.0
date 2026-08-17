@@ -3,7 +3,7 @@
   "name": "Garbage",
   "description": "Production waste can mean garbage to some but valuable resource material to others.",
   "volume": 0.25,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.25,
   "capacity": null,
   "mass": 2500.0,
   "category_name": "Commodity",

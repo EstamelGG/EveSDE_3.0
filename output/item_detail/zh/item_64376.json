@@ -3,7 +3,7 @@
   "name": "大奖赛增效剂 4",
   "description": "<font color=\"#ff3399cc\"><b>+8% 最大速度，+8% 跃迁速度，-8% 惯性调整系数。持续4小时。</b></font>\n\n\n\n<b>过期时间：YC124年8月9日</b>\n\n\n\n从物品兑换队列中兑换此增效剂后，它将被直接使用。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

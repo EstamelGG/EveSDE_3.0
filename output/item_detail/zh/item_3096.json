@@ -3,7 +3,7 @@
   "name": "埃菲尔公司 游侠 导航学 NN-602",
   "description": "一款埃菲尔公司开发的神经交互强化芯片，可增强飞行员的导航技术。舰船飞行速度提升2%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

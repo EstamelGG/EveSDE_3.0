@@ -3,7 +3,7 @@
   "name": "'紫红'面部改装包裹",
   "description": "这个包裹里有男式和女式的'紫红'面部改装。",
   "volume": 4.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4.0,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

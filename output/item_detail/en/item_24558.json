@@ -3,7 +3,7 @@
   "name": "Capital Ship Maintenance Bay",
   "description": "Massive metal sheets and stacks of equipment which links together in modular fashion to form a gigantic maintenance bay, for insertion into capital ships.",
   "volume": 2000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2000.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "Crystalline Polycrase",
   "description": "The crystalline residue of reprocessed Polycrase.\n\nThe Caldari State will reward Capsuleers who bring this mineral to their Trade-In transport outside the Caldari Navy Anchorage Station located in <url=showinfo:5//30045324>Onnamon</url>.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

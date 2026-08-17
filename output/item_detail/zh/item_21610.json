@@ -3,7 +3,7 @@
   "name": "跳跃引擎燃料节约技术",
   "description": "精通跳跃引擎能源管理的技能。每升一级，每光年的跳跃操作所消耗的同位素减少10%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

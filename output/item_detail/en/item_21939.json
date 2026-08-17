@@ -3,7 +3,7 @@
   "name": "Republic Fleet Titanium Sabot S",
   "description": "Small Projectile Ammo. This is among the most feared ammunition around. It has excellent penetration. Once the ship's outer layer is penetrated, the core explodes, spraying the interior with a cloud of fragmentation fletchets that cause considerable damage to the vulnerable interior structure.\n\n20% increased tracking speed.",
   "volume": 0.0025,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.0025,
   "capacity": null,
   "mass": 0.01,
   "category_name": "Charge",

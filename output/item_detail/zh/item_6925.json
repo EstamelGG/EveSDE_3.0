@@ -3,7 +3,7 @@
   "name": "重型阳极脉冲粒子束 I",
   "description": "一种重型激光器，专为中短程交战而设计。破坏力强大。\n\n使用的频率晶体弹药类型：伽玛、红外线、微波、多频、射频、标准、紫外线和X射线。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": 1.0,
   "mass": 1000.0,
   "category_name": "装备",

@@ -3,7 +3,7 @@
   "name": "打捞SV-906的波特克“掘金者”",
   "description": "一种神经接口升级大脑植入体，可提升飞行员的探索技能。 打捞成功率提高6%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

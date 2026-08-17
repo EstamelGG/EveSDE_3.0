@@ -3,7 +3,7 @@
   "name": "Identity Data Chip",
   "description": "This data chip contains massive ammounts of data about a person to help confirm their identity. Allowing safe knowlege that the person they recieve the Identity Chip from is who they say they are.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

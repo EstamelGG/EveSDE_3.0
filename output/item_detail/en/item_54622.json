@@ -3,7 +3,7 @@
   "name": "Limited Synth Sooth Sayer Booster Mk IV",
   "description": "This booster induces a trancelike state whereupon the pilot is able to sense the movement of faraway items without all the usual static flooding the senses. Being in a trance helps the pilot hit those moving items with better accuracy, although he has to be careful not to start hallucinating.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Implant",

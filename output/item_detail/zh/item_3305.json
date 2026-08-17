@@ -3,7 +3,7 @@
   "name": "中型射弹炮台研究",
   "description": "操作中型射弹炮台的技能。每升一级，中型射弹炮台的伤害提升5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

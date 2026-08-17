@@ -3,7 +3,7 @@
   "name": "Domination 10MN Afterburner",
   "description": "Gives a boost to the maximum velocity of the ship when activated. The thrust that boosts the ship, and the corresponding maximum velocity bonus, are limited by the mass of the ship that uses this module.\n\nNote: Usually fit on Cruisers and Battlecruisers.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

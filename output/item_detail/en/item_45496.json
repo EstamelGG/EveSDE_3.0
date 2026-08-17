@@ -3,7 +3,7 @@
   "name": "Titanite",
   "description": "A common ore commercially mined from moons, Titanite is very useful as it yields good quantities of <a href=showinfo:16638>Titanium</a>, a significant element of many advanced materials.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "Asteroid",

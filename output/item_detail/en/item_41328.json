@@ -3,7 +3,7 @@
   "name": "Spike XL",
   "description": "The spike munition package is designed to deliver huge damage to targets at extreme distances. It consists of a superdense plutonium sabot mounted on a small rocket unit that provides a substantial boost to the sabots impact velocity. However the charge is next to useless at close range.\n\n80% increased optimal range.\n75% reduced tracking speed.\n\nNote: This ammunition can only be used by capital tech level II and faction Railguns.",
   "volume": 0.125,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.125,
   "capacity": null,
   "mass": 0.5,
   "category_name": "Charge",

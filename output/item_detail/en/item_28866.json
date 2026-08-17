@@ -3,7 +3,7 @@
   "name": "Rogue Drone A.I. Core",
   "description": "A tiny chip with a modified silicon-extract wafer forming the base for an integrated circuit. The chip stores the code for the drone's bizarre artificial intelligence.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": 0.01,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "Sansha Small Beam Laser Battery",
   "description": "Fires a deep modulated energy beam using medium sized frequency crystals at those the Control Tower deems its enemies. Effective at relatively long ranges, but tracks fairly slowly and has a low rate of fire. Note: Placing a new type of crystal into the crystal compartment will result in the destruction of the crystal being replaced.",
   "volume": 500.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 500.0,
   "capacity": 3.0,
   "mass": 100000000.0,
   "category_name": "Starbase",

@@ -3,7 +3,7 @@
   "name": "组件装配阵列",
   "description": "一座移动式装配设施，在这里可以生产所有种类的建造组件，例如旗舰、二级科技、混合（三级科技）组件和建筑组件。这里还可以制造燃料块。",
   "volume": 12500.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 12500.0,
   "capacity": 10500000.0,
   "mass": 100000000.0,
   "category_name": "母星",

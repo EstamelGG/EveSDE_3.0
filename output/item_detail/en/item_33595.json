@@ -3,7 +3,7 @@
   "name": "Defunct Caldari Encounter Surveillance System",
   "description": "The Encounter Surveillance System can be deployed in any system outside empire jurisdiction. It monitors encounters in the system, allowing the Caldari State to supplement the rewards for killing a wanted pirate.\n\nWith an active ESS in a system the bounty payout values change and a Loyalty Point payout is added. 80% of bounty is paid directly, with 20% being added to a system-wide pool that can be accessed through the ESS. The 20% can rise up to 25% over time, putting the total bounty payout at 5% above base value. The bonus payout resets to 20% if the ESS is accessed, destroyed or scooped up. For each 1000 ISK in bounties, 0.15 LPs are added. This can rise up to 0.2 LPs over time.",
   "volume": 200.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 200.0,
   "capacity": null,
   "mass": 100000.0,
   "category_name": "Deployable",

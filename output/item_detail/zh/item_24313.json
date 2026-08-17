@@ -3,7 +3,7 @@
   "name": "盖伦特航空母舰操作",
   "description": "操作盖伦特航空母舰的技能。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

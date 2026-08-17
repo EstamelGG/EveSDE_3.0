@@ -3,7 +3,7 @@
   "name": "Industrial Fibers",
   "description": "The main difference between fibers used in industry and those created for civilian use is the trade-off of comfort for tensile strength and durability. This allows industrial fibers to be used in more severe environments, from electronic component shielding on hostile worlds to solar sails in the frigid void of space.",
   "volume": 0.19,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.19,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

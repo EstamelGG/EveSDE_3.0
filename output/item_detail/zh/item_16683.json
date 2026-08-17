@@ -3,7 +3,7 @@
   "name": "铁磁胶体",
   "description": "一种磁化液体，用来控制护盾系统、反应堆核心、脉冲发生器和推进器系统中的冷等离子场的流向。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

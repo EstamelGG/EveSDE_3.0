@@ -3,7 +3,7 @@
   "name": "盖伦特哨站实验室",
   "description": "针对盖伦特哨站研究能力的中级升级方案。材料效率研究、时间效率研究、拷贝和发明项目费用额外降低10%（可与同类效果叠加），所有拷贝研究时间减少40%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "附件",

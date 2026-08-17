@@ -3,7 +3,7 @@
   "name": "Nugoeihuvi Transaction Logs",
   "description": "These reports hold information on recent transactions of prop small arms between the Nugoeihuvi corporation and the Sukuuvestaa corporation, as well as evidence that the props aren't what they appear to be.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

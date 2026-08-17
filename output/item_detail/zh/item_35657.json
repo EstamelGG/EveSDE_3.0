@@ -3,7 +3,7 @@
   "name": "Y-S8紧凑型100MN加力燃烧器",
   "description": "激活后将增加舰船的最大速度。推进舰船的动力和相应的最大速度加成均受使用该装备的舰船重量所限。\n\n\n\n注：通常装配在战列舰上。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

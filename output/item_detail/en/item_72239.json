@@ -3,7 +3,7 @@
   "name": "Standard 'Boost' Cerebral Accelerator",
   "description": "When redeemed by a capsuleer, this booster will increase the rate at which they train skills for a short time.\n<b>Bonus: +4 to all learning attributes</b>\n<b>Base Duration: 4 days</b>",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

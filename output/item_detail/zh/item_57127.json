@@ -3,7 +3,7 @@
   "name": "高级销魂 - 伊普西隆型",
   "description": "这款社交适应芯片使用了萨沙的技术进行研发，专供萨沙和其关联势力的精英飞行员使用。与其他属于同一套装的植入体搭配使用时可以提高电容回充速率。\n\n\n\n主要效果：魅力属性值增加4\n\n\n\n次要效果：电容回充时间减少5%\n\n\n\n套件效果：所有“销魂”植入体次要效果增加15%",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

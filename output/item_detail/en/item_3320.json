@@ -3,7 +3,7 @@
   "name": "Rockets",
   "description": "Skill with small short range missiles. Special: 5% bonus to rocket damage per skill level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

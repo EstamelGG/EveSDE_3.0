@@ -3,7 +3,7 @@
   "name": "Genolution Core Augmentation CA-1",
   "description": "<font color=\"yellow\"><b>Traits</b></font><br>Slot 1<br>Primary Effect: +3 bonus to Perception<br>Secondary Effect: +1.5% bonus to powergrid and capacitor amount<br>Implant Set Effect: 50% bonus to the strength of all Genolution implant secondary effects<br><br><font color=\"yellow\"><b>Development</b></font><br>The modestly titled “Core Augmentation” implant set was developed by Genolution with the assistance of implantation specialists and other leaders in the field of neural augmentation, some of whom have long been rumored to be SoCT alumni.<br><br>The CA-1 is a rarity in the often hyper-specialized industry of neural augmentations. It provides a dual function; tapping into both the occipital lobe for a perception boost, and also the neocortex, for improving the brain's handling of a ship's energy and capacitor needs. Like the infamous pirate implant sets found on capsuleer markets, each implant is also designed to work at higher levels when integrated into a neural implant network.<br><br>Though many in the augmentation industry initially questioned the agenda behind Genolution's entry into the implantation field, fears eventually subsided as the implant was shown to be one of the safest on record. Genolution went one step further to assuage fears however and vowed never to release the implant to open markets, providing only a single-run issue to capsuleers as a demonstration of the technology.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

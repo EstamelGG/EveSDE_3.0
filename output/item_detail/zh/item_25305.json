@@ -3,7 +3,7 @@
   "name": "药物实验室",
   "description": "一座制造增效剂的实验室。这个建筑不提供生产时间或材料需求的加成。",
   "volume": 1250.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1250.0,
   "capacity": 100000.0,
   "mass": 100000000.0,
   "category_name": "母星",

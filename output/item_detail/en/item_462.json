@@ -3,7 +3,7 @@
   "name": "Mega Pulse Laser I",
   "description": "A super-heavy pulse laser designed for medium range engagements. \n\nRequires frequency crystal ammo types: Gamma, Infrared, Microwave, Multifrequency, Radio, Standard, Ultraviolet, Xray.",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": 1.0,
   "mass": 2000.0,
   "category_name": "Module",

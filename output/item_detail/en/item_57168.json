@@ -3,7 +3,7 @@
   "name": "Yoiul Stormchasers T-Shirt and Pants Crate",
   "description": "This crate contains the following items:\n\nMen's Yoiul Stormchasers T-Shirt\nMen's Yoiul Stormchasers Pants\nWomen's Yoiul Stormchasers T-Shirt\nWomen's Yoiul Stormchasers Pants",
   "volume": 4.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4.0,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

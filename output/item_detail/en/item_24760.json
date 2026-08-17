@@ -3,7 +3,7 @@
   "name": "Dari Akell",
   "description": "A Minmatar civilian.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 80.0,
   "category_name": "Commodity",

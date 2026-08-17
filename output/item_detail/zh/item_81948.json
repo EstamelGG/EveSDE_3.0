@@ -3,7 +3,7 @@
   "name": "财团小型牵引光束",
   "description": "通过操纵重力场，这个装备能将货柜集装箱拖近飞船。",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": 0.8,
   "mass": 50.0,
   "category_name": "装备",

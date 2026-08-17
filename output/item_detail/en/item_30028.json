@@ -3,7 +3,7 @@
   "name": "Combat Scanner Probe I",
   "description": "A scanner probe used for scanning down Cosmic Signatures, starships, structures and drones.\n\nCan be launched from <a href=showinfo:18639>Expanded Probe Launchers</a>.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

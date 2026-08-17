@@ -3,7 +3,7 @@
   "name": "萨沙改进型侏儒植入体",
   "description": "增加调整护盾总值和护盾回充速度的技能所发挥的效果。护盾强度提高3%。护盾回充速度加成3%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

@@ -3,7 +3,7 @@
   "name": "The Mini Monolith",
   "description": "Refines into: A handful of tiny stars.",
   "volume": 500.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 500.0,
   "capacity": null,
   "mass": 50000.0,
   "category_name": "Special Edition Assets",

@@ -3,7 +3,7 @@
   "name": "Hydrogen Batteries",
   "description": "The use of hydrogen batteries has become an international standard both in industry and in the public domain; they are a particularly common power supply in off-world habitats such as space stations.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1500.0,
   "category_name": "Commodity",

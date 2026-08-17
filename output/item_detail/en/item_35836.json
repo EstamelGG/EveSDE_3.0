@@ -3,7 +3,7 @@
   "name": "Tatara",
   "description": "“Oh yeah, I was at C0T-77 when the fusion reactor went critical and blew the side out of the Crown Seven mineworks. We got more promethium out of the debris field in a day than in a month of drilling. I guess it got someone to thinking.” <i>– Ramon Fulcan, veteran moon-mining engineer</i>\n\nThe Tatara Refinery is a large-sized structure from the Upwell Consortium and specialized for moon-mining and reaction-based industrial operations. The Tatara is the heavy-duty, extended operations refinery in the Upwell Consortium’s line of industrial structures, and is able to use Upwell's Standup Service modules, allowing flexibility and customization of its functions. \n\nThis dedicated extraction and refining structure also provides access to Upwell’s L-Set line of rigs designed to improve productivity and optimization of various aspects of chemical reaction and moon-mining operations. The Tatara has docking facilities for subcapital ships, freighters, and capital industrial ships.\n\nThe Moon Drill Service Module can only be installed if the Refinery is deployed on the eligible moon mining position.",
   "volume": 80000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 80000.0,
   "capacity": null,
   "mass": 10000000000.0,
   "category_name": "Structure",

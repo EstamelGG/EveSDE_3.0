@@ -3,7 +3,7 @@
   "name": "Mangled Sansha Data Analyzer",
   "description": "This is still nearly recognizable as a Purloined Sansha Data Analyzer, but attempting to reprocess it has left it broken yet still more-or-less intact. It's possible that running it through the reprocessor a second time will yield better results.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1650.0,
   "category_name": "Commodity",

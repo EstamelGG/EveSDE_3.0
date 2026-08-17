@@ -3,7 +3,7 @@
   "name": "Compressed Plagioclase IV-Grade",
   "description": "This extremely rare and valuable variant of plagioclase ore was recently discovered by ORE engineers during early field tests of new moon mining technology. Subsequent testing has confirmed that this ore produces 15% more minerals than standard plagioclase when reprocessed.\n\nPlagioclase is not amongst the most valuable ore types around, but it contains a large amount of <a href=showinfo:34>Tritanium</a> and is thus always in constant demand. It also yields some <a href=showinfo:36>Mexallon</a>.\n\nThis material is compressed and a much more compact form of the original material.",
   "volume": 0.0035,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.0035,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Asteroid",

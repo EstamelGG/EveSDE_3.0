@@ -3,7 +3,7 @@
   "name": "Cynosural Field Generator I",
   "description": "Generates a cynosural field for advanced ship jump drives to lock on to.\n\nNote: Can only be fit by Force Recon Ships, Heavy Interdiction Cruisers, and Black Ops.",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

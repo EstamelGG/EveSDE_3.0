@@ -3,7 +3,7 @@
   "name": "节日战列巡洋舰涂装和雪球箱",
   "description": "这个箱子中有先驱者级、幼龙级、弥洱米顿级和暴风级的极光天象涂装，以及2个尤尔节雪球。",
   "volume": 4.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4.0,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

@@ -3,7 +3,7 @@
   "name": "Fortizar",
   "description": "Conceived as a good balance of capability and investment in the Upwell Consortium's Citadel range of space stations, the Fortizar has been designed for large-scale operations in space, such as providing a well-equipped home for large corporations and small alliances, or as a border or trade post for larger alliances.\n\nThe Fortizar has been built with new spaceship tethering technology as standard, and will readily accommodate most ships, including freighters and even capital ships, in its internal docking bays. While the docks are unable to service 'supercapital' level vessels, the defensive capabilities of the Fortizar are considerably enhanced in lower security star systems with the ability to mount area effect weapons. The Fortizar can be configured using Upwell's Standup brand service and structure modules so as to serve the specific needs of the structure operator. Further adjustment of the hardware of the Fortizar can be achieved by installed Standup L-Set rigs to optimize the specific role of the citadel.",
   "volume": 80000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 80000.0,
   "capacity": null,
   "mass": 10000000000.0,
   "category_name": "Structure",

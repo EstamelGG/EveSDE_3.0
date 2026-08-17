@@ -3,7 +3,7 @@
   "name": "初级记忆增强体",
   "description": "植入在颞叶的图像处理器，能增加人物的记忆属性值。记忆+1",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

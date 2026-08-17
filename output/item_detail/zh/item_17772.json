@@ -3,7 +3,7 @@
   "name": "小型自动加农炮塔台",
   "description": "向控制塔指定的敌人连续发射中型射弹炮弹。火力连发速度极快，有利于在短距离追踪最快的移动目标，但缺少同级别火炮强大的攻击力。",
   "volume": 500.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 500.0,
   "capacity": 750.0,
   "mass": 50000000.0,
   "category_name": "母星",

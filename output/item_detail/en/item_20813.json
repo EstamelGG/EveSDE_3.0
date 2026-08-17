@@ -3,7 +3,7 @@
   "name": "Domination Proton XL",
   "description": "Extra Large Projectile Ammo. Can be used only by starbase defense batteries and capital ships like dreadnoughts. Emits a focused, high intensity proton burst upon impact. Fairly effective vs. both shields and armor.\n\n60% increased optimal range.\n5% increased tracking speed.",
   "volume": 0.125,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.125,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

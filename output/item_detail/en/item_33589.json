@@ -3,7 +3,7 @@
   "name": "Mobile Scan Inhibitor",
   "description": "This structure prevents the normal operation of directional scanners and probes within its 30km radius. Any objects within range of the Mobile Scan Inhibitor will not be visible to these sensors and any ship within the radius will also find their own instruments rendered inoperable.\n\nThe massive energy required to project this field causes the Inhibitor structure itself to be extremely visible to combat probes and directional scans.\n\nOne minute activation time. May not be deployed within 100km of another Mobile Scan Inhibitor, within 75km of Stargates, Wormholes, Stations or Upwell Structures, or within 40km of a Starbase. Cannot be retrieved once deployed. Self-destructs after one hour of operation.",
   "volume": 100.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 100.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "Deployable",

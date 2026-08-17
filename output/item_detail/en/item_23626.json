@@ -3,7 +3,7 @@
   "name": "Raid Drone Command Chip",
   "description": "This is the command chip of the destroyed raid drone, revealing what commands it was acting under at the time of it's demise. It shows that the next target in line was a hive close to Moon 5 orbiting Parchanier VI.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

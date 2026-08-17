@@ -3,7 +3,7 @@
   "name": "斑驳矿石处理技术",
   "description": "提炼斑驳矿石的专业技能。可以大大提高技能熟练者使用提炼设备时的效率。每升一级，下列斑驳矿石的提炼产出提高2%：克洛基石、黑赭石、片麻岩、克里石",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

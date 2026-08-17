@@ -3,7 +3,7 @@
   "name": "Prismaticite",
   "description": "Prismaticite is an Erratic Ore. Once reprocessed, it will collapse into <b>one of a number of different minerals</b>.\n\nPrismaticite must be compressed in the form of <a href=showinfo:90307>Compressed Prismaticite</a> to be used in reactions.\n\nThe unique properties of this ore are a result of its fundamental dimensional instability. It was shaped in an unknowable higher-dimensional environment.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

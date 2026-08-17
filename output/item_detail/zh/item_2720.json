@@ -3,7 +3,7 @@
   "name": "大箱的火箭燃料",
   "description": "主要用于导弹生产的增强浓缩燃料。",
   "volume": 400.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 400.0,
   "capacity": null,
   "mass": 50000.0,
   "category_name": "常用物品",

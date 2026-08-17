@@ -3,7 +3,7 @@
   "name": "加达里铁骑舰载机专业研究",
   "description": "操纵高级加达里铁骑舰载机的技能。每升一级，需要加达里铁骑舰载机专业研究技能的铁骑舰载机伤害提高2%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

@@ -3,7 +3,7 @@
   "name": "Design Laboratory",
   "description": "Portable laboratory facilities, anchorable within control tower fields. This structure has copying and invention activities.",
   "volume": 3000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3000.0,
   "capacity": 25000.0,
   "mass": 100000000.0,
   "category_name": "Starbase",

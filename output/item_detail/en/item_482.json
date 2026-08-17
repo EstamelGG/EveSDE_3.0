@@ -3,7 +3,7 @@
   "name": "Miner II",
   "description": "Has an improved technology beam, making the extraction process more efficient. Useful for extracting all but the rarest ore.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

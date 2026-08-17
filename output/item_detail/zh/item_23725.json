@@ -3,7 +3,7 @@
   "name": "渗透者TD-600",
   "description": "中型索敌扰断无人机",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 3000.0,
   "category_name": "无人机",

@@ -3,7 +3,7 @@
   "name": "Small Mobile Siphon Unit",
   "description": "A small personal deployable that steals material from player owned structures (POS). The Small Mobile Siphon Unit can steal Raw Material from Moon Harvesters and Processed Material from Simple Reactors. The stolen materials are stored in the unit and are accessible by anyone.\n\nThe Siphon Unit uses an advanced morphing technology to mask itself as being part of the POS. This allows it to infiltrate the production line of the POS and escape the attention of its defenses.",
   "volume": 35.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 35.0,
   "capacity": 900.0,
   "mass": 10000.0,
   "category_name": "Deployable",

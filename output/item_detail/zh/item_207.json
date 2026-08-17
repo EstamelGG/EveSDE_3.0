@@ -3,7 +3,7 @@
   "name": "雷神重型导弹",
   "description": "雷神重型导弹是由维克米集团军备实验室率先开发出来的，它载荷大、性能稳定，始终是飞行员值得依靠的选择。",
   "volume": 0.03,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.03,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "弹药",

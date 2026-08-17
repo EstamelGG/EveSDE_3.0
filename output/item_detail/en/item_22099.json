@@ -3,7 +3,7 @@
   "name": "Telligman's Stone",
   "description": null,
   "volume": 180.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 180.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "Commodity",

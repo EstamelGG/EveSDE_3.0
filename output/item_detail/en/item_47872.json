@@ -3,7 +3,7 @@
   "name": "Large Precursor Weapon",
   "description": "Operation of large precursor weapons. 5% Bonus to large precursor weapon damage per level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

@@ -3,7 +3,7 @@
   "name": "Crates of Fertilizer",
   "description": "Fertilizer is particularly valued on agricultural worlds, where there is constant supply for all commodities that boost export value.",
   "volume": 80.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 80.0,
   "capacity": null,
   "mass": 80000.0,
   "category_name": "Commodity",

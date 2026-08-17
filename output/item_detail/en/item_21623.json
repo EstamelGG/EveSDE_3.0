@@ -3,7 +3,7 @@
   "name": "Nugoeihuvi Station Schematics",
   "description": "Encoded station schematics for the Nugoeihuvi corporation. If decoded correctly, could this be decoded and used by someone else than Nugoeihuvi?",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

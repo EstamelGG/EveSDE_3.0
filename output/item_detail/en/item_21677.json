@@ -3,7 +3,7 @@
   "name": "Hakkuran Brother's Remains",
   "description": "The remain of the Hakkuran brothers, who died at the hands of Guristas Pirates while transporting a shipment through Otomainen.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 80.0,
   "category_name": "Commodity",

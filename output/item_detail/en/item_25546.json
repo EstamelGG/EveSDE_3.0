@@ -3,7 +3,7 @@
   "name": "Eifyr and Co. 'Alchemist' Neurotoxin Control NC-905",
   "description": "A neural Interface upgrade that boost the pilot's skill at handling boosters. \n\n5% bonus reduction to side effects.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

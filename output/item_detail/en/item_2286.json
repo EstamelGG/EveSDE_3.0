@@ -3,7 +3,7 @@
   "name": "Planktic Colonies",
   "description": "Harvested in mass quantities, planktic colonies are used for much more than just a bulk food source that flourishes in water-rich environments. Their cumulative biomass has advanced properties that contribute to some of the most advanced material and medical sciences in New Eden.",
   "volume": 0.005,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.005,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Resources",

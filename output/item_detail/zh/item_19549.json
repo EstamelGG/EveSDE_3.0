@@ -3,7 +3,7 @@
   "name": "天赋植体 诺贝尔 机械学 MC-805",
   "description": "一款神经接口升级芯片，可增强飞行员维护飞船机械部件和结构完整性的技能。\n\n\n\n船体结构值增加5%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

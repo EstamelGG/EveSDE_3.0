@@ -3,7 +3,7 @@
   "name": "Wings of Victory Firework",
   "description": "Celebrations of victory and notable triumphs are often accompanied by glorious displays of fireworks. The Wings of Victory pyrotechnic is one of the most striking and justly famed for its clever use of micro-rockets to achieve its memorable effect.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

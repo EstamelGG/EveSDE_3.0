@@ -3,7 +3,7 @@
   "name": "Cartel Holovids",
   "description": "Encapsulated in a surprisingly sturdy metal casing, this holovid collection appears to have survived the explosion of Serpentis drug lord Amiette Barcier's vessel. It seems that each of the numerous holovids involve a different depiction of the Angel Cartel from amateur documentaries theorizing about secretive research projects to underground films glorifying the Cartel's highly violent raids.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

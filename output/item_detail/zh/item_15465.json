@@ -3,7 +3,7 @@
   "name": "超强型思维冲击增效体",
   "description": "这种弛缓增效剂使飞行员能更加依靠本能来操控飞船，减少驾驶飞船时的力气消耗。这样飞船的资源便能更多地用于机械调控——尤其是对电容器的使用，而不是用来不断调节飞行员因大量运动而产生的疲劳。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "植入体",

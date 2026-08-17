@@ -3,7 +3,7 @@
   "name": "Rapid Firing",
   "description": "Skill at the rapid discharge of weapon turrets. 4% bonus per skill level to weapon turret rate of fire.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

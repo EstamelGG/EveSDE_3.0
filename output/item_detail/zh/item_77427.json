@@ -3,7 +3,7 @@
   "name": "克隆飞行员之日纪念服饰箱",
   "description": "这个箱子内含一件随机的克隆飞行员之日纪念服饰。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 0.1,
   "category_name": "特别版用品",

@@ -3,7 +3,7 @@
   "name": "Gel-Matrix Biopaste",
   "description": "Gel-matrix biopaste is a highly unstable substance that must be formed from elements that don't combine under normal circumstances. Forcing them to do so requires enormous amounts of energy, but the end product is invaluable to high-end electronics and cybernetic medicine.",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

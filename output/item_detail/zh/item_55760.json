@@ -3,7 +3,7 @@
   "name": "打捞无人机 II",
   "description": "这种无人机在被发射和接到打捞指令后，会自动寻找附近的残骸并进行打捞，然后把仍可利用的打捞材料带回到舰船的货柜舱中。不过，它不会拾取残骸中掉落的任何物品。\n\n\n\n打捞无人机会识别残骸的所有者，除非接到明确的指令，否则他们只会打捞归操纵者所有的残骸。当然，操纵者是否也像它们一样遵守原则就是另一码事了。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "无人机",

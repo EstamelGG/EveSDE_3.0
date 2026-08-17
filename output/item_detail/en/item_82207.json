@@ -3,7 +3,7 @@
   "name": "Ueganite III-Grade",
   "description": "Overcast <a href=showinfo:82205>ueganite</a>, the III-Grade variant of ueganite, has sparkling flecks throughout its composition, but lacks the stormy properties of its rarer variant. It produces an additional 10% mineral yield when refined.\n \nOvercast ueganite may be found in asteroid anomalies within null security space.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

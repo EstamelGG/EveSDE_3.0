@@ -3,7 +3,7 @@
   "name": "Uncommon Moon Mining Crystal Type A II",
   "description": "An advanced custom-cut frequency crystal whose refractive qualities are specifically suited to boosting yield when mining Uncommon Moon Ores such as Otavite, Sperrylite, Vanadinite, and Chromite.\n\nDue to their molecular make-up and the strength of the modulated miner's beam, these crystals will deteriorate through extended use. Can be loaded into modulated mining lasers only.\n\nType A crystals are used with modulated mining equipment and provide steady yields, with low residues and high reliability. A crystal choice for methodical mining operations prioritizing resource utilization over time.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

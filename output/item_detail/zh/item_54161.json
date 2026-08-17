@@ -3,7 +3,7 @@
   "name": "一盒巧克力",
   "description": "这个小礼物盒中有一些好吃的巧克力。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "特别版用品",

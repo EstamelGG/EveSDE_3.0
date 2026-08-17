@@ -3,7 +3,7 @@
   "name": "亚米埃·迈达的遗骸",
   "description": "这是亚米埃·迈达的残骸，已完全腐烂。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 80.0,
   "category_name": "常用物品",

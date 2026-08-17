@@ -3,7 +3,7 @@
   "name": "Tobias' Modified Cruise Missile Launcher",
   "description": "A battleship mounted launcher used for long range standoffs with other battleships, but less suitable for bombardment of deployed structures. Contains a huge missile capacity, but has a slow firing rate and trouble targeting small, fast ships.",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": 1.65,
   "mass": null,
   "category_name": "Module",

@@ -3,7 +3,7 @@
   "name": "Power Monitoring Division 3",
   "description": "This Division is staffed by workers tasked with monitoring power generation systems, significantly increasing power output at the cost of workforce.\nThe generated power is restricted to only supporting lower-priority upgrades.",
   "volume": 8000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 8000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Infrastructure Upgrades",

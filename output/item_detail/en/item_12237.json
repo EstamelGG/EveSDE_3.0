@@ -3,7 +3,7 @@
   "name": "Ship Maintenance Array",
   "description": "Mobile hangar and fitting structure. Used for ship storage and in-space fitting of modules contained in a ship's cargo bay.",
   "volume": 8000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 8000.0,
   "capacity": 20000000.0,
   "mass": 100000000.0,
   "category_name": "Starbase",

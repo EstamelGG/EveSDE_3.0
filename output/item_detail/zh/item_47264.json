@@ -3,7 +3,7 @@
   "name": "爱之绽放烟火",
   "description": "这款烟火用令人眼花缭乱的传统具象技术再现了爱与渴望的象征。这款烟火展现了守护天使浪漫的一面，它的微型火箭让它展示出令人炫目的火焰放射效果。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "弹药",

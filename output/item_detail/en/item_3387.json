@@ -3,7 +3,7 @@
   "name": "Mass Production",
   "description": "Allows the operation of multiple factories. Ability to run 1 additional manufacturing job per level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

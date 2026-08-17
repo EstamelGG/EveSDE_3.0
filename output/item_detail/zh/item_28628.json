@@ -3,7 +3,7 @@
   "name": "晶冰",
   "description": "星际里的冰通常都是由气体分子不断附着于硅酸盐尘粒而形成。这些晶体散布在许多冰域中，但相较其他可开采的冰矿“晶冰”含有极少的同位素。这样晶冰就变得毫无价值，只是一块太空中漂浮的冰块儿而已。",
   "volume": 1000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "小行星",

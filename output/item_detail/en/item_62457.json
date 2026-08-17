@@ -3,7 +3,7 @@
   "name": "Compressed Coesite",
   "description": "A ubiquitous ore commercially mined from moons, Coesite is very useful as it yields good quantities of <a href=showinfo:16636>Silicates</a> used as basic elements of some advanced materials. Coesite ores will also yield <a href=showinfo:35>Pyerite</a> and <a href=showinfo:36>Mexallon</a> .\n\nThis material is compressed and a much more compact form of the original material.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "Asteroid",

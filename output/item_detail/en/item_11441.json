@@ -3,7 +3,7 @@
   "name": "Plasma Physics",
   "description": "Skill and knowledge of Plasma physics and its use in the development of advanced technology. \n\nUsed primarily in the research of particle blaster weaponry as well as plasma based missiles and smartbombs. \n\nAllows Plasma Physics research to be performed with the help of a research agent. 1% reduction in manufacturing time for all items requiring Plasma Physics per level.\n\nNeeded for all research and manufacturing operations on related blueprints.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

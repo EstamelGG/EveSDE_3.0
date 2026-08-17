@@ -3,7 +3,7 @@
   "name": "Large 'Fortizar' Citadel BPC Token",
   "description": "This reward token signifies that its owner will be gifted a 1 run blueprint copy for a large sized Fortizar Citadel structure for services rendered to the Upwell Consortium.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

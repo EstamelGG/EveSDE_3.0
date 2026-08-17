@@ -3,7 +3,7 @@
   "name": "扫描精准阵列 II",
   "description": "减少扫描探针的扫描时间。\n\n最多只能装配一个扫描精准阵列。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 1.0,
   "mass": null,
   "category_name": "装备",

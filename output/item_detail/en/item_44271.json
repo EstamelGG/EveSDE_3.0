@@ -3,7 +3,7 @@
   "name": "Nation Uplifts Firework",
   "description": "Sinister and foreboding for most, this pyrotechnic has been used to shock and awe planetary and colony populations ahead of Sansha's Nation raids for the purpose of 'uplifting' the inhabitants. The use of the 'Nation Uplifts' firework is considered tantamount to shouting 'Fire!' in a Holovid Theater but capsuleers have been known to weave it into their own displays.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

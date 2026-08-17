@@ -3,7 +3,7 @@
   "name": "Insorum Components",
   "description": "These are the raw chemical components used to make insorzapine bisulfate, an unstable reactive mutagen binder with uses that include negating the effects of Vitoc. This compound is also dangerously lethal.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

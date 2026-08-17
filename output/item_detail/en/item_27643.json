@@ -3,7 +3,7 @@
   "name": "Dread Guristas Torpedo Battery",
   "description": "A launcher array designed to fit torpedos. Fires at those the Control Tower deems its enemies.",
   "volume": 1000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1000.0,
   "capacity": 4500.0,
   "mass": 50000000.0,
   "category_name": "Starbase",

@@ -3,7 +3,7 @@
   "name": "采矿激光器效率弹药",
   "description": "这种紧凑的纳米机器人集群可以装载到<a href=showinfo:42528>开采先锋脉冲波</a>装备中，并实装到所有友方舰船上，极大地提高了其采矿装备的精度和效率，同时提高采矿激光器出现采矿暴击的几率，减少其产生残渣的几率。所有开采先锋脉冲波还能为受影响舰船上的任何集成采矿勘测仪启用升级功能。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": 0.01,
   "category_name": "弹药",

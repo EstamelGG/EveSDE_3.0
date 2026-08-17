@@ -3,7 +3,7 @@
   "name": "高密度复稀金矿（5级）",
   "description": "这种复稀金矿可以用在大规模建造项目中，大受加达里工程师的欢迎。复稀金矿矿床一直作为储备保存，直到合众国需要它们时才启用。与普通复稀金矿不同，X级复稀金矿更加稳定，无需专用设备即可提炼为<a href=showinfo:34>三钛合金</a>和<a href=showinfo:35>类晶体胶矿</a>，同时还能产出对加达里合众国具有价值的<a href=showinfo:92570>晶体复稀金矿</a>。这种矿物被压缩过，比它的原始形态紧密得多。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

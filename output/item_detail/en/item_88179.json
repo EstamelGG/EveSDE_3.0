@@ -3,7 +3,7 @@
   "name": "Blackbody Driver",
   "description": "The exact nature of this device is unknown. It is a core component of the Drifter Dreadnought and emits rhythmic pulses of blackbody radiation.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 0.1,
   "category_name": "Special Edition Assets",

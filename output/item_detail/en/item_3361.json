@@ -3,7 +3,7 @@
   "name": "Criminal Connections",
   "description": "Skill at interacting with friendly criminal NPCs. 4% Modifier per level to effective standing towards NPCs with low Concord standing. Not cumulative with Diplomacy or Connections.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

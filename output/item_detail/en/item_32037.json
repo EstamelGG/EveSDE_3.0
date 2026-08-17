@@ -3,7 +3,7 @@
   "name": "Small Drone Durability Enhancer II",
   "description": "This ship modification is designed to increase a ship's drone shield, armor and structure hit points at the expense of the ship's CPU capacity.\n\nThe drawbacks of fitting this rig may be reduced by training the <a href=showinfo:26255>Drones Rigging</a> skill.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "Module",

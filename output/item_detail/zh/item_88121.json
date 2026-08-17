@@ -3,7 +3,7 @@
   "name": "低级分裂伽玛型",
   "description": "昇威财团对这种神经增效体做了专门修改，以便于他们的精英安全专家使用。主要效果：毅力加成+2 次要效果：舰船装配的数据分析仪和遗迹分析仪的病毒同步率额外+3",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

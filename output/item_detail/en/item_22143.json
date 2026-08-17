@@ -3,7 +3,7 @@
   "name": "Freed Pet Slaves",
   "description": "These former pet slaves have been cleansed of their Vitoc dependency. But the trauma of what they had to endure while in captivity still haunts them.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 400.0,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "克隆飞行员之日XXI纤维箱",
   "description": "一个箱子，内含进入深渊战场所需的随机纤维一根。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

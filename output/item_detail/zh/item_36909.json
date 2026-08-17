@@ -3,7 +3,7 @@
   "name": "抗药的科西波",
   "description": "扫描显示这个物体中含有一种可以用作神经增效体的物质。这种复杂的化学物与用来提高飞行员对舰船装甲操控能力的增效体有某些相似之处。\n\n\n\n不过考虑到它来自于流浪者，在量子等级方面也表现出某些不寻常之处，使用其作为增效体时应万分小心。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "植入体",

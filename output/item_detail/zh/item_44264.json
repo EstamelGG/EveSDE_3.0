@@ -3,7 +3,7 @@
   "name": "脉冲星之辉烟火",
   "description": "太空是烟火燃放的绝佳背景，零重力的环境也使得烟火能够运用出各种创意十足的方式。“脉冲星之辉”烟火就是一场为观众献上的盛大演出。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "弹药",

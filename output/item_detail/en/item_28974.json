@@ -3,7 +3,7 @@
   "name": "Vaccines",
   "description": "Living creatures can be trained to defend themselves from harmful diseases by introducing a minute sample of pathological strains, tremendously improving their immune systems and allowing them to endure prolonged exposure to harmful contagions.",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

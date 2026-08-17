@@ -3,7 +3,7 @@
   "name": "高密度铬铁矿",
   "description": "铬铁矿是卫星中开采出的一种罕见矿石，价值颇高，能够产出丰富的<a href=showinfo:16641>铬</a>，可作为许多高级矿物的重要元素。铬铁矿石还会产出<a href=showinfo:16633>烃类</a>。\n\n\n\n这种矿物被压缩过，比它的原始形态紧密得多。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "小行星",

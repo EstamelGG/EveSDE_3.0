@@ -3,7 +3,7 @@
   "name": "Advanced Capital Ship Construction",
   "description": "Skill required for the manufacturing of certain advanced capital ships. 1% reduction in manufacturing time for all items requiring Advanced Capital Ship Construction per level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

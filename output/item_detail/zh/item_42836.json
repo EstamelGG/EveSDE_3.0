@@ -3,7 +3,7 @@
   "name": "电子优势弹药",
   "description": "这种紧凑的纳米机器人集群可以装载到<a href=showinfo:42527>信息战指挥脉冲波</a>装备中，并散布到友方舰船全身，提高其感应抑阻器、武器扰断器、目标标记装置和锁定ECM装备的范围和强度。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": 0.01,
   "category_name": "弹药",

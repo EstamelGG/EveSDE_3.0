@@ -3,7 +3,7 @@
   "name": "Medium Breacher Pod Launcher",
   "description": "Featuring a compact recloning vat that receives its clones' nanoheuristic mappings upon death, Breacher Pod Launchers provide eligible ships the ability to send boarding parties rapidly into enemy ships via Breacher Pods.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": 25.0,
   "mass": null,
   "category_name": "Module",

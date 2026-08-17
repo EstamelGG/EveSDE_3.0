@@ -3,7 +3,7 @@
   "name": "破旧的软呢帽",
   "description": "总有些事物永不过时。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "特别版用品",

@@ -3,7 +3,7 @@
   "name": "天蓝冰",
   "description": "星际里的冰通常都是由气体分子不断附着于硅酸盐尘粒而形成。天蓝冰和“蓝冰”是在同样的条件下形成的，但由于前者的化学成分稍有不同，所以它所含的氧同位素比“蓝冰”少很多，因而是一种“不太重要”的物质。",
   "volume": 1000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "小行星",

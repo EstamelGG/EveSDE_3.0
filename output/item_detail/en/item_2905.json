@@ -3,7 +3,7 @@
   "name": "250mm Light Artillery Cannon II",
   "description": "This artillery is one of the most powerful weapons that can be mounted on a frigate. \n\nMust be loaded with any of the following regular and advanced projectile ammo types: Carbonized Lead, Depleted Uranium, EMP, Fusion, Nuclear, Phased Plasma, Proton, Titanium Sabot, Quake, Tremor.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 0.1,
   "mass": 500.0,
   "category_name": "Module",

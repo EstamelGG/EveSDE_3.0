@@ -3,7 +3,7 @@
   "name": "弹道分析学",
   "description": "理解零重力物理学的高级技能。每升一级，武器炮台的失准范围提升5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

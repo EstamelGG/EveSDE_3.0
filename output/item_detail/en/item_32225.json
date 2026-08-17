@@ -3,7 +3,7 @@
   "name": "Encoded Message",
   "description": "This message is encoded in a familiar hybrid cipher. Only those who are already in the know about the arrangements in Black Rise will be able to make sense of it.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

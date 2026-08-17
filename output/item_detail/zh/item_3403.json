@@ -3,7 +3,7 @@
   "name": "研究概论",
   "description": "研究更高效生产方法的技能。每升一级，蓝图时间效率研究的速度提升5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

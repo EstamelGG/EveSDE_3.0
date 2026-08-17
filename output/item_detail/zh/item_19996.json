@@ -3,7 +3,7 @@
   "name": "大天使核芯弹 M",
   "description": "在多数种族眼里，核芯武器是粗野而原始的。但在米玛塔尔共和国空域里，钸资源丰富，因此相比其他更现代的武器，米玛塔尔人仍偏爱核芯武器。最佳射程提升60%。跟踪速度提高5%。",
   "volume": 0.0125,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.0125,
   "capacity": null,
   "mass": 1.0,
   "category_name": "弹药",

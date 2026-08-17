@@ -3,7 +3,7 @@
   "name": "天赋植体 随从 电容散发系统 ES-705",
   "description": "一款神经接口升级芯片，可以增强飞行员在能量散发系统方面的技能。\n\n对于需要电容散发系统研究技能的装备，降低其电容需求量5%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

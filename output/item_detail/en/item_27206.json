@@ -3,7 +3,7 @@
   "name": "Zainou 'Snapshot' XL Torpedoes XT-601",
   "description": "A Zainou missile hardwiring designed to enhance skill with missiles. 1% bonus to XL torpedo damage.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

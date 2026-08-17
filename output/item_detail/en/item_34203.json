@@ -3,7 +3,7 @@
   "name": "Augmentation Decryptor",
   "description": "Clever research technique that allows for refolding of blueprint materials in invention jobs. While the number of runs is greatly increased the probability of invention is adversely affected. <br><br>Probability Multiplier: -40% <br>Max. Run Modifier: +9 <br>Material Efficiency Modifier: -2 <br>Time Efficiency Modifier: +2",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Decryptors",

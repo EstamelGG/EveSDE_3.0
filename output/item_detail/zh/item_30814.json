@@ -3,7 +3,7 @@
   "name": "粮食救济会人员",
   "description": "他们爱好和平，追寻救赎。粮食救济会人员不是任何人的敌人，但这对一大群自由无人机来说都是屁话。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 70.0,
   "category_name": "常用物品",

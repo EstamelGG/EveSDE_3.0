@@ -3,7 +3,7 @@
   "name": "高密度杰斯贝矿",
   "description": "杰斯贝矿石含有两种贵重矿物，因此销路一直很好。它含有大量的<a href=showinfo:36>类银超金属</a>以及一些<a href=showinfo:38>超新星诺克石</a>。这种矿物被压缩过，比它的原始形态紧密得多。",
   "volume": 0.02,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.02,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

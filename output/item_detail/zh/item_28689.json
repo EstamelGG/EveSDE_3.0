@@ -3,7 +3,7 @@
   "name": "纯合成型游离感增效体",
   "description": "处于未加工状态的合成型游离感化合物，可用来生产战斗增效剂。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

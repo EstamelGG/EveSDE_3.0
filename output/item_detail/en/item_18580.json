@@ -3,7 +3,7 @@
   "name": "Tycoon",
   "description": "Ability to organize and manage ultra large-scale market operations. Each level raises the limit of active orders by 32.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

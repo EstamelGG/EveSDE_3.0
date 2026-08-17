@@ -3,7 +3,7 @@
   "name": "炼狱超大型巡航导弹",
   "description": "超大型巡航导弹是专门用于在远距离上对目标旗舰级舰船或建筑实施轰炸的武器。它们只能被旗舰级舰船所安装和使用。\n\n在电磁场中悬浮的等离子能够产生巨大的能量，对目标所造成的伤害也是难以想象的。",
   "volume": 0.3,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.3,
   "capacity": null,
   "mass": 1500.0,
   "category_name": "弹药",

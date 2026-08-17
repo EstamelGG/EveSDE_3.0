@@ -3,7 +3,7 @@
   "name": "Blood Sample",
   "description": "A blood sample given by one of the infected people inhabiting the Ani constellation. Avoid coming close or you might catch the disease yourself.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

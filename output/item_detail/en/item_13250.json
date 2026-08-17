@@ -3,7 +3,7 @@
   "name": "Zainou 'Deadeye' Target Navigation Prediction TN-903",
   "description": "A Zainou missile hardwiring designed to enhance skill with missiles.\n\n3% decrease in factor of target's velocity for all missiles.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

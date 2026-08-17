@@ -3,7 +3,7 @@
   "name": "Bastion Module I",
   "description": "An electronic interface designed to augment and enhance a marauder's siege abilities. Through a series of electromagnetic polarity field shifts, the bastion module diverts energy from the ship's propulsion and warp systems to lend additional power to its defensive and offensive capabilities.\n\nThis results in a greatly increased rate of defensive self-sustenance and a boost to the ship's overall damage resistances. It also extends the reach of all the vessel's weapon systems and their rate of fire, allowing it to engage targets at farther ranges. \n\nAs a side effect of the ionic field created by the bastion module, beneficial remote repair and capacitor transfer effects are ineffective against the fitted ship while the module is active.\n\nIn addition, the lack of power to mobility subsystems means that neither standard propulsion nor warp travel are available to the ship, nor is it allowed to dock or jump until out of bastion mode.\n\nNote: Only one bastion module can be fitted to a marauder-class ship. The increased shield boosting and armor repairing gained from the bastion module is subject to a stacking penalty when used with other modules that affect the same attribute on the ship.\n\nRapid Heavy Missile Launchers are not affected by bastion modules.",
   "volume": 200.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 200.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Module",

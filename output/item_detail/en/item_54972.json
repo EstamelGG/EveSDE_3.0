@@ -3,7 +3,7 @@
   "name": "Ultraconducting Ablative Nanocable",
   "description": "Ultra high-power loads will typically burn out even the most advanced superconducting cables, calling for a radical solution in cases where high bursts of power are required at relatively high frequencies. Ultraconducting ablative nanocable is able to repeatedly transmit high-power loads by actively exchanging the material of the cable with an integrated pool of nanomaterial between pulses.",
   "volume": 0.25,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.25,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

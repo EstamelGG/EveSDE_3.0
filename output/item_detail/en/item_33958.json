@@ -3,7 +3,7 @@
   "name": "Low-grade Amulet Omega",
   "description": "This implant does nothing in and of itself, but when used in conjunction with other Amulet implants it will greatly boost their effect. \n\n10% bonus to the strength of all Amulet implant secondary effects.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

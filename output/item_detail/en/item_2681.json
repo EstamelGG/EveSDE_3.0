@@ -3,7 +3,7 @@
   "name": "Group of VIPs",
   "description": "Very important people. Business executives, politicians, diplomats and game designers.",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": null,
   "mass": 50000.0,
   "category_name": "Commodity",

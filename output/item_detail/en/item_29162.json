@@ -3,7 +3,7 @@
   "name": "Privateer Commander's Head",
   "description": "It's... well, it's a head. In a jar. And it once belonged to a privateer commander. (The head, not the jar. The jar was yours. Or, well, it was given to you, so it was kind of yours. Anyway, you put the head in it.)",
   "volume": 0.25,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.25,
   "capacity": null,
   "mass": 10.0,
   "category_name": "Commodity",

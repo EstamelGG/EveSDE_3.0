@@ -3,7 +3,7 @@
   "name": "Broken Drone Transceiver",
   "description": "A multifunction chip with digital modulator and oscillator utilized in drone communication hardware. This one looks broken.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

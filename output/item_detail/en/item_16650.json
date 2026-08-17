@@ -3,7 +3,7 @@
   "name": "Dysprosium",
   "description": "A relatively rare soft metal, easily dissolvable in mineral acids. Used primarily in the production of laser materials.",
   "volume": 0.05,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.05,
   "capacity": null,
   "mass": 8550.0,
   "category_name": "Material",

@@ -3,7 +3,7 @@
   "name": "Batch Compressed Hemorphite",
   "description": "With a large portion of <a href=showinfo:38>Nocxium</a>, hemorphite is always a good find. It is common enough that even novice miners can expect to run into it. Hemorphite also has some amount of <a href=showinfo:37>Isogen</a>.\n\n<i>This material was compressed using an older process that compressed batches of raw materials into units using a set input quantity. Newer compression technology uses a more flexible one-to-one unit compression system.</i>",
   "volume": 0.86,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.86,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

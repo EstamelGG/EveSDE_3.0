@@ -3,7 +3,7 @@
   "name": "Guristas Nova Cruise Missile",
   "description": "A very basic missile for large launchers with reasonable payload. Utilizes the now substandard technology of bulls-eye guidance systems.",
   "volume": 0.05,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.05,
   "capacity": null,
   "mass": 1250.0,
   "category_name": "Charge",

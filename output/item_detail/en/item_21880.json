@@ -3,7 +3,7 @@
   "name": "Transputer Orb",
   "description": "Strange artifact of unknown origin. It emanates unorthodox energy signals, but its purpose is not readily discernable.",
   "volume": 2.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2.0,
   "capacity": null,
   "mass": 2500.0,
   "category_name": "Commodity",

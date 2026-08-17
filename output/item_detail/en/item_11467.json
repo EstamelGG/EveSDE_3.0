@@ -3,7 +3,7 @@
   "name": "R.Db - Duvolle Labs",
   "description": "A searchable database of the corporations scientific research. Used in blueprint copying as well as material and time efficiency blueprint research.",
   "volume": 0.04,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.04,
   "capacity": null,
   "mass": null,
   "category_name": "Commodity",

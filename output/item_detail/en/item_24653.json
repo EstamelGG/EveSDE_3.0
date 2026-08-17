@@ -3,7 +3,7 @@
   "name": "Advanced Small Ship Assembly Array",
   "description": "A mobile assembly facility where advanced small ships such as Assault Frigates, Covert Ops Frigates, Electronic Attack Frigates, Interceptors, Interdictors, Stealth Bombers and Tactical Destroyers can be manufactured.\n\nNote: To use a ship from a Ship Assembly Array a Ship Maintenance Array with enough free storage space needs to be in range that the ship can be moved there.",
   "volume": 10000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10000.0,
   "capacity": 2000000.0,
   "mass": 200000000.0,
   "category_name": "Starbase",

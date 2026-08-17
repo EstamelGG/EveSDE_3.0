@@ -3,7 +3,7 @@
   "name": "血袭者标准晶体 XL",
   "description": "超大型频率转换晶体。只有母星防御炮塔以及无畏舰这样的旗舰级战舰才能使用。 \n\n将激光武器的光束调节到可见光波段。 \n\n这种高级晶体中所用到的结晶结构会在使用的过程中降解，最终会导致晶体碎裂。\n\n电容需求降低45%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "弹药",

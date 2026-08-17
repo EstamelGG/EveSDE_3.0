@@ -3,7 +3,7 @@
   "name": "Ancient Amarrian Relic",
   "description": "This relic from Old Amarr is of great value to Lord Horowan, patriarch of one of the oldest noble families in the Empire and liegeman of House Tash-Murkon.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

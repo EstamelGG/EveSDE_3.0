@@ -3,7 +3,7 @@
   "name": "Shield Operation",
   "description": "Skill at operating a spaceship's shield systems, including the use of shield boosters and other basic shield modules. 5% reduction in shield recharge time per skill level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

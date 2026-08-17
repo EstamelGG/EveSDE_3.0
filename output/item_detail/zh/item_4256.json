@@ -3,7 +3,7 @@
   "name": "炸弹发射器 II",
   "description": "一种占用导弹发射器槽位的装备，能够预备和部署炸弹。\n\n\n\n注：炸弹发射器只能被安装在隐形轰炸舰上，且每艘隐形轰炸舰只能安装一具炸弹发射器。在启用此装备前，你的舰船速度必须降至最低。",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": 300.0,
   "mass": null,
   "category_name": "装备",

@@ -3,7 +3,7 @@
   "name": "Standup Cap Battery II",
   "description": "Standup Cap Battery modules augment a structure's available supply of capacitor energy.\n\nStandup is a proprietary system that uses a Structure Autonomous Nanoassembly Device (Upwell) containing integrated template software, a nanoassembler array and sufficient nanomass to enable the construction of a variety of service modules, structure modules and structure rigs when inserted into the appropriate slots on a structure built with Upwell technology.",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": 500.0,
   "category_name": "Structure Module",

@@ -3,7 +3,7 @@
   "name": "Mining Laser Field Enhancement Charge",
   "description": "This compact bundle of active nanites can be loaded into a <a href=showinfo:42528>Mining Foreman Burst</a> module and dispersed across allied ships to improve the range of their mining laser, ice harvester and gas cloud harvester modules.\n\nAll mining foreman bursts also enable upgraded functionality for any integrated Mining Surveyors on affected ships",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": 0.01,
   "category_name": "Charge",

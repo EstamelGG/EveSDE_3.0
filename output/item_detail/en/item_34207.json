@@ -3,7 +3,7 @@
   "name": "Optimized Attainment Decryptor",
   "description": "A rare and valuable decryptor that dramatically increases your chance for success at invention. Gives minor benefit to mineral efficiency at the expense of slight increase in production time.<br><br>Probability Multiplier: +90% <br>Max. Run Modifier: +2 <br>Material Efficiency Modifier: +1 <br>Time Efficiency Modifier: -2",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Decryptors",

@@ -3,7 +3,7 @@
   "name": "航迹预算学",
   "description": "攻击快速移动目标的进阶技能。每升一级，武器炮台的跟踪速度提升5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

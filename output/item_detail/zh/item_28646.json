@@ -3,7 +3,7 @@
   "name": "隐秘诱导力场发生器 I",
   "description": "生成一个无法被侦测到、仅能由黑隐特勤舰的跳跃引擎锁定的隐秘诱导力场。\n\n\n\n注：只能安装在黑隐特勤舰、偷运舰、隐形特勤舰、伊塔那级、掘金者级、隐形轰炸舰、侦察舰以及装配了隐形优化器子系统的战略巡洋舰上。",
   "volume": 25.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 25.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

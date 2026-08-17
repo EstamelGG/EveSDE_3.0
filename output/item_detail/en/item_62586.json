@@ -3,7 +3,7 @@
   "name": "Compressed Mercoxit",
   "description": "Mercoxit is a very dense ore that must be mined using specialized deep core mining techniques. It contains massive amounts of the extraordinary <a href=showinfo:11399>Morphite</a> mineral.\n\nThis material is compressed and a much more compact form of the original material.",
   "volume": 0.4,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.4,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

@@ -3,7 +3,7 @@
   "name": "Counterfeit Voluval Tattoo Chemicals",
   "description": "A complex chemical formula for use in a traditional Minmatar ceremony. This batch is labeled with Amarr markings.",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": null,
   "mass": 20.0,
   "category_name": "Commodity",

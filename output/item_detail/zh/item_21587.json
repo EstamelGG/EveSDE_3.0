@@ -3,7 +3,7 @@
   "name": "电子链路",
   "description": "基于远古科技在制造装备的时候使用的合金和特殊材料。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

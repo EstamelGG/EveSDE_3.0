@@ -3,7 +3,7 @@
   "name": "Genolution Core Augmentation CA-3",
   "description": "<font color=\"yellow\"><b>Traits</b></font><br>Slot 3<br>Primary Effect: +3 bonus to Willpower<br>Secondary Effect: +1.5% bonus to ship velocity and shield capacity<br>Implant Set Effect: 30% bonus to the strength of all Genolution implant secondary effects<br><br><font color=\"yellow\"><b>Development</b></font><br>\nSince the introduction of the groundbreaking \"Core Augmentation\" series in YC 113, all eyes have been on Genolution's advanced R&D department in anticipation of their next release. Few if any were disappointed with the announcement of the CA-3.<br><br>Rumors that Genolution had managed to reverse-engineer Angel Cartel implant technology continued to spread as the CA-3 successfully allows a capsuleer increased ship velocity, complemented by extra shield capacity and a parietal lobe enhancement for stronger Willpower. Like the CA-1 and CA-2 before them, these new additions to the \"Core Augmentation\" line contain advanced interoperability functions that allows their sum to be greater than their parts.<br><br>Genolution's press releases indicated that this new batch of implants would be available to capsuleers in limited numbers, but after the experience of the CA-1 and CA-2 nobody believes them.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

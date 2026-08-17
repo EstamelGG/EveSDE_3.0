@@ -3,7 +3,7 @@
   "name": "过期的维德特圣域纤维",
   "description": "最多允许15艘舰船在已知空间和J164710星系（俗称“维德特圣域”虫洞）之间建立通道连接。这种纤维需要<a href=showinfo:88087>艾琉特瑞姆矿</a>这种“流浪者矿物”才能制造，它使用了矿物独有的黑体共振逆向工程流浪者技术，以及三神裔针对流浪者活动特征制定的成熟通道原则。随后，使用研究<a href=showinfo:87618>典狱长连接谐波</a>所得的技术，确定具体位置。这些纤维将于5月15日过期。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "常用物品",

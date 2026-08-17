@@ -3,7 +3,7 @@
   "name": "韦·托达克",
   "description": "经验丰富的古斯塔斯巡洋舰飞行员，嫁给了曼褚拉·托达克。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 80.0,
   "category_name": "常用物品",

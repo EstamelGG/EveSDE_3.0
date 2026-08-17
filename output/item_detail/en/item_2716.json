@@ -3,7 +3,7 @@
   "name": "Large Crates of Frozen Plant Seeds",
   "description": "Frozen plant seeds are in high demand in many regions, especially on stations orbiting a non-habitable planet.",
   "volume": 500.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 500.0,
   "capacity": null,
   "mass": 40000.0,
   "category_name": "Commodity",

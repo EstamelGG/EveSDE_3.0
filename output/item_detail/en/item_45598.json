@@ -3,7 +3,7 @@
   "name": "Legion Offensive - Liquid Crystal Magnifiers",
   "description": "One of the many gems discovered amidst Sleeper technology was the creation of more efficient liquid crystal lenses. Amarr researchers have engineered these lenses to increase a laser's focus for longer stretches, both in distance and in timing, allowing a laser to reach farther targets with more efficiency of energy output. Additionally, the fullerene-infused lenses can generate higher temperatures and stronger, more damaging beams and pulses.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 800000.0,
   "category_name": "Subsystem",

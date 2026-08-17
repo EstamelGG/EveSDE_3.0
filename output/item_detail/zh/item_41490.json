@@ -3,7 +3,7 @@
   "name": "海军电容注电器装料 3200",
   "description": "给你的电容器快速地注入能量。在紧急情况下很有用！",
   "volume": 96.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 96.0,
   "capacity": null,
   "mass": 80.0,
   "category_name": "弹药",

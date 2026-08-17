@@ -3,7 +3,7 @@
   "name": "Query: Spaghetti or Chicken Sandwich?",
   "description": "Food storing tips #246781:\n\n\"I personally would finish the chicken sandwich first so it won't go to waste. The spaghetti will keep and you can use it the next time you get hungry.\"",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Special Edition Assets",

@@ -3,7 +3,7 @@
   "name": "雷达感应器补偿",
   "description": "提高雷达感应器应对ECM攻击的能力的技能。每升一级，雷达感应器强度提高4%。雷达感应器多见于艾玛、血袭者和萨沙舰船。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

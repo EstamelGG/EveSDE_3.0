@@ -3,7 +3,7 @@
   "name": "Tungsten Carbide Armor Plate",
   "description": "Armor Component used primarily in Amarr ships. A component in various other technology as well.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

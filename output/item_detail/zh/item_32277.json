@@ -3,7 +3,7 @@
   "name": "一家蒂泰斯人",
   "description": "一个普通的，有些熟悉的蒂泰斯人家庭。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

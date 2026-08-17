@@ -3,7 +3,7 @@
   "name": "节日帽子和雪球箱",
   "description": "这个箱子中有一款极光天象帽子和10个尤尔节雪球。",
   "volume": 4.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4.0,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

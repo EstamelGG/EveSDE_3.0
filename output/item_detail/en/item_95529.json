@@ -3,7 +3,7 @@
   "name": "Poteque 'Prospector' Salvaging SV-906",
   "description": "A neural Interface upgrade that boosts the pilot's exploration skills.\n\n6% increase to chance of salvage retrieval.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

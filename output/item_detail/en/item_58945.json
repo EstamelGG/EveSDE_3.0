@@ -3,7 +3,7 @@
   "name": "Large Industrial Core I",
   "description": "An electronic interface designed to facilitate the deployment of the Orca into its industrial configuration. Whilst in the deployed configuration, energy from the Orca's engines is channeled into incredible shield defenses, improved mining foreman bursts and significantly enhanced mining drone coordination.\n\nDeployed Orcas also gain the ability to activate large compressor modules, enabling compression of ice, gas, asteroid ore, moon ore, and Mercoxit ore.\n\nBenefits of using this module alongside other modules that affect the same attributes will be subject to diminishing returns.\n\n<b>Note: Can only be fitted to the Orca industrial command ship.</b>",
   "volume": 3500.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3500.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Module",

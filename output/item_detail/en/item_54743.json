@@ -3,7 +3,7 @@
   "name": "Small Consortium Vorton Projector",
   "description": "Small Vorton Projectors are designed to work with small-hull ships specially engineered to support these potent and high-energy weapons. Originally developed by the Upwell Consortium for use on Keepstar Citadels, the Arcing Vorton Projector is a product of spatiotemporal engineering and a weapon capable of striking multiple targets in rapid succession.\n\nTo adapt this powerful weapon to ship hulls of any size was no easy feat and required dedicated ship designs. Even then, these weapons cannot be fired using ship capacitors alone and must use one-shot, ultra-high energy Condenser Packs as charges.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 0.2,
   "mass": 500.0,
   "category_name": "Module",

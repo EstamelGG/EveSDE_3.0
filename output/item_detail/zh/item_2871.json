@@ -3,7 +3,7 @@
   "name": "递推计算模块",
   "description": "不是所有的自动化功能都是那样精巧与复杂，非得依靠高端计算机硬件才行。对于相对普通的任务而言，用递推计算模块库处理是最佳选择。这些成熟可靠的处理单元能够有效地负责空间站、星舰以及星门的日常运转。",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": null,
   "mass": null,
   "category_name": "行星商品",

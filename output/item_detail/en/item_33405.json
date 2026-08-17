@@ -3,7 +3,7 @@
   "name": "Republic Fleet Command Mindlink",
   "description": "This advanced interface link produced for the Republic Fleet and its allies drastically improves a commander's Shield Command and Skirmish Command abilities by directly linking to the nanites launched by the command burst charge.\n\n+25% bonus to Shield and Skirmish Command Burst effect strength and duration.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

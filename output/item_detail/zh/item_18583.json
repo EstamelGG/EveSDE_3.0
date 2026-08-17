@@ -3,7 +3,7 @@
   "name": "装饰项链",
   "description": "人们经常把它作为结婚礼物用。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

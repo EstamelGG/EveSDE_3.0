@@ -3,7 +3,7 @@
   "name": "Mid-grade Edge Delta",
   "description": "This cybernetic subprocessor has been modified by Syndicate scientists for use by their elite officers. \n\nPrimary Effect: +3 bonus to Intelligence \n\nSecondary Effect: 4% reduction to booster side effects\n\nSet Effect: 10% bonus to the strength of all Edge implant secondary effects",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

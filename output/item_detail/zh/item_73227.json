@@ -3,7 +3,7 @@
   "name": "加达里广播宣传建筑",
   "description": "广播宣传建筑可以部署在星系中，增加己方的优势点数。部署后你必须保护它一段时间，直到它开始获取优势点数。你可以在自己的国民卫队忠诚点商店中兑换广播宣传建筑。",
   "volume": 100.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 100.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "可部署物品",

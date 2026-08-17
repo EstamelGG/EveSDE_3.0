@@ -3,7 +3,7 @@
   "name": "True Sansha Silver Tag",
   "description": "This silver tag carries the rank insignia equivalent of a corporal within Sansha's slave nation. It may prove valuable if turned in at proper authorities.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

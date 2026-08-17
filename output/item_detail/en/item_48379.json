@@ -3,7 +3,7 @@
   "name": "Federation Grand Prix Gold Package",
   "description": "This is the Federation Grand Prix Gold Package awarded to pilots for supreme piloting skill and endurance in New Eden's premiere capsuleer ship racing event. The various sponsors have made it possible for the pack to contain a selection from the available boosters and accelerators.",
   "volume": 10000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10000.0,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

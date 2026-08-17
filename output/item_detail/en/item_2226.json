@@ -3,7 +3,7 @@
   "name": "Sisters of EVE Negotiator",
   "description": "An emissary sent by the Sisters of EVE to oversee peace talks.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 85.0,
   "category_name": "Commodity",

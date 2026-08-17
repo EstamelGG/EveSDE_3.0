@@ -3,7 +3,7 @@
   "name": "EoM歼击白银积分增幅器",
   "description": "每使用一枚EoM歼击白银积分增幅器能够使至少完成了一个EoM歼击（2021年6月）活动任务的飞行员的活动积分增加250分（在下一次例行维护后）。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "植入体",

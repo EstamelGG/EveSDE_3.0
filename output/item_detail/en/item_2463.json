@@ -3,7 +3,7 @@
   "name": "Nanites",
   "description": "Though they are only simple machines and very small, nanites can be used to achieve miraculous medical results in small amounts or astounding feats of engineering in mass quantities.",
   "volume": 0.75,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.75,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

@@ -3,7 +3,7 @@
   "name": "Reactive Gas",
   "description": "Consisting of any number of volatile atomic structures, reactive gases are the most useful when applied to the fields of explosives, molecular restructuring, and electrical conduction. Great care must be taken when storing or transporting any sizeable quantity.",
   "volume": 0.005,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.005,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Resources",

@@ -3,7 +3,7 @@
   "name": "Bomb Launcher II",
   "description": "A missile launcher bay module facilitating bomb preparation, and deployment.\n\nNote: Bomb Launchers can only be equipped by Stealth Bombers and each bomber can only equip one bomb launcher. Your ship must be at the minimum velocity before you can activate this module.",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": 300.0,
   "mass": null,
   "category_name": "Module",

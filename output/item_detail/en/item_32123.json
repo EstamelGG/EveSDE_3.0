@@ -3,7 +3,7 @@
   "name": "Low-grade Jackal Omega",
   "description": "This implant does nothing in and of itself, but when used in conjunction with other low-grade Jackal implants it will boost their effect. \n\n40% bonus to the strength of all low-grade Jackal implant secondary effects.\n\nNot cumulative with high-tier Jackal implant set.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

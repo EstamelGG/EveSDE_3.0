@@ -3,7 +3,7 @@
   "name": "Consumer Electronics",
   "description": "Consumer electronics encompass a wide variety of individual goods, from entertainment media and personal computers to slave collars and children's toys.",
   "volume": 0.75,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.75,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

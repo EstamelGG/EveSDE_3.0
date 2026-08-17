@@ -3,7 +3,7 @@
   "name": "Doctor Luija Elban",
   "description": "Dr. Elban is an extremely competent ship's doctor who has recently been having a run of rather bad luck.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 70.0,
   "category_name": "Commodity",

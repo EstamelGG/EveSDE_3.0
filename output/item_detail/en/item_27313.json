@@ -3,7 +3,7 @@
   "name": "Guristas Inferno Rocket",
   "description": "A small rocket with a plasma warhead.",
   "volume": 0.005,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.005,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

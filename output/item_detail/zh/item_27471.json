@@ -3,7 +3,7 @@
   "name": "莫德团炼狱自动锁定巡航导弹",
   "description": "一种莫德团巡航导弹，带有等离子弹头和自动导引系统。",
   "volume": 0.05,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.05,
   "capacity": null,
   "mass": 1250.0,
   "category_name": "弹药",

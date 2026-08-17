@@ -3,7 +3,7 @@
   "name": "Propel Dynamics Dogtag",
   "description": "This dogtag was carried by an officer of Propel Dynamics. Strangely it has the Guristas emblem on it.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

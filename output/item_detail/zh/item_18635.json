@@ -3,7 +3,7 @@
   "name": "发现号测量探针 I",
   "description": "卫星探针能被发射到邻近的卫星表面，传回大气和土壤的分析数据。\n\n发现号探针是卫星采矿作业中最常用的标准型探针。它在大约5分钟的时间里就能完成侦察，这是相当快的。但是这样的优势却在另一方面被它庞大的体积所抵消。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "弹药",

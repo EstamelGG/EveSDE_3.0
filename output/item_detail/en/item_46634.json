@@ -3,7 +3,7 @@
   "name": "Standup M-Set Asteroid Ore Grading Processor II",
   "description": "The Standup M-Set Asteroid Ore Grading Processor II rig provides a means for structure operators to adjust hardware systems involved in reprocessing asteroid ore so as to significantly increase refinery efficiency on Upwell technology structures. This rig improves the refining yield of all Veldspar, Scordite, Pyroxeres, Plagioclase, Omber, Kernite, Jaspet, Hemorphite, Hedbergite, Gneiss, Dark Ochre, Spodumain, Crokite, Bistot, Arkonor, Eifyrium, Mordunium, Ytirium, Ducinium, Griemeer, Kylixium, Nocxite, Ueganite, Hezorime and Mercoxit variants.\n\nStandup is a proprietary system that uses a Structure Autonomous Nanoassembly Device (Upwell) containing integrated template software, a nanoassembler array and sufficient nanomass to enable the construction of a variety of service modules, structure modules and structure rigs when inserted into the appropriate slots on a structure built with Upwell technology.\n\nNote: Only one rig of the same type, counting both tech variations, may be fitted at the same time on a structure.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "Structure Module",

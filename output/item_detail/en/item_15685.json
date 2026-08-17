@@ -3,7 +3,7 @@
   "name": "Imperial Navy Thermal Coating",
   "description": "This coating allows for faster dispersion of heat from the area of impact. Grants a bonus to armor thermal damage resistance.\n\nPenalty: Using more than one type of this module or similar modules that affect the same attribute on the ship will be penalized.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Module",

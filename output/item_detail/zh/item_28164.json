@@ -3,7 +3,7 @@
   "name": "热力学",
   "description": "理解热力学规律的高阶技能。允许你故意超负荷运转舰船装备来使其突破它原有的效力极限。不过，这也会让你在听到别人提及永动机设备时觉得郁闷。每升一级，超载所造成的损伤降低5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

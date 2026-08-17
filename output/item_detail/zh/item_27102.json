@@ -3,7 +3,7 @@
   "name": "天赋植体 矿脉 采矿 MX-1001",
   "description": "一款神经接口升级芯片，可以增强飞行员在采矿方面的技能。\n\n\n\n采矿激光器和露天采矿器的开采量提高1%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

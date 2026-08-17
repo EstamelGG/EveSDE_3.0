@@ -3,7 +3,7 @@
   "name": "Genolution Core Augmentation CA-4",
   "description": "<font color=\"yellow\"><b>Traits</b></font><br>Slot 2<br>Primary Effect: +3 bonus to Memory<br>Secondary Effect: +1.5% bonus to ship agility and armor hit points<br>Implant Set Effect: 20% bonus to the strength of all Genolution implant secondary effects<br><br><font color=\"yellow\"><b>Development</b></font><br>\nAlongside the introduction of the CA-3 implant, Genolution further expanded its \"Core Augmentation\" line with the new CA-4. Taking full advantage of Genolution's formidable research and development team, the CA-4 continues to squeeze even more powerful features into the most significant implant collection to be released in years.<br><br>The combination of a temporal lobe implant for extra memory augmentation and a new series of armor and agility enhancements makes the CA-4 stand out from the crowd. However, the most impressive feature of the implant is that Genolution has managed to squeeze even more benefits out of their implant integration technology to ensure that each part of the \"Core Augmentation\" line enhances the benefits of each of its peers.<br><br>After the release of these groundbreaking implants there is only one question left on everyone's mind: How much further can Genolution safely push the limits of their technology?",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

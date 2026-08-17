@@ -3,7 +3,7 @@
   "name": "高密度清冰锥（4级）",
   "description": "星际里的冰通常都是由气体分子不断附着于硅酸盐尘粒而形成。这些晶体散布在许多冰域中，被认为是宇宙中氦同位素的最主要来源。蓝冰因其特有的化学构成和形成环境，比其他冰矿含有更多的氧同位素这种矿物被压缩过，比它的原始形态紧密得多。",
   "volume": 100.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 100.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "小行星",

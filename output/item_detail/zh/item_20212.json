@@ -3,7 +3,7 @@
   "name": "巡航导弹专业研究",
   "description": "操作高级巡航导弹发射器的专业技能。每升一级，需要巡航导弹专业研究技能的装备的发射速率提升2%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

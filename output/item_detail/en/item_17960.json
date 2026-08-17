@@ -3,7 +3,7 @@
   "name": "Prometium",
   "description": "A highly radioactive cadmium-promethium compound, used as a catalytic agent in the manufacturing of thrusters, reactor units and shield emitters, among other things.",
   "volume": 0.2,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.2,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

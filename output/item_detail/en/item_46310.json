@@ -3,7 +3,7 @@
   "name": "Replete Cinnabar",
   "description": "When chunks of ore mined out of moons yield above-average densities of Cinnabar, the ore is called Replete Cinnabar and reprocessing returns approximately 15% higher quantities of useful material.\n\nA rare ore commercially mined from moons, Cinnabar is valuable as it yields good quantities of <a href=showinfo:16646>Mercury</a>, a key element of many advanced materials. Cinnabar ores will also yield <a href=showinfo:16637>Tungsten</a> and <a href=showinfo:16635>Evaporite Deposits</a>.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "Asteroid",

@@ -3,7 +3,7 @@
   "name": "Domination Target Painter",
   "description": "A targeting subsystem that projects an electronic \"Tag\" on the target thus making it easier to target and hit. \n\nPenalty: Using more than one type of this module or similar modules that affect the same attribute on the ship will be penalized.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

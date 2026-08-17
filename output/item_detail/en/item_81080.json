@@ -3,7 +3,7 @@
   "name": "Orbital Skyhook",
   "description": "The Orbital Skyhook stands as the Upwell Consortium's pinnacle achievement in advancing colonization and space infrastructure technology. Harnessing cutting-edge materials science and technology from member corporations and innovative R&D programs, Upwell has brought these marvels to life in record time. These skyhooks exhibit significantly heightened efficiency in construction, maintenance, and the transportation of resources from surface to orbit. When established, they streamline the transfer of power, workforce, and reagents from planets to orbital facilities and beyond.\n\nTailored variants cater to the diverse environments of different planets, featuring specialized features such as long-range tractor beams for workforces on temperate, ocean, and barren planets, packaging facilities for ice and lava planets' reagents, and power collection platforms for gas, plasma, and storm planets.\n\nHowever, managers are advised that such structures may inadvertently attract unsavory elements, such as pirates, due to their strategic importance and valuable cargo.",
   "volume": 8000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 8000.0,
   "capacity": 35000.0,
   "mass": 5000000000.0,
   "category_name": "Orbitals",

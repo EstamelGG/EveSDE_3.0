@@ -3,7 +3,7 @@
   "name": "'Crop' Gas Cloud Scoop",
   "description": "Originally invented and supplied by the pirate organizations of New Eden, the 'Crop' and ‘Plow' Gas Cloud Scoops once stood as the most advanced pieces of gas harvesting equipment available. Although they did not offer any improvement in their harvesting yield, the CPU reduction was valued by many who otherwise struggled to fit a full rack of scoops to cruiser-class vessels. This one small improvement set the two scoops above the standard, Tech I variant for many years.\n\nAll that changed however when new, stable wormholes began proliferating across the cluster. As soon as the wormholes were discovered, so too, were the giant gas cloud pockets within the unknown systems they linked to. In a single day, the demand for Tech II Gas Cloud Scoop exploded. Research projects were hastily established and grants hurriedly thrown out to the most promising firms pursuing a redesign. It was only a few days before a breakthrough was made, and the mighty ‘Crop' and ‘Plow' variants soon took second place to a superior Tech II counterpart that vastly increased the harvesting yield.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

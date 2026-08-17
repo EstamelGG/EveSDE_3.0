@@ -3,7 +3,7 @@
   "name": "Zainou 'Gypsy' Target Painting TG-902",
   "description": "A neural interface upgrade that boosts the pilot's skill at target painting.\n\n2% reduction in capacitor need of modules requiring the Target Painting skill.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

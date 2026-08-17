@@ -3,7 +3,7 @@
   "name": "熔融冷凝物",
   "description": "当熔融冷凝物与其他物质和合金混合时，能促成一种独一无二的有益于高效反应堆操作的量子状态。",
   "volume": 0.2,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.2,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

@@ -3,7 +3,7 @@
   "name": "Imperial Hardpoint Booster I",
   "description": "This booster has been produced by the Amarr Empire to assist with their military campaign war efforts.\n\n<b>+2% bonus to Energy Turret Damage\n+2% bonus to Drone Damage\n+2% reduction in Mining, Ice and Gas Harvester duration and capacitor use. \n+4% reduction in Salvager cycle time\nBase Duration: 2 Hours.</b>\n\n<b>Expiry date: November 10th YC128</b>",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

@@ -3,7 +3,7 @@
   "name": "Logut Akell",
   "description": "The old Vherokior shaman, Logut Akell, is rarely seen in public, rather opting for a hermitical life.  Since he has little contact with other Minmatars, few will notice his absence should he disappear.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 80.0,
   "category_name": "Commodity",

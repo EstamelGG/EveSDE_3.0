@@ -3,7 +3,7 @@
   "name": "Republic Justice Department Silver Reward",
   "description": "Awarded on behalf of the Republic Justice Department for notable participation in its anti-slavery campaign.",
   "volume": 10000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10000.0,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

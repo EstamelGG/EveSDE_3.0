@@ -3,7 +3,7 @@
   "name": "'Augmented' Mining Drone",
   "description": "This advanced mining drone is based on Rogue Drone technology, optimized for impressive efficiency by the wild and hostile artificial intelligences. Drone AI experts were initially surprised by how easily this technology was adapted for capsuleer interfacing, almost as if the Rogue Drones had designed this mining equipment for human use.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Drone",

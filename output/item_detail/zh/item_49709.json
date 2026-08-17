@@ -3,7 +3,7 @@
   "name": "猛烈深渊纤维箱",
   "description": "这个密封的箱子里面有一个随机类型的猛烈深渊纤维，可以将你传送到一个深渊空间层中。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 0.1,
   "category_name": "特别版用品",

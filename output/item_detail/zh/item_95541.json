@@ -3,7 +3,7 @@
   "name": "腾跃不稳定增效剂",
   "description": "<b>导弹飞行时间延长16%。基础持续时间：3.5分钟。</b>这款增效剂在制造时使用了不稳定的化合物，将于<b>YC128年7月27日</b>过期。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

@@ -3,7 +3,7 @@
   "name": "中型远程结构维修器 I",
   "description": "该装备使用纳米级装配器来修复目标舰船船体所受到的损伤。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 20.0,
   "category_name": "装备",

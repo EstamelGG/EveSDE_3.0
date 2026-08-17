@@ -3,7 +3,7 @@
   "name": "Deprecated Advanced Logistics Network",
   "description": "This is a deprecated item, and though it still functions there are plans for it to be removed from circulation in the future.\n\nThis upgrade allows the onlining of a <a href=showinfo:35913>Standup Conduit Generator</a> at one <a href=showinfo:35841>Ansiblex Jump Gate</a> structure in the same solar system.",
   "volume": 200000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 200000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Infrastructure Upgrades",

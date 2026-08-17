@@ -3,7 +3,7 @@
   "name": "Plasma Stability Generator",
   "description": "This generator produces system-wide effects similar to those encountered in Plasma environments within Abyssal Deadspace.\n\nAll ships in system: +5% Armor HP, +5% Local Armor Repairer Effectiveness, +10% bonus to the benefits of overloading modules.",
   "volume": 10000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Infrastructure Upgrades",

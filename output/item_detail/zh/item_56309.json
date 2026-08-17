@@ -3,7 +3,7 @@
   "name": "旗舰级深渊护盾回充增量器",
   "description": "消耗能量以快速提高护盾强度。\n\n\n\n注：只能装配在旗舰级舰船上。",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

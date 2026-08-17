@@ -3,7 +3,7 @@
   "name": "弃用的海盗探测阵列5",
   "description": "该物品已弃用。虽然目前依然有效，但计划未来将不再流通。该升级件可以增加星系中活跃战斗地点的数量。",
   "volume": 60000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 60000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "基础设施升级件",

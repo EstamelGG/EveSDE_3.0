@@ -3,7 +3,7 @@
   "name": "'Micro' Cap Battery",
   "description": "Increases capacitor storage. Provides defense against Energy Leech and Energy Neutralizer effects.",
   "volume": 2.5,
-  "repackaged_volume": null,
+  "repackaged_volume": 2.5,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

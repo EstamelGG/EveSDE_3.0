@@ -3,7 +3,7 @@
   "name": "翼灵级",
   "description": "由莫德团设计的一款中型战斗无人机原型。",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "无人机",

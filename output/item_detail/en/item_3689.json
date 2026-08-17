@@ -3,7 +3,7 @@
   "name": "Mechanical Parts",
   "description": "These basic elements of all mechanical hardware can come in virtually any shape and size, although composite or modular functionality is highly advantageous in today's competitive market. Factories and manufacturers take these parts and assemble them into finished products, which are then sold on the market.",
   "volume": 0.75,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.75,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

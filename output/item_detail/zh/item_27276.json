@@ -3,7 +3,7 @@
   "name": "黑匣子",
   "description": "此黑匣子含有舰船在被毁前最后的通讯记录以及关于这次灾难的各种数据。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

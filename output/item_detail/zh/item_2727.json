@@ -3,7 +3,7 @@
   "name": "一大群矿工",
   "description": "他们身穿永远附着有尘埃和污物的装束，孤独寂寞地工作在行星和小行星的地表深处。",
   "volume": 500.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 500.0,
   "capacity": null,
   "mass": 500000.0,
   "category_name": "常用物品",

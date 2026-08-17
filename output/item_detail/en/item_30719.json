@@ -3,7 +3,7 @@
   "name": "Kritsan Parthus",
   "description": "Parthus is an Amarr pirate. Quiet in person, he's known both as a wild gambler and a man who can cover his bets. His success in outfitting and executing illegal missions is similar: he takes a lot of risks, but thinks practically and can generally repay his debts.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 90.0,
   "category_name": "Commodity",

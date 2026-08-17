@@ -3,7 +3,7 @@
   "name": "碳化钛",
   "description": "碳化钛因其优秀的强度和分子延展性，为加达里合众国的科技行业所钟爱，因此被广泛使用，从反应堆装置到武器系统都有它的踪影。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

@@ -3,7 +3,7 @@
   "name": "Smuggler Tag",
   "description": "This is a tag proudly worn by Serpentis smugglers in the Algintal constellation.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

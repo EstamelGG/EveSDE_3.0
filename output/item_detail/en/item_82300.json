@@ -3,7 +3,7 @@
   "name": "Compressed Kylixium",
   "description": "Kylixium, an ore discovered in YC126, is mostly composed of <a href=showinfo:36>mexallon</a>, with some <a href=showinfo:34>tritanium</a> and <a href=showinfo:35>pyerite</a> in smaller quantities. It is named for its clay-like properties and appearance.\n \nKylixium may be found in null security space asteroid anomalies.\n \nThis material is compressed and a much more compact form of the original material.",
   "volume": 0.012,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.012,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

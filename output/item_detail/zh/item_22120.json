@@ -3,7 +3,7 @@
   "name": "中级辟邪 - 贝它型",
   "description": "不法科学家对这种记忆增强体做了专门修改，以便于精英海盗官员使用。与其他属于同一套装的植入体搭配使用时可以提高装甲值加成。\n\n\n\n<b>主要效果：</b>记忆属性值增加3\n\n<b>次要效果：</b>装甲值提高2%\n\n<b>套件效果：</b>所有“辟邪”植入体次要效果增加10%",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

@@ -3,7 +3,7 @@
   "name": "钴酸盐",
   "description": "钴酸盐是卫星中开采出的一种普通矿石，用处很大，能够产出丰富的<a href=showinfo:16640>钴</a>，可作为许多高级矿物的重要元素。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "小行星",

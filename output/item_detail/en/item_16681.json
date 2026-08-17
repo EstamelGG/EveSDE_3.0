@@ -3,7 +3,7 @@
   "name": "Nanotransistors",
   "description": "Extremely complex molecular-level transistors used in nanoscale electronics, such as microprocessors and capacitor units.",
   "volume": 0.25,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.25,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

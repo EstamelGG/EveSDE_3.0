@@ -3,7 +3,7 @@
   "name": "Gravimetric ECM II",
   "description": "Projects random bursts of gravitons that disrupt accurate targeting. As expected this system works best against Gravimetric targeting systems such as those found on Caldari, Guristas and Mordu's Legion ships.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

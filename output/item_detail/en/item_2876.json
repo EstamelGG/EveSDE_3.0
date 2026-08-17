@@ -3,7 +3,7 @@
   "name": "Wetware Mainframe",
   "description": "So advanced and energy-demanding are wetware mainframes that they require vehicle-scale power cores and the constant attention of maintenance personnel. When operating at peak performance levels, nothing in New Eden can match the raw computing power of these machines, from calculating warp coordinates to administrating the core functions of an entire space station.",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

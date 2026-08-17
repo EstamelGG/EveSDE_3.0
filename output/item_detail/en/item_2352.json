@@ -3,7 +3,7 @@
   "name": "Nuclear Reactors",
   "description": "This power core is able to convert heavy elements into electricity by way of nuclear fission, splitting atoms to produce thermal energy on a massive scale. If they are properly shielded and cooled, there are few safer, cleaner ways to power buildings or large vehicles.",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

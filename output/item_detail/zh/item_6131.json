@@ -3,7 +3,7 @@
   "name": "持久型货柜扫描器 E型",
   "description": "扫描另一艘舰船的货柜舱。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

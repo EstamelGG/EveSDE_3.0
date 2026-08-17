@@ -3,7 +3,7 @@
   "name": "电弧弦制导研究",
   "description": "通过调节舰载电弧弦投射器的波导器来提高对快速移动目标的命中率的技能。每升一级，电弧弦投射器的爆炸半径提高5%，爆炸速度提高10%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

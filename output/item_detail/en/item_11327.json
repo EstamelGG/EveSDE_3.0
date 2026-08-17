@@ -3,7 +3,7 @@
   "name": "1600mm Crystalline Carbonide Restrained Plates",
   "description": "Increases the maximum strength of the Armor.\n\nPenalty: Adds to your ship's mass, making it less agile and maneuverable in addition to decreasing the factor of thrust gained from speed modules like Afterburners and MicroWarpdrives.",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

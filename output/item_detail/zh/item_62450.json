@@ -3,7 +3,7 @@
   "name": "船用压缩技术",
   "description": "这个技能允许飞行员在舰船上使用联合矿业的材料压缩新技术。每升一级，解锁更多可以在装配了工业核心的非旗舰舰船上使用的特殊压缩装备。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

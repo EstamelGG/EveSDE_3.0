@@ -3,7 +3,7 @@
   "name": "Poteque 'Prospector' Astrometric Acquisition AQ-710",
   "description": "A neural Interface upgrade that boosts the pilots scanning skills.\n\n10% reduction in probe scanning time.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

@@ -3,7 +3,7 @@
   "name": "民兵领导",
   "description": "这是民兵部队的领袖。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 60.0,
   "category_name": "常用物品",

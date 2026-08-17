@@ -3,7 +3,7 @@
   "name": "Bacteria",
   "description": "The term “bacteria” covers a wide, diverse family of unicellular microorganisms, from those found in almost every climate in New Eden to those that thrive in the bodies of other living beings. Though some bacteria are known to convey diseases, others are more helpful than harmful to humans.",
   "volume": 0.19,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.19,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

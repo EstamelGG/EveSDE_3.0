@@ -3,7 +3,7 @@
   "name": "Oxidizing Compound",
   "description": "Converting various matter from its basic state to an oxidized form requires an oxidizing compound, the most effective of which is a powerful agent made from pressurized reactive gas. Special containers are required to keep the compound from causing significant damage to common metals and organic life.",
   "volume": 0.19,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.19,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

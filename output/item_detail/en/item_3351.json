@@ -3,7 +3,7 @@
   "name": "Shield Command Specialist",
   "description": "Advanced proficiency at boosting the shield defenses of allied ships. Increases the strength of Shield Command Burst effects by 10% per skill level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

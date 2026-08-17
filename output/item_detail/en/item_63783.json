@@ -3,7 +3,7 @@
   "name": "Soldier of Fortune - Frigate Skill Crate",
   "description": "This crate has been provided by the Association for Interdisciplinary Research as a reward for participating in the AIR Career Program.\n\nIt contains a skill required for piloting frigates of one of the Empires.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

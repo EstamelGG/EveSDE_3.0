@@ -3,7 +3,7 @@
   "name": "迷你巨石",
   "description": "精炼产出：一些微型星球",
   "volume": 500.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 500.0,
   "capacity": null,
   "mass": 50000.0,
   "category_name": "特别版用品",

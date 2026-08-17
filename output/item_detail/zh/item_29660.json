@@ -3,7 +3,7 @@
   "name": "粗糙的镝汞合金",
   "description": "镝和水银混合产生了柔软却极具复原力的镝汞合金，作为一种汞合金，它在最先进的感应器和反应堆技术中扮演关键角色。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

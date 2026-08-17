@@ -3,7 +3,7 @@
   "name": "基础机器人",
   "description": "工业使用的智能机械装置。",
   "volume": 2.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2.0,
   "capacity": null,
   "mass": 2500.0,
   "category_name": "常用物品",

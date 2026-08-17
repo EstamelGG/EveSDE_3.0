@@ -3,7 +3,7 @@
   "name": "共和舰队小型护盾扩展装置",
   "description": "增加护盾的最大强度。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

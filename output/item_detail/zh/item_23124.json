@@ -3,7 +3,7 @@
   "name": "殷郡技术研究",
   "description": "与殷郡技术互动的基本技能。\n\n殷郡民族掌握先进的引力子技术和力场理论。\n\n虽然技能背后的科学原理还是一个谜，但这是在高科技装备制造中使用殷郡部件所必须的技能。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

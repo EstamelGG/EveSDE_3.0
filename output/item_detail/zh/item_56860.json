@@ -3,7 +3,7 @@
   "name": "海四前进庆祝箱",
   "description": "这个箱子中有随机一款“海四前进”涂装以及随机一款吉他海四空间站扩建工程竣工的庆祝服饰。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

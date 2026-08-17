@@ -3,7 +3,7 @@
   "name": "F-89 Compact Signal Amplifier",
   "description": "Augments the maximum target acquisition range, locking speed and sensor strength of a ship.\nPenalty: Using more than one type of this module or similar modules that affect the same attribute on the ship will be penalized.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

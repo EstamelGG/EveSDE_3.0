@@ -3,7 +3,7 @@
   "name": "Narcotics Package",
   "description": "A large sealed package filled with an unknown, but undoubtedly illegal, narcotic substance.",
   "volume": 3500.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3500.0,
   "capacity": null,
   "mass": 20000.0,
   "category_name": "Commodity",

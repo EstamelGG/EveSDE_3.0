@@ -3,7 +3,7 @@
   "name": "Ectoplasm",
   "description": "Used for the making of the liquid inside starship pilot pods, this thick goo is made primarily out of used cell membranes.",
   "volume": 0.5,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.5,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Commodity",

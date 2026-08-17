@@ -3,7 +3,7 @@
   "name": "Entropic Radiation Sink I",
   "description": "Entropic Disintegrators generate a considerable amount of radiation when firing and this must be contained in order to avoid a dangerous build up. Bringing online additional Entropic Radiation Sinks allows the weapons to be fired at higher levels of energy and more rapidly, considerably increasing their damage potential.\n\nPenalty: Using more than one type of this module or similar modules that affect the same attribute on the ship will be penalized.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Module",

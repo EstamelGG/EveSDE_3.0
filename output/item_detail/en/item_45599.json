@@ -3,7 +3,7 @@
   "name": "Legion Offensive - Assault Optimization",
   "description": "Originally a laser-based weapons system, Amarrian starship engineers were forced to seek alternative construction methods when several fatal flaws were discovered in their design. Khanid Innovations was quick to offer a missile-based solution that benefitted greatly from their years of experience working on Sacrilege cruisers. The reapplication of their previously successful technology was so fast and effective that the more traditional Amarrian engineers could do little but watch as the knowledge and consequent implementation of these new engineering methodologies proliferated across the cluster.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 800000.0,
   "category_name": "Subsystem",

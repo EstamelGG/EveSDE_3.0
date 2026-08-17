@@ -3,7 +3,7 @@
   "name": "Potent Viral Agent",
   "description": "The causative agent of an infectious disease, the viral agent is a parasite with a noncellular structure composed mainly of nucleic acid within a protein coat.",
   "volume": 0.5,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.5,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Commodity",

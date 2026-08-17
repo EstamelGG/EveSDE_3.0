@@ -3,7 +3,7 @@
   "name": "Mizara's Doll",
   "description": "This doll is old and well-worn. It still smells faintly of brown sugar.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 2.0,
   "category_name": "Commodity",

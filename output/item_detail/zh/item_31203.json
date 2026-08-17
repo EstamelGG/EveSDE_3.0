@@ -3,7 +3,7 @@
   "name": "中型放射范围约束装置 I",
   "description": "这个飞船改装件用于增加舰船遗迹分析装备的效率。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "装备",

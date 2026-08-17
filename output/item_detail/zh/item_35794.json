@@ -3,7 +3,7 @@
   "name": "导弹射程脚本",
   "description": "该脚本可用在导弹制导计算机上以增加导弹的最大速度和飞行时间，不过会降低爆炸速度和爆炸半径。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "弹药",

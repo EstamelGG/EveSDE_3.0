@@ -3,7 +3,7 @@
   "name": "消费级电器",
   "description": "消费电器种类繁多，从娱乐终端到个人电脑，从电子项圈到儿童玩具，应有尽有。",
   "volume": 0.75,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.75,
   "capacity": null,
   "mass": null,
   "category_name": "行星商品",

@@ -3,7 +3,7 @@
   "name": "Observatory Spectrography",
   "description": "Scans carried out on the observatory itself, charting unique radiation patterns and hyperspace distortions.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

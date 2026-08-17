@@ -3,7 +3,7 @@
   "name": "范尼尔·马克诺的DNA",
   "description": "这份DNA样本取自图克尔部落海盗范尼尔·马克诺。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

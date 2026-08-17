@@ -3,7 +3,7 @@
   "name": "Confiscated Vitoc",
   "description": "The Vitoc booster has become more than a simple strategy by the Amarrians in controlling their slaves. With the Vitoc method, slaves are injected with a toxic chemical substance that is fatal unless the recipient receives a constant supply of an antidote.",
   "volume": 0.5,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.5,
   "capacity": null,
   "mass": 800.0,
   "category_name": "Commodity",

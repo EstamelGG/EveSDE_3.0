@@ -3,7 +3,7 @@
   "name": "圣甲虫突破者座舱S",
   "description": "圣甲虫突破者座舱内装满了躲藏者克隆体，他们可以绕过目标舰船的传统伤害抗性，在防御能力较弱的目标敌舰内部登陆并进行大肆破坏。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "弹药",

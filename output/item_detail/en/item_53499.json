@@ -3,7 +3,7 @@
   "name": "Festival Skill Points and Snowballs Crate",
   "description": "This crate contains 50,000 Skill Points and 6 Yoiul Festival Snowballs.",
   "volume": 4.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4.0,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

@@ -3,7 +3,7 @@
   "name": "抗性定相",
   "description": "增强了纳米薄膜的流动性与可控性，使得它能更好地根据受到的伤害调整抗性类型。\n\n每升一级，反应式装甲增强器、弯曲装甲增强器和弯曲护盾增强器的循环时间降低10%，电容需求降低15%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

@@ -3,7 +3,7 @@
   "name": "Plush Compound",
   "description": "Precious mineral compounds can be reprocessed into multiple minerals.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Commodity",

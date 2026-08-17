@@ -3,7 +3,7 @@
   "name": "Javelin S",
   "description": "The Javelin charge consists of a cluster of Iridium Fletchets with a Graviton Pulse Detonator. This allows for much higher damage than can be achieved by a standard rail system. However, the inherent entropy of graviton pulses means that it is very hard to maintain accuracy at long range.\n\n75% reduced optimal range.\n25% increased tracking speed.\n\nNote: This ammunition can only be used by small tech level II and faction Railguns.",
   "volume": 0.0025,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.0025,
   "capacity": null,
   "mass": 0.01,
   "category_name": "Charge",

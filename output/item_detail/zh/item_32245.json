@@ -3,7 +3,7 @@
   "name": "三岛集团研究实验室",
   "description": "移动实验室设施，可在控制塔力场内锚定。在这里可以进行材料效率和时间效率研究项目。",
   "volume": 3000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3000.0,
   "capacity": 25000.0,
   "mass": 100000000.0,
   "category_name": "母星",

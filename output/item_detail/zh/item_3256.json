@@ -3,7 +3,7 @@
   "name": "天赋植体 随从 能量栅格管理 EG-602",
   "description": "一款神经接口升级芯片，可以增强飞行员在工程学方面的技能。舰船能量栅格增加2%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

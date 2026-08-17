@@ -3,7 +3,7 @@
   "name": "Phased Plasma M",
   "description": "Medium Projectile Ammo. This ammo uses a similar plasma containment core as hybrid charges except that it is mounted in a standard cannon shell.\n\n50% reduced optimal range.",
   "volume": 0.0125,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.0125,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

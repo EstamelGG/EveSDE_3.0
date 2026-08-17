@@ -3,7 +3,7 @@
   "name": "米奇氏开采能力增效体",
   "description": "一款神经接口升级芯片，可以增强飞行员某一特殊方面的属性。\n\n\n\n采矿激光器采矿量增加5%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

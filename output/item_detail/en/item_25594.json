@@ -3,7 +3,7 @@
   "name": "Tangled Power Conduit",
   "description": "Power Conduit runs through ships delivering energy like arteries deliver blood through a body. Large ships can have hundreds of miles of conduit. This conduit is tangled and knotted as it seems to have gone through some sort of catastrophe.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

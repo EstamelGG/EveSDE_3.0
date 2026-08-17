@@ -3,7 +3,7 @@
   "name": "特殊访客通行证",
   "description": "这张通行证允许持有者进入这个复合体的内庭。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

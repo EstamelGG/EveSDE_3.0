@@ -3,7 +3,7 @@
   "name": "血袭者箱",
   "description": "一批血袭者战利品储藏箱，其中始终包含一份舰船蓝图副本。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

@@ -3,7 +3,7 @@
   "name": "Small S95a Scoped Remote Shield Booster",
   "description": "Transfers shield power over to the target ship, aiding in its defense.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

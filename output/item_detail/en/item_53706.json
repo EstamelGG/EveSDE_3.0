@@ -3,7 +3,7 @@
   "name": "Mid-grade Nirvana Delta",
   "description": "This cybernetic subprocessor appears to have been developed using Sansha's Nation technology and is likely to be used by elite pilots of Nation and related factions. It provides increasing shield hitpoint bonuses when plugged in alongside other implants from the same set.\n\nPrimary Effect: +3 bonus to Intelligence\n\nSecondary Effect: 4% bonus to shield hitpoints\n\nSet Effect: 10% bonus to the strength of all Nirvana implant secondary effects",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

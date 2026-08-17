@@ -3,7 +3,7 @@
   "name": "Caldari Propaganda Broadcast Structure",
   "description": "Propaganda Broadcast Structures are deployable structures that increase advantage points in the system they are deployed in. They must be defended for a period of time in order to gain advantage points. You can buy Propaganda Broadcast Structures from your militia's LP Store.",
   "volume": 100.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 100.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "Deployable",

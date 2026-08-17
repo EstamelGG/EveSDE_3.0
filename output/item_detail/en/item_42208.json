@@ -3,7 +3,7 @@
   "name": "Mid-grade Asklepian Epsilon",
   "description": "This social adaptation chip has been modified by Serpentis scientists for use by their elite officers.\n\nPrimary Effect: +3 bonus to Charisma\n\nSecondary Effect: 5% bonus to armor repair amount\n\nSet Effect: 10% bonus to the strength of all Asklepian implant secondary effects\n\nNote: Has no effect on capital sized modules.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

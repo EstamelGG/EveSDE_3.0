@@ -3,7 +3,7 @@
   "name": "无人机调制器",
   "description": "配有电子调制装置和振荡器的多功能芯片，这是无人机的通讯硬件。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

@@ -3,7 +3,7 @@
   "name": "Negotiation",
   "description": "Skill at agent negotiation. 5% additional pay per skill level for agent missions.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

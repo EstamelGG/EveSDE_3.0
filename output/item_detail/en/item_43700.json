@@ -3,7 +3,7 @@
   "name": "Ice Harvesting Drone II",
   "description": "Ice Harvesting Drone",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": null,
   "mass": null,
   "category_name": "Drone",

@@ -3,7 +3,7 @@
   "name": "银色单片迷镜箱",
   "description": "包含单片迷镜(银色右眼)",
   "volume": 4.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4.0,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

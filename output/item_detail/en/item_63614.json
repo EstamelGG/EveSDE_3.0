@@ -3,7 +3,7 @@
   "name": "Halcyon Y-4 Booster",
   "description": "It will apply immediately when redeemed. Base Duration 2 Hours.\n\n4% bonus to armor resistances\n4% bonus to ship agility\n4% bonus to turret, vorton projector and missile damage\n4% bonus to capacitor capacity\n8% bonus to drone optimal range and falloff\n+16km drone control range\n8% bonus to mining laser and ice harvester range\n8% bonus to maximum targeting range\n8% bonus to energy warfare resistance\n+16 virus coherence for relic analyzers",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Implant",

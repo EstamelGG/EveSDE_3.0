@@ -3,7 +3,7 @@
   "name": "Mutadaptive Construction Component Blueprint",
   "description": "Mutadaptive Construction Component Blueprints can be extracted from Vila Allopoiesis Nodes located within the drone-guarded Vila Allopoiesis Nexus sites in Pochven.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Blueprint",

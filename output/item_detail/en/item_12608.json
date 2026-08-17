@@ -3,7 +3,7 @@
   "name": "Hail S",
   "description": "Hail is an attempt to combine the penetration of titanium sabot with the versatility of a depleted uranium shell. It has tremendous damage potential, but should not be used at long ranges. Any pilot using this ammunition should be prepared to trade optimal range, falloff range, and tracking speed for a devastating amount of damage.\n\n25% reduced falloff.\n50% reduced optimal range.\n25% reduced tracking speed.\n\nNote: This ammunition can only be used by small tech level II and faction Autocannons.",
   "volume": 0.0025,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.0025,
   "capacity": null,
   "mass": 0.01,
   "category_name": "Charge",

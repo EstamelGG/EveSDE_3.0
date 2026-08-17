@@ -3,7 +3,7 @@
   "name": "跳跃引擎校对理论",
   "description": "操作跳跃引擎的高级技能。每升一级，最大跳跃距离增加20%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

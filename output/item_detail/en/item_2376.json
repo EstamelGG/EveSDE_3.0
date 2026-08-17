@@ -3,7 +3,7 @@
   "name": "Broken Integrity Response Drones",
   "description": "Hull breaches are a constant, serious threat during space travel, as well as a dangerous reality to orbital stations, which are too massive to avoid incoming objects. Integrity response drones help mitigate that threat by providing the automated, immediate application of sealants to any detected impact or pressure fracture in the structure they patrol.",
   "volume": 100.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 100.0,
   "capacity": null,
   "mass": null,
   "category_name": "Commodity",

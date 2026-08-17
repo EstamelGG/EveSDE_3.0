@@ -3,7 +3,7 @@
   "name": "Compressed Omber IV-Grade",
   "description": "This extremely rare and valuable variant of omber ore was recently discovered by ORE engineers during early field tests of new moon mining technology. Subsequent testing has confirmed that this ore produces 15% more minerals than standard omber when reprocessed.\n\nOmber is a common ore that is still an excellent ore for novice miners as it has a sizeable portion of <a href=showinfo:37>Isogen</a>, as well as some <a href=showinfo:35>Pyerite</a>. A few trips of mining this and a novice is quick to rise in status.\n\nThis material is compressed and a much more compact form of the original material.",
   "volume": 0.006,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.006,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Asteroid",

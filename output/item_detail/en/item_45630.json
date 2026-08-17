@@ -3,7 +3,7 @@
   "name": "Proteus Core - Friction Extension Processor",
   "description": "The friction extension processor capitalizes on recent advances made in fullerene-based component development. The system works on a similar design to interdiction spheres by expanding a ship's warp interdiction range. The technology behind it has existed in theory for some years, dating back to when engineers first began development of Heavy Interdiction Cruisers. They noticed an increased efficiency in the electronic disruption of fullerene molecules when combined with the static disruption energies of the spheres. When more fullerene-based materials suddenly became available, it was only a matter of further testing before theory became reality.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 1200000.0,
   "category_name": "Subsystem",

@@ -3,7 +3,7 @@
   "name": "Compressed White Glaze",
   "description": "When star fusion processes occur near high concentrations of silicate dust, such as those found in interstellar ice fields, the substance known as White Glaze is formed. White Glaze is extremely high in nitrogen-14 and other stable nitrogen isotopes, and is thus a necessity for the sustained operation of certain kinds of control tower.\n\nThis material is compressed and a much more compact form of the original material.",
   "volume": 100.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 100.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Asteroid",

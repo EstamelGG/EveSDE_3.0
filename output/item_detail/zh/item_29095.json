@@ -3,7 +3,7 @@
   "name": "旗舰级雷达感应器组",
   "description": "主要由艾玛舰船使用的感应器构件。这个部件也存在于别的各种科技类型中。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

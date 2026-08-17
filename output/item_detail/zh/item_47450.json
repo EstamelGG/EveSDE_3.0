@@ -3,7 +3,7 @@
   "name": "压缩太空舱外壳",
   "description": "这款压缩的流体静力太空舱应用了众多前沿科技，能够唤起买家的兴趣。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

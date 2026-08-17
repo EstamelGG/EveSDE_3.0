@@ -3,7 +3,7 @@
   "name": "培养基",
   "description": "当细菌生长在一个水环境中时，它们的生殖转化便可被观察记录下来。这能为多个科学领域提供有价值的研究数据。",
   "volume": 0.75,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.75,
   "capacity": null,
   "mass": null,
   "category_name": "行星商品",

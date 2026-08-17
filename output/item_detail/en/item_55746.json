@@ -3,7 +3,7 @@
   "name": "Federation Day Clothing Crate",
   "description": "Contains Federation Day clothing items to demonstrate your Gallente pride!",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

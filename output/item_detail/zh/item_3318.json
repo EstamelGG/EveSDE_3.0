@@ -3,7 +3,7 @@
   "name": "武器升级研究",
   "description": "理解火控计算机系统的技能，包括武器升级装备的使用。每升一级，武器炮台、发射器和立体炸弹的CPU需求各减少5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

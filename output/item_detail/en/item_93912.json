@@ -3,7 +3,7 @@
   "name": "Revelli’s Modified Integrated Analyzer",
   "description": "As this multi-use analyzer has both fully integrated archaeology and hacking systems, it can be used to both analyze ancient ruins and bypass electronic security systems.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

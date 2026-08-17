@@ -3,7 +3,7 @@
   "name": "Gnosis & Punisher SKIN Crate",
   "description": "This crate contains an Icecloud Investigator SKIN License for the Gnosis and a Chromodynamic Candy SKIN for the Punisher.",
   "volume": 4.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4.0,
   "capacity": null,
   "mass": 0.1,
   "category_name": "Special Edition Assets",

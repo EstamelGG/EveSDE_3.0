@@ -3,7 +3,7 @@
   "name": "Cruise Missile Battery",
   "description": "A launcher array designed to fit cruise missiles. Fires at those the Control Tower deems its enemies.",
   "volume": 500.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 500.0,
   "capacity": 3500.0,
   "mass": 50000000.0,
   "category_name": "Starbase",

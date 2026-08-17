@@ -3,7 +3,7 @@
   "name": "粗糙矿物处理",
   "description": "提炼粗糙矿物的专业技能。可以大大提高技能熟练者使用提炼设备时的效率。对于由不稳定矿石（例如棱柱岩）反应产生的粗糙矿物而言，每升一级，其提炼产出提高2%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

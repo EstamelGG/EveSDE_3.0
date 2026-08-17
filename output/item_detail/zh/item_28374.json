@@ -3,7 +3,7 @@
   "name": "旗舰级工业舰操作",
   "description": "操作旗舰级工业舰的技能。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

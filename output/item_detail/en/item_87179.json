@@ -3,7 +3,7 @@
   "name": "Obsolete Observatory Resonance Key",
   "description": "Data-key containing recordings of the resonance of stellar observation quantum interactions. Acceleration gates once required this data to lock onto a Stellar Observatory’s position.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

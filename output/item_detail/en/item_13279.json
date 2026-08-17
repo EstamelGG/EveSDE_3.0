@@ -3,7 +3,7 @@
   "name": "Remote Sensing",
   "description": "The ability to gather and analyze remote sensing data from satellites in orbit around a planet and produce properly calibrated surveys.\n\nLevel 1: allows scans within 1 ly\nLevel 2: allows scans within 3 ly\nLevel 3: allows scans within 5 ly\nLevel 4: allows scans within 7 ly\nLevel 5: allows scans within 9 ly",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

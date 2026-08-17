@@ -3,7 +3,7 @@
   "name": "艾玛国庆日服饰箱",
   "description": "内有国庆日服饰，彰显你对艾玛帝国的信仰！",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

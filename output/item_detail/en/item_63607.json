@@ -3,7 +3,7 @@
   "name": "Halcyon G-2 Booster",
   "description": "It will apply immediately when redeemed. Base Duration 2 Hours.\n\n2% bonus to shield, armor, and structure hitpoints\n2% bonus to ship agility\n2% bonus to turret tracking speed\n2% bonus to missile explosion velocity\n2% bonus to vorton projector explosion radius and explosion velocity\n2% bonus to capacitor recharge rate\n2% bonus to drone damage\n2% bonus to mining laser and ice harvester cycle time\n4% bonus to maximum targeting range\n4% bonus to sensor strength\n4% bonus to scan probe strength",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Implant",

@@ -3,7 +3,7 @@
   "name": "Broken Self-Harmonizing Power Core",
   "description": "With camera drones diligently monitoring the temperature, radioactivity, and electrical output of these advanced nuclear reactors, instant adjustments can be made to a dynamic, adaptive layer of hermetic membranes, which keeps the power core functioning safely at maximum capacity, with no human attention required whatsoever.",
   "volume": 100.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 100.0,
   "capacity": null,
   "mass": null,
   "category_name": "Commodity",

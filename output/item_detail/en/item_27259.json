@@ -3,7 +3,7 @@
   "name": "Zainou 'Snapshot' Cruise Missiles CM-601",
   "description": "A neural interface upgrade that boosts the pilot's skill with cruise missiles.\n\n1% bonus to the damage of cruise missiles.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

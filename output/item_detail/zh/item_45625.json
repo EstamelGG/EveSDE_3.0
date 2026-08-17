@@ -3,7 +3,7 @@
   "name": "金鹏核心 - 电子效能组合逻辑元件",
   "description": "新近的科技成果大大地增加了CPU的效能，这是因为更加先进的纳米技术提升了电路微型化的空间，这实际上有效地打通了系统上的发展瓶颈。电子效能组合逻辑元件是这些科技的集合体，为飞行员提供了更多的CPU输出，大幅提升了感应信号的完整性。",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 1200000.0,
   "category_name": "子系统",

@@ -3,7 +3,7 @@
   "name": "Supercapital Construction Facilities",
   "description": "These facilities enable the onlining of <a href=showinfo:35877>Standup supercapital shipyards</a> at any <a href=showinfo:35827>Sotiyo</a>-class engineering complexes in the system.",
   "volume": 200000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 200000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Infrastructure Upgrades",

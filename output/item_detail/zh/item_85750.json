@@ -3,7 +3,7 @@
   "name": "不死循环遗迹分析仪",
   "description": "一套考古系统，用于分析和研究古代遗迹，可能会发掘出珍贵的藏品。注：由于最近发现的特定昇威递推计算模块的漏洞，这个分析仪也可用于收集关于昇威建筑增强时间的机密信息。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

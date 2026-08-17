@@ -3,7 +3,7 @@
   "name": "小型深渊能量中和器",
   "description": "中和目标舰船电容器的部分能量。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "装备",

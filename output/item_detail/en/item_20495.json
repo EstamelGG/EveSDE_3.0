@@ -3,7 +3,7 @@
   "name": "Information Command",
   "description": "Basic proficiency at boosting the sensors and electronic warfare systems of allied ships. Grants a 10% bonus to the duration of Information Command Burst effects per level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

@@ -3,7 +3,7 @@
   "name": "650mm Medium 'Jolt' Artillery I",
   "description": "A powerful long-range cannon. One of the most damaging weapons mountable on a cruiser. \n\nMust be loaded with any of the following projectile ammo types: Carbonized Lead, Depleted Uranium, EMP, Fusion, Nuclear, Phased Plasma, Proton, or Titanium Sabot.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": 0.5,
   "mass": 125.0,
   "category_name": "Module",

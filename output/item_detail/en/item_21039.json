@@ -3,7 +3,7 @@
   "name": "Capital Siege Array",
   "description": "An electronic interface responsible for rerouting a dreadnought's energy from its propulsion systems towards its defensive and offensive systems.",
   "volume": 2000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2000.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "Commodity",

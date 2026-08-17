@@ -3,7 +3,7 @@
   "name": "Mjolnir Rocket",
   "description": "A small rocket with an EMP warhead.",
   "volume": 0.005,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.005,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

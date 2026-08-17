@@ -3,7 +3,7 @@
   "name": "Burned Logic Circuit",
   "description": "Autonomous field programmable holographic signal processor with embedded holographic data storage. Used in most modern computers, the ubiquitous AFPHSPEHDS is colloquially known as the \"Aphid\". This name leads of course to many bad puns about bugs in the system.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

@@ -3,7 +3,7 @@
   "name": "太空地质学",
   "description": "分析天体所含物质以便进行开采的技能。每升一级，采矿器的开采量增加5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

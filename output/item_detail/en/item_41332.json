@@ -3,7 +3,7 @@
   "name": "Conflagration XL",
   "description": "The Conflagration is a supercharged X-Ray crystal created by Carthum Conglomerate for the Imperial Navy. Has much greater damage potential than the standard version, but needs considerably more capacitor, has reduced effective range and negatively affects the weapon's tracking speed. The delicate crystalline structures used in the manufacture of this advanced crystal degrade with use, eventually causing it to shatter.\n\n50% reduced optimal range.\n30% reduced tracking speed.\n25% increased capacitor usage.\n\nNote: This ammunition can only be used by capital tech level II and faction Pulse Lasers.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

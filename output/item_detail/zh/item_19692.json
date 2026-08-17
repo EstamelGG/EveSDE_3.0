@@ -3,7 +3,7 @@
   "name": "天赋植体 枪骑兵 受控点射 CB-705",
   "description": "天赋植体公司生产的射击技能神经交互强化芯片，可增强炮台的能量管理。\n\n所有炮台电容需求降低5%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

@@ -3,7 +3,7 @@
   "name": "斯托卡增效剂VI",
   "description": "领取后立即生效。基础持续时间：2小时。射弹武器伤害提高6%，护盾值提高6%，炮台失准范围提高6%，舰船最大速度提高6%，跃迁速度提高6%",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "植入体",

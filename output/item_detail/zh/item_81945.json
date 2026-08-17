@@ -3,7 +3,7 @@
   "name": "无人机引力子发射器",
   "description": "这种由无人机设计的发射器会装配在一些小型无人机指挥舰上，它似乎能用牵引光束对货物进行极其精准的操控。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": 0.5,
   "category_name": "材料",

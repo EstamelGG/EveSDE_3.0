@@ -3,7 +3,7 @@
   "name": "弃用的高级后勤网络",
   "description": "该物品已弃用。虽然目前依然有效，但计划未来将不再流通。这个升级件允许克隆飞行员在同一星系的<a href=showinfo:35841>安塞波跳跃星门</a>建筑中启动<a href=showinfo:35913>屹立导管发生器</a>。",
   "volume": 200000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 200000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "基础设施升级件",

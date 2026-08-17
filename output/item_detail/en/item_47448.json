@@ -3,7 +3,7 @@
   "name": "C3-X 'Hivaa Saitsuo' Ballistic Control System",
   "description": "The C3-X 'Hivaa Saitsuo' Ballistic Control System is a highly experimental modification of the standard ballistic control system to include command, control and communications firmware that will enhance drones alongside missiles. The saying 'hivaa saitsuo' is an old phrase from Caldari history meaning 'good hunting', and often used as a means of wishing someone luck in military circles.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Module",

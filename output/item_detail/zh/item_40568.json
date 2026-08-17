@@ -3,7 +3,7 @@
   "name": "修道士 II",
   "description": "<b>类型：</b>后勤铁骑舰载机\n\n<b>作用：</b>能量中和\n\n<b>描述：</b>修道士在战场上进行能量中和支援。\n\n\n\n<b>能量中和器</b>中和目标舰船电容器的部分能量。\n\n<b>微型跃迁推进器</b>：通过牺牲信号半径来大幅度提升速度。装备运转后的冷却时间较长。",
   "volume": 3000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3000.0,
   "capacity": null,
   "mass": 1500.0,
   "category_name": "铁骑舰载机",

@@ -3,7 +3,7 @@
   "name": "埃菲尔公司 神枪手 中型射弹炮台 MP-804",
   "description": "埃菲尔公司生产的射击技能神经交互强化芯片，可增强中型射弹炮台操纵技能。\n\n中型射弹炮台伤害增加4%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

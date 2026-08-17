@@ -3,7 +3,7 @@
   "name": "深层地核采矿激光器 I",
   "description": "一种用于开采基腹断岩之类的深层地核矿石的基础采矿激光器。效率非常低，但至少能完成开采。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

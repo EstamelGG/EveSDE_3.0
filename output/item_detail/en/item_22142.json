@@ -3,7 +3,7 @@
   "name": "Prophecy Virus",
   "description": "The latest doomsday prophecies of the Blind Muse in a plug-and-play format.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

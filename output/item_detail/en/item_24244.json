@@ -3,7 +3,7 @@
   "name": "The Apocryphon",
   "description": "Ancient texts that some believe were once part of the holy scriptures of the Amarr religion. These texts are considered heretical by the Amarr clergy and anyone found preaching or distributing them is persecuted relentlessly.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

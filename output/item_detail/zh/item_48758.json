@@ -3,7 +3,7 @@
   "name": "退役的埃里克原型机",
   "description": "埃里克终于来了，以荣耀之名！",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "特别版用品",

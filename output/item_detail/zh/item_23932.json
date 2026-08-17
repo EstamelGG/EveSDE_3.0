@@ -3,7 +3,7 @@
   "name": "血腥全息录像",
   "description": "一张内容恐怖的全息记忆盘，记录了血袭者们在埃拉茨星座内的暴行。",
   "volume": 0.5,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.5,
   "capacity": null,
   "mass": 100.0,
   "category_name": "常用物品",

@@ -3,7 +3,7 @@
   "name": "Ta3紧凑型船体扫描器",
   "description": "扫描目标舰船，并对其能力做出战术分析。目标超出扫描范围越远，扫描结果就越不精确。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

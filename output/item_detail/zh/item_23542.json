@@ -3,7 +3,7 @@
   "name": "监视记录",
   "description": "由高科技监听装置捕获的秘密通信的储存记录。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

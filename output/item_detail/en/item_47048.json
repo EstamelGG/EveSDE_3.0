@@ -3,7 +3,7 @@
   "name": "Frozen Droplet of Blood",
   "description": "This frozen droplet of blood originates from the Battle of E-DOF2, in which the first Blood Raider Sotiyo was destroyed by Imperium forces. Whether the droplet comes from a Blood Raider, a crew member of the capsuleer fleet, or even the ornamental blood painted on the Sotiyo's defending fleet  is anyone's guess.",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": 10.0,
   "category_name": "Special Edition Assets",

@@ -3,7 +3,7 @@
   "name": "制导系统",
   "description": "用于锁定系统和跟踪计算机的电气设备。",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": null,
   "category_name": "行星商品",

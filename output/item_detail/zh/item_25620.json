@@ -3,7 +3,7 @@
   "name": "接口电路",
   "description": "接口电路是常见的星舰子系统建造模块。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

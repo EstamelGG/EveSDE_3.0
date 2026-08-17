@@ -3,7 +3,7 @@
   "name": "Intact Armor Nanobot",
   "description": "Recovered from amongst the debris of a Sleeper facility, this ancient device is somehow still entirely functional. Just one of these items holds countless nanoassemblers inside, offering a comprehensive view of the finer details in the Sleeper's defensive systems.\n\nPristine, working examples of Sleeper technology such as this are extremely rare and even more valuable. With the right skills and equipment, they can offer great insights into the scientific pursuits of the ancient race that designed them.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": null,
   "category_name": "Ancient Relics",

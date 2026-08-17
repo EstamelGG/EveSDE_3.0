@@ -3,7 +3,7 @@
   "name": "Cladistic-5 'Krai Veles' Filament",
   "description": "The Cladistic-5 'Krai Veles' Filament permits up to 5 ships to travel from Known Space to a system in Triglavian space controlled by the Veles Clade.\n\nTriglavian mastery of space-time conduit technology allows them relatively fine control over the generation and targeting of FTL conduits. The filament devices used by Triglavian forces aligned to Veles Clade are connected to the artificial constellation of Krai Veles. Even those unfamiliar with how to precisely target them will find the conduits they generate will transport them to Veles-controlled space.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "Commodity",

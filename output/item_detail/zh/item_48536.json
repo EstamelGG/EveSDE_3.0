@@ -3,7 +3,7 @@
   "name": "共和国司法部黄金奖励",
   "description": "由共和国安全局发放的对全身心投入其反奴役者行动的奖励。",
   "volume": 10000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10000.0,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

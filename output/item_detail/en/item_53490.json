@@ -3,7 +3,7 @@
   "name": "Festival Tier 1 Filament Crate",
   "description": "This crate contains 3 Calm Abyssal Filament Crates",
   "volume": 4.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4.0,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

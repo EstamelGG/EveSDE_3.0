@@ -3,7 +3,7 @@
   "name": "Low-grade Spur Gamma",
   "description": "This neural boost has been modified by Gallente scientists for use by their elite officers. \n\nPrimary Effect: +2 Bonus to Willpower\n\nSecondary Effect: Adds an additional 1 point of magnetometric sensor strength to piloted ship",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

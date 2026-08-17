@@ -3,7 +3,7 @@
   "name": "Capital Capacitor Battery",
   "description": "A multiple-thousand kilojoule capacitor battery, engineered for use in capital ships.",
   "volume": 2000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2000.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "Commodity",

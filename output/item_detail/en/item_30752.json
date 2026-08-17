@@ -3,7 +3,7 @@
   "name": "Intact Hull Section",
   "description": "Found drifting amongst the ruins of a Sleeper compound, these large sections of a Sleeper vessel represent a significant archaeological discovery. Not only is the hull itself an incredibly rare find, but the excellent condition it is in makes this a particularly useful case study for the Sleeper's ship construction methods.\n\nPristine, working examples of Sleeper technology such as this are extremely rare and even more valuable. With the right skills and equipment, they can offer great insights into the scientific pursuits of the ancient race that designed them.",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": null,
   "mass": null,
   "category_name": "Ancient Relics",

@@ -3,7 +3,7 @@
   "name": "锆石",
   "description": "锆石是卫星中开采出的一种稀有矿石，价值很高，能够产出丰富的<a href=showinfo:16648>铪</a>，可作为许多高级矿物的关键元素。锆石矿石还会产出<a href=showinfo:16638>钛</a>和<a href=showinfo:16636>硅酸盐</a>。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "小行星",

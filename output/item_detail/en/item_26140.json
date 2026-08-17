@@ -3,7 +3,7 @@
   "name": "Rogue Harvester",
   "description": "A rogue harvester.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Commodity",

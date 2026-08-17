@@ -3,7 +3,7 @@
   "name": "Pilgrims",
   "description": "Amarr pilgrims seeking enlightenment at the holy sites that litter the Empire.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 20.0,
   "category_name": "Commodity",

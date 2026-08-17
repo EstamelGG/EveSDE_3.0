@@ -3,7 +3,7 @@
   "name": "A3 Industrial Gear",
   "description": "This crate contains modules that are useful for an Industrial ship.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

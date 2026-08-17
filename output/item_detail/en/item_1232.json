@@ -3,7 +3,7 @@
   "name": "Dark Ochre",
   "description": "Considered a worthless ore for years, dark ochre was ignored by most miners until improved reprocessing techniques managed to extract the huge amount of <a href=showinfo:37>Isogen</a> and <a href=showinfo:36>Mexallon</a> inside it. Dark ochre also contains useful amounts of <a href=showinfo:38>Nocxium</a>.\n\nAvailable primarily in low security status star systems.",
   "volume": 8.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 8.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

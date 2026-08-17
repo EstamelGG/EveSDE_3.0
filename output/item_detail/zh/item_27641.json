@@ -3,7 +3,7 @@
   "name": "古斯塔斯鱼雷发射台",
   "description": "为装载鱼雷而设计的发射阵列。向控制塔指定的敌人开火。",
   "volume": 1000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1000.0,
   "capacity": 4500.0,
   "mass": 50000000.0,
   "category_name": "母星",

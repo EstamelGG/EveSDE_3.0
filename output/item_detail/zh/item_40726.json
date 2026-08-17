@@ -3,7 +3,7 @@
   "name": "古力西瓦刺客",
   "description": "古力西瓦是一群专门追寻特殊目标的古斯塔斯飞行员，无论是暗杀，绑架，还是劫镖都来者不拒。其中的行刺高手常常驾驶着装备精良的巡洋舰。",
   "volume": 101000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 101000.0,
   "capacity": 440.0,
   "mass": 9600000.0,
   "category_name": "空间实体",

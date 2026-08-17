@@ -3,7 +3,7 @@
   "name": "调制型露天采矿器 II",
   "description": "调制型露天采矿器II拥有大量与调制型深层地核露天采矿器II一样的晶体调频技术，只是缺乏深层地核采矿能力。 \n\n只能装配在采矿驳船和采掘者舰船上。.\n\n此设备使用采矿晶体， \n\n但不能装配基腹断岩采集晶体。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 10.0,
   "mass": null,
   "category_name": "装备",

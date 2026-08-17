@@ -3,7 +3,7 @@
   "name": "Batch Compressed Mercoxit II-Grade",
   "description": "Though it floats through the frigid depths of space, II-Grade mercoxit's striking appearance and sheen gives it the impression of bubbling magma. If this visual treasure wasn't enticing enough, the 5% higher yield certainly attracts admirers.\n\nMercoxit is a very dense ore that must be mined using specialized deep core mining techniques. It contains massive amounts of the extraordinary <a href=showinfo:11399>Morphite</a> mineral.\n\n<i>This material was compressed using an older process that compressed batches of raw materials into units using a set input quantity. Newer compression technology uses a more flexible one-to-one unit compression system.</i>",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

@@ -3,7 +3,7 @@
   "name": "Militants",
   "description": "A combative character; aggressive, especially in the service of a cause.",
   "volume": 2.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Commodity",

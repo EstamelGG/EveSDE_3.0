@@ -3,7 +3,7 @@
   "name": "共和舰队碳铅弹 S",
   "description": "小型射弹弹药。这种弹药采用了一种简单的铅块，外面包着一层坚硬的晶化碳弹壳。它的价格相当便宜，而且对多数装甲非常有效。不过对能量护盾却没多大作用。最佳射程提升60%。跟踪速度提高5%。",
   "volume": 0.0025,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.0025,
   "capacity": null,
   "mass": 0.01,
   "category_name": "弹药",

@@ -3,7 +3,7 @@
   "name": "停滞缠绕探针",
   "description": "这种探针由安装在拦截舰上的拦截泡发射器部署，可以降低在其有效区域内的舰船的最大速度。",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "弹药",

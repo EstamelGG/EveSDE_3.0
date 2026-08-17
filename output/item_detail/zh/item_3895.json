@@ -3,7 +3,7 @@
   "name": "安全关系学",
   "description": "关于军事文化的知识。每升一级，为军团安全部门的代理人工作时，所获忠诚点数增加10%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

@@ -3,7 +3,7 @@
   "name": "损坏的地球数据芯片—武器",
   "description": "这些古老的数据储存设备已被严重损坏，但仍然有可能从中提取一些有用的数据。",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "常用物品",

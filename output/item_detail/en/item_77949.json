@@ -3,7 +3,7 @@
   "name": "Imperial Exploit Log",
   "description": "A series of errors logged as an Amarrian virus attempts a brute force attack, searching for critical exploits in its target’s code.\n\nWithin the log, there are clues as to the virus' methodology. With enough logs Minmatar security forces might be able to protect against future attacks.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

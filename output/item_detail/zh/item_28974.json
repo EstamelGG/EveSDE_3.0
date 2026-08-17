@@ -3,7 +3,7 @@
   "name": "疫苗",
   "description": "向动物注入微量的病原体可以训练其生理机能对疾病的抵抗能力，大大地增强免疫系统，使其能够更长时间地暴露在有害环境中",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": null,
   "category_name": "行星商品",

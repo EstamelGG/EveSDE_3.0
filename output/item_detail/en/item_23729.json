@@ -3,7 +3,7 @@
   "name": "Valkyrie SW-600",
   "description": "Medium Webifier Drone\n\nBecause of the instability inherent in affixing large, ship-capable webifier equipment to a small, mobile, independently powered carrier such as a mobile drone, the manufacturer had to sacrifice certain aspects of the drone's infrastructure. As a result, the drone has a high signature radius, making it relatively easy to target and hit, and isn't sturdy enough to suffer more than a few blows to its carapace.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 3000.0,
   "category_name": "Drone",

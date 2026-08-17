@@ -3,7 +3,7 @@
   "name": "Domination Medium AutoCannon Battery",
   "description": "Fires a barrage of large projectiles at those the Control Tower deems its enemies. Maintains a consistent spread of fire and is able to track fast-moving targets, but lacks some of the power of its artillery counterpart.",
   "volume": 1000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1000.0,
   "capacity": 1000.0,
   "mass": 50000000.0,
   "category_name": "Starbase",

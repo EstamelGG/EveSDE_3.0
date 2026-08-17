@@ -3,7 +3,7 @@
   "name": "Temple Stone",
   "description": "This stone is from a sacred temple, valued both by the minmatar and the amarr.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

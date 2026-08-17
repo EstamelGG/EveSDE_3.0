@@ -3,7 +3,7 @@
   "name": "被污染的洛伦兹流体",
   "description": "洛伦兹流体的命名来自于其众多的电力学特性，它具有强大的传导性而且极耐高温。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

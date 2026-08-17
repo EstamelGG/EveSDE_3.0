@@ -3,7 +3,7 @@
   "name": "Takmahl Technology",
   "description": "Basic understanding of interfacing with Takmahl technology.\n\nThe Takmahl nation excelled in cybernetics and bio-engineering.\n\nAllows the rudimentary use of Takmahl components in the creation of advanced technology, even though the scientific theories behind them remain a mystery.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

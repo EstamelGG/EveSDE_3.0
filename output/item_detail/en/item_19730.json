@@ -3,7 +3,7 @@
   "name": "Communications Logs",
   "description": "A stack of encrypted communications logs.  Valuable intelligence data in the right hands.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

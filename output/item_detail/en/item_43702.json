@@ -3,7 +3,7 @@
   "name": "Ice Harvesting Drone Operation",
   "description": "Skill at controlling ice harvesting drones. 5% reduction in ice harvesting drone cycle time per level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

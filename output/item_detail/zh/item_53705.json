@@ -3,7 +3,7 @@
   "name": "中级极乐 - 贝它型",
   "description": "这款记忆增强体使用了萨沙的技术进行研发，专供萨沙和其关联势力的精英飞行员使用。与其他属于同一套装的植入体搭配使用时可以提高护盾值加成。\n\n\n\n主要效果：记忆属性值增加3\n\n\n\n次要效果：护盾值提高2%\n\n\n\n套件效果：所有“极乐”植入体次要效果增加10%",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

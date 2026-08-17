@@ -3,7 +3,7 @@
   "name": "Ship Scanner I",
   "description": "Scans the target ship and provides a tactical analysis of its capabilities. The further it goes beyond scan range, the more inaccurate its results will be.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

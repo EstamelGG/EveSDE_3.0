@@ -3,7 +3,7 @@
   "name": "雷维利的改良型集成式分析仪",
   "description": "这个多用途分析仪完美整合了考古和破译系统，即可用于分析远古遗迹，也可以用来破译电子安全系统。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

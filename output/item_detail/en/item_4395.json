@@ -3,7 +3,7 @@
   "name": "Medium Processor Overclocking Unit I",
   "description": "This ship modification is designed to increase a ship's CPU.\n\nPenalty: - 5% Shield Recharge Rate Bonus.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "Module",

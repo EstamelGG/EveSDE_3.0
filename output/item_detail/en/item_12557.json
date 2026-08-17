@@ -3,7 +3,7 @@
   "name": "Gleam S",
   "description": "The Gleam overdrive crystal has tremendous damage capacity but needs substantially more energy than normal. The delicate crystalline structures used in the manufacture of this advanced crystal degrade with use, eventually causing it to shatter.\n\n75% reduced optimal range.\n25% increased tracking speed.\n\nNote: This ammunition can only be used by small tech level II and faction Beam Lasers.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

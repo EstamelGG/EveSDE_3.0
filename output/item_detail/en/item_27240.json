@@ -3,7 +3,7 @@
   "name": "Eifyr and Co. 'Alchemist' Gas Harvesting GH-801",
   "description": "A neural Interface upgrade that boosts the pilot's skill at gas harvesting.\n\n1% reduction to gas cloud harvester cycle time.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

@@ -3,7 +3,7 @@
   "name": "高密度冰晶矿",
   "description": "作为宇宙中最富含锶包合物的已知原料，冰晶矿类冰只有在特定的若干环境因素共同作用下才能形成。冰晶矿化合物中还含有不少液态臭氧。这种矿物被压缩过，比它的原始形态紧密得多。",
   "volume": 100.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 100.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "小行星",

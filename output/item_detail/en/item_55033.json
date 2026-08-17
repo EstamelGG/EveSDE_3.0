@@ -3,7 +3,7 @@
   "name": "Vorton Projector Operation",
   "description": "Basic skill for operation of ship-based Arcing Vorton Projectors.\n\n2% Bonus to all Vorton Projectors' rate of fire per skill level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

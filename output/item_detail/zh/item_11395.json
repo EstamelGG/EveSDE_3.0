@@ -3,7 +3,7 @@
   "name": "深核开采法研究",
   "description": "操作需要深核开采法研究的采矿激光器的技能。每升一级，当开采基腹断岩时，危险云团的形成几率减少10%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

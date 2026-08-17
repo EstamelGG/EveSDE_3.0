@@ -3,7 +3,7 @@
   "name": "Graviton Physics",
   "description": "Skill and knowledge of Graviton physics and its use in the development of advanced technology. \n\nUsed primarily in the research of Cloaking and other spatial distortion devices as well as Graviton based missiles and smartbombs. \n\nAllows Graviton Physics research to be performed with the help of a research agent. \n\nNeeded for all research and manufacturing operations on related blueprints. 1% reduction in manufacturing time for all items requiring Graviton Physics per level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

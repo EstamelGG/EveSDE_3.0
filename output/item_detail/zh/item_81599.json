@@ -3,7 +3,7 @@
   "name": "切玛科技遗传学家",
   "description": "一名由切玛科技雇佣的科学家，专精于人类克隆。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 65.0,
   "category_name": "常用物品",

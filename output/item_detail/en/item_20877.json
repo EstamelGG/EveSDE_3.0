@@ -3,7 +3,7 @@
   "name": "True Sanshas Gamma M",
   "description": "Modulates the beam of a laser weapon into the gamma frequencies. Greatly reduced range. Greatly increased thermal damage.\n\nThe delicate crystalline structures used in the manufacture of this advanced crystal degrade with use, eventually causing it to shatter.\n\n37.5% reduced optimal range.\n15% reduced capacitor need.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

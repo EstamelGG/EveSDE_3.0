@@ -3,7 +3,7 @@
   "name": "Guristas Damage Booster III",
   "description": "This booster has been produced by the Guristas Pirates to assist their recon force.\n\n<b>+6% Missile Damage and +6% Drone Damage. Base Duration: 2 Hours.</b>",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

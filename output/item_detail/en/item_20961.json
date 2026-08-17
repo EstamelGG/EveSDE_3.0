@@ -3,7 +3,7 @@
   "name": "Guardian Iron Charge M",
   "description": "Consists of two components: a shell of titanium and a core of iron atoms suspended in a plasma state. Railguns launch the shell directly, while particle blasters pump the plasma into a cyclotron and process the plasma into a bolt that is then fired.\n\n60% increased optimal range.\n30% reduced capacitor need.",
   "volume": 0.0125,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.0125,
   "capacity": null,
   "mass": 0.05,
   "category_name": "Charge",

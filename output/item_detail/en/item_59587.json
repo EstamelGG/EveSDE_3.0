@@ -3,7 +3,7 @@
   "name": "Minmatar Liberation Day Apparel Crate",
   "description": "Contains Minmatar Liberation Day clothing items to demonstrate your Minmatar Independence!",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

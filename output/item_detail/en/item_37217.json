@@ -3,7 +3,7 @@
   "name": "Standup M-Set Missile Precision II",
   "description": "The Standup M-Set Missile Precision II rig provides a means for structure operators to adjust hardware systems involved in missile guidance so as to improve the precision of missiles launched from missile systems installed in their Upwell technology structures.\n\nStandup is a proprietary system that uses a Structure Autonomous Nanoassembly Device (Upwell) containing integrated template software, a nanoassembler array and sufficient nanomass to enable the construction of a variety of service modules, structure modules and structure rigs when inserted into the appropriate slots on a structure built with Upwell technology.\n\nNote: Only one rig of the same type, counting both tech variations, may be fitted at the same time on a structure.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "Structure Module",

@@ -3,7 +3,7 @@
   "name": "Drone Assembly Array",
   "description": "A mobile assembly facility where small unmanned drones can be manufactured.\n\nNote: Fighters are built in Small Ship Assembly Arrays.",
   "volume": 1250.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1250.0,
   "capacity": 1000000.0,
   "mass": 100000000.0,
   "category_name": "Starbase",

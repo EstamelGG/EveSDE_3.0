@@ -3,7 +3,7 @@
   "name": "Capsuleer Dawn Firework (Large)",
   "description": "Celebrating the dawn of the Capsuleer space pilots, this pyrotechnic blasts the symbolism of the capsule into space in a multicolored firework display.\n\nThe Capsuleer Age began with the joining of the capsule and the clone in YC105, making it possible for independent spaceship captains to avail themselves of capsule technology and the benefits of high-fidelity cloning and personality transfer.\n\nNote: this firework is designed for use in Standup Large Festival Launchers equipped to Upwell Structures.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

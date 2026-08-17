@@ -3,7 +3,7 @@
   "name": "Prototype 'Pluto' Mining Drone Blueprint Crate",
   "description": "Contains a 5-run blueprint for the Prototype 'Pluto' Mining Drone.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

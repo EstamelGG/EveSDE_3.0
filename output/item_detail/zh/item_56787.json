@@ -3,7 +3,7 @@
   "name": "血色收割T恤礼物箱",
   "description": "这个礼物箱中有血色收割T恤",
   "volume": 4.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4.0,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

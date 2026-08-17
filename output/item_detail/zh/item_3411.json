@@ -3,7 +3,7 @@
   "name": "控制论",
   "description": "协调生物和机械组件的技能。掌握后可以使用脑控植入体。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

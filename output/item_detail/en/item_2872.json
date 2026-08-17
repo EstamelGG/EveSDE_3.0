@@ -3,7 +3,7 @@
   "name": "Self-Harmonizing Power Core",
   "description": "Camera drones diligently monitor temperature, radioactivity and electrical output of these advanced nuclear reactions. This allows instant adjustments that result in maximum efficiency. With such advanced automation, no human attention is required whatsoever.",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

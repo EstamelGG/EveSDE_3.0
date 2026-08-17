@@ -3,7 +3,7 @@
   "name": "Small EMP Smartbomb I",
   "description": "Radiates an omnidirectional pulse from the ship that causes EM damage to surrounding vessels.",
   "volume": 12.5,
-  "repackaged_volume": null,
+  "repackaged_volume": 12.5,
   "capacity": null,
   "mass": 10.0,
   "category_name": "Module",

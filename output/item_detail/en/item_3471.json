@@ -3,7 +3,7 @@
   "name": "Inherent Implants 'Noble' Mechanic MC-802",
   "description": "A neural Interface upgrade that boosts the pilot's skill at maintaining the mechanical components and structural integrity of a spaceship.\n\n2% bonus to hull hp.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

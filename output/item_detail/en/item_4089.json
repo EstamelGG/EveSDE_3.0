@@ -3,7 +3,7 @@
   "name": "Clearance Papers",
   "description": "These clearance papers allow the bearer access to the cluster's most expert career training advisors.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

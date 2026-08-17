@@ -3,7 +3,7 @@
   "name": "Biocells",
   "description": "Similar to an ancient battery, a biocell instead uses biofuels distilled from organic material and precious metals to produce an electrical current in a self-contained, modular unit. However, modern biocells dwarf the capabilities of ancient batteries by several orders of magnitude.",
   "volume": 0.75,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.75,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

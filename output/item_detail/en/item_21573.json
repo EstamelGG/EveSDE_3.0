@@ -3,7 +3,7 @@
   "name": "Esoteric Process",
   "description": "These are clever tips to improve the quality of Caldari blueprints received through invention.<br><br>Probability Multiplier: +10% <br>Max. Run Modifier: N/A <br>Material Efficiency Modifier: +3 <br>Time Efficiency Modifier: +6",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Decryptors",

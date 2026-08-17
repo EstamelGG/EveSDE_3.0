@@ -3,7 +3,7 @@
   "name": "供给学",
   "description": "在市场上远程发布购买订单的技能。等级1允许在同一恒星系内发布购买订单，等级2扩大到5个跳跃内的星系，随后每个等级加倍。等级5时可以在当前星域内任何地方发布购买订单。  \n\n\n\n注意：发布购买订单和直接远程购买不同，直接远程购买不需要技能。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

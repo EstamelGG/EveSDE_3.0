@@ -3,7 +3,7 @@
   "name": "高级末日武器操作技术",
   "description": "熟练掌握泰坦末日武器。每升一级，额外造成7.5%的伤害。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

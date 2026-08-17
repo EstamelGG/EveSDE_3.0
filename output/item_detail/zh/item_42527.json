@@ -3,7 +3,7 @@
   "name": "信息战指挥脉冲波 I",
   "description": "这个装备可以装载一系列信息战指挥脉冲波弹药，对舰队成员投射一个纳米增益力场，提高他们的感应器和电子战能力。",
   "volume": 60.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 60.0,
   "capacity": 3.0,
   "mass": null,
   "category_name": "装备",

@@ -3,7 +3,7 @@
   "name": "小型信号干扰增效装置 I",
   "description": "这个飞船改装件用于减少ECM和ECM脉冲设备的电容器需求。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "装备",

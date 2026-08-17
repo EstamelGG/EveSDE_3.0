@@ -3,7 +3,7 @@
   "name": "Structure Mission Network",
   "description": "A computerized interface allowing people to barter goods and services with the outpost acting as centralized broker and data bank.",
   "volume": 3000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3000.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "Commodity",

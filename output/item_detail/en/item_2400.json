@@ -3,7 +3,7 @@
   "name": "Toxic Metals",
   "description": "Derived from heavy metals, toxic metals are those that have no biological function and are in fact poisonous to most living creatures.",
   "volume": 0.19,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.19,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

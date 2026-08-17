@@ -3,7 +3,7 @@
   "name": "Smashed Trigger Unit",
   "description": "This Thermonuclear Trigger Unit while smashed still seems to have it's nuclei containment field intact and the plasma seems to be near thermal equilibrium. It would be a shame to waste this unit just because of its cosmetic damage.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

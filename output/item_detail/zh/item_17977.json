@@ -3,7 +3,7 @@
   "name": "聚合冰体（4级）",
   "description": "星际里的冰通常都是由气体分子不断附着于硅酸盐尘粒而形成。聚合冰体因含有大量的氢同位素而闻名，但这块矿石的高度表面扩散性意味着它所含的氢同位素比更粗糙的同类矿石高得多。可于安全等级为<color='0xFFFF0000'>0.0</color>及以下的星系开采。",
   "volume": 1000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "小行星",

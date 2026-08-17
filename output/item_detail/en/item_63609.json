@@ -3,7 +3,7 @@
   "name": "Halcyon G-4 Booster",
   "description": "It will apply immediately when redeemed. Base Duration 2 Hours.\n\n4% bonus to shield, armor, and structure hitpoints\n4% bonus to ship agility\n4% bonus to turret tracking speed\n4% bonus to missile explosion velocity\n4% bonus to vorton projector explosion radius and explosion velocity\n4% bonus to capacitor recharge rate\n4% bonus to drone damage\n4% bonus to mining laser and ice harvester cycle time\n8% bonus to maximum targeting range\n8% bonus to sensor strength\n8% bonus to scan probe strength",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Implant",

@@ -3,7 +3,7 @@
   "name": "铪",
   "description": "一种用于多种金属合金的银色耐腐蚀金属，有时也用于混合武器系统。",
   "volume": 0.05,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.05,
   "capacity": null,
   "mass": 10640.0,
   "category_name": "材料",

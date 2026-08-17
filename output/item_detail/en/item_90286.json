@@ -3,7 +3,7 @@
   "name": "Unrefined Mexallon",
   "description": "An unrefined form of the mineral <a href=showinfo:36>Mexallon</a>.\n\nIt can be reprocessed into a variable quantity of the base form of that mineral, which can then be used in a variety of industry jobs.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

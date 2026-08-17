@@ -3,7 +3,7 @@
   "name": "全能核心操作理论",
   "description": "操作长须鲸级的脉冲激活式关联全能核心装备的技能。每升一级，脉冲激活式关联全能核心的效果持续时间和循环时间增加10%",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

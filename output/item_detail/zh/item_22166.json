@@ -3,7 +3,7 @@
   "name": "便携式发电机",
   "description": "一个可以给小型空间装置供电的小型发电机。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 1500.0,
   "category_name": "常用物品",

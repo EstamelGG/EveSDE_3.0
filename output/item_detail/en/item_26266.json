@@ -3,7 +3,7 @@
   "name": "Lazron Kamon",
   "description": "A scientist specialized in Drone Creation and AI programming.",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": 80.0,
   "category_name": "Commodity",

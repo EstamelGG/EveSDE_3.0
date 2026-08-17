@@ -3,7 +3,7 @@
   "name": "Core Probe Launcher I",
   "description": "Launcher for <a href=showinfo:30013>Core Scanner Probes</a>, which are used to scan down Cosmic Signatures in space.\n\nNote: Only one probe launcher can be fitted per ship.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 0.8,
   "mass": null,
   "category_name": "Module",

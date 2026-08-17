@@ -3,7 +3,7 @@
   "name": "Fleet Command",
   "description": "Advanced proficiency at projecting beneficial effects to fleetmates. Increases Command Burst and Mining Foreman Burst area of effect range by 5% per skill level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

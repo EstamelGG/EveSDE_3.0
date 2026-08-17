@@ -3,7 +3,7 @@
   "name": "Shadow Control Tower",
   "description": "The Shadow Control Tower is a special enhanced version of the Gallente control tower utilizing the latest in cutting edge design techniques.\n\nRacial Bonuses:\n25% bonus to Hybrid Sentry Damage\n100% bonus to Silo Cargo Capacity",
   "volume": 8000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 8000.0,
   "capacity": 140000.0,
   "mass": 200000000.0,
   "category_name": "Starbase",

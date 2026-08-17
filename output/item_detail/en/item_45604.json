@@ -3,7 +3,7 @@
   "name": "Proteus Offensive - Hybrid Encoding Platform",
   "description": "This complex armature is composed of fullerene composites and based upon the understood weapons mechanics of salvaged Sleeper drones. Gallente researchers have fused this technology with the emerging theories on magnetic resonance encoding and microwarp capabilities to power the kinetic energy systems of hybrid turrets. With these mechanics in place, the hybrid encoding platform creates an effective distribution module for hybrid charges, bolstering their damage output and their falloff range.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 800000.0,
   "category_name": "Subsystem",

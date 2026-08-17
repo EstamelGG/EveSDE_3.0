@@ -3,7 +3,7 @@
   "name": "融化的雪球CXIV",
   "description": "这个雪球本来比人的脑袋还大的，不过现在只是一滩雪水了。真可惜。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "特别版用品",

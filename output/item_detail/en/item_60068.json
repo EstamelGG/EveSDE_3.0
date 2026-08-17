@@ -3,7 +3,7 @@
   "name": "Serenity Rookie Exclusive Cerebral Accelerator",
   "description": "This Cerebral Accelerator is only designed for and available on Serenity.\n\nCerebral accelerators are military grade boosters that significantly increase a pilot’s skill development for a limited time. This is achieved by priming the user’s brain and neural pathways for increased data bandwidth during knowledge transfer.\n\nDesigned for new capsuleers, this cerebral accelerator will cease to function for pilots who have been registered for more than 30 days.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

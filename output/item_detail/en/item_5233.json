@@ -3,7 +3,7 @@
   "name": "Single Diode Basic Mining Laser",
   "description": "Common, low technology mining laser. Works well for extracting common ore, but not useful for much else.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

@@ -3,7 +3,7 @@
   "name": "晨曦特别涂装箱",
   "description": "内含随机涂装。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

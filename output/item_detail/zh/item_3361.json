@@ -3,7 +3,7 @@
   "name": "犯罪关系研究",
   "description": "与不法NPC交涉的技能。每升一级，对于低统合部声望的NPC有效声望值增加4%。不与外交学或者关系学技能进行累加。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

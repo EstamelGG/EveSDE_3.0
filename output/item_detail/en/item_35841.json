@@ -3,7 +3,7 @@
   "name": "Ansiblex Jump Bridge",
   "description": "Designed by the Upwell Consortium to function as the successor and improvement over starbase jump bridges, the Ansiblex Jump Bridge is the flagship of their new Fast Logistical EXpansion (FLEX) structures product line.\n\nThe Ansiblex enables point-to-point FTL travel even for ships that lack their own jump drives, and a matched pair of bridges provides a transport connection between two star systems within its operational range, using stabilized spatiotemporal tunneling. The Ansiblex makes a large number of improvements over the older jump bridge portal devices, and incorporates some elements of Triglavian Collective space-time conduit technology in its workings.\n\nEach Ansiblex Jump Bridge structure is automatically equipped with one <a href=showinfo:35913>Standup Conduit Generator I</a> service module. This service module may only be onlined in a system that contains a sovereignty hub with the <a href=showinfo:81621>Advanced Logistics Network</a> upgrade active.\n\nMay not be deployed within 500km of another Upwell Structure, 100000km of Stargates, and 1000km of Stations, or Starbases. A maximum of one Jump Bridge may be deployed per system.",
   "volume": 6000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 6000.0,
   "capacity": null,
   "mass": 3000000000.0,
   "category_name": "Structure",

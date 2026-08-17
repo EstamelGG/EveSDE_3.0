@@ -3,7 +3,7 @@
   "name": "荧黑稀金矿",
   "description": "卫星出产的黑稀金矿石有时会产出极高密度的珍稀矿物。这样的矿石就被称为荧黑稀金矿，提炼后可以获得的有用矿物数量是普通矿石的两倍。\n\n\n\n黑稀金矿是卫星中开采出的一种普通矿石，用处很大，能够产出丰富的<a href=showinfo:16639>钪</a>，可作为许多高级矿物的重要元素。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "小行星",

@@ -3,7 +3,7 @@
   "name": "天蛇感应抑阻波发射台",
   "description": "循环抑阻敌方感应器的可部署结构。",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": 100000000.0,
   "category_name": "母星",

@@ -3,7 +3,7 @@
   "name": "制导导弹精确打击理论",
   "description": "使用制导导弹精确打击目标的技能。掌握这个技能可以提高导弹弹着点的精度，从而对小型目标造成更大的伤害。每升一级，所有导弹的爆炸信号半径系数减小5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

@@ -3,7 +3,7 @@
   "name": "暗影小型磁轨炮台",
   "description": "向控制塔指定的敌人连续发射中型混合炮弹。破坏力很大，适合远程攻击。",
   "volume": 500.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 500.0,
   "capacity": 120.0,
   "mass": 100000000.0,
   "category_name": "母星",

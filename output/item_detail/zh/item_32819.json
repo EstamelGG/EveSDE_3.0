@@ -3,7 +3,7 @@
   "name": "中型冰矿采集器加速器 I",
   "description": "该改装件用来降低冰矿采集器的运转周期。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "装备",

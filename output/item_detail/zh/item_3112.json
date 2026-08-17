@@ -3,7 +3,7 @@
   "name": "埃菲尔公司 游侠 高速机动 HS-902",
   "description": "改进微型跃迁引擎性能。\n\n对于那些需要高速机动理论这一技能的装备，电容需求减少2%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

@@ -3,7 +3,7 @@
   "name": "Inherent Implants 'Lancer' Large Energy Turret LE-1006",
   "description": "An Inherent Implants gunnery hardwiring designed to enhance skill with large energy turrets.\n\n6% bonus to large energy turret damage.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

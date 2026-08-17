@@ -3,7 +3,7 @@
   "name": "Mid-grade Hydra Gamma",
   "description": "This neural boost has been modified by Guristas scientists for use by their elite officers.\n\nPrimary Effect: +3 Bonus to Willpower\n\nSecondary Effect: 2% bonus to drone tracking speed, drone optimal range, drone falloff range, missile flight time, and missile explosion velocity\n\nSet Effect: 10% bonus to the strength of all Hydra implant secondary effects\n\nNote: Has no effect on fighters",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

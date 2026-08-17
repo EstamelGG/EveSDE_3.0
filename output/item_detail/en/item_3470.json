@@ -3,7 +3,7 @@
   "name": "Inherent Implants 'Noble' Remote Armor Repair Systems RA-706",
   "description": "A neural Interface upgrade that boosts the pilot's skill in the operation of remote armor repair systems.\n\n6% reduced capacitor need for remote armor repair system modules.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

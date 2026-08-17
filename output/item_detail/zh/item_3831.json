@@ -3,7 +3,7 @@
   "name": "中型护盾扩展装置 II",
   "description": "增加护盾的最大强度。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

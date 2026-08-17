@@ -3,7 +3,7 @@
   "name": "贵族的遗物",
   "description": "某个年轻伯爵的DNA残余物。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

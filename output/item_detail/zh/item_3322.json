@@ -3,7 +3,7 @@
   "name": "自动锁定导弹",
   "description": "使用自动锁定导弹的技能。特有加成：每升一级，自动锁定导弹（轻型、重型及巡航）的伤害提高5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

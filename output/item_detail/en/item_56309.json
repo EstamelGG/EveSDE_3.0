@@ -3,7 +3,7 @@
   "name": "Capital Abyssal Shield Booster",
   "description": "Expends energy to provide a quick boost in shield strength.\n\nNote: May only be fitted to capital class ships.",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

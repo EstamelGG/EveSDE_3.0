@@ -3,7 +3,7 @@
   "name": "Crates of Command Reports",
   "description": "Despite the fact that these datachips really only contain logistical information, promotion notifications, and other mundane military records, they are nonetheless classified.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 40000.0,
   "category_name": "Commodity",

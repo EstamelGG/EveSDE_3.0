@@ -3,7 +3,7 @@
   "name": "节日限定前哨大脑加速器III型",
   "description": "这种特殊型号的大脑加速器可以稳定地提升飞行员工作的效率，不会产生任何副作用。\n\n使用后的效果为：\n\n所有属性+1\n\n此效果可以在使用后的至少3天内持续发挥效能，具体时间根据植入者的<a href=showinfo:3405>生物学</a>技能等级而定。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "植入体",

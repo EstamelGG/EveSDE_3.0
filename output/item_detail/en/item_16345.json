@@ -3,7 +3,7 @@
   "name": "Upgraded Layered Coating I",
   "description": "This coating is composed of several layers, effectively increasing the armor hit points.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Module",

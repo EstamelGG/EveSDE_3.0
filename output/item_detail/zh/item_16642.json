@@ -3,7 +3,7 @@
   "name": "钒",
   "description": "一种在军火领域具有非常广泛应用的柔软银白色金属，既能用在核心部分，也能用在结构上。其化合物形式同样是一种用途广泛的催化剂。",
   "volume": 0.05,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.05,
   "capacity": null,
   "mass": 6000.0,
   "category_name": "材料",

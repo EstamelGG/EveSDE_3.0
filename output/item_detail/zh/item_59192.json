@@ -3,7 +3,7 @@
   "name": "采矿闪击产出提升药剂 I",
   "description": "<b>采矿激光器开采量提高5%，持续时间4小时</b>\n\n这款增效剂在兑换后会直接对人物使用，而非放置在仓库中。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "植入体",

@@ -3,7 +3,7 @@
   "name": "Mini Skill Injector",
   "description": "This item can be activated in a station to grant the user unallocated skill points. Skill injectors are consumed immediately once activated.\n\nThis can only be used to raise the skill points up to a total of <b>1,500,000</b>.\n\nCharacters will receive <b>25,000</b> unallocated skill points.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Accessories",

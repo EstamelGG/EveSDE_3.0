@@ -3,7 +3,7 @@
   "name": "Proteus Propulsion - Localized Injectors",
   "description": "This subsystem uses molecular-level nanotubes to increase the combustive efficiency of afterburners and microwarpdrives. Fuel is injected locally in a far more effective and controllable manner, thereby reducing the draw on the capacitor system and increasing heat tolerances during active operation.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 1400000.0,
   "category_name": "Subsystem",

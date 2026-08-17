@@ -3,7 +3,7 @@
   "name": "Crystalline Icicle",
   "description": "Interstellar ices are formed by accretion of gas molecules onto silicate dust particles. These crystalline formations can be found scattered around many stellar ice fields, but \"crystalline icicles\" have a very low isotope count compared to other minable ices, making it relatively worthless. It's simply \"space ice.\"",
   "volume": 1000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Asteroid",

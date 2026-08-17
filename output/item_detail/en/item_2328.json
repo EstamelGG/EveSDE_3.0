@@ -3,7 +3,7 @@
   "name": "Water-Cooled CPU",
   "description": "Despite how ancient the technology is, there is still no method more cost-effective for cooling computer processing units than ordinary water, which can be heated and cooled rapidly via any number of proven methods. Most often, thermally conductive tubing makes its way through all of the vital components and over heat sinks, helping to regulate operating temperatures.",
   "volume": 0.75,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.75,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

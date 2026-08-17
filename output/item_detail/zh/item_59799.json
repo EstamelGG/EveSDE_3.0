@@ -3,7 +3,7 @@
   "name": "载诺 守财奴 研发生产 RP-308",
   "description": "这种特殊型号的增效剂可以稳定地提升飞行员研发生产的效率，不会产生任何副作用。\n\n使用后的效果为：\n\n生产时间减少8%\n\n蓝图复制速度提高8%\n\n材料效率研究提高8%\n\n此效果可以在使用后的至少3天内持续发挥效能，具体时间根据植入者的<a href=showinfo:3405>生物学</a>技能等级而定。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "植入体",

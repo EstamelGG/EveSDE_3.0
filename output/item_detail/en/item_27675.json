@@ -3,7 +3,7 @@
   "name": "System Scanning Array",
   "description": "Recent necessary changes to various capsuleer protocols have rendered these structures non-functional and obsolete.\n\nThe empire corporations who originally sold this structure have reached a deal with CONCORD to buy back all remaining examples.\n\nCBD Corporation, Ducia Foundry, Material Acquisition, Minmatar Mining Corporation and Outer Ring Excavations are all now buying these structures at prices similar to the original retail price.",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": 100000000.0,
   "category_name": "Starbase",

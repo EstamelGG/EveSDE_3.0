@@ -3,7 +3,7 @@
   "name": "Ramaku's Modified 200mm AutoCannon",
   "description": "The 200mm is a powerful autocannon that can smash apart most lightly armored frigates with ease. \n\nMust be loaded with any of the following regular and advanced projectile ammo types: Carbonized Lead, Depleted Uranium, EMP, Fusion, Nuclear, Phased Plasma, Proton, Titanium Sabot, Barrage, Hail.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 0.3,
   "mass": 500.0,
   "category_name": "Module",

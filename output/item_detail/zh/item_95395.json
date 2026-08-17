@@ -3,7 +3,7 @@
   "name": "干焦岩（0级）",
   "description": "这种低纯度的干焦岩矿带，其产出比新伊甸其他地区的普通矿带要低50%。这种矿带最常见于始源星域。干焦岩是一种常见矿石，在所有星域中都能找到。它含有一定量的<a href=showinfo:35>类晶体胶矿</a>和<a href=showinfo:36>类银超金属</a>。",
   "volume": 0.3,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.3,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

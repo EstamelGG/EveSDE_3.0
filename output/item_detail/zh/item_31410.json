@@ -3,7 +3,7 @@
   "name": "旗舰级半导体记忆电池 I",
   "description": "这个飞船改装件用于来增加舰船的电容器电容量。",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "装备",

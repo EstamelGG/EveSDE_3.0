@@ -3,7 +3,7 @@
   "name": "Retired Server Hamster",
   "description": "Some retire, some expire, they seldom tire, employed in the Server.\n\nThey live on in our hearts forever.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Special Edition Assets",

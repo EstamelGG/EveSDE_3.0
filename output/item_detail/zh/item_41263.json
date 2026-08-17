@@ -3,7 +3,7 @@
   "name": "充裕型电子元件",
   "description": null,
   "volume": 0.001,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.001,
   "capacity": null,
   "mass": 0.001,
   "category_name": "材料",

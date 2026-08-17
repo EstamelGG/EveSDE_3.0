@@ -3,7 +3,7 @@
   "name": "Kylixium III-Grade",
   "description": "With 10% more mineral content, III-Grade <a href=showinfo:81900>kylixium</a> is colloquially recognized for its argil-like malleability.\n \nArgil kylixium may be found in null security space asteroid anomalies.",
   "volume": 1.2,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.2,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

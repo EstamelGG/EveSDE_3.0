@@ -3,7 +3,7 @@
   "name": "天使中型火炮塔台",
   "description": "向控制塔指定的敌人连续发射大型射弹炮弹。远距离炮击非常有效，并且破坏力很大，但是对高速近距离目标的跟踪速度比较差。",
   "volume": 1000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1000.0,
   "capacity": 65.0,
   "mass": 50000000.0,
   "category_name": "母星",

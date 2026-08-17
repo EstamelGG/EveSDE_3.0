@@ -3,7 +3,7 @@
   "name": "Republic Fleet 1200mm Artillery",
   "description": "One of the most powerful projectile cannons a battleship can equip. \n\nMust be loaded with any of the following projectile ammo types: Carbonized Lead, Depleted Uranium, EMP, Fusion, Nuclear, Phased Plasma, Proton, or Titanium Sabot.",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": 1.0,
   "mass": 750.0,
   "category_name": "Module",

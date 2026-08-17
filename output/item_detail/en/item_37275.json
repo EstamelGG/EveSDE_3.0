@@ -3,7 +3,7 @@
   "name": "Standup XL-Set Extinction Level Weapons Suite II",
   "description": "The Standup XL-Set Extinction Level Event Weapons Suite II rig provides a means for structure operators to adjust hardware systems involved in the command and control of Doomsday-class weapons, point defense batteries and structure sensor arrays. The effect of these hardware modifications is to increase the scan resolution, maximum lock range, and number of targets that may be locked by structure sensors, improving the overall strikes and yields of Doomsday-class weapons and  optimizing point defense projection and capacitor usage.\n\nStandup is a proprietary system that uses a Structure Autonomous Nanoassembly Device (Upwell) containing integrated template software, a nanoassembler array and sufficient nanomass to enable the construction of a variety of service modules, structure modules and structure rigs when inserted into the appropriate slots on a structure built with Upwell technology.\n\nNote: Only one rig of the same type, counting both tech variations, may be fitted at the same time on a structure.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "Structure Module",

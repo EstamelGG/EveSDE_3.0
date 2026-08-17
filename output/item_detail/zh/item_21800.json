@@ -3,7 +3,7 @@
   "name": "EMP电池元件",
   "description": "外表是标准的电子娱乐设备，里面隐藏着高能量电磁电池。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "常用物品",

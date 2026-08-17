@@ -3,7 +3,7 @@
   "name": "雷神自动锁定巡航导弹 I",
   "description": "艾玛帝国的一种巡航导弹，装备有电磁脉冲战斗部和自动导航系统。",
   "volume": 0.05,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.05,
   "capacity": null,
   "mass": 1250.0,
   "category_name": "弹药",

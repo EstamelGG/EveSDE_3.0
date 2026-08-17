@@ -3,7 +3,7 @@
   "name": "Modified Sleeper Corpse",
   "description": "A sleeper corpse that has been modified so as to better serve a Drifter mind.\n\nLike all cloned bodies used by Drifters, the vocal cords have been removed, its blood irradiated and flooded with nanites, and it relied on artificial life support systems managed by a secondary intelligence.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

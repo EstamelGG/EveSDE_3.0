@@ -3,7 +3,7 @@
   "name": "Amarr Advanced Outpost Refinery",
   "description": "An advanced upgrade to Amarr Outpost reprocessing capabilities. Increases ore and ice reprocessing efficiency to 57%.\n\nNote: does not affect anything else but the two groups mentioned above.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Accessories",

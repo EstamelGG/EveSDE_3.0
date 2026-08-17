@@ -3,7 +3,7 @@
   "name": "Shield Rigging",
   "description": "Advanced understanding of shield systems. Allows makeshift modifications to shield systems through the use of rigs. \n\n10% reduction in Shield Rig drawbacks per level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

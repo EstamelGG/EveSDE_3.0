@@ -3,7 +3,7 @@
   "name": "Mid-grade Halo Delta",
   "description": "This cybernetic subprocessor has been modified by Angel scientists for use by their elite officers. \n\nPrimary Effect: +3 Bonus to Intelligence\n\nSecondary Effect: 1.5% reduction in ship's signature radius\n\nSet Effect: 10% bonus to the strength of all Halo implant secondary effects",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

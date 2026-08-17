@@ -3,7 +3,7 @@
   "name": "Large Crate of Harvester Components",
   "description": "Agricultural technology, like everything else, is constantly advancing, with developments in irrigation techniques and automated systems to do the work of several farm-hands at a fraction of the overall cost. Most parts are produced on stations rather than planetside in order to reduce the cost of shipping. It also makes disposing of the more hazardous byproducts much safer, reducing the risk of planetary pollution.",
   "volume": 100.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 100.0,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Commodity",

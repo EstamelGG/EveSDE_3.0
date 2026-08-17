@@ -3,7 +3,7 @@
   "name": "Inert Capsule",
   "description": "This hydrostatic capsule is inert and unoccupied, lacking a stock of quantum-entangled 4-Helium, hyper-oxygenated crashgel or a clone blank. Nevertheless, the valuable technology of the capsule shell could be recovered and compressed for transport.",
   "volume": 27500.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 27500.0,
   "capacity": 2700.0,
   "mass": 10000.0,
   "category_name": "Entity",

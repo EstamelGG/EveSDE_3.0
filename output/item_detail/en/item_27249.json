@@ -3,7 +3,7 @@
   "name": "Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1001",
   "description": "A neural interface upgrade that boosts the pilot's skill with auto-target missiles.\n\n1% bonus to explosion radius of auto-target missiles.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

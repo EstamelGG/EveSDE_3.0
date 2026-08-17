@@ -3,7 +3,7 @@
   "name": "高级救世 - 伽玛型",
   "description": "天使科学家对这种神经增效体做了专门修改，以便于他们的精英官员使用。主要效果：毅力加成+4 次要效果：非旗舰级远程装甲维修器和远程护盾回充增量器的循环时间和电容器激活成本降低2% 套装效果：所有“救世”植入体次要效果的强度增加15%",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

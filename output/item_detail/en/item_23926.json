@@ -3,7 +3,7 @@
   "name": "Plague Spores",
   "description": "Seeds of a potent plague bacteria collected from the coat of small mammals. Has a history of ravaging any population it comes into contact with.",
   "volume": 0.5,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.5,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Commodity",

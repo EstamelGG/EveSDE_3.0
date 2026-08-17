@@ -3,7 +3,7 @@
   "name": "Capsule Cascade Firework Crate",
   "description": "This crate contains Capsule Cascade fireworks.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

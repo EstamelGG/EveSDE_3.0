@@ -3,7 +3,7 @@
   "name": "Reprocessing Array",
   "description": "An anchorable reprocessing array, able to take raw ores and process them into minerals. Has a lower reprocessing yield than fully upgraded outposts, but due to its mobile nature it is very valuable to frontier industrialists who operate light years away from the nearest permanent installation. This unit is sanctioned by CONCORD to be used in high-security space.",
   "volume": 6000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 6000.0,
   "capacity": 200000.0,
   "mass": 50000000.0,
   "category_name": "Starbase",

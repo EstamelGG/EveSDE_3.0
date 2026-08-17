@@ -3,7 +3,7 @@
   "name": "Paradoxical Nebula Firework Crate",
   "description": "This crate contains Paradoxical Nebula Fireworks and a festival launcher.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

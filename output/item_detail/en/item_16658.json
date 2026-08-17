@@ -3,7 +3,7 @@
   "name": "Silicon Diborite",
   "description": "A mineral composite which, in large quantities, gives off a distinct crystalline glow. When combined with other composites, is usable for a variety of manufacturing purposes.",
   "volume": 0.2,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.2,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

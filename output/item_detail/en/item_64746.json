@@ -3,7 +3,7 @@
   "name": "Federation Grand Prix Jacket Crate",
   "description": "Contains men's and women's racing jackets in celebration of the Federation Grand Prix.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

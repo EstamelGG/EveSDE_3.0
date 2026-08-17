@@ -3,7 +3,7 @@
   "name": "Barrage L",
   "description": "An advanced version of the standard Nuclear ammo with a Morphite-enriched warhead and a smart tracking system. \n\n25% reduced tracking.\n50% increased falloff.\n\nNote: This ammunition can only be used by large tech level II, faction and officer Autocannons.",
   "volume": 0.025,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.025,
   "capacity": null,
   "mass": 0.01,
   "category_name": "Charge",

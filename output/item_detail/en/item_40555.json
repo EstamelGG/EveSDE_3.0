@@ -3,7 +3,7 @@
   "name": "Satyr II",
   "description": "<b>Type:</b> Light Fighter\n<b>Role:</b> Space Superiority\n<b>Description:</b> A dedicated space superiority fighter, the Satyr is designed to be lethal to fighter and drone craft in its area of operations.\n\n<b>Micro Missile Swarm</b>: The Satyr can launch a swarm of missiles that are especially apt at destroying fighter and drone craft. These however do very little damage to full-sized starships.\n<b>Evasive Maneuvers</b>: Kicking in the afterburners and flying evasively makes the Satyr especially difficult to destroy. The afterburner must cool down between uses.\n<b>Anti-Small Craft Tackle</b>: The Satyr has specialized electronic warfare projectors that disable small craft drive systems, slowing them down considerably and making them easy prey.",
   "volume": 800.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 800.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Fighter",

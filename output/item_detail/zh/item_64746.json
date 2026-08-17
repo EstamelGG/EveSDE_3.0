@@ -3,7 +3,7 @@
   "name": "联邦大奖赛夹克箱",
   "description": "内含庆祝联邦大奖赛的男式和女式竞速夹克。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

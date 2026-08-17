@@ -3,7 +3,7 @@
   "name": "Passive Targeting Array I",
   "description": "Uses advanced gravitational and visual targeting to identify threats. Allows target lock without alerting the ship to a possible threat.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 2000.0,
   "category_name": "Module",

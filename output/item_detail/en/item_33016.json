@@ -3,7 +3,7 @@
   "name": "A Handful of Tiny Stars",
   "description": "Good thing you can't actually refine stars or this would just keep going for far too long.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 50.0,
   "category_name": "Special Edition Assets",

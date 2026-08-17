@@ -3,7 +3,7 @@
   "name": "能量栅格提升",
   "description": "安装能量升级装备的技能，例如电容器电池和能源诊断单元等。每升一级，需要此技能的装备的CPU需求减少5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

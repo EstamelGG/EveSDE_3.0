@@ -3,7 +3,7 @@
   "name": "Poteque 'Prospector' Hacking HC-905",
   "description": "A neural Interface upgrade that boosts the pilots exploration skills.\n\n+5 Virus Coherence bonus for Data Analyzers.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",
