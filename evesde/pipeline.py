@@ -34,6 +34,7 @@ import evesde.processors.blueprints_processor as blueprints_processor
 import evesde.processors.celestial_names_processor as celestial_names_processor
 import evesde.processors.skill_requirements_processor as skill_requirements_processor
 import evesde.processors.facility_rig_effects_processor as facility_rig_effects_processor
+import evesde.processors.fighter_abilities_processor as fighter_abilities_processor
 import evesde.processors.compressable_types_processor as compressable_types_processor
 import evesde.processors.typeTraits_processor as typeTraits_processor
 import evesde.processors.ore_color_processor as ore_color_processor
@@ -80,6 +81,7 @@ PIPELINE_STEPS: List[PipelineStep] = [
     ("enrich", "天体数据", celestial_names_processor.main),
     ("enrich", "技能需求数据", skill_requirements_processor.main),
     ("enrich", "设施装配效果数据", facility_rig_effects_processor.main),
+    ("enrich", "战斗机技能数据", fighter_abilities_processor.main),
     ("enrich", "可压缩物品数据", compressable_types_processor.main),
     ("enrich", "类型特性数据", typeTraits_processor.main),
     # maps_pack

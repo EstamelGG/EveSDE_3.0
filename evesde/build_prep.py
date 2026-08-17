@@ -158,11 +158,10 @@ def check_network_connectivity() -> bool:
 
 def check_localization_exists() -> bool:
     localization_output = PROJECT_ROOT / "cache" / "localization" / "output"
-    sde_localization_output = PROJECT_ROOT / "output" / "sde" / "localization"
     for file_name in ("en_multi_lang_mapping.json", "combined_localization.json"):
         if not (localization_output / file_name).exists():
             return False
-    return (sde_localization_output / "accountingentrytypes_localized.json").exists()
+    return True
 
 
 def process_localization(force: bool = False, eve_client=None) -> bool:

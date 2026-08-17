@@ -18,7 +18,6 @@ import os
 import hashlib
 import time
 from pathlib import Path
-from evesde.utils.http_client import get
 from typing import Dict, Any, Optional, List, Tuple
 import evesde.processors.icon_finder as icon_finder
 
@@ -136,30 +135,6 @@ class TypesProcessor:
             
         except Exception as e:
             print(f"[x] 读取types JSONL文件时出错: {e}")
-            return {}
-    
-    def read_repackaged_volumes(self) -> Dict[str, float]:
-        """
-        从网络获取重新打包体积数据
-        """
-        url = "https://sde.hoboleaks.space/tq/repackagedvolumes.json"
-        
-        try:
-            print(f"[+] 正在从网络获取repackagedvolumes数据: {url}")
-            response = get(url, timeout=30, verify=False)
-            
-            repackaged_volumes = response.json()
-            print(f"[+] 成功获取 {len(repackaged_volumes)} 个重新打包体积记录")
-            return repackaged_volumes
-            
-        except Exception as e:
-            print(f"[!] 网络请求失败: {e}")
-            return {}
-        except json.JSONDecodeError as e:
-            print(f"[!] JSON解析失败: {e}")
-            return {}
-        except Exception as e:
-            print(f"[!] 获取repackagedvolumes数据时出错: {e}")
             return {}
     
     def create_types_table(self, cursor: sqlite3.Cursor):
@@ -607,7 +582,6 @@ class TypesProcessor:
         create_types_table = self.create_types_table
         create_wormholes_table = self.create_wormholes_table
         fetch_and_process_data = self.fetch_and_process_data
-        read_repackaged_volumes = self.read_repackaged_volumes
         copy_and_rename_icon = self.copy_and_rename_icon
         get_attributes_value = self.get_attributes_value
         process_wormhole_data = self.process_wormhole_data
@@ -616,9 +590,6 @@ class TypesProcessor:
         create_wormholes_table(cursor)  # 创建虫洞表
         self.create_texts_table(cursor)
         group_to_category, category_id_to_names, group_id_to_names, unknown_names = fetch_and_process_data(cursor)
-
-        # 读取repackaged_volumes数据
-        repackaged_volumes = read_repackaged_volumes()
 
         # 构建文本池：收集所有非空 description 文本，去重后写入 texts 表
         # desc_id 为内容的 SHA-256 哈希，确保相同内容跨构建得到相同 ID
@@ -680,8 +651,7 @@ class TypesProcessor:
             desc_ids = tuple(text_to_id[descs[lang]] if descs[lang] else None for lang in LANGS)
             published = item.get('published', False)
             volume = item.get('volume', None)
-            # 获取重新打包体积
-            repackaged_volume = repackaged_volumes.get(str(type_id), None)
+            repackaged_volume = item.get('packagedVolume')
             marketGroupID = item.get('marketGroupID', None)
             metaGroupID = item.get('metaGroupID', 1)
             iconID = item.get('iconID', 0)

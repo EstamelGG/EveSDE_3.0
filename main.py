@@ -146,6 +146,13 @@ def main():
         sys.exit(1)
     print("[+] SDE数据准备完成，继续后续处理...")
 
+    print("\n[+] 处理会计条目类型（官方 SDE）")
+    print("=" * 30)
+    from evesde.localization.accounting_types_localizer import AccountingTypesLocalizer
+    if not AccountingTypesLocalizer(PROJECT_ROOT, config).localize_accounting_types():
+        print("[x] 会计条目类型处理失败，程序退出")
+        sys.exit(1)
+
     print("\n[+] 生成 brackets_output.json")
     print("=" * 30)
     parse_brackets_main(eve_client=config.get("eve_client"))
