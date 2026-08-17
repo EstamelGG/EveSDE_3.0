@@ -6,7 +6,8 @@ from evesde.paths import PROJECT_ROOT
 from evesde.utils.single_db import get_db_path
 from evesde.utils.wide_i18n import LANGS, NAME_COLS, TOOLTIP_COLS, names_ddl, names_row, wide_texts
 import sqlite3
-from typing import Any, Dict, List, Tuple
+from typing import Any, Dict, List, Optional, Tuple
+import evesde.processors.icon_finder as icon_finder
 import evesde.processors.jsonl_loader as jsonl_loader
 
 SLOT_KEYS = ("abilitySlot0", "abilitySlot1", "abilitySlot2")
@@ -16,10 +17,26 @@ class FighterAbilitiesProcessor:
     def __init__(self, config: Dict[str, Any]):
         self.config = config
         self.sde_jsonl_path = PROJECT_ROOT / config["paths"]["sde_input"]
+        self.icon_finder = icon_finder.IconFinder(config)
 
     def _load_map(self, filename: str) -> Dict[int, Dict]:
         rows = jsonl_loader.load_jsonl(str(self.sde_jsonl_path / filename))
         return {item["_key"]: item for item in rows if "_key" in item}
+
+    def _resolve_icons(self, abilities: Dict[int, Dict]) -> Dict[int, Optional[str]]:
+        icon_ids = sorted({
+            ability.get("iconID")
+            for ability in abilities.values()
+            if ability.get("iconID")
+        })
+        self.icon_finder.prefetch_icon_ids(icon_ids, label="战斗机技能图标")
+        icon_map = {}
+        for icon_id in icon_ids:
+            filename = f"fighter_ability_{icon_id}.png"
+            icon_map[icon_id] = filename if self.icon_finder.copy_icon_to_custom_dir(icon_id, filename) else None
+        ok = sum(1 for v in icon_map.values() if v)
+        print(f"[+] 战斗机技能图标: {ok}/{len(icon_ids)}")
+        return icon_map
 
     def create_table(self, cursor: sqlite3.Cursor):
         tooltip_ddl = ",\n                ".join(f"{c} TEXT" for c in TOOLTIP_COLS)
@@ -32,6 +49,7 @@ class FighterAbilitiesProcessor:
                 charge_count INTEGER,
                 rearm_time_seconds INTEGER,
                 iconID INTEGER,
+                icon_filename TEXT,
                 target_mode TEXT,
                 disallow_in_high_sec BOOLEAN,
                 disallow_in_low_sec BOOLEAN,
@@ -43,7 +61,12 @@ class FighterAbilitiesProcessor:
         ''')
         print("[+] 创建fighterAbilities表")
 
-    def build_rows(self, abilities: Dict[int, Dict], by_type: Dict[int, Dict]) -> List[Tuple]:
+    def build_rows(
+        self,
+        abilities: Dict[int, Dict],
+        by_type: Dict[int, Dict],
+        icon_map: Dict[int, Optional[str]],
+    ) -> List[Tuple]:
         rows = []
         for type_id, type_data in by_type.items():
             for slot, key in enumerate(SLOT_KEYS):
@@ -53,6 +76,7 @@ class FighterAbilitiesProcessor:
                 ability_id = slot_data.get("abilityID")
                 ability = abilities.get(ability_id, {})
                 charges = slot_data.get("charges") or {}
+                icon_id = ability.get("iconID")
                 rows.append((
                     type_id,
                     slot,
@@ -60,7 +84,8 @@ class FighterAbilitiesProcessor:
                     slot_data.get("cooldownSeconds"),
                     charges.get("chargeCount"),
                     charges.get("rearmTimeSeconds"),
-                    ability.get("iconID"),
+                    icon_id,
+                    icon_map.get(icon_id) if icon_id else None,
                     ability.get("targetMode"),
                     1 if ability.get("disallowInHighSec") else 0,
                     1 if ability.get("disallowInLowSec") else 0,
@@ -78,19 +103,20 @@ class FighterAbilitiesProcessor:
             print("[x] 无法读取 fighterAbilities / fighterAbilitiesByType")
             return False
 
+        icon_map = self._resolve_icons(abilities)
         db_path = get_db_path(self.config)
         try:
             conn = sqlite3.connect(str(db_path))
             cursor = conn.cursor()
             cursor.execute("DROP TABLE IF EXISTS fighterAbilities")
             self.create_table(cursor)
-            rows = self.build_rows(abilities, by_type)
+            rows = self.build_rows(abilities, by_type, icon_map)
             cols = (
                 "type_id, slot, ability_id, cooldown_seconds, charge_count, rearm_time_seconds, "
-                "iconID, target_mode, disallow_in_high_sec, disallow_in_low_sec, turret_graphic_id, "
+                "iconID, icon_filename, target_mode, disallow_in_high_sec, disallow_in_low_sec, turret_graphic_id, "
                 + ", ".join(NAME_COLS) + ", " + ", ".join(TOOLTIP_COLS)
             )
-            placeholders = ", ".join(["?"] * (11 + len(LANGS) * 2))
+            placeholders = ", ".join(["?"] * (12 + len(LANGS) * 2))
             cursor.executemany(
                 f"INSERT INTO fighterAbilities ({cols}) VALUES ({placeholders})",
                 rows,
