@@ -3,7 +3,7 @@
   "name": "信号聚焦研究",
   "description": "有关目标标记技术的高级技能。每升一级，目标标记装备的信号半径乘数提升5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

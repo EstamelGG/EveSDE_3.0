@@ -3,7 +3,7 @@
   "name": "Stargazer Lantern Firework",
   "description": "Achur spiritualism takes many forms, and influences many aspects of their culture, but aside from the monastic orders of Achura (Saisio III), it rarely approaches the level of organized religion. The Stargazers are an example of a particular form of popular Achur spiritualism that eschews supernatural revelation in favor of a philosophy that aims to understand the world through observation and contemplation of the stars. Using visionary interpretations based on a kind of \"as above, so below\" thinking, the Stargazers emphasize awareness of the surrounding universe and understanding of the living world beyond the self.\n\nStargazer festivals are held wherever the viewing is good and for obvious reasons are conducted in darkness. By ancient rule, only shrouded red-light lanterns are permitted, and then only for safe movement to and from the viewing fields or vantage points. At the end of a Stargazer gathering, it is traditional to unshroud the lanterns and send them aloft by various means to symbolize the insights the Stargazers have garnered being sent out to the wider universe.\n\nThe Stargazer Lantern pyrotechnic is a spectacular means of celebrating Achur festivals, or similar celebrations among other peoples of New Eden, and is popular among those living and working in space.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

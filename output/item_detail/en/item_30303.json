@@ -3,7 +3,7 @@
   "name": "Fulleroferrocene",
   "description": "Fulleroferrocene is a rare organometallic compound used to strengthen and supplement other materials. Most commonly, it is used to improve the structural integrity of metal alloys, but research is continuing on its potential applications in nanomechanical devices.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

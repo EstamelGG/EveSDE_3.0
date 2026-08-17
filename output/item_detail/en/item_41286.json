@@ -3,7 +3,7 @@
   "name": "Inferno Precision XL Cruise Missile",
   "description": "XL Cruise Missiles are designed for long range bombardment of capital ships and installations. They are a specialized design usable only by capital ships.\nPlasma suspended in an electromagnetic field gives this missile the ability to deliver a flaming inferno of destruction, wreaking almost unimaginable havoc.\n\nA modified version of the Inferno cruise. Is great for taking down smaller ships, but fuel use by stabilization thrusters reduces maximum flight time.",
   "volume": 0.3,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.3,
   "capacity": null,
   "mass": 1500.0,
   "category_name": "Charge",

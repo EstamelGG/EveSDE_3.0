@@ -3,7 +3,7 @@
   "name": "ML-3 Compact Mining Survey Chipset",
   "description": "An upgraded chipset for a mining vessel's integrated Mining Surveyor that grants superior asteroid information, and increases the chance of optimal mining outcomes.\n\nIncreases mining laser and ice harvester critical success chance and critical success bonus yield.\nDecreases mining laser, ice harvester, and gas cloud harvester residue probability.\nEnhances the integrated Mining Surveyor present in mining vessels by adding information about the quantity of ore remaining in scanned asteroids.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

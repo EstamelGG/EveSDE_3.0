@@ -3,7 +3,7 @@
   "name": "True Sansha Stasis Webifier",
   "description": "Reduces the maximum speed of a ship by employing micro energy streams which effectively entangle the target temporarily, thereby slowing it down.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

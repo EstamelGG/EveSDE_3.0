@@ -3,7 +3,7 @@
   "name": "Consortium Small Tractor Beam",
   "description": "By manipulating gravity fields, this module can pull cargo containers towards the ship.",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": 0.8,
   "mass": 50.0,
   "category_name": "Module",

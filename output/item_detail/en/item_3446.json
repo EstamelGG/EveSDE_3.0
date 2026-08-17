@@ -3,7 +3,7 @@
   "name": "Broker Relations",
   "description": "Proficiency at driving down market-related costs. Each level of skill subtracts a flat 0.3% from the costs associated with setting up a market order in a non-player station, which usually come to 3% of the order's total value. This can be further influenced by the player's standing towards the owner of the station where the order is entered.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

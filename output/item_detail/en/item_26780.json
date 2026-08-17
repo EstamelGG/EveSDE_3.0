@@ -3,7 +3,7 @@
   "name": "Crates of Crystal Eggs",
   "description": "Crystal is a common feel-good booster, used and abused around the universe in abundance.",
   "volume": 90.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 90.0,
   "capacity": null,
   "mass": 90000.0,
   "category_name": "Commodity",

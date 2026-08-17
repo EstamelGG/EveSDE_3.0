@@ -3,7 +3,7 @@
   "name": "炼狱火箭",
   "description": "一种装备了等离子体弹头的小型火箭。",
   "volume": 0.005,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.005,
   "capacity": null,
   "mass": 100.0,
   "category_name": "弹药",

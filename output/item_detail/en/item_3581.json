@@ -3,7 +3,7 @@
   "name": "Purloined Sansha Data Analyzer",
   "description": "CONCORD has acquired untold numbers of these devices from destroyed Sansha vessels during recent raids. The modules have the appearance of standard data analyzers, but when connected to the systems of a suitably modified ship, they exhibit significantly enhanced capabilities.<br><br>Official DED reports on the devices' internal workings cite \"inconclusive results\", but CONCORD has nevertheless opted to distribute these modules to capsuleers in the hope that they might be useful in the fight against Kuvakei's minions.\n\nNote: Due to recently discovered branch prediction vulnerabilities in certain Upwell Consortium Recursive Computing Modules this analyzer may also be used to collect sensitive information concerning reinforcement periods of Upwell Structures.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1800.0,
   "category_name": "Module",

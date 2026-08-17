@@ -3,7 +3,7 @@
   "name": "中型射弹武器射速调节装置 II",
   "description": "这个飞船改装件可以增加射弹炮台的射速，但代价是射弹武器的能量栅格需求增加。\n\n\n\n惩罚：在一艘舰船上使用多个这类装备或多个与该装备作用一致的类似装备将削弱实际使用效果。\n\n\n\n装配这个改装件的副作用可以通过训练<a href=showinfo:26257>射弹武器改装技术</a>技能降低影响。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "装备",

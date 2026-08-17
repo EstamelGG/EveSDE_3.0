@@ -3,7 +3,7 @@
   "name": "Micro Auxiliary Power Core I",
   "description": "Supplements the main Power core providing more power.",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

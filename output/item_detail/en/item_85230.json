@@ -3,7 +3,7 @@
   "name": "Mercenary Den",
   "description": "The Deathless Circle has developed an open-source facility known throughout the cluster as a “Mercenary Den.” Allegedly designed as a hub for Upwell clones to rest and relax, they have quickly become congregating points for mercenaries looking for work and clones seeking to escape it. This facility provides an ideal environment for enjoying alcoholic drinks, watching the latest SCOPE broadcasts, and engaging in impromptu combat training.\n\nThe Deathless has released a statement that any Upwell legal teams bothered about misuse of the Transneural Echo Burn Scanner “booths” included with the structure should \"kindly leave and pass away peacefully.\"\n\nPlease note that at this time, Mercenary Dens can only sustain themselves when linked to a nearby temperate planet Skyhook.",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": 3000.0,
   "mass": 10000.0,
   "category_name": "Deployable",

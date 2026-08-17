@@ -3,7 +3,7 @@
   "name": "Unrefined Fluxed Condensates",
   "description": "When combined with other materials and alloys, fluxed condensates help contribute to a unique quantum state highly conducive to efficient reactor operation.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

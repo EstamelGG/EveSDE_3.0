@@ -3,7 +3,7 @@
   "name": "科学家",
   "description": "一个科学家。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 65.0,
   "category_name": "常用物品",

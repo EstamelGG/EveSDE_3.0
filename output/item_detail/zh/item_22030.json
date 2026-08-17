@@ -3,7 +3,7 @@
   "name": "损毁的信道扫描器",
   "description": "一块信道扫描器的碎片。它已无法使用，实际上，由于破损严重，根本辨认不出它是信道扫描器的一部分。",
   "volume": 2.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2.0,
   "capacity": null,
   "mass": 2500.0,
   "category_name": "常用物品",

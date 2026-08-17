@@ -3,7 +3,7 @@
   "name": "Promethium Mercurite",
   "description": "A metallic radioactive compound, Promethium Mercurite emits a faint green glow visible to the naked eye. It is a crucial part of a new generation of processors and capacitor units being developed by the Amarr Empire.",
   "volume": 0.2,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.2,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

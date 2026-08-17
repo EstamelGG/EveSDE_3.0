@@ -3,7 +3,7 @@
   "name": "Trade",
   "description": "Knowledge of the market and skill at manipulating it. Active buy/sell order limit increased by 4 per level of skill.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

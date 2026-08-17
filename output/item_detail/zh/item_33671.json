@@ -3,7 +3,7 @@
   "name": "重型船体维护机器人 I",
   "description": "船体维修无人机",
   "volume": 25.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 25.0,
   "capacity": null,
   "mass": 3000.0,
   "category_name": "无人机",

@@ -3,7 +3,7 @@
   "name": "高级护符—欧米伽型",
   "description": "这款植入体自身没有什么作用，但当与其他“护符”植入体协同作用时，它能提高其他植入体的效力。\n\n\n\n所有“护符”植入体的次要效果增加50%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

@@ -3,7 +3,7 @@
   "name": "加强型采矿无人机",
   "description": "这款先进的采矿无人机基于自由无人机技术，专为高效利用其狂野而充满敌意的人工智能而优化过。无人机人工智能专家起初惊异于这项科技轻松适用于飞行员交互，似乎自由无人机设计出这种采矿装置是为人类所用的。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "无人机",

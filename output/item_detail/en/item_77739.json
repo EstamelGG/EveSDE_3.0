@@ -3,7 +3,7 @@
   "name": "Disruptive Lance Operation",
   "description": "Skill at operating Disruptive Lance weapons.\n\n5% reduced capacitor need of Disruption Lance weapons per skill level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

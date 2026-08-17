@@ -3,7 +3,7 @@
   "name": "埃菲尔公司 炼金术士 生物学 BY-810",
   "description": "一种神经接口升级大脑植入体，可以增强飞行员消化增效剂的能力。属性增效剂持续时间增加10%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

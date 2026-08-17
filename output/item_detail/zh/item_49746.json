@@ -3,7 +3,7 @@
   "name": "小型海军弹药箱",
   "description": "这个军品箱子里有一些小型武器的弹药。",
   "volume": 2.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "特别版用品",

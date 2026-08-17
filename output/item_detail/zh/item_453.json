@@ -3,7 +3,7 @@
   "name": "小型聚焦脉冲激光器 I",
   "description": "一种高功率脉冲激光器。适合中短程交战。\n\n使用的频率晶体弹药类型：伽玛、红外线、微波、多频、射频、标准、紫外线和X射线。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 1.0,
   "mass": 500.0,
   "category_name": "装备",

@@ -3,7 +3,7 @@
   "name": "Batch Compressed Veldspar III-Grade",
   "description": "In asteroids above average size, the intense pressure can weld normal veldspar into what is known as III-Grade or dense veldspar, increasing the yield by 10%.\n\nVeldspar is the most common ore type in the central regions of known universe. It is still in constant demand as it holds a large portion of the much-used <a href=showinfo:34>Tritanium</a> mineral.\n\n<i>This material was compressed using an older process that compressed batches of raw materials into units using a set input quantity. Newer compression technology uses a more flexible one-to-one unit compression system.</i>",
   "volume": 0.15,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.15,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "Asteroid",

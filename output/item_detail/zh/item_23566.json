@@ -3,7 +3,7 @@
   "name": "高级无人机电子理论",
   "description": "操控电子战无人机的技能，但其操控距离的加成适用于所有无人机。每升一级，无人机操控距离提升3000m。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

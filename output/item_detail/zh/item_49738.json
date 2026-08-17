@@ -3,7 +3,7 @@
   "name": "深渊弹道控制系统",
   "description": null,
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "装备",

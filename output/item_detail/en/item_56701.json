@@ -3,7 +3,7 @@
   "name": "Mobile Sanguine Harvester",
   "description": "This mobile tractor unit has been modified by Blood Raider engineers to collect frozen corpses instead of wrecks.\n\n125km effective range.\n10 second activation time.\n\nMay not be deployed within 5km of another Mobile Tractor Unit, within 50km of Stargates, Stations or Upwell Structures, or within 40km of a Starbase.\nAutomatically decays if abandoned for 24 hours.",
   "volume": 100.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 100.0,
   "capacity": 27000.0,
   "mass": 10000.0,
   "category_name": "Deployable",

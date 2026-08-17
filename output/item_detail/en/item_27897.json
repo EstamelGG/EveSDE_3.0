@@ -3,7 +3,7 @@
   "name": "Jump Bridge",
   "description": "Jump Bridges allow corporations to link two Starbases in nearby systems and establish an artificial jump corridor, granting instantaneous transit capability between the two.\n\nJump Bridges have a defined maximum range and cannot link to other Bridges outside this range. It is recommended that corporations check that their intended anchoring locations are in range of each other before purchasing the necessary structures.",
   "volume": 100000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 100000.0,
   "capacity": 60000.0,
   "mass": 25000000.0,
   "category_name": "Starbase",

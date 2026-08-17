@@ -3,7 +3,7 @@
   "name": "Historic Gallente SKINs Crate",
   "description": "This crate grants one random Gallente ship SKIN from the following SKIN lines: Ace of Podhunters, Caille Neon, Green Demons, Heartsurge, Inner Zone Shipping, Inner Zone Vanguard, Kopis Edge, Ruby Sungrazer, Valimor Legacy, and Yoiul Festival YC121.\n\nWith 28 SKINs available, each crate has a 3.57% chance to contain a specific SKIN.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

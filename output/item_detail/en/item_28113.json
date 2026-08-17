@@ -3,7 +3,7 @@
   "name": "Gallente Basic Outpost Laboratory",
   "description": "A basic upgrade to Gallente Outpost research capabilities. Gives a 10% cost reduction to Material Efficiency, Time Efficiency, Copy, Invention jobs (stacks with all other improvements of the same type) and gives a research time reduction on all Copying research of 20%.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Accessories",

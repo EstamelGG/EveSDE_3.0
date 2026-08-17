@@ -3,7 +3,7 @@
   "name": "射击学",
   "description": "炮台的基本操作技能。每升一级，武器炮台的发射速率提升2%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

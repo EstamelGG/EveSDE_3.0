@@ -3,7 +3,7 @@
   "name": "Proof of Destruction",
   "description": "Proof that the incriminating Upwell data has destroyed beyond recovery.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 0.1,
   "category_name": "Commodity",

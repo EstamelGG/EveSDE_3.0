@@ -3,7 +3,7 @@
   "name": "棱柱石",
   "description": "棱柱石是一种漂砾矿石。经过重新处理后，它将坍缩成<b>多种不同矿物之一</b>。棱柱岩必须压缩成<a href=showinfo:90307>高密度棱柱岩</a>才能用于反应。这种矿石的独特属性源于基础维度的不稳定性。它是在一个不可知的高维环境中形成的。",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

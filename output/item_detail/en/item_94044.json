@@ -3,7 +3,7 @@
   "name": "Crucible Booster VI",
   "description": "It will apply immediately when redeemed. Base Duration 2 Hours.\n\n6% bonus to missile weapon damage\n6% bonus to shield hitpoint\n6% bonus to local shield repair module effectiveness\n6% bonus to maximum targeting range\n6% bonus to sensor strength",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Implant",

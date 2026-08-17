@@ -3,7 +3,7 @@
   "name": "烧焦的微电路",
   "description": "微电路是多数常规电子设备的基本组成部件。这一块不是处于最好状态，不过可能还有一些用处。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

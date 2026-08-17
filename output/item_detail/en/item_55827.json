@@ -3,7 +3,7 @@
   "name": "Serenity Special SKINs Crate",
   "description": "This is designed for and available on Serenity only.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

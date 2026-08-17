@@ -3,7 +3,7 @@
   "name": "民用扩充货柜舱",
   "description": "牺牲最大速度和结构强度来增加货柜舱容量。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 50.0,
   "category_name": "装备",

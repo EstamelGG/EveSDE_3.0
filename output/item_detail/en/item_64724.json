@@ -3,7 +3,7 @@
   "name": "Basic Glamourex Booster",
   "description": "Working much like the Social skill this highly potent booster provides a 15% bonus to agent, corporation and faction standing increases.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Implant",

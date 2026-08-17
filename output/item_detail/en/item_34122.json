@@ -3,7 +3,7 @@
   "name": "Limited Jump Drive Economizer",
   "description": "This unit decreases the isotope fuel requirements of starship jump drives.\n\nCan only be fitted to Jump Freighters and Rorquals.\n\nPenalty: Using more than one type of this module or similar modules that affect the same attribute on the ship will be penalized.",
   "volume": 3500.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3500.0,
   "capacity": null,
   "mass": 50.0,
   "category_name": "Module",

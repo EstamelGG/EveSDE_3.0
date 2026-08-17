@@ -3,7 +3,7 @@
   "name": "远距干扰学",
   "description": "进行远程电子战的技能。每升一级，ECM目标干扰器、远程感应抑阻器、武器扰断器、远距索敌计算机、远程感应增强器和目标标记装置最佳射程增加10%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

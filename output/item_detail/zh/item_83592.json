@@ -3,7 +3,7 @@
   "name": "加达里海军圣甲虫",
   "description": "<b>类型：</b>后勤铁骑舰载机<b>职责：</b>干扰<b>描述</b>：圣甲虫在战场上进行电子干扰支援。<b>干扰器</b>：干扰锁定系统。<b>微型跃迁推进器</b>：通过牺牲信号半径来大幅度提升速度。微型跃迁推进器运转后的冷却时间较长。",
   "volume": 3000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3000.0,
   "capacity": null,
   "mass": 1500.0,
   "category_name": "铁骑舰载机",

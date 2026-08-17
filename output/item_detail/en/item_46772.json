@@ -3,7 +3,7 @@
   "name": "Arms Race Battleship Assembler",
   "description": "To support their general efforts to build up capsuleer capabilities the core empires have sponsored operations against emergent threats through the Agency's Arms Race program.\n\nThis special one-shot assembler contains nanite feedstock, templates and a dedicated processor that will build a standard battleship when activated.",
   "volume": 50000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50000.0,
   "capacity": null,
   "mass": null,
   "category_name": "Commodity",

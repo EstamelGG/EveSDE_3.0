@@ -3,7 +3,7 @@
   "name": "Neutron Flow Polarity Reverser",
   "description": "This device appears to have been designed with the apparent intent of reversing the polarity of a neutron flow. What that means is a subject of fiery debate amongst New Eden’s brightest minds.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Special Edition Assets",

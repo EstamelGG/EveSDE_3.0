@@ -3,7 +3,7 @@
   "name": "Dysporite",
   "description": "Quicksilver mixed with dysprosium forms the soft but extremely resilient dysporite, an amalgamatic alloy which plays a key role in most advanced sensor and reactor technologies.",
   "volume": 0.2,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.2,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

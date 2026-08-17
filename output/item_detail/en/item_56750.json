@@ -3,7 +3,7 @@
   "name": "Forever 4-4 Fireworks and Launcher Crate",
   "description": "This crate contains Forever 4-4 fireworks and a launcher.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

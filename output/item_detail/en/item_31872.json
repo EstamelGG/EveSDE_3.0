@@ -3,7 +3,7 @@
   "name": "Caldari Navy Hornet",
   "description": "Light Scout Drone",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 3500.0,
   "category_name": "Drone",

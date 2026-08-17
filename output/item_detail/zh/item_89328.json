@@ -3,7 +3,7 @@
   "name": "恒星庆典宝箱",
   "description": "内含一个随机的夏季设计组件和一个酷菲增效剂。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

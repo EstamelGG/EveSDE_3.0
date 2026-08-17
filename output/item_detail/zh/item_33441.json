@@ -3,7 +3,7 @@
   "name": "房车重型快速导弹发射器",
   "description": "用来对抗护卫舰和巡洋舰等小型战斗舰船的战列舰级别发射器。只能装载重型导弹。",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": 0.72,
   "mass": null,
   "category_name": "装备",

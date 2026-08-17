@@ -3,7 +3,7 @@
   "name": "Visibility",
   "description": "Skill at acquiring products remotely. Each level of skill increases the range your remote buy orders are effective to from their origin station. Level 1 allows for the placing of remote buy orders with a range limited to the same solar system, Level 2 extends that range to systems within 5 jumps, and each subsequent level then doubles it. Level 5 allows for a full regional range.\n\nNote: Only remotely placed buy orders (using Procurement) require this skill to alter the range. Any range can be set on a local buy order with no skill.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

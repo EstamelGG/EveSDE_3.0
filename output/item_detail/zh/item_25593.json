@@ -3,7 +3,7 @@
   "name": "损毁的触发机关",
   "description": "这个热核触发机关虽然破碎了，但它的核封闭立场似乎完好无损，而且等离子也处于近乎热能平衡状态。如果只是因为它破了相就把它扔了，实在太可惜了。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

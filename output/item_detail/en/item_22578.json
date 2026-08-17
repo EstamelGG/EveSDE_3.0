@@ -3,7 +3,7 @@
   "name": "Mining Upgrades",
   "description": "Skill at using mining upgrades. 5% reduction per skill level in CPU penalty of mining upgrade modules.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

@@ -3,7 +3,7 @@
   "name": "Logic Circuit",
   "description": "An \"Aphid\" logic circuit. The nickname is derived from the unfortunate acronym of autonomous field programmable holographic signal processor with embedded holographic data storage.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

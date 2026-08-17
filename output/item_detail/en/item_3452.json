@@ -3,7 +3,7 @@
   "name": "Acceleration Control",
   "description": "Skill at efficiently using Afterburners and MicroWarpdrives. 5% Bonus to Afterburner and MicroWarpdrive speed boost per skill level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

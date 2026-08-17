@@ -3,7 +3,7 @@
   "name": "Standup Reprocessing Facility I",
   "description": "The Standup Reprocessing Facility is a service module that allows the use of a reprocessing and compression facilities when installed into an Upwell technology structure. The default reprocessing rate is 50%, which may be further enhanced by the use of Standup rigs. Note that this facility does not enable compression of Harvestable Gas Clouds and Moon Asteroids, which is only possible using on board compression modules fitted to Industrial Command Ships and Capital Industrial Command Ships.\n\nWhile an Upwell Structure has at least one service module online, it will enter \"full power\" mode and gain significantly increased shield and armor hitpoints and an extra reinforcement cycle.\n\nStandup is a proprietary system that uses a Structure Autonomous Nanoassembly Device (Upwell) containing integrated template software, a nanoassembler array and sufficient nanomass to enable the construction of a variety of service modules, structure modules and structure rigs when inserted into the appropriate slots on a structure built with Upwell technology.",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": 500.0,
   "category_name": "Structure Module",

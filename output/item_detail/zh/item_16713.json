@@ -3,7 +3,7 @@
   "name": "中级奖章",
   "description": "奖章，授予那些完成传奇试炼中级考验的人。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 0.1,
   "category_name": "常用物品",

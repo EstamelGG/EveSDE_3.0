@@ -3,7 +3,7 @@
   "name": "Cerebral Slice",
   "description": "A slice of the cerebral cortex, part of the outer layers of the brain, which controls for instance sensations, reasoning and memory.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

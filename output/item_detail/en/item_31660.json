@@ -3,7 +3,7 @@
   "name": "Capital Projectile Ambit Extension I",
   "description": "This ship modification is designed to increase a ship's projectile turret accuracy falloff range at the expense of increased power grid need for projectile weapons.\n\nThe drawbacks of fitting this rig may be reduced by training the <a href=showinfo:26257>Projectile Weapon Rigging</a> skill.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "Module",

@@ -3,7 +3,7 @@
   "name": "Amarr Foundation Day Apparel Crate",
   "description": "Contains Foundation Day clothing items to demonstrate your faith in the Amarr Empire!",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

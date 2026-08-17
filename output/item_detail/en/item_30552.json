@@ -3,7 +3,7 @@
   "name": "Caldari Propulsion Systems",
   "description": "Skill in the operation of Caldari Propulsion Subsystems used on Tech III ships.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

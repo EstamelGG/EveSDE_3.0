@@ -3,7 +3,7 @@
   "name": "阿拉迪·埃拉克兰的头颅",
   "description": "这是阿拉迪·埃拉克兰的头颅，他是埃拉克兰大人的儿子兼继承人。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

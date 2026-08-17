@@ -3,7 +3,7 @@
   "name": "Civilian Warp Disruptor",
   "description": "Warp Disruptors are used to disrupt a target ship's navigation computer, which prevents it from warping.<br><br>These specially-designed Civilian variants are not strong enough to be used in live combat and are sufficient for instructional purposes only.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

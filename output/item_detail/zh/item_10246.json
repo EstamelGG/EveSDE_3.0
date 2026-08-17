@@ -3,7 +3,7 @@
   "name": "采矿无人机 I",
   "description": "采矿无人机",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "无人机",

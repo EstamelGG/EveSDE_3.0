@@ -3,7 +3,7 @@
   "name": "基因肉制品",
   "description": "家畜是人工驯养的动物，由于它们是肉类及奶制品来源，因此既可供家用，也可换取利润。这个特殊的家畜品种已使用最新的技术加强了其基因。",
   "volume": 0.75,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.75,
   "capacity": null,
   "mass": null,
   "category_name": "行星商品",

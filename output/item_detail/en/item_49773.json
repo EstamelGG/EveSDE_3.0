@@ -3,7 +3,7 @@
   "name": "Heavy Mutadaptive Remote Armor Repairer II",
   "description": "Triglavian remote armor repair equipment use mutadaptive technology to restore lost material with escalating effect over time. This is achieved using specialized armor repair mutaplasmids as nanite feedstock for the remote repair projectors.\n\nAs the armor repair mutaplasmid stream is able to adapt itself in real-time to specific target ship conditions far more efficiently than standard armor repair nanites, the efficiency of armor repairing performed by the nanite stream on a given target increases over time towards a maximal repair output.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 20.0,
   "category_name": "Module",

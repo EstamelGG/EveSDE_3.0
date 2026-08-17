@@ -3,7 +3,7 @@
   "name": "Serenity Rookie DLI Day 1 Crate",
   "description": "This is for internal test only.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

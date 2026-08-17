@@ -3,7 +3,7 @@
   "name": "杂色复合物",
   "description": "珍贵的矿物化合物，可提炼多种矿物。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "常用物品",

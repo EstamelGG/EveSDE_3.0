@@ -3,7 +3,7 @@
   "name": "回收的电子元件",
   "description": "这些舰船部件虽然旧了但还能用。",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": null,
   "mass": 10.0,
   "category_name": "常用物品",

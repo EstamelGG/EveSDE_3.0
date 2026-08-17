@@ -3,7 +3,7 @@
   "name": "Caldari Union Day Jacket Crate",
   "description": "Contains stylish 'State Protector' jackets for both men and women to celebrate Union Day YC123.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

@@ -3,7 +3,7 @@
   "name": "双联无焦点重型激光器I",
   "description": "这种重型集束能量武器配有两个独立的激光聚焦装置，以缩短两次开火之间的冷却周期。适合中远距离作战的武器。必须装填以下类型的频率晶体弹药：伽玛、红外线、微波、多频、射频、标准、紫外线和X射线。",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": 1.0,
   "mass": 2000.0,
   "category_name": "装备",

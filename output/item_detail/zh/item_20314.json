@@ -3,7 +3,7 @@
   "name": "目标导航预测学",
   "description": "精通导弹飞行路线优化的技能，抵消目标飞行速度对导弹爆炸冲击的影响。每升一级，目标速度对于所有导弹的影响减少10%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

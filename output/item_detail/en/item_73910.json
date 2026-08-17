@@ -3,7 +3,7 @@
   "name": "Elite Infomorph Psychology",
   "description": "Advanced training for those Capsuleers who want to push clone technology to its limits.\n\nAllows 1 additional jump clone per level.\n\nNote: Clones can only be installed in stations with medical facilities or in ships with clone vat bays. Installed clones are listed in the character sheet.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

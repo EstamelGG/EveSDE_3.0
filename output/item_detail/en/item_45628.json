@@ -3,7 +3,7 @@
   "name": "Proteus Core - Electronic Efficiency Gate",
   "description": "New technologies have resulted in a noticeable increase in CPU efficiency, as better nanotech enables further miniaturization of circuits, the result of which is a marked decrease in system bottlenecking. This electronic efficiency gate capitalizes on that technology, offering a pilot greater CPU output and significantly improved sensor integrity.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 1200000.0,
   "category_name": "Subsystem",

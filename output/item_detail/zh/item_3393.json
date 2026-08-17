@@ -3,7 +3,7 @@
   "name": "维修系统理论",
   "description": "操控装甲/船体维修装备的技能。每升一级，维修系统运转周期缩短5%。注：对旗舰级装备不起作用。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

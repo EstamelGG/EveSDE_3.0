@@ -3,7 +3,7 @@
   "name": "突破者座舱克隆体持续时间",
   "description": "专门研究如何延长突破者座舱克隆体短暂寿命的技能。每升一级，伤害效果持续时间延长10%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

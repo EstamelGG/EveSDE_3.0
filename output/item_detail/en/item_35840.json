@@ -3,7 +3,7 @@
   "name": "Pharolux Cyno Beacon",
   "description": "Designed by the Upwell Consortium to function as a successor and improvement over starbase cynosural generator arrays, the Pharolux Cyno Beacon is a key element of their new Fast Logistical EXpansion (FLEX) structures product line. \n\nThe Pharolux provides a stationary cynosural beacon on to which jump-capable vessels can lock their drives and make FTL jumps, safe in the knowledge of a stable connection in a presumably secure location. The Upwell Consortium has made certain improvements but the base technology used in the Pharolux is essentially the tried and true cynosural beacon device.\n\nEach Pharolux Cyno Beacon structure is automatically equipped with one <a href=showinfo:35912>Standup Cynosural Field Generator I</a> service module. This service module may only be onlined in a system that contains a sovereignty hub with the <a href=showinfo:2008>Cynosural Navigation</a> upgrade active.\n\nMay not be deployed within 200km of another Upwell Structure, or 1000km of Stargates, Stations, or Starbases. A maximum of one Cyno Beacon structure may be deployed per system.",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": 3000000000.0,
   "category_name": "Structure",

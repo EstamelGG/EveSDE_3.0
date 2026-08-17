@@ -3,7 +3,7 @@
   "name": "Structure Electronic Systems",
   "description": "Basic operation of structure electronic modules.\n\n3% reduction in capacitor consumption of all structure electronic warfare and tackle modules per level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

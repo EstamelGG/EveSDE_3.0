@@ -3,7 +3,7 @@
   "name": "Gallente Encryption Methods",
   "description": "Understanding of the data encryption methods used by the Gallente Federation and its allies.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

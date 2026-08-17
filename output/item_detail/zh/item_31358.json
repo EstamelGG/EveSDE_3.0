@@ -3,7 +3,7 @@
   "name": "小型辅助电源路由器 I",
   "description": "这个飞船改装件用于增加船只的能量栅格容量。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "装备",

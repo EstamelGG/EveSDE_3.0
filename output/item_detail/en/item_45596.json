@@ -3,7 +3,7 @@
   "name": "Loki Defensive - Augmented Durability",
   "description": "Capitalizing on the exceptional defensive capabilities of fullerene-based components, this subsystem allows a Loki pilot to augment their armor and shield defenses, dramatically enhancing its survivability in combat. Tiny molecular-level conduits play a crucial role in orchestrating the flow of nano-assemblers through and around the Loki, guarding the flow of vital repairs against disruptive impact.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": 300.0,
   "mass": 1400000.0,
   "category_name": "Subsystem",

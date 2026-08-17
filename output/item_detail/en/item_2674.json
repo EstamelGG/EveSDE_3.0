@@ -3,7 +3,7 @@
   "name": "Group of Refugees",
   "description": "When wars and epidemics break out, people flee from their homes, forming massive temporary migrations.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 40000.0,
   "category_name": "Commodity",

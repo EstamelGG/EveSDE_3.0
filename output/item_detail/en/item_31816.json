@@ -3,7 +3,7 @@
   "name": "Small Core Defense Operational Solidifier I",
   "description": "This ship modification is designed to reduce the duration of shield booster cycles at the expense of increased signature radius.\n\nThe drawbacks of fitting this rig may be reduced by training the <a href=showinfo:26261>Shield Rigging</a> skill.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "Module",

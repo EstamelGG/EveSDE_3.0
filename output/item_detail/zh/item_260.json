@@ -3,7 +3,7 @@
   "name": "X射线晶体 L",
   "description": "将激光武器的光束调节到X射线频率。减小攻击距离。增强伤害。最佳射程减少25%。电容需求降低25%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "弹药",

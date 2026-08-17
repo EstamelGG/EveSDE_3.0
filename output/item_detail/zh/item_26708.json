@@ -3,7 +3,7 @@
   "name": "罗莱特港的居民",
   "description": "非法殖民地罗莱特港的居民。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "常用物品",

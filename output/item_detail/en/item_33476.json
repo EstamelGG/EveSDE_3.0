@@ -3,7 +3,7 @@
   "name": "Mobile Cynosural Inhibitor",
   "description": "This structure, once deployed and having completed its automatic activation process, will prevent nearly all cynosural fields being activated within its range. Covert fields can still be used, which is why it is up to the intrepid capsuleer to maintain a relaxed situational awareness, go about their daily duties, and mercilessly shoot out of the sky any black ops infiltrators who might have made it through.\n\n100km effective range\nOne minute activation time.\n\nMay not be deployed within 200km of another Mobile Cynosural Inhibitor, within 75km of Stargates, Stations or Upwell Structures, or within 40km of a Starbase. Cannot be retrieved once deployed.\nSelf-destructs after one hour of operation.",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "Deployable",

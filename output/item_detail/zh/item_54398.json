@@ -3,7 +3,7 @@
   "name": "中级九头蛇 - 阿尔法型",
   "description": "古斯塔斯科学家对这种视觉滤镜做了专门修改，以便于他们的精英官员使用。\n\n\n\n主要效果：感知属性值增加3\n\n\n\n次要效果：无人机跟踪速度、无人机最佳射程、无人机失准范围、导弹飞行时间和导弹爆炸速度提高1%\n\n\n\n套件效果：所有“九头蛇”植入体次要效果增加10%\n\n\n\n注：对铁骑舰载机无效。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

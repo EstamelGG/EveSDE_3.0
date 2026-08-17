@@ -3,7 +3,7 @@
   "name": "集成型执政官",
   "description": "重型攻击无人机\n\n\n\n这个无人机型号的设计中集成了多个来自自由无人机的部件，从而增强了其性能。",
   "volume": 25.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 25.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "无人机",

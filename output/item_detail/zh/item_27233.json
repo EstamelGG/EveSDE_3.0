@@ -3,7 +3,7 @@
   "name": "载诺 吉普赛 感应器链 SL-901",
   "description": "一款神经接口升级芯片，可以增强飞行员对远程感应设备的操作技能。对于需要感应器链研究这一技能的装备，电容需求量降低1%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

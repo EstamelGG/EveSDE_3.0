@@ -3,7 +3,7 @@
   "name": "Supercomputers",
   "description": "When an individual computer system incorporates a wide range of networked utilities, layered processors, and redundant memory cores, it is said to have evolved into a supercomputer. Such systems can be put to use managing spaceships, starbases, or even entire planetary administrations.",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

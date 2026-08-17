@@ -3,7 +3,7 @@
   "name": "RSS Core Scanner Probe",
   "description": "A scanner probe used for scanning down Cosmic Signatures in space.\n\nCan be launched from <a href=showinfo:17938>Core Probe Launchers</a> and <a href=showinfo:18639>Expanded Probe Launchers</a>.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

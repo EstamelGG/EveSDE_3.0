@@ -3,7 +3,7 @@
   "name": "不稳定矿石采集晶体C型 I",
   "description": "一种专门定制切割的频率晶体，适用于提高开采稀有矿石（例如）时的产量。<a href=showinfo:90041>棱柱石</a>在相场中发现。这些晶体在使用时间过长后会逐渐劣化。它们只能加载到调制式采矿激光器中。C型采集晶体用于调制型采矿设备，产量低，残渣非常多，可靠性非常差。它们通常仅用于清理小行星带。",
   "volume": 6.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 6.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "弹药",

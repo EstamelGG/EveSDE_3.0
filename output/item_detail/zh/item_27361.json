@@ -3,7 +3,7 @@
   "name": "加达里海军鞭挞轻型导弹",
   "description": "尽管出身于米玛塔尔不起眼的小型开发实验室，鞭挞轻型导弹迅速使自己在星云间威名远播，并成为了飞行员搭配轻型发射器时的首选。",
   "volume": 0.015,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.015,
   "capacity": null,
   "mass": 700.0,
   "category_name": "弹药",

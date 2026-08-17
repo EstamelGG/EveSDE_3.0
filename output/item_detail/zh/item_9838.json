@@ -3,7 +3,7 @@
   "name": "超导体",
   "description": "在高技术产品中对它有非常高的需求以保障设备的正常运转。这种导体是采用近乎于完美导体的超级低温材料制作，所具有的有效电阻为零。",
   "volume": 0.75,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.75,
   "capacity": null,
   "mass": null,
   "category_name": "行星商品",

@@ -3,7 +3,7 @@
   "name": "精密合金",
   "description": "珍贵的合金，可提炼多种矿物。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "常用物品",

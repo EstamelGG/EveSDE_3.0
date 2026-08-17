@@ -3,7 +3,7 @@
   "name": "Zainou 'Gnome' Weapon Upgrades WU-1005",
   "description": "A neural Interface upgrade that lowers turret CPU needs.\n\n5% reduction in the CPU required by turrets.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

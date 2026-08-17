@@ -3,7 +3,7 @@
   "name": "受污染的纳米聚合体",
   "description": "一堆纳米体装配器形成的黏液，主要用于装甲制造过程。这一化合物需要经过净化才能再次使用。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

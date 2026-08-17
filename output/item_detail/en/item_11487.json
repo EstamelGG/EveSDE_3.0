@@ -3,7 +3,7 @@
   "name": "Astronautic Engineering",
   "description": "Skill and knowledge of Astronautics and its use in the development of advanced technology. This skill has no practical application for capsuleers, and proficiency in its use conveys little more than bragging rights.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

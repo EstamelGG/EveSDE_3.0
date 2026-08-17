@@ -3,7 +3,7 @@
   "name": "欧黑赭石",
   "description": "欧黑赭石的构成和黑赭石非常相似，先进的提炼技术让黑赭石变得炙手可热，因为它含有大量的同位聚合体。虽然欧黑赭石的提炼工艺效率非常低下，以至于这种矿石对多数生产商来说毫无价值，但科学家相信再经过几年的研究，这种矿石将和黑赭石一样具有很高的价值。",
   "volume": 8.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 8.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

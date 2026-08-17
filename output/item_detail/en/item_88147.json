@@ -3,7 +3,7 @@
   "name": "Triplot Scan Acquisition Array",
   "description": "Increases the scan strength when scanning with scan probes and reduces the scan time and scan deviation of scan probes.\n\nOnly one Scan Acquisition Array module can be fitted at max.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 1.0,
   "mass": null,
   "category_name": "Module",

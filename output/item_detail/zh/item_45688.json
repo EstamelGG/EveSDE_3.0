@@ -3,7 +3,7 @@
   "name": "海神防御 - 增强无人机装甲板蓝图",
   "description": null,
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "蓝图",

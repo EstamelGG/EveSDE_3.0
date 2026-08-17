@@ -3,7 +3,7 @@
   "name": "Dynamite Crate",
   "description": "A crate of the finest TNT money can buy. Guaranteed to blow even the largest of problems into smithereens.",
   "volume": 80.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 80.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Commodity",

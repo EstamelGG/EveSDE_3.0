@@ -3,7 +3,7 @@
   "name": "Zainou 'Gypsy' CPU Management EE-605",
   "description": "A neural interface upgrade that boosts the pilot's skill at electronics.\n\n5% bonus to CPU output.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

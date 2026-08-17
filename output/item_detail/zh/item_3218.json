@@ -3,7 +3,7 @@
   "name": "收割者采矿无人机",
   "description": "随着更加高效的采矿无人机的问世，收割者采矿无人机逐渐在技术革新中落伍了。久之，这种曾经一度风靡的采矿设备被束之高阁。\n\n\n\nYC118年的一个复兴计划更新了收割者设计的薄弱环节，使用了最新的采矿无人机科技。起初被出售用于帝国的开采活动，蓝图通过黑市交易流入了飞行员和海盗手中。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": null,
   "category_name": "无人机",

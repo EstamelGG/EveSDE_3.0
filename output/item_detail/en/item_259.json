@@ -3,7 +3,7 @@
   "name": "Ultraviolet L",
   "description": "Modulates the beam of a laser weapon into the ultraviolet frequencies. Slightly reduced range. Slightly increased damage.\n\n12.5% reduced optimal range.\n35% reduced capacitor need.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

@@ -3,7 +3,7 @@
   "name": "血袭者中型脉冲激光炮台",
   "description": "向控制塔指定的敌人发射由大型频率晶体产生的脉冲能量光束。有效距离相当大，跟踪速度快，发射速度比集束激光器快。注意：在晶体弹仓中填入不同种类的晶体会导致被替换的晶体损毁。",
   "volume": 1000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1000.0,
   "capacity": 4.0,
   "mass": 100000000.0,
   "category_name": "母星",

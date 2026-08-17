@@ -3,7 +3,7 @@
   "name": "Class 2 Black Hole Effects",
   "description": "Local spatial phenomena may cause strange effects on your ship systems.",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Celestial",

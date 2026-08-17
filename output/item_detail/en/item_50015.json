@@ -3,7 +3,7 @@
   "name": "Amethystic Crystallite",
   "description": "The violet hues of this glassy fluorite crystal formation appear to be particularly emboldened by the presence of trace amounts of <a href=showinfo:48927>Chromodynamic Tricarboxyls</a> compared to other specimens of this stratum.\n\nThough the concentration of these compounds is markedly less than that found in previous observations of similar examples, enterprising individuals may be able to exploit this limited resource.",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

@@ -3,7 +3,7 @@
   "name": "Hybrid Weapon Assembly Instructions",
   "description": "A set of manuals containing instructions on how to assemble hybrid weapons out of component parts.",
   "volume": 0.5,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.5,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

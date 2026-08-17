@@ -3,7 +3,7 @@
   "name": "Small Ancillary Shield Booster",
   "description": "Provides a quick boost in shield strength. The module takes Cap Booster charges and will start consuming the ship's capacitor upon the charges running out. Deactivating the module while it has no cap boosters loaded starts reloading, if there are cap boosters available in cargo hold.\n\nNote: Can use Cap Booster 25, 50, 75, 100, 150 as fuel. Reloading time is 60 seconds. Prototype Inferno Module.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 7.0,
   "mass": null,
   "category_name": "Module",

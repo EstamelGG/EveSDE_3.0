@@ -3,7 +3,7 @@
   "name": "网络连接编码/解码器",
   "description": "用于编码和解码微型链接信息的设备。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

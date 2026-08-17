@@ -3,7 +3,7 @@
   "name": "Oeryl",
   "description": "Very similar in composition to Dark Ochre, Oeryl has come into the spotlight only since advanced refining techniques have made Dark Ochre highly sought after for its high isogen content. While refining processes for Oeryl remain utterly ineffective, making this ore worthless to most manufacturers, scientists believe it may become equally as valuable as its Ochre counterpart given a few years of research.",
   "volume": 8.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 8.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

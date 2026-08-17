@@ -3,7 +3,7 @@
   "name": "实验型超空间加速装置",
   "description": "这个装置可以提高跃迁速度和加速度。\n\n每艘舰船最多只能装配三个超空间加速装置。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 50.0,
   "category_name": "装备",

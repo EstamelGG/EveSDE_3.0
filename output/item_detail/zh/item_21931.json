@@ -3,7 +3,7 @@
   "name": "共和舰队质子弹 S",
   "description": "小型射弹弹药。在弹着点能产生集中的、高强度质子流。对护盾和装甲都相当有效。最佳射程提升60%。跟踪速度提高5%。",
   "volume": 0.0025,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.0025,
   "capacity": null,
   "mass": 0.01,
   "category_name": "弹药",

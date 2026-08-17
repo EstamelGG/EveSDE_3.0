@@ -3,7 +3,7 @@
   "name": "High-grade Talon Omega",
   "description": "This implant does nothing in and of itself, but when used in conjunction with other high-grade Talon implants it will boost their effect. \n\n100% bonus to the strength of all high-grade Talon implant secondary effects.\n\nEffect not cumulative with low-grade Talon implants.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

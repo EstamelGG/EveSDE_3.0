@@ -3,7 +3,7 @@
   "name": "卡尔卡氏改良型动能护盾增强器",
   "description": "增加护盾抵抗动能伤害的能力。<br><br>注：在一艘舰船上使用多个这类装备或多个与该装备作用一致的类似装备将削弱实际使用效果。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "装备",

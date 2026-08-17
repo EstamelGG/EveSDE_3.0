@@ -3,7 +3,7 @@
   "name": "Krusual Etched Sticks",
   "description": "These sticks, to the untrained eye, appear to be nothing more than twigs bereft of bark and chewed upon by hungry bugs. However, the Krusual Tribe used sticks such as these to communicate secretly under the paranoid eyes of their Amarr overseers. \n\nA combination of vertical and horizontal lines, occasionally intersected by curves or sharp angles, represents a fiercely guarded nonverbal language. Academics speculate the source of such a language could be traced back to hunts in the Tronhadar Valley region, where scouts would leave carved sticks on the trail for the main hunting party to read.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Special Edition Assets",

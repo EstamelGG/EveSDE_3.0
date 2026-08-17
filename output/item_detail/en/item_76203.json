@@ -3,7 +3,7 @@
   "name": "Stellar Transmuter Datacore",
   "description": "This datacore contains a reconstructed portion of the accumulated research and technical data gathered by those empires with a comprehensive understanding of the means to construct and control Stellar Transmuters. The specific energy needs of Interstellar Shipcasters are such that the resources available from Stellar Transmuters are required to make such a device operational.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 0.75,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "高速机动理论",
   "description": "操作微型跃迁推进器的技能。每升一级，微型跃迁推进器的电容消耗降低5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

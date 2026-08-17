@@ -3,7 +3,7 @@
   "name": "Zainou 'Gypsy' Sensor Linking SL-903",
   "description": "A neural interface upgrade that boosts the pilot's skill at sensor linking.\n\n3% reduction in capacitor need of modules requiring the Sensor Linking skill.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

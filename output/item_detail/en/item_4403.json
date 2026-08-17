@@ -3,7 +3,7 @@
   "name": "Reactive Armor Hardener",
   "description": "The Reactive Armor Hardener possesses an advanced nano membrane that reacts to armor layer damage by shifting between resistances over time. This makes it able to align its defenses against whichever incoming damage types are prevalent.\n\nThe module spreads 60% resistance over the four damage types, starting at 15% in each.\n\nOnly one of this module type can be fitted at a time. Prototype Inferno Module.",
   "volume": 25.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 25.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Module",

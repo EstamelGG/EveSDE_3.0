@@ -3,7 +3,7 @@
   "name": "Legion Propulsion - Intercalated Nanofibers",
   "description": "Constructed from hard yet lightweight fullerene polymers, these intercalated fibers boost the speed and agility of a starship without compromising its structural resilience. Even though basic nanofibers have existed for hundreds of years, the integration of various Sleeper-based salvage and other polymers takes the technology to a completely new level of modularity. This has allowed the same centuries-old technology to be ported over to the new Tech III paradigm.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 1400000.0,
   "category_name": "Subsystem",

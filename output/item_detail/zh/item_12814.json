@@ -3,7 +3,7 @@
   "name": "爆燃 M",
   "description": "“爆燃”是天主凝聚会为帝国海军特别开发的超载荷X射线晶体。比普通版本具有更大的破坏潜力，但电容需求显著增加，而且有效射程减少。这种高级晶体中所用到的结晶结构会在使用的过程中降解，最终会导致晶体碎裂。\n\n\n\n最佳射程减少50%。\n\n跟踪速度降低30%。\n\n电容消耗增加25%。\n\n\n\n注：只能用于二级科技和势力中型脉冲激光器。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "弹药",

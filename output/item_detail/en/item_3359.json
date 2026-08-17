@@ -3,7 +3,7 @@
   "name": "Connections",
   "description": "Skill at interacting with friendly NPCs. 4% Modifier to effective standing from friendly NPC Corporations and Factions per level. Not cumulative with Diplomacy or Criminal Connections.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

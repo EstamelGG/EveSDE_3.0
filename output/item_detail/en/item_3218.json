@@ -3,7 +3,7 @@
   "name": "Harvester Mining Drone",
   "description": "Once the most efficient mining drone money can buy, the Harvester Mining Drone failed to keep up with continued innovation in the years after its introduction. Over time this once prestigious piece of mining equipment fell into disuse.\n\nA revitalization project initiated in YC 118 updated the venerable Harvester designs with the latest in mining drone technology. Initially sold to empire-based mining operations across the cluster, blueprints eventually ended up in the hands of capsuleers and pirates through the usual bloody avenues.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": null,
   "category_name": "Drone",

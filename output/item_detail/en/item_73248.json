@@ -3,7 +3,7 @@
   "name": "Caldari Loyalty Token",
   "description": "These tokens are given to capsuleers who have contributed to the security and prosperity of the Caldari State. They can be traded on the market for ISK in most Caldari stations.",
   "volume": 0.001,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.001,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

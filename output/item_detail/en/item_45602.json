@@ -3,7 +3,7 @@
   "name": "Tengu Offensive - Magnetic Infusion Basin",
   "description": "This subsystem serves as a specialized storage bin for a ship's hybrid ammo. The basin, however, also serves as a cyclotron, infusing the ammo with magnetic energy immediately before it is injected into the turret. The amplified ammo has an increased range and damage potential.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 800000.0,
   "category_name": "Subsystem",

@@ -3,7 +3,7 @@
   "name": "Industrial Sequencing",
   "description": "Advanced skill in producing multiple SKINs in a single sequencing job.\n\nIncreases maximum SKINs per sequencing by an additional 200 at skill level 1, 250 at level 2, 250 at level 3, 1000 at level 4, and 3000 at level 5.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

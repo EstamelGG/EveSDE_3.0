@@ -3,7 +3,7 @@
   "name": "Tenebraet Mutanite",
   "description": "An unstable form of ore, mutanite is rendered useless by any attempt to refine it with the technologies currently available in New Eden. Despite this, it is highly prized by the cluster's major factions as its unique and evershifting molecular structures hold the promise of new insights into the Abyssal environments inside which they formed.\n\nThe Tenebraet variant of mutanite forms in a Dark abyssal environment and has a surprisingly low frictional coefficient unless exposed to photonic radiation.",
   "volume": 4.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4.0,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "Asteroid",

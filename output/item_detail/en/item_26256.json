@@ -3,7 +3,7 @@
   "name": "Electronic Superiority Rigging",
   "description": "Advanced understanding of electronics systems. Allows makeshift modifications to targeting, scanning and ECM systems through the use of rigs. \n\n10% reduction in Electronic Superiority Rig drawbacks per level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

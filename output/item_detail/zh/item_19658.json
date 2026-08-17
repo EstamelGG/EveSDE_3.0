@@ -3,7 +3,7 @@
   "name": "融化的雪球CVII",
   "description": "这个雪球本来比你的头还要大，现在只剩一滩水了。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 100.0,
   "category_name": "特别版用品",

@@ -3,7 +3,7 @@
   "name": "Military Intelligence Report",
   "description": "A military intelligence report on Fleet movements in the local vicinity, patrol schedules and current strength,",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

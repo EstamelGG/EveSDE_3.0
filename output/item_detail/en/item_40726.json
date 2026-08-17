@@ -3,7 +3,7 @@
   "name": "Guri Hivaa Assassin",
   "description": "The Guri Hivaa are Guristas pilots specializing in hunting for very specific targets, whether that be marks to kill or kidnap, or rare and valuable consignments to plunder. The veteran assassins of this group are usually encountered flying well-armed cruisers.",
   "volume": 101000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 101000.0,
   "capacity": 440.0,
   "mass": 9600000.0,
   "category_name": "Entity",

@@ -3,7 +3,7 @@
   "name": "Spatial Attunement Unit",
   "description": "Sensor Component used primarily for scanning equipment. \n\nMainly found in Relic sites.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

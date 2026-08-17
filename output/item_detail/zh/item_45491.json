@@ -3,7 +3,7 @@
   "name": "钾盐",
   "description": "钾盐是卫星中开采出的一种常见矿石，它用处很大，能够提炼出丰富的<a href=showinfo:16635>蒸发岩沉积物</a>，可作为某些高级矿物的基础元素。钾盐矿石还会产出<a href=showinfo:35>类晶体胶矿</a>和<a href=showinfo:36>类银超金属</a>。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "小行星",

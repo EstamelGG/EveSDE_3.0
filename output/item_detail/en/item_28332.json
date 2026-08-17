@@ -3,7 +3,7 @@
   "name": "Republic Fleet Depleted Uranium L",
   "description": "Large Projectile Ammo. Very commonly used by Minmatar pilots, this ammo is incendiary and also has great penetration. Just be careful handling it unless you want to wake up with an extra toe on your forehead.\n\n20% tracking speed bonus.",
   "volume": 0.025,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.025,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

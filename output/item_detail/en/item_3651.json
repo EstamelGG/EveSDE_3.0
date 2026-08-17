@@ -3,7 +3,7 @@
   "name": "Civilian Miner",
   "description": "Common, low technology mining laser adapted for use with capsuleer technology. Works well for extracting common ore, but has great difficulty with higher end ores.\n\nWithout suitable skills and the use of specialized ships and modules, this mining laser will not be able to extract ore from Dark Ochre, Spodumain, Crokite, Bistot, or Arkonor asteroids, or any Common, Uncommon, Rare or Exceptional moon asteroids.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

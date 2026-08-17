@@ -3,7 +3,7 @@
   "name": "采矿护卫舰操作",
   "description": "操纵外空联合矿业采矿护卫舰的技能。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

@@ -3,7 +3,7 @@
   "name": "Impetus Console",
   "description": "A more advanced version of the common Thruster Console.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

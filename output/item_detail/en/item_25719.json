@@ -3,7 +3,7 @@
   "name": "Heavy Assault Missiles",
   "description": "Skill with heavy assault missiles. Special: 5% bonus to heavy assault missile damage per skill level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

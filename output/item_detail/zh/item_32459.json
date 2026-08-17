@@ -3,7 +3,7 @@
   "name": "民用跃迁干扰器",
   "description": "跃迁干扰器专门用于干扰目标舰船的导航计算机，从而阻止对方进行跃迁。<br><br>这种特别设计的民用型号，只能用于教学使用而不足以在实战中造成任何威胁。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

@@ -3,7 +3,7 @@
   "name": "Mutated Fighter Support Unit",
   "description": "A combination of additional fighter hangar support drones, fighter power transmitters and advanced sensor support, the Fighter Support Unit assist all areas of fighter operation.\n\nNote: Can only be fit to Carriers, Command Carriers and Supercarriers.\nPenalty: Using more than one type of this module or similar modules that affect the same attribute on the ship or fighter squadron will be penalized.",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "Module",

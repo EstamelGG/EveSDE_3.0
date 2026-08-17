@@ -3,7 +3,7 @@
   "name": "寒鸦级蓝图",
   "description": "这艘寒鸦级研发于YC117年，供加达里共和国、辖下各大军团及其盟友使用。134名飞行员为这艘战舰的研发提供了大量帮助。以下飞行员做出过杰出贡献：\nTorDog\nMakoto Priano\nSolecist Project\nAsuna Crossbreed\nIAm NumberSix\nIv d'Este\nAlvarez Akachi\nSany Saccante\ndarkezero\nKara Korbrey",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "蓝图",

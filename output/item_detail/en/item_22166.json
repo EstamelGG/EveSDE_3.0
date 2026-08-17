@@ -3,7 +3,7 @@
   "name": "Portable Power Generator",
   "description": "Small generator capable of powering up a small space installation.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 1500.0,
   "category_name": "Commodity",

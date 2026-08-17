@@ -3,7 +3,7 @@
   "name": "主天使小型火炮塔台",
   "description": "向控制塔指定的敌人连续发射中型射弹炮弹。可有效进行远程炮击，能造成一定破坏，但是对高速目标的跟踪速度较低。",
   "volume": 500.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 500.0,
   "capacity": 50.0,
   "mass": 50000000.0,
   "category_name": "母星",

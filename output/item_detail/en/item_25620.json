@@ -3,7 +3,7 @@
   "name": "Interface Circuit",
   "description": "Interface Circuits are common building blocks of starship subsystems.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

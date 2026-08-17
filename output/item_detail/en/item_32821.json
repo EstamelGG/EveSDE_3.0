@@ -3,7 +3,7 @@
   "name": "Unrefined Vanadium Hafnite",
   "description": "A stable binary compound composed of vanadium and hafnium. Performs a variety of catalytic functions, and is an important intermediate for more complex construction processes.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

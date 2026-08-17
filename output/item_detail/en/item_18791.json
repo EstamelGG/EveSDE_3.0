@@ -3,7 +3,7 @@
   "name": "Coreli A-Type Kinetic Coating",
   "description": "This coating utilizes a magnetic field to deflect kinetic attacks. Grants a bonus to armor kinetic damage resistance.\n\nPenalty: Using more than one type of this module or similar modules that affect the same attribute on the ship will be penalized.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Module",

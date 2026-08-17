@@ -3,7 +3,7 @@
   "name": "Rocket Fuel",
   "description": "The properties of this carefully refined liquid make it ideal for controlled combustion whether in or outside of atmospheric environments; its severe volatility requires special containers to resist most forms of impact, high temperatures, and electrical activity during storage and transportation.",
   "volume": 0.75,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.75,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

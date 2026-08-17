@@ -3,7 +3,7 @@
   "name": "Hexite",
   "description": "A chemical compound, formed through electrosporadic oxidization of chromium and platinum.  Has a wide range of applications in the production of advanced technology and is highly sought-after by industrial manufacturers.",
   "volume": 0.2,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.2,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

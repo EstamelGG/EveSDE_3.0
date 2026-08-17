@@ -3,7 +3,7 @@
   "name": "Polytextiles",
   "description": "Composite materials, both synthetic and natural, are used in the creation of polytextiles, durable fabrics that see widespread use in the clothing industry, solar sail manufacture, and even classic art.",
   "volume": 0.75,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.75,
   "capacity": null,
   "mass": 200.0,
   "category_name": "Planetary Commodities",

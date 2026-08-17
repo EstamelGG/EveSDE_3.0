@@ -3,7 +3,7 @@
   "name": "Solis Mutanite",
   "description": "An unstable form of ore, mutanite is rendered useless by any attempt to refine it with the technologies currently available in New Eden. Despite this, it is highly prized by the cluster's major factions as its unique and evershifting molecular structures hold the promise of new insights into the Abyssal environments inside which they formed.\n\nThe Solis variant of mutanite forms in a Gamma abyssal environment and emits trace amounts of cosmic radiation in the presence of harmonic sounds. It is hotly disputed amongst the science community as to which genre of harmonic sound produces the best results.",
   "volume": 4.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4.0,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "Asteroid",

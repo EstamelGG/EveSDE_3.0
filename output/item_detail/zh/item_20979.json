@@ -3,7 +3,7 @@
   "name": "卫士钨质轨道弹 L",
   "description": "由两部分组成：钛金制的弹壳和离子态的钨原子芯核。磁轨炮直接射出弹壳，而粒子疾速炮将等离子注入回旋加速器中，然后将等离子如闪电般发射出去。最佳射程提升40%。电容需求降低27%。",
   "volume": 0.025,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.025,
   "capacity": null,
   "mass": 0.1,
   "category_name": "弹药",

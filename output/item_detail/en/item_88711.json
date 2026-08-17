@@ -3,7 +3,7 @@
   "name": "Xarasier Medium Micro Jump Drive",
   "description": "The Micro Jump Drive is a module that spools up, then jumps the ship forward 100km in the direction it is facing. Upon arrival, the ship maintains its direction and velocity. Warp scramblers can be used to disrupt the module. Spool up time is reduced by the skill <a href=showinfo:4385>Micro Jump Drive Operation</a>.\n\nThe Micro Jump Drive was developed by Duvolle Laboratories Advanced Manifold Theory Unit. The drive was conceived by the late Avagher Xarasier, the genius behind several ground-breaking innovations of that era.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

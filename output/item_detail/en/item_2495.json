@@ -3,7 +3,7 @@
   "name": "Interplanetary Consolidation",
   "description": "For each level in this skill, you may install a command center on one additional planet, to a maximum of 6 planets. You can have only one command center per planet.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

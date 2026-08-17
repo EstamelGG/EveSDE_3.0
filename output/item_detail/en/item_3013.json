@@ -3,7 +3,7 @@
   "name": "Amarr Religious Holoreels",
   "description": "These holoreels contain a recent speech by a regional governor, which provides her views on the state of the Empire as well as other important religious discussions.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Commodity",

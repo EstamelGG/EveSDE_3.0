@@ -3,7 +3,7 @@
   "name": "Republic Fleet Heavy Missile Launcher",
   "description": "Designed for long engagements between medium sized ships. Slow firing rate, but makes up for it with a large missile capacity.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": 1.23,
   "mass": null,
   "category_name": "Module",

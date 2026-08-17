@@ -3,7 +3,7 @@
   "name": "载诺 狙击手 导弹打击 MB-704",
   "description": "一款载诺集团开发的导弹技能神经交互强化芯片，可增强导弹操纵技能。所有导弹的最大飞行时间增加4%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

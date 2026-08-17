@@ -3,7 +3,7 @@
   "name": "过期的解毒剂不稳定增效剂",
   "description": "+16%飞行时间基础持续时间：3分30秒这款增效剂使用了不稳定的化合物，将于<b>YC127年4月3日</b>过期。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "植入体",

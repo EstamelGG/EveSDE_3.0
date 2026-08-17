@@ -3,7 +3,7 @@
   "name": "Glorification-15 'Devana' Filament",
   "description": "The Glorification-15 'Devana' Filament permits up to 15 ships to travel from a star system in Triglavian Space to a star system in Known Space where the Triglavians won the battle for the system but did not proceed to the Liminality stages of the invasion. EDENCOM designated such systems as \"Triglavian Minor Victory\" systems.\n\nThe Triglavian Collective refers to a \"Forest of Glorification\" and appears to consider systems where they were victorious during the invasions as resource-gathering or \"hunting\" grounds, according to one interpretation by EDENCOM Cultural Intelligence.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "Commodity",

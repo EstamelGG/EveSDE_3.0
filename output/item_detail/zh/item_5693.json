@@ -3,7 +3,7 @@
   "name": "小型基础结构维修组件",
   "description": "利用纳米级装配技术来修复船体的损伤。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "装备",

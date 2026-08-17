@@ -3,7 +3,7 @@
   "name": "金鹏攻击 - 磁性注入闸",
   "description": "这个系统是舰船混合弹药的特殊储藏设备。这个注入闸实际上原理类似一个回旋加速器，在弹药被填装到炮台之前为其冲入磁能。经过这种磁能放大处理的弹药具有更大的射程和伤害力。",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 800000.0,
   "category_name": "子系统",

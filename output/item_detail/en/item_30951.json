@@ -3,7 +3,7 @@
   "name": "Verification Key",
   "description": "These keys are used by many corporations in the Caldari State to more easily and efficiently identify the bearer as a trusted employee, often granting them access to exclusive or classified information.",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": 10.0,
   "category_name": "Commodity",

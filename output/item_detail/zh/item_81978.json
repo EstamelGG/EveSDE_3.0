@@ -3,7 +3,7 @@
   "name": "格里米尔（4级）",
   "description": "混浊格里米尔是最优质的<a href=showinfo:81975>格里米尔</a>，其晶体完全不透光。如果有幸开采出这种矿石，精炼后的产量将额外提升15%。混浊格里米尔通常会分布在零安全区域内的小行星异常空间中。",
   "volume": 0.8,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.8,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

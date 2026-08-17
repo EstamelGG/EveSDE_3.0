@@ -3,7 +3,7 @@
   "name": "Superconductors",
   "description": "Required for highly advanced technologies too numerous to mention to function properly, these conduits are made from super-cooled materials that function as perfect conductors, having an effective electrical resistance of zero.",
   "volume": 0.75,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.75,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

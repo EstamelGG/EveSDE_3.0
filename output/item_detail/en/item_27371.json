@@ -3,7 +3,7 @@
   "name": "Caldari Navy Inferno Light Missile",
   "description": "The explosion the Inferno light missile creates upon impact is stunning enough for any display of fireworks - just ten times more deadly.",
   "volume": 0.015,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.015,
   "capacity": null,
   "mass": 700.0,
   "category_name": "Charge",

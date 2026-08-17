@@ -3,7 +3,7 @@
   "name": "Mjolnir Heavy Missile",
   "description": "First introduced by the armaments lab of the Wiyrkomi Corporation, the Mjolnir heavy missile is a solid investment with a large payload and steady performance.",
   "volume": 0.03,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.03,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Charge",

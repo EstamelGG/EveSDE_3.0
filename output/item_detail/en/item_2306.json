@@ -3,7 +3,7 @@
   "name": "Non-CS Crystals",
   "description": "The orderly, compact nature of crystals makes them well suited for a staggering array of manufacturing processes, in which they are just as often the product of the factory as they are incorporated into many of the tools and machinery used therein.",
   "volume": 0.005,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.005,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Resources",

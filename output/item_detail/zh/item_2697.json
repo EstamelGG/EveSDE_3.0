@@ -3,7 +3,7 @@
   "name": "大箱的合成油",
   "description": "由于只有在生物史悠长的世界才能采集到原油，合成油在宇宙各地的实验室中被大量生成。",
   "volume": 600.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 600.0,
   "capacity": null,
   "mass": 600000.0,
   "category_name": "常用物品",

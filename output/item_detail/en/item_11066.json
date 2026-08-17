@@ -3,7 +3,7 @@
   "name": "Trinary Data",
   "description": "This complicated stream of data seems to be in trinary language. It appears to be of Jovian origin.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

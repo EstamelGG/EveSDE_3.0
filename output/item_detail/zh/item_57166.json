@@ -3,7 +3,7 @@
   "name": "冰雪之星晶爆焰火箱",
   "description": "这个箱子中有冰雪之星晶爆焰火。",
   "volume": 4.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4.0,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

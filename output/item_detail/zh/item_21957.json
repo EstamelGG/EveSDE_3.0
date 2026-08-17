@@ -3,7 +3,7 @@
   "name": "建筑维修设施",
   "description": "空间站修理设施的运作所需的车床、磨床、铆接机、开卷机和不同其他类型的机械。",
   "volume": 3000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3000.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "常用物品",

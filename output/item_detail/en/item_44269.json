@@ -3,7 +3,7 @@
   "name": "Naughty People Firework",
   "description": "The Guristas Pirates are very proud of their roots in elite fighter and frigate squadrons of the Caldari Navy, and their trademark 'Naughty People' firework celebrates that heritage with a symbolic dogfight rendered in spiraling pyrotechnics.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

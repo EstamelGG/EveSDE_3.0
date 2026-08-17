@@ -3,7 +3,7 @@
   "name": "Zainou 'Gnome' Shield Emission Systems SE-801",
   "description": "A neural Interface upgrade that reduces the capacitor need for shield emission system modules such as shield transfer array.\n\n1% reduction in capacitor need of modules requiring the Shield Emission Systems skill.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

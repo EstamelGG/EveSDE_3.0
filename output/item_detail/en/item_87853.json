@@ -3,7 +3,7 @@
   "name": "Drifter Plugsuit Reward Crate",
   "description": "Contains the Drifter Plugsuit outerwear cosmetic reward.",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Special Edition Assets",

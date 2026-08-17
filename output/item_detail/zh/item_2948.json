@@ -3,7 +3,7 @@
   "name": "暗影",
   "description": "<font color=yellow>物品：</font>萨沙原型舰船（代号：暗影）<br>\n\n<font color=yellow>军事规格：</font>重型铁骑舰载机级别舰船。普通的微型跃迁速度。增强的武器系统。通过对一些特定萨沙舰船的研究，我们已经成功实现了逆向工程。<br>\n\n<font color=yellow>补充情报：</font>虽然目前很难下定论，但从我们已经找到的三名轰炸舰飞行员的情况来看，他们都已经被特别强化过，因此很有可能像在其他萨沙原型舰船中找到的飞行员一样，是在行星上遭绑架的居民。不过目前他们的DNA检测报告还没有提供什么有用信息。<br>\n\n<i>情报提供方：ISHAEKA-0107，DED特别行动组。</i><br><i>允许克隆飞行员调阅。</i>",
   "volume": 1800.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1800.0,
   "capacity": null,
   "mass": 2000.0,
   "category_name": "铁骑舰载机",

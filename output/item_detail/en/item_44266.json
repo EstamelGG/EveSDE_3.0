@@ -3,7 +3,7 @@
   "name": "Spacetime Singularity Firework",
   "description": "A truly impressive pyrotechnic display, the 'Spacetime Singularity' firework is often used in multiples, launched in carefully co-ordinated spreads to create vast geometric displays. A solo burst from this firework is still an incredible sight as streams of light radiate in six directions across space.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

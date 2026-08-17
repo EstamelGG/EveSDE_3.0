@@ -3,7 +3,7 @@
   "name": "神经网络'黑镜'网络入侵920-40",
   "description": "这个生物力学接口使用突变基因序列和纳米体在使用者的大脑中建立了一个神经网。这个神经网以牺牲病毒同步率为代价来提高病毒强度，提高对数据网络的破译能力。数据分析仪的病毒同步率下降。数据分析仪的病毒强度提高。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

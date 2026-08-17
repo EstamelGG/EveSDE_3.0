@@ -3,7 +3,7 @@
   "name": "Fullerides",
   "description": "Fullerides are highly superconductive materials used in capacitors, armor plating and weapons systems.",
   "volume": 0.15,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.15,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

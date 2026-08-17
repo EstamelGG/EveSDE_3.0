@@ -3,7 +3,7 @@
   "name": "Low-grade Snake Delta",
   "description": "This cybernetic subprocessor has been modified by Serpentis scientists for use by their elite smugglers.\n\nPrimary Effect: +2 bonus to Intelligence\n\nSecondary Effect: 0.875% bonus to maximum velocity\n\nSet Effect: 5% bonus to the strength of all Snake implant secondary effects",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

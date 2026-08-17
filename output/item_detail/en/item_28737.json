@@ -3,7 +3,7 @@
   "name": "Legion Radar ECM",
   "description": "Disrupts enemy targeting by generating a field of random sensor noise. Works especially well against the Radar systems incorporated into ships built by the Amarr, Blood Raiders, Sansha's Nation and Triglavian Collective.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

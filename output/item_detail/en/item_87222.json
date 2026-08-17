@@ -3,7 +3,7 @@
   "name": "Restricted Hyperspace Telemetry",
   "description": "Telemetry data gathered by observing wormholes related to Drifter activity. The data does not seem to concern the wormhole itself, but rather further hyperspace connections that can be observed through it.\n\nThis data has been limited to avoid detection by high-sec security sweeps.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

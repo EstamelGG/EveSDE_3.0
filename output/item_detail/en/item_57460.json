@@ -3,7 +3,7 @@
   "name": "Axosomatic Neurolink Enhancer",
   "description": "Axosomatic Neurolink Enhancers are used to enhance the integration of specific capsuleer autonomic biosystems with neurolinked ship systems\n\nThe use of Axosomatic Neurolink Enhancers is particularly favored by the Caldari Navy in conjunction with military capsuleer neurolink technology.",
   "volume": 4.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4.0,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

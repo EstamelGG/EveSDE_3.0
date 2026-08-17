@@ -3,7 +3,7 @@
   "name": "Small Sealed Cargo Containers",
   "description": "These small containers are fitted with a password-protected security lock.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Commodity",

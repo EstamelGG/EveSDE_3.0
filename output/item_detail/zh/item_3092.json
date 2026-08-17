@@ -3,7 +3,7 @@
   "name": "载诺 侏儒 护盾操作 SP-906",
   "description": "一款神经接口升级芯片，可增加飞行员舰船的护盾回充速度。护盾回充速度加成6%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

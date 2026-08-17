@@ -3,7 +3,7 @@
   "name": "Advanced Armor Layering",
   "description": "Advanced skill at installing upgraded armor plates efficiently and securely, reducing the impact they have on agility and speed. Grants a 2% reduction to armor plate mass penalty per level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

@@ -3,7 +3,7 @@
   "name": "入侵的泽尼塔级残骸",
   "description": null,
   "volume": 27500.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 27500.0,
   "capacity": 27500.0,
   "mass": 10000.0,
   "category_name": "天体",

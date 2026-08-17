@@ -3,7 +3,7 @@
   "name": "Sanshas Multifrequency S",
   "description": "Randomly cycles the laser through the entire spectrum. The greatly increased damage comes at the cost of a significant reduction in range.\n\nWith shorter range, Thermal damage increases and the overall damage output is increased.\n\nThe delicate crystalline structures used in the manufacture of this advanced crystal degrade with use, eventually causing it to shatter.\n\n50% reduced optimal range.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

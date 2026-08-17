@@ -3,7 +3,7 @@
   "name": "Raysere's Modified Power Diagnostic System",
   "description": "Monitors and optimizes the power grid. Gives a slight boost to power core output and a minor increase in shield and capacitor recharge rate.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 20.0,
   "category_name": "Module",

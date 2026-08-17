@@ -3,7 +3,7 @@
   "name": "聚合高密度艾克诺岩",
   "description": "艾克诺岩是已知世界中最稀有、最令人向往的矿石之一。一大块这种矿石足以让任何人瞬间从乞丐变成富翁。它含有大量<a href=showinfo:40>超噬矿</a>，以及一些<a href=showinfo:36>类银超金属</a>和<a href=showinfo:35>类晶体胶矿</a>。<i>这种材料使用了比较老旧的压缩方式，对原材料进行一次性批量压缩。最新的压缩技术则更为灵活，可以按单位体积进行压缩。</i>",
   "volume": 8.8,
-  "repackaged_volume": null,
+  "repackaged_volume": 8.8,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

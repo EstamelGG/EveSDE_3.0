@@ -3,7 +3,7 @@
   "name": "Unrefined Neo Mercurite",
   "description": "A silvery, shimmering liquid compound, Neo Mercurite is a crucial element in many forms of advanced sensor and processor technology.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

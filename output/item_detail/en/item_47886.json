@@ -3,7 +3,7 @@
   "name": "Tetryon Exotic Plasma M",
   "description": "An Entropic Disintegrator uses charges of exotic plasma to provide the particle feedstock for the weapon's beam, with different forms of exotic matter modulating the beam's characteristics.\n\nTetryon Exotic Plasma charges yield a beam with very high thermal damage potential but a significantly reduced range.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

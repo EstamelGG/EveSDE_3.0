@@ -3,7 +3,7 @@
   "name": "Prototype 'Pluto' Mining Drone",
   "description": "A prototype drone developed by CreoDron based on ORE's 'Excavator' mining drone design by incorporating experimental rogue drone technology. The harvesting protocols have been altered to behave much more like a Rogue Drone would when salvaging and recycling materials to be brought back to a rogue drone hive. The result is a far more efficient mining process creating less residue, albeit a slower one resulting in lower mining yields over time. \n\nCurrently this drone is unsuitable for mass production due to a high rejection rate with the rogue drone technology. CreoDron is hoping to improve their understanding of this process from knowledge gained from the Gallente Federation Military Campaign operation 'Rogue Edge'.",
   "volume": 1100.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1100.0,
   "capacity": null,
   "mass": null,
   "category_name": "Drone",

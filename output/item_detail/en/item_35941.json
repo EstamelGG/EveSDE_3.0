@@ -3,7 +3,7 @@
   "name": "Standup Remote Sensor Dampener I",
   "description": "The Standup Remote Sensor Dampener is an electronic warfare system designed to give structure operators the capability of reducing the scan resolution and targeting range of enemy ships. The Remote Sensor Dampener system may be installed as a module in Upwell technology structures.\n\nStandup is a proprietary system that uses a Structure Autonomous Nanoassembly Device (Upwell) containing integrated template software, a nanoassembler array and sufficient nanomass to enable the construction of a variety of service modules, structure modules and structure rigs when inserted into the appropriate slots on a structure built with Upwell technology.\n\nPenalty: Using more than one type of this module or similar modules that affect the same attribute on the ship will be penalized.",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": 500.0,
   "category_name": "Structure Module",

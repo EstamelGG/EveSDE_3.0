@@ -3,7 +3,7 @@
   "name": "丰钒铅矿",
   "description": "如果卫星开采出的矿石的产出高于钒铅矿的平均密度，则称为丰钒铅矿，提炼出的有用矿物会多出大概15%。\n\n\n\n钒铅矿是卫星中开采出的一种罕见矿石，价值颇高，能够产出丰富的<a href=showinfo:16642>钒</a>，可作为许多高级矿物的重要元素。钒铅矿石还会产出<a href=showinfo:16636>硅酸盐</a>。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "小行星",

@@ -3,7 +3,7 @@
   "name": "无邪心动焰火",
   "description": "这种特殊的焰火以多支火焰构成图形并最后引发盛大爆破，以戏剧化的方式赞颂了爱与渴望。臭名昭著的守护天使再一次以对迷你火箭和焰火出神入化的应用体现了他们浪漫的一面。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "弹药",

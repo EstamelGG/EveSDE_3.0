@@ -3,7 +3,7 @@
   "name": "Hydrocarbons",
   "description": "Raw fossil fuels such as petroleum and mineral oil. Hydrocarbons are crucial building blocks in the production of organic chemicals, plastics and waxes, and are thus one of the most useful materials harvestable from any source.",
   "volume": 0.05,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.05,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

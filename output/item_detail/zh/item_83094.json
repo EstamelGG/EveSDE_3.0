@@ -3,7 +3,7 @@
   "name": "旗舰跳跃通道发生学",
   "description": "生成通往遥远星系的跳跃通道的技能。每升一级，可随旗舰导管跳跃一起移动的舰船数量上限增加100%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

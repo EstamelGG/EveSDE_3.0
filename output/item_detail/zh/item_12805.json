@@ -3,7 +3,7 @@
   "name": "钉刺 M",
   "description": "“钉刺”型弹药套件可对超远距离目标造成巨大破坏。它是一种装载在小型引力子推进器上的超浓缩钸萨博弹，小型引力子推进器为其提供强大的撞击速度。然而这种弹药在近距离基本没用。    最佳射程增加80%。  跟踪速度降低75%。    注：只能用于二级科技和势力中型磁轨炮。",
   "volume": 0.0125,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.0125,
   "capacity": null,
   "mass": 0.01,
   "category_name": "弹药",

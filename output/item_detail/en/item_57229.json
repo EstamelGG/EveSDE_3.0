@@ -3,7 +3,7 @@
   "name": "Festival-only 'Longbow' MD6 Dose",
   "description": "This Cerebral Accelerator is only designed for and available on Serenity.\n\n6% damage bonus to Cruise Missile, Torpedo, Heavy Missile, Heavy Assault Missile, Light Missile and Rocket.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Implant",

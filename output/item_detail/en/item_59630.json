@@ -3,7 +3,7 @@
   "name": "Covert Mobile Cynosural Beacon",
   "description": "This structure, once deployed and having completed its automatic activation process, will act as a covert cynosural beacon that can be used by fleet members of the owner at the time of deployment.\n\nCannot be retrieved once deployed.",
   "volume": 210.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 210.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "Deployable",

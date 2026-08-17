@@ -3,7 +3,7 @@
   "name": "能量中和波发射台",
   "description": "类似于能量中和器，只是更大更厉害。",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": 100000000.0,
   "category_name": "母星",

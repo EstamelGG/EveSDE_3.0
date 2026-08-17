@@ -3,7 +3,7 @@
   "name": "中型脉冲激光专业研究",
   "description": "操作高级中型脉冲激光器的专业训练。每升一级，需要中型脉冲激光专业研究的中型炮台的伤害提高2%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

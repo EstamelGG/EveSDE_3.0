@@ -3,7 +3,7 @@
   "name": "雷暴 XL",
   "description": "标准核芯弹的改进版本，搭载了富含莫尔石的弹头和智能跟踪系统。 \n\n\n\n跟踪速度降低25%。\n\n失准范围增加40%。\n\n\n\n注：只能用于旗舰级二级科技或势力自动加农炮。",
   "volume": 0.125,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.125,
   "capacity": null,
   "mass": 1.0,
   "category_name": "弹药",

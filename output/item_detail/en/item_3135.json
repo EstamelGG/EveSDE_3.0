@@ -3,7 +3,7 @@
   "name": "Zainou 'Deadeye' Missile Projection MP-706",
   "description": "A Zainou missile hardwiring designed to enhance skill with missiles.\n\n6% bonus to all missiles' maximum velocity.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

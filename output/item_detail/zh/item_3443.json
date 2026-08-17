@@ -3,7 +3,7 @@
   "name": "贸易学",
   "description": "理解市场和操纵市场的技能。每升一级，有效购买/出售订单数上限加4。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

@@ -3,7 +3,7 @@
   "name": "Navigation",
   "description": "Skill at regulating the power output of ship thrusters. 5% bonus to sub-warp ship velocity per skill level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

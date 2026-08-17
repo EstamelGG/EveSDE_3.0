@@ -3,7 +3,7 @@
   "name": "菱镉矿",
   "description": "菱镉矿是卫星中开采出的一种罕见矿石，价值颇高，能够产出丰富的<a href=showinfo:16643>镉</a>，可作为许多高级矿物的重要元素。菱镉矿石还会产出<a href=showinfo:16634>标准大气</a>。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "小行星",

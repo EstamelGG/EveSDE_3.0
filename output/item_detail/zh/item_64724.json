@@ -3,7 +3,7 @@
   "name": "基础型魅惑增效剂",
   "description": "类似于社交技能的作用方式，这种高效能的增效剂可以使代理人、军团和势力的声望获取速度提升15%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "植入体",

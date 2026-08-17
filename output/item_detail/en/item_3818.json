@@ -3,7 +3,7 @@
   "name": "Exile",
   "description": "This booster is highly addictive and has been known to cause aggressive behavior.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 800.0,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "舰载机模型",
   "description": "这是一个 <url=showinfo:23055>圣殿骑士</url>，艾玛铁骑舰载机。它是航母使用的一种战斗无人机。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

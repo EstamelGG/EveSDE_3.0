@@ -3,7 +3,7 @@
   "name": "Blood Medium Pulse Laser Battery",
   "description": "Fires a pulsed energy beam using large sized frequency crystals at those the Control Tower deems its enemies. Effective at fairly long ranges, tracks fast and has a higher rate of fire than its beam laser counterpart. Note: Placing a new type of crystal into the crystal compartment will result in the destruction of the crystal being replaced.",
   "volume": 1000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1000.0,
   "capacity": 4.0,
   "mass": 100000000.0,
   "category_name": "Starbase",

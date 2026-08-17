@@ -3,7 +3,7 @@
   "name": "萨沙微波晶体 S",
   "description": "将激光武器的光束调节到微波频率。提升攻击距离。增强电磁伤害。这种高级晶体中所用到的结晶结构会在使用的过程中降解，最终会导致晶体碎裂。最佳射程提升40%。电容需求降低25%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "弹药",

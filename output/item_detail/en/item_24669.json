@@ -3,7 +3,7 @@
   "name": "Shaqil's Speed Enhancer",
   "description": "A hardwiring implant designed to enhance pilot navigation skill.\n\n8% bonus to ship velocity.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

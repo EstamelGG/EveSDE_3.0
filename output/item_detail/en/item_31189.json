@@ -3,7 +3,7 @@
   "name": "Small Warp Core Optimizer I",
   "description": "This ship modification is designed to reduce a ship's capacitor need for initiating warp at the expense of increased signature radius.\n\nThe drawbacks of fitting this rig may be reduced by training the <a href=showinfo:26254>Astronautics Rigging</a> skill.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "Module",

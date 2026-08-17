@@ -3,7 +3,7 @@
   "name": "杰顿·西肯瑞恩的物品",
   "description": "这个集装箱里装满了贵重的珠宝和白金条，属于富有加达里银行家杰顿·西肯瑞恩。",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "常用物品",

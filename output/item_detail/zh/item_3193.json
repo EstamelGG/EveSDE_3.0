@@ -3,7 +3,7 @@
   "name": "埃菲尔公司 神枪手 外科打击 SS-902",
   "description": "埃菲尔公司生产的射击技能神经交互强化芯片，可增强所有炮台操纵技能。\n\n所有炮台伤害增加2%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

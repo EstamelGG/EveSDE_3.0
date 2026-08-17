@@ -3,7 +3,7 @@
   "name": "访问记录抄本",
   "description": "这些加密的访谈记录描述了在阿根塔星座为维克米集团的项目而卖力的工人每日所遭受的苦难。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

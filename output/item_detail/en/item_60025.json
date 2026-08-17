@@ -3,7 +3,7 @@
   "name": "Serenity YC123.7 PotT SKIN Crate Large",
   "description": "This crate is only designed for and available on Serenity.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

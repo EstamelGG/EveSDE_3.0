@@ -3,7 +3,7 @@
   "name": "损坏的无人机调制器",
   "description": "配有数字调制装置和振荡器的多功能芯片，用于无人机通讯硬件。这块看上去已经损坏了。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

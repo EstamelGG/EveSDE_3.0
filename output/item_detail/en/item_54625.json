@@ -3,7 +3,7 @@
   "name": "Limited Synth Crash Booster Mk II",
   "description": "This booster quickens a pilot's reactions, pushing him into the delicate twitch territory inhabited by the best missile marksmen. Any missile he launches at his hapless victims will hit its mark with that much more precision, although the pilot may be too busy grinding his teeth to notice.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Implant",

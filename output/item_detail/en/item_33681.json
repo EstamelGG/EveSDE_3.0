@@ -3,7 +3,7 @@
   "name": "Gecko",
   "description": "The Gecko was one of the results of the explosion in new technology deriving from the covert and highly illegal research labs known as Ghost Sites. It is a superdrone whose structure bears some similarity to Heavy Drones, but whose function is far deadlier.\n\nThe Gecko uses up twice the bandwidth of a regular drone, and in turn comes with twice the combat capabilities at much less the skill cost. It accomplishes this in part through an enigmatic new advancement in the theory of remote operations, which allows clone pilots much greater control of detached high-velocity equipment than had hereto been possible.",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "Drone",

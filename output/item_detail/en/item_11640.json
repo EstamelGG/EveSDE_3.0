@@ -3,7 +3,7 @@
   "name": "Warp Core Stabilizer II",
   "description": "When activated this unit attempts to compensate for fluctuations and disruptions of the ship's warp core. As a side effect, the host ship's maximum targeting range, scan resolution and drone bandwidth are penalized while this module is fitted.\n\nOnly one of this module type can be fitted at a time.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

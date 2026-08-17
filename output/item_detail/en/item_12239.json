@@ -3,7 +3,7 @@
   "name": "Compression Array",
   "description": "This structure has been automatically disabled by CONCORD to make way for newer replacement technology.",
   "volume": 6000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 6000.0,
   "capacity": 20000000.0,
   "mass": 50000000.0,
   "category_name": "Starbase",

@@ -3,7 +3,7 @@
   "name": "小型信号集中设备 II",
   "description": "这个舰船改装件通过牺牲护盾来增加所有需要<a href=showinfo:3426>CPU管理学</a>技能的装备（货柜扫描器、舰船扫描器）的扫描速度。装配这个改装件的副作用可以通过训练<a href=showinfo:26256>电子优势改装技术</a>技能降低影响。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "装备",

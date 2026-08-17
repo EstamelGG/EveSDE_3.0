@@ -3,7 +3,7 @@
   "name": "Minmatar DNA",
   "description": "This DNA sample was extracted from the remains of a Matari individual who died as a result of a severe allergic reaction to Augumene ore refined using an experimental method. Further research into this particular refining method has been terminated.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

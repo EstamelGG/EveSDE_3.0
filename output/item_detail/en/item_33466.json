@@ -3,7 +3,7 @@
   "name": "YO-5000 Rapid Heavy Missile Launcher",
   "description": "Launcher for battleships intended to counter smaller combat ships such as frigates and cruisers, can only be loaded with heavy missiles.",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": 0.72,
   "mass": null,
   "category_name": "Module",

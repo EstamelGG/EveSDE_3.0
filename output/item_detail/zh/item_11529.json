@@ -3,7 +3,7 @@
   "name": "分子工程学",
   "description": "理解分子工程学及其在高科技开发中应用的技能。 \n\n主要用于各种船体及推进系统的研究。  \n\n可以在研究代理人的帮助下进行分子工程学研究。每升一级，所有需要分子工程学技能的物品的生产时间减少1%。\n\n这是相关蓝图研究和制造的必需技能。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

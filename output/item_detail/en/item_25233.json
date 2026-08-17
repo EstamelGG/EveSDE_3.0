@@ -3,7 +3,7 @@
   "name": "Corporation Contracting",
   "description": "You are familiar with the intricacies of formalizing contracts between your corporation and other entities. \n\nFor each level of this skill the number of concurrent corporation/alliance contracts you make on behalf of your corporation is increased by 10 up to a maximum of 60. \n\nThis skill has no effect on contracts you make personally.\n\nThere is no limit on the number of contracts a corporation can assign to itself.\n\nCorporations have a hard limit of 500 outstanding public contracts.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

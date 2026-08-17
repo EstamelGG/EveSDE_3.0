@@ -3,7 +3,7 @@
   "name": "Minmatar Light Marines",
   "description": "When war breaks out, the demand for transporting military personnel on site can exceed the grasp of the military organization. In these cases, the aid from non-military spacecrafts is often needed.",
   "volume": 2.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Commodity",

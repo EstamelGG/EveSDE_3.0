@@ -3,7 +3,7 @@
   "name": "萨沙爱国者标准晶体 S",
   "description": "将激光武器的光束调节到可见光波段。这种高级晶体中所用到的结晶结构会在使用的过程中降解，最终会导致晶体碎裂。电容需求降低45%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "弹药",

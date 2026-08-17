@@ -3,7 +3,7 @@
   "name": "货柜中的端脑",
   "description": "虽然不像萨沙共和国的风格，但这确实是一片从其母体上分离出来的大脑。\n\n\n\n装在一个盒子里。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

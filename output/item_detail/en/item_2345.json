@@ -3,7 +3,7 @@
   "name": "Camera Drones",
   "description": "Most visibly used in starship development, especially on capsuleer craft, other types of camera drones are also employed in the fields of nano-medicine, surveillance, and entertainment.",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

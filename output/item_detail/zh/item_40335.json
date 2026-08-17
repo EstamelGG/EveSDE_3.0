@@ -3,7 +3,7 @@
   "name": "导弹精准度干扰脚本",
   "description": "该脚本可用在制导干扰器装备上以增加装备的导弹精准度干扰效果，不过这样做会降低其导弹射程干扰效果。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "弹药",

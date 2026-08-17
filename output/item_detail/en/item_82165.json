@@ -3,7 +3,7 @@
   "name": "Hezorime III-Grade",
   "description": "With a barely perceptible saw-like edge, miners lucky enough to notice III-Grade, or serrated, <a href=showinfo:82163>hezorime</a> will be rewarded for their diligence with an additional 10% yield of minerals.\n \nSerrated hezorime deposits may be found in null security space asteroid anomalies.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

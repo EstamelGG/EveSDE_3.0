@@ -3,7 +3,7 @@
   "name": "旗舰货柜舱",
   "description": "由巨型金属片连接而成的数千立方米的货柜舱，装载于旗舰级飞船上。",
   "volume": 2000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2000.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "常用物品",

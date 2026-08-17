@@ -3,7 +3,7 @@
   "name": "Customs Office Gantry",
   "description": "A rigid scaffold equipped with stabilizing thrusters and microgravity fabrication facilities, this gantry is designed for the erection of large, stationary structures in the orbit of planetary bodies. This model provides the skeleton for an orbital Customs Office.\n\nNote: In an effort to reduce waste, <b>the gantry will be consumed during construction</b> and its materials will be incorporated into the new structure.",
   "volume": 7600.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 7600.0,
   "capacity": 19500001.0,
   "mass": 1000000.0,
   "category_name": "Orbitals",

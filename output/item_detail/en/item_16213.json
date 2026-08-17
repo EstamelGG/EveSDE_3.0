@@ -3,7 +3,7 @@
   "name": "Caldari Control Tower",
   "description": "At first the Caldari Control Towers were manufactured by Kaalakiota, but since they focused their efforts mostly on other, more profitable installations, they soon lost the contract and the Sukuuvestaa corporation took over the Control Towers' development and production.\n\nRacial Bonuses:\n25% bonus to Missile Battery Rate of Fire\n50% bonus to Missile Velocity\n-75% bonus to ECM Jammer Battery Target Cycling Speed",
   "volume": 8000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 8000.0,
   "capacity": 140000.0,
   "mass": 200000000.0,
   "category_name": "Starbase",

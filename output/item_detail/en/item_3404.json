@@ -3,7 +3,7 @@
   "name": "Genetic Engineering",
   "description": "This is part of a set of debunked CONCORD alternative medicine books that used to be very popular among capsuleers until independent researchers proved conclusively that diluting genetic material in water did not give it any healing properties.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Commodity",

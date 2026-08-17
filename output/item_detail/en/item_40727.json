@@ -3,7 +3,7 @@
   "name": "Guri Hivaa Rokosabai",
   "description": "The Guri Hivaa are Guristas pilots specializing in hunting for very specific targets, whether that be marks to kill or kidnap, or rare and valuable consignments to plunder. The elite Guri Hivaa Rokosabai are the most accomplished among their ranks and are afforded the command of high-tech and powerful battleships.",
   "volume": 486000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 486000.0,
   "capacity": 815.0,
   "mass": 99300000.0,
   "category_name": "Entity",

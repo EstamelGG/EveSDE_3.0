@@ -3,7 +3,7 @@
   "name": "旗舰护盾发射器",
   "description": "用于在旗舰级飞船周围创建巨型电磁护盾的模块化装置。",
   "volume": 2000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2000.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "常用物品",

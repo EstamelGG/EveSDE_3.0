@@ -3,7 +3,7 @@
   "name": "Azbel",
   "description": "Named after Li Azbel, a Gallente scientist who pioneered the first breakthroughs in faster than light communications, the Azbel Engineering Complex is a large-sized structure from the Upwell Consortium and is specialized in manufacturing and research operations. \n\nThe Azbel Engineering Complex fits into the industrial major-player spot in the Upwell Consortium’s new line of structures, and is able to use Upwell's Standup Service modules, allowing flexibility and customization of its functions. This dedicated industrial structure also provides access to Upwell’s L-Set line of rigs designed to improve productivity and optimization of various aspects of manufacturing and research.\n\nDue to its large size this engineering complex can accommodate construction of capital ships using the Standup Capital Shipyard I Service Module.\n\nThe Azbel provides tethering technology and has docking capabilities for subcapital ships and freighters.",
   "volume": 80000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 80000.0,
   "capacity": null,
   "mass": 10000000000.0,
   "category_name": "Structure",

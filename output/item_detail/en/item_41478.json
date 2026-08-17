@@ -3,7 +3,7 @@
   "name": "Large Ancillary Remote Armor Repairer",
   "description": "This module uses nano-assemblers to repair damage done to the armor of the Target ship. The module can optionally use Nanite Repair Paste to increase repair effectiveness. Deactivating the module while it has no Nanite Repair Paste loaded starts reloading, if there is Nanite Repair Paste available in cargo hold. \n\nNote: Can use Nanite Repair Paste as fuel. Reloading time is 60 seconds. Prototype Inferno Module.",
   "volume": 25.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 25.0,
   "capacity": 0.64,
   "mass": 20.0,
   "category_name": "Module",

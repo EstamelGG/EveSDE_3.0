@@ -3,7 +3,7 @@
   "name": "标准型梦呓增效体",
   "description": "这种增效剂能够诱发飞行员进入潜意识状态，这时他的感官不再受到普通静态物体的严重干扰，因而能够感知远处物体的运动。在潜意识状态下，飞行员能够更准确地击中移动中的目标，不过他得小心别睡着了。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "植入体",

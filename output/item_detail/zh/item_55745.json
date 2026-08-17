@@ -3,7 +3,7 @@
   "name": "四大自由烟火箱",
   "description": "内含一个节日发射器和四大自由焰火",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

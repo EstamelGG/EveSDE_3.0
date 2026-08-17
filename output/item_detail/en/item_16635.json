@@ -3,7 +3,7 @@
   "name": "Evaporite Deposits",
   "description": "Deposits formed by the precipitation of mineral-rich water. Usable for many purposes, mostly as building-block components for more complex materials.",
   "volume": 0.05,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.05,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

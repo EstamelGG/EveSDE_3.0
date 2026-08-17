@@ -3,7 +3,7 @@
   "name": "Grand Prix Velocity Booster",
   "description": "<font color=\"#ff3399cc\"><b>+10% Max Velocity. Duration 4 hours.</b></font>\n\n<b>Expiry date: May 31 YC123</b>\n\nThis booster will be consumed immediately when redeemed from the redeeming queue.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

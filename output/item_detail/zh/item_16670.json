@@ -3,7 +3,7 @@
   "name": "碳化晶体",
   "description": "碳化晶体是一种由微晶合金和碳聚合物合成的异常坚硬的物质，是多种形式的盖伦特高等科技产品中的主要部件，用于诸如推进器和装甲附甲等。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

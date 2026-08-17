@@ -3,7 +3,7 @@
   "name": "Limited 'Limos' Rapid Light Missile Launcher",
   "description": "Launcher for cruisers intended to counter fast frigates, can only be fitted with regular light missiles.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": 0.285,
   "mass": null,
   "category_name": "Module",

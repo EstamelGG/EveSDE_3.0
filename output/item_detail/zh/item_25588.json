@@ -3,7 +3,7 @@
   "name": "烧毁的遥感探测处理器",
   "description": "一种在制造导弹发射器中使用的专业系统。这个系统已被火焰或爆炸损坏。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

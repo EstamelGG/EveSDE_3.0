@@ -3,7 +3,7 @@
   "name": "Clone Vat Bay I",
   "description": "When activated, the Clone Vat Bay allows for the capital ship to receive transneural brain scan data from a capsule-mounted scanner into one of the bay's clones, effectively turning the ship into a mobile clone station.\n\nNote: In order to be able to clone to your ship, a pilot must have a working clone already installed in the vessel. In addition, the power required to safely and accurately receive and transmit transneural scanner data is diverted from the ship's engines; therefore, when the Clone Vat Bay is activated, the capital ship becomes unable to move. Disruption from this power transfer also prevents docking in Upwell structures while the module is active, although tethering can continue as usual.\n\nCan only be fit on Titans and Capital Industrial Ships.",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

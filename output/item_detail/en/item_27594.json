@@ -3,7 +3,7 @@
   "name": "Dark Blood Control Tower Small",
   "description": "The Blood Control Tower is an enhanced version of the Amarr control tower utilizing the latest frontier design techniques to increase its defenses and efficiency.\n\nRacial Bonuses:\n50% bonus to Energy Sentry Optimal Range\n25% bonus to Energy Sentry Damage\n50% bonus to Silo Cargo Capacity",
   "volume": 2000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2000.0,
   "capacity": 35000.0,
   "mass": 200000000.0,
   "category_name": "Starbase",

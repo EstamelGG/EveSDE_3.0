@@ -3,7 +3,7 @@
   "name": "Group of Security Personnel",
   "description": "Packing small arms and shortwave communicators, security personnel are the ideal choice for policing small settlements or corporate offices, where mercenaries would be unpredictable and military forces would be overkill.",
   "volume": 60.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 60.0,
   "capacity": null,
   "mass": 60000.0,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "卡尔卡氏改良型多谱式ECM",
   "description": "先进的多用途干扰系统，对所有的锁定系统提供全方位干扰。虽然效果不如用途更专一的系统，但对较低级的锁定系统依然非常有效。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

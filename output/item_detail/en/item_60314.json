@@ -3,7 +3,7 @@
   "name": "Gas Cloud Harvester II",
   "description": "Ever-increasing demand for the products derived from gas cloud resources finally drove yet another breakthrough in gas harvesting technology, with the old scoop tech's integrated tractor beam and gas conversion systems massively overhauled to include broad-sweep beams and high-efficiency, multiplexed catalytic conversion arrays. The large increase in the size of the installed hardware and the power requirements of the equipment has meant that only larger ships can be contemplated as platforms for the new Gas Cloud Harvesters. Given these demands and the advantages of using dedicated mining ships, the practical module designs were soon specialized for use on mining barges and exhumers.\n\nWith development of the first practical Gas Cloud Harvesters for mining barges, it was only a matter of time before the benefits of advanced components and the efficiencies made possible using morphite alloys led to upgraded modules. The Gas Cloud Harvester II provides a major performance improvement at the cost of increased power requirements and some residue byproducts.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

@@ -3,7 +3,7 @@
   "name": "欧丁氏眼球同步协调强化体",
   "description": "提升对高速移动目标的打击能力。炮台跟踪速度增加6%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

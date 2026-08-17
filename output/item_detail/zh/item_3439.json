@@ -3,7 +3,7 @@
   "name": "维修无人机操控理论",
   "description": "操纵后勤无人机的技能。每升一级，维修量提升5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

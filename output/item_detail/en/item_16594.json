@@ -3,7 +3,7 @@
   "name": "Procurement",
   "description": "Proficiency at placing remote buy orders on the market. Level 1 allows for the placement of orders within the same solar system, Level 2 extends that range to systems within 5 jumps, and each subsequent level then doubles it. Level 5 allows for placement of remote buy orders anywhere within current region.  \n\nNote: Placing buy orders and directly buying an item are not the same thing. Direct remote purchase requires no skill.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

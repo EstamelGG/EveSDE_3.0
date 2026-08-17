@@ -3,7 +3,7 @@
   "name": "冰矿采集无人机 I",
   "description": "冰矿采集无人机",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": null,
   "mass": null,
   "category_name": "无人机",

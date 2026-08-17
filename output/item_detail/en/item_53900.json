@@ -3,7 +3,7 @@
   "name": "Mid-grade Savior Epsilon",
   "description": "This social adaptation chip has been modified by Angel scientists for use by their elite officers.\n\nPrimary Effect: +3 Bonus to Charisma\n\nSecondary Effect: 3% reduction in the cycle time and capacitor activation cost of subcapital remote armor repairers and remote shield boosters\n\nSet Effect: 10% bonus to the strength of all Savior implant secondary effects",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

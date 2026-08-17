@@ -3,7 +3,7 @@
   "name": "Frozen Livers",
   "description": "These cryogenic storage containers are used to transfer body-parts without risk of decay.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Commodity",

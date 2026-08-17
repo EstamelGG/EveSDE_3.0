@@ -3,7 +3,7 @@
   "name": "大型结构维修器 I",
   "description": "利用纳米级装配技术来修复船体的损伤。",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "装备",

@@ -3,7 +3,7 @@
   "name": "Geodite",
   "description": "Geodite ore used to be common, but was mined heavily in the early years of interstellar industry, before the discovery of Crokite. The quality of nocxium taken from Geodite is very poor by today's refining standards, making the ore nearly worthless.",
   "volume": 16.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 16.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

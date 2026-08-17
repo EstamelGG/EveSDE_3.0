@@ -3,7 +3,7 @@
   "name": "高密度黑赭石",
   "description": "黑赭石曾一度被当作一种无价值的矿石而受到忽略，直到提炼得到技术改进，最终从中提炼出了巨量的<a href=showinfo:37>同位聚合体</a>和<a href=showinfo:36>类银超金属</a>。黑赭石也含有数量不少的<a href=showinfo:38>超新星诺克石</a>。这种矿物被压缩过，比它的原始形态紧密得多。",
   "volume": 0.08,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.08,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

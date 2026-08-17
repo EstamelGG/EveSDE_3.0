@@ -3,7 +3,7 @@
   "name": "Deathless Research Superior Consignment",
   "description": "Provided by The Deathless Circle to capsuleers that assisted in the acquisition of Hypercatabolic Clone Tissue.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

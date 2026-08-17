@@ -3,7 +3,7 @@
   "name": "Capsuleer Starburst Firework",
   "description": "The Capsuleer Starburst pyrotechnic charge was created to celebrate Capsuleer Day XIX to evoke the starblazing achievements of capsuleers for nearly two decades.\n\nThe YC124 celebrations of Capsuleer Day are the 19th anniversary of the dawn of the Capsuleer Age and the opening up of New Eden's frontiers by immortal clone space pilots. Capsuleer Day XIX is a time of celebration for cloned and capsuled spaceship pilots, when New Eden looks back on the achievements of capsuleers and wonders what challenges, risks and opportunities the future may hold.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

@@ -3,7 +3,7 @@
   "name": "Standup Scarab II",
   "description": "<b>Type:</b> Structure-based Support Fighter\n<b>Role:</b> Jamming\n<b>Description:</b> The Scarab brings electronic jamming support to the battlefield. This Standup variant of the Scarab is more powerful than the carrier-based variants but does not benefit from capsuleer skills and may only be launched from Upwell structures.\n\n<b>Jammer</b>: Disrupts targeting systems.\n<b>Microwarpdrive</b>: Gives a significant speed boost at the cost of higher signature radius. The Microwarpdrive has a long cool-down cycle between uses.",
   "volume": 6000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 6000.0,
   "capacity": null,
   "mass": 1500.0,
   "category_name": "Fighter",

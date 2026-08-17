@@ -3,7 +3,7 @@
   "name": "安泰 II",
   "description": "<b>类型：</b>重型铁骑舰载机\n\n<b>作用：</b>远程攻击\n\n<b>描述：</b>安泰被设计专门用来执行远程打击任务。\n\n\n\n<b>磁轨炮</b>：这种武器系统在射程较远时能打出不俗的伤害。\n\n<b>微型跳跃引擎</b>：带领铁骑舰载机中队进行远程跳跃。引擎加速后，铁骑舰载机的信号半径会大幅增加。\n\n<b>炸弹发射器</b>：发射非制导炸弹造成范围效果伤害。",
   "volume": 2000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2000.0,
   "capacity": null,
   "mass": 2000.0,
   "category_name": "铁骑舰载机",

@@ -3,7 +3,7 @@
   "name": "促销中心",
   "description": "初级技能，可助你在派瑞根中心上架涂装进行销售。每升一级，派瑞根中心上架数量上限增加1。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

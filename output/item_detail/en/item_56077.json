@@ -3,7 +3,7 @@
   "name": "Border-15 'Pochven' Filament",
   "description": "The Border-15 'Pochven' Filament permits up to 15 ships to travel from Known Space to a system in Triglavian space that is on the border between systems controlled by two Triglavian clades\n\nTriglavian mastery of space-time conduit technology allows them relatively fine control over the generation and targeting of FTL conduits. Certain of the filament devices used by Triglavian forces are connected to systems that are in some sense considered the \"borders\" between two Triglavian Krais, or artifical constellations controlled by each clade. Even those unfamiliar with how to precisely target them will find the conduits they generate will transport them to a \"border system\" in the Triglavian-constructed region of Pochven.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "Commodity",

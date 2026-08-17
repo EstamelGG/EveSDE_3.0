@@ -3,7 +3,7 @@
   "name": "Hezorime II-Grade",
   "description": "A minor step up from its more common variant, II-Grade <a href=showinfo:82163>hezorime</a> has a dull finish and produces an additional 5% yield when refined.\n \nDull hezorime deposits may be found in null security space asteroid anomalies.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

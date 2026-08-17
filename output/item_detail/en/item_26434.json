@@ -3,7 +3,7 @@
   "name": "Large Projectile Metastasis Adjuster II",
   "description": "This ship modification is designed to increase the tracking speed of all projectile turrets at the expense of increased power grid need for projectile weapons.\n\nPenalty: Using more than one type of this module or similar modules that affect the same attribute on the ship will be penalized.\n\nThe drawbacks of fitting this rig may be reduced by training the <a href=showinfo:26257>Projectile Weapon Rigging</a> skill.",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "Module",

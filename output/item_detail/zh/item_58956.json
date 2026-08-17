@@ -3,7 +3,7 @@
   "name": "工业配置操控技术",
   "description": "操作非旗舰工业核心装备的技能。\n\n每升一级，启用该装备时的重水消耗量减少20个单位。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

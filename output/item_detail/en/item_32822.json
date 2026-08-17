@@ -3,7 +3,7 @@
   "name": "Unrefined Platinum Technite",
   "description": "An intensely resilient alloy composed of platinum and technetium. Highly sought-after in the machinery and armament industries.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

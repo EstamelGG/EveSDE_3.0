@@ -3,7 +3,7 @@
   "name": "Terahertz Metamaterials",
   "description": "An advanced composite designed to manipulate electromagnetic waves just beyond the microwave band, terahertz metamaterials are found in the latest generation of processors and capacitor units in the Amarr Empire.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

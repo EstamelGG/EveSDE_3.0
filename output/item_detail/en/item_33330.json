@@ -3,7 +3,7 @@
   "name": "Navy Cap Booster 25",
   "description": "Provides a quick injection of power into your capacitor. Good for tight situations!",
   "volume": 0.75,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.75,
   "capacity": null,
   "mass": 2.5,
   "category_name": "Charge",

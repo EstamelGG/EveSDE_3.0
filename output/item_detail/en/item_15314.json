@@ -3,7 +3,7 @@
   "name": "Cormack's Modified Co-Processor",
   "description": "Increases CPU output.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

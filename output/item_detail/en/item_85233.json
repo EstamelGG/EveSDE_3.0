@@ -3,7 +3,7 @@
   "name": "Mercenary Den Management",
   "description": "Skill at using Mercenary Dens. Allows control of one structure per level, up to a maximum of five. Mercenary Dens must be placed within 10km of a temperate planet's Skyhook.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

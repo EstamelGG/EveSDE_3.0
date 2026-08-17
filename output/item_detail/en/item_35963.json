@@ -3,7 +3,7 @@
   "name": "Standup Co-Processor Array I",
   "description": "The Standup Co-Processor Array is designed to supplement a structure's built in processing capacity with additional quantum co-processors. Structure operators will see a significant increase in CPU output after installing the Co-Processor Array as a module in Upwell technology structures.\n\nStandup is a proprietary system that uses a Structure Autonomous Nanoassembly Device (Upwell) containing integrated template software, a nanoassembler array and sufficient nanomass to enable the construction of a variety of service modules, structure modules and structure rigs when inserted into the appropriate slots on a structure built with Upwell technology.",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": 500.0,
   "category_name": "Structure Module",

@@ -3,7 +3,7 @@
   "name": "Resource Container",
   "description": "The bolted container drifts silently amongst the stars, giving no hint to what treasures it may hide.",
   "volume": 2750.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2750.0,
   "capacity": 2700.0,
   "mass": 10000.0,
   "category_name": "Entity",

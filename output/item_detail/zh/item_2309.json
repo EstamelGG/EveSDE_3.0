@@ -3,7 +3,7 @@
   "name": "离子溶液",
   "description": "行星科学中，原始、自然状态的电解液称为离子溶液。只有在经过了长时间的精心提取和精炼后，成品液体才能被用于医学、工业和食品等领域。",
   "volume": 0.005,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.005,
   "capacity": null,
   "mass": null,
   "category_name": "行星资源",

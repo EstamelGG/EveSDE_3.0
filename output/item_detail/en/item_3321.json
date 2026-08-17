@@ -3,7 +3,7 @@
   "name": "Light Missiles",
   "description": "Skill with manually targeted missiles. 5% Bonus to light missile damage per skill level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

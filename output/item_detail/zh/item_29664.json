@@ -3,7 +3,7 @@
   "name": "粗糙的超氟化物",
   "description": "超氟化物是人类已知的最具放射性的物质。这种发着冷光且黏糊的东西是由放射性金属和未经加工的烃类混合而成的，它能够催化许多发生和反应机制。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

@@ -3,7 +3,7 @@
   "name": "Small Signal Focusing Kit II",
   "description": "This ship modification is designed to increase the scan speed of modules which require the <a href=showinfo:3426>CPU Management</a> skill (cargo scanner and ship scanner), at the expense of shields.\n\nThe drawbacks of fitting this rig may be reduced by training the <a href=showinfo:26256>Electronic Superiority Rigging</a> skill.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "Module",

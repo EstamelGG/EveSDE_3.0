@@ -3,7 +3,7 @@
   "name": "血袭者控制塔",
   "description": "血袭者控制塔是艾玛控制塔的加强版，使用了最新的前沿设计技术，提高了防御及效率。种族加成：\n\n能量炮塔的最佳射程增加50%\n\n能量炮塔伤害增加25%\n\n储藏库容量增加50%",
   "volume": 8000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 8000.0,
   "capacity": 140000.0,
   "mass": 200000000.0,
   "category_name": "母星",

@@ -3,7 +3,7 @@
   "name": "Eros Blossom Firework",
   "description": "This firework impressively symbolizes love and desire with a display using traditional imagery rendered in glorious pyrotechnics. Showing a certain romantic side to the notorious Guardian Angels that commissioned it, this fiery blossom's micro-rockets bring the display to a climax with an impressively explosive finishing burst of flame.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

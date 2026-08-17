@@ -3,7 +3,7 @@
   "name": "True Sanshas Microwave XL",
   "description": "Extra Large Frequency Crystal. Can be used only by starbase defense batteries and capital ships like dreadnoughts. \n\nModulates the beam of a laser weapon into the microwave frequencies. Improved range. Increased EM damage.\n\nThe delicate crystalline structures used in the manufacture of this advanced crystal degrade with use, eventually causing it to shatter.\n\n40% increased optimal range.\n25% reduced capacitor need.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

@@ -3,7 +3,7 @@
   "name": "Limited Synth Mindflood Booster",
   "description": "This booster has been provided through Daily Rewards. It will apply immediately when redeemed.\n2% bonus to capacitor capacity\nBase duration: 1 hour",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Implant",

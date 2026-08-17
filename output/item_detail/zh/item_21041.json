@@ -3,7 +3,7 @@
   "name": "旗舰发射器安装座",
   "description": "发射器挂点装置，使超大型导弹发射器能够被安装到旗舰级飞船之上。",
   "volume": 2000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2000.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "常用物品",

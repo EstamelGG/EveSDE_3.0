@@ -3,7 +3,7 @@
   "name": "Mobile Observatory",
   "description": "This structure, once deployed and having completed its automatic activation process, will periodically scan the solar system for cloaked objects and reveal them.",
   "volume": 100.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 100.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "Deployable",

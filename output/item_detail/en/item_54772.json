@@ -3,7 +3,7 @@
   "name": "SlamBolt Condenser Pack S",
   "description": "The project to adapt Arcing Vorton Projectors into ship-based weapons required the development of a high-capacity energy source for the new weapons. Ship capacitors are powerful but the immense bursts of energy required to fire Vorton Projectors called for the development of one-shot Condenser Packs capable of retaining ultra-high charges and rapidly discharging them at need. In a novel and elegant solution to the problem of cabling burnout in the projectors, the material of the Condenser Packs is designed to be rendered down into a pool of nanites the ablative nanocabling of the weapons can draw on.\n\nUpwell's brand of SlamBolt Condenser Packs are designed to deliver a pulse of power tuned to develop arcs dealing primarily Kinetic damage at long ranges.",
   "volume": 0.0025,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.0025,
   "capacity": null,
   "mass": 0.01,
   "category_name": "Charge",

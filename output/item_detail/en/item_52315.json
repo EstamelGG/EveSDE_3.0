@@ -3,7 +3,7 @@
   "name": "Rakovene",
   "description": "Protracted neutron deposition from the chaotic radiations observed near Abyssal Conduits have morphed the mineralogical composition of this Asteroid type, suspected to be formerly of the Scordite family. Reprocessing it will yield huge amounts of <a href=showinfo:34>Tritanium</a> and <a href=showinfo:37>Isogen</a> whilst also yielding high amount of <a href=showinfo:39>Zydrine</a>.",
   "volume": 16.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 16.0,
   "capacity": null,
   "mass": null,
   "category_name": "Asteroid",

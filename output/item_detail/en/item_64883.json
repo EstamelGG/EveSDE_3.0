@@ -3,7 +3,7 @@
   "name": "Defunct Minmatar Encounter Surveillance System (DO NOT TRANSLATE)",
   "description": null,
   "volume": 200.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 200.0,
   "capacity": null,
   "mass": 100000.0,
   "category_name": "Celestial",

@@ -3,7 +3,7 @@
   "name": "Signature Masking",
   "description": "Improves the active masking mode of Signature Radius Suppressors, resulting in more efficient masking that can be maintained for longer periods of time.\n\nIncreases duration time of Signature Radius Suppressor active mode by 5% per level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

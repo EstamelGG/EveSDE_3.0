@@ -3,7 +3,7 @@
   "name": "伽玛稳定发生器",
   "description": "该生成器可作用于整个星系，类似于你在深渊空间伽玛环境中遇到的效果。星系内所有舰船：护盾值+5%，自身护盾回充增量器效果+5%，电容器容量+10%",
   "volume": 10000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "基础设施升级件",

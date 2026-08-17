@@ -3,7 +3,7 @@
   "name": "Republic Fleet Light Missile Launcher",
   "description": "Favored by many for its average capacity and firing rate. Useful in both fast attack raids and longer battles.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 0.9,
   "mass": null,
   "category_name": "Module",

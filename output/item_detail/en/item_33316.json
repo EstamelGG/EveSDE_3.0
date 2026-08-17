@@ -3,7 +3,7 @@
   "name": "Optimized Occult Augmentation",
   "description": "A rare and valuable Amarr decryptor that gives solid boost to number of runs an invented BPC will have, plus improved mineral efficiency, with just a slight decrease in invention success.<br><br>Probability Multiplier: -10% <br>Max. Run Modifier: +7 <br>Material Efficiency Modifier: +2 <br>Time Efficiency Modifier: 0",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Decryptors",

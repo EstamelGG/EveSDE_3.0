@@ -3,7 +3,7 @@
   "name": "Zainou 'Deadeye' Large Hybrid Turret LH-1001",
   "description": "A Zainou gunnery hardwiring designed to enhance skill with large hybrid turrets.\n\n1% bonus to large hybrid turret damage.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

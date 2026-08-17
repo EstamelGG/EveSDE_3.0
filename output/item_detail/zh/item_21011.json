@@ -3,7 +3,7 @@
   "name": "旗舰炮台挂点",
   "description": "炮台挂点装置，用来在旗舰级飞船上安装超大型武器炮台。",
   "volume": 2000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2000.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "常用物品",

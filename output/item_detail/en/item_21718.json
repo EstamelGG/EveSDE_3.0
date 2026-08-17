@@ -3,7 +3,7 @@
   "name": "Hacking",
   "description": "Proficiency at breaking into guarded computer systems. Required skill for the use of Data Analyzer modules.\n\nGives +10 Virus Coherence per level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

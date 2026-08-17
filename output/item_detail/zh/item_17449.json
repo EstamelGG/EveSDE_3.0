@@ -3,7 +3,7 @@
   "name": "杰斯贝矿（3级）",
   "description": "朴质杰斯贝矿非常稀有，不过如果考虑到它是小行星受彗星或冰卫星撞击而形成的，那也就不足为奇了。它比普通的杰斯贝的矿物含量高10%。杰斯贝矿石含有两种贵重矿物，因此销路一直很好。它含有大量的<a href=showinfo:36>类银超金属</a>以及一些<a href=showinfo:38>超新星诺克石</a>。大多数情况下，你可以在低安全等级星系找到它。",
   "volume": 2.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

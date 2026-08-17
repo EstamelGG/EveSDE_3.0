@@ -3,7 +3,7 @@
   "name": "炼狱愤怒轻型导弹",
   "description": "炼狱轻型导弹爆炸时产生的惊艳效果足以媲美任何烟火展览，外加十倍于其的致命性。这是炼狱轻型导弹的一种改良版本，相比其前身具备更强的伤害力，但由于其强大的密封系统及高度不稳定性，飞行时间和准确性都有所降低。",
   "volume": 0.015,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.015,
   "capacity": null,
   "mass": 700.0,
   "category_name": "弹药",

@@ -3,7 +3,7 @@
   "name": "GI失乐园巡航导弹密封箱",
   "description": "由米玛塔尔共和国提供的装有GI失乐园导弹的箱子。",
   "volume": 250.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 250.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

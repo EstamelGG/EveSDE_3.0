@@ -3,7 +3,7 @@
   "name": "Zircon",
   "description": "A rare ore commercially mined from moons, Zircon is valuable as it yields good quantities of <a href=showinfo:16648>Hafnium</a>, a key element of many advanced materials. Zircon ores will also yield <a href=showinfo:16638>Titanium</a> and <a href=showinfo:16636>Silicates</a>.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "Asteroid",

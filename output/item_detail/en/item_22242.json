@@ -3,7 +3,7 @@
   "name": "Capital Ship Construction",
   "description": "Skill required for the manufacturing of capital ships.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

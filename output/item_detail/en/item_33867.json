@@ -3,7 +3,7 @@
   "name": "Thukker Component Assembly Array",
   "description": "An assembly facility where Standard and Advanced Capital Ship Components can be manufactured.",
   "volume": 12500.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 12500.0,
   "capacity": 1000000.0,
   "mass": 100000000.0,
   "category_name": "Starbase",

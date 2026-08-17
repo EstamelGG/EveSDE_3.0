@@ -3,7 +3,7 @@
   "name": "星爆标枪重型攻击导弹",
   "description": "重型攻击导弹发射器使用的核芯弹头。重型攻击导弹比重型导弹射速更快，但这是以牺牲有效射程作为代价的。这是星爆重型攻击导弹的一种改良版本，它相比星爆重型攻击导弹而言飞行速度更快，但代价是弹头尺寸变小。",
   "volume": 0.015,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.015,
   "capacity": null,
   "mass": 625.0,
   "category_name": "弹药",

@@ -3,7 +3,7 @@
   "name": "Loki Core - Augmented Nuclear Reactor",
   "description": "Comprised of countless nanomachines that enhance the energy flow from a ship's nuclear reactor, this core subsystem offers a pilot the option of increasing the power grid and capacitor capacity of their vessel. Designers of Tech III vessels were initially hampered by the problem of how to design a modular ship that could swap out basic engineering upgrades on a per-need basis. This proved particularly true when it came to reinforcing a vessel's power grid and capacitor banks without the use of batteries. In the end, the provision of nanomachines constructed from fullerene-based polymers allowed for solutions that had only existed in theory up until that point.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 1200000.0,
   "category_name": "Subsystem",

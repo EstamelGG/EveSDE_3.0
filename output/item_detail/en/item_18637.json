@@ -3,7 +3,7 @@
   "name": "Gaze Survey Probe I",
   "description": "The moon survey probe is launched in the direction of a nearby moon where it will eventually land and broadcast back atmospheric and soil analysis data.\n\nThe Gaze system is a extremely fast survey system that can reliably scan a moon in under 2.5 minutes. However, it requires considerable skill to use.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

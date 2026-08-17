@@ -3,7 +3,7 @@
   "name": "R.Db 度沃勒实验室",
   "description": "一种可以搜索的军团科学研究数据库。用于蓝图拷贝以及材料和时间效率蓝图研究。",
   "volume": 0.04,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.04,
   "capacity": null,
   "mass": null,
   "category_name": "常用物品",

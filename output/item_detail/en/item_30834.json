@@ -3,7 +3,7 @@
   "name": "Data Analyzer II",
   "description": "A Hacking system used to override electronic security systems, potentially providing access to valuable data or items.\n\nNote: Due to recently discovered branch prediction vulnerabilities in certain Upwell Consortium Recursive Computing Modules this analyzer may also be used to collect sensitive information concerning reinforcement periods of Upwell Structures.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

@@ -3,7 +3,7 @@
   "name": "远古的寻宝图",
   "description": "一张古老而且残缺不全的地图，粗糙地描绘了一个星系，并在某个卫星上画着一个大大的叉。图的旁边潦草地写着“欧提托”。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

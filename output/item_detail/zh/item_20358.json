@@ -3,7 +3,7 @@
   "name": "诺门家族徽记",
   "description": "一款神经接口升级芯片，可以增强飞行员在某一特定领域的技能。这款植入体是诺门家族的传家宝，只有这个家族才有权制造这种植入体。  \n\n维修系统运转周期缩短7%。\n\n注：对远程装甲维修装备和旗舰级装备不起作用。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

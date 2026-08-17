@@ -3,7 +3,7 @@
   "name": "大气内穿梭机",
   "description": "行星大气层内使用的个人或商用车辆，是一种履带式的、轮式的和气垫式的交通工具。",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": null,
   "category_name": "行星商品",

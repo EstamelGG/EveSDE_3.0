@@ -3,7 +3,7 @@
   "name": "古斯塔斯放逐者首领勋章",
   "description": "这个徽章曾属于古斯塔斯逃犯领袖，那些逃犯现在逗留于欧克勒恩星座。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

@@ -3,7 +3,7 @@
   "name": "Standup Cynosural System Jammer I",
   "description": "The Standup Cynosural System Jammer is a service module that prevents the activation of standard Cynosural Field Generator modules within an entire star system. Activating this module begins a 5 minute warmup period during which capsuleers within the system will be able to detect that a cynosural jamming effect is imminent. Once the 5 minute period is complete all standard Cynosural Field Generator modules will be unable to begin new cycles of operation. Covert Cynosural Field Generators are immune to this disruption.\n\nThis service module may only be onlined in a system that contains a sovereignty hub with the <a href=showinfo:81619>Cynosural Suppression</a> upgrade active.\nThis service module is automatically included built-in to every Upwell <a href=showinfo:37534>Tenebrex Cyno Jammer</a>, and cannot be removed from that structure.\n\nStandup is a proprietary system that uses a Structure Autonomous Nanoassembly Device (Upwell) containing integrated template software, a nanoassembler array and sufficient nanomass to enable the construction of a variety of service modules, structure modules and structure rigs when inserted into the appropriate slots on a structure built with Upwell technology.",
   "volume": 1000000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1000000.0,
   "capacity": null,
   "mass": 500.0,
   "category_name": "Structure Module",

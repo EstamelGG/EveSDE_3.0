@@ -3,7 +3,7 @@
   "name": "Proof of Transmission",
   "description": "Data chip containing proof of transmission of the incriminating Upwell data.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 0.1,
   "category_name": "Commodity",

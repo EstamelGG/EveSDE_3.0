@@ -3,7 +3,7 @@
   "name": "Guri Hivaa Killer",
   "description": "The Guri Hivaa are Guristas pilots specializing in hunting for very specific targets, whether that be marks to kill or kidnap, or rare and valuable consignments to plunder. Their rank and file killers are typically to be found in dedicated hunting frigates.",
   "volume": 16500.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 16500.0,
   "capacity": 130.0,
   "mass": 981000.0,
   "category_name": "Entity",

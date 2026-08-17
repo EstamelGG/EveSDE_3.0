@@ -3,7 +3,7 @@
   "name": "Radio Ray Modulate Disc",
   "description": "This disc of crystals is specially constructed to modulate radio rays in a Solray Radio Alignment Unit.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "Expired Sentinel MZ Filament",
   "description": "Allows up to 15 ships to make a conduit connection from Known Space to the J055520 system, frequently referred to as the \"Sentinel MZ\" wormhole.\n\nRequiring the \"drifter mineral\" <a href=showinfo:88087>eleutrium</a> to be manufactured, this filament uses the mineral's unique blackbody resonance, backwards engineered Drifter technology, and established Triglavian conduit principles to target signatures of Drifter activity. It then determines the specific locale using techniques obtained from researching <a href=showinfo:87618>Warden Connection Harmonics</a>.\n\nThese filaments will expire on May 15th.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "Commodity",

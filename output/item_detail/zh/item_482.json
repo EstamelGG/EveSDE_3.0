@@ -3,7 +3,7 @@
   "name": "采矿器 II",
   "description": "拥有经过技术改良的激光，使采矿更有效率。适合开采除最稀有矿石外的所有矿石。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

@@ -3,7 +3,7 @@
   "name": "脉冲波投射器操作",
   "description": "操作脉冲波投射器系统的技能。每升一级，装备激活间隔缩短5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

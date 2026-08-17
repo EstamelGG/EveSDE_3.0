@@ -3,7 +3,7 @@
   "name": "钴",
   "description": "一种银色、带铁磁性的元素，与其他成分一起用于超合金、磁性材料、电池电极以及许多金属与钢铁中。",
   "volume": 0.05,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.05,
   "capacity": null,
   "mass": 3544.0,
   "category_name": "材料",

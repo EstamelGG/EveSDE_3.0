@@ -3,7 +3,7 @@
   "name": "Rocket Science",
   "description": "Skill and knowledge of Rocket Science and its use in the development of advanced technology. \n\nUsed primarily in the research of missiles and propulsion systems.  \n\nAllows Rocket Science research to be performed with the help of a research agent. 1% reduction in manufacturing time for all items requiring Rocket Science per level.\n\nNeeded for all research and manufacturing operations on related blueprints.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

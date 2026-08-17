@@ -3,7 +3,7 @@
   "name": "Occult Accelerant",
   "description": "Unexceptional texts mostly aimed at rookie researchers wishing to increase the time efficiency of Amarr invention jobs. <br><br>Probability Multiplier: +20% <br>Max. Run Modifier: +1 <br>Material Efficiency Modifier: +2 <br>Time Efficiency Modifier: +10",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Decryptors",

@@ -3,7 +3,7 @@
   "name": "联合矿业开采总监思维网络芯片",
   "description": "这种为外空联合矿业集团开采活动而生产的高级接口连接通过直接链接到由先锋和指挥脉冲波弹药发射的纳米体来极大地提高指挥官的开采先锋和护盾指挥模块的能力。\n\n\n\n开采先锋和护盾指挥脉冲波的效果强度和持续时间提高25%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

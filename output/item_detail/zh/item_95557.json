@@ -3,7 +3,7 @@
   "name": "方舟联合体崛起涂装箱",
   "description": "这个箱子包含一款来自方舟联合体崛起涂装线的未知涂装。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

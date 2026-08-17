@@ -3,7 +3,7 @@
   "name": "雷神标枪火箭",
   "description": "一种装备了电子脉冲弹头的小型火箭弹。这是雷神火箭弹的一种改良版本，它相比普通雷神火箭而言飞行速度更快，但代价是弹头尺寸变小。",
   "volume": 0.005,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.005,
   "capacity": null,
   "mass": 100.0,
   "category_name": "弹药",

@@ -3,7 +3,7 @@
   "name": "Transaction And Salary Logs",
   "description": "These reports hold information on recent transactions and salary logs of a corporation.  They are very sought after by pirates, who use the often sensitive information held within for various purposes.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

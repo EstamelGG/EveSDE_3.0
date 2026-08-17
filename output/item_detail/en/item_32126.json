@@ -3,7 +3,7 @@
   "name": "Homemade Sansha Beacon",
   "description": "This wonder of science was made with a Sansha command signal receiver, the head of Rahsa, and pounds of electrician's tape.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "CreoDron 'Bumblebee' Drone Tuner T10-5D",
   "description": "The Gallente drone technology corporation CreoDron has experimented extensively with methods of reconfiguring and tuning the combat parameters of standard drones. These efforts have long relied on ship hardware and modules but CreoDron has recently developed new implants that will allow pilots to rewrite the firmware of standard drones on the fly. Using shipboard nano-systems the physical parameters of the drones will then be changed according to the tuning of the implant design.\n\nThe CreoDron 'Bumblebee' Drone Tuner T10-5D increases the strength of drone defensive systems at the expense of their firepower.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

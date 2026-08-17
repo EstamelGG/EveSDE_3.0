@@ -3,7 +3,7 @@
   "name": "丰铬铁矿",
   "description": "如果卫星开采出的矿石的产出高于铬铁矿的平均密度，则称为丰铬铁矿，提炼出的有用矿物会多出大概15%。\n\n\n\n铬铁矿是卫星中开采出的一种罕见矿石，价值颇高，能够产出丰富的<a href=showinfo:16641>铬</a>，可作为许多高级矿物的重要元素。铬铁矿石还会产出<a href=showinfo:16633>烃类</a>。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "小行星",

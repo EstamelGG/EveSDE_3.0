@@ -3,7 +3,7 @@
   "name": "Inferno Javelin Rocket",
   "description": "A small rocket with a plasma warhead.\n\nA modified version of the Inferno Rocket. It can reach higher velocity than the Inferno Rocket at the expense of warhead size.",
   "volume": 0.005,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.005,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

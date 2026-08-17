@@ -3,7 +3,7 @@
   "name": "共和舰队堡垒装备蓝图箱",
   "description": "包含一份共和舰队堡垒装备蓝图拷贝，限使用一次。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

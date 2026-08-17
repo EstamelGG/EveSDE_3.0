@@ -3,7 +3,7 @@
   "name": "Drone Avionics",
   "description": "Skill at control range for all drones.\n\nBonus: Drone control range increased by 5000 meters per skill level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

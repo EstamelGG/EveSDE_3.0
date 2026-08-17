@@ -3,7 +3,7 @@
   "name": "生物电池",
   "description": "同远古时期使用的电池比较类似，生物电池是使用从有机体中提取的生物燃料再加上稀有金属来产生电流的。但是现代生物电池的能力已经超越古代电池好几个数量级。",
   "volume": 0.75,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.75,
   "capacity": null,
   "mass": null,
   "category_name": "行星商品",

@@ -3,7 +3,7 @@
   "name": "中型深渊电容器电池",
   "description": null,
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "装备",

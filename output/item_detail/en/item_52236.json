@@ -3,7 +3,7 @@
   "name": "Zorya's Light Entropic Disintegrator",
   "description": "This small Entropic Disintegrator is typically seen in use on Triglavian frigates and destroyers, which are able to handle the relatively minimal radiation and gravitational tidal forces the weapon generates as a side-effect of its operation.\n\nEntropic Disintegrators draw on the tremendous power of the Triglavian singularity-based energy systems to convert exotic matter into a particle stream directed with locally generated entropic force. While powerful, the range of the weapon is limited by the attenuation of entropic forces, which dissipate critically beyond the optimal range. As a result this weapon has no falloff range.\n\nThe particle stream generates thermal and explosive reactions on impact, and the entropic forces resolve into a localized gravitational conduit that steadily increases the acceleration on the exotic particles. In effect, the weapon's damage potential increases to a maximum level as long as the particle stream is kept on the same target.\n\nRequires exotic plasma charge ammo types: Baryon, Meson, and Tetryon.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 5.0,
   "mass": 500.0,
   "category_name": "Module",

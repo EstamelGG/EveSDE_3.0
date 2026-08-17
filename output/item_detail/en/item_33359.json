@@ -3,7 +3,7 @@
   "name": "Photonic Metamaterials",
   "description": "A carefully engineered latticework designed for precise optical control, photonic metamaterials are a component in advanced Gallente microprocessors and capacitor units.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

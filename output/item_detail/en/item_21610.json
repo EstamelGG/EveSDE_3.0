@@ -3,7 +3,7 @@
   "name": "Jump Fuel Conservation",
   "description": "Skill at regulating energy flow to the jump drive. 10% reduction in isotope consumption amount for jump drive operation per light year per skill level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

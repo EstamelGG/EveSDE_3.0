@@ -3,7 +3,7 @@
   "name": "Black Market 'Valdimar' Drone Durability DD-1001",
   "description": "Named after an aquatic demon worm from ancient Minmatar mythology, this neural interface upgrade boosts the durability of drones and fighters controlled by the pilot.\n\n1% increase in drone and fighter hit points.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

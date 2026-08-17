@@ -3,7 +3,7 @@
   "name": "Malfunctioning Power Cores",
   "description": "Taken from amongst countless other ruined devices that cluttered the Sleeper facility once housing them, these ancient Sleeper power cores are still intact, yet extremely defective. Unlocking the technological secrets behind them would be a difficult task in their current state. Only those researchers who are skilled in reverse engineering would have a chance, and even then, not a great one.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": null,
   "category_name": "Ancient Relics",

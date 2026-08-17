@@ -3,7 +3,7 @@
   "name": "Survey Probe Launcher II",
   "description": "Launcher for <a href=showinfo:18635>Survey Probes</a>.\n\n10% reduction to the time required for a moon survey\n\n<a href=showinfo:18635>Survey Probes</a> are used to analyze the material composition of moons.\n\nNote: Only one survey probe launcher can be fitted per ship.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 10.0,
   "mass": null,
   "category_name": "Module",

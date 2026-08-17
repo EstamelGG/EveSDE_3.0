@@ -3,7 +3,7 @@
   "name": "冷冻保存防腐剂",
   "description": "某种合成油料中所含的基本元素在极端温度中能够产生适于经过基因改造的嗜极生物的生存环境。这些生物快速的生命循环过程所产生的附属产物，是一种非常耐高温的液体，也是混合电子设备的理想材料。",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": null,
   "category_name": "行星商品",

@@ -3,7 +3,7 @@
   "name": "Triglavian Encryption Methods",
   "description": "Understanding of the data encryption methods used by the Triglavian Collective.\n\nCritical to the research and development of advanced ship designs based on Triglavian technology.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

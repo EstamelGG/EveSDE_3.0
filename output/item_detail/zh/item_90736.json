@@ -3,7 +3,7 @@
   "name": "冰风暴纤维箱",
   "description": "打开这个箱子能获得随机一款霜线实验室冰风暴纤维。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

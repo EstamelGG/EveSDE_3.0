@@ -3,7 +3,7 @@
   "name": "母星防御控制管理",
   "description": "使用母星武器系统的技能。每升一级，可以多控制一个阵列。阵列必须部署在力场之外才能加以控制。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

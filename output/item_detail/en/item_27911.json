@@ -3,7 +3,7 @@
   "name": "Burst Projector Operation",
   "description": "Operation of Burst Projector systems. Each skill level gives a 5% reduction in module activation time.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

@@ -3,7 +3,7 @@
   "name": "执政官EV-900",
   "description": "能量中和无人机",
   "volume": 25.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 25.0,
   "capacity": null,
   "mass": 3000.0,
   "category_name": "无人机",

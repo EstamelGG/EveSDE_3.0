@@ -3,7 +3,7 @@
   "name": "Exploration Detector 2",
   "description": "This standard detector allows ship scanners to pick up a moderate number of undetected relic and data signatures for probe scanning within a system.",
   "volume": 10000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Infrastructure Upgrades",

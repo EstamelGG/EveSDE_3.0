@@ -3,7 +3,7 @@
   "name": "Jenmei's Tag",
   "description": "Jenmei's Tag.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

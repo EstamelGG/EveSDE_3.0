@@ -3,7 +3,7 @@
   "name": "Rejected Ship Replacement Program Request",
   "description": "This request for the replacement of a lost Caracal class cruiser bears a large red “Rejected” stamp. The reasoning given for the rejection was the failure to indicate the pilot’s preferred flavor of ice cream.",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": 10.0,
   "category_name": "Special Edition Assets",

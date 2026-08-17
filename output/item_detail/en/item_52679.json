@@ -3,7 +3,7 @@
   "name": "Low-grade Mimesis Beta",
   "description": "This memory augmentation is listed in the DED inventory as a modification by CONCORD weapons technologists of standard capsuleer implant templates with control routines that mimic methods of enhancing the firepower of reverse-engineered Triglavian weaponry, at the cost of a slower build up to maximum particle stream output.\n\nHowever, persistent rumors among New Eden's capsuleer, transhuman and wirehead communities suggest that the research and development group that created these implants was lead by a Society of Conscious Thought team with special expertise in so-called \"restricted artificial intelligences\". The possibility that these implants are based on RAI technology raises startling questions about the nature of the \"mimesis\" involved in these augmentations.\n\nPrimary Effect: +2 bonus to Memory\n\nSecondary Effect: 1.5% bonus to maximum damage output of entropic disintegrators\n\nTertiary Effect: 0.33% penalty to damage multiplier increase per cycle of entropic disintegrators\n\nSet Effect: 20% bonus to the strength of all Mimesis implant secondary effects",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

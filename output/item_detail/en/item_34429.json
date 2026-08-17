@@ -3,7 +3,7 @@
   "name": "Vincent Pryce's Warp Disruption Field Generator",
   "description": "A scale replica of the actual Warp Disruption Field Generator that caused the Battle of Asakai, one of the most expensive engagements in the history of Capsuleer warfare.",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": 10.0,
   "category_name": "Special Edition Assets",

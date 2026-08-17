@@ -3,7 +3,7 @@
   "name": "帝国皇冠烟火",
   "description": "艾玛帝国节日众多，在许多节日上都燃放繁复的烟火来庆祝，再伴以大规模的宗教唱诗班和彰显帝国荣光的交响乐。“帝国皇冠”烟火是民众的最爱，因为它在空中最为夺目耀眼。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "弹药",

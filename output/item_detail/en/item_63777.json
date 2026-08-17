@@ -3,7 +3,7 @@
   "name": "Industrialist - Light Combat Drones Crate",
   "description": "This crate has been provided by the Association for Interdisciplinary Research as a reward for participating in the AIR Career Program.\n\nIt contains a set of Light Combat Drones from one of the Empires.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

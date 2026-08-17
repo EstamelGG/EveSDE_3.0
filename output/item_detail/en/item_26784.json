@@ -3,7 +3,7 @@
   "name": "Heap-Load of Garbage",
   "description": "Production waste can mean garbage to some but valuable resource material to others.",
   "volume": 2500.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2500.0,
   "capacity": null,
   "mass": 25000000.0,
   "category_name": "Commodity",

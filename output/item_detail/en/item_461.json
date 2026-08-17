@@ -3,7 +3,7 @@
   "name": "Dual Heavy Beam Laser I",
   "description": "This heavy beam laser uses two separate laser focusing systems to reduce the cool down period between shots. A great weapon for medium to long range encounters. \n\nRequires frequency crystal ammo types: Gamma, Infrared, Microwave, Multifrequency, Radio, Standard, Ultraviolet, Xray.",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": 1.0,
   "mass": 2000.0,
   "category_name": "Module",

@@ -3,7 +3,7 @@
   "name": "塞杜拉·梅萨纳",
   "description": "一个在760-9C工作的米玛塔尔矿工的侄女。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 60.0,
   "category_name": "常用物品",

@@ -3,7 +3,7 @@
   "name": "共和舰队预备军官勋章I",
   "description": "若将此类身份铭牌交给相应组织，它们也许会具有一定价值。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 0.1,
   "category_name": "常用物品",

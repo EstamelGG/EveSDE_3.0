@@ -3,7 +3,7 @@
   "name": "Medium Artillery Battery",
   "description": "Fires a barrage of large projectiles at those the Control Tower deems its enemies. Very effective at long-range bombardment and packs a punch, but lacks the speed to track fast and up-close targets effectively.",
   "volume": 1000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1000.0,
   "capacity": 65.0,
   "mass": 50000000.0,
   "category_name": "Starbase",

@@ -3,7 +3,7 @@
   "name": "弃用的勘探网络3",
   "description": "该物品已弃用。虽然目前依然有效，但计划未来将不再流通。该升级件可以提高微型职业站点在升级后星系中出现的几率。",
   "volume": 20000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "基础设施升级件",

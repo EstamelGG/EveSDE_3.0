@@ -3,7 +3,7 @@
   "name": "Tourists",
   "description": "The need for tasting other cultures and seeing new worlds is unquenchable among the well-off citizens of the universe.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "Commodity",

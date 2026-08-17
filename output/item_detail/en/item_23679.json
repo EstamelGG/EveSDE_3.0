@@ -3,7 +3,7 @@
   "name": "Latent Submission Tapes",
   "description": "Recordings using the new egonics latent submissions technology developed by Egonics. Nobody seems to know much about how it works and people are strangely indifferent about it...",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

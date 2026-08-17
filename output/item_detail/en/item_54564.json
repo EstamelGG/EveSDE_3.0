@@ -3,7 +3,7 @@
   "name": "Capsule Cascade Firework",
   "description": "This high-tech pyrotechnic display charge uses state-of-the-art space fireworks technology to celebrate Capsuleer Day by showing the dramatic launch of a capsule amidst multiple explosions. The ultimate fate of the capsule, as it flies through a cascade of explosions, is left to the imagination of the audience.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

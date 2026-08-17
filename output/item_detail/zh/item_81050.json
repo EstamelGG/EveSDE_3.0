@@ -3,7 +3,7 @@
   "name": "昇威星舰工程学",
   "description": "昇威星舰工程学的技能与知识及其在先进技术研发中的应用。 \n\n用于各种型号昇威舰船的研究。\n\n这是相关蓝图研究和制造的必需技能。每升一级，所有需要昇威星舰工程学的物品的制造时间减少1%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

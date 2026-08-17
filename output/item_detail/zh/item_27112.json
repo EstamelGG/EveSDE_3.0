@@ -3,7 +3,7 @@
   "name": "埃菲尔公司 游侠 跃迁引擎操控 WD-610",
   "description": "一款神经接口升级芯片，可增强飞行员在跃迁引擎操控方面的技能。跃迁引擎对电容的需求降低10%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

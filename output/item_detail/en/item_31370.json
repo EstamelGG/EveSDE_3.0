@@ -3,7 +3,7 @@
   "name": "Small Capacitor Control Circuit I",
   "description": "This ship modification is designed to increase a ship's capacitor recharge rate.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "Module",

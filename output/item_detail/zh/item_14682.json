@@ -3,7 +3,7 @@
   "name": "威帕斯改良型鱼雷发射器",
   "description": "一种大型发射器，专为对战列舰和空间站等坚固目标进行长时间轰炸而设计。具有极大的弹载量，但是发射速度慢，而且很难锁定小型高速舰只。",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": 2.6,
   "mass": null,
   "category_name": "装备",

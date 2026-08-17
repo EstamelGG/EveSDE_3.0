@@ -3,7 +3,7 @@
   "name": "恐惧古斯塔斯中型控制塔",
   "description": "“恐惧”古斯塔斯控制塔是加达里控制塔的特别加强版，使用了最尖端的设计技术。 \n\n种族加成：导弹发射塔的发射速度增加25% 导弹速度增加50% 电子战炮架切换目标间隔时间减少75%",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": 70000.0,
   "mass": 200000000.0,
   "category_name": "母星",

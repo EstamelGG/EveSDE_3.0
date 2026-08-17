@@ -3,7 +3,7 @@
   "name": "熔化的纳米带",
   "description": "由于冬眠者无人机爆炸时产生的能量，这些细小的电路大部分都已经熔化在了一起。无人机能源核心所产生的爆炸威力一定十分强烈，才对这些本身比较坚固的纳米构件产生了不可逆转的冲击。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

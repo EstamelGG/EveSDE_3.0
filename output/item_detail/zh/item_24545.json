@@ -3,7 +3,7 @@
   "name": "旗舰跳跃桥接阵列",
   "description": "一个巨大的机械装置，装载了建造一座旗舰级跳跃通道所需的全部部件。",
   "volume": 2000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2000.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "常用物品",

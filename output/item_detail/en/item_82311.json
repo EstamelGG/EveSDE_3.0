@@ -3,7 +3,7 @@
   "name": "Compressed Ueganite IV-Grade",
   "description": "The sight of its subsurface lightning mineral veins, which gives IV-Grade or stormy <a href=showinfo:82205>ueganite</a> its name, brings great joy to any miner. Stormy ueganite yields 15% more minerals than its base form when refined.\n \nStormy ueganite may be found in asteroid anomalies within null security space.\n  \nThis material is compressed and a much more compact form of the original material.",
   "volume": 0.05,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.05,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

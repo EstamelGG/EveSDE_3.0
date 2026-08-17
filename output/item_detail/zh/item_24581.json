@@ -3,7 +3,7 @@
   "name": "圣像",
   "description": "塔克玛人制造的神圣雕像，刻画了他们心中的神。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 100.0,
   "category_name": "常用物品",

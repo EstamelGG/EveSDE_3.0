@@ -3,7 +3,7 @@
   "name": "洛庇卡的介绍信",
   "description": "这封介绍信要出示给尼杜帕德星系里卡尔加图尔哨站的托沃·克尔特，能证明这封信的持有者是埃拉克兰大人信任的人员。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

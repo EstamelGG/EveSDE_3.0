@@ -3,7 +3,7 @@
   "name": "Suspended Plasma",
   "description": "When found in harvestable quantities beyond the unapproachable heat of an active star, plasma is said to be in a “suspended” state. Specialized electronic equipment is used to attract the ionized particles into collection tubes, after which it can be stored, transported, or applied to a variety of technologies.",
   "volume": 0.005,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.005,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Resources",

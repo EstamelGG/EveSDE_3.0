@@ -3,7 +3,7 @@
   "name": "Mining Foreman Burst II",
   "description": "This module can be loaded with a variety of Mining Foreman Burst Charges to project a field of beneficial nanites over fleet members, improving their mining capabilities.\n\n+25% bonus to the effect strength of Mining Foreman Burst charges launched from this module.",
   "volume": 60.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 60.0,
   "capacity": 3.0,
   "mass": null,
   "category_name": "Module",

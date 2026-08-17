@@ -3,7 +3,7 @@
   "name": "小海盗的能力",
   "description": "非常有激励作用的故事。让每个想要成为海盗的人充满了自豪。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

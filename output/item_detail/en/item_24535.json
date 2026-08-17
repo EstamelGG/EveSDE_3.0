@@ -3,7 +3,7 @@
   "name": "Mjolnir Fury Cruise Missile",
   "description": "The mother of all missiles, the Mjolnir cruise missile delivers a tremendous payload, guaranteed to get its victims acquainted with their personal god in a quick, but painful manner.\n\nA modified version of the Mjolnir cruise. Does more damage than its predecessor but the volatile nature of the warhead, and its powerful containment system, reduce both flight time and precision.",
   "volume": 0.05,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.05,
   "capacity": null,
   "mass": 1250.0,
   "category_name": "Charge",

@@ -3,7 +3,7 @@
   "name": "碎铁处理技术",
   "description": "提炼废金属的专业技能。提高装备、舰船和其他可提炼设备（不包括矿石和冰矿）的提炼产出。\n\n每升一级，舰船和装备提炼产出提高2%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

@@ -3,7 +3,7 @@
   "name": "Capital Launcher Hardpoint",
   "description": "A launcher hardpoint fitting, engineered to allow XL-class missile launchers to fit on capital ships.",
   "volume": 2000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2000.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "Commodity",

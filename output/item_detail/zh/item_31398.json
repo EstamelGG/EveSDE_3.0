@@ -3,7 +3,7 @@
   "name": "旗舰级能量栅格子程序优化器 I",
   "description": "这个飞船改装件用于减少所有能源升级设备的CPU需求",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "装备",

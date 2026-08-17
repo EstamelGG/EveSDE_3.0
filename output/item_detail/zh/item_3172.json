@@ -3,7 +3,7 @@
   "name": "载诺 快照 轻型导弹 LM-906",
   "description": "一款神经接口升级芯片，可以增强飞行员在轻型导弹方面的技能。轻型导弹伤害增加6%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

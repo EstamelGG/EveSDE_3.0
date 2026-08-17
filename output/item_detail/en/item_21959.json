@@ -3,7 +3,7 @@
   "name": "Structure Reprocessing Plant",
   "description": "Parts required for the construction of a space outpost materials refinery.",
   "volume": 3000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3000.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "Cryptic Accelerant",
   "description": "The scientific jargon contained herein could cause mental meltdowns, but if you can extract anything of use it's great for Minmatar invention jobs. <br><br>Probability Multiplier: +20% <br>Max. Run Modifier: +1 <br>Material Efficiency Modifier: +2 <br>Time Efficiency Modifier: +10",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Decryptors",

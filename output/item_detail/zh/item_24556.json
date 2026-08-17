@@ -3,7 +3,7 @@
   "name": "旗舰末日武器安装位",
   "description": "泰坦专用的末日武器安装座，能够在一次可怕的打击中摧毁它的目标。",
   "volume": 2000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2000.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "常用物品",

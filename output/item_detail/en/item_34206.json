@@ -3,7 +3,7 @@
   "name": "Symmetry Decryptor",
   "description": "This decryptor contains true and tested research methods regarding invention jobs with decent stats across the board.<br><br>Probability Multiplier: N/A  <br>Max. Run Modifier: +2 <br>Material Efficiency Modifier: +1 <br>Time Efficiency Modifier: +8",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Decryptors",

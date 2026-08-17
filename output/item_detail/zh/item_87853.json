@@ -3,7 +3,7 @@
   "name": "流浪者作战服奖励箱",
   "description": "内含流浪者作战服这项外观奖励。",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "特别版用品",

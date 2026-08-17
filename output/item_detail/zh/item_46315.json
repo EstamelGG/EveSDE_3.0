@@ -3,7 +3,7 @@
   "name": "辉独居石",
   "description": "卫星出产的独居石矿石有时会产出极高密度的珍稀矿物。这样的矿石就被称为辉独居石，提炼后可以获得的有用矿物数量  是普通矿石的两倍。\n\n\n\n独居石是卫星中开采出的一种特殊矿石，价值极高，能够产出丰富的<a href=showinfo:16651>钕</a>，可作为许多高级矿物的重要元素。独居石矿石还会产出<a href=showinfo:16641>铬</a>、<a href=showinfo:16637>钨</a>和<a href=showinfo:16635>蒸发岩沉积物</a>。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "小行星",

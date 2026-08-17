@@ -3,7 +3,7 @@
   "name": "太空舱\"瀑流\"焰火箱",
   "description": "这个箱子中有太空舱\"瀑流\"焰火。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

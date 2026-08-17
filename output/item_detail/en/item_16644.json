@@ -3,7 +3,7 @@
   "name": "Platinum",
   "description": "A corrosion-resistant precious metal with an extremely wide range of applications. Often used as a chemical catalyst.",
   "volume": 0.05,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.05,
   "capacity": null,
   "mass": 21460.0,
   "category_name": "Material",

@@ -3,7 +3,7 @@
   "name": "Standup Arcing Vorton Projector I",
   "description": "The Standup Arcing Vorton Projector utilizes the latest developments in the emerging field of spatiotemporal weaponry to bring structure operators a devastating weapon to use in defense of their properties. Capable of striking multiple targets in rapid succession, the Arcing Vorton Projector has the potential to severely disrupt enemy fleet cohesion. The Arcing Vorton Projector is designed to be installed as a module in Upwell technology structures.\n\nStandup is a proprietary system that uses a Structure Autonomous Nanoassembly Device (Upwell) containing integrated template software, a nanoassembler array and sufficient nanomass to enable the construction of a variety of service modules, structure modules and structure rigs when inserted into the appropriate slots on a structure built with Upwell technology.\n\nThis module can be installed on Keepstar or Upwell Palatine Keepstar structures.\nThis module can only be activated against capital class ships.\nThis module does not function in high-security space.",
   "volume": 64000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 64000.0,
   "capacity": null,
   "mass": 8000.0,
   "category_name": "Structure Module",

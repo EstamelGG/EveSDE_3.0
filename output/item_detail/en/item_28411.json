@@ -3,7 +3,7 @@
   "name": "Batch Compressed Kernite II-Grade",
   "description": "Prophets tell of the mystical nature endowed in luminous kernite, the II-Grade kernite variant. To the rest of us, it's an average looking ore that has 5% more yield than normal kernite and can make you rich if you mine it 24/7 and live to be very old.\n\nKernite is a fairly common ore type that yields fair amounts of <a href=showinfo:36>Mexallon</a> and <a href=showinfo:37>Isogen</a>.\n\n<i>This material was compressed using an older process that compressed batches of raw materials into units using a set input quantity. Newer compression technology uses a more flexible one-to-one unit compression system.</i>",
   "volume": 0.19,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.19,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

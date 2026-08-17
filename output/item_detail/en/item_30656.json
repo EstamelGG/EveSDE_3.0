@@ -3,7 +3,7 @@
   "name": "Polymer Reactor Array",
   "description": "This structure has been automatically disabled by CONCORD to make way for newer replacement technology.",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": 1.0,
   "mass": 100000000.0,
   "category_name": "Starbase",

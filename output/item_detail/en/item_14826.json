@@ -3,7 +3,7 @@
   "name": "Ahremen's Modified Heavy Energy Nosferatu",
   "description": "Drains energy from the target ship and adds it to your own. This huge unit is designed for battleship class ships.\n\nNote: A Nosferatu module will not drain your target's capacitor below your own capacitor level.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Module",

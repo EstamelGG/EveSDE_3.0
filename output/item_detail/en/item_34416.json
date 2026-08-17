@@ -3,7 +3,7 @@
   "name": "Small Wrecked Hull Section",
   "description": "Mistakenly identified by the analyzers as a derelict structure, these ancient Sleeper hull fragments are almost entirely destroyed. Whether slow erosion or some more rapid and violent event devastated the technology remains unclear. It is simply too badly damaged to make an educated guess. \n\nThere isn't much of a chance that anything useful could be reverse engineered from such badly ruined fragments, but there is little doubt that those few lucky researchers who successfully managed it would uncover the secrets to Sleeper hull designs. For many, that opportunity alone would be worth the gamble.",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": null,
   "mass": null,
   "category_name": "Ancient Relics",

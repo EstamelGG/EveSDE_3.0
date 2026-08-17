@@ -3,7 +3,7 @@
   "name": "Polarized Light Neutron Blaster",
   "description": "Particle blasters operate on a similar principle as the railgun except they fire a magnetically contained ball of subatomic particles. No other turret class can match the sheer destructive power of particle blasters, but due to the rapid dispersion of the containment field, it also has the worst range of all turrets. \n\nPolarized weapons offer extremely good primary stats, but come with the cost of completely negating all resistances on a ship if fitted.\n\nRequires either regular or advanced hybrid charge types: Antimatter, Iridium, Iron, Lead, Plutonium, Thorium, Tungsten, Uranium, Null, Void.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 0.6,
   "mass": 500.0,
   "category_name": "Module",

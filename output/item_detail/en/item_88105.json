@@ -3,7 +3,7 @@
   "name": "Tyranite",
   "description": "Appearing en masse during the Drifter Crisis of YC127, tyranite is a s-type asteroid that has been bombarded by low-level blackbody radiation for millennia, turning its silicate-like surface regolith into eleutrium. Astrogeologists claim that this process occurred prior to tyranite asteroids appearing, wholly by unknown means.\n\nDue to the unknown conditions of its formation and appearance, astrogeologists fear this may be a unique opportunity. Additionally, its special properties break down when under pressure, making it incompressible.\n\nTyranite is the only known source of <a href=showinfo:88087>eleutrium</a>.",
   "volume": 0.6,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.6,
   "capacity": null,
   "mass": 6333.0,
   "category_name": "Asteroid",

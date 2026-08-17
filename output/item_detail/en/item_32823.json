@@ -3,7 +3,7 @@
   "name": "Unrefined Solerium",
   "description": "When chromium and caesium are combined with raw silicates in the proper proportions, Solerium is created. Since its initial discovery, Solerium's uniquely shifting dark-to-bright red hue has prompted poet and musician alike to create hymns in praise of its uniquely shifting deep red hue.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

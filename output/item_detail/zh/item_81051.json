@@ -3,7 +3,7 @@
   "name": "数据核心 - 昇威星舰工程学",
   "description": "这个数据核心是名副其实的庞大信息库，包含了人类在昇威星舰工程学领域收集的大量知识。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

@@ -3,7 +3,7 @@
   "name": "Guardian's Gala Booster Crate",
   "description": "This crate contains a collection of tradable limited time boosters developed by the master pharmaceutical engineers of the Serpentis Corporation.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

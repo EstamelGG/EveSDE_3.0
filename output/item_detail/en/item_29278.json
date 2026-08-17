@@ -3,7 +3,7 @@
   "name": "Physical Samples",
   "description": "A sampling of various types of organic matter that has been exposed to some unusual cosmic radiation.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

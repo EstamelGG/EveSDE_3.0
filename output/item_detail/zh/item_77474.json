@@ -3,7 +3,7 @@
   "name": "违禁品货运",
   "description": "装满了加达里合众国禁品的货柜，打算在黑市出售。从完全非法的物品，到配给有限的补给品，里面应有尽有。",
   "volume": 3500.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3500.0,
   "capacity": null,
   "mass": 20000.0,
   "category_name": "常用物品",

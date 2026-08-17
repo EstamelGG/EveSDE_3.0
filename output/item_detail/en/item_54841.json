@@ -3,7 +3,7 @@
   "name": "Vorton Arc Guidance",
   "description": "Skill in tuning wave-guides of ship-based Arcing Vorton Projectors to improve strikes on fast-moving targets.\n\n5% bonus to Vorton Projector explosion radius and 10% bonus to explosion velocity per skill level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

@@ -3,7 +3,7 @@
   "name": "厚质碳硅石",
   "description": "这种厚质碳硅石可以用在大规模建造项目中，大受盖伦特工程师的欢迎。新兴的全星系矿石扫描技术让联邦得以探测到不易发现的含有厚质碳硅石的小行星带。\n\n\n\n盖伦特联邦号召克隆飞行员协助他们在<url=showinfo:4//20000563>萨托洱德</url>星座中开采厚质碳硅石，并上交给位于<url=showinfo:5//30003856>埃托伦</url>星系中联邦星门建造地点里的联邦矿石精炼建筑。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "小行星",

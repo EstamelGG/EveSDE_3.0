@@ -3,7 +3,7 @@
   "name": "萨沙爱国者火箭发射器",
   "description": "一种火箭装载数量非常有限的小型发射器。并不作为主战武器，而是一种廉价的辅助武器系统。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 0.2531,
   "mass": null,
   "category_name": "装备",

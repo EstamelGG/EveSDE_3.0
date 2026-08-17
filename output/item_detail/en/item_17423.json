@@ -3,7 +3,7 @@
   "name": "Gallente 106 Election Holoreel",
   "description": "This holoreel contains most of the advertisements used in the Gallente propoganda machine for each of the candidates vying for the presidency, as well as a detailed biography of each person.",
   "volume": 0.5,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.5,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Commodity",

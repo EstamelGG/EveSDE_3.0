@@ -3,7 +3,7 @@
   "name": "Electromagnetic Metaprismatic Sheeting",
   "description": "A special material emerging from the cutting-edge metamaterial labs, this sheeting is able to redirect a wide range of electromagnetic energies. It is a vital element of internal and external shielding for devices employing ultra high-energy emissions in the manipulation of spatiotemporal topologies.",
   "volume": 0.25,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.25,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

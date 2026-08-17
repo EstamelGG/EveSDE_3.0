@@ -3,7 +3,7 @@
   "name": "Minmatar Emissary",
   "description": "This is an emissary from the Minmatar Republic.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 70.0,
   "category_name": "Commodity",

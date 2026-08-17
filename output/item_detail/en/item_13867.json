@@ -3,7 +3,7 @@
   "name": "Dread Guristas 150mm Railgun",
   "description": "This is a standard long-range railgun designed for frigates. Railguns use magnetic rails to fire solid chunks of matter at hypersonic speed. The accurate range of railguns is very good, but due to technical limitations it cannot use onboard guidance. This results in a fairly rapid drop in accuracy at extreme ranges. \n\nRequires hybrid charge types: Antimatter, Iridium, Iron, Lead, Plutonium, Thorium, Tungsten, Uranium.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 0.1,
   "mass": 500.0,
   "category_name": "Module",

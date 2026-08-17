@@ -3,7 +3,7 @@
   "name": "Standup Focused Warp Scrambling Script",
   "description": "Originally used by the adolescent hacker group The 'Fendahlian Collective' to break past high tech security firmware, these script packs contain intricate code which modify the inherent behavior of certain modules by directly inserting commands into the firmware. The applications of such technology was not lost on the major players and the kids who invented it now head their own research divisions.\n\nThis script can be loaded into a Standup Focused Warp Disruptor to enable the disruption of microwarpdrive and micro jump drive modules on target ships at the expense of maximum range.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

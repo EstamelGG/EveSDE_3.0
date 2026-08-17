@@ -3,7 +3,7 @@
   "name": "Shadow Small Blaster Battery",
   "description": "Fires a barrage of medium hybrid slugs at those the Control Tower deems its enemies. Only effective at fairly close ranges, but deadly in terms of sheer damage output.",
   "volume": 500.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 500.0,
   "capacity": 720.0,
   "mass": 100000000.0,
   "category_name": "Starbase",

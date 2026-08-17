@@ -3,7 +3,7 @@
   "name": "Lyavite",
   "description": "Lyavite is a relatively rare ore quite similar in some respects to Kernite. However, due to the circumstances under which this ore is formed, it is highly unstable when refined; this quality renders it worthless to all but the most desperate of miners.",
   "volume": 1.2,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.2,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

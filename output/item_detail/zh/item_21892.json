@@ -3,7 +3,7 @@
   "name": "黑客的钥匙卡片",
   "description": "用来进入位于安妮星座的马鲁总部的钥匙。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

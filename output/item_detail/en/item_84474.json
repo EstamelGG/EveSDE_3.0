@@ -3,7 +3,7 @@
   "name": "Azdaja Statuette",
   "description": "A small statue in the shape of a dragon made from common materials.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 0.1,
   "category_name": "Special Edition Assets",

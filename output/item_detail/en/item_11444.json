@@ -3,7 +3,7 @@
   "name": "Amarr Starship Engineering",
   "description": "Skill and knowledge of Amarr Starship Engineering. \n\nUsed in the research of Amarr Ships of all Sizes.\n\nAllows Amarr Starship Engineering research to be performed with the help of a research agent. \n\nNeeded for all research and manufacturing operations on related blueprints. 1% reduction in manufacturing time for all items requiring Amarr Starship Engineering per level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

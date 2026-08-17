@@ -3,7 +3,7 @@
   "name": "钨",
   "description": "目前最坚硬的金属之一，能够与多种其他元素合成极其耐久的合金，在许多深空场合非常有用。",
   "volume": 0.05,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.05,
   "capacity": null,
   "mass": 7720.0,
   "category_name": "材料",

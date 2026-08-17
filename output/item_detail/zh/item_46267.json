@@ -3,7 +3,7 @@
   "name": "A3工业包裹",
   "description": "这个箱子包含一艘工业舰。不巧的是拆包并组装这艘船的说明书找不到了。",
   "volume": 50000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50000.0,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

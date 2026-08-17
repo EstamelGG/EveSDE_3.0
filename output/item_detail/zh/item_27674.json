@@ -3,7 +3,7 @@
   "name": "诱导力场系统干扰器",
   "description": "产生一个星系范围的抑制力场，防止除隐秘诱导力场发生器之外的各种诱导力场发生器发挥作用。",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": 100000000.0,
   "category_name": "母星",

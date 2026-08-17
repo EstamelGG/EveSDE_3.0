@@ -3,7 +3,7 @@
   "name": "Smartfab Units",
   "description": "These tiny cubes form the building blocks of many simple structures, from basic walls and doors to entire homes and even industrial office spaces. Whenever a sufficient number of smartfab units are placed together and have been programmed with the same instructions, they will automatically combine to form some portion of that object and then become inert in their new form. With adequately detailed blueprints, there is theoretically no limit to the complexity of object or structure these clever devices can create.",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

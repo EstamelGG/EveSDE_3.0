@@ -3,7 +3,7 @@
   "name": "Loki Defensive - Covert Reconfiguration",
   "description": "From the moment Strategic Cruisers became a reality, there were whispers amongst the scientific community about the potential for advances in cloaking technology. They remained that alone for the longest time, with few involved in the reverse engineering process willing to share any news of their discoveries. Everyone knew that, should the technology ever become a reality, the capabilities of the new Strategic Cruisers would change overnight.    \n\nThe Loki's Covert Reconfiguration designs arose out of a collective will to respond to what was thought to be Amarrian aggression deep inside their home regions. Unlike many scientific and technological breakthroughs, it was not the Sebiestor tribe alone who ushered in the paradigm shift to covert-capable Strategic Cruisers. It was only through consultation and collaboration with many other tribes and sub-factions that something substantial began to take shape. \n\nThe Krusual and Thukker are said to have played the most important roles, however, in realizing the final design; the Thukker by providing the cloaking technology, and the Krusual by convincing them to do so. How they achieved this, or what they may have promised remains a secret; the two tribes are notorious for having many, and keeping them all.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": 300.0,
   "mass": 1400000.0,
   "category_name": "Subsystem",

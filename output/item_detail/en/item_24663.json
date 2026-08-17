@@ -3,7 +3,7 @@
   "name": "Zor's Custom Navigation Hyper-Link",
   "description": "A neural Interface upgrade that boost the pilots skill in a specific area. This Navigation Hyper-Link was created for the ruthless pirate commander, referred to as 'Zor'.  \n\n\n5% bonus to afterburner and micro-warpdrive speed-boost.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

@@ -3,7 +3,7 @@
   "name": "Cap Booster 800",
   "description": "Provides a quick injection of power into your capacitor. Good for tight situations!",
   "volume": 32.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 32.0,
   "capacity": null,
   "mass": 80.0,
   "category_name": "Charge",

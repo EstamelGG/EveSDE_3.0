@@ -3,7 +3,7 @@
   "name": "加达里海军鞭挞重型攻击导弹",
   "description": "重型攻击导弹发射器使用的动能弹头。重型攻击导弹比重型导弹射速更快，但这是以牺牲有效射程作为代价的。",
   "volume": 0.015,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.015,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "弹药",

@@ -3,7 +3,7 @@
   "name": "Fangs of the Serpent Firework",
   "description": "The Serpentis Corporation likes to hold celebrations for staff, clients and potential patrons of its extensive pharmaceutical manufacturing and research activities and the 'Fangs of the Serpent' firework is a signature of such events. The CONCORD and core empire authorities consider such gatherings to be meetings of 'a drug cartel and its criminal allies' but many still participate in the famed gatherings sponsored by Salvador Sarpati.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

@@ -3,7 +3,7 @@
   "name": "Standup L-Set Advanced Medium Ship Manufacturing Efficiency II",
   "description": "The Standup L-Set Advanced Medium Ship Manufacturing Efficiency II rig provides a means for structure operators to decrease both material and time requirements for manufacturing Tech 2 cruisers, Tech 2 battlecruisers, Tech 2 haulers, Tech 3 cruisers, Tech 3 subsystems and exhumers in their Upwell structures.\n\nStandup is a proprietary system that uses a Structure Autonomous Nanoassembly Device (Upwell) containing integrated template software, a nanoassembler array and sufficient nanomass to enable the construction of a variety of service modules, structure modules and structure rigs when inserted into the appropriate slots on a structure built with Upwell technology.\n\nNote: Only one rig of the same type, counting both tech variations, may be fitted at the same time on a structure.",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "Structure Module",

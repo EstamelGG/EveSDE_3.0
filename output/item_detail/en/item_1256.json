@@ -3,7 +3,7 @@
   "name": "Shield Flux Coil II",
   "description": "Increases shield recharge rate while lowering the maximum shield capacity.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 20.0,
   "category_name": "Module",

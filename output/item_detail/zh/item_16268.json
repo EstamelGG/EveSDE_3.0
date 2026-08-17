@@ -3,7 +3,7 @@
   "name": "加里多斯冰矿",
   "description": "加里多斯冰矿相当稀有，而且非常珍贵，是锶包合物的重要来源——锶包合物是宇宙中最稀有的冰类固体之一。此外，加里多斯冰矿还含有高度浓缩的重水和液态臭氧。可于安全等级为<color='0xFFFF0000'>0.0</color>及以下的星系开采。",
   "volume": 1000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "小行星",

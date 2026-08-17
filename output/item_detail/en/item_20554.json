@@ -3,7 +3,7 @@
   "name": "Wei Todaki",
   "description": "A veteran pilot of a Guristas cruiser. Married to Manchura Todaki.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 80.0,
   "category_name": "Commodity",

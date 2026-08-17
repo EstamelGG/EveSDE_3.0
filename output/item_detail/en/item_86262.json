@@ -3,7 +3,7 @@
   "name": "Breacher Pod Clone Longevity",
   "description": "Specialist research on extending the short lifespans of Breacher Pod clones. +10% to damage effect duration per skill level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

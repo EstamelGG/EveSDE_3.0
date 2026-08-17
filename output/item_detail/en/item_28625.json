@@ -3,7 +3,7 @@
   "name": "Polygypsum",
   "description": "One of the rarest and most valuable ores in the known universe, Arkonor, has a less well known cousin called Polygypsum. While the two are very similar in chemical composition, the latter is quite unstable, having a tendency to ignite when handled roughly. While posing little danger to a spacecraft, which is built to withstand tremendous heat, this property makes the ore too dangerous under any other circumstances - such as in the business of refining.",
   "volume": 16.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 16.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

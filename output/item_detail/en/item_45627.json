@@ -3,7 +3,7 @@
   "name": "Tengu Core - Obfuscation Manifold",
   "description": "This subsystem operates using the same fundamental mechanics as the signal distortion amplifier. When installed into a Tech III vessel, the fullerene-based components resonate with any ECM modules fitted. When combined with sleeper-derived enhancements to ship heat tolerances the result is a ship capable of extended periods of powerful targeted disruption.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 1200000.0,
   "category_name": "Subsystem",

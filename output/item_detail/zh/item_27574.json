@@ -3,7 +3,7 @@
   "name": "古斯塔斯离子力场投射台",
   "description": "产生一个低强度的电离微粒场来破坏敌方感应器的效力。对磁力感应器非常有效。",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": 100000000.0,
   "category_name": "母星",

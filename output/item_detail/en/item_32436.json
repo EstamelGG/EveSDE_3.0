@@ -3,7 +3,7 @@
   "name": "Scourge XL Cruise Missile",
   "description": "XL Cruise Missiles are designed for long range bombardment of capital ships and installations. They are a specialized design usable only by capital ships.\n\nFitted with a graviton pulse generator, this weapon causes massive damage as it overwhelms ships' internal structures, tearing bulkheads and armor plating apart with frightening ease.",
   "volume": 0.3,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.3,
   "capacity": null,
   "mass": 1500.0,
   "category_name": "Charge",

@@ -3,7 +3,7 @@
   "name": "Small Liquid Cooled Electronics II",
   "description": "This ship modification is designed to reduce the CPU need of modules which require the electronics upgrades skill.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "Module",

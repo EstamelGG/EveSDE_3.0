@@ -3,7 +3,7 @@
   "name": "Genolution Core Augmentation CA-2",
   "description": "<font color=\"yellow\"><b>Traits</b></font><br>Slot 4<br>Primary Effect: +3 bonus to Intelligence<br>Secondary Effect: +1.5% bonus to CPU and capacitor recharge<br>Implant Set Effect: 40% bonus to the strength of all Genolution implant secondary effects<br><br><font color=\"yellow\"><b>Development</b></font><br>This is the second half of the Core Augmentation implant set, delivered by Genolution as a follow-up to the CA-1 just months after their first demonstration of new augmentation techniques shook up the often-stagnant industry.<br><br>The CA-2 picks up where its predecessor left off, providing a dual boost via frontal lobe enhancements and a neocortical modification that complements the CA-1's focus on a captain's ship-fitting concerns. The end result is an increase to intelligence, coupled with improved CPU output and capacitor recharge rate. Additionally, when combined the CA-1 and the CA-2 supplement each other, providing vast increases in their overall net effect.<br><br>Concurrent with the release of the CA-2, Genolution offered up the implant's schematics for public inspection. They claimed the move was designed not only to allay any lingering fears about the technology - now widespread amongst the capsuleer class - but also to provide a foundation for future advances in the field.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

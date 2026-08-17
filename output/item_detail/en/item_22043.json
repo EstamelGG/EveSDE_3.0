@@ -3,7 +3,7 @@
   "name": "Tactical Weapon Reconfiguration",
   "description": "Skill at the operation of siege modules. 25-unit reduction in strontium clathrate consumption amount for module activation per skill level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

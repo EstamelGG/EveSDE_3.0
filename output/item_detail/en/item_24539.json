@@ -3,7 +3,7 @@
   "name": "Mjolnir Precision Cruise Missile",
   "description": "The mother of all missiles, the Mjolnir delivers a tremendous payload, guaranteed to get its victims acquainted with their personal god in a quick, but painful manner.\n\nA modified version of the Mjolnir cruise. Great for taking down smaller ships, but fuel use by stabilization thrusters reduces maximum flight time.",
   "volume": 0.05,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.05,
   "capacity": null,
   "mass": 1250.0,
   "category_name": "Charge",

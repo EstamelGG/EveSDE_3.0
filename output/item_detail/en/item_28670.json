@@ -3,7 +3,7 @@
   "name": "Synth Blue Pill Booster",
   "description": "This booster relaxes a pilot's ability to control certain shield functions, among other things. It creates a temporary feeling of euphoria that counteracts the unpleasantness inherent in activating shield boosters, and permits the pilot to force the boosters to better performance without suffering undue pain.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Implant",

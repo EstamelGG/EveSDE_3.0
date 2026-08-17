@@ -3,7 +3,7 @@
   "name": "Scourge Javelin XL Torpedo",
   "description": "XL Torpedoes are behemoths designed for maximum firepower against capital ships and installations. They are usable only by capital ships and starbase defense batteries.\nFitted with a graviton pulse generator, this weapon causes massive damage as it overwhelms ships' internal structures, tearing bulkheads and armor plating apart with frightening ease.\n\nA modified version of the Scourge Torpedo. It can reach higher velocity than the Mjolnir Torpedo at the expense of warhead size.",
   "volume": 0.3,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.3,
   "capacity": null,
   "mass": 1500.0,
   "category_name": "Charge",

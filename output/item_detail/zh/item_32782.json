@@ -3,7 +3,7 @@
   "name": "反弹道导弹 I",
   "description": "拦截导弹，用于摧毁来袭的炸弹。\n\n\n\n注：此导弹适用于反导弹发射器。",
   "volume": 0.015,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.015,
   "capacity": null,
   "mass": 700.0,
   "category_name": "弹药",

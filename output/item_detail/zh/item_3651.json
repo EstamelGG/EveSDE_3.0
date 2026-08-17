@@ -3,7 +3,7 @@
   "name": "民用采矿器",
   "description": "与克隆飞行员科技搭配使用的低科技含量的普通采矿激光器。适合开采普通矿石，但面对高端矿石非常吃力。\n\n\n\n如果没有训练相关技能并使用专门的舰船和装备，这种采矿激光器不能从黑赭石、灰岩、克洛基石、双多特石、艾克诺岩小行星或任何普通、罕见、稀有和非凡卫星小行星中提取矿石。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

@@ -3,7 +3,7 @@
   "name": "定制的天线",
   "description": "在零重力状态下使用的巨大天线。",
   "volume": 200.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 200.0,
   "capacity": null,
   "mass": 2500.0,
   "category_name": "常用物品",

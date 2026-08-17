@@ -3,7 +3,7 @@
   "name": "电容器控制台",
   "description": "电容器控制台是星舰电容器装置的必备组件。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

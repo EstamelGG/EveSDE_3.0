@@ -3,7 +3,7 @@
   "name": "CONCORD-Carrier Rogue Analysis Beacon",
   "description": "In response to the growing Rogue Drone outbreaks of YC128, CONCORD commissioned a Carrier specific version of the CONCORD Rogue Analysis Beacon (CRAB).\n\nUnlike the original version, this one was able to mask drones and fighters from any incoming Rogue Drones. It also used a subtler, more thorough approach to signal analysis that resulted in less system interference.\n\n<i>NOTE: CRAB linking may not be possible if system signal interference is too high, or if the linking capsuleer has insufficient Complex Encryption Qubits (CEQ).</i>\n\n<b>WARNING: Linking to this CRAB will render your ship immobile until the powering up phase is completed.</b>\n\n<i>Ship Restrictions: linking and activation may only be performed by <b>Carriers.</b></i>",
   "volume": 100.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 100.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "Deployable",

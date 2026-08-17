@@ -3,7 +3,7 @@
   "name": "Zainou 'Snapshot' Torpedoes TD-604",
   "description": "A neural interface upgrade that boosts the pilot's skill with torpedoes.\n\n4% bonus to the damage of torpedoes.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

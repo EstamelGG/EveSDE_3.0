@@ -3,7 +3,7 @@
   "name": "Micro Jump Field Generator",
   "description": "This module spools up and then teleports the user and up to 24 nearby ships along with all drones, fighters, probes and bombs 100km in the direction the ship is facing. All ships teleported will retain their movement direction and velocity in the new location.\n\nNote: The micro jump field only affects capsuleer-piloted ships and will not move certain ship types, including; Capital Ships, Freighters, and Industrial Command Ships.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

@@ -3,7 +3,7 @@
   "name": "Electron Bomb",
   "description": "Radiates an omnidirectional pulse upon detonation that causes EM damage to surrounding vessels. The bomb employs an advanced armor hardening system which makes it highly resistant to EM damage, thus enabling delivery of multiple bombs to a given target area.",
   "volume": 75.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 75.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Charge",

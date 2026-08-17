@@ -3,7 +3,7 @@
   "name": "护盾回充器 I",
   "description": "提高护盾的回充速率。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 1.0,
   "mass": null,
   "category_name": "装备",

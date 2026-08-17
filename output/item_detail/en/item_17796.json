@@ -3,7 +3,7 @@
   "name": "Elite Slaves",
   "description": "Slavery has always been a questionable industry, favored by the Amarr Empire and detested by the Gallente Federation. These elite slaves are exceptionally well suited for physical labor.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 300.0,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "Phased Plasma L",
   "description": "Large Projectile Ammo. This ammo uses a similar plasma containment core as hybrid charges except that it is mounted in a standard cannon shell.\n\n50% reduced optimal range.",
   "volume": 0.025,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.025,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

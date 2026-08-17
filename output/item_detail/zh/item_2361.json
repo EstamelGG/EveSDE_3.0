@@ -3,7 +3,7 @@
   "name": "密封薄膜",
   "description": "要怎样才能让一张薄膜材料对特定物质微粒做到绝对不可透？这很简单，你只需要让这种材料能<i>主动</i>拦截这种物质微粒。密封薄膜正是这样一种材料，它由非常坚韧的纤维制成，又加入了有机生命材质，这种生命材质能够主动寻找拦截并吸收或排斥不同种类的物质微粒。",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": null,
   "category_name": "行星商品",

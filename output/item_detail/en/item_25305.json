@@ -3,7 +3,7 @@
   "name": "Drug Lab",
   "description": "A laboratory to produce performance enhancing drugs. This structure has no specific time or material requirement bonuses to booster manufacturing.",
   "volume": 1250.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1250.0,
   "capacity": 100000.0,
   "mass": 100000000.0,
   "category_name": "Starbase",

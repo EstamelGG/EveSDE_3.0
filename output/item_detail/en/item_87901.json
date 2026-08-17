@@ -3,7 +3,7 @@
   "name": "Capsuleer Day XXII Booster Crate",
   "description": "This crate contains two randomly selected Capsuleer Day XXII boosters, including a guaranteed Tier 3 booster.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

@@ -3,7 +3,7 @@
   "name": "显示发射器",
   "description": "这个奇怪的装置发射出异域世界的光芒。它怪异的导弹管仿佛能容纳一个巨大的雪球，外加一些烟花和其它庆祝节日用的东西。",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": 5.0,
   "mass": null,
   "category_name": "装备",

@@ -3,7 +3,7 @@
   "name": "Low-grade Wedge Gamma",
   "description": "This neural boost has been modified by the Upwell Consortium for use by their elite security experts.\n\nPrimary Effect: +2 Bonus to Willpower\n\nSecondary Effect: Adds an additional 3 points of Virus Coherence for Data and Relic Analyzers fitted to piloted ship",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

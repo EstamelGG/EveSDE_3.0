@@ -3,7 +3,7 @@
   "name": "锁断者炸弹",
   "description": "会发出随机的电子脉冲波，有一定几率会对作用范围内飞船的锁定系统造成干扰。",
   "volume": 75.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 75.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "弹药",

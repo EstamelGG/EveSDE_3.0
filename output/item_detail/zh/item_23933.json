@@ -3,7 +3,7 @@
   "name": "家族指环",
   "description": "印有埃拉克兰家族纹章的指环。只有埃拉克兰家族的成员才可佩戴。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

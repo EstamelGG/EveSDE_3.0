@@ -3,7 +3,7 @@
   "name": "Amperum Mutanite",
   "description": "An unstable form of ore, mutanite is rendered useless by any attempt to refine it with the technologies currently available in New Eden. Despite this, it is highly prized by the cluster's major factions as its unique and evershifting molecular structures hold the promise of new insights into the Abyssal environments inside which they formed.\n\nThe Amperum variant of mutanite forms in an Electrical abyssal environment and is theorized to generate a powerful electrical current, but only when inside a sealed void outside the range of any conductive or sensory apparatus.",
   "volume": 4.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4.0,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "Asteroid",

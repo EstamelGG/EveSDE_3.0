@@ -3,7 +3,7 @@
   "name": "冰矿处理技术",
   "description": "提炼冰矿的技能。可以大大提高技能熟练者使用低标准提炼设备时的效率。\n\n每升一级，冰矿提炼产出提高2%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

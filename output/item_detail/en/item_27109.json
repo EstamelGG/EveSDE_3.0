@@ -3,7 +3,7 @@
   "name": "Zainou 'Snapshot' Heavy Assault Missiles AM-703",
   "description": "A neural interface upgrade that boosts the pilot's skill with heavy assault missiles.\n\n3% bonus to heavy assault missile damage.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

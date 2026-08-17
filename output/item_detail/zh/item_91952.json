@@ -3,7 +3,7 @@
   "name": "帝国机动性增效剂II",
   "description": "这款增效剂由艾玛帝国生产，旨在协助克隆飞行员进行军事行动作战。<b>+4%舰船速度 -6%加力燃烧器电容消耗 +6%跃迁速度 +8%所有采矿激光器的范围</b><b>过期时间：YC128年11月10日</b>",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

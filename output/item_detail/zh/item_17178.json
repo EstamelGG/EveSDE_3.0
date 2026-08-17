@@ -3,7 +3,7 @@
   "name": "停滞缠绕光束发射台",
   "description": "缠绕光束的大哥级版本。通过降低高速战舰的速度来保护建筑。",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": 100000000.0,
   "category_name": "母星",

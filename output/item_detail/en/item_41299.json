@@ -3,7 +3,7 @@
   "name": "Mjolnir Fury XL Cruise Missile",
   "description": "XL Cruise Missiles are designed for long range bombardment of capital ships and installations. They are a specialized design usable only by capital ships.\nNothing more than a baby nuclear warhead, this guided missile wreaks havoc with the delicate electronic systems aboard a starship. Specifically designed to damage shield systems, it is able to ravage heavily shielded targets in no time.\n\nA modified version of the Mjolnir cruise. Does more damage than its predecessor but the volatile nature of the warhead, and its powerful containment system, reduce both flight time and precision.",
   "volume": 0.3,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.3,
   "capacity": null,
   "mass": 1500.0,
   "category_name": "Charge",

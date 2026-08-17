@@ -3,7 +3,7 @@
   "name": "盖伦特星舰工程学",
   "description": "理解盖伦特星舰工程学及其在高科技开发中应用的技能。 \n\n用于各种型号盖伦特舰船的研究。\n\n可以在研究代理人的帮助下进行盖伦特星舰工程学研究。 \n\n这是相关蓝图研究和制造的必需技能。每升一级，所有需要盖伦特星舰工程学技能的物品的生产时间减少1%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

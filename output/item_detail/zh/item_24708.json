@@ -3,7 +3,7 @@
   "name": "加达里毕业证书（已签署）",
   "description": "这份证书证明，其接受者是加达里名牌飞行学院的毕业生。应将其出示给奥塔马V—卫星5—梯队娱乐公司发展工作室的艾薇伊珂·塔。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

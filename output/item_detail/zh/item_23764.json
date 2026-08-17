@@ -3,7 +3,7 @@
   "name": "巴特祖的讯息",
   "description": "巴特祖的信息被记录在这块数据芯片中。它表明诺萨·法拉特打算刺杀曼尼尔大人。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

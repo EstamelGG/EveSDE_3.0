@@ -3,7 +3,7 @@
   "name": "'起源'神经增效体",
   "description": "这个植入式次处理器所采用的技术与编纂新伊甸起源编年史使用的技术类似，非常适合一次性收集大量信息。它的植入位置在脑前部，能提升人物的毅力属性。\n\n效果：毅力+4",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

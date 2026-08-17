@@ -3,7 +3,7 @@
   "name": "马纳尔发胶",
   "description": "一个马纳尔人要用多少桶这东西才能把他的头发弄成完美的金字塔形状？",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "特别版用品",

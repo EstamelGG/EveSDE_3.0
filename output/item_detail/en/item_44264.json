@@ -3,7 +3,7 @@
   "name": "Pulsar Flare Firework",
   "description": "Space makes a spectacular backdrop for fireworks but the zero-gravity environment also allows pyrotechnics to take special advantage and achieve effects that are truly awe-inspiring. The 'Pulsar Flare' firework celebrates astronomical phenomena while putting on a great show for the audience.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

@@ -3,7 +3,7 @@
   "name": "Zainou 'Gypsy' Weapon Disruption WD-901",
   "description": "A neural interface upgrade that boosts the pilot's skill at weapon disruption.\n\n1% reduction in capacitor need of modules requiring the Weapon Disruption skill.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

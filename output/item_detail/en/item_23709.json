@@ -3,7 +3,7 @@
   "name": "Medium Armor Maintenance Bot I",
   "description": "Armor Maintenance Drone",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 3000.0,
   "category_name": "Drone",

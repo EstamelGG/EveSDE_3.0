@@ -3,7 +3,7 @@
   "name": "Compressed Veldspar",
   "description": "Veldspar is the most common ore type in the central regions of known universe. It is still in constant demand as it holds a large portion of the much-used <a href=showinfo:34>Tritanium</a> mineral.\n\nThis material is compressed and a much more compact form of the original material.",
   "volume": 0.001,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.001,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "Asteroid",

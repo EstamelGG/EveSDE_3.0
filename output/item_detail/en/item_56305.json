@@ -3,7 +3,7 @@
   "name": "10000MN Abyssal Afterburner",
   "description": "Gives a boost to the maximum velocity of the ship when activated. The thrust that boosts the ship, and the corresponding maximum velocity bonus, are limited by the mass of the ship that uses this module.\n\nNote: May only be fitted to capital class ships.",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Module",

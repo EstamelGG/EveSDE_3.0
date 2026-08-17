@@ -3,7 +3,7 @@
   "name": "Chribba's Modified Strip Miner",
   "description": "Jury rigged with duct tape and a laser pointer, even Outer Ring Excavations are bewildered by this module’s ability to chew through so much ore per hour.",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": 10.0,
   "category_name": "Special Edition Assets",

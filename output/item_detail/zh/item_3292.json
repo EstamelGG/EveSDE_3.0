@@ -3,7 +3,7 @@
   "name": "天赋植体 诺贝尔 维修系统 RS-604",
   "description": "一款神经接口升级芯片，可以增强飞行员操作装甲/船体维修设备的技能。维修系统运转周期缩短4%。注：该植入体对远程装甲维修装备和旗舰级装备不起作用。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

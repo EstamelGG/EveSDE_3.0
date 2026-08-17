@@ -3,7 +3,7 @@
   "name": "贝兹岩",
   "description": "深渊导管附近混乱的放射性环境中的密集中子沉积改变了这种小行星的矿物组成，它之前可能是灼烧岩的一种。对其进行提炼可以产出大量的<a href=showinfo:34>三钛合金</a>、<a href=showinfo:37>同位聚合体</a>和<a href=showinfo:40>超噬矿</a>。",
   "volume": 16.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 16.0,
   "capacity": null,
   "mass": null,
   "category_name": "小行星",

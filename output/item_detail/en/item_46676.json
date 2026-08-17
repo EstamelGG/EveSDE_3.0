@@ -3,7 +3,7 @@
   "name": "Bistot IV-Grade",
   "description": "This extremely rare and valuable variant of bistot ore was recently discovered by ORE engineers during early field tests of new moon mining technology. Subsequent testing has confirmed that this ore produces 15% more minerals than standard bistot when reprocessed.\n\nBistot is a very valuable ore as it holds large portions of <a href=showinfo:39>Zydrine</a> and <a href=showinfo:35>Pyerite</a>. It also contains a decent amount of <a href=showinfo:36>Mexallon</a>.",
   "volume": 16.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 16.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

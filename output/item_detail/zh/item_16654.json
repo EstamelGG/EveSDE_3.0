@@ -3,7 +3,7 @@
   "name": "铬化钛",
   "description": "由于铬化钛独特地结合了强度、轻质和催化潜能等特性，因而在技术人员和生产商中有极高的需求。",
   "volume": 0.2,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.2,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

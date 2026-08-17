@@ -3,7 +3,7 @@
   "name": "Base Metals",
   "description": "Iron and nickel are two widespread, easily recognized examples of base metals, or those metals that oxidize relatively easily. Their tremendous usefulness in numerous applications ensures that base metals are always in high demand. Thankfully, so is their abundance on most planetary surfaces.",
   "volume": 0.005,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.005,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Resources",

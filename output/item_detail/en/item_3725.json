@@ -3,7 +3,7 @@
   "name": "Livestock",
   "description": "Livestock are domestic animals raised for home use or for profit, whether it be for their meat or dairy products.",
   "volume": 0.75,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.75,
   "capacity": null,
   "mass": 900.0,
   "category_name": "Planetary Commodities",

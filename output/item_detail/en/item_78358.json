@@ -3,7 +3,7 @@
   "name": "Wisdom of Gheinok",
   "description": "\"And so it was,\nThat Gheinok led his people on the great exodus,\nTo the land of our Salvation,\nTo the land of God,\nTo the land of his Chosen,\nTo Athra.\"\n\n- The Scriptures, Gheinok the First 1:32\n\n<font color=\"#ff3399cc\"><b>+4% Energy Turret Damage.</b>\n<b>+7% Armor Repair</b>\n<b>+3% Max Velocity</b>\n\nBase Duration: 2 days</font>\n\nThis item cannot be sold.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

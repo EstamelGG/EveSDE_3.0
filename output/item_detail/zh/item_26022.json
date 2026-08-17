@@ -3,7 +3,7 @@
   "name": "大型火箭燃料缓冲隔离装置 I",
   "description": "这个飞船改装件通过增加发射器的CPU需求来增加导弹最大飞行时间。\n\n\n\n装配这个改装件的副作用可以通过训练<a href=showinfo:26260>发射器改装技术</a>技能降低影响。",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "装备",

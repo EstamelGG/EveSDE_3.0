@@ -3,7 +3,7 @@
   "name": "Pulse Activated Nexus Invulnerability Core",
   "description": "Adapted from technology originally released with Citadels, the Pulse Activated Nexus Invulnerability Core is the result of Upwell's tireless research into advanced shielding. This powerful module allows a Rorqual to make itself and industrial fleetmates nearly invulnerable for a short time.\n\nDue to the immense stresses involved in the sustained shield pulse, the Rorqual must have an active target lock on an ore or ice asteroid when activating this module.\nThis module burns out completely after a single activation and will need to be repaired to be used in the future.\n\nThe effect from this module applies to subcapital mining and hauling ships in the same fleet as the activating Rorqual. Does not apply to other Rorquals.\nAffected ships gain incredible shield resistances, along with -90% reduction in shield regeneration time, but lose the ability to deal damage, cloak, warp, dock, tether, or jump. Other effects include increased mass, decreased velocity and decreased scan resolution.",
   "volume": 8000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 8000.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

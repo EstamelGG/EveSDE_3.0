@@ -3,7 +3,7 @@
   "name": "战术护盾操控",
   "description": "防止伤害穿透护盾的技能，包括使用护盾增强器和其他高级护盾装备。每升一级，在护盾降低到25%以下时，护盾被伤害穿透的几率降低5%，5级时被穿透几率为0。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

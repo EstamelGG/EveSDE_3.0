@@ -3,7 +3,7 @@
   "name": "Proximity-5 'Extraction' Filament",
   "description": "The Proximity-5 'Extraction' Filament permits up to 5 ships to travel from a star system in Triglavian Space to a nearby star system in Known Space.\n\nEDENCOM's recovery of a variety of Triglavian space-time filament devices has allowed it to further research how to control the generation and targeting of FTL conduits. In contrast to previous efforts, the research teams on the 'Extraction' project concentrated on short-range conduit generation.\n\nTheir efforts showed it is possible to generate conduits in Triglavian-held space that reliably target other systems in the local K-Space area. Despite this breakthrough there remains an element of uncertainty and the target system cannot be selected with precision.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "Commodity",

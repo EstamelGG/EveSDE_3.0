@@ -3,7 +3,7 @@
   "name": "Gallente Phenomena Generator",
   "description": "Adapted from advanced research into natural wormhole phenomena, this module wields an Erebus' massive Magnetometric sensor array to bend local space and affect the properties of all nearby vessels.\nThe effects of this phenomenon impact both friendly and hostile ships, altering the entire battlefield in subtle but significant ways. Clever fleet commanders can take advantage of these effects to ensure victory, even against insurmountable odds.\n\n<b>Affected ships receive:</b>\n+30% armor hitpoints\n+10% explosive resistances\n-15% thermal resistances\n-10% remote shield booster effectiveness",
   "volume": 8000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 8000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Module",

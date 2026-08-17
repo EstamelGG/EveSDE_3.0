@@ -3,7 +3,7 @@
   "name": "Gala Party Supplies Crate",
   "description": "This crate contains fireworks, an abyssal proving ground filament, and random party supplies for capsuleers planning to crash the Guardian's Gala.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

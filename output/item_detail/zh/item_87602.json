@@ -3,7 +3,7 @@
   "name": "递归结",
   "description": "一个超复杂的递归数据循环。这个问题没有答案，但对占领流浪者虫洞的势力或其留在新伊甸的军团而言，具有重要意义。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 0.1,
   "category_name": "特别版用品",

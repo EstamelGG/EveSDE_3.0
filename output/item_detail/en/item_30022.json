@@ -3,7 +3,7 @@
   "name": "Heuristic Selfassemblers",
   "description": "These advanced nanoassemblers appear to be able to change their molecular structure on the fly, adapting to incoming damage. Without any understanding of how to properly operate them however, they only offer their default formations. Even in such a state, they add a significant amount of resilience to armor plating.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

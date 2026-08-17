@@ -3,7 +3,7 @@
   "name": "Federal Intelligence Officer",
   "description": "An officer of the Gallente Federal Intelligence Office.",
   "volume": 2.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2.0,
   "capacity": null,
   "mass": 90.0,
   "category_name": "Commodity",

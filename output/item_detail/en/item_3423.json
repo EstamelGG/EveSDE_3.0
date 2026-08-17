@@ -3,7 +3,7 @@
   "name": "Capacitor Emission Systems",
   "description": "Operation of energy transfer array and other energy emission systems. 5% reduced capacitor need of energy emission weapons per skill level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

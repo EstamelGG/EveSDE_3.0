@@ -3,7 +3,7 @@
   "name": "Tremor XL",
   "description": "An advanced long range shell designed for extended bombardment, the Tremor has great range but is nearly useless in close combat.\n\n80% increased optimal range.\n75% reduced tracking.\n\nNote: This ammunition can only be used by capital tech level II and faction Artillery Cannons.",
   "volume": 0.125,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.125,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

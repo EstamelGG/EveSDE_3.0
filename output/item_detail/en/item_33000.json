@@ -3,7 +3,7 @@
   "name": "Gravimetric Sensor Compensation",
   "description": "Skill at hardening Gravimetric Sensors against hostile Electronic Counter Measure modules. 4% improved Gravimetric Sensor Strength per skill level.\n\nGravimetric Sensors are primarily found on Caldari, Guristas and Mordu's Legion ships.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

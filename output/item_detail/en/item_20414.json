@@ -3,7 +3,7 @@
   "name": "Datacore - Quantum Physics",
   "description": "This datacore is a veritable storehouse of information, containing a considerable portion of mankind's collected knowledge in the field of quantum physics.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

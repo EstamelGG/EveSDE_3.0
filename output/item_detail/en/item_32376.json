@@ -3,7 +3,7 @@
   "name": "Proof of Discovery: Gas",
   "description": "This document has been placed inside a Gas site secured by Empire agents. It serves as physical proof that a capsuleer-in-training has been able to locate the signature through the use of Core Scanner Probes.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

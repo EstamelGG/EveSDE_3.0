@@ -3,7 +3,7 @@
   "name": "Breacher Pod Launcher Operation",
   "description": "Operation of breacher pod launchers. +5% to the maximum percentage of target HP damaged per second per skill level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

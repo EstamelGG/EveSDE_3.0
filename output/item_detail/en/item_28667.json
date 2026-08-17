@@ -3,7 +3,7 @@
   "name": "Marauders",
   "description": "Skill for the operation of Marauders.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

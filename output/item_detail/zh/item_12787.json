@@ -3,7 +3,7 @@
   "name": "虚空 L",
   "description": "“虚空”型是标准钍炮弹的一个改进版本，分子聚合力得到大幅增强，从而实现了出众的射程和更小的粒子消散。\n\n\n\n最佳射程增加40%。\n\n跟踪速度降低25%。\n\n失准范围增加40%。\n\n\n\n注：只能用于二级科技、势力和官员大型疾速炮。",
   "volume": 0.025,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.025,
   "capacity": null,
   "mass": 0.01,
   "category_name": "弹药",

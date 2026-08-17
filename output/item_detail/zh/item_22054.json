@@ -3,7 +3,7 @@
   "name": "图克尔的战利品",
   "description": "从古老的内凡达基地搜寻到的破碎战利品。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 10.0,
   "category_name": "常用物品",

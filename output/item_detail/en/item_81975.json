@@ -3,7 +3,7 @@
   "name": "Griemeer",
   "description": "When griemeer was discovered in YC126, it took little time for miners to notice that the darker the crystals, the more <a href=showinfo:37>isogen</a> and, to a lesser extent, <a href=showinfo:34>tritanium</a>, it would yield. As it has a slight resemblance in texture to Liparer cheese, those obsessed with mining griemeer have been derisively nicknamed \"cheesers\" by rivals.\n\nAsteroid anomalies in null security space is where griemeer is generally found.",
   "volume": 0.8,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.8,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

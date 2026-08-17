@@ -3,7 +3,7 @@
   "name": "Preacher",
   "description": "Tolmak's preachers serve as his proxies, and are the primary way he spreads his controversial message.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 65.0,
   "category_name": "Commodity",

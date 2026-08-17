@@ -3,7 +3,7 @@
   "name": "处暑迎秋限定 '明眸'药剂 B型",
   "description": "这种特殊型号的增效剂可以稳定地提升飞行员分析扫描数据的能力，不会产生任何负作用。\n\n使用后的效果为：\n\n扫描最大误差度降低10%\n\n扫描时间缩短10%\n\n扫描探针扫描强度提高10%\n\n此效果可以在使用后的至少7天内持续发挥效能，具体时间根据植入者的<a href=showinfo:3405>生物学</a>技能等级而定。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "植入体",

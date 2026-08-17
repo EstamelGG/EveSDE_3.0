@@ -3,7 +3,7 @@
   "name": "高密度铯榴石",
   "description": "铯榴石是卫星中开采出的一种稀有矿石，价值很高，能够产出丰富的<a href=showinfo:16647>铯</a>，可作为许多高级矿物的关键元素。铯榴石矿石还会产出<a href=showinfo:16639>钪</a>和<a href=showinfo:16633>烃类</a>。\n\n\n\n这种矿物被压缩过，比它的原始形态紧密得多。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "小行星",

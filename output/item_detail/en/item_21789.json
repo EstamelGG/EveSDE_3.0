@@ -3,7 +3,7 @@
   "name": "Sleeper Technology",
   "description": "Basic understanding of interfacing with Sleeper technology.\n\nThe Sleepers were masters of virtual reality, neural interfacing and cryotechnology.\n\nAllows the rudimentary use of Sleeper components in the creation of advanced technology, even though the scientific theories behind them remain a mystery.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

@@ -3,7 +3,7 @@
   "name": "Eifyr and Co. 'Gunslinger' Motion Prediction MR-703",
   "description": "An Eifyr and Co. gunnery hardwiring designed to enhance turret tracking.\n\n3% bonus to turret tracking speed.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

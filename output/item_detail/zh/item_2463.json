@@ -3,7 +3,7 @@
   "name": "纳米体",
   "description": "尽管他们都是些简单的机器而且也非常的微小，不过少量的纳米机器人就可以成就医学奇迹，而大规模的使用则能够完成令人叹为观止的工程项目。",
   "volume": 0.75,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.75,
   "capacity": null,
   "mass": null,
   "category_name": "行星商品",

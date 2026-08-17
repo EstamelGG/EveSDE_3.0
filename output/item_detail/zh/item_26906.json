@@ -3,7 +3,7 @@
   "name": "劳工名册",
   "description": "一张清单，记录了当地的劳工活动以及储备的数量和质量。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

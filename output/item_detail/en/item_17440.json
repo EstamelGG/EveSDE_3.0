@@ -3,7 +3,7 @@
   "name": "Hedbergite II-Grade",
   "description": "When asteroids containing hedbergite pass close to suns or other sources of intense heat can cause the hedbergite to glassify. The result is called II-Grade or vitric hedbergite and has 5% better yield than normal hedbergite. \n\nHedbergite is sought after for its high concentration of <a href=showinfo:35>Pyerite</a> and <a href=showinfo:38>Nocxium</a>.\n\nAvailable primarily in low security status star systems.",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

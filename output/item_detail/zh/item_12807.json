@@ -3,7 +3,7 @@
   "name": "钉刺 L",
   "description": "“钉刺”型弹药套件可对超远距离目标造成巨大破坏。它是一种装载在小型火箭上的超浓缩钸萨博弹，小型火箭为其提供强大的撞击速度。然而这种弹药在近距离基本没用。    最佳射程增加80%。  跟踪速度降低75%。    注：只能用于二级科技、势力和官员大型磁轨炮。",
   "volume": 0.025,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.025,
   "capacity": null,
   "mass": 0.01,
   "category_name": "弹药",

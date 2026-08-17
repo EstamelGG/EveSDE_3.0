@@ -3,7 +3,7 @@
   "name": "Damaged Artificial Neural Network",
   "description": "ANNs preside over a starship's various electronics subsystems and keep everything in working order, rerouting power and processing when systems are damaged or go offline. This ANN is damaged but doesn't seem to be a total loss.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

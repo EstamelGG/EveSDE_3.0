@@ -3,7 +3,7 @@
   "name": "Nova Fury Heavy Missile",
   "description": "The be-all and end-all of medium-sized missiles, the Nova heavy missile is a must for those who want a guaranteed kill no matter the cost.\n\nA modified version of the Nova heavy missile. Does more damage than its predecessor but the volatile nature of the warhead, and its powerful containment system, reduce both flight time and precision.",
   "volume": 0.03,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.03,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Charge",

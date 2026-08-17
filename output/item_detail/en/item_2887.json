@@ -3,7 +3,7 @@
   "name": "Gallente Admiral's Corpse",
   "description": "These are the remains of a Federation admiral. A Mannar in her mid-forties, this woman's body shows signs of extensive modification typical to capsuleers. This is probably not the first time she has been killed in action.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 80.0,
   "category_name": "Commodity",

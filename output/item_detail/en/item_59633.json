@@ -3,7 +3,7 @@
   "name": "Strong Veilguard Booster",
   "description": "The product of extensive research by the SOE's research organization, the Sanctuary, this booster increases the stabilized cloak duration for any cloaks used by the capsuleer.\n\nUsing a novel cocktail of neural pharmaceuticals in carefully designed proportions, the scientists of the Sanctuary have developed the Veilguard booster. This potent formula enhances the ability of a capsuleer to sustainably handle the complex quantum fluctuation calculations necessary to maintain a stable cloaking field. The SOE use this booster for their exploration and covert rescue missions but also make it available to friendly capsuleers.\n\nThe effect of this booster is so powerful that the stabilization can be maintained for up to three times the normal sustainable period.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Implant",

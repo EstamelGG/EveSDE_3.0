@@ -3,7 +3,7 @@
   "name": "Medium Ancillary Remote Shield Booster",
   "description": "Transfers shield power over to the target ship, aiding in its defense. The module takes Cap Booster charges and will start consuming the ship's capacitor upon the charges running out. Deactivating the module while it has no cap boosters loaded starts reloading, if there are cap boosters available in cargo hold.\n\nNote: Can use Cap Booster 50, 75 and 100 as fuel. Reloading time is 60 seconds. Prototype Inferno Module.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": 14.0,
   "mass": null,
   "category_name": "Module",

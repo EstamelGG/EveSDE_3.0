@@ -3,7 +3,7 @@
   "name": "Neural Lace 'Blackglass' Net Intrusion 920-40",
   "description": "This biomechanical interface is evidently designed to set up a neural lace in the user's brain using mutated genetic sequences and nanites. \n\nThe properties of the resultant neural lace appear to improve intrusion virus strength at the expense of virus longevity making for an aggressive approach to hacking data networks.\n\nDecreases virus coherence for Data Analyzers.\nIncreases virus strength for Data Analyzers.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

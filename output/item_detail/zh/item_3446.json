@@ -3,7 +3,7 @@
   "name": "经纪人关系学",
   "description": "降低市场相关费用的技能。每升一级，在NPC空间站建立市场订单所需费用减少0.3%，这笔费用通常占订单总值的3%。该费用还受到玩家对于订单所在空间站拥有者的声望值影响。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

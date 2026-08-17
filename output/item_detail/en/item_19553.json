@@ -3,7 +3,7 @@
   "name": "High-grade Snake Gamma",
   "description": "This neural boost has been modified by Serpentis scientists for use by their elite smugglers. \n\nPrimary Effect: +4 bonus to Willpower\n\nSecondary Effect: 0.75% bonus to maximum velocity\n\nSet Effect: 15% bonus to the strength of all Snake implant secondary effects",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

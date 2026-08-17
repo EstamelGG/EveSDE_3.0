@@ -3,7 +3,7 @@
   "name": "Caldari Navy Dual 150mm Railgun",
   "description": "This cruiser-sized weapon is a double-barreled version of the frigate class 150mm railgun. Railguns use magnetic rails to fire solid chunks of matter at hypersonic speed. The accurate range of railguns is very good, but due to technical limitations it cannot use onboard guidance. This results in a fairly rapid drop in accuracy at extreme ranges. \n\nRequires hybrid charge types: Antimatter, Iridium, Iron, Lead, Plutonium, Thorium, Tungsten, Uranium.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": 2.0,
   "mass": 1000.0,
   "category_name": "Module",

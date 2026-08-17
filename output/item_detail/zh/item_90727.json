@@ -3,7 +3,7 @@
   "name": "采矿精度",
   "description": "在使用采矿激光器和冰矿采集器时，此技能可以最大化采矿暴击出现的几率。每升一级，采矿激光器和冰矿采集器的暴击几率提高10%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

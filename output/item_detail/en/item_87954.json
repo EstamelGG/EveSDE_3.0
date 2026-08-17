@@ -3,7 +3,7 @@
   "name": "Exploration Detector 3",
   "description": "This advanced detector allows ship scanners to pick up many undetected relic and data signatures for probe scanning within a system.",
   "volume": 20000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Infrastructure Upgrades",

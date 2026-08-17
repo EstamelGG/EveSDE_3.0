@@ -3,7 +3,7 @@
   "name": "Ogdin's Eye Coordination Enhancer",
   "description": "Improved ability at hitting fast moving targets.\n\n6% bonus to turrets tracking speed.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

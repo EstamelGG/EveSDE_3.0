@@ -3,7 +3,7 @@
   "name": "Proteus Defensive - Augmented Plating",
   "description": "Although this subsystem uses the same armor nano-assemblers as standard empire technology, various optimizations have been made. Taking full advantage of recently discovered Sleeper designs, the use of fullerene-based technology has allowed for the combination of far more compact and resilient armor components.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": 300.0,
   "mass": 1400000.0,
   "category_name": "Subsystem",

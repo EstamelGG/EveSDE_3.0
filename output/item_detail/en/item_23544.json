@@ -3,7 +3,7 @@
   "name": "Sealed Container",
   "description": "Securily locked case with unknown ingredients.",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": null,
   "mass": 500.0,
   "category_name": "Commodity",

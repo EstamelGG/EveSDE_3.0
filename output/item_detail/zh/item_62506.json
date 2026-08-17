@@ -3,7 +3,7 @@
   "name": "高密度辉铈铌钙钛矿",
   "description": "卫星出产的铈铌钙钛矿石有时会产出极高密度的珍稀矿物。这样的矿石就被称为辉铈铌钙钛矿，提炼后可以获得的有用矿物数量是普通矿石的两倍。\n\n\n\n铈铌钙钛矿是卫星中开采出的一种特殊矿石，价值极高，能够产出丰富的<a href=showinfo:16652>钷</a>，可作为许多高级矿物的重要元素。铈铌钙钛矿石还会产出<a href=showinfo:16644>铂</a>、<a href=showinfo:16639>钪</a>和<a href=showinfo:16633>烃类</a>。\n\n\n\n这种矿物被压缩过，比它的原始形态紧密得多。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "小行星",

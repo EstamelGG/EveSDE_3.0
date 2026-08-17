@@ -3,7 +3,7 @@
   "name": "Requisition Volatile Booster",
   "description": "<b>+20% Warp Disruptor and Scrambler Range. Base duration: 3.5 minutes.</b>\n\nThis booster has been manufactured using volatile compounds and will expire on <b>July 27th, YC128</b>.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

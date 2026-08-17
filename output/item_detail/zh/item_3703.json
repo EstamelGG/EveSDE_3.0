@@ -3,7 +3,7 @@
   "name": "神经冲击",
   "description": "这种药品可以暂时缓解你的不适。",
   "volume": 0.2,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.2,
   "capacity": null,
   "mass": 10.0,
   "category_name": "常用物品",

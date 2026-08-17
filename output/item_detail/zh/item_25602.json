@@ -3,7 +3,7 @@
   "name": "推进装置控制台",
   "description": "星舰推进系统的控制组件。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

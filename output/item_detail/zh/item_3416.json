@@ -3,7 +3,7 @@
   "name": "护盾操作",
   "description": "操作飞船护盾系统的技能，包括使用护盾回充增量器和其他基础护盾装备。每升一级，飞船护盾回充时间缩短5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

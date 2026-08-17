@@ -3,7 +3,7 @@
   "name": "纳米体控制技术",
   "description": "改进通用维修纳米体控制的技能。每升一级，受损装备每秒维修量增加20%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

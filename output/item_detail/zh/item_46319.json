@@ -3,7 +3,7 @@
   "name": "辉硅铍钇矿",
   "description": "卫星出产的硅铍钇矿石有时会产出极高密度的珍稀矿物。这样的矿石就被称为辉硅铍钇矿，提炼后可以获得的有用矿物数量是普通矿石的两倍。\n\n\n\n硅铍钇矿是卫星中开采出的一种特殊矿石，价值极高，能够产出丰富的<a href=showinfo:16653>铥</a>，可作为许多高级矿物的重要元素。硅铍钇矿石还会产出<a href=showinfo:16643>镉</a>、<a href=showinfo:16638>钛合金</a>和<a href=showinfo:16636>硅酸盐</a>。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "小行星",

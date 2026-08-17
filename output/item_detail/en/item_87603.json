@@ -3,7 +3,7 @@
   "name": "Uncertainty Thread",
   "description": "A confusing thread of quantum calculations that resolves to multiple contradictory conclusions.\n\nWhile its results cannot all possibly be true, it would still be valuable to the forces occupying Drifter wormholes or their corporations back in New Eden.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 0.1,
   "category_name": "Special Edition Assets",

@@ -3,7 +3,7 @@
   "name": "塞壬 II",
   "description": "<b>类型：</b>后勤铁骑舰载机\n\n<b>作用：</b>跃迁干扰\n\n<b>描述：</b>塞壬在战场上进行跃迁干扰支援。\n\n\n\n<b>跃迁扰断器</b>：干扰目标的跃迁系统。\n\n<b>加力燃烧器</b>：提供一定程度的速度加成。加力燃烧器运转后的冷却时间较长。",
   "volume": 3000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3000.0,
   "capacity": null,
   "mass": 1500.0,
   "category_name": "铁骑舰载机",

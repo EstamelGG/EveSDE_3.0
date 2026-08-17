@@ -3,7 +3,7 @@
   "name": "Union of Eight Paths Firework",
   "description": "The Caldari are well known for their festivals, a means by which they enliven and relieve lives marked by service to the 'Big 8' megas as they strive to climb the corporate ladder. The Union of Eight Paths Firework celebrates the distinctive approaches taken by each of the 'Big 8' megacorps while maintaining their unity within the Caldari State, at least in principle. A showy and dramatic pyrotechnic, it is especially popular with the executive cadres for the ideological symbolism they are duty bound to promote to the worker classes.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

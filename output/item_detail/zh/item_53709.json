@@ -3,7 +3,7 @@
   "name": "中级极乐 - 欧米伽型",
   "description": "这款欧米伽植入体使用了萨沙的技术进行研发，专供萨沙和其关联势力的精英飞行员使用。\n\n\n\n这款植入体自身没有什么作用，但当与其它“极乐”植入体协同作用时，它能提高其它植入体的效力。\n\n\n\n所有“极乐”植入体次要效果增加25%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

@@ -3,7 +3,7 @@
   "name": "200mm Railgun I",
   "description": "The 200mm railgun works much the same as its big brother except that it is considerably faster but also less powerful. The accurate range of railguns is very good, but due to technical limitations it cannot use onboard guidance. This results in a fairly rapid drop in accuracy at extreme ranges. \n\nRequires hybrid charge types: Antimatter, Iridium, Iron, Lead, Plutonium, Thorium, Tungsten, Uranium.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": 1.0,
   "mass": 1000.0,
   "category_name": "Module",

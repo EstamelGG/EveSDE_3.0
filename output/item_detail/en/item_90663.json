@@ -3,7 +3,7 @@
   "name": "Dagon Blueprint Crate",
   "description": "Includes a Dagon blueprint copy and SKIN.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

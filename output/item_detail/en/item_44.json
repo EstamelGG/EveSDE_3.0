@@ -3,7 +3,7 @@
   "name": "Enriched Uranium",
   "description": "Enriched Uranium is used in many kinds of manufacturing and as a fuel, making it a steady trade commodity. Enriched Uranium is generally manufactured by combining standard semiconductor PVD methods with ionic separation by means of mass spectrometry.",
   "volume": 0.75,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.75,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

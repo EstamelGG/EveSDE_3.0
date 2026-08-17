@@ -3,7 +3,7 @@
   "name": "舰队协调理论",
   "description": "让舰队指挥官能够扩大舰队阵型范围的技能。每升一级都可以按如下顺序解锁额外的舰队阵型调整选项：\n\n\n\n等级0：10km范围，1km间隔（默认）\n\n等级1：20km范围，2km间隔\n\n等级2：30km范围，3km间隔\n\n等级3：40km范围，4km间隔\n\n等级4：50km范围，5km间隔\n\n等级5：100km范围，10km间隔",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

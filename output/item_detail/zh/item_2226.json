@@ -3,7 +3,7 @@
   "name": "姐妹会谈判专家",
   "description": "姐妹会派来监督和平谈判进程的特使。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 85.0,
   "category_name": "常用物品",

@@ -3,7 +3,7 @@
   "name": "Guristas War Plans",
   "description": "Guristas War Plans",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "Dual 180mm AutoCannon II",
   "description": "This dual 180mm autocannon is a simple but effective close combat weapon. \n\nMust be loaded with any of the following regular and advanced projectile ammo types: Carbonized Lead, Depleted Uranium, EMP, Fusion, Nuclear, Phased Plasma, Proton, Titanium Sabot, Barrage, Hail.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": 2.5,
   "mass": 1000.0,
   "category_name": "Module",

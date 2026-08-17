@@ -3,7 +3,7 @@
   "name": "旗舰级核心防御电容器安全管理装置 II",
   "description": "这个改装件的设计旨在减少需要护盾操作技能的装备的电容需求，但代价是信号半径增加。\n\n\n\n装配这个改装件的副作用可以通过训练<a href=showinfo:26261>护盾改装技术</a>技能降低影响。",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "装备",

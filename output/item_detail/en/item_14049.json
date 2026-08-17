@@ -3,7 +3,7 @@
   "name": "Shadow Serpentis Multispectrum Coating",
   "description": "This version of armor coating increases the armor protection against all types of damage, however it is less effective than coatings tuned against a specific damage profile.\n\nPenalty: Using more than one type of this module or similar modules that affect the same attribute on the ship will be penalized.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Module",

@@ -3,7 +3,7 @@
   "name": "Strong Frentix Booster",
   "description": "This strong concoction of painkillers helps the pilot block out all inessential thought processes (along with the occasional needed one) and to focus his attention completely on the task at hand. When that task is to hit a target, it certainly makes for better aim, though it does tend to make one's extremities go numb for short periods.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Implant",

@@ -3,7 +3,7 @@
   "name": "Mjolnir Auto-Targeting Light Missile I",
   "description": "An Amarr light missile with an EMP warhead and automatic guidance system.",
   "volume": 0.015,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.015,
   "capacity": null,
   "mass": 700.0,
   "category_name": "Charge",

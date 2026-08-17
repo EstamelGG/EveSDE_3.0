@@ -3,7 +3,7 @@
   "name": "Michi's Excavation Augmentor",
   "description": "A neural Interface upgrade that boosts the pilot's skill in a specific area.\n\n5% bonus to mining yield of mining lasers.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

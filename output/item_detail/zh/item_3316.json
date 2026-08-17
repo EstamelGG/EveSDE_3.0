@@ -3,7 +3,7 @@
   "name": "受控点射理论",
   "description": "更好地控制武器炮台电容消耗的技能。每升一级，武器炮台的电容消耗减少5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

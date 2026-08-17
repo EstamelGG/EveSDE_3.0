@@ -3,7 +3,7 @@
   "name": "尤尔节烟火包",
   "description": "注意小心操作。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

@@ -3,7 +3,7 @@
   "name": "Serenity YC122.9 Season Booster - Signature Radius",
   "description": "<font color=\"#ff3399cc\"><b>-5% Signature Radius. Duration 12 hours.</b></font>\n<font color=\"#ff3399cc\"><b>+5 to all attibutes.</b></font>",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Implant",

@@ -3,7 +3,7 @@
   "name": "Deprecated Ore Prospecting Array 5",
   "description": "This is a deprecated item, and though it still functions there are plans for it to be removed from circulation in the future.\n\nThis upgrade increases the ore resources available in a system.",
   "volume": 60000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 60000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Infrastructure Upgrades",

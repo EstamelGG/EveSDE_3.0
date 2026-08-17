@@ -3,7 +3,7 @@
   "name": "C3-A西瓦萨索弹道控制系统",
   "description": "C3-A西瓦萨索弹道控制系统是标准弹道控制系统的特别版本，加装了指令、控制和交互固件，能够强化无人机和导弹。“西瓦萨索”来自加达里古语，意为“成功狩猎”，经常在军队中用于祝某人好运。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "装备",

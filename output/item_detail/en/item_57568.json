@@ -3,7 +3,7 @@
   "name": "AEGIS Coded Security Key CSSF-ENS",
   "description": "This coded security key will activate the acceleration gate leading to the AEGIS Security Vault within the Capital Ship Security Facility.\n\nThis security key's transponder is set with the unique code that acts as a key to the specified acceleration gate.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

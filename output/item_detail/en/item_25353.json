@@ -3,7 +3,7 @@
   "name": "Serpentis Shipyard Cipher",
   "description": "This cipher seems to be meant for use on one of the acceleration gates in the Serpentis Fleet Shipyard.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

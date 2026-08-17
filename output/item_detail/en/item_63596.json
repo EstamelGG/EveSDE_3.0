@@ -3,7 +3,7 @@
   "name": "Halcyon R-1 Booster",
   "description": "It will apply immediately when redeemed. Base Duration 2 Hours.\n\n1% bonus to local shield and armor repair module effectiveness\n1% bonus to ship max velocity\n1% bonus to turret, vorton projector and missile launcher rate of fire\n1% bonus to capacitor recharge rate\n1% bonus to signature radius\n2% bonus to drone max velocity and tracking speed\n2% bonus to mining laser and ice harvester range\n2% bonus to scan resolution\n2% bonus to scan probe deviation and scan speed",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Implant",

@@ -3,7 +3,7 @@
   "name": "触发机关",
   "description": "一个功能完整的加农炮触发机关。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

@@ -3,7 +3,7 @@
   "name": "DED Informant's Frozen Corpse",
   "description": "This corpse once belonged to a deep-cover informant collecting information for CONCORD's Directive Enforcement Department from within the Guristas Pirates. Apparently their cover was blown somehow.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 70.0,
   "category_name": "Commodity",

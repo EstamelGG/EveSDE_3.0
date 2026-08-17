@@ -3,7 +3,7 @@
   "name": "小型处理器超频组件 I",
   "description": "这个飞船改装件用于增加舰船的CPU。\n\n惩罚：- 5%护盾回充速率加成。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "装备",

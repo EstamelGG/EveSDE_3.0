@@ -3,7 +3,7 @@
   "name": "'Sarissa' Thermal Disruptive Lance",
   "description": "The Gallente Federation follows the other ‘Big 4’ empires in claiming that it independently developed its ‘Disruptive Lance’ technology but no doubt obtained a great deal of useful material from black market sources trading in stolen Caldari State capital research program data. Federation military-industrial efforts have been strongly focused on upgrading and expanding their already impressive capital ship fleets, perhaps to the exclusion of other areas such as Stellar Transmuter technology, and an advanced dreadnought development program was certainly already in progress.\n\nThe Federation’s ‘Sarissa’ Thermal Disruptive Lance emits a supercharged plasma energy beam as a carrier of specific disruptive energy patterns at ultra-high intensity and will disrupt warp and jump drives, prevent docking guidance and tethering connections, and massively inhibit the effectiveness of external repair beams. This comes at the price of an attenuated and less focused thermal destructive effect but the tactical opportunities of the weapon are considered well worth that trade.\n\nDue to the extreme energies involved in the operation of this module, a disruptive lance can only be fired when in siege mode, and ships with this module fitted are unable to activate cloaking devices.\n\nNote: Activating this module triggers a massive capacitor disruption wave that impacts ships in the immediate vicinity, friend or foe. After firing, you will be immobile for thirty seconds and unable to dock, tether, cloak, or activate your jump drive for 2 minutes.",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Module",

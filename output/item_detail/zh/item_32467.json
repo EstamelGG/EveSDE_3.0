@@ -3,7 +3,7 @@
   "name": "民用小型远程护盾回充增量器",
   "description": "将护盾的能量传输到目标舰船上，帮助其进行防御。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

@@ -3,7 +3,7 @@
   "name": "Minmatar Phenomena Generator",
   "description": "Adapted from advanced research into natural wormhole phenomena, this module wields a Ragnarok's massive Ladar sensor array to bend local space and affect the properties of all nearby vessels.\nThe effects of this phenomenon impact both friendly and hostile ships, altering the entire battlefield in subtle but significant ways. Clever fleet commanders can take advantage of these effects to ensure victory, even against insurmountable odds.\n\n<b>Affected ships receive:</b>\n-30% signature radius\n+10% thermal resistances\n-15% explosive resistances\n-10% hybrid turret and energy turret optimal range",
   "volume": 8000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 8000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Module",

@@ -3,7 +3,7 @@
   "name": "突破者座舱高速射击",
   "description": "备战突破者座舱的专业技能。每升一级，突破者座舱发射器循环时间减少10%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

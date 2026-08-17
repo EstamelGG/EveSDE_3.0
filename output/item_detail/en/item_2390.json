@@ -3,7 +3,7 @@
   "name": "Electrolytes",
   "description": "This conductive liquid is able to carry an electrical current due to its unique ionic properties, making it ideal for use as a reactive coolant, a high-energy fuel, or a transference medium for power plants.",
   "volume": 0.19,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.19,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

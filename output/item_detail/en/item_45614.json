@@ -3,7 +3,7 @@
   "name": "Tengu Propulsion - Chassis Optimization",
   "description": "This subsystem exploits the latest technological advances afforded by discovery of the ancient Sleeper race's own designs. Optimizations made to the chassis allow for vast improvements to be made to a Tengu's agility and base velocity. Although the various layout optimizations sacrifice other options for propulsion customization, the flow-on effects from an improvement in base agility make it an attractive upgrade for those whose Tech III vessels are in need of an overall mobility increase.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 1400000.0,
   "category_name": "Subsystem",

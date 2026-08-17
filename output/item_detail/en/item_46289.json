@@ -3,7 +3,7 @@
   "name": "Twinkling Cobaltite",
   "description": "Cobaltite ores carved out of moons can occasionally yield very high densities of the valuable minerals. When this happens the ore is called Twinkling Cobaltite and reprocessing such ores will yield twice the normal volume of useful material.\n\nA common ore commercially mined from moons, Cobaltite is very useful as it yields good quantities of <a href=showinfo:16640>Cobalt</a>, a significant element of many advanced materials.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "Asteroid",

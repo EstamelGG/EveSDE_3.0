@@ -3,7 +3,7 @@
   "name": "反应式装甲增强器",
   "description": "反应式装甲增强器使用了先进的纳米薄膜技术，可以根据装甲层受到的伤害类型而改变抗性。这种特性使得它无论在应对何种类型的伤害时都表现得游刃有余。\n\n这个装备提供的四种伤害类型抗性的总和为60%，起始值为15%。\n\n一艘舰船只能同时装配一个这种装备。",
   "volume": 25.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 25.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "装备",

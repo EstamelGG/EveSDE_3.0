@@ -3,7 +3,7 @@
   "name": "Stranded Pilot",
   "description": "This simple starship pilot, lacking the pod and other resources of a capsuleer, has been forced to eject from his ship in a mundane escape pod.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 80.0,
   "category_name": "Commodity",

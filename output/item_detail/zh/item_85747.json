@@ -3,7 +3,7 @@
   "name": "悟道作战扫描探针",
   "description": "一个扫描探针，用于扫描空间信号、舰船、建筑与无人机。能从<a href=showinfo:18639>延伸探针发射器</a>上发射。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "弹药",

@@ -3,7 +3,7 @@
   "name": "Zainou 'Beancounter' Reprocessing RX-804",
   "description": "A neural Interface upgrade that boosts the pilot's reprocessing skills.\n\n4% bonus to ore and ice reprocessing yield.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

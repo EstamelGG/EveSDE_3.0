@@ -3,7 +3,7 @@
   "name": "费多的血液",
   "description": "厚塑料制成的密封包，装满了深色且呈粘性的费多血液。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

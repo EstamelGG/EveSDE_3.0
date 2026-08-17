@@ -3,7 +3,7 @@
   "name": "Inquest 'Hedone' Entanglement Optimizer WS-803",
   "description": "A neural interface upgrade that increases the maximum range of Stasis Webifiers and Warp Scramblers by 3%.\n\nSerpentis Inquest is an offshoot of the Serpentis Corporation that specializes in cutting-edge cybernetic and clone research.\n\nThe corporation makes its black cyber implants available to both Serpentis operatives and the forces of the allied Angel Cartel.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

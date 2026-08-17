@@ -3,7 +3,7 @@
   "name": "Paragon Partnership",
   "description": "Intermediate skill at negotiating lower vendor fees for sales on the Paragon Hub.\n\nReduces Paragon Hub vendor fee percentage by 1% per level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

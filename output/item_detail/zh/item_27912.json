@@ -3,7 +3,7 @@
   "name": "震荡炸弹",
   "description": "爆炸时发射一个全向脉冲，对周围的飞船造成动能伤害。由于炸弹上使用了高级装甲增强系统，具有很强的动能抗性，因而能够对目标区域发射多个炸弹。",
   "volume": 75.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 75.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "弹药",

@@ -3,7 +3,7 @@
   "name": "罕见卫星矿石处理技术",
   "description": "提炼从宇宙的卫星中开采出来的罕见矿石种类的专业技能。可以大大提高技能熟练者使用提炼设备时的效率。\n\n\n\n每升一级，菱镉矿、砷铂矿、钒铅矿和铬铁矿的提炼产出提高2%",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

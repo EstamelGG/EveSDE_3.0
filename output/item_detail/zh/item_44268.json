@@ -3,7 +3,7 @@
   "name": "四大自由烟火",
   "description": "这款广受欢迎的盖伦特烟火用以庆祝被认为是联邦立国之本的“四大自由”理念：思想自由、言论自由、结党自由、迁徙自由。作为联邦宪法中“四大自由”理念的具现，这款烟火在盖伦特节日期间在宇宙中随处可见。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "弹药",

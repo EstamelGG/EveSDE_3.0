@@ -3,7 +3,7 @@
   "name": "加特林增强模式激光器 I",
   "description": "速射多管能源型武器，破坏力持续稳定。\n\n使用的频率晶体弹药类型：伽玛、红外线、微波、多频、射频、标准、紫外线和X射线。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 1.0,
   "mass": 500.0,
   "category_name": "装备",

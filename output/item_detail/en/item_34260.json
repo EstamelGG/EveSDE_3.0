@@ -3,7 +3,7 @@
   "name": "Surgical Warp Disrupt Probe",
   "description": "Deployed from an Interdiction Sphere Launcher fitted to an Interdictor this probe prevents warping from within its area of effect.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

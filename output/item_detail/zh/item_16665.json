@@ -3,7 +3,7 @@
   "name": "六元复合物",
   "description": "通过铬和铂的孤电子氧化形成的化合物。在高等技术生产中有着大量应用，在工业生产中需求量很大。",
   "volume": 0.2,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.2,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

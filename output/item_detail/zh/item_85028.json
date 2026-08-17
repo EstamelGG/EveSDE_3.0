@@ -3,7 +3,7 @@
   "name": "尼佳改良中型电容注电器",
   "description": "给电容器快速地注入能量。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": 32.0,
   "mass": null,
   "category_name": "装备",

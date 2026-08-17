@@ -3,7 +3,7 @@
   "name": "共和国崛起烟火",
   "description": "这种烟火看上去阴冷无比，它是萨沙到来的先兆，用以震慑和恐吓萨沙入侵路上的下一块领土上的居民。使用这种“共和国崛起”烟火一般等同于下令“攻击”，不过克隆飞行员却喜欢挥动它来展示自己。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "弹药",

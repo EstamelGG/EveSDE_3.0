@@ -3,7 +3,7 @@
   "name": "皮丝杰斯贝矿",
   "description": "皮丝杰斯贝矿是杰斯贝岩的近亲矿石，也含有多种矿物类型，但存在于具有一定年龄的小行星中；这种奇怪特性加上目前效率低下的皮丝杰斯贝矿提炼技术，以致科学界对这种矿石没什么大兴趣。",
   "volume": 2.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

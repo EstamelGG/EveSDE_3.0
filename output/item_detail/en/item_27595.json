@@ -3,7 +3,7 @@
   "name": "Guristas Control Tower Medium",
   "description": "The Guristas Control Tower is an enhanced version of the Caldari control tower utilizing the latest frontier design techniques to increase its defenses and efficiency.\n\nRacial Bonuses:\n25% bonus to Missile Battery Rate of Fire\n50% bonus to Missile Velocity\n-75% bonus to Electronic Warfare Battery Target Cycling Speed",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": 70000.0,
   "mass": 200000000.0,
   "category_name": "Starbase",

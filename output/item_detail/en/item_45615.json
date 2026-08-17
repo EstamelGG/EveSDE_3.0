@@ -3,7 +3,7 @@
   "name": "Tengu Propulsion - Fuel Catalyst",
   "description": "The ancient Sleeper race was known to have mastered various sustainable energy technologies including thermoelectric systems, which they usually built directly into a vessel's hull. Capsuleer reverse-engineers took little time to adapt salvaged versions of these Sleeper energy systems into their own modular Tech III vessel pieces. \n\nThanks to widespread demand in the Caldari transport industry, fuel catalyst systems were one of the first to be developed. Making full use of locally generated thermoelectric power, they are able to supplement the fuel needs of an afterburner. This process makes it possible to inject fuel in larger amounts for the same capacitor cost, offering pilots a significant boost to the velocity increase from afterburners.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 1400000.0,
   "category_name": "Subsystem",

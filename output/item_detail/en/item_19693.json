@@ -3,7 +3,7 @@
   "name": "Inherent Implants 'Lancer' Gunnery RF-905",
   "description": "An Inherent Implants gunnery hardwiring designed to enhance turret rate of fire.\n\n5% bonus to all turret rate of fire.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

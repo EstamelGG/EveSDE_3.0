@@ -3,7 +3,7 @@
   "name": "Sansha Control Tower Medium",
   "description": "The Sansha Control Tower is a heavily modified and enhanced starbase structure utilizing the latest frontier design techniques to increase its defenses and efficiency.\n\nAlthough the majority of the internal components are based on modified Amarr technology, Sansha control towers have always exhibited traits incorporated from all over the cluster. \nEver since their massive YC112 abduction raids in the Balle system, Sansha control towers have begun displaying more and more traits reminiscent of Gallente designs. This has led some observers to speculate that the Nation made significant use of the Center for Advanced Studies engineers they captured in that operation.\n\nRacial Bonuses:\n50% bonus to Energy Sentry Optimal Range\n25% bonus to Energy Sentry Damage\n50% bonus to Silo Cargo Capacity",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": 70000.0,
   "mass": 200000000.0,
   "category_name": "Starbase",

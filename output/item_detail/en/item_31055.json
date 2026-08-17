@@ -3,7 +3,7 @@
   "name": "Medium Trimark Armor Pump I",
   "description": "This ship modification is designed to increase a ship's total armor hit points at the expense of agility.\n\nThe drawbacks of fitting this rig may be reduced by training the <a href=showinfo:26253>Armor Rigging</a> skill.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "Module",

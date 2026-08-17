@@ -3,7 +3,7 @@
   "name": "Inherent Implants 'Squire' Power Grid Management EG-603",
   "description": "A neural interface upgrade that boosts the pilot's skill at engineering.\n\n3% bonus to the power grid output of your ship.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

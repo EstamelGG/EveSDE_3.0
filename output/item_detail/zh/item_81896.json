@@ -3,7 +3,7 @@
   "name": "突变稳定",
   "description": "掌握突变稳定的技能和知识，并将其应用于先进技术的研发之中。每升一级，所有需要突变稳定的物品制造时间缩短2%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

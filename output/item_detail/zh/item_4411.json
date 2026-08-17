@@ -3,7 +3,7 @@
   "name": "信号抑制",
   "description": "提高信号半径抑制装置的主动效果，使其效率更高，作用时间更长。\n\n\n\n每升一级，信号半径抑制装置的主动模式持续时间提高5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

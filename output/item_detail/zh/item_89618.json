@@ -3,7 +3,7 @@
   "name": "姐妹会远征指挥思维网络芯片",
   "description": "这种为EVE姐妹会及其科学家生产的高级接口链接会直接链接到由指挥脉冲波弹药发射的纳米体，从而极大地提高指挥官的远征指挥和装甲指挥能力。远征和装甲指挥脉冲波强度和持续时间提高25%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

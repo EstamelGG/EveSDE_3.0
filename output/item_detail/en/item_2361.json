@@ -3,7 +3,7 @@
   "name": "Hermetic Membranes",
   "description": "How do you make a sheet of material absolutely impermeable to specific particles? Simple: You make the material <i>want</i> to stop those particles. Such is the case with hermetic membranes, supertensile fabrics instilled with living genetic material that actively hunts down and absorbs or repels whatever they were bred to counteract.",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

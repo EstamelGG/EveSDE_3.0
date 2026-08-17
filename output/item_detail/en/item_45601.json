@@ -3,7 +3,7 @@
   "name": "Tengu Offensive - Accelerated Ejection Bay",
   "description": "This missile launcher system was formed not from the missile bays of Sleeper drones, but from the direct-fire turrets and hardpoints salvaged from them instead. Adapting the underlying technology behind the drones' rapid-firing turrets for their own missile systems, Caldari engineers have managed to revolutionize modular launching mechanisms, improving launch speed and kinetic warhead payloads.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 800000.0,
   "category_name": "Subsystem",

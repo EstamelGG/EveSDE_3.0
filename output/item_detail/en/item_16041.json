@@ -3,7 +3,7 @@
   "name": "Colossal Sealed Cargo Containers",
   "description": "These colossal containers are fitted with a password-protected security lock.",
   "volume": 1000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1000.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "Commodity",

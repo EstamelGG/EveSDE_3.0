@@ -3,7 +3,7 @@
   "name": "高密度克里石（2级）",
   "description": "高岭克里石是一种更加稀有的<a href=showinfo:81900>克里石</a>，其矿物含量高出5%。高岭克里石比普通克里石的黏土性质更加明显，通常分布在零安全区域内的小行星异常空间中。这种矿物被压缩过，比它的原始形态紧密得多。",
   "volume": 0.012,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.012,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

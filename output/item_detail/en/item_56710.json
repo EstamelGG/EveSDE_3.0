@@ -3,7 +3,7 @@
   "name": "Partial Neurosynaptic Profile",
   "description": "Neurosynaptic profiles are invaluable to the Triglavian Collective for assessing any sentients they encounter, including Drifters, Sleeper and Rogue Drones. Although this profile is partial, the Collective is quite capable of integrating incomplete data into its analysis.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 0.1,
   "category_name": "Commodity",

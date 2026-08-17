@@ -3,7 +3,7 @@
   "name": "Syndicate Mobile Medium Warp Disruptor",
   "description": "A medium deployable self powered unit that creates a disruption field around its anchored position. Ships within its area of effect will be unable to activate their warp drive, and any ships arriving within 500km of its vicinity on a vector that would theoretically cross its field, will find themselves pulled into its uncaring grasp.\n\nThis disruptor can operate in space continuously for fourteen days, after which it will automatically decay.",
   "volume": 195.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 195.0,
   "capacity": null,
   "mass": null,
   "category_name": "Deployable",

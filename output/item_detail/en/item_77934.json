@@ -3,7 +3,7 @@
   "name": "Heimatar Rise Accelerator",
   "description": "Encrypted in broadcasts, whispered through barbed wire, shouted in the streets, in BYC20 a single word traveled across Heimatar and began the Minmatar rebellion, “Rise”.\n\nThis booster, designed in honor of that great day will, once redeemed by a capsuleer, increase the rate at which they train skills for its duration.\n<b>Bonus: +6 to all learning attributes</b>\n<b>Base Duration: 2 days</b>",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

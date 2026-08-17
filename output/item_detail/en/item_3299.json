@@ -3,7 +3,7 @@
   "name": "Inherent Implants 'Noble' Repair Systems RS-606",
   "description": "A neural Interface upgrade that boosts the pilot's skill in operating armor/hull repair modules.\n\n6% reduction in repair systems duration.\n\nNote: This implant has no effect on remote armor repair modules or capital sized modules.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

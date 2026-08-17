@@ -3,7 +3,7 @@
   "name": "Caldari Fighter Specialization",
   "description": "Specialization in the operation of advanced Caldari fighters. 2% bonus per skill level to the damage of fighters requiring Caldari Fighter Specialization.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

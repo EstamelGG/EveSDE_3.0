@@ -3,7 +3,7 @@
   "name": "Shadow Tungsten Charge S",
   "description": "Consists of two components: a shell of titanium and a core of tungsten atoms suspended in plasma state. Railguns launch the shell directly, while particle blasters pump the plasma into a cyclotron and process the plasma into a bolt that is then fired.\n\n40% increased optimal range.\n27% reduced capacitor need.",
   "volume": 0.0025,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.0025,
   "capacity": null,
   "mass": 0.01,
   "category_name": "Charge",

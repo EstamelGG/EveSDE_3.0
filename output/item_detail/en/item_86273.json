@@ -3,7 +3,7 @@
   "name": "SCARAB Breacher Pod M Blueprint Crate",
   "description": "Contains a SCARAB Breacher Pod M Blueprint.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

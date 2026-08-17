@@ -3,7 +3,7 @@
   "name": "遥测感应技术",
   "description": "从轨道人造卫星收集和分析遥感数据的技能，可以生成适当校准过的测量数据。\n\n等级1：可以在1光年范围内进行扫描\n等级2：可以在3光年范围内进行扫描\n等级3：可以在5光年范围内进行扫描\n等级4：可以在7光年范围内进行扫描\n等级5：可以在9光年范围内进行扫描",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

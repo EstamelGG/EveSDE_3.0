@@ -3,7 +3,7 @@
   "name": "被动锁定器 I",
   "description": "使用先进的重力和视觉锁定技术来识别威胁性目标。可以锁定目标而不引起对方警觉。",
   "volume": 25.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 25.0,
   "capacity": null,
   "mass": 2000.0,
   "category_name": "装备",

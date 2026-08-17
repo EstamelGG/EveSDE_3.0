@@ -3,7 +3,7 @@
   "name": "天使崛起烟火",
   "description": "天使集团可不止是一群不法之徒，他们在自己的组织结构中使用了复杂而神秘的图形。天使在庆祝自己成功的艺术风格时，“天使崛起”烟火就被用来彰显他们的伟大成就。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "弹药",

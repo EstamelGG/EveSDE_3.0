@@ -3,7 +3,7 @@
   "name": "超导体轨道",
   "description": "主要由磁轨炮使用的武器构件。这个部件也存在于别的各种科技类型中。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

@@ -3,7 +3,7 @@
   "name": "聚合导体",
   "description": "一种导电性极强的高分子量化合物。用于电子产品的制造。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

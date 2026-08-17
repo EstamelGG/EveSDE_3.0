@@ -3,7 +3,7 @@
   "name": "Crimson Scythes Firework",
   "description": "Ominous signal of the Blood Raider Covenant's yearly Crimson Harvest cult festival, the 'Crimson Scythes' firework is considered to be in rather poor taste when used for casual purposes. This has certainly not stopped it being a favorite among fans of the 'Sani Sabik Pop' music scene.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

@@ -3,7 +3,7 @@
   "name": "克里石",
   "description": "克里石是在YC126年发现的一种矿石，其主要成分为<a href=showinfo:36>类银超金属</a>，伴有少量的<a href=showinfo:34>三钛合金</a>和微量的<a href=showinfo:35>类晶体胶矿</a>。因其外观和属性与黏土相似而得名。克里石通常会分布在零安全区域内的小行星异常空间中。",
   "volume": 1.2,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.2,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

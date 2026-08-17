@@ -3,7 +3,7 @@
   "name": "哨兵MZ纤维蓝图",
   "description": "用于制造<a href=showinfo:88204>哨兵MZ纤维</a>。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "蓝图",

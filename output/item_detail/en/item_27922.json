@@ -3,7 +3,7 @@
   "name": "Lockbreaker Bomb",
   "description": "Emits random electronic bursts which have a chance of momentarily disrupting target locks on ships within range.",
   "volume": 75.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 75.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Charge",

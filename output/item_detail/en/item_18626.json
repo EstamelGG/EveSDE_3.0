@@ -3,7 +3,7 @@
   "name": "Quest Survey Probe I",
   "description": "The moon survey probe is launched in the direction of a nearby moon where it will eventually land and broadcast back atmospheric and soil analysis data.\n\nThe Quest is a cheap compact system that requires little in the way of skill to operate. However, it is extremely slow and can take up to 20 minutes to gather reliable survey data.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

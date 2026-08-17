@@ -3,7 +3,7 @@
   "name": "R.S. Officer's Passcard",
   "description": "This is a security passcard for Roden Shipyard officers.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

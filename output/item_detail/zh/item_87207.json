@@ -3,7 +3,7 @@
   "name": "辅助保存容器",
   "description": "一批中等价值的冬眠者和三神裔遗物被收集在该容器中，以保护它们免受深渊深流的侵蚀。",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "特别版用品",

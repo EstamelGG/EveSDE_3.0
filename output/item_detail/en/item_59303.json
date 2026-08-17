@@ -3,7 +3,7 @@
   "name": "Serenity Basic Capsuleer Day Cerebral Accelerator",
   "description": "This Cerebral Accelerator is only designed for and available on Serenity.\n\nThis cerebral accelerator has been produced and distributed by the four empires to celebrate the 18th anniversary of the first independent capsuleer licenses. When consumed by a capsuleer, this booster will increase the rate at which they train skills for a short time.\n\nVolatile compounds were used to create this cerebral accelerator, limiting its shelf life. It will cease to function after June 30, YC123.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

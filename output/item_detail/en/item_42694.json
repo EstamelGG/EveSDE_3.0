@@ -3,7 +3,7 @@
   "name": "Active Shielding Charge",
   "description": "This compact bundle of active nanites can be loaded into a <a href=showinfo:42529>Shield Command Burst</a> module and dispersed across allied ships to improve local and remote shield booster modules.\n\nThe bonus provided by this module does not apply to Capital sized local booster modules.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": 0.01,
   "category_name": "Charge",

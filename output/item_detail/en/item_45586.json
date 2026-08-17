@@ -3,7 +3,7 @@
   "name": "Legion Defensive - Covert Reconfiguration",
   "description": "From the moment Strategic Cruisers became a reality, there were whispers amongst the scientific community about the potential for advances in cloaking technology. They remained that alone for the longest time, with few involved in the reverse-engineering process willing to share any news of their discoveries. Everyone knew that, should the technology ever become a reality, the capabilities of the new Strategic Cruisers would change overnight.\n\nThe Amarrians are suspected to have developed cloaking technology for the Legion around the same time as the first capsuleer designs began to surface. For almost a full week, Minmatar rebel camps deep inside Heimatar and Metropolis were subjected to ruthless guerilla attacks, almost unprecedented in their ferocity and viciousness.  Although initially confused by such a marked changed in their opponent's warfare philosophy, the Matari knew that each target had been a high profile objective for the Imperial Navy, and noted with deep suspicion how all of the squads had been spearheaded by Legions that could hit and fade with alarming ease. Few doubted who was behind the bloodshed. The Amarrians remained silent for the most part, the only official statement; that God's will had manifested itself in the heart of evil.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": 300.0,
   "mass": 1400000.0,
   "category_name": "Subsystem",

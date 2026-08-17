@@ -3,7 +3,7 @@
   "name": "Halcyon B-5 Booster",
   "description": "It will apply immediately when redeemed. Base Duration 2 Hours.\n\n5% bonus to shield resistances\n5% bonus to warp speed and acceleration\n5% bonus to turret optimal range and falloff\n5% bonus to missile flight time\n5% bonus to vorton projector optimal range\n5% bonus to capacitor capacity\n5% bonus to drone hitpoints\n5% bonus to mining laser and ice harvester cycle time\n10% bonus to scan resolution\n10% bonus to sensor strength\n+20 virus coherence for data analyzers",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Implant",

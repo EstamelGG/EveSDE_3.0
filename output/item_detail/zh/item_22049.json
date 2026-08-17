@@ -3,7 +3,7 @@
   "name": "REF徽章",
   "description": "这枚勋章表明佩戴者是安妮星座里的共和国远征军的一员。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

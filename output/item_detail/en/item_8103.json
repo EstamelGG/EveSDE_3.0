@@ -3,7 +3,7 @@
   "name": "Advanced 'Limos' Heavy Missile Bay I",
   "description": "Designed for long engagements between medium sized ships. Slow firing rate, but makes up for it with a large missile capacity.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": 0.99,
   "mass": null,
   "category_name": "Module",

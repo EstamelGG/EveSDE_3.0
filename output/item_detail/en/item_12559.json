@@ -3,7 +3,7 @@
   "name": "Aurora S",
   "description": "A Carthum Conglomerate small Beam Laser Crystal based on an upgraded version of the standard radio Crystal. Huge range and damage boost but far longer cooldown time. It is next to useless at close ranges. The delicate crystalline structures used in the manufacture of this advanced crystal degrade with use, eventually causing it to shatter.\n\n80% increased optimal range.\n75% reduced tracking speed.\n\nNote: This ammunition can only be used by small tech level II and faction Beam Lasers.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

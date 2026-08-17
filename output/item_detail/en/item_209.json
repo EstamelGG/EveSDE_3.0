@@ -3,7 +3,7 @@
   "name": "Scourge Heavy Missile",
   "description": "The Scourge heavy missile is an old relic from the Caldari-Gallente War that is still in widespread use because of its low price and versatility.",
   "volume": 0.03,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.03,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Charge",

@@ -3,7 +3,7 @@
   "name": "Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-603",
   "description": "An Eifyr and Co. gunnery hardwiring designed to enhance skill with small projectile turrets.\n\n3% bonus to small projectile turret damage.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

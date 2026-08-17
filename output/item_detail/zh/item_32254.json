@@ -3,7 +3,7 @@
   "name": "帝国海军改进型诺贝尔植入体",
   "description": "一款神经接口升级芯片，可以增强飞行员在维护其飞船中层防御以及分析维修舰船损伤方面的技能。\n\n装甲值增加3%。\n维修系统修复量增加3%。\n\n注：对旗舰级装备不起作用。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

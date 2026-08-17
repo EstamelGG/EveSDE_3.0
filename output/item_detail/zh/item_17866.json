@@ -3,7 +3,7 @@
   "name": "片麻岩（3级）",
   "description": "高品位片麻岩具有破碎的分子结构，使其呈现棱柱状外观。由于它比普通片麻岩的矿物含量高了10%，因此是最受欢迎的片麻岩。片麻岩是一种很受欢迎的矿石，因为它富含三种广泛使用的矿物，所以提升了它的利用价值。它富含<a href=showinfo:36>类银超金属</a>，还含有<a href=showinfo:35>类晶体胶矿</a>和<a href=showinfo:37>同位聚合体</a>。大多数情况下，你可以在低安全等级星系和虫洞中找到它。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

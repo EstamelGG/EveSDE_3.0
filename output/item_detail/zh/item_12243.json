@@ -3,7 +3,7 @@
   "name": "理科毕业生",
   "description": "刚从正规大学毕业的理科文凭获得者。",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": 250.0,
   "category_name": "常用物品",

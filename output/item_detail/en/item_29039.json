@@ -3,7 +3,7 @@
   "name": "Capital Antimatter Reactor Unit",
   "description": "Power Core component used primarily in Amarr ships. A component in various other technology as well.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

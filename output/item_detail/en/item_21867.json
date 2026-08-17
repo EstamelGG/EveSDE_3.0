@@ -3,7 +3,7 @@
   "name": "Nova Heavy Assault Missile",
   "description": "A nuclear warhead designed for use with heavy assault launchers. Heavy assault missiles can be fired at a greater rate than heavy missiles, at the expense of effective range.",
   "volume": 0.015,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.015,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Charge",

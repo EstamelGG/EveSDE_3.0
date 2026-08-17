@@ -3,7 +3,7 @@
   "name": "Expert Cerebral Accelerator",
   "description": "Cerebral accelerators are military-grade boosters that significantly increase a new pilot's skill development. This technology is usually available only to naval officers, but CONCORD has authorized the release of a small number to particularly promising freelance capsuleers.<br><br>This booster primes the brain's neural pathways and hippocampus, making it much more receptive to intensive remapping. This allows new capsuleers to more rapidly absorb information of all kinds.<br>\nBonuses: +8 to all attributes",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

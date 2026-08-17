@@ -3,7 +3,7 @@
   "name": "改造的激光步枪",
   "description": "激光步枪，可以用于战场或自卫。",
   "volume": 2.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2.0,
   "capacity": null,
   "mass": 2500.0,
   "category_name": "常用物品",

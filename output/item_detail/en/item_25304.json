@@ -3,7 +3,7 @@
   "name": "Pith Guristas Spa-Card",
   "description": "Keys like this one are expensive ones, manufactured for members of the deadspace Pith Guristas and handed out to those that have \"delivered\".",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

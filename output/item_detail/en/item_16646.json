@@ -3,7 +3,7 @@
   "name": "Mercury",
   "description": "Also known as quicksilver, mercury is a silvery liquid metal whose primary characteristic is the ease with which it forms amalgamatic alloys with other metals. It is therefore extremely useful as a base-block component.",
   "volume": 0.05,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.05,
   "capacity": null,
   "mass": 10826.0,
   "category_name": "Material",

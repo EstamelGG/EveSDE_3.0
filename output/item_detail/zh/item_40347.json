@@ -3,7 +3,7 @@
   "name": "德洛米 I",
   "description": "<b>类型：</b>后勤铁骑舰载机\n\n<b>作用：</b>停滞缠绕\n\n<b>描述：</b>德洛米在战场上进行停滞缠绕支援。\n\n\n\n<b>停滞缠绕光束</b>：扰断目标舰船的驱动系统，使其速度减慢。\n\n<b>微型跃迁推进器</b>：通过牺牲信号半径来大幅度提升速度。装备运转后的冷却时间较长。",
   "volume": 3000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3000.0,
   "capacity": null,
   "mass": 1500.0,
   "category_name": "铁骑舰载机",

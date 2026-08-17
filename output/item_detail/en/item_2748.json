@@ -3,7 +3,7 @@
   "name": "Silo Blueprint",
   "description": "This type of blueprint has been phased out and may no longer be used for industrial activities.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Blueprint",

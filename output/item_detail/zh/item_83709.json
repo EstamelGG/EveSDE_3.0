@@ -3,7 +3,7 @@
   "name": "SKINR工作室补给",
   "description": "宝箱内含序列绑定器及设计元素，可用于打造定制涂装。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

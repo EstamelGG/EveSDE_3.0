@@ -3,7 +3,7 @@
   "name": "引力感应器补偿",
   "description": "提高引力感应器应对ECM攻击能力的技能。每升一级，引力感应器强度提高4%。\n\n引力感应器多见于加达里、古斯塔斯和莫德团舰船。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

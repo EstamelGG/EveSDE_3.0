@@ -3,7 +3,7 @@
   "name": "Biomass",
   "description": "A catch-all term for composite material obtained from living things, biomass has several unique properties that make it ideal for various industrial, commercial, and personal uses. Its most important attribute is that it retains many of its nutrients even after being harvested, transported, and processed.",
   "volume": 0.19,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.19,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

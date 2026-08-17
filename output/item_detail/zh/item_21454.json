@@ -3,7 +3,7 @@
   "name": "巨鸟级零件",
   "description": "这些板条箱里装着巨鸟级巡洋舰的零件。",
   "volume": 30.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 30.0,
   "capacity": null,
   "mass": 128000.0,
   "category_name": "常用物品",

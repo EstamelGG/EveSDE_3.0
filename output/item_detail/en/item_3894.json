@@ -3,7 +3,7 @@
   "name": "Distribution Connections",
   "description": "Understanding of the way trade is conducted at the corporate level.\n\nImproves loyalty point gain by 10% per level when working for agents in the Distribution corporation division.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

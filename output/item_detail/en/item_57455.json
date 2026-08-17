@@ -3,7 +3,7 @@
   "name": "Thermosetting Polymer",
   "description": "Thermosetting polymer is used in many applications as its properties allow it to be used in many shape forms or incorporated with other materials. A large number of reinforced materials use this type of polymer.",
   "volume": 0.2,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.2,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

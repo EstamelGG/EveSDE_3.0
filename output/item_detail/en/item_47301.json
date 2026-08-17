@@ -3,7 +3,7 @@
   "name": "Crimson Helix Firework (Large)",
   "description": "The Blood Raider Covenant's perverse mysticism is replete with symbolism involving blood, flesh and even the intricacies of biological science. The Crimson Helix firework melds sanguine and genetic imagery together in a startling pyrotechnic display.\n\nNote: this firework is designed for use in Standup Large Festival Launchers equipped to Upwell Structures.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

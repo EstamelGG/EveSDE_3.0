@@ -3,7 +3,7 @@
   "name": "几欧石",
   "description": "几欧石以前到处都是，但是在星际工业时期的早期被过量开采，直到人们发现了克洛基石。而且以当今的精炼标准来说，能从几欧石里提取出的超新星诺克石的含量很少，所以它几乎一文不值。",
   "volume": 16.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 16.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

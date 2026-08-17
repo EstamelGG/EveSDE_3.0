@@ -3,7 +3,7 @@
   "name": "Rules of Engagement",
   "description": "Every time someone reads this book it seems to get bigger and bigger.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

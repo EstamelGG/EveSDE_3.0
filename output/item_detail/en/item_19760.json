@@ -3,7 +3,7 @@
   "name": "Frequency Modulation",
   "description": "Advanced understanding of signal waves. 10% bonus to falloff for ECM, Remote Sensor Dampeners, Weapon Disruptors, Remote Tracking Computers, Remote Sensor Boosters and Target Painters per skill level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

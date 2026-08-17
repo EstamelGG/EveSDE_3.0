@@ -3,7 +3,7 @@
   "name": "Prototype Iris Probe Launcher",
   "description": "The Iris system is a prototype launcher designed to work exclusively with the Zephyr exploration platform.\n\nIts tight integration allows it to work effectively with the minimal power and CPU capacity the Zephyr can provide, but the non-standard interfaces needed for this optimization make it entirely unusable on other ship types.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 0.8,
   "mass": 5.0,
   "category_name": "Module",

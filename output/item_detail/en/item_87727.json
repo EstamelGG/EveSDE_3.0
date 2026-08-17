@@ -3,7 +3,7 @@
   "name": "Expired Balneum Volatile Booster",
   "description": "+16% Shield Boost\nBase duration: 3 minutes and 30 seconds.\nThis booster has been manufactured using volatile compounds and will expire on <b>April 3rd, YC127</b>.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Implant",

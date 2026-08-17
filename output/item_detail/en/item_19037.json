@@ -3,7 +3,7 @@
   "name": "Core A-Type Large Armor Repairer",
   "description": "This module uses nano-assemblers to repair damage done to the armor of the ship.",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": null,
   "mass": 500.0,
   "category_name": "Module",

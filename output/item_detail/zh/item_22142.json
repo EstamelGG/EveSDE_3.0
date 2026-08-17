@@ -3,7 +3,7 @@
   "name": "预言病毒",
   "description": "最新的来自盲缪斯的世界末日预言，即插即用。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

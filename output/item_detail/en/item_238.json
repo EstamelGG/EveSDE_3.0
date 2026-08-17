@@ -3,7 +3,7 @@
   "name": "Antimatter Charge L",
   "description": "Consists of two components: a shell of titanium and a core of antimatter atoms suspended in plasma state. Railguns launch the shell directly, while particle blasters pump the plasma into a cyclotron and process the plasma into a bolt that is then fired.\n\n50% reduced optimal range.",
   "volume": 0.025,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.025,
   "capacity": null,
   "mass": 0.1,
   "category_name": "Charge",

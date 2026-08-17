@@ -3,7 +3,7 @@
   "name": "Advanced Drone Avionics",
   "description": "This skill is required for the operation of Electronic Warfare Drones but also gives a bonus to the control range of all drones.\n\n3,000m bonus drone control range per level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

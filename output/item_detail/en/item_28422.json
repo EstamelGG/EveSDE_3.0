@@ -3,7 +3,7 @@
   "name": "Batch Compressed Plagioclase",
   "description": "Plagioclase is not amongst the most valuable ore types around, but it contains a large amount of <a href=showinfo:34>Tritanium</a> and is thus always in constant demand. It also yields some <a href=showinfo:36>Mexallon</a>.\n\n<i>This material was compressed using an older process that compressed batches of raw materials into units using a set input quantity. Newer compression technology uses a more flexible one-to-one unit compression system.</i>",
   "volume": 0.15,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.15,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

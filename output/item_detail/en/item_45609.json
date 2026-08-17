@@ -3,7 +3,7 @@
   "name": "Loki Offensive - Support Processor",
   "description": "After countless failed projects over the years, the dream of linking fleets with sub-Battlecruiser hulls was eventually shelved and relegated to the realm of engineering theory. It remained this way for some time, tempting few starship manufacturers to revisit the challenge, even after the discovery of ancient Sleeper designs and the influx of fullerene-based technology. It was not until the first Strategic Cruiser hulls began appearing in small numbers across the empires that they began to truly appreciate the potential Tech III vessels had for modifications.  \n\nNot long after, the first support processor housing became a reality, capable of mounting command bursts and repair projectors with equal ease. Although what it delivered as a standalone unit was undoubtedly impressive, what would count more in time was the way it served as a catalyst. The unit demonstrated to the wider spacefaring industry that the possibilities for Tech III ships were broader than first imagined, and in doing so, it heralded the beginning of even more radical and innovative designs.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 800000.0,
   "category_name": "Subsystem",

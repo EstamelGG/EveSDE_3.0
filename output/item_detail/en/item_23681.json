@@ -3,7 +3,7 @@
   "name": "Shattered Forgery Tools",
   "description": "Broken and mangled pieces used by forgers to hide illegal goods from the prying eyes of custom officials.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Commodity",

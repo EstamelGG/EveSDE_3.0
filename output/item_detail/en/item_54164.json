@@ -3,7 +3,7 @@
   "name": "Sarpati Reserve Brandy",
   "description": "Sarpati Reserve brandy is legendary among connoisseurs across New Eden. Produced from Salvador Sarpati's personal vineyards in Serpentis Prime and aged for at least ten years, extremely limited volumes are exported out of Fountain each year.\n\nThe delicate crystal bottle is labelled solely with an intricate letter V.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Special Edition Assets",

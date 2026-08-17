@@ -3,7 +3,7 @@
   "name": "Shipboard Compression Technology",
   "description": "This skill enables shipboard operation of ORE's new materials compression technology. Each level unlocks specialized compressor modules for use on subcapital ships equipped with industrial cores.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

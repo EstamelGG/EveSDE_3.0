@@ -3,7 +3,7 @@
   "name": "Cybernetic Subprocessor - Improved",
   "description": "This grafted subprocessor implanted in the frontal lobe grants a bonus to a character's Intelligence.\n\n+5 Bonus to Intelligence",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

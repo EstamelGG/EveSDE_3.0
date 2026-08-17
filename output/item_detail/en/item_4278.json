@@ -3,7 +3,7 @@
   "name": "Mining Foreman Link - Mining Laser Field Enhancement II",
   "description": "Increases the range of the fleet's mining lasers, gas harvesters, ice harvesters and survey scanners.\n\nForeman Links are dedicated mining operation systems designed to assist foremen in coordinating their operations.\n\nWhile only one of these units can normally be operated at any given time, certain advanced units allow the use of multiple systems.\n\nNote: The Fleet bonus only works if you are the assigned fleet booster.",
   "volume": 60.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 60.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

@@ -3,7 +3,7 @@
   "name": "高密度赫佐利姆",
   "description": "YC126年发现的赫佐利姆是一种脆性矿石，稍有不慎就会割伤矿工。这种矿石越是坚硬和锋利，产量就越高。赫佐利姆精炼后可得到大量<a href=showinfo:39>晶状石英核岩</a>，以及少量的<a href=showinfo:34>三钛合金</a>和<a href=showinfo:37>同位聚合体</a>。赫佐利姆矿床通常会分布在零安全区域内的小行星异常空间中。这种矿物被压缩过，比它的原始形态紧密得多。",
   "volume": 0.05,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.05,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

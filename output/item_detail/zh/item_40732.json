@@ -3,7 +3,7 @@
   "name": "重型J5持久型跃迁扰断器",
   "description": "干扰目标舰船的导航计算机从而阻止其进行跃迁。",
   "volume": 100.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 100.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

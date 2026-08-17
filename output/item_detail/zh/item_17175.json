@@ -3,7 +3,7 @@
   "name": "相位倒置接收塔",
   "description": "分析接收到的锁定信号，并发出反相位信号来进行抵消。对付光雷达锁定系统效果显著。",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": 100000000.0,
   "category_name": "母星",

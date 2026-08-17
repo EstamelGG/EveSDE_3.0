@@ -3,7 +3,7 @@
   "name": "Quake XL",
   "description": "A titanium sabot shell that delivers a shattering blow to the target. It is however nearly twice as bulky as standard ammunition.\n\n75% reduced optimal range.\n25% increased tracking speed.\n\nNote: This ammunition can only be used by capital tech level II and faction Artillery Cannons.",
   "volume": 0.125,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.125,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

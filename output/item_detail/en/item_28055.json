@@ -3,7 +3,7 @@
   "name": "Gallente Outpost Office Platform",
   "description": "An intermediate upgrade to Gallente Outpost office facilities. Gives an additional twenty four office slots.",
   "volume": 750000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 750000.0,
   "capacity": 7500000.0,
   "mass": null,
   "category_name": "Celestial",

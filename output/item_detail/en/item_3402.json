@@ -3,7 +3,7 @@
   "name": "Science",
   "description": "Basic understanding of scientific principles. 5% Bonus to blueprint copying speed per level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

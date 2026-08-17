@@ -3,7 +3,7 @@
   "name": "空间航行工程学",
   "description": "理解空间航行工程学及其在高科技开发中应用的技能。这个技能对克隆飞行员没有什么实际作用，熟练掌握也只不过是增加了吹嘘的资本而已。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

@@ -3,7 +3,7 @@
   "name": "Legion Core - Energy Parasitic Complex",
   "description": "During some of the first conflicts with them, Amarr engineers noticed a remarkable feature in Sleeper drone technology: the ability of drones to transfer power between one another without the need for specialized equipment. This technology seemed to be innate to every drone in some capacity, and while the engineers could not reproduce this system in modern space vessels, they were able to adapt the technology into modular Tech III designs. The energy parasitic complex turns the Sleeper tech on its head, changing the energy transfer from a symbiotic function to a vampiric one by providing a boost to energy neutralizer and energy nosferatu equipment.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 1200000.0,
   "category_name": "Subsystem",

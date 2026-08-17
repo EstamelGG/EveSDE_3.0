@@ -3,7 +3,7 @@
   "name": "Amarr Control Tower Medium",
   "description": "The Amarr have always been fond of majestic and intimidating constructions. Their Control Towers do not deviate from that tradition and are truly big and powerful structures, intended more for preservation of territorial interests than commercial benefits.\n\nRacial Bonuses:\n50% bonus to Energy Sentry Optimal Range\n25% bonus to Energy Sentry Damage\n50% bonus to Silo Cargo Capacity",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": 70000.0,
   "mass": 200000000.0,
   "category_name": "Starbase",

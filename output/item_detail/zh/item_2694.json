@@ -3,7 +3,7 @@
   "name": "大箱的小型枪械",
   "description": "用于战争和自卫的个人武器和装备。",
   "volume": 600.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 600.0,
   "capacity": null,
   "mass": 600000.0,
   "category_name": "常用物品",

@@ -3,7 +3,7 @@
   "name": "FON-Wiyrkomi Data Chip",
   "description": "This data chip contains extremely sensitive visual data of a high-ranking Wiyrkomi suit in a compromising position.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

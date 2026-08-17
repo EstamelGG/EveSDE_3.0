@@ -3,7 +3,7 @@
   "name": "有害化学制剂储藏库",
   "description": "这个建筑已由统合部自动关闭，以应用新的替代技术。",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": 20000.0,
   "mass": 100000000.0,
   "category_name": "母星",

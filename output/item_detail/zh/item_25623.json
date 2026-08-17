@@ -3,7 +3,7 @@
   "name": "传导性热塑塑料",
   "description": "用于建造二级科技舰船升级模块。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

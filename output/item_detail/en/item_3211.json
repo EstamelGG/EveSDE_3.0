@@ -3,7 +3,7 @@
   "name": "Inherent Implants 'Lancer' Medium Energy Turret ME-804",
   "description": "An Inherent Implants gunnery hardwiring designed to enhance skill with medium energy turrets.\n\n4% bonus to medium energy turret damage.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

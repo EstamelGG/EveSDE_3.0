@@ -3,7 +3,7 @@
   "name": "Cloned SOE officer",
   "description": "This is the clone of an officer who previously worked for the Sisters of EVE. It has a strange mind-controlling implant inserted.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 80.0,
   "category_name": "Commodity",

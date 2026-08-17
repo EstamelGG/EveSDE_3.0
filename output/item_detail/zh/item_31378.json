@@ -3,7 +3,7 @@
   "name": "中型电容器控制电路 II",
   "description": "这个飞船改装件用于增加舰船电容器的回充速度。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "装备",

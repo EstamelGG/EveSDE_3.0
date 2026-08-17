@@ -3,7 +3,7 @@
   "name": "超大型军团管理培训",
   "description": "军团运作的高级技能。每升一级，军团成员上限提升1000人。 \n\n注意：CEO必须在军团界面上更新自己的军团，此技能才能生效。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

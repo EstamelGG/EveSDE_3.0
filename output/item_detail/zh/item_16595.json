@@ -3,7 +3,7 @@
   "name": "投机技巧",
   "description": "允许远程修改销售和采购订单的技能。每升一级都会增加可修改订单的范围。等级1允许修改在同一恒星系内的订单，等级2扩大到5个跳跃以内的星系，随后每个等级加倍。等级5时可以修改当前星域内任何地方的市场订单。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

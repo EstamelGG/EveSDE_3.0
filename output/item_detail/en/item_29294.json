@@ -3,7 +3,7 @@
   "name": "Smugglers",
   "description": "These shady individuals were caught transporting contraband.",
   "volume": 300.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 300.0,
   "capacity": null,
   "mass": 600.0,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "神经毒化抵抗理论",
   "description": "精通生物反馈技术的技能，能够有效消除使用战斗增效剂而产生的常见副作用。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

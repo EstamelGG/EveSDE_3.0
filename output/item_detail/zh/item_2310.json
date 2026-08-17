@@ -3,7 +3,7 @@
   "name": "稀有气体",
   "description": "这种无色无味、通常不具燃烧性的物质，是已知的七种单原子气体之一，这些气体不会轻易同其他原子结合。它们的这种特性使其被用于多种生产制造程序之中。",
   "volume": 0.005,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.005,
   "capacity": null,
   "mass": null,
   "category_name": "行星资源",

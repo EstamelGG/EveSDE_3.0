@@ -3,7 +3,7 @@
   "name": "Capital Computer System",
   "description": "Onboard electronic interfaces and data banks, required for the operation of capital ships.",
   "volume": 2000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2000.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "Commodity",

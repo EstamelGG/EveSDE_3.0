@@ -3,7 +3,7 @@
   "name": "Eifyr and Co. 'Alchemist' Neurotoxin Recovery NR-1005",
   "description": "A neural Interface upgrade that boost the pilot's skill at handling boosters. \n\n5% less chance of side effects when using boosters.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

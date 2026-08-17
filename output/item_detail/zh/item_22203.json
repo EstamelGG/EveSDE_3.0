@@ -3,7 +3,7 @@
   "name": "天使集团瘾君子铭牌",
   "description": "此铭牌由天使企业联合体的瘾君子携带。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 0.1,
   "category_name": "常用物品",

@@ -3,7 +3,7 @@
   "name": "打捞回收技术",
   "description": "有效打捞舰船残骸的技能。使用打捞设备的必需技能。每升一级，打捞回收几率增加一倍。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

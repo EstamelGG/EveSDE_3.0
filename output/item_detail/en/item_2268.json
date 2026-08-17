@@ -3,7 +3,7 @@
   "name": "Aqueous Liquids",
   "description": "The abundance of water on terrestrial planets is often a misconception: What many refer to offhandedly as \"water\" is often an amalgamation of many liquids, microscopic particles, and saturated compounds combined with water and other liquids. Aqueous liquids represent those liquids from which pure water can be separated easily from waste or hazardous particles, but only using the proper equipment.",
   "volume": 0.005,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.005,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Resources",

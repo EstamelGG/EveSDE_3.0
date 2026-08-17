@@ -3,7 +3,7 @@
   "name": "活性气体",
   "description": "由各种不稳定原子结构组成的活性气体，在爆破，分子重组以及导电等领域中非常有用。储藏和运输大量活性气体的时候应加倍地小心。",
   "volume": 0.005,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.005,
   "capacity": null,
   "mass": null,
   "category_name": "行星资源",

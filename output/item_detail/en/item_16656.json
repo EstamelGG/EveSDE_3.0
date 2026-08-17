@@ -3,7 +3,7 @@
   "name": "Fernite Alloy",
   "description": "An intensely durable and extremely versatile alloy, Fernite, when combined with certain other materials, is a crucial stepping stone in the creation of a whole host of advanced technologies.",
   "volume": 0.2,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.2,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

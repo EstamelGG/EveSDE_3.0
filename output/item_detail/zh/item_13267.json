@@ -3,7 +3,7 @@
   "name": "看门人",
   "description": "看门人负责物业（比如公寓或办公室）的清洁、管理取暖系统并进行一些简单的修理工作。",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": 100.0,
   "category_name": "常用物品",

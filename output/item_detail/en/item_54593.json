@@ -3,7 +3,7 @@
   "name": "Limited Synth Exile Booster Mk II",
   "description": "This booster hardens a pilot's resistance to attacks, letting him withstand their impact to a greater extent. The discomfort of having his armor reduced piecemeal remains unaltered, but the pilot is filled with such a surge of rage that he bullies through it like a living tank.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Implant",

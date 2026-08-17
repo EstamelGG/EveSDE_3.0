@@ -3,7 +3,7 @@
   "name": "Major Threat Detection Array 3",
   "description": "This array detects combat anomalies that contain some of the toughest hostiles in null security space, making it an excellent sovereignty hub upgrade for experienced combat pilots.\nThis variant detects new anomalies faster than the base and upgraded versions.",
   "volume": 60000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 60000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Infrastructure Upgrades",

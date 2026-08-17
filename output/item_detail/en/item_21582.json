@@ -3,7 +3,7 @@
   "name": "Cryptic Augmentation",
   "description": "If you can assimilate these ideas into a Minmatar invention job it could greatly multiply your output runs.<br><br>Probability Multiplier: -40% <br>Max. Run Modifier: +9 <br>Material Efficiency Modifier: -2 <br>Time Efficiency Modifier: +2",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Decryptors",

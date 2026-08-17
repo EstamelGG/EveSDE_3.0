@@ -3,7 +3,7 @@
   "name": "Esoteric Attainment",
   "description": "The decryptor offers invaluable safe-guards to improve the chance of a successful Caldari invention immensely. Use this when you've got to get it right.<br><br>Probability Multiplier: +80% <br>Max. Run Modifier: +4 <br>Material Efficiency Modifier: -1 <br>Time Efficiency Modifier: +4",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Decryptors",

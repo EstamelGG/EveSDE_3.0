@@ -3,7 +3,7 @@
   "name": "光子超材料",
   "description": "光子超材料是一种能够实现精密光学控制的高级合成物，用于盖伦特高级微处理器和电容器单元。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

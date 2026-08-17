@@ -3,7 +3,7 @@
   "name": "Oxides",
   "description": "Technically, any chemical compound that contains at least one oxygen atom is an oxide, though some are far more valuable than others. Once broken down and separated from waste material, many oxides can be applied to various industrial processes.",
   "volume": 0.75,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.75,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

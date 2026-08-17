@@ -3,7 +3,7 @@
   "name": "低级美德—伽玛型",
   "description": "姐妹会科学家对这种神经增效体做了专门修改，以便于他们的精英官员使用。\n\n主要效果：毅力属性值增加2\n\n次要效果：探针扫描强度提高3%\n\n套件效果：所有“美德”植入体次要效果增加2.5%",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

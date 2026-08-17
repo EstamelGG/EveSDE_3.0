@@ -3,7 +3,7 @@
   "name": "气云解压效率",
   "description": "这个技能可以提高将高密度可开采气云转化为可以用于工业生产的产物的效率。每升一级，效率提高1%，损耗减少1%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

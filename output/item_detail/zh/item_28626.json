@@ -3,7 +3,7 @@
   "name": "类基腹断岩",
   "description": "类基腹断岩是已知宇宙中密度最大的矿石，是基腹断岩的近亲，也有大量的莫尔石。这种矿石只有在小行星的核心才能找到，所以需要特殊的深矿开采技术才能获得。",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

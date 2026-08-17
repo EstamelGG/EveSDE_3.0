@@ -3,7 +3,7 @@
   "name": "Fernite Carbide",
   "description": "A revolutionary ceramic carbide compound, much favored by the Matari both for its earthy quality and its extremely wide range of technological uses.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

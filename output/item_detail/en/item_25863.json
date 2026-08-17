@@ -3,7 +3,7 @@
   "name": "Salvaging",
   "description": "Proficiency at salvaging ship wrecks. Required skill for the use of salvager modules. 100% increase in chance of salvage retrieval per additional level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

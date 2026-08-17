@@ -3,7 +3,7 @@
   "name": "Fleet Formations",
   "description": "Fleet support skill allowing commanders to organize and warp fleets in formation. Unlocks additional formation types at each level of training in the following order:\n\nLevel 0: Point Formation (default)\nLevel 1: Sphere Formation\nLevel 2: Plane Formation\nLevel 3: Wall Formation\nLevel 4: Arrow Formation\nLevel 5: Relative Formation",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

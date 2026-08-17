@@ -3,7 +3,7 @@
   "name": "损坏的无人机部件",
   "description": "这些部件应该是从损坏的无人机上收集起来的。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 2.0,
   "category_name": "常用物品",

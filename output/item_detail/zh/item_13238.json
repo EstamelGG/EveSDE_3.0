@@ -3,7 +3,7 @@
   "name": "埃菲尔公司 游侠 燃料节约 FC-803",
   "description": "改善加力燃烧器的能源消耗控制。\n\n\n\n加力燃烧器电容需求减少3%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

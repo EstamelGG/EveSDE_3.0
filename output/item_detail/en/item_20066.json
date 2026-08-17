@@ -3,7 +3,7 @@
   "name": "Minmatar Control Tower Small",
   "description": "The Matari aren't really that high-tech, preferring speed rather than firepower or involved technology. Unfortunately that doesn't apply very well to stationary objects, much to the liking of the Amarr Empire.  \n\nAmarrians call it a scrapheap of epic proportions. But don't underestimate these structures. Minmatar commanders usually have the last laugh when it comes to combat.\n\nRacial Bonuses:\n50% bonus to Projectile Sentry Optimal Range\n50% bonus to Projectile Sentry Fall Off Range\n25% bonus to Projectile Sentry RoF",
   "volume": 2000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2000.0,
   "capacity": 35000.0,
   "mass": 200000000.0,
   "category_name": "Starbase",

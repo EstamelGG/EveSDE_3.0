@@ -3,7 +3,7 @@
   "name": "统合部 狂欢11-11 型",
   "description": "该凭证由统合部小批量设计生产，使用后可以在次日例行维护后获得一些特殊的奖励。\n\n该凭证有效期至2021年1月1日。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

@@ -3,7 +3,7 @@
   "name": "Medium Egress Port Maximizer II",
   "description": "This ship modification is designed to reduce a ship's capacitor need for all energy emission modules.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "Module",

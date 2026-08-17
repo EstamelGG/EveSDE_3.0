@@ -3,7 +3,7 @@
   "name": "舰队压缩支持理论",
   "description": "这项舰队辅助技能可以提高舰队成员使用装配了工业核心的舰船上的舰队压缩服务的范围。每升一级，其他舰队成员使用工业核心舰船上的舰队压缩服务的范围提高10%。这个技能应该由操作工业核心和压缩装备的飞行员来训练。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

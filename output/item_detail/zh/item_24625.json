@@ -3,7 +3,7 @@
   "name": "高级量产技术",
   "description": "操作多个工厂的高级技能。每升一级，可同时多运行一个制造项目。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

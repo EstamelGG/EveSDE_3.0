@@ -3,7 +3,7 @@
   "name": "Inherent Implants 'Highwall' Mining MX-1005",
   "description": "A neural Interface upgrade that boosts the pilot's skill at mining.\n\n5% bonus to mining laser and strip miner yield.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

@@ -3,7 +3,7 @@
   "name": "圣光跃迁核心稳定器 I",
   "description": "该装置在激活后将尽力稳定舰船跃迁核心的波动与紊乱。副作用就是，装配这一装备后，主舰的最大锁定范围、扫描分辨率和无人机带宽都会降低。一艘舰船只能同时装配一个这种装备。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

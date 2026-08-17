@@ -3,7 +3,7 @@
   "name": "心型石",
   "description": "这些宗教工艺品装饰繁复，带有一种古老而难以捉摸的感觉。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

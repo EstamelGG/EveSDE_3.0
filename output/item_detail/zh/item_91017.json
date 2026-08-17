@@ -3,7 +3,7 @@
   "name": "自由合约",
   "description": "提高能够同时接取自由任务数量的技能。随着等级提升，可同时接取的自由任务数量将逐步增加：1级提升至4，2级提升至5，3级提升至7，4级提升至9，5级提升至11。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

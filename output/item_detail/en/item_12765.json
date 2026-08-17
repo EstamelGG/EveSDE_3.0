@@ -3,7 +3,7 @@
   "name": "Tremor L",
   "description": "An advanced long range shell designed for extended bombardment, the Tremor has great range but is nearly useless in close combat.\n\n80% increased optimal range.\n75% reduced tracking.\n\nNote: This ammunition can only be used by large tech level II, faction and officer Artillery Cannons.",
   "volume": 0.025,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.025,
   "capacity": null,
   "mass": 0.01,
   "category_name": "Charge",

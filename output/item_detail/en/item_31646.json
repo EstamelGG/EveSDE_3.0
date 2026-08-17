@@ -3,7 +3,7 @@
   "name": "Medium Warhead Rigor Catalyst I",
   "description": "This ship modification is designed to decrease the signature radius factor for missile explosions at the expense of increased CPU requirements for launchers.\n\nThe drawbacks of fitting this rig may be reduced by training the <a href=showinfo:26260>Launcher Rigging</a> skill.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "Module",

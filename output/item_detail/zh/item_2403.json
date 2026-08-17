@@ -3,7 +3,7 @@
   "name": "高级行星学",
   "description": "掌握行星演化科学的高级理论，能让你更加准确地分析行星资源扫描数据。\n\n\n\n额外加成： 这项技能能够进一步提高行星资源数据的扫描精确程度，使得勘探的精准度变得非常高。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

@@ -3,7 +3,7 @@
   "name": "艾玛国庆日焰火箱",
   "description": "内含一个节日发射器和帝国皇冠焰火",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

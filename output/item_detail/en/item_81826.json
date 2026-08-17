@@ -3,7 +3,7 @@
   "name": "Metenox Moon Drill",
   "description": "The Upwell Consortium, renowned for its successful Athanor and Tatara class refineries, recognized the mounting challenges faced by its customers with moon-mining operations. In response, they unveiled the Metenox moon drill, a hands-off deployable employing traditional surface-grazing techniques. \n \nAlthough these autonomous facilities are less efficient at material extraction than refineries and are more vulnerable to raids due to lighter plating, short reinforcement windows, and also garner high power demands requiring colony reagents, the Consortium insists that their autonomous functionality is a worthy trade-off.\n \nPlease note: The Metenox moon drill must be positioned within 250km of an eligible moon mining site and exclusively in systems rated 0.4 security or lower.",
   "volume": 6000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 6000.0,
   "capacity": null,
   "mass": 3000000000.0,
   "category_name": "Structure",

@@ -3,7 +3,7 @@
   "name": "独立日庆典箱",
   "description": "该箱内含10个伊甸币、缎光级玛塔尔之花（限量版）、金属级黑色铸铁（限量版）、共和国支柱（限量版）、自由玛塔尔背景、节日发射器和一枚自由之焰烟火。",
   "volume": 4.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4.0,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

@@ -3,7 +3,7 @@
   "name": "Daily Alpha Injector",
   "description": "This item can be activated in a station to grant the user 50,000 unallocated skill points. The injector is consumed immediately once activated.\n\nThe injector may only be used by characters in the Alpha Clone State and only one Daily Alpha Injector may be used per day.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Accessories",

@@ -3,7 +3,7 @@
   "name": "xer Qosh’s Modified Expanded Cargohold",
   "description": "Increases cargo hold capacity at the expense of maximum velocity and hull strength.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 50.0,
   "category_name": "Module",

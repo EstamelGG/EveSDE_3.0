@@ -3,7 +3,7 @@
   "name": "尤加石（3级）",
   "description": "阴云<a href=showinfo:82205>尤加石</a>（又称3级尤加石）的矿体中虽然有闪亮的光斑，但却没有稀有形态所具备的风暴属性。精炼后的矿物产量将提高10%。阴云尤加石通常会分布在零安全区域内的小行星异常空间中。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

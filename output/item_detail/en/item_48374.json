@@ -3,7 +3,7 @@
   "name": "Federation Grand Prix Impetus Package",
   "description": "Sponsored by the holo industry giant Impetus, this package has a chance to contain a selection of Gallente Federation Grand Prix commemorative items including fireworks, celebratory nanocoatings and trinkets.",
   "volume": 10000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10000.0,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

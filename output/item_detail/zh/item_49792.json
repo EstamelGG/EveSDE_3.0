@@ -3,7 +3,7 @@
   "name": "霜线 '杂食' 采集能力提升器",
   "description": "这种采集能力提升器由联合矿业霜线部门的工程师研发，可以提高采集矿石和冰矿材料的装备的效率，但效果不如针对某种专门材料的采集能力提升器。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "装备",

@@ -3,7 +3,7 @@
   "name": "绷带集成式分析仪",
   "description": "这个多用途分析仪完美整合了考古和破译系统，即可用于分析远古遗迹，也可以用来破解电子安全系统。\n\n\n\n虽然每项能力都比专业装备要弱，但它的多功能性使得其装配灵活性有所提高。\n\n\n\n注意：由于最近发现的特定昇威递推计算模块的漏洞，这个分析仪也可能用于收集关于昇威建筑增强时间的机密信息。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

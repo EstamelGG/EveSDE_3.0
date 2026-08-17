@@ -3,7 +3,7 @@
   "name": "三神裔加密技术原理",
   "description": "掌握三神裔使用的数据加密算法的技能\n\n\n\n是研发基于三神裔科技的高级舰船的必备技能。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

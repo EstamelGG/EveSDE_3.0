@@ -3,7 +3,7 @@
   "name": "目标锁定训练",
   "description": "同时锁定多个目标的技能。每升一级，增加一个锁定目标，直到飞船最大可锁定的目标数量。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

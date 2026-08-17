@@ -3,7 +3,7 @@
   "name": "帕萨恩炮塔强化思维网络芯片",
   "description": "一款射击技能神经交互强化芯片，可增强炮台的发射速度。\n\n\n\n所有炮台发射速度提高7%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

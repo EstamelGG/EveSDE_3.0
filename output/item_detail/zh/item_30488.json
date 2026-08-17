@@ -3,7 +3,7 @@
   "name": "姐妹会核心扫描探针",
   "description": "这是一个用来扫描空间信号的扫描探针。\n\n\n\n能从<a href=showinfo:17938>核心探针发射器</a>与<a href=showinfo:18639>延伸探针发射器</a>上发射。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "弹药",

@@ -3,7 +3,7 @@
   "name": "Missile Range Disruption Script",
   "description": "This script can be loaded into a guidance disruptor module to increase the module's missile range disruption effects at the expense of its missile precision disruption effects.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

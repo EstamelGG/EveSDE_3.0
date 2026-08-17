@@ -3,7 +3,7 @@
   "name": "Loki Core - Dissolution Sequencer",
   "description": "This subsystem employs a nano-electromechanical dispersion field to strengthen a vessel's sensor systems. Made from a complex system of neurovisual interlays, automated trigger response units, and billions of advanced molecular-level circuits, the subsystem offers improved protection against hostile ECM as well as improved sensor range and target acquisition speed.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 1200000.0,
   "category_name": "Subsystem",

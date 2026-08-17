@@ -3,7 +3,7 @@
   "name": "Zbikoki's Hacker Card",
   "description": "This is a passkey used to enter the off-limit Research Zone room.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

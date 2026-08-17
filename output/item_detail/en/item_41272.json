@@ -3,7 +3,7 @@
   "name": "Nova Javelin XL Torpedo",
   "description": "XL Torpedoes are behemoths designed for maximum firepower against capital ships and installations. They are usable only by capital ships and starbase defense batteries.\nNocxium atoms captured in morphite matrices form this missile's devastating payload. A volley of these is able to completely obliterate most everything that floats in space, be it vehicle or structure.\n\nA modified version of the Nova Torpedo. It can reach higher velocity than the Mjolnir Torpedo at the expense of warhead size.",
   "volume": 0.3,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.3,
   "capacity": null,
   "mass": 1500.0,
   "category_name": "Charge",

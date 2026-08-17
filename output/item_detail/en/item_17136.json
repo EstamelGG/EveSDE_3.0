@@ -3,7 +3,7 @@
   "name": "Ukomi Superconductors",
   "description": "Highly isolated coils with minimal friction, used in high-voltage electrical devices. The Ukomi Superconductors are a new brand developed and manufactured by the Kaalakiota corporation. Today every Caldari station has a stockpile of these highly rated Superconductors, which are in quite high demand in most foreign black markets due to their superior technology.",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

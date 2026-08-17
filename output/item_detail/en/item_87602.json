@@ -3,7 +3,7 @@
   "name": "Recursive Knot",
   "description": "A hyper-complex recursive data loop. \n\nIt is unsolvable, but would prove valuable to the forces occupying Drifter wormholes or their corporations back in New Eden.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 0.1,
   "category_name": "Special Edition Assets",

@@ -3,7 +3,7 @@
   "name": "聚合高密度干焦岩",
   "description": "干焦岩是一种常见矿石，在所有星域中都能找到。它含有一定量的<a href=showinfo:35>类晶体胶矿</a> <a href=showinfo:36>类银超金属</a>。<i>这种材料使用了比较老旧的压缩方式，对原材料进行一次性批量压缩。最新的压缩技术则更为灵活，可以按单位体积进行压缩。</i>",
   "volume": 0.16,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.16,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

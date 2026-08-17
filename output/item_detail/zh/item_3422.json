@@ -3,7 +3,7 @@
   "name": "护盾频散系统",
   "description": "操控护盾传输阵列和其他护盾频散系统的技能。每升一级，护盾频散类装备的电容消耗减少5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

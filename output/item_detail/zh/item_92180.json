@@ -3,7 +3,7 @@
   "name": "联邦防御者服饰箱",
   "description": "包含一件随机精选的“联邦防御者”服饰。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "特别版用品",

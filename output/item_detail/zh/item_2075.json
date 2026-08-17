@@ -3,7 +3,7 @@
   "name": "统一控股集团指挥官准入钥匙",
   "description": "该指挥官钥匙在一个加速轨道附近被发现，其中含有开启该轨道所需要的信息。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": 0.01,
   "category_name": "常用物品",

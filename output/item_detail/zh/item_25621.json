@@ -3,7 +3,7 @@
   "name": "推进器控制台",
   "description": "一种更加先进的通用推进器控制台。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

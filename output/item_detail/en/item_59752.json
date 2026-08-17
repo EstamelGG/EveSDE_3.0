@@ -3,7 +3,7 @@
   "name": "Liberation Games Reward Token",
   "description": "This token can be found within some sites related to the Minmatar Liberation Games event and may be sold in many Minmatar stations for an ISK reward.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

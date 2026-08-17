@@ -3,7 +3,7 @@
   "name": "Zainou 'Deadeye' Guided Missile Precision GP-802",
   "description": "A Zainou missile hardwiring designed to enhance skill with missiles.\n\n2% reduced factor of signature radius for all missile explosions.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

@@ -3,7 +3,7 @@
   "name": "超大型巡航导弹",
   "description": "操作和发射超大型巡航导弹的技能。每升一级，超大型巡航导弹的伤害提高5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

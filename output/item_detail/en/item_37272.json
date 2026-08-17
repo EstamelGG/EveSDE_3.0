@@ -3,7 +3,7 @@
   "name": "Standup XL-Set EW and Emissions Co-ordinator I",
   "description": "The Standup XL-Set Electronic and Capacitor Warfare Co-ordinator I rig provides a means for structure operators to adjust hardware systems involved in electronic warfare and energy neutralizer emissions control to create a co-ordinated system, improving the projection and capacitor economy of both EW and energy neutralizer systems installed in Upwell technology structures.\n\nThis rig decreases capacitor use and increases the optimal range and falloff of Standup Variable Spectrum ECM Jammers, Standup Target Painters, Standup Remote Sensor Dampeners,  Standup Weapon Disruptors and Standup Energy Neutralizers fit to the rigged structure.\n\nStandup is a proprietary system that uses a Structure Autonomous Nanoassembly Device (Upwell) containing integrated template software, a nanoassembler array and sufficient nanomass to enable the construction of a variety of service modules, structure modules and structure rigs when inserted into the appropriate slots on a structure built with Upwell technology.\n\nNote: Only one rig of the same type, counting both tech variations, may be fitted at the same time on a structure.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "Structure Module",

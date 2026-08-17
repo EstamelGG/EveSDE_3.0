@@ -3,7 +3,7 @@
   "name": "Four Freedoms Fireworks Crate",
   "description": "Contains a Festival Launcher module and a set of Four Freedoms fireworks",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

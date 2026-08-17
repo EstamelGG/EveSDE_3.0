@@ -3,7 +3,7 @@
   "name": "逆向工程实验室",
   "description": "这些实验室是用于对古代科技遗物进行逆向工程研究的。在这里可以进行逆向工程项目。",
   "volume": 3000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3000.0,
   "capacity": 25000.0,
   "mass": 100000000.0,
   "category_name": "母星",

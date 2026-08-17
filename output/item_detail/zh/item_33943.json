@@ -3,7 +3,7 @@
   "name": "低级采集—德尔塔型",
   "description": "联合矿业科学家对这种脑控次处理器做了专门修改，以便于他们的精英官员使用。 \n\n主要效果：智力属性值增加2 \n\n次要效果：所有采矿激光器的范围增加4%\n\n套件效果：所有“采集”植入体次要效果增加2.5%",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

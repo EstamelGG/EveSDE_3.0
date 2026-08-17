@@ -3,7 +3,7 @@
   "name": "Raitaru",
   "description": "Named after Tyma Raitaru, who pioneered the development of modern day missile technology, the Raitaru Engineering Complex is a medium-sized structure from the Upwell Consortium and is specialized in manufacturing and research operations.\n\nThe Raitaru is the entry-level Engineering Complex in the Upwell Consortium’s new line of structures, and is able to use Upwell's Standup Service modules, allowing flexibility and customization of its functions. This dedicated industrial structure also provides access to Upwell’s M-Set line of rigs designed to improve productivity and optimization of various aspects of manufacturing and research.\n\nThe Raitaru provides tethering technology and has docking capabilities for subcapital ships and freighters.",
   "volume": 8000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 8000.0,
   "capacity": null,
   "mass": 3000000000.0,
   "category_name": "Structure",

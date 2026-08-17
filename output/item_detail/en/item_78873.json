@@ -3,7 +3,7 @@
   "name": "Federation Counter-Insurgency Reward Crate",
   "description": "This reward crate is issued by the Gallente Federation to capsuleers who turn in intelligence and evidence items to their Counter-Insurgency Outpost in Intaki.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

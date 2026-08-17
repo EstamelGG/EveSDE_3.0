@@ -3,7 +3,7 @@
   "name": "开采先锋网络—采矿激光器力场增强",
   "description": "增加舰队中采矿激光器、气云采集器、冰矿采集器和测量扫描器的范围。\n\n先锋网络是专门为协助工头协调开采活动而设计的采矿操作系统。\n\n通常在同一时间只允许一个此类设备运作，不过某些高级单位允许多系统并行。 \n\n注意：只有当你被指定为舰队加成官时，舰队加成才有效。",
   "volume": 60.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 60.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

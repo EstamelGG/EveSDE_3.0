@@ -3,7 +3,7 @@
   "name": "Microfiber Shielding",
   "description": "Using advanced residual substrate isolation technology, silicon weave is threaded through layers of tough organic fibers. The resulting microfiber shielding is incredibly resilient and retains the microscopic profile required to shield miniaturized electronics.",
   "volume": 0.75,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.75,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

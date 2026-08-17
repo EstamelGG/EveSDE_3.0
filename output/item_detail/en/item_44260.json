@@ -3,7 +3,7 @@
   "name": "Crown Imperial Firework",
   "description": "The Amarr calendar is replete with feast days and many provide an opportunity to let off fireworks and indulge in complicated pyrotechnic displays, often accompanied by massed religious choirs and the sweeping music of symphonies to the glory of Empire. The 'Crown Imperial' firework is a favorite with the crowds and is at its most spectacular when seen in space.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

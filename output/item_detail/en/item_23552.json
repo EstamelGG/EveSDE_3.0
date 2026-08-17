@@ -3,7 +3,7 @@
   "name": "FON Banner",
   "description": "Banner depicting the symbol of the Friends of Nature (FON) organization.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

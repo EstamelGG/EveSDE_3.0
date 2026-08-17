@@ -3,7 +3,7 @@
   "name": "盖伦特情报数据记录器",
   "description": "盖伦特海军情报部门采用的数据记录器。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

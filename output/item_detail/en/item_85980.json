@@ -3,7 +3,7 @@
   "name": "'Seneschal' Mercenary Den",
   "description": "In anticipation of aggression from capsuleers and other hostile agents targeting Mercenary Dens without provocation, The Deathless Circle has released an upgraded variant of the base structure, featuring enhanced shielding, armor, and hull strength.\n\nAdditionally, small Deathless Circle pilot fleets patrol near Seneschals, attacking anyone who initiates aggressive actions against the structure.",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": 3000.0,
   "mass": 10000.0,
   "category_name": "Deployable",

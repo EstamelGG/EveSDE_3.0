@@ -3,7 +3,7 @@
   "name": "VIP Pass",
   "description": "This pass allows entrance for you and your entourage into the exclusive VIP Room.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "Polyaramids",
   "description": "Polyaramid textiles are produced when industrial fibers are harvested from autotrophic life forms and subjected to intense pressure using reactive gas pistons. Able to absorb a startling amount of kinetic energy, sheets of this miraculous material can be form-fitted to just about any structure, protecting it from anything but weapons-grade impact forces.",
   "volume": 0.75,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.75,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

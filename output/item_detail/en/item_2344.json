@@ -3,7 +3,7 @@
   "name": "Condensates",
   "description": "Oxidized coolant is required to produce the temperatures needed to force rare particles to condense out of ordinary matter, which is the most economic way to produce valuable base elements in bulk.",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

@@ -3,7 +3,7 @@
   "name": "旗舰级微型跳跃引擎操作",
   "description": "熟练使用旗舰级微型跳跃引擎。每升一级，需要配合此技能使用的装备的电容消耗降低5%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

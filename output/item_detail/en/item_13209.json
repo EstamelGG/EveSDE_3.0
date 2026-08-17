@@ -3,7 +3,7 @@
   "name": "Armored Command Mindlink",
   "description": "This advanced interface link drastically improves a commander's Armored Command ability by directly linking to the nanites launched by the command burst charge.\n\n+25% bonus to Armored Command Burst effect strength and duration.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

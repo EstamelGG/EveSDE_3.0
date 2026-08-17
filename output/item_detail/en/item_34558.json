@@ -3,7 +3,7 @@
   "name": "Vidette Element",
   "description": "The strange, unreal aspect of this object plays havoc with your mind.\nThe distortion is interfering with signal reception and hindering decryption.\nDespite this, one strong repetitive motif is breaking through the chaos. \nA single repeating concept.\n\nVidette.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "Unusual Icebound Salvage",
   "description": "The flotsam and jetsam of space can sometimes become the nucleus of an ice asteroid, or otherwise become embedded in fragments of interplanetary ice.\n\nWith volatile ice storms sweeping across New Eden the odds of discovering something unusual, and possibly valuable, in fragments of ice are higher than normal.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

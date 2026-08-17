@@ -3,7 +3,7 @@
   "name": "三神裔无畏舰残骸",
   "description": "一艘舰船被摧毁后的残骸。使用适当的设备或许还能够从这些残渣中打捞一些有价值的物品。",
   "volume": 27500.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 27500.0,
   "capacity": 27500.0,
   "mass": 10000.0,
   "category_name": "天体",

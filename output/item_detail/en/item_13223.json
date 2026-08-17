@@ -3,7 +3,7 @@
   "name": "Inherent Implants 'Lancer' Small Energy Turret SE-603",
   "description": "An Inherent Implants gunnery hardwiring designed to enhance skill with small energy turrets.\n\n3% bonus to small energy turret damage.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

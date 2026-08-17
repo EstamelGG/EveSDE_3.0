@@ -3,7 +3,7 @@
   "name": "氧化物",
   "description": "技术上来说，任何含有至少一个氧原子的化合物都是氧化物，其中一些非常地有价值。从废料中分离出来后，很多氧化物便可以应用于各种工业生产之中。",
   "volume": 0.75,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.75,
   "capacity": null,
   "mass": null,
   "category_name": "行星商品",

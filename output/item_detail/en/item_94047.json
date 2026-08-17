@@ -3,7 +3,7 @@
   "name": "Strokar Booster III",
   "description": "It will apply immediately when redeemed. Base Duration 2 Hours.\n\n3% bonus to projectile weapon damage\n3% bonus to shield hitpoint\n3% bonus to turret falloff\n3% bonus to ship max velocity\n3% bonus to warp speed",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Implant",

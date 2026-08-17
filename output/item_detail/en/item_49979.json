@@ -3,7 +3,7 @@
   "name": "Expired 'Absolute' Injection Augmentor",
   "description": "This modified booster removes the diminishing Skill Point returns experienced by veteran Capsuleers when using Skill Injectors of any size. However, the complex cocktail of narcotics and neurotransmitters used to achieve this effect loses potency after just 3 such injections.\n\nRumors that the booster is one of the fruits of the mysterious 'Hyperconsciousness' project attributed to renegade Society of Conscious Thought scientists are surely exaggerated.\n\nUsers will be unable to consume another of these boosters while under the influence of the hangover effects, which may last up to 32 hours after consuming the booster.\n\nThis booster will cease to be consumable after YC121.01.07.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

@@ -3,7 +3,7 @@
   "name": "Ship's Crew",
   "description": "A non-capsuleer member of a ship's crew relegated to manual tasks essential for maintaining the operational status of the ship.",
   "volume": 2.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 2.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Commodity",

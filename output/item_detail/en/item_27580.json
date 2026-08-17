@@ -3,7 +3,7 @@
   "name": "Guristas Spatial Destabilization Battery",
   "description": "Projects random bursts of gravitons that disrupt accurate targeting. As expected this system works best against Gravimetric targeting systems.",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": 100000000.0,
   "category_name": "Starbase",

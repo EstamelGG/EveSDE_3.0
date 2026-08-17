@@ -3,7 +3,7 @@
   "name": "Dynasty Ring",
   "description": "A ring with the emblem of House Arachnan. Only worn by members of the Arachnan family.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

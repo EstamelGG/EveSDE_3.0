@@ -3,7 +3,7 @@
   "name": "Void L",
   "description": "The Void Xenon charge is a high-powered blaster charge that delivers an extremely powerful blast of kinetic energy. However, it has several serious drawbacks, most notably the fact that it requires considerably more capacitor energy than any other blaster charge. It also needs to maintain a clean aim for a slightly longer time than normal.\n\n25% reduced optimal range.\n25% reduced tracking speed.\n50% reduced falloff range.\n\nNote: This ammunition can only be used by large tech level II, faction and officer Blasters.",
   "volume": 0.025,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.025,
   "capacity": null,
   "mass": 0.01,
   "category_name": "Charge",

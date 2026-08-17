@@ -3,7 +3,7 @@
   "name": "限量合成型游离感增效体MKIII",
   "description": "这种增效剂会增强飞行员对攻击的抵御能力，大大增加他忍受炮弹冲击的能力。虽然装甲被击碎的不适感仍然存在，但由于飞行员心中充满狂烈的怒火，他会像一艘肉体坦克一样横冲直撞。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "植入体",

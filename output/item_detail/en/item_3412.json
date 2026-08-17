@@ -3,7 +3,7 @@
   "name": "Astrometrics",
   "description": "Skill at operating long range scanners.\n\n+5% scan strength per level.\n\n-5% max scan deviation per level.\n\n-5% scan probe scan time per level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

@@ -3,7 +3,7 @@
   "name": "Industrial Explosives",
   "description": "The primary difference between military and industrial explosives is that the latter are effective only when used in bulk, and they are never sold or transported with “ready to use” detonators. As such, they must be carefully installed, primed, and triggered from remote locations before their full destructive force can be applied.",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

@@ -3,7 +3,7 @@
   "name": "Mobile Tractor Unit",
   "description": "The mobile tractoring unit takes some of the work out of looting the scorched ruins left by capsuleers, be it pulverized asteroids, wrecked ships, or obliterated inhabitation modules of various kinds. Once it has been deployed and completed its automatic activation process, it will lock on to any containers or wrecks within range, reel them in one by one, and empty their contents into its own cargo bay. All the capsuleer needs to do is keep up the pace of destruction.\n\n125km effective range.\n10 second activation time.\n\nMay not be deployed within 5km of another Mobile Tractor Unit, within 50km of Stargates, Stations or Upwell Structures, or within 40km of a Starbase.\nAutomatically decays if abandoned for two days.",
   "volume": 100.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 100.0,
   "capacity": 27000.0,
   "mass": 10000.0,
   "category_name": "Deployable",

@@ -3,7 +3,7 @@
   "name": "Arch Angel EMP XL",
   "description": "Extra Large Projectile Ammo. Can be used only by starbase defense batteries and capital ships like dreadnoughts. A new technology, this highly advanced ammunition emits a focused EM pulse. Very potent against shields.\n\n50% reduced optimal range.",
   "volume": 0.125,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.125,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

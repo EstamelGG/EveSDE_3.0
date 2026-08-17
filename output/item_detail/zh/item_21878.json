@@ -3,7 +3,7 @@
   "name": "破损的钥匙卡片",
   "description": "这是一张古老的钥匙卡片，用来进入该复合体内的古老内凡达基地。它必须经过修理才可以使用。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

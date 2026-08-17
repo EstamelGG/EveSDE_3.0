@@ -3,7 +3,7 @@
   "name": "SCARAB Breacher Pod M",
   "description": "SCARAB Breacher Pods are filled with Shriker clones designed to board and wreak havoc in the vulnerable interiors of target ships — bypassing traditional damage resistances.",
   "volume": 0.5,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.5,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Charge",

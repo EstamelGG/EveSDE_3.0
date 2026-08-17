@@ -3,7 +3,7 @@
   "name": "介子空间共振",
   "description": "一座信标，包含了大气介子形成的空间辐射阈值所对应的虫洞共振频率。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 0.1,
   "category_name": "特别版用品",

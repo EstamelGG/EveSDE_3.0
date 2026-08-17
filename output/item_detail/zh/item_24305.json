@@ -3,7 +3,7 @@
   "name": "调制型深层地核露天采矿器 II",
   "description": "调制型深层地核采矿器是一项科技奇迹，集普通的采矿器II与深层地核采矿激光器的功能于一体。它使用模块化的采矿晶体系统，因此可以在出航时更换晶体以获得最佳采矿效率。只能装配在采矿驳船和采掘者舰船上。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 10.0,
   "mass": null,
   "category_name": "装备",

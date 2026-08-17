@@ -3,7 +3,7 @@
   "name": "Capital Powergrid Subroutine Maximizer I",
   "description": "This ship modification is designed to reduce a ship's CPU need for all power upgrade modules.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "Module",

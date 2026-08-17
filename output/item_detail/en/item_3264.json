@@ -3,7 +3,7 @@
   "name": "Zainou 'Gypsy' Electronics Upgrades EU-606",
   "description": "A neural interface upgrade that boosts the pilot's skill with electronics upgrades.\n\n6% reduction in CPU need of modules requiring the Electronics Upgrade skill.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

@@ -3,7 +3,7 @@
   "name": "多恩·瑞克的头颅",
   "description": "这是多恩·瑞克的头颅，他生前是天蛇集团的毒枭，过度沉溺于自己的毒品。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

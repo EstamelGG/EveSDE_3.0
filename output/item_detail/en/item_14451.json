@@ -3,7 +3,7 @@
   "name": "Chelm's Modified Tachyon Beam Laser",
   "description": "An ultra-heavy beam laser designed for medium to long range engagements. \n\nRequires frequency crystal ammo types: Gamma, Infrared, Microwave, Multifrequency, Radio, Standard, Ultraviolet, Xray.",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": 1.0,
   "mass": 2000.0,
   "category_name": "Module",

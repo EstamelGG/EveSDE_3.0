@@ -3,7 +3,7 @@
   "name": "Astrahus",
   "description": "As the entry-level product in the Upwell Consortium's Citadel range of space stations, the Astrahus has been designed as an economical option for medium-scale operations in space, such as serving as a base of operations for a small- to medium-sized corporation, or as an outpost for larger corporations or even small alliances.\n\nThe Astrahus has been built with new spaceship tethering technology as standard, and will happily accommodate ships under capital size, and even freighter-class hulls, in its internal docking bays. The Astrahus can be configured using Upwell's Standup brand service and structure modules so as to serve the specific needs of the structure operator. Further adjustment of the hardware of the Astrahus can be achieved by installed Standup M-Set rigs to optimize the specific role of the citadel.",
   "volume": 8000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 8000.0,
   "capacity": null,
   "mass": 3000000000.0,
   "category_name": "Structure",

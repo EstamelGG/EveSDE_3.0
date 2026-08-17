@@ -3,7 +3,7 @@
   "name": "隐形理论",
   "description": "使用隐形装置的技能。每升一级，隐形解除后的目标锁定延迟减少10%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

@@ -3,7 +3,7 @@
   "name": "布瑞恩氏改良大型等离子立体炸弹",
   "description": "从舰船上发射一个全向脉冲，对周围船只造成热能伤害。",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": null,
   "mass": 100.0,
   "category_name": "装备",

@@ -3,7 +3,7 @@
   "name": "Large Special Delivery",
   "description": "This box may contain personal items or commodities intended only for the delivery's recipient.  This container is rather large and cumbersome.",
   "volume": 1000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1000.0,
   "capacity": null,
   "mass": 800.0,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "Arch Angel EMP L",
   "description": "A new technology, this highly advanced ammunition emits a focused EM pulse. Very potent against shields.\n\n50% reduced optimal range.",
   "volume": 0.025,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.025,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Charge",

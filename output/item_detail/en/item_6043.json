@@ -3,7 +3,7 @@
   "name": "'Recusant' Hostile Targeting Array I",
   "description": "Targets any hostile ship within range on activation. Grants a +2 bonus to max targets when online.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 30.0,
   "category_name": "Module",

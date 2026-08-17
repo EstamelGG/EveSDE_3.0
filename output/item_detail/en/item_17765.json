@@ -3,7 +3,7 @@
   "name": "Exotic Dancers, Female",
   "description": "Exotic dancing is considered an art form, even though not everyone might agree. Exposing the flesh in public places may be perfectly acceptable within the Federation, but in the Amarr Empire it's considered a grave sin and a sign of serious deviancy.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 50.0,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "拦截泡发射器 I",
   "description": "这种发射器专为拦截舰级飞船设计，可以生成一种球状跃迁扰断场，能迫使通行船只脱离跃迁状态。\n\n每艘船只能装配一个。",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": 15.0,
   "mass": null,
   "category_name": "装备",

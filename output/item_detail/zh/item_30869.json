@@ -3,7 +3,7 @@
   "name": "六类脉冲星效果光束",
   "description": "本地空间现象可能会对你的舰船系统造成影响。",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "天体",

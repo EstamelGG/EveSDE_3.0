@@ -3,7 +3,7 @@
   "name": "Abyssal Vorton Tuning System",
   "description": null,
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Module",

@@ -3,7 +3,7 @@
   "name": "盖伦特高级空间站办公室平台",
   "description": "针对盖伦特哨站办公设施的高级升级方案。增加三十六个可用办公室。",
   "volume": 750000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 750000.0,
   "capacity": 7500000.0,
   "mass": null,
   "category_name": "天体",

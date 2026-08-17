@@ -3,7 +3,7 @@
   "name": "425mm Medium Prototype Automatic Cannon",
   "description": "The 425mm is a behemoth that will inflict severe damage on most cruisers and frigates in short-range battles. \n\nMust be loaded with any of the following projectile ammo types: Carbonized Lead, Depleted Uranium, EMP, Fusion, Nuclear, Phased Plasma, Proton, or Titanium Sabot.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": 1.5,
   "mass": 1000.0,
   "category_name": "Module",

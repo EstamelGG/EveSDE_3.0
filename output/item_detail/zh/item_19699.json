@@ -3,7 +3,7 @@
   "name": "载诺 狙击手 中型混合炮台 MH-805",
   "description": "载诺集团生产的射击技能神经交互强化芯片，可增强中型混合炮台操纵技能。\n\n\n\n中型混合炮台伤害增加5%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

@@ -3,7 +3,7 @@
   "name": "Medium Faction Ammunition Crate",
   "description": "This crate from the black market in military supplies contains a quantity of ammunition rated for medium weapons.",
   "volume": 4.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4.0,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

@@ -3,7 +3,7 @@
   "name": "投机技巧技能速成许可证",
   "description": "速成许可证是一种军用级别的植入体，通过装填脑组织和脑神经来增加知识传输过程中的数据带宽，能在一定时间内极大地增强飞行员的技能增长。\n\n角色首次使用此许可证，并在次日例行维护时拥有以下技能的飞行员：\n\n投机技巧IV级\n\n\n例行维护后将获得：\n\n投机技巧V级",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

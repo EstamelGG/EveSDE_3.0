@@ -3,7 +3,7 @@
   "name": "手性结构",
   "description": "手性结构是一种不对称的水晶，使其在一些环境下变得不稳定但却是理想的导体。在电子产品中使用稀有的手性结构使电器微型化得到了长足的发展。",
   "volume": 0.19,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.19,
   "capacity": null,
   "mass": null,
   "category_name": "行星商品",

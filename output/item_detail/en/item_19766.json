@@ -3,7 +3,7 @@
   "name": "Signal Suppression",
   "description": "Skill at the operation of Remote Sensor Dampeners. 5% bonus to Remote Sensor Dampeners' scan resolution and targeting range suppression per skill level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

@@ -3,7 +3,7 @@
   "name": "Flames of the Rebellion Firework",
   "description": "A stunning celebration of the Great Rebellion, the explosive 'Flames of Rebellion' firework symbolizes the great breakout of the rebellion followed by the joining in one circle of the tribes of Minmatar. This firework is extremely popular with Minmatar of all ages. The Amarr Empire forbids its subjects from even owning this pyrotechnic, let alone permitting them to set it off. Capsuleers are less daunted by such proscriptions and Minmatar pilots delight in displaying it in Amarr territory.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

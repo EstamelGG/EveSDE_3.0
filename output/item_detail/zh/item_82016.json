@@ -3,7 +3,7 @@
   "name": "诺克希特",
   "description": "YC126年，人们使用全新的天文地质勘探技术发现了诺克希特，其主要成分为<a href=showinfo:38>超新星诺克石</a>，并伴有微量的<a href=showinfo:34>三钛合金</a>和<a href=showinfo:35>类晶体胶矿</a>。在大气压下，即使是微量的诺克希特也会产生迷醉烟雾，所以在行星上处理这种矿石时需要特别小心。此前因气体排放不当，导致出现多起工作场所事故和人员死亡事件。诺克希特通常会分布在零安全区域内的小行星异常空间中。",
   "volume": 4.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

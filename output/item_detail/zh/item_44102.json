@@ -3,7 +3,7 @@
   "name": "反弹道导弹发射器 I",
   "description": "卡拉吉塔设计的一种发射器和感应器整合平台。能够侦测到威胁来临，并发射一种防御性弹药来对其进行拦截。\n\n\n\n注：只能装配在驱逐舰级别的舰船上。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": 0.15,
   "mass": null,
   "category_name": "装备",

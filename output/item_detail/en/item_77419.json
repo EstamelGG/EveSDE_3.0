@@ -3,7 +3,7 @@
   "name": "Conflagrati Mutanite",
   "description": "An unstable form of ore, mutanite is rendered useless by any attempt to refine it with the technologies currently available in New Eden. Despite this, it is highly prized by the cluster's major factions as its unique and evershifting molecular structures hold the promise of new insights into the Abyssal environments inside which they formed.\n\nThe Conflagrati variant of mutanite forms in a Firestorm abyssal environment and is always 0.97 degrees kelvin warmer than the environment in which it is stored, but its thermal conductivity is reduced the hotter it becomes.",
   "volume": 4.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4.0,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "Asteroid",

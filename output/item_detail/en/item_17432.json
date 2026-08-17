@@ -3,7 +3,7 @@
   "name": "Crokite II-Grade",
   "description": "In certain belts, environmental conditions will carve sharp, jagged edges into crokite rocks, resulting in the formation of sharp crokite. The increased density of these formations leads to a 5% greater mineral yield than standard crokite.\n\nCrokite is a very heavy ore that is always in high demand because it has the largest ratio of <a href=showinfo:38>Nocxium</a> and <a href=showinfo:36>Mexallon</a> for any ore in the known universe. Valuable deposits of <a href=showinfo:35>Pyerite</a> can also be found within this rare ore.\n\nAvailable primarily in low security status star systems.",
   "volume": 16.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 16.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

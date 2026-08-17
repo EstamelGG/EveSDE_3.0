@@ -3,7 +3,7 @@
   "name": "Rapid Deployment Charge",
   "description": "This compact bundle of active nanites can be loaded into a <a href=showinfo:42530>Skirmish Command Burst</a> module and dispersed across allied ships to enhance the thrust potential of their afterburner and microwarpdrive modules.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": 0.01,
   "category_name": "Charge",

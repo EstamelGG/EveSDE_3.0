@@ -3,7 +3,7 @@
   "name": "Eifyr and Co. 'Rogue' Evasive Maneuvering EM-702",
   "description": "A neural interface upgrade designed to enhance pilot Maneuvering skill.\n\n2% bonus to ship agility.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

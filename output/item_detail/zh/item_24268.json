@@ -3,7 +3,7 @@
   "name": "供给链管理",
   "description": "精通远程配置生产项目的技能。如果没有学会这个技能，你只能配置本星系内的项目。这个技能可以提升你配置生产项目的距离，等级1允许的配置范围是5跳，每升一级再增加5跳，满级共25跳。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

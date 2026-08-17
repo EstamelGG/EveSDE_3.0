@@ -3,7 +3,7 @@
   "name": "粗糙的超新星诺克石",
   "description": "矿物<a href=showinfo:38>超新星诺克石</a>的粗糙形态。它可以重新加工成一定数量的该矿物的基本形态，然后可用于各种工业用途。",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

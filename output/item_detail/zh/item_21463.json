@@ -3,7 +3,7 @@
   "name": "挖掘设备",
   "description": "发掘设备。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 2000.0,
   "category_name": "常用物品",

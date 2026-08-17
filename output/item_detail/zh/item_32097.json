@@ -3,7 +3,7 @@
   "name": "睿萨，萨沙指挥官",
   "description": "经历了数次逃脱之后，睿萨的运气终于耗尽。尽管自己处境危险，但他还是想要和你做一笔交易。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 80.0,
   "category_name": "常用物品",

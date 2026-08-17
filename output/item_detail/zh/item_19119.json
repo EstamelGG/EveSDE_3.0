@@ -3,7 +3,7 @@
   "name": "科波斯重型掠能器 X型",
   "description": "吸取对方舰船的能量为自己所用。这种大型装置是为战列舰级舰船设计的。\n\n\n\n注意：所有能量吸噬装备都不会将目标的电容器电量值抽取到比你自己的当前电量值更低的水平。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "装备",

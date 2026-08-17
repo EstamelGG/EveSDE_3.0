@@ -3,7 +3,7 @@
   "name": "Numon Family Heirloom",
   "description": "A neural Interface upgrade that boosts the pilot's skill in a specific area. This implant is an old heirloom of the Numon family, which has sole manufacturing rights of this implant.  \n\n7% reduction in repair systems duration.\n\nNote: Has no effect on remote armor repair modules or capital sized modules.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

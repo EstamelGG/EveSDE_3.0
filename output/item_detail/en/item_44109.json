@@ -3,7 +3,7 @@
   "name": "Display Launcher",
   "description": "An otherworldly glow emanates from this strange and outlandish-looking device. Its missile tubes look suspiciously capable of fitting a huge snowball, fireworks, and other festive ammunition.",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": 5.0,
   "mass": null,
   "category_name": "Module",

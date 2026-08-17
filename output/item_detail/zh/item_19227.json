@@ -3,7 +3,7 @@
   "name": "皮特姆热能护盾增效器 A型",
   "description": "增强护盾的热能抗性。<br><br>惩罚：在一艘舰船上使用多个这类装备或多个与该装备作用一致的类似装备将削弱实际使用效果。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

@@ -3,7 +3,7 @@
   "name": "铥铪合金",
   "description": "铥铪合金的外表灰暗不起眼，但它对防护电磁射线和中子有着极佳的效果。它是微处理器和电容器生产技术中的重要组成部分，对盖伦特联邦来讲尤为如此。",
   "volume": 0.2,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.2,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

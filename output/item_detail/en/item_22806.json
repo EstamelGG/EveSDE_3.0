@@ -3,7 +3,7 @@
   "name": "EM Armor Compensation",
   "description": "5% bonus to EM resistance per level for Armor Coatings and Energized Membranes.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

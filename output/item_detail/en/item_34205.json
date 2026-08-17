@@ -3,7 +3,7 @@
   "name": "Process Decryptor",
   "description": "Optimizes invention procedures, increasing time efficiency with a slight boost to material efficiency and success chance.<br><br>Probability Multiplier: +10% <br>Max. Run Modifier: N/A <br>Material Efficiency Modifier: +3 <br>Time Efficiency Modifier: +6",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Decryptors",

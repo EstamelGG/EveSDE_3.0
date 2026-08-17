@@ -3,7 +3,7 @@
   "name": "绿色阿里斯特石",
   "description": "绿色阿里斯特石是片麻岩的近亲，但它在已知宇宙中比后者罕见得多。这种岩石对于采矿者或提炼者来说根本没有价值，因为它的副产品容易损坏提炼设备，需要很高的维护费用。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

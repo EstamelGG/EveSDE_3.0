@@ -3,7 +3,7 @@
   "name": "中型指挥处理器 I",
   "description": "这个飞船改装件增加装配至一艘舰船上的指挥脉冲波装备的数量。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 200.0,
   "category_name": "装备",

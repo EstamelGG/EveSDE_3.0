@@ -3,7 +3,7 @@
   "name": "Coalesced Element",
   "description": "An amalgamation of various shimmering elements. Its power unyielding, unwavering and ultimately demanding.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

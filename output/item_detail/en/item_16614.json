@@ -3,7 +3,7 @@
   "name": "Message from the Governor",
   "description": "This message is sealed with the personal emblem of the Governor himself.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

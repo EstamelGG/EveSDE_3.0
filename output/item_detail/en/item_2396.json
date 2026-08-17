@@ -3,7 +3,7 @@
   "name": "Biofuels",
   "description": "The most widely used, renewable solid fuel in the cluster, biofuel production is present in some fashion on almost every inhabited world. A steady fuel source can be maintained in a planetary economy by converting living material directly into energy instead of relying on fossil fuels.",
   "volume": 0.19,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.19,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

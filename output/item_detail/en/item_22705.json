@@ -3,7 +3,7 @@
   "name": "Minas's Voucher",
   "description": "This voucher was given to all recruitment officers by General Minas Iksan. Any mercenary with one of these vouchers who is well regarded by the Amarr Empire should speak with Minas Iksan for possible employment.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

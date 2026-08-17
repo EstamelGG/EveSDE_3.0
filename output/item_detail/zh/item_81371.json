@@ -3,7 +3,7 @@
   "name": "高级工作室管理",
   "description": "高级技能，可将其他设计保存到SKINR工作室中。随着等级提升，已保存设计的数量上限将逐步增加：1级+10，2级+10,，3级+20，4级+25，5级+30。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

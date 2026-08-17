@@ -3,7 +3,7 @@
   "name": "控制面板",
   "description": "作为空间舰船导航和战术界面最重要的部件，控制面板尽管体积不大却是星际间经济发展的重要基石。",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": null,
   "category_name": "行星商品",

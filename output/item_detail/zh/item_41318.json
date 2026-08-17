@@ -3,7 +3,7 @@
   "name": "战栗 XL",
   "description": "“战栗”型是一种先进的专为长距离轰炸而设计的远程炮弹，结构异常紧密，射程很远，几乎无法用于近战。\n\n\n\n最佳射程提升80%。\n\n跟踪速度降低75%。\n\n\n\n注：只能用于旗舰级二级科技或势力火炮。",
   "volume": 0.125,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.125,
   "capacity": null,
   "mass": 1.0,
   "category_name": "弹药",

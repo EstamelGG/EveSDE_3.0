@@ -3,7 +3,7 @@
   "name": "初级神经增效体",
   "description": "植入在大脑顶叶的数据处理单元。增加人物的毅力属性值。毅力+1",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

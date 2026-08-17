@@ -3,7 +3,7 @@
   "name": "Recursive Computing Module",
   "description": "Not all automated functions are delicate or complicated enough to warrant advanced computer hardware; relatively mundane tasks are best when assigned to an RCM bank. These sturdy, reliable processing units are able to effectively handle most of the day-to-day operations of stations, starships, and stargates.",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

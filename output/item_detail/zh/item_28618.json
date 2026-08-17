@@ -3,7 +3,7 @@
   "name": "奥古米内石",
   "description": "奥古米内石和一般的干焦岩看上去很相似，但天然奥古米内石很稀少，而且对人有剧毒。因此，虽然这种矿石含有许多干焦岩中的矿物，但由于处理具有危险性，人们一般把它视为无价值矿石。",
   "volume": 0.3,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.3,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

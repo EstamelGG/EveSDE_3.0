@@ -3,7 +3,7 @@
   "name": "Weapon Upgrades",
   "description": "Knowledge of gunnery computer systems, including the use of weapon upgrade modules. 5% reduction per skill level in the CPU needs of weapon turrets, launchers and smartbombs.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

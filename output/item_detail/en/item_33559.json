@@ -3,7 +3,7 @@
   "name": "Mid-grade Ascendancy Delta",
   "description": "This cybernetic subprocessor has been modified by Sisters of EVE scientists for use by their elite officers.\n\nPrimary Effect: +3 bonus to Intelligence\n\nSecondary Effect: 4% bonus to warp speed\n\nSet Effect: 10% bonus to the strength of all Ascendancy implant secondary effects",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

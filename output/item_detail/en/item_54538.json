@@ -3,7 +3,7 @@
   "name": "Black Market 'Valdimar' Drone Sharpshooting DS-803",
   "description": "Named after an aquatic demon worm from ancient Minmatar mythology, this neural interface upgrade boosts the optimal range of drones and fighters controlled by the pilot.\n\n3% increase in drone and fighter optimal range.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

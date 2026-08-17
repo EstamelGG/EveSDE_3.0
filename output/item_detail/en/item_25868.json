@@ -3,7 +3,7 @@
   "name": "Pashan's Turret Customization Mindlink",
   "description": "A gunnery hardwiring implant designed to enhance turret rate of fire.\n\n7% bonus to all turret rate of fire.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

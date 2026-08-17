@@ -3,7 +3,7 @@
   "name": "Amarr Fighter Specialization",
   "description": "Specialization in the operation of advanced Amarr fighters. 2% bonus per skill level to the damage of fighters requiring Amarr Fighter Specialization.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

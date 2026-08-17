@@ -3,7 +3,7 @@
   "name": "Limited Synth Mindflood Booster Mk V",
   "description": "This booster relaxant allows the pilot to control his ship more instinctively and expend less energy in doing so. This in turn lets the ship utilize more of its resources for mechanical functions, most notably its capacitor, rather than constantly having to compensate for the usual exaggerated motions of a stressed pilot.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Implant",

@@ -3,7 +3,7 @@
   "name": "一大块碳",
   "description": "在年末的节日里淘气的孩子往往只能得到一大块碳而不是礼物。你是不是一个淘气的克隆飞行员？",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": 10.0,
   "category_name": "特别版用品",

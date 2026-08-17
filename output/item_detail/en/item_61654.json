@@ -3,7 +3,7 @@
   "name": "Expired Precarious Warp Matrix Filament",
   "description": null,
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "中型机动跃迁扰断器 I",
   "description": "一种自我供能的可部署中型设备，可在其部署位置周围形成扰断力场。在其效果范围内的舰船不能启动跃迁引擎，任何靠近其500km之内的舰船理论上可以穿越其力场，但会不由自主地被拉向其效果范围。\n\n\n\n这种扰断器可以在太空中连续运行2天，之后便会自动销毁。",
   "volume": 195.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 195.0,
   "capacity": null,
   "mass": null,
   "category_name": "可部署物品",

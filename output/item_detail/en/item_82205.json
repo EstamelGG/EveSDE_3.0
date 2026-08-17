@@ -3,7 +3,7 @@
   "name": "Ueganite",
   "description": "Ueganite is an ore discovered in YC126 due to improvements in astrogeological surveying technology. It is primarily composed of <a href=showinfo:40>megacyte</a>, with trace amounts of <a href=showinfo:34>tritanium</a>. Some miners have posited that ueganite forms when multiple metaliminal storms occur in a single system for an extended period of time, but astrogeologists have dismissed the hypothesis as mere conjecture and superstition based on valuable ueganite having diverse properties reminiscent of these storms.\n \nUeganite may be found in asteroid anomalies within null security space.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

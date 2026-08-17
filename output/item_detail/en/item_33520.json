@@ -3,7 +3,7 @@
   "name": "'Wetu' Mobile Depot",
   "description": "The mobile depot provides capsuleers with their very own base in space. It won't offer protection, but once deployed and activated it can allow the capsuleer to store their most valuable belongings and to refit their ship while exploring far and wide across New Eden.\n\nOnce launched into space a mobile depot takes one minute to activate, during which time it is extremely vulnerable to attack. If a fully activated mobile depot with high shields comes under attack, it will enter a 48 hour reinforcement period once damaged below 25% shield hitpoints. During this reinforcement period the depot does not provide refitting services and cannot receive new cargo, however existing cargo can be removed and the depot can still be scooped into a ship by its owner.\n\nMay not be deployed within 6km of another Mobile Depot, 50km of Stargates, Stations or Upwell Structures, 40km of a Starbase, or within 75km of a Moon Mining Beacon.\n\nAutomatically decays if abandoned for thirty days.",
   "volume": 100.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 100.0,
   "capacity": 4000.0,
   "mass": 10000.0,
   "category_name": "Deployable",

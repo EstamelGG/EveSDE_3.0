@@ -3,7 +3,7 @@
   "name": "X-Large Abyssal Shield Booster",
   "description": "Expends energy to provide a quick boost in shield strength.",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Module",

@@ -3,7 +3,7 @@
   "name": "高密度多榍石",
   "description": "如果卫星开采出的矿石的产出高于榍石的平均密度，则称为多榍石，提炼出的有用矿物会多出大概15%。\n\n\n\n榍石是卫星中开采出的一种普通矿石，用处很大，能够产出丰富的<a href=showinfo:16638>钛</a>，可作为许多高级矿物的重要元素。\n\n\n\n这种矿物被压缩过，比它的原始形态紧密得多。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "小行星",

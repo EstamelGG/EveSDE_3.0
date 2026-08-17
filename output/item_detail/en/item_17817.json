@@ -3,7 +3,7 @@
   "name": "Genom Tara's Insignia",
   "description": "Identification tags such as these may prove valuable if handed to the proper organization.  \n\nGenom Tara is a legendary Ammatar commander who bears deep hatred of the Minmatar Republic.  He is most notable for refusing to obey direct orders from the Ammatar government to withdraw from his position in the Minmatar - Ammatar border.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 0.1,
   "category_name": "Commodity",

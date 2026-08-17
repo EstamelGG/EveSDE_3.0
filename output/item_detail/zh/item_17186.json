@@ -3,7 +3,7 @@
   "name": "热消散阵列",
   "description": "增强控制塔护盾对热能伤害的抗性。在一座控制塔上使用超过一个此阵列或其他影响同种抗性的类似建筑将削弱实际使用效果。",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": 100000000.0,
   "category_name": "母星",

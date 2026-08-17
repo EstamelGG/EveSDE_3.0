@@ -3,7 +3,7 @@
   "name": "Triglavian Dreadnought Wreck",
   "description": "The remains of a destroyed ship. Perhaps with the proper equipment something of value could be salvaged from it.",
   "volume": 27500.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 27500.0,
   "capacity": 27500.0,
   "mass": 10000.0,
   "category_name": "Celestial",

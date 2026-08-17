@@ -3,7 +3,7 @@
   "name": "极光 L",
   "description": "天主凝聚会的大型集束激光晶体以标准型射频晶体的一种升级版本为基础制造。射程和伤害大幅提升，但跟踪性能差，冷却时间较长。这种高级晶体中所用到的结晶结构会在使用的过程中降解，最终会导致晶体碎裂。\n\n\n\n最佳射程提升80%。\n\n跟踪速度降低75%。\n\n\n\n注：只能用于二级科技、势力和官员大型集束激光器。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "弹药",

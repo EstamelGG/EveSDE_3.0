@@ -3,7 +3,7 @@
   "name": "加速装置解码器",
   "description": "一些普通内容，传授对象为那些提高发明项目生产效率的新手研究员。<br><br>机率调节值：+20%<br> 最大流程调节值：+1<br>材料效率调节值：+2<br>时间效率调节值：+10",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "解码器",

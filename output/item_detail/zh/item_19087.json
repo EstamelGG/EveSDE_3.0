@@ -3,7 +3,7 @@
   "name": "森塔姆中型远程电容传输装置 A型",
   "description": "将电容能量转移到另一艘舰船上。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "装备",

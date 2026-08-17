@@ -3,7 +3,7 @@
   "name": "Wiyrkomi Jacket Crate",
   "description": "Contains stylish Wiyrkomi Crew Jackets for both men and women to show your support for the Wiyrkomi megacorp and celebrate Caldari Union Day.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Special Edition Assets",

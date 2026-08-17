@@ -3,7 +3,7 @@
   "name": "死亡空间矿石处理技术",
   "description": "提炼死亡空间矿石的专业技能。可以大大提高技能熟练者使用提炼设备时的效率。每升一级，下列死亡空间矿石的提炼产出提高2%：艾克诺岩、双多特石、灰岩、埃菲尔合金、杜厦合金、赫佐利姆、尤加石",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

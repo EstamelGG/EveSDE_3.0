@@ -3,7 +3,7 @@
   "name": "Plagioclase II-Grade",
   "description": "II-Grade or azure plagioclase is an uncommon variant of plagioclase that enjoys a 5% improved mineral yield. It was made infamous in the melancholic song prose Miner Blues by the Gallentean folk singer Jaroud Dertier three decades ago.\n\nPlagioclase is not amongst the most valuable ore types around, but it contains a large amount of <a href=showinfo:34>Tritanium</a> and is thus always in constant demand. It also yields some <a href=showinfo:36>Mexallon</a>.\n\nAvailable primarily in high security status star systems.",
   "volume": 0.35,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.35,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

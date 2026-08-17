@@ -3,7 +3,7 @@
   "name": "Loki Defensive - Adaptive Defense Node",
   "description": "After years of experience working with recovered Sleeper and Talocan technology from Anoikis, Sebiestor engineers have achieved a new breakthrough long though impossible: they have successfully developed fullerene nanomachines capable of repairing either shield and armor equally effectively. These tiny nanobots can actively switch between shield and armor repair on the fly allowing the Loki to achieve incredible repair systems without refitting facilities.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": 300.0,
   "mass": 1400000.0,
   "category_name": "Subsystem",

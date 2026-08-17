@@ -3,7 +3,7 @@
   "name": "Angels Arisen Firework",
   "description": "The Angel Cartel is more than just a criminal gang, at least in its own eyes, and uses complex and mystical iconography at every level of its organization. The Angels are much given to celebrating their successes in fine style and the 'Angels Arisen' pyrotechnic charge is used to signal their greatest triumphs.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Charge",

@@ -3,7 +3,7 @@
   "name": "CONCORD Rogue Analysis Beacon",
   "description": "The CONCORD Rogue Analysis Beacon (CRAB) has been developed to assist in field investigation of rogue drone infestations.\n\nWhen deployed in authorized locations and linked to by a ship capable of supporting its operation, the CRAB will power up and broadcast an active scanning signal to search for rogue drone infestations.\n\nRogue drones that are attracted to the CRAB should be engaged and destroyed by operators, allowing the unit to analyze the combat potential of the rogue drones and subsequently their remains.\n\nOn completion of the broadcast and analysis cycle, the CRAB will relay its findings and the operating capsuleer may retrieve any resources recovered as payment for their assistance.\n\n<i>NOTE: Activation of CRAB via linking may not be possible if system signal interference is too high, or if the linking capsuleer has insufficient Complex Encryption Qubits (CEQ).</i>\n\n<b>WARNING: Linking to a deployed CRAB will render your ship immobile until the powering up phase is completed.</b>\n\n<i>Ship Restrictions: linking and activation may only be performed by <b>Carriers, Dreadnoughts, Supercarriers, and Titans.</b></i>",
   "volume": 100.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 100.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "Deployable",

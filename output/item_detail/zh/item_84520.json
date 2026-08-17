@@ -3,7 +3,7 @@
   "name": "电子自旋共振",
   "description": "一座信标，包含了与电子的旋转动量对应的虫洞共振频率。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 0.1,
   "category_name": "特别版用品",

@@ -3,7 +3,7 @@
   "name": "Angel Cartel Dust",
   "description": "Finely grained dust manufactured by the Angel Cartel for use in hallucination drugs.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "格里米尔（2级）",
   "description": "2级<a href=showinfo:81975>格里米尔</a>的透明晶体中不含常见形态中的乳白色物质，也没有稀有形态中的墨黑色云状物。纯净格里米尔也是一种幸运石，其产量比格里米尔高出5%。纯净格里米尔通常会分布在零安全区域内的小行星异常空间中。",
   "volume": 0.8,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.8,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

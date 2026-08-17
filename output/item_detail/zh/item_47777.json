@@ -3,7 +3,7 @@
   "name": "大型深渊装甲维修器",
   "description": "该装备使用纳米级装配器来修复对舰船装甲造成的损伤。",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "装备",

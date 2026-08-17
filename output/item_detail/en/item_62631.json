@@ -3,7 +3,7 @@
   "name": "Large Moon Ore Compressor I",
   "description": "This module uses ORE's latest materials compression technology to enable compression of harvested moon ore by a ship operating with an industrial core.\n\nCompressors are also equipped with powerful computer arrays and logistics firmware that can interface with other ships in mining fleets. These features allow for high-efficiency fleet logistics co-ordination, permitting rapid transfer, cargo-handling, and compression of materials across the fleet.\n\n<b>Activation of a compressor requires any ship using it to have an active industrial core.</b>",
   "volume": 1000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1000.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

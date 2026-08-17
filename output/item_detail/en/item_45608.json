@@ -3,7 +3,7 @@
   "name": "Loki Offensive - Launcher Efficiency Configuration",
   "description": "Adaptation and innovation go hand-in-hand, and this subsystem is a prime example of both ideas. While researching Sleeper drone weapon systems, a group of Minmatar engineers discovered that Sleeper launcher hardpoint design allowed for a vast increase to the rate of fire without increasing powergrid requirements. The resulting subsystem allows the Loki to achieve some of the most aggressive missile configurations seen on any cruiser.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 800000.0,
   "category_name": "Subsystem",

@@ -3,7 +3,7 @@
   "name": "远古的维洛奇亚奖章",
   "description": "这个奖章曾由维洛奇亚部族的领袖佩戴，作为他们优越身份的象征。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 0.1,
   "category_name": "常用物品",

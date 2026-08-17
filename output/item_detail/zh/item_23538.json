@@ -3,7 +3,7 @@
   "name": "商店的货物",
   "description": "存储了各种货物的箱子。",
   "volume": 80.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 80.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "常用物品",

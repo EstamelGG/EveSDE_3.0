@@ -3,7 +3,7 @@
   "name": "Long Distance Jamming",
   "description": "Skill at the long-range operation of electronic warfare systems. 10% bonus to optimal range of ECM, Remote Sensor Dampeners, Weapon Disruptors, Remote Tracking Computers, Remote Sensor Boosters and Target Painters per skill level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

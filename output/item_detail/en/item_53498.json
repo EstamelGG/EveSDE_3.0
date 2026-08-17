@@ -3,7 +3,7 @@
   "name": "Festival Cap and Snowballs Crate",
   "description": "This crate contains an Aurora Universalis Cap and 10 Yoiul Festival Snowballs.",
   "volume": 4.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4.0,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

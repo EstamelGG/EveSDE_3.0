@@ -3,7 +3,7 @@
   "name": "Frostline 'Omnivore' Harvester Upgrade",
   "description": "Developed by the industrious engineers of ORE's Frostline division, this harvester upgrade is able to increase the efficiency of modules designed to harvest ore and ice materials but at the expense of the higher efficiency that can be achieved by material specific harvester upgrades.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Module",

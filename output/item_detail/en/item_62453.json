@@ -3,7 +3,7 @@
   "name": "Fleet Compression Logistics",
   "description": "This fleet support skill increases the range at which fleet members can use fleet compression services offered by a ship operating an industrial core and compressor technology. Each level increases by 10% the range from the industrial core ship within which fleet compression services can be used by other fleet members.\n\nThis skill is intended for use by pilots operating industrial core and compressor modules.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

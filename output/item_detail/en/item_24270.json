@@ -3,7 +3,7 @@
   "name": "Scientific Networking",
   "description": "Skill at running research operations remotely. Without this skill, one can only start jobs within the solar system where one is located. Each level increases the distance at which research projects can be started. Level 1 allows for jobs at a range within 5 jumps, and each subsequent level adds 5 more jumps to the range, with a maximum of a 25 jump range.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

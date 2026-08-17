@@ -3,7 +3,7 @@
   "name": "冰矿采集无人机专业研究",
   "description": "精通冰矿采集无人机控制的高级技能。每升一级，需要冰矿采集无人机专业研究技能的无人机的循环周期缩短2%，最大速度提升2%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

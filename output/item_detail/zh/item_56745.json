@@ -3,7 +3,7 @@
   "name": "海四永恒焰火",
   "description": "PKN星际集团的公共关系专家专门设计了一款太空焰火来庆祝吉他海四空间站扩建工程的竣工。“吉他永恒”焰火适配于节日发射器，设计的用意就是为了彰显吉他海四空间站的宇宙贸易中心地位。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "弹药",

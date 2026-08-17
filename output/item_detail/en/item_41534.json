@@ -3,7 +3,7 @@
   "name": "Zeugma Integrated Analyzer",
   "description": "As this multi-use analyzer has both fully integrated archaeology and hacking systems, it can be used to both analyze ancient ruins and bypass electronic security systems.\n\nWhilst comparatively weaker than its more specialized counterparts, its combined functionality provides the user with an increased flexibility when it comes to fitting.\n\nNote: Due to recently discovered branch prediction vulnerabilities in certain Upwell Consortium Recursive Computing Modules this analyzer may also be used to collect sensitive information concerning reinforcement periods of Upwell Structures.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

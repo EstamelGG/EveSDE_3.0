@@ -3,7 +3,7 @@
   "name": "Foiritan Voucher",
   "description": "This is a candidate voucher for Souro Foiritan, used to determine the biggest supporters of this particular candidate for selecting candidate emissaries.",
   "volume": 0.5,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.5,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "Torafugu TD-900-I",
   "description": "这种重型无人机的战斗机体经过改装，额外装配了一个追踪扰断器。它的设计源于非人类，在自由无人机母巢中开发完成。它从未与母巢建立链接，如今却为它本该摧毁的人类效命。",
   "volume": 25.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 25.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "无人机",

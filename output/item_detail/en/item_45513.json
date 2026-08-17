@@ -3,7 +3,7 @@
   "name": "Ytterbite",
   "description": "An exceptional ore commercially mined from moons, Ytterbite is highly valuable as it yields good quantities of <a href=showinfo:16653>Thulium</a>, a vital element of many advanced materials. Ytterbite ores will also yield <a href=showinfo:16643>Cadmium</a>, <a href=showinfo:16638>Titanium</a> and <a href=showinfo:16636>Silicates</a>.",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 4000.0,
   "category_name": "Asteroid",

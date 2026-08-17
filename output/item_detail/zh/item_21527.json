@@ -3,7 +3,7 @@
   "name": "防火墙信号放大器",
   "description": "增强装配舰船的感应和电子套件，包括增加目标锁定数上限、增加最大锁定范围、提升锁定速度和增加感应强度。\n\n惩罚：在一艘舰船上使用多个这类装备或多个与该装备作用一致的类似装备将削弱实际使用效果。",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": null,
   "mass": null,
   "category_name": "装备",

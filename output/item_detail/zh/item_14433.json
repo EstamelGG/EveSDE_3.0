@@ -3,7 +3,7 @@
   "name": "瑟莱尼氏改良型超级集束激光器",
   "description": "一种超重型集束激光器，专为中远程交战而设计。\n\n使用的频率晶体弹药类型：伽玛、红外线、微波、多频、射频、标准、紫外线和X射线。",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": 1.0,
   "mass": 2000.0,
   "category_name": "装备",

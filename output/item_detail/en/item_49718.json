@@ -3,7 +3,7 @@
   "name": "Medium Navy Ammunition Crate",
   "description": "This military surplus crate contains a quantity of ammunition rated for medium weapons.",
   "volume": 4.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4.0,
   "capacity": null,
   "mass": null,
   "category_name": "Special Edition Assets",

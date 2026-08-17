@@ -3,7 +3,7 @@
   "name": "Civilian Scourge Light Missile",
   "description": "From its humble beginnings in tiny Minmatar design labs, the Scourge light missile has quickly established itself throughout the star cluster as a premier missile for light launchers.",
   "volume": 0.015,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.015,
   "capacity": null,
   "mass": 700.0,
   "category_name": "Charge",

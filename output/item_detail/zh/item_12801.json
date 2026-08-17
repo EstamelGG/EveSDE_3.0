@@ -3,7 +3,7 @@
   "name": "标枪 M",
   "description": "“标枪”型弹药由聚集铱元素和引力脉冲起爆器组成。这使它的破坏力远远超过标准磁轨炮系统。然而引力脉冲固有的衰退性决定了它很难在远距离保持精度。\n\n\n\n最佳射程减少75%。\n\n跟踪速度提高25%。\n\n\n\n注：只能用于二级科技和势力中型磁轨炮。",
   "volume": 0.0125,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.0125,
   "capacity": null,
   "mass": 0.01,
   "category_name": "弹药",

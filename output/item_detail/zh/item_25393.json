@@ -3,7 +3,7 @@
   "name": "帝国海军通行许可保险箱",
   "description": "这个集装箱内装有允许进入某个帝国海军复合体的标准轨道通行许可。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

@@ -3,7 +3,7 @@
   "name": "Melted Snowball",
   "description": "This snowball used to be bigger than your head. Now it is just a puddle of water.\n\nWater is valuable in the space economy so there may be someone willing to trade for this item.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "Special Edition Assets",

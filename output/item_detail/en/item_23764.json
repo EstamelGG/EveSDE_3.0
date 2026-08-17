@@ -3,7 +3,7 @@
   "name": "Bartezo's Message",
   "description": "Bartezo's message has been recorded inside this data chip. It implicates Nossa Farad in the assassination attempt against Lord Manel.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

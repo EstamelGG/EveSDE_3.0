@@ -3,7 +3,7 @@
   "name": "紫晶羧基沉淀物",
   "description": "这种晶状萤石构造相比其他样本所散发出的紫色似乎表明其中含有<a href=showinfo:48927>色动力学三羧基</a>。\n\n\n\n尽管这种化合物的含量明显比之前的类似样本要少，嗅到商机的人们还是可以来寻找这种有限的资源。",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

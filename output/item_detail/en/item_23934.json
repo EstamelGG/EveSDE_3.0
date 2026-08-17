@@ -3,7 +3,7 @@
   "name": "Edict of Ancestry",
   "description": "A formal decree issued by an Amarr Holder. This one questions the legitimacy of Lord Arachnan as the head of the Arachnan family.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

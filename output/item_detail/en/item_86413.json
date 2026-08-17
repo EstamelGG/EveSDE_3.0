@@ -3,7 +3,7 @@
   "name": "PDN Passkey",
   "description": "A Planetary defense network passkey. These passkeys can be used to shut down the defense system on the planet that generated them. \n\nThey are valuable to all parties involved in actions within conflict zones whether that is to try and gain information on how to crack future codes, secure the defense of their own planets against attacks, or you as bargaining chips with other forces.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "地精灵SD-300",
   "description": "轻型感应抑阻无人机",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 3000.0,
   "category_name": "无人机",

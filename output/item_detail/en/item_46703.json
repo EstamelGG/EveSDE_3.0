@@ -3,7 +3,7 @@
   "name": "Batch Compressed Scordite IV-Grade",
   "description": "This extremely rare and valuable variant of scordite ore was recently discovered by ORE engineers during early field tests of new moon mining technology. Subsequent testing has confirmed that this ore produces 15% more minerals than standard scordite when reprocessed.\n\nScordite is amongst the most common ore types in the central regions of known universe. It has a fair bit of <a href=showinfo:34>Tritanium</a> and <a href=showinfo:35>Pyerite</a>. Good choice for those starting their mining careers.\n\n<i>This material was compressed using an older process that compressed batches of raw materials into units using a set input quantity. Newer compression technology uses a more flexible one-to-one unit compression system.</i>",
   "volume": 0.19,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.19,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Asteroid",

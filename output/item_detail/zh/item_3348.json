@@ -3,7 +3,7 @@
   "name": "领导理论",
   "description": "精通于对舰队成员投放增益效果的基本技能。每升一级，指挥脉冲波和开采先锋脉冲波的效果范围增加7%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

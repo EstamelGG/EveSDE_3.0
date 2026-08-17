@@ -3,7 +3,7 @@
   "name": "尤加石（2级）",
   "description": "有一种矿石需要保持敏锐才能发现，那便是存在于微小矿床上的2级<a href=showinfo:82205>尤加石</a>（又称雾状尤加石）。它与普通尤加石差别甚微，但精炼产出却高出5%。雾状尤加石通常会分布在零安全区域内的小行星异常空间中。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "小行星",

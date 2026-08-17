@@ -3,7 +3,7 @@
   "name": "Magnetometric ECM I",
   "description": "Projects a low intensity field of ionized particles to disrupt the effectiveness of enemy sensors. Very effective against the Magnetometric-based sensors used by Gallente, Serpentis, ORE and SoE ships.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

@@ -3,7 +3,7 @@
   "name": "蒸发岩沉积物",
   "description": "由富含矿物的水沉积而成。具有多种用途，最主要的是作为复杂材料的基础组分。",
   "volume": 0.05,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.05,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

@@ -3,7 +3,7 @@
   "name": "Trajectory Analysis",
   "description": "Advanced understanding of zero-G physics. 5% bonus per skill level to weapon turret accuracy falloff.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

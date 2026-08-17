@@ -3,7 +3,7 @@
   "name": "聚合冰体",
   "description": "星际里的冰通常都是由气体分子不断附着于硅酸盐尘粒而形成。众所周知，聚合冰体中含有大量氢同位素，还有少量重水和液态臭氧。可于安全等级为<color='0xFF33FFFF'>1.0</color>及以下的星系开采。",
   "volume": 1000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1000.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "小行星",

@@ -3,7 +3,7 @@
   "name": "Null XL",
   "description": "The Null is an improved version of the standard Thorium charge that possesses greatly improved molecular cohesion, resulting in superior range and reduced particle dissipation.\n\n40% increased optimal range.\n25% reduced tracking speed.\n40% increased falloff range.\n\nNote: This ammunition can only be used by capital tech level II and faction Blasters.",
   "volume": 0.125,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.125,
   "capacity": null,
   "mass": 0.5,
   "category_name": "Charge",

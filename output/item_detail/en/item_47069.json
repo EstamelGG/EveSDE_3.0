@@ -3,7 +3,7 @@
   "name": "Standup ECM Jammer Burst Projector",
   "description": "Emits an area-of-effect electronic burst centered on the designated location, which has a chance to disrupt the target locks of any ship within range. Ships hit by the burst have a chance to be jammed for 40 seconds. Only one module of this type can be fit per structure.\n\nStandup is a proprietary system that uses a Structure Autonomous Nanoassembly Device (Upwell) containing integrated template software, a nanoassembler array and sufficient nanomass to enable the construction of a variety of service modules, structure modules and structure rigs when inserted into the appropriate slots on a structure built with Upwell technology.",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": 500.0,
   "category_name": "Structure Module",

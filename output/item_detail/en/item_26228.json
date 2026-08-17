@@ -3,7 +3,7 @@
   "name": "Think Tank Security Pad",
   "description": "This security pad is used to access the Think Tank room.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

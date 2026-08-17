@@ -3,7 +3,7 @@
   "name": "加强型地精灵",
   "description": "轻型侦查无人机\n\n\n\n这种无人机 由于增添了众多的自由无人机部件，该无人机在得以强化后根本找不出原始设计的影子。这种新的混种有着可怕的火力。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 3000.0,
   "category_name": "无人机",

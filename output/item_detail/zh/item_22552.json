@@ -3,7 +3,7 @@
   "name": "采矿管理技术",
   "description": "精通于增强所有友方舰船的采矿能力的高级技能。每升一级，开采先锋脉冲波的效果强度提高10%。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

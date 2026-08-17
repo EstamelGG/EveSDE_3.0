@@ -3,7 +3,7 @@
   "name": "埃菲尔公司 游侠 规避机动 EM-705",
   "description": "一款神经交互强化芯片，可增强飞行员的机动技术。\n\n舰船灵活性提升5%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

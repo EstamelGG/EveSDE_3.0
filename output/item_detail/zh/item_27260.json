@@ -3,7 +3,7 @@
   "name": "波特克 掘金者 环境分析 EY-1005",
   "description": "一款神经接口升级芯片，可增强飞行员在环境分析方面的技能。\n\n打捞、破解及考古装备的运行周期缩短5%。\n数据分析仪和遗迹分析仪的病毒同步率+5。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

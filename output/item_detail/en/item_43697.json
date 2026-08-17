@@ -3,7 +3,7 @@
   "name": "Guristas Production Strong Box",
   "description": "A strong box belonging to the Guristas Production corporation.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "Commodity",

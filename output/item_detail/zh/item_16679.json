@@ -3,7 +3,7 @@
   "name": "富勒化合物",
   "description": "富勒化合物是用于电容器、装甲附甲和武器系统中的一种超导材料。",
   "volume": 0.15,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.15,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

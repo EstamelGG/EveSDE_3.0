@@ -3,7 +3,7 @@
   "name": "雷缇奥家庭补给",
   "description": "这些储物箱内装有雷缇奥家族的财产。",
   "volume": 10.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 10.0,
   "capacity": null,
   "mass": 100.0,
   "category_name": "常用物品",

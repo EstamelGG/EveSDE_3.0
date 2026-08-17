@@ -3,7 +3,7 @@
   "name": "Vepas' Modified Torpedo Launcher",
   "description": "A massive launcher designed for extended bombardments of hard targets like battleships and stations. Contains a huge missile capacity, but has a slow firing rate and trouble targeting small, fast ships.",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": 2.6,
   "mass": null,
   "category_name": "Module",

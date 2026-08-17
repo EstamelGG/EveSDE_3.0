@@ -3,7 +3,7 @@
   "name": "训练证书",
   "description": "在你的起步空间站上交该证书，可以获得一份小奖励。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "常用物品",

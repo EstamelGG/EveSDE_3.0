@@ -3,7 +3,7 @@
   "name": "钷汞合金",
   "description": "钷汞合金是一种金属放射性化合物，散发肉眼可见的暗绿色光芒。它是艾玛帝国新一代微处理器和电容器单元的主要组成部分。",
   "volume": 0.2,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.2,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

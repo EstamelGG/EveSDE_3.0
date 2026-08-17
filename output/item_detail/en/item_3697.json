@@ -3,7 +3,7 @@
   "name": "Silicate Glass",
   "description": "Silicate glass is a common construction material, in constant demand throughout New Eden, whether in planetary structures or reinforced for use in space vessels.",
   "volume": 0.75,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.75,
   "capacity": null,
   "mass": null,
   "category_name": "Planetary Commodities",

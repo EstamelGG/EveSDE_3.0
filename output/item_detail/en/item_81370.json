@@ -3,7 +3,7 @@
   "name": "Studio Management",
   "description": "Basic skill in saving additional designs in the SKINR studio.\n\nIncreases the maximum number of saved designs by 5 per level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

@@ -3,7 +3,7 @@
   "name": "Heavy Gunnar Compact Stasis Grappler",
   "description": "Stasis Grapplers reduce the maximum speed of a target ship by employing micro energy streams which effectively entangle the target temporarily, thereby slowing it down.\nThis slowing effect is strongest at very close ranges, and diminishes as range increases.\nHeavy Stasis Grapplers require a very stable base platform, and therefore may only be fitted to Battleships and Capital Ships.",
   "volume": 50.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 50.0,
   "capacity": null,
   "mass": null,
   "category_name": "Module",

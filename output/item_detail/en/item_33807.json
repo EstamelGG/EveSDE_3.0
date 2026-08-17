@@ -3,7 +3,7 @@
   "name": "Cybernetic 'Source' Subprocessor",
   "description": "This grafted subprocessor, based on technology similar to that which powers the New Eden Source compendium, is particularly good for understanding a great deal of information at once. It is implanted in the frontal lobe and grants a bonus to a character's Intelligence.\n\nEffect: +4 Bonus to Intelligence",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

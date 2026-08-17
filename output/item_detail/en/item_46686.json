@@ -3,7 +3,7 @@
   "name": "Pyroxeres IV-Grade",
   "description": "This extremely rare and valuable variant of pyroxeres ore was recently discovered by ORE engineers during early field tests of new moon mining technology. Subsequent testing has confirmed that this ore produces 15% more minerals than standard pyroxeres when reprocessed.\n\nPyroxeres is a common ore available in all regions of space. It has fair amounts of <a href=showinfo:35>Pyerite</a> and <a href=showinfo:36>Mexallon</a>.",
   "volume": 0.3,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.3,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

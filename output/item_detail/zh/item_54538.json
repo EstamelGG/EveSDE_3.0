@@ -3,7 +3,7 @@
   "name": "黑市'弗拉基米尔'无人机精准射击 DS-803",
   "description": "这款神经接口升级芯片得名于米玛塔尔古老传说中的水生恶魔蠕虫，能够提高无人机和铁骑舰载机的最佳射程。\n\n\n\n无人机和铁骑舰载机的最佳射程提高3%。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "植入体",

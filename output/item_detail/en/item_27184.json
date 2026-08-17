@@ -3,7 +3,7 @@
   "name": "Zainou 'Beancounter' Science SC-805",
   "description": "A neural Interface upgrade that boosts the pilot's research skills.\n\n5% bonus to blueprint copying speed.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

@@ -3,7 +3,7 @@
   "name": "Ward Console",
   "description": "The control unit for a starships shield systems.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

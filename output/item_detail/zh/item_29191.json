@@ -3,7 +3,7 @@
   "name": "幸存者",
   "description": "这个不幸但是坚强的人再一次严酷的考验中幸存下来。他的创伤是身体和精神上两方面的，但是他对活下去的信念很强。",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": 80.0,
   "category_name": "常用物品",

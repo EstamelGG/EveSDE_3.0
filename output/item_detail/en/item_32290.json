@@ -3,7 +3,7 @@
   "name": "Obsidian Datacore",
   "description": "Found inside the Blood Obsidian Orb, this datacore is supposed to reveal the location of the lost <i>Book of St. Arzad</i>.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Commodity",

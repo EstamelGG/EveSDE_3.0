@@ -3,7 +3,7 @@
   "name": "Compressed Clear Icicle IV-Grade",
   "description": "Interstellar ices are formed by accretion of gas molecules onto silicate dust particles. These crystalline formations can be found scattered around many an ice field and are known as the universe's primary source of helium isotopes. Due to environmental factors, this fragment's isotope deposits have become even richer than its regular counterparts'.\n\nThis material is compressed and a much more compact form of the original material.",
   "volume": 100.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 100.0,
   "capacity": null,
   "mass": 1000.0,
   "category_name": "Asteroid",

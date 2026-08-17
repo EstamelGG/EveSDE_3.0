@@ -3,7 +3,7 @@
   "name": "德拉克里雅氏改良型电容回充器",
   "description": "提高电容器再充电的速率。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 1.0,
   "category_name": "装备",

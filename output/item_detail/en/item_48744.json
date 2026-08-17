@@ -3,7 +3,7 @@
   "name": "'Subverted' JVN-UC49",
   "description": "An unusual combat drone design that achieves an enhanced firepower-to-control-bandwidth ratio from rogue drone technology. The base technology has been subverted and reduced to a standard combat expert system level of intelligence, as used in other ship-deployed drones.\n\nDespite being cleared for use under CONCORD's Directive Omega-One-Five and the Code Aria protocols, the technology is used strictly under terms of \"operator's own risk\" and is not being marketed by any of the major drone manufacturers. Independent capsuleers are the only known adopters of such technology.",
   "volume": 20.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 20.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "Drone",

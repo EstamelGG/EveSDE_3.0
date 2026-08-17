@@ -3,7 +3,7 @@
   "name": "Medium Projectile Turret",
   "description": "Operation of medium projectile turrets. 5% Bonus to medium projectile turret damage per level.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Skill",

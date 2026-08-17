@@ -3,7 +3,7 @@
   "name": "Drone Cerebral Fragment",
   "description": "A fragment of a rogue drones cerebral cortex.",
   "volume": 0.03,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.03,
   "capacity": null,
   "mass": 1.0,
   "category_name": "Material",

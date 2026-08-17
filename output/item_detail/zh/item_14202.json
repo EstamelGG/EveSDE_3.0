@@ -3,7 +3,7 @@
   "name": "萨沙爱国者小型EMP立体炸弹",
   "description": "从舰船上发射一个全向脉冲，对周围船只造成电磁伤害。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 10.0,
   "category_name": "装备",

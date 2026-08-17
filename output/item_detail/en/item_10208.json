@@ -3,7 +3,7 @@
   "name": "Memory Augmentation - Standard",
   "description": "This image processor implanted in the temporal lobe grants a bonus to a character's memory.\n\n+4 Bonus to Memory",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

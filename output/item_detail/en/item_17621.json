@@ -3,7 +3,7 @@
   "name": "Corporate Hangar Array",
   "description": "A large hangar structure with divisional compartments, for easy separation and storage of materials and modules.",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": 3000000.0,
   "mass": 10000000.0,
   "category_name": "Starbase",

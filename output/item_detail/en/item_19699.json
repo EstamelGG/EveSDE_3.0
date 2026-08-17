@@ -3,7 +3,7 @@
   "name": "Zainou 'Deadeye' Medium Hybrid Turret MH-805",
   "description": "A Zainou gunnery hardwiring designed to enhance skill with medium hybrid turrets.\n\n5% bonus to medium hybrid turret damage.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

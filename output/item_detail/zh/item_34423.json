@@ -3,7 +3,7 @@
   "name": "事先填好的CSM10投票签",
   "description": "看起来某个联盟已经决定好支持谁了！",
   "volume": 3.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3.0,
   "capacity": null,
   "mass": 10.0,
   "category_name": "特别版用品",

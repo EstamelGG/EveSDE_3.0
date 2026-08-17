@@ -3,7 +3,7 @@
   "name": "Salvage Drone II",
   "description": "Once launched and given the order to salvage, this drone will automatically seek out your wrecks in the vicinity, salvage from them any useable materials and deposit those materials in your ship's cargohold. It will not, however, loot any valuables contained within the wrecks.\n\nA salvage drone respects wreck ownership and will focus on its operator's wrecks unless explicitly ordered otherwise. Whether or not its operator chooses to display that same respect is another question entirely.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": null,
   "category_name": "Drone",

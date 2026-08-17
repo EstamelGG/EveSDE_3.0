@@ -3,7 +3,7 @@
   "name": "佩奇电容通量线圈 I",
   "description": "提高电容器的回充速率，但会减少电容器的最大储量。",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 20.0,
   "category_name": "装备",

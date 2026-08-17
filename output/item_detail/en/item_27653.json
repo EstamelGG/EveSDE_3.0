@@ -3,7 +3,7 @@
   "name": "Angel Small AutoCannon Battery",
   "description": "Fires a barrage of medium projectiles at those the Control Tower deems its enemies. Maintains a very rapid spread of fire and is able to track the fastest targets at close ranges, but lacks some of the punch evidenced by its artillery counterpart.",
   "volume": 500.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 500.0,
   "capacity": 750.0,
   "mass": 50000000.0,
   "category_name": "Starbase",

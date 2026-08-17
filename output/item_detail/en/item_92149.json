@@ -3,7 +3,7 @@
   "name": "Drone Iteration Data",
   "description": "Data on how a hive of Rogue Drones has iterated and changed since infesting the site from which this was recovered.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 0.1,
   "category_name": "Commodity",

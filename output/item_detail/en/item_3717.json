@@ -3,7 +3,7 @@
   "name": "Dairy Products",
   "description": "These products, extracted from livestock, are one of the biggest cogs in the food production cycle. Dairy products are rich with calcium and help make sure the inhabitants of the EVE universe all have shiny teeth.",
   "volume": 0.5,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.5,
   "capacity": null,
   "mass": 400.0,
   "category_name": "Commodity",

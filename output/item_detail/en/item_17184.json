@@ -3,7 +3,7 @@
   "name": "Ballistic Deflection Array",
   "description": "Boosts the control tower's shield resistance against kinetic damage. Using more than one unit of this structure or similar structures that affect the same attribute on the control tower will yield diminishing returns.",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": null,
   "mass": 100000000.0,
   "category_name": "Starbase",

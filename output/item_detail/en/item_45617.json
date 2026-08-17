@@ -3,7 +3,7 @@
   "name": "Proteus Propulsion - Hyperspatial Optimization",
   "description": "This subsystem improves the agility and warp speed of a Proteus-class Strategic Cruiser. With the influx of fullerene-based polymers and the discovery of Sleeper drone technology, the same fundamental principles once only sparingly employed in advance scout vessels such as Covert Ops and Interceptors could be re-applied to modular Tech III vessels. Although the Caldari claim to have been the first to successfully reverse-engineer these subsystems, the Federation argues that they were the first to deliver the breakthrough. Despite the contention, neither party seems keen to publicize the research data necessary to back their respective claims.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 1400000.0,
   "category_name": "Subsystem",

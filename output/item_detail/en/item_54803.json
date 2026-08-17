@@ -3,7 +3,7 @@
   "name": "Expired Capsuleer Day Noise-10 'Needlejack' Filament",
   "description": "This limited edition Needlejack filament has been developed and distributed by Upwell and CONCORD to celebrate the 17th anniversary of the first independent Capsuleer licenses.\n\nThis filament has been produced using especially unstable compounds and therefore has a limited shelf life. It will cease to function after June 15, YC122.",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": null,
   "category_name": "Commodity",

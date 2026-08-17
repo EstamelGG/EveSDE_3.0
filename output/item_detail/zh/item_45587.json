@@ -3,7 +3,7 @@
   "name": "圣卒防御 - 增强装甲板",
   "description": "尽管这个子系统采用了帝国标准技术的纳米装配机器人，但却做了多处优化和提升。它利用了新近发现的冬眠者技术，而富勒烯技术的推广使得精简化高强度的组件能够自由进行组合。",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": 300.0,
   "mass": 1400000.0,
   "category_name": "子系统",

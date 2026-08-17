@@ -3,7 +3,7 @@
   "name": "天蛇之牙烟火",
   "description": "天蛇集团喜欢为其旗下各种药物生产和研究项目的员工、客户和潜在的金主举办庆祝活动，而“天蛇之牙”烟火就是这种活动的象征。统合部和几大帝国都把这种聚会称为“毒贩子和犯罪同伙”集会，但还是有许多人对这种由萨瓦多尔·萨巴蒂举办的聚会趋之若鹜。",
   "volume": 0.1,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.1,
   "capacity": null,
   "mass": 100.0,
   "category_name": "弹药",

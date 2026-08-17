@@ -3,7 +3,7 @@
   "name": "规模排序",
   "description": "中级技能，可在单次排序中高效排序多个涂装。随着技能等级提升，单次排序的涂装上限将逐步增加：1级+25，2级+25，3级+50，4级+50，5级+100。",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "技能",

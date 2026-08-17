@@ -3,7 +3,7 @@
   "name": "Zainou 'Gnome' Shield Operation SP-903",
   "description": "A neural Interface upgrade that boosts the recharge rate of the shields of the pilots ship.\n\n3% boost to shield recharge rate.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

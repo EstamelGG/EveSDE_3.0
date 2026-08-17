@@ -3,7 +3,7 @@
   "name": "Centii B-Type Small Remote Armor Repairer",
   "description": "This module uses nano-assemblers to repair damage done to the armor of the Target ship.",
   "volume": 5.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 5.0,
   "capacity": null,
   "mass": 20.0,
   "category_name": "Module",

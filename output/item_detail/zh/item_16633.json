@@ -3,7 +3,7 @@
   "name": "烃类",
   "description": "未经加工的矿物燃料，例如石油和矿物油。烃类是有机物质、塑料和蜡的生产的关键材料，因此也是可开采物质中最有用的一种。",
   "volume": 0.05,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.05,
   "capacity": null,
   "mass": null,
   "category_name": "材料",

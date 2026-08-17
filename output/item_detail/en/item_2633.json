@@ -3,7 +3,7 @@
   "name": "Crates of Planetary Vehicles",
   "description": "Tracked, wheeled and hover vehicles used within planetary atmosphere for personal and business use.",
   "volume": 40.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 40.0,
   "capacity": null,
   "mass": 40000.0,
   "category_name": "Commodity",

@@ -3,7 +3,7 @@
   "name": "Compressed Kylixium IV-Grade",
   "description": "Extremely rich in <a href=showinfo:36>mexallon</a>, IV-Grade or adobe <a href=showinfo:81900>kylixium</a> is considered a auspicious find amongst those who mine it. This form has a 15% greater yield than its everyday variety.\n \nAdobe kylixium may be found in null security space asteroid anomalies.\n\nThis material is compressed and a much more compact form of the original material.",
   "volume": 0.012,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.012,
   "capacity": null,
   "mass": 1e+35,
   "category_name": "Asteroid",

@@ -3,7 +3,7 @@
   "name": "Zainou 'Gypsy' Electronic Warfare EW-904",
   "description": "A neural interface upgrade that boosts the pilot's skill at electronic warfare.\n\n4% reduction in ECM and ECM Burst module capacitor need.",
   "volume": 1.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 1.0,
   "capacity": null,
   "mass": null,
   "category_name": "Implant",

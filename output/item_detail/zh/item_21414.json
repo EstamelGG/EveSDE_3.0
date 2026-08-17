@@ -3,7 +3,7 @@
   "name": "恐惧古斯塔斯反物质轨道弹 M",
   "description": "由两部分组成：钛金制的弹壳和离子态的反物质原子芯核。磁轨炮直接射出弹体，而粒子疾速炮将等离子注入回旋加速器中，然后将等离子如闪电般发射出去。最佳射程减少50%。",
   "volume": 0.0125,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.0125,
   "capacity": null,
   "mass": 0.05,
   "category_name": "弹药",

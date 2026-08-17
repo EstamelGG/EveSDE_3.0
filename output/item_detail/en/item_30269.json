@@ -3,7 +3,7 @@
   "name": "Defensive Control Node",
   "description": "A rudimentary analysis of this device reveals an amazingly broad potential for the manipulation of nanomachines, allowing the user to reprogram them for numerous roles. The Sleeper defensive systems were so modular that, even though this particular node was designed to coordinate armor-repairing nanoassemblers, it could just as easily be reconfigured for shield defense.",
   "volume": 0.01,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.01,
   "capacity": null,
   "mass": null,
   "category_name": "Material",

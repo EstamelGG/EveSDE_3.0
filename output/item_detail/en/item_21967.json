@@ -3,7 +3,7 @@
   "name": "Structure Office Center",
   "description": "Materials for the construction of dozens of offices, as well as computer systems and supplies needed for their day-to-day running.",
   "volume": 3000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 3000.0,
   "capacity": null,
   "mass": 10000.0,
   "category_name": "Commodity",

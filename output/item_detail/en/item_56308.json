@@ -3,7 +3,7 @@
   "name": "Capital Abyssal Ancillary Armor Repairer",
   "description": "This module uses nano-assemblers to repair damage done to the armor of the ship. The module can optionally use Nanite Repair Paste to increase repair effectiveness. Deactivating the module while it has no Nanite Repair Paste loaded starts reloading, if there is Nanite Repair Paste available in cargo hold. \n\nNote: Can use Nanite Repair Paste as fuel. Reloading time is 60 seconds. Prototype Inferno Module. May only be fitted to capital class ships.",
   "volume": 4000.0,
-  "repackaged_volume": null,
+  "repackaged_volume": 4000.0,
   "capacity": 1.28,
   "mass": 500.0,
   "category_name": "Module",

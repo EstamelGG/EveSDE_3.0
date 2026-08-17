@@ -3,7 +3,7 @@
   "name": "R.A.M.- Robotics",
   "description": "Robotic assembly modules designed for Drone Manufacturing.",
   "volume": 0.04,
-  "repackaged_volume": null,
+  "repackaged_volume": 0.04,
   "capacity": null,
   "mass": null,
   "category_name": "Commodity",
