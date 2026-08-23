@@ -9,6 +9,7 @@ dbuff集合数据处理器模块
 
 from evesde.paths import PROJECT_ROOT
 from evesde.utils.single_db import get_db_path
+from evesde.utils.wide_i18n import wide_texts, names_row, name_cols_sql, names_ddl
 import json
 import sqlite3
 import re
@@ -80,15 +81,14 @@ class DbuffCollectionsProcessor:
             return {}
     
     def create_dbuff_collection_table(self, cursor: sqlite3.Cursor):
-        """
-        创建dbuffCollection表
-        完全按照old版本的数据库结构
-        """
-        cursor.execute('''
-        CREATE TABLE IF NOT EXISTS dbuffCollection (
+        """创建dbuffCollection表（含 displayName 多语宽列）"""
+        cursor.execute('DROP TABLE IF EXISTS dbuffCollection')
+        cursor.execute(f'''
+        CREATE TABLE dbuffCollection (
             dbuff_id INTEGER NOT NULL,
             type_id INTEGER NOT NULL,
             dbuff_name TEXT,
+            {names_ddl()},
             aggregateMode TEXT,
             modifier_info TEXT,
             PRIMARY KEY (dbuff_id, type_id)
@@ -242,61 +242,43 @@ class DbuffCollectionsProcessor:
         # 获取warfare buff映射关系
         buff_mapping, type_dbuff_mapping = self.get_warfare_buff_mapping(cursor)
         
-        # 清空表
-        cursor.execute('DELETE FROM dbuffCollection')
-        
-        # 用于存储批量插入的数据
         batch_data = []
-        batch_size = 1000  # 每批处理的记录数
-        
+        batch_size = 1000
+        insert_sql = f'''
+            INSERT OR REPLACE INTO dbuffCollection (
+                dbuff_id, type_id, dbuff_name, {name_cols_sql()}, aggregateMode, modifier_info
+            ) VALUES (?, ?, ?, {", ".join(["?"] * 8)}, ?, ?)
+        '''
+
         for dbuff_id, dbuff_info in dbuff_data.items():
             dbuff_id = int(dbuff_id)
-            
-            # 提取developerDescription并仅保留英文字母作为dbuff_name
+
+            # developerDescription 仅保留英文字母作为内部 dbuff_name
             if 'developerDescription' in dbuff_info:
-                dev_desc = dbuff_info['developerDescription']
-                dbuff_name = re.sub(r'[^a-zA-Z]', '', dev_desc)
+                dbuff_name = re.sub(r'[^a-zA-Z]', '', dbuff_info['developerDescription'])
             else:
                 dbuff_name = "dbuff_" + str(dbuff_id)
 
-            if 'aggregateMode' in dbuff_info:
-                aggregateMode = dbuff_info['aggregateMode']
-            else:
-                aggregateMode = None
+            display_names = wide_texts(dbuff_info.get('displayName'))
+            aggregateMode = dbuff_info.get('aggregateMode')
 
-            # 检查是否有对应的type_id关系
-            if dbuff_id in type_dbuff_mapping:
-                # 为每个type_id创建一条记录
-                for type_info in type_dbuff_mapping[dbuff_id]:
-                    type_id = type_info['type_id']
-                    modifying_attribute_id = type_info['value_attr_id']
-                    
-                    # 解析修饰器信息
-                    modifiers = self.parse_modifiers(dbuff_info, modifying_attribute_id)
-                    
-                    # 将修饰器列表转换为JSON字符串
-                    modifier_info = json.dumps(modifiers)
-                    
-                    # 添加到批量数据
-                    batch_data.append((dbuff_id, type_id, dbuff_name, aggregateMode, modifier_info))
-                    
-                    # 当达到批处理大小时执行插入
-                    if len(batch_data) >= batch_size:
-                        cursor.executemany('''
-                            INSERT OR REPLACE INTO dbuffCollection (
-                                dbuff_id, type_id, dbuff_name, aggregateMode, modifier_info
-                            ) VALUES (?, ?, ?, ?, ?)
-                        ''', batch_data)
-                        batch_data = []  # 清空批处理列表
-            # 如果没有找到对应的type_id关系，跳过该记录（不写入type_id为0的记录）
-        
-        # 处理剩余的数据
+            if dbuff_id not in type_dbuff_mapping:
+                continue
+
+            for type_info in type_dbuff_mapping[dbuff_id]:
+                type_id = type_info['type_id']
+                modifying_attribute_id = type_info['value_attr_id']
+                modifiers = self.parse_modifiers(dbuff_info, modifying_attribute_id)
+                batch_data.append((
+                    dbuff_id, type_id, dbuff_name, *names_row(display_names),
+                    aggregateMode, json.dumps(modifiers),
+                ))
+                if len(batch_data) >= batch_size:
+                    cursor.executemany(insert_sql, batch_data)
+                    batch_data = []
+
         if batch_data:
-            cursor.executemany('''
-                INSERT OR REPLACE INTO dbuffCollection (
-                    dbuff_id, type_id, dbuff_name, aggregateMode, modifier_info
-                ) VALUES (?, ?, ?, ?, ?)
-            ''', batch_data)
+            cursor.executemany(insert_sql, batch_data)
         
         print(f"[+] 已处理 {len(dbuff_data)} 个dbuff集合，语言: {lang}")
     
