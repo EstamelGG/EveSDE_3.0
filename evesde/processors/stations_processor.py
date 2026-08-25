@@ -161,12 +161,6 @@ class StationsProcessor:
             )
         ''')
 
-        # 老库补列（CREATE TABLE IF NOT EXISTS 不会为已存在的表添加新列）
-        cursor.execute("PRAGMA table_info(stations)")
-        existing_cols = {row[1] for row in cursor.fetchall()}
-        if 'LPStore' not in existing_cols:
-            cursor.execute('ALTER TABLE stations ADD COLUMN LPStore INTEGER')
-
         # 创建索引
         cursor.execute('CREATE INDEX IF NOT EXISTS idx_stations_solarSystemID ON stations(solarSystemID)')
     
