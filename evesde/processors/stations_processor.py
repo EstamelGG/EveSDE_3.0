@@ -31,6 +31,7 @@ class StationsProcessor:
         self.station_operations_data = {}
         self.solar_systems_data = {}
         self.npc_corporations_data = {}
+        self.lp_store_operations = set()
     
     def load_stations_data(self):
         """加载空间站相关数据"""
@@ -49,6 +50,13 @@ class StationsProcessor:
             operations_list = jsonl_loader.load_jsonl(str(station_operations_file))
             self.station_operations_data = {item['_key']: item for item in operations_list}
             print(f"[+] 加载了 {len(self.station_operations_data)} 个空间站操作")
+
+        # services 含 25 的操作表示其空间站拥有忠诚点商店服务
+        self.lp_store_operations = {
+            op_id for op_id, op in self.station_operations_data.items()
+            if 25 in (op.get('services') or [])
+        }
+        print(f"[+] {len(self.lp_store_operations)} 个空间站操作拥有忠诚点商店服务")
         
         # 加载星系数据
         solar_systems_file = self.sde_input_path / "mapSolarSystems.jsonl"
@@ -148,10 +156,17 @@ class StationsProcessor:
                 {names_ddl()},
                 regionID INTEGER,
                 solarSystemID INTEGER,
-                security REAL
+                security REAL,
+                LPStore INTEGER
             )
         ''')
-        
+
+        # 老库补列（CREATE TABLE IF NOT EXISTS 不会为已存在的表添加新列）
+        cursor.execute("PRAGMA table_info(stations)")
+        existing_cols = {row[1] for row in cursor.fetchall()}
+        if 'LPStore' not in existing_cols:
+            cursor.execute('ALTER TABLE stations ADD COLUMN LPStore INTEGER')
+
         # 创建索引
         cursor.execute('CREATE INDEX IF NOT EXISTS idx_stations_solarSystemID ON stations(solarSystemID)')
     
@@ -167,7 +182,13 @@ class StationsProcessor:
         
         stations_batch = []
         batch_size = 1000
-        
+        insert_sql = f'''
+            INSERT OR REPLACE INTO stations (
+                stationID, stationTypeID, {", ".join(f"{lang}_name" for lang in LANGS)},
+                regionID, solarSystemID, security, LPStore
+            ) VALUES (?, ?, {", ".join(["?"] * 8)}, ?, ?, ?, ?)
+        '''
+
         for station_id, station_data in self.npc_stations_data.items():
             # 获取基本信息
             solar_system_id = station_data.get('solarSystemID', 0)
@@ -182,35 +203,30 @@ class StationsProcessor:
                 system_data = self.solar_systems_data[solar_system_id]
                 region_id = system_data.get('regionID', 0)
                 security = system_data.get('securityStatus', 0.0)
-            
+
+            # 拥有忠诚点商店服务的空间站，LP商店归属其所属军团
+            lp_store = station_data.get('ownerID') if station_data.get('operationID') in self.lp_store_operations else None
+
             stations_batch.append((
                 station_id, station_type_id, *names_row(station_names),
-                region_id, solar_system_id, security
+                region_id, solar_system_id, security, lp_store
             ))
-            
+
             # 批量插入
             if len(stations_batch) >= batch_size:
-                cursor.executemany(f'''
-                    INSERT OR REPLACE INTO stations (
-                        stationID, stationTypeID, {", ".join(f"{lang}_name" for lang in LANGS)},
-                        regionID, solarSystemID, security
-                    ) VALUES (?, ?, {", ".join(["?"] * 8)}, ?, ?, ?)
-                ''', stations_batch)
+                cursor.executemany(insert_sql, stations_batch)
                 stations_batch = []
-        
+
         # 处理剩余数据
         if stations_batch:
-            cursor.executemany(f'''
-                INSERT OR REPLACE INTO stations (
-                    stationID, stationTypeID, {", ".join(f"{lang}_name" for lang in LANGS)},
-                    regionID, solarSystemID, security
-                ) VALUES (?, ?, {", ".join(["?"] * 8)}, ?, ?, ?)
-            ''', stations_batch)
-        
+            cursor.executemany(insert_sql, stations_batch)
+
         # 统计信息
         cursor.execute('SELECT COUNT(*) FROM stations')
         stations_count = cursor.fetchone()[0]
-        print(f"[+] NPC空间站数据处理完成: {stations_count} 个")
+        cursor.execute('SELECT COUNT(*) FROM stations WHERE LPStore IS NOT NULL')
+        lp_store_count = cursor.fetchone()[0]
+        print(f"[+] NPC空间站数据处理完成: {stations_count} 个（其中 {lp_store_count} 个拥有忠诚点商店服务）")
     
     
     
