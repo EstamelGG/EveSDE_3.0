@@ -45,7 +45,10 @@ def create_dynamic_items_tables(cursor: sqlite3.Cursor):
     创建动态物品属性相关的表
     """
     print("[+] 创建动态物品数据表...")
-    
+
+    # 库总是重建，先删旧表保证结构最新
+    cursor.execute('DROP TABLE IF EXISTS dynamic_item_attributes')
+
     # 创建动态物品属性表
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS dynamic_item_attributes (
@@ -53,6 +56,7 @@ def create_dynamic_items_tables(cursor: sqlite3.Cursor):
             attribute_id INTEGER,
             min_value REAL,
             max_value REAL,
+            high_is_good BOOLEAN,
             PRIMARY KEY (type_id, attribute_id)
         ) WITHOUT ROWID
     ''')
@@ -108,7 +112,8 @@ def process_dynamic_items_to_db(data: List[Dict[str, Any]], cursor: sqlite3.Curs
                         type_id,
                         attr_id,
                         round(attr_data.get("min", 0.0), 4),
-                        round(attr_data.get("max", 0.0), 4)
+                        round(attr_data.get("max", 0.0), 4),
+                        attr_data.get("highIsGood"),
                     ))
 
         # 处理映射数据 - JSONL格式是数组
@@ -127,8 +132,8 @@ def process_dynamic_items_to_db(data: List[Dict[str, Any]], cursor: sqlite3.Curs
         if len(attributes_batch) >= batch_size:
             cursor.executemany('''
                 INSERT OR REPLACE INTO dynamic_item_attributes 
-                (type_id, attribute_id, min_value, max_value)
-                VALUES (?, ?, ?, ?)
+                (type_id, attribute_id, min_value, max_value, high_is_good)
+                VALUES (?, ?, ?, ?, ?)
             ''', attributes_batch)
             attributes_batch = []
 
@@ -145,8 +150,8 @@ def process_dynamic_items_to_db(data: List[Dict[str, Any]], cursor: sqlite3.Curs
     if attributes_batch:
         cursor.executemany('''
             INSERT OR REPLACE INTO dynamic_item_attributes 
-            (type_id, attribute_id, min_value, max_value)
-            VALUES (?, ?, ?, ?)
+            (type_id, attribute_id, min_value, max_value, high_is_good)
+            VALUES (?, ?, ?, ?, ?)
         ''', attributes_batch)
 
     if mappings_batch:
