@@ -1,7 +1,7 @@
 {
   "type_id": 11370,
   "name": "Prototype Cloaking Device I",
-  "description": "This prototype of an advanced cloaking mechanism was one of the last major technological breakthroughs to come out of Crielere Labs. Although it does work it is not really a finished product and has some serious drawbacks, most notably the fact that the module creates high sensor disruption while fitted and can not operate unless at minimum velocity.\n\nNote: Fitting two or more cloaking devices to a ship negates their use, as unsynchronized light deflection causes interference.",
+  "description": "This prototype of an advanced cloaking mechanism was one of the last major technological breakthroughs to come out of Crielere Labs. Although it does work, it is not really a finished product and has some serious drawbacks, most notably the fact that the module creates high sensor disruption while fitted and cannot operate unless at minimum velocity.\n\nNote: Fitting two or more cloaking devices to a ship negates their use, as unsynchronized light deflection causes interference.",
   "volume": 100.0,
   "repackaged_volume": 100.0,
   "capacity": null,
