@@ -33,8 +33,14 @@ class AccountingTypesLocalizer:
         """SDE 缺 journalMessage 的条目，沿用旧版手工补丁。"""
         return {
             "market_escrow": {
-                "en": ["Market escrow release"],
-                "zh": ["市场契约金退还"],
+                "en": [
+                    "Market escrow authorized by: {name1}",
+                    "Market escrow release",
+                ],
+                "zh": [
+                    "{name1}授权的市场契约金", 
+                    "市场契约金退还"
+                ],
             },
             "corporation_account_withdrawal": {
                 "en": ["{name1} transferred cash from {name2}'s corporate account to {name3}'s account"],
