@@ -80,6 +80,10 @@ class AccountingTypesLocalizer:
                 "en": ["Planetary Export Tax: {name1} exported from {location}"],
                 "zh": ["行星出口税: 由 {name1} 从 {location} 出口"],
             },
+            "reprocessing_tax": {
+                "en": ["Fee paid by {name1} for use of {name2} reprocessing facility"],
+                "zh": ["{name1}向{name2}支付使用提炼设施的费用"],
+            },
         }
 
     def apply_manual_patches(self, accounting_types_data: Dict[str, Any]) -> Dict[str, Any]:
