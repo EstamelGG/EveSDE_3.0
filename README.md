@@ -11,8 +11,6 @@ python main.py
 
 常用参数：
 
-- `--force-localization`: 强制重新解析本地化数据
-- `--skip-localization`: 跳过本地化数据解析
 - `--force-rebuild`: 强制重新构建，忽略版本检查
 
 ## 项目结构

@@ -11,11 +11,8 @@
 from evesde.paths import PROJECT_ROOT
 from evesde.utils.single_db import get_db_path
 from evesde.utils.wide_i18n import LANGS, NAME_COLS, names_row
-import json
 import sqlite3
-import os
 import time
-from pathlib import Path
 from evesde.utils.http_client import create_session
 from typing import Dict, Any, List
 
@@ -34,27 +31,6 @@ class AgentLocalizationProcessor:
             'Accept': 'application/json',
             'Content-Type': 'application/json'
         })
-    
-    def load_localization_mapping(self) -> Dict[str, Any]:
-        """
-        加载英文到多种语言的映射文件
-        只从localization/output目录获取
-        """
-        mapping_file = self.project_root / self.config["paths"].get(
-            "localization_mid", "cache/localization/output"
-        ) / "en_multi_lang_mapping.json"
-        
-        if not mapping_file.exists():
-            print(f"[x] 找不到本地化映射文件: {mapping_file}")
-            return {}
-        
-        try:
-            with open(mapping_file, 'r', encoding='utf-8') as f:
-                print(f"[+] 成功加载本地化映射文件: {mapping_file}")
-                return json.load(f)
-        except Exception as e:
-            print(f"[x] 加载本地化映射文件时出错: {e}")
-            return {}
     
     def get_agent_names_from_esi(self, agent_ids: List[int]) -> Dict[int, str]:
         """
@@ -100,12 +76,6 @@ class AgentLocalizationProcessor:
         只处理那些在JSONL中没有名称的agent，使用ESI API作为补充
         """
         print("[+] 开始更新agents表的本地化信息...")
-        
-        # 加载本地化映射
-        localization_mapping = self.load_localization_mapping()
-        if not localization_mapping:
-            print("[x] 无法加载本地化映射，跳过agents本地化更新")
-            return False
         
         # 确保输出目录存在
         self.db_output_path.mkdir(parents=True, exist_ok=True)
@@ -185,18 +155,12 @@ class AgentLocalizationProcessor:
 
             print(f"[+] 找到 {len(agents_to_update)} 个没有名称的代理人记录")
             updated_count = 0
-            not_found_count = 0
             esi_not_found_count = 0
 
             for (agent_id,) in agents_to_update:
                 if agent_id in agent_names:
                     english_name = agent_names[agent_id]
                     texts = {lang: english_name for lang in LANGS}
-                    mapping = localization_mapping.get(english_name, {})
-                    for lang in LANGS:
-                        texts[lang] = mapping.get(lang, english_name)
-                    if english_name not in localization_mapping:
-                        not_found_count += 1
                     set_clause = ", ".join(f"{col}=?" for col in NAME_COLS)
                     cursor.execute(
                         f"UPDATE agents SET {set_clause} WHERE agent_id = ?",
@@ -214,8 +178,8 @@ class AgentLocalizationProcessor:
 
             conn.commit()
             print(
-                f"[+] 成功更新 {updated_count} 条（含本地化），"
-                f"{not_found_count} 条使用英文，{esi_not_found_count} 条使用默认名称"
+                f"[+] 成功更新 {updated_count} 条，"
+                f"{esi_not_found_count} 条使用默认名称"
             )
             success_count = 1
 

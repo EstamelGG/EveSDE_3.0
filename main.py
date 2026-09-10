@@ -17,7 +17,6 @@ from evesde.build_prep import (
     ensure_directories,
     get_latest_sde_info,
     load_config,
-    process_localization,
     rebuild_output_directory,
     resolve_build_numbers,
     write_latest_log,
@@ -38,8 +37,6 @@ os.environ["PYTHONUNBUFFERED"] = "1"
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description="EVE SDE 处理器")
-    parser.add_argument("--force-localization", action="store_true", help="强制重新解析本地化数据")
-    parser.add_argument("--skip-localization", action="store_true", help="跳过本地化数据解析")
     parser.add_argument("--force-rebuild", action="store_true", help="强制重新构建，忽略版本检查")
     parser.add_argument(
         "--skip-version-check",
@@ -128,16 +125,6 @@ def main():
     except Exception as e:
         print(f"[x] EVE 客户端资源索引初始化失败: {e}")
         sys.exit(1)
-
-    if not args.skip_localization:
-        print("\n[+] 第四步: 处理本地化数据")
-        print("=" * 30)
-        if not process_localization(force=args.force_localization, eve_client=config["eve_client"]):
-            print("[x] 本地化数据处理失败，程序退出")
-            sys.exit(1)
-        print("[+] 本地化数据处理完成")
-    else:
-        print("\n[+] 跳过本地化数据处理")
 
     print("\n[+] 开始执行SDE下载")
     if not sde_downloader.main(config, build_number=ccp_build_number):

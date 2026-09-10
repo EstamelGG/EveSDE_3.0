@@ -156,27 +156,6 @@ def check_network_connectivity() -> bool:
     return True
 
 
-def check_localization_exists() -> bool:
-    localization_output = PROJECT_ROOT / "cache" / "localization" / "output"
-    for file_name in ("en_multi_lang_mapping.json", "combined_localization.json"):
-        if not (localization_output / file_name).exists():
-            return False
-    return True
-
-
-def process_localization(force: bool = False, eve_client=None) -> bool:
-    if not force and check_localization_exists():
-        print("[+] 本地化数据已存在，跳过解析")
-        return True
-    print("[+] 开始处理本地化数据...")
-    try:
-        from evesde.localization.main import main as localization_main
-        return localization_main(eve_client=eve_client)
-    except Exception as e:
-        print(f"[x] 调用本地化处理函数时出错: {e}")
-        return False
-
-
 def rebuild_output_directory(config: Dict[str, Any]) -> None:
     for rel in ("output/sde", "output/icons"):
         path = PROJECT_ROOT / rel
