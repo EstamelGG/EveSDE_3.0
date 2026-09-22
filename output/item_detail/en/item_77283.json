@@ -291,14 +291,14 @@
     },
     {
       "attribute_name": "armorExplosiveDamageResonance",
-      "value": 0.6,
+      "value": 0.45,
       "categoryID": 3,
       "display_name": "Armor Explosive Damage Resistance",
       "unit_name": "%"
     },
     {
       "attribute_name": "armorKineticDamageResonance",
-      "value": 0.65625,
+      "value": 0.525,
       "categoryID": 3,
       "display_name": "Armor Kinetic Damage Resistance",
       "unit_name": "%"
@@ -319,14 +319,14 @@
     },
     {
       "attribute_name": "shieldExplosiveDamageResonance",
-      "value": 0.375,
+      "value": 0.275,
       "categoryID": 2,
       "display_name": "Shield Explosive Damage Resistance",
       "unit_name": "%"
     },
     {
       "attribute_name": "shieldKineticDamageResonance",
-      "value": 0.525,
+      "value": 0.45,
       "categoryID": 2,
       "display_name": "Shield Kinetic Damage Resistance",
       "unit_name": "%"

@@ -645,6 +645,13 @@
       "categoryID": 7,
       "display_name": "最大定向扫描范围",
       "unit_name": "m"
+    },
+    {
+      "attribute_name": "baseJumpBridgeCapacitorCost",
+      "value": 7000.0,
+      "categoryID": 17,
+      "display_name": "Ansiblex Activation Cost",
+      "unit_name": "GJ"
     }
   ],
   "traits": [
@@ -658,7 +665,7 @@
       "content": "<b>5%</b> <a href=\"showinfo:3301\">小型混合炮台</a>伤害加成"
     },
     {
-      "content": "<b>10%</b> <a href=\"showinfo:3436\">无人机</a>HP加成"
+      "content": "<b>10%</b> <a href=\"showinfo:3436\">无人机</a>HP和跟踪速度加成"
     },
     {
       "content": "<b>10%</b> <a href=\"showinfo:3301\">小型混合炮台</a>最佳射程加成"

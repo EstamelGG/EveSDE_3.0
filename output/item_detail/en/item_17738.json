@@ -666,6 +666,13 @@
       "categoryID": 0,
       "display_name": null,
       "unit_name": "%"
+    },
+    {
+      "attribute_name": "baseJumpBridgeCapacitorCost",
+      "value": 16500.0,
+      "categoryID": 17,
+      "display_name": "Ansiblex Activation Cost",
+      "unit_name": "GJ"
     }
   ],
   "traits": [

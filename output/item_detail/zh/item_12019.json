@@ -445,7 +445,7 @@
     },
     {
       "attribute_name": "eliteBonusHeavyGunship2",
-      "value": -5.0,
+      "value": -7.5,
       "categoryID": 9,
       "display_name": null,
       "unit_name": null
@@ -617,6 +617,13 @@
       "categoryID": 7,
       "display_name": "最大定向扫描范围",
       "unit_name": "m"
+    },
+    {
+      "attribute_name": "baseJumpBridgeCapacitorCost",
+      "value": 11500.0,
+      "categoryID": 17,
+      "display_name": "Ansiblex Activation Cost",
+      "unit_name": "GJ"
     }
   ],
   "traits": [
@@ -636,7 +643,7 @@
       "content": "<b>7.5%</b> <a href=\"showinfo:3324\">重型导弹</a>和<a href=\"showinfo:25719\">重型攻击导弹</a>最大速度加成"
     },
     {
-      "content": "<b>5%</b> <a href=\"showinfo:3324\">重型导弹发射器</a> 、<a href=\"showinfo:25719\">重型攻击导弹发射器</a>和<a href=\"showinfo:3321\">轻型快速导弹发射器</a>射速加成"
+      "content": "<b>7.5%</b> <a href=\"showinfo:3324\">重型导弹发射器</a> 、<a href=\"showinfo:25719\">重型攻击导弹发射器</a>和<a href=\"showinfo:3321\">轻型快速导弹发射器</a>射速加成"
     }
   ]
 }

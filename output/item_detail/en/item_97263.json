@@ -1,0 +1,70 @@
+{
+  "type_id": 97263,
+  "name": "Hybrid Drone Specialization",
+  "description": "Training in the operation of Hybrid Drones.\n\n3% bonus per skill level to Hybrid Drone damage.",
+  "volume": 0.01,
+  "repackaged_volume": 0.01,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Skill",
+  "group_name": "Drones",
+  "attributes": [
+    {
+      "attribute_name": "primaryAttribute",
+      "value": 166.0,
+      "categoryID": 7,
+      "display_name": "Primary attribute",
+      "unit_name": "attributeID"
+    },
+    {
+      "attribute_name": "secondaryAttribute",
+      "value": 167.0,
+      "categoryID": 7,
+      "display_name": "Secondary attribute",
+      "unit_name": "attributeID"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3436.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "skillTimeConstant",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "Training time multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "skillLevel",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Level",
+      "unit_name": null
+    },
+    {
+      "attribute_name": "damageMultiplierBonus",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "Damage Multiplier Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "canNotBeTrainedOnTrial",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": null,
+      "unit_name": null
+    }
+  ],
+  "traits": []
+}

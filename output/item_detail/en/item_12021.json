@@ -515,7 +515,7 @@
     },
     {
       "attribute_name": "eliteBonusHeavyInterdictors1",
-      "value": 10.0,
+      "value": 15.0,
       "categoryID": 7,
       "display_name": null,
       "unit_name": null
@@ -624,6 +624,13 @@
       "categoryID": 7,
       "display_name": "Maximum Directional Scan Range",
       "unit_name": "m"
+    },
+    {
+      "attribute_name": "baseJumpBridgeCapacitorCost",
+      "value": 10500.0,
+      "categoryID": 17,
+      "display_name": "Ansiblex Activation Cost",
+      "unit_name": "GJ"
     }
   ],
   "traits": [
@@ -640,7 +647,7 @@
       "content": "<b>10%</b> bonus to <a href=showinfo:3304>Medium Hybrid Turret</a> tracking speed"
     },
     {
-      "content": "<b>10%</b> bonus to <a href=showinfo:3304>Medium Hybrid Turret</a> optimal range"
+      "content": "<b>15%</b> bonus to <a href=showinfo:3304>Medium Hybrid Turret</a> optimal range"
     },
     {
       "content": "<b>5%</b> bonus to <a href=showinfo:28654>Warp Disruption Field Generator</a> range"

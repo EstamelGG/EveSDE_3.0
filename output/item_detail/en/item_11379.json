@@ -361,7 +361,7 @@
     },
     {
       "attribute_name": "shipBonusCF",
-      "value": 10.0,
+      "value": 7.5,
       "categoryID": 37,
       "display_name": null,
       "unit_name": null
@@ -645,6 +645,13 @@
       "categoryID": 7,
       "display_name": "Maximum Directional Scan Range",
       "unit_name": "m"
+    },
+    {
+      "attribute_name": "baseJumpBridgeCapacitorCost",
+      "value": 7000.0,
+      "categoryID": 17,
+      "display_name": "Ansiblex Activation Cost",
+      "unit_name": "GJ"
     }
   ],
   "traits": [
@@ -655,7 +662,7 @@
       "content": "Can fit <a href=showinfo:47254>Assault Damage Controls</a>"
     },
     {
-      "content": "<b>10%</b> bonus to kinetic <a href=showinfo:3321>Light Missile</a> and <a href=showinfo:3320>Rocket</a> damage"
+      "content": "<b>7.5%</b> bonus to <a href=showinfo:3321>Light Missile</a> and <a href=showinfo:3320>Rocket</a> damage"
     },
     {
       "content": "<b>5%</b> bonus to <a href=showinfo:3321>Light Missile</a> and <a href=showinfo:3320>Rocket</a> Launcher rate of fire"

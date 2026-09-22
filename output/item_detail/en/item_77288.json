@@ -284,7 +284,7 @@
     },
     {
       "attribute_name": "armorEmDamageResonance",
-      "value": 0.3,
+      "value": 0.2,
       "categoryID": 3,
       "display_name": "Armor EM Damage Resistance",
       "unit_name": "%"
@@ -305,14 +305,14 @@
     },
     {
       "attribute_name": "armorThermalDamageResonance",
-      "value": 0.56875,
+      "value": 0.5,
       "categoryID": 3,
       "display_name": "Armor Thermal Damage Resistance",
       "unit_name": "%"
     },
     {
       "attribute_name": "shieldEmDamageResonance",
-      "value": 0.75,
+      "value": 0.55,
       "categoryID": 2,
       "display_name": "Shield EM Damage Resistance",
       "unit_name": "%"
@@ -333,7 +333,7 @@
     },
     {
       "attribute_name": "shieldThermalDamageResonance",
-      "value": 0.7,
+      "value": 0.6,
       "categoryID": 2,
       "display_name": "Shield Thermal Damage Resistance",
       "unit_name": "%"

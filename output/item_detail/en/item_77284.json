@@ -298,14 +298,14 @@
     },
     {
       "attribute_name": "armorKineticDamageResonance",
-      "value": 0.65625,
+      "value": 0.5,
       "categoryID": 3,
       "display_name": "Armor Kinetic Damage Resistance",
       "unit_name": "%"
     },
     {
       "attribute_name": "armorThermalDamageResonance",
-      "value": 0.4125,
+      "value": 0.375,
       "categoryID": 3,
       "display_name": "Armor Thermal Damage Resistance",
       "unit_name": "%"
@@ -326,14 +326,14 @@
     },
     {
       "attribute_name": "shieldKineticDamageResonance",
-      "value": 0.525,
+      "value": 0.45,
       "categoryID": 2,
       "display_name": "Shield Kinetic Damage Resistance",
       "unit_name": "%"
     },
     {
       "attribute_name": "shieldThermalDamageResonance",
-      "value": 0.6,
+      "value": 0.4,
       "categoryID": 2,
       "display_name": "Shield Thermal Damage Resistance",
       "unit_name": "%"

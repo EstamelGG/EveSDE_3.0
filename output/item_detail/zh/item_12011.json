@@ -445,7 +445,7 @@
     },
     {
       "attribute_name": "eliteBonusHeavyGunship2",
-      "value": 5.0,
+      "value": 7.5,
       "categoryID": 9,
       "display_name": null,
       "unit_name": null
@@ -617,6 +617,13 @@
       "categoryID": 7,
       "display_name": "最大定向扫描范围",
       "unit_name": "m"
+    },
+    {
+      "attribute_name": "baseJumpBridgeCapacitorCost",
+      "value": 11500.0,
+      "categoryID": 17,
+      "display_name": "Ansiblex Activation Cost",
+      "unit_name": "GJ"
     }
   ],
   "traits": [
@@ -636,7 +643,7 @@
       "content": "<b>5%</b> <a href=showinfo:3304>中型混合炮台</a>跟踪速度加成"
     },
     {
-      "content": "<b>5%</b> <a href=\"showinfo:3304\">中型混合炮台</a>伤害加成"
+      "content": "<b>7.5%</b> <a href=\"showinfo:3304\">中型混合炮台</a>伤害加成"
     }
   ]
 }

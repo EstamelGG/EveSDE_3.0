@@ -5,7 +5,7 @@
   "volume": 414000.0,
   "repackaged_volume": 50000.0,
   "capacity": 825.0,
-  "mass": 148800000.0,
+  "mass": 111600000.0,
   "category_name": "Ship",
   "group_name": "Black Ops",
   "attributes": [
@@ -109,7 +109,7 @@
     },
     {
       "attribute_name": "agility",
-      "value": 0.064,
+      "value": 0.0853,
       "categoryID": 17,
       "display_name": "Inertia Modifier",
       "unit_name": "x"
@@ -785,6 +785,13 @@
       "categoryID": 7,
       "display_name": "Maximum Directional Scan Range",
       "unit_name": "m"
+    },
+    {
+      "attribute_name": "baseJumpBridgeCapacitorCost",
+      "value": 18000.0,
+      "categoryID": 17,
+      "display_name": "Ansiblex Activation Cost",
+      "unit_name": "GJ"
     }
   ],
   "traits": [

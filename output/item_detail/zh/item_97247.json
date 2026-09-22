@@ -1,0 +1,13 @@
+{
+  "type_id": 97247,
+  "name": "Radical Drone Link Augmentor Mutaplasmid",
+  "description": "This bioadaptive mutaplasmid tool combines Triglavian and Rogue Drone technologies. Originally a Triglavian tool for mutating the performance of various pieces of technology, this mutaplasmid has been modified to specifically adapt a Drone Link Augmentor. It was altered by a Rampant Fabricator in its endless quest for unrestrained production.\n\nThe mutaplasmid colony integrated into this bioadaptive tool is unusual, and the Rogue Drone nanotechnology has rendered it unstable. Expect a wide range of possible mutations.",
+  "volume": 1.0,
+  "repackaged_volume": 1.0,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "常用物品",
+  "group_name": "突变质体",
+  "attributes": [],
+  "traits": []
+}

@@ -53,7 +53,7 @@
     },
     {
       "attribute_name": "rechargeRate",
-      "value": 3600000.0,
+      "value": 22500000.0,
       "categoryID": 5,
       "display_name": "Capacitor Recharge time",
       "unit_name": "s"
@@ -228,7 +228,7 @@
     },
     {
       "attribute_name": "capacitorCapacity",
-      "value": 200000.0,
+      "value": 1250000.0,
       "categoryID": 5,
       "display_name": "Capacitor Capacity",
       "unit_name": "GJ"

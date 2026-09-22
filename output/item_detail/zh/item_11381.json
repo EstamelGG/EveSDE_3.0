@@ -424,7 +424,7 @@
     },
     {
       "attribute_name": "shipBonusCF2",
-      "value": 10.0,
+      "value": 15.0,
       "categoryID": 9,
       "display_name": null,
       "unit_name": null
@@ -459,7 +459,7 @@
     },
     {
       "attribute_name": "eliteBonusGunship1",
-      "value": 10.0,
+      "value": 5.0,
       "categoryID": 9,
       "display_name": null,
       "unit_name": null
@@ -645,6 +645,13 @@
       "categoryID": 7,
       "display_name": "最大定向扫描范围",
       "unit_name": "m"
+    },
+    {
+      "attribute_name": "baseJumpBridgeCapacitorCost",
+      "value": 7000.0,
+      "categoryID": 17,
+      "display_name": "Ansiblex Activation Cost",
+      "unit_name": "GJ"
     }
   ],
   "traits": [
@@ -655,13 +662,13 @@
       "content": "可以装配<a href=showinfo:47254>突击损伤控制</a>装备"
     },
     {
-      "content": "<b>10%</b> <a href=\"showinfo:3301\">小型混合炮台</a>最佳射程加成"
+      "content": "<b>15%</b> <a href=\"showinfo:3301\">小型混合炮台</a>最佳射程加成"
     },
     {
       "content": "<b>4%</b> 护盾抗性加成"
     },
     {
-      "content": "<b>10%</b> <a href=\"showinfo:3301\">小型混合炮台</a>最佳射程加成"
+      "content": "<b>5%</b> <a href=\"showinfo:3301\">小型混合炮台</a>跟踪速度加成"
     },
     {
       "content": "<b>5%</b> <a href=\"showinfo:3301\">小型混合炮台</a>伤害加成"

@@ -382,7 +382,7 @@
     },
     {
       "attribute_name": "shipBonusCC",
-      "value": 5.0,
+      "value": 2.5,
       "categoryID": 9,
       "display_name": null,
       "unit_name": null
@@ -617,6 +617,13 @@
       "categoryID": 7,
       "display_name": "最大定向扫描范围",
       "unit_name": "m"
+    },
+    {
+      "attribute_name": "baseJumpBridgeCapacitorCost",
+      "value": 11500.0,
+      "categoryID": 17,
+      "display_name": "Ansiblex Activation Cost",
+      "unit_name": "GJ"
     }
   ],
   "traits": [
@@ -627,7 +634,7 @@
       "content": "可以装配<a href=showinfo:47254>突击损伤控制</a>装备"
     },
     {
-      "content": "<b>5%</b> <a href=\"showinfo:3321\">轻型导弹</a>、<a href=\"showinfo:3324\">重型导弹</a>和<a href=\"showinfo:25719\">重型攻击导弹</a>动能伤害加成"
+      "content": "<b>2.5%</b> <a href=showinfo:3321>轻型导弹</a>、<a href=showinfo:3324>重型导弹</a>和<a href=showinfo:25719>重型攻击导弹</a>伤害加成"
     },
     {
       "content": "<b>20%</b> <a href=showinfo:25719>重型攻击导弹</a>最大速度加成"

@@ -515,7 +515,7 @@
     },
     {
       "attribute_name": "eliteBonusHeavyInterdictors1",
-      "value": 10.0,
+      "value": 15.0,
       "categoryID": 7,
       "display_name": null,
       "unit_name": null
@@ -624,6 +624,13 @@
       "categoryID": 7,
       "display_name": "最大定向扫描范围",
       "unit_name": "m"
+    },
+    {
+      "attribute_name": "baseJumpBridgeCapacitorCost",
+      "value": 10500.0,
+      "categoryID": 17,
+      "display_name": "Ansiblex Activation Cost",
+      "unit_name": "GJ"
     }
   ],
   "traits": [
@@ -640,7 +647,7 @@
       "content": "<b>10%</b> <a href=showinfo:3304>中型混合炮台</a>跟踪速度加成"
     },
     {
-      "content": "<b>10%</b> <a href=showinfo:3304>中型混合炮台</a>最佳射程加成"
+      "content": "<b>15%</b> <a href=showinfo:3304>中型混合炮台</a>最佳射程加成"
     },
     {
       "content": "<b>5%</b> <a href=showinfo:28654>跃迁扰断力场发生器</a>的范围扩大"

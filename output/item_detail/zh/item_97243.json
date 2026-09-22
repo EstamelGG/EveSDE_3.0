@@ -1,0 +1,70 @@
+{
+  "type_id": 97243,
+  "name": "Mutated Drone Navigation Computer",
+  "description": "Increases microwarpdrive speed of drones.\nIncreases the speed of fighters.\n\nBursts of trinary interference interrupt the normal streams of binary navigational data. Whether these are helping or confusing the drone’s navigation is difficult to determine.\n\nPenalty: Using more than one type of this module or similar modules that affect the same attribute on the ship will be penalized.",
+  "volume": 25.0,
+  "repackaged_volume": 25.0,
+  "capacity": null,
+  "mass": 200.0,
+  "category_name": "装备",
+  "group_name": "无人机导航电脑",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "speedFactor",
+      "value": 30.0,
+      "categoryID": 28,
+      "display_name": "最大速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "power",
+      "value": 1.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 35.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 12305.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    }
+  ],
+  "traits": []
+}

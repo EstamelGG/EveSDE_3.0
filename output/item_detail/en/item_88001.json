@@ -5,7 +5,7 @@
   "volume": 470000.0,
   "repackaged_volume": 50000.0,
   "capacity": 1333.0,
-  "mass": 143000000.0,
+  "mass": 114400000.0,
   "category_name": "Ship",
   "group_name": "Marauder",
   "attributes": [
@@ -102,7 +102,7 @@
     },
     {
       "attribute_name": "agility",
-      "value": 0.08,
+      "value": 0.1,
       "categoryID": 17,
       "display_name": "Inertia Modifier",
       "unit_name": "x"
@@ -659,6 +659,13 @@
       "categoryID": 7,
       "display_name": "Maximum Directional Scan Range",
       "unit_name": "m"
+    },
+    {
+      "attribute_name": "baseJumpBridgeCapacitorCost",
+      "value": 19000.0,
+      "categoryID": 17,
+      "display_name": "Ansiblex Activation Cost",
+      "unit_name": "GJ"
     }
   ],
   "traits": [

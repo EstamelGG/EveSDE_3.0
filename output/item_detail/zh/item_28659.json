@@ -5,7 +5,7 @@
   "volume": 470000.0,
   "repackaged_volume": 50000.0,
   "capacity": 1125.0,
-  "mass": 160000000.0,
+  "mass": 128000000.0,
   "category_name": "舰船",
   "group_name": "掠夺舰",
   "attributes": [
@@ -102,7 +102,7 @@
     },
     {
       "attribute_name": "agility",
-      "value": 0.0686,
+      "value": 0.858,
       "categoryID": 17,
       "display_name": "惯性调整",
       "unit_name": "x"
@@ -652,6 +652,13 @@
       "categoryID": 7,
       "display_name": "最大定向扫描范围",
       "unit_name": "m"
+    },
+    {
+      "attribute_name": "baseJumpBridgeCapacitorCost",
+      "value": 19000.0,
+      "categoryID": 17,
+      "display_name": "Ansiblex Activation Cost",
+      "unit_name": "GJ"
     }
   ],
   "traits": [

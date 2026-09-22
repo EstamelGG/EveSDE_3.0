@@ -382,7 +382,7 @@
     },
     {
       "attribute_name": "shipBonusGC",
-      "value": 10.0,
+      "value": 15.0,
       "categoryID": 9,
       "display_name": null,
       "unit_name": null
@@ -624,6 +624,13 @@
       "categoryID": 7,
       "display_name": "最大定向扫描范围",
       "unit_name": "m"
+    },
+    {
+      "attribute_name": "baseJumpBridgeCapacitorCost",
+      "value": 10000.0,
+      "categoryID": 17,
+      "display_name": "Ansiblex Activation Cost",
+      "unit_name": "GJ"
     }
   ],
   "traits": [
@@ -631,7 +638,7 @@
       "content": "<b>75%</b> <a href=\"showinfo:3304\">中型混合炮台</a>伤害加成"
     },
     {
-      "content": "<b>10%</b> <a href=\"showinfo:3304\">中型混合炮台</a>失准范围加成"
+      "content": "<b>15%</b> <a href=\"showinfo:3304\">中型混合炮台</a>失准范围加成"
     },
     {
       "content": "<b>10%</b> <a href=\"showinfo:526\">停滞缠绕光束</a>效果加成"

@@ -7,7 +7,7 @@
   "capacity": null,
   "mass": 3000.0,
   "category_name": "Drone",
-  "group_name": "Combat Drone",
+  "group_name": "Hybrid Drone",
   "attributes": [
     {
       "attribute_name": "hp",

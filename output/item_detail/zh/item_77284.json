@@ -298,14 +298,14 @@
     },
     {
       "attribute_name": "armorKineticDamageResonance",
-      "value": 0.65625,
+      "value": 0.5,
       "categoryID": 3,
       "display_name": "装甲动能伤害抗性",
       "unit_name": "%"
     },
     {
       "attribute_name": "armorThermalDamageResonance",
-      "value": 0.4125,
+      "value": 0.375,
       "categoryID": 3,
       "display_name": "装甲热能伤害抗性",
       "unit_name": "%"
@@ -326,14 +326,14 @@
     },
     {
       "attribute_name": "shieldKineticDamageResonance",
-      "value": 0.525,
+      "value": 0.45,
       "categoryID": 2,
       "display_name": "护盾动能伤害抗性",
       "unit_name": "%"
     },
     {
       "attribute_name": "shieldThermalDamageResonance",
-      "value": 0.6,
+      "value": 0.4,
       "categoryID": 2,
       "display_name": "护盾热能伤害抗性",
       "unit_name": "%"
