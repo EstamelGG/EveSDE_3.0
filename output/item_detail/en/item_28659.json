@@ -102,7 +102,7 @@
     },
     {
       "attribute_name": "agility",
-      "value": 0.858,
+      "value": 0.0858,
       "categoryID": 17,
       "display_name": "Inertia Modifier",
       "unit_name": "x"

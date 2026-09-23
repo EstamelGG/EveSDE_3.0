@@ -477,6 +477,13 @@
       "categoryID": 4,
       "display_name": null,
       "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "remoteCapacitorImpedance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "Remote Capacitor Transmitter Impedance",
+      "unit_name": "%"
     }
   ],
   "traits": [

@@ -253,6 +253,13 @@
       "categoryID": 7,
       "display_name": "不允许停靠",
       "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "remoteCapacitorImpedanceBonus",
+      "value": -99.9999,
+      "categoryID": 37,
+      "display_name": "Remote Capacitor Transmitter Impedance Bonus",
+      "unit_name": "%"
     }
   ],
   "traits": []

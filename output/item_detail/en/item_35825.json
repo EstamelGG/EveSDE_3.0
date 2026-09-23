@@ -484,6 +484,13 @@
       "categoryID": 4,
       "display_name": "DPS threshold to pause hull repair",
       "unit_name": "HP"
+    },
+    {
+      "attribute_name": "remoteCapacitorImpedance",
+      "value": 1e-05,
+      "categoryID": 36,
+      "display_name": "Remote Capacitor Transmitter Impedance",
+      "unit_name": "%"
     }
   ],
   "traits": [

@@ -246,6 +246,13 @@
       "categoryID": 37,
       "display_name": "快速鱼雷发射器加成",
       "unit_name": "%"
+    },
+    {
+      "attribute_name": "remoteCapacitorImpedanceBonus",
+      "value": -99.9999,
+      "categoryID": 37,
+      "display_name": "Remote Capacitor Transmitter Impedance Bonus",
+      "unit_name": "%"
     }
   ],
   "traits": []

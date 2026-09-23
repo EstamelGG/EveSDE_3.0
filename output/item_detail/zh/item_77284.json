@@ -827,6 +827,13 @@
       "categoryID": 7,
       "display_name": "最大定向扫描范围",
       "unit_name": "m"
+    },
+    {
+      "attribute_name": "remoteCapacitorImpedance",
+      "value": 1.0,
+      "categoryID": 36,
+      "display_name": "Remote Capacitor Transmitter Impedance",
+      "unit_name": "%"
     }
   ],
   "traits": [

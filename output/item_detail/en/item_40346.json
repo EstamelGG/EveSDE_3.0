@@ -295,6 +295,13 @@
       "categoryID": 38,
       "display_name": "Refueling Duration",
       "unit_name": "s"
+    },
+    {
+      "attribute_name": "remoteCapacitorImpedance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "Remote Capacitor Transmitter Impedance",
+      "unit_name": "%"
     }
   ],
   "traits": []

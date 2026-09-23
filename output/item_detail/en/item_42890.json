@@ -274,6 +274,13 @@
       "categoryID": 37,
       "display_name": "Shield Booster Amount Bonus",
       "unit_name": "%"
+    },
+    {
+      "attribute_name": "remoteCapacitorImpedanceBonus",
+      "value": -99.9999,
+      "categoryID": 37,
+      "display_name": "Remote Capacitor Transmitter Impedance Bonus",
+      "unit_name": "%"
     }
   ],
   "traits": []
