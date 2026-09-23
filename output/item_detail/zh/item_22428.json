@@ -783,7 +783,7 @@
       "attribute_name": "baseJumpBridgeCapacitorCost",
       "value": 18000.0,
       "categoryID": 17,
-      "display_name": "Ansiblex Activation Cost",
+      "display_name": "安塞波启用耗电量",
       "unit_name": "GJ"
     }
   ],

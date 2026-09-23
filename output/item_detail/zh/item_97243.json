@@ -1,7 +1,7 @@
 {
   "type_id": 97243,
-  "name": "Mutated Drone Navigation Computer",
-  "description": "Increases microwarpdrive speed of drones.\nIncreases the speed of fighters.\n\nBursts of trinary interference interrupt the normal streams of binary navigational data. Whether these are helping or confusing the drone’s navigation is difficult to determine.\n\nPenalty: Using more than one type of this module or similar modules that affect the same attribute on the ship will be penalized.",
+  "name": "变异无人机导航计算机",
+  "description": "提高无人机的微型跃迁推进器速度。提高铁骑舰载机的速度。三进制干扰的爆发会中断正常的二进制导航数据流。这些因素究竟是帮助还是干扰了无人机的导航，目前尚难断定。惩罚：在一艘舰船上使用多个这类装备或多个与该装备作用一致的类似装备将削弱实际使用效果。",
   "volume": 25.0,
   "repackaged_volume": 25.0,
   "capacity": null,

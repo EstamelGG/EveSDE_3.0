@@ -1,7 +1,7 @@
 {
   "type_id": 97263,
-  "name": "Hybrid Drone Specialization",
-  "description": "Training in the operation of Hybrid Drones.\n\n3% bonus per skill level to Hybrid Drone damage.",
+  "name": "混合无人机专业研究",
+  "description": "混合无人机操作培训。每升一级则增加3%混合无人机伤害。",
   "volume": 0.01,
   "repackaged_volume": 0.01,
   "capacity": null,

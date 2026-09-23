@@ -1,7 +1,7 @@
 {
   "type_id": 97242,
-  "name": "Mutated Omnidirectional Tracking Link",
-  "description": "Improves the optimal range and tracking of all drones. Improves the optimal range, falloff range, explosion radius, and explosion velocity of all fighter weapons.\n\nSupercharged mutated systems are producing much more latent noise, and protective earwear is recommended for any human maintenance workers.\n\nPenalty: Using more than one type of this module or similar modules that affect the same attribute on the ship will be penalized.",
+  "name": "变异全方位索敌连接",
+  "description": "提升所有无人机的最佳射程和跟踪速度。提升所有铁骑舰载机武器的最佳射程、失准范围、爆炸半径和爆炸速度。超强变异系统会产生更多潜在噪音，建议所有负责维护的人类工作人员佩戴防护耳罩。惩罚：在一艘舰船上使用多个这类装备或多个与该装备作用一致的类似装备将削弱实际使用效果。",
   "volume": 5.0,
   "repackaged_volume": 5.0,
   "capacity": 1.0,

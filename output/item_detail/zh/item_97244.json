@@ -1,7 +1,7 @@
 {
   "type_id": 97244,
-  "name": "Mutated Omnidirectional Tracking Enhancer",
-  "description": "Enhances the range and improves the tracking speed of all drones. Enhances the range, explosion radius and explosion velocity of all fighter weapons.\n\nThe mutated sensors have an inconsistent ability to pick up quantum location or directional information. If it is able to process that data fast enough, it should be able to operate at superior resolutions. If not, it may have led to degraded performance.\n\nPenalty: Using more than one type of this module or similar modules that affect the same attribute on the ship will be penalized.",
+  "name": "变异全方位索敌增强器",
+  "description": "增加所有无人机的射程和跟踪速度。提升所有铁骑舰载机武器的射程、爆炸半径和爆炸速度。变异传感器获取量子位置信息或方向信息的能力并不稳定。如果它能够快速地处理这些数据，其运作精度应当会得到提升。否则，可能会导致性能下降。惩罚：在一艘舰船上使用多个这类装备或多个与该装备作用一致的类似装备将削弱实际使用效果。",
   "volume": 5.0,
   "repackaged_volume": 5.0,
   "capacity": null,

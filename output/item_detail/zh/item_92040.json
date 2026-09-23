@@ -7,7 +7,7 @@
   "capacity": null,
   "mass": 5000.0,
   "category_name": "无人机",
-  "group_name": "Hybrid Drone",
+  "group_name": "混合无人机",
   "attributes": [
     {
       "attribute_name": "hp",

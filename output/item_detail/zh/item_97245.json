@@ -1,7 +1,7 @@
 {
   "type_id": 97245,
-  "name": "Mutated Drone Link Augmentor",
-  "description": "Increases drone control range.\n\nIn the regular noise of drone communication, strange patterns of synchronicity begin to emerge. It is as if the simple intelligences that govern the connected drones tend to temporarily coalesce into a single unit.",
+  "name": "变异无人机链接增效器",
+  "description": "增加无人机控制距离。在无人机通信产生的常规噪声中，开始出现奇怪的同步模式。这就好像控制相连无人机的简单智能会暂时聚合成一个整体。",
   "volume": 25.0,
   "repackaged_volume": 25.0,
   "capacity": null,
