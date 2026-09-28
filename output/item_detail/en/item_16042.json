@@ -1,6 +1,6 @@
 {
   "type_id": 16042,
-  "name": "Medium Sized Sealed Cargo Containers",
+  "name": "Medium Sized Sealed Cargo Container",
   "description": "These containers are fitted with a password-protected security lock.",
   "volume": 50.0,
   "repackaged_volume": 50.0,
