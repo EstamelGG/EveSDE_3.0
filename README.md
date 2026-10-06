@@ -103,6 +103,8 @@ python -m evesde sync-history \
 
 该命令校验源文件，复制报告和物品详情，提交变更，并在指定 `--push` 时推送。调试构建清单不能用于历史同步。Actions 先同步历史再创建 Release，使报告链接可用；任一必需步骤失败都会阻止后续发布。
 
+发布步骤通过 `with.token` 显式传入 `GH_TOKEN`（未配置时使用内置 `GITHUB_TOKEN`），标签指向历史同步后已推送的提交。工作流已声明 `contents: write`；自定义 `GH_TOKEN` 的权限需单独配置，不会被这项声明提升。若使用细粒度 PAT，需授权目标仓库并具备 `Contents: Read and write`；若标签目标提交涉及相对默认分支的工作流修改，还需 `Workflows: Read and write`。修改工作流后应从新提交发起运行，重跑旧任务仍会使用旧工作流。
+
 ## 机器可读物品变更
 
 存在实际更新和上一版比较基线时，`whats_new_<old>_<new>.md` 会同时生成同名 `.json`，并共同加入 Release、全量包及历史提交。JSON 使用物品/属性/蓝图 ID 作为键，不包含显示名称；变化值为 `{"old":"10","new":"20"}`，新增或删除的一侧用 `null`，零值保留为 `"0"`。
@@ -139,7 +141,7 @@ tests/                     # 离线单元与集成测试
 
 ## GitHub Actions
 
-- `auto-sde-build.yml`：一个作业完成测试、版本计划、构建打包、检查产物上传、历史同步和发布。工作流只承担运行环境、条件、权限和发布动作；不在 YAML 内实现版本选择、文件复制或 Git 提交逻辑。
+- `auto-sde-build.yml`：一个作业完成版本计划、构建打包、检查产物上传、历史同步和发布。工作流只承担运行环境、条件、权限和发布动作；不在 YAML 内实现版本选择、文件复制或 Git 提交逻辑。
 - `checks.yml`：PR 和相关源码变更检查项目安装、Python 编译和命令行入口，不运行离线回归测试。
 - `remove-old-artifacts.yml`：保留手动入口，调用 `clean-artifacts --days 5 --keep 5`，保留最近 5 个产物并删除其余超过 5 天的产物。
 

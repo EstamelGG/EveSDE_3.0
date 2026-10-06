@@ -107,17 +107,16 @@ jobs:
         if: steps.build.outputs.should-publish == 'true'
         uses: softprops/action-gh-release@v3
         with:
+          token: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
           files: ${{ steps.build.outputs.release-files }}
           tag_name: sde-build-${{ steps.plan.outputs.final-build-number }}
           name: EVE SDE Build ${{ steps.plan.outputs.final-build-number }}
-          target_commitish: ${{ github.sha }}
+          target_commitish: ${{ steps.history.outputs.commit }}
           body_path: ${{ steps.build.outputs.release-notes }}
           draft: false
           prerelease: false
           fail_on_unmatched_files: true
           generate_release_notes: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
 
       - name: 运行摘要
         if: always()
