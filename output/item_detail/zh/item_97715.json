@@ -1,0 +1,21 @@
+{
+  "type_id": 97715,
+  "name": "Dark Blood Large Armor Repairer Blueprint",
+  "description": null,
+  "volume": 0.01,
+  "repackaged_volume": 0.01,
+  "capacity": null,
+  "mass": null,
+  "category_name": "蓝图",
+  "group_name": "装甲维修组件蓝图",
+  "attributes": [
+    {
+      "attribute_name": "industryBlueprintRank",
+      "value": 9.0,
+      "categoryID": 7,
+      "display_name": null,
+      "unit_name": null
+    }
+  ],
+  "traits": []
+}

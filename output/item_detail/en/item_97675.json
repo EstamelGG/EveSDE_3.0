@@ -1,0 +1,28 @@
+{
+  "type_id": 97675,
+  "name": "Small Abyssal Remote Armor Repairer",
+  "description": "This module uses nano-assemblers to repair damage done to the armor of the Target ship.",
+  "volume": 5.0,
+  "repackaged_volume": 5.0,
+  "capacity": null,
+  "mass": 20.0,
+  "category_name": "Module",
+  "group_name": "Remote Armor Repairer",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 16069.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 3.0,
+      "categoryID": 8,
+      "display_name": null,
+      "unit_name": null
+    }
+  ],
+  "traits": []
+}

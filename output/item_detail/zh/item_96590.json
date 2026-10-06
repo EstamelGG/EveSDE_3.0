@@ -1,0 +1,56 @@
+{
+  "type_id": 96590,
+  "name": "Chemal Tech Exploration Booster III",
+  "description": "<b>+8 Data Analyzer Virus Coherence</b>\n<b>+12% Scan Probe Strength</b>\n\nBase Duration: 3 Hours\n\n<b>Expiry date: November 10, YC128</b>",
+  "volume": 1.0,
+  "repackaged_volume": 1.0,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "boosterDuration",
+      "value": 10800000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "scanStrengthBonus",
+      "value": 12.0,
+      "categoryID": 7,
+      "display_name": "探针扫描强度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 15.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "virusStrengthBonus",
+      "value": 8.0,
+      "categoryID": 7,
+      "display_name": "分析仪病毒强度加成",
+      "unit_name": null
+    },
+    {
+      "attribute_name": "boosterLastInjectionDatetime",
+      "value": 20767.4576388889,
+      "categoryID": 7,
+      "display_name": "有效期",
+      "unit_name": null
+    }
+  ],
+  "traits": []
+}

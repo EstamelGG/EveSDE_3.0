@@ -1,0 +1,63 @@
+{
+  "type_id": 96566,
+  "name": "Tetrimon Anti-Drain Booster IV",
+  "description": "This booster has been developed by the Order of St. Tetrimon's militant paladins to assist them in hunting down cultists.\n\n<b>+24% Energy Warfare Resistance. Base Duration: 2 Hours</b>\n\n<b>Expiry date: November 10, YC128</b>",
+  "volume": 1.0,
+  "repackaged_volume": 1.0,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Implant",
+  "group_name": "Booster",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3405.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 7200000.0,
+      "categoryID": 7,
+      "display_name": "Booster Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 6.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 14.0,
+      "categoryID": 7,
+      "display_name": "Booster Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "energyWarfareResistanceBonus",
+      "value": -24.0,
+      "categoryID": 36,
+      "display_name": "Capacitor Warfare Resistance Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterLastInjectionDatetime",
+      "value": 20767.4576388889,
+      "categoryID": 7,
+      "display_name": "Expiry Date",
+      "unit_name": null
+    }
+  ],
+  "traits": []
+}

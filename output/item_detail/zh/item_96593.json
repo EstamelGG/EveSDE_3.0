@@ -1,0 +1,49 @@
+{
+  "type_id": 96593,
+  "name": "Chemal Tech Repair Booster III",
+  "description": "<b>-12% Armor Repairer Cycle Time.</b>\n<b>-12% Shield Booster Cycle Time.</b>\n\nBase Duration: 3 Hours\n\n<b>Expiry date: November 10, YC128</b>",
+  "volume": 1.0,
+  "repackaged_volume": 1.0,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "durationSkillBonus",
+      "value": -12.0,
+      "categoryID": 7,
+      "display_name": "单次运转时间加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 10800000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 16.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "boosterLastInjectionDatetime",
+      "value": 20767.4576388889,
+      "categoryID": 7,
+      "display_name": "有效期",
+      "unit_name": null
+    }
+  ],
+  "traits": []
+}

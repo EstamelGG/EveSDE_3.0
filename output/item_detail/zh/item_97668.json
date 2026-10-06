@@ -1,0 +1,28 @@
+{
+  "type_id": 97668,
+  "name": "Medium Abyssal Remote Armor Repairer",
+  "description": "This module uses nano-assemblers to repair damage done to the armor of the Target ship.",
+  "volume": 10.0,
+  "repackaged_volume": 10.0,
+  "capacity": null,
+  "mass": 20.0,
+  "category_name": "装备",
+  "group_name": "远程装甲维修器",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 16069.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 4.0,
+      "categoryID": 8,
+      "display_name": null,
+      "unit_name": null
+    }
+  ],
+  "traits": []
+}

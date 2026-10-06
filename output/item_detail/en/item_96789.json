@@ -1,0 +1,13 @@
+{
+  "type_id": 96789,
+  "name": "Mutated Blood Sample",
+  "description": "This canister contains the blood of a human who has been subject to long-term exposure to Abyssal energies.\n\nItem Traders working for the Blood Raiders will want to acquire it, those working for St. Tetrimon will want to destroy it, and the Triglavians will wish to recover it.",
+  "volume": 0.01,
+  "repackaged_volume": 0.01,
+  "capacity": null,
+  "mass": 0.01,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

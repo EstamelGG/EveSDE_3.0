@@ -1,0 +1,245 @@
+{
+  "type_id": 97712,
+  "name": "Zorya’s Ultratidal Entropic Disintegrator",
+  "description": "This extra-large Entropic Disintegrator is only seen in use on Triglavian capital ships, these massive ships being capable of managing the considerable radiation and enormous gravitational tidal forces the weapon generates. At the energy levels of this ultraheavy weapon system, the tidal forces are so powerful that even the special systems built into battleships are insufficient and only capital ships can deal with the forces involved.\n\nEntropic Disintegrators draw on the tremendous power of the Triglavian singularity-based energy systems to convert exotic matter into a particle stream directed with locally generated entropic force. While powerful, the range of the weapon is limited by the attenuation of entropic forces, which dissipate critically beyond the optimal range. As a result this weapon has no falloff range.\n\nThe particle stream generates thermal and explosive reactions on impact, and the entropic forces resolve into a localized gravitational conduit that steadily increases the acceleration on the exotic particles. In effect, the weapon's damage potential increases to a maximum level as long as the particle stream is kept on the same target.\n\nRequires either standard or advanced exotic plasma charge ammo types: Baryon, Meson, Tetryon, Mystic, and Occult.",
+  "volume": 1600.0,
+  "repackaged_volume": 1600.0,
+  "capacity": 5.0,
+  "mass": 40000.0,
+  "category_name": "装备",
+  "group_name": "先驱者武器",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 307.0,
+      "categoryID": 5,
+      "display_name": "启用耗电量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 687500.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "slots",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 480.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "speed",
+      "value": 13000.0,
+      "categoryID": 29,
+      "display_name": "射击速度",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "maxRange",
+      "value": 58650.0,
+      "categoryID": 29,
+      "display_name": "最佳射程",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "chargeRate",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "单次消耗量",
+      "unit_name": null
+    },
+    {
+      "attribute_name": "targetModule",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "damageMultiplier",
+      "value": 0.867,
+      "categoryID": 29,
+      "display_name": "伤害量调整",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "chargeSize",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": "弹药尺寸",
+      "unit_name": "1=小型  2=中型  3=大型"
+    },
+    {
+      "attribute_name": "trackingSpeed",
+      "value": 0.02,
+      "categoryID": 29,
+      "display_name": "炮台跟踪速度",
+      "unit_name": null
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 52998.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill2",
+      "value": 3300.0,
+      "categoryID": 8,
+      "display_name": "副技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill3",
+      "value": 92541.0,
+      "categoryID": 8,
+      "display_name": "三级技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "requiredSkill2Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "requiredSkill3Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "chargeGroup1",
+      "value": 1987.0,
+      "categoryID": 7,
+      "display_name": "配套使用（弹药类别）",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "chargeGroup2",
+      "value": 1989.0,
+      "categoryID": 7,
+      "display_name": "配套使用（弹药类别）",
+      "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "optimalSigRadius",
+      "value": 40000.0,
+      "categoryID": 29,
+      "display_name": "信号分辨率",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "heatAbsorbtionRateModifier",
+      "value": 0.01,
+      "categoryID": 52,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "overloadDamageModifier",
+      "value": 15.0,
+      "categoryID": 7,
+      "display_name": "超载伤害加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "heatDamage",
+      "value": 13.3,
+      "categoryID": 52,
+      "display_name": "超载损耗",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "requiredThermoDynamicsSkill",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "所需热力学等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "canFitShipType1",
+      "value": 52907.0,
+      "categoryID": 1,
+      "display_name": "只能装配在",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "metaGroupID",
+      "value": 2.0,
+      "categoryID": 0,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "typeColorScheme",
+      "value": 11313.0,
+      "categoryID": 7,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "reloadTime",
+      "value": 0.01,
+      "categoryID": 7,
+      "display_name": "重新装填时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "damageMultiplierBonusPerCycle",
+      "value": 0.05,
+      "categoryID": 29,
+      "display_name": "每循环伤害倍增系数加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "damageMultiplierBonusMax",
+      "value": 1.5,
+      "categoryID": 29,
+      "display_name": "最大伤害系数加成",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

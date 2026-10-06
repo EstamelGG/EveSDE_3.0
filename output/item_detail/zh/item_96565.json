@@ -1,0 +1,63 @@
+{
+  "type_id": 96565,
+  "name": "Tetrimon Anti-Drain Booster III",
+  "description": "This booster has been developed by the Order of St. Tetrimon's militant paladins to assist them in hunting down cultists.\n\n<b>+18% Energy Warfare Resistance. Base Duration: 2 Hours</b>\n\n<b>Expiry date: November 10, YC128</b>",
+  "volume": 1.0,
+  "repackaged_volume": 1.0,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3405.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 7200000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 5.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 14.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "energyWarfareResistanceBonus",
+      "value": -18.0,
+      "categoryID": 36,
+      "display_name": "电容战抗性加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterLastInjectionDatetime",
+      "value": 20767.4576388889,
+      "categoryID": 7,
+      "display_name": "有效期",
+      "unit_name": null
+    }
+  ],
+  "traits": []
+}
