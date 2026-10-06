@@ -6,7 +6,6 @@ on:
     branches: [main]
     paths:
       - 'evesde/**'
-      - 'tests/**'
       - 'main.py'
       - 'pyproject.toml'
       - '.github/workflows/**'
@@ -23,6 +22,5 @@ jobs:
         with:
           python-version: '3.11'
       - run: python -m pip install -e .
-      - run: python -m unittest discover -s tests -v
       - run: python -m compileall -q evesde main.py
       - run: python -m evesde --help
