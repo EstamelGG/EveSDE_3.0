@@ -15,7 +15,7 @@
 - neighbors_data.json: 星系邻居关系
 """
 
-from evesde.paths import PROJECT_ROOT
+from evesde.paths import load_config, PROJECT_ROOT
 import json
 from pathlib import Path
 from collections import defaultdict
@@ -293,9 +293,7 @@ def main(config=None) -> bool:
     print("[+] 地图生成器启动")
 
     if config is None:
-        config_path = PROJECT_ROOT / "config.json"
-        with open(config_path, 'r', encoding='utf-8') as f:
-            config = json.load(f)
+        config = load_config()
 
     generator = MapGenerator(config)
     success = generator.run()

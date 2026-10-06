@@ -7,7 +7,8 @@ from pathlib import Path
 from typing import Dict, Optional
 from zipfile import ZipFile
 
-from evesde.utils.http_client import get
+from evesde.paths import load_config
+from evesde.processors.sde_downloader import download_sde as download_sde_archive
 
 
 class TypeInfo:
@@ -20,72 +21,21 @@ class TypeInfo:
         self.meta_group_id = meta_group_id
 
 
-SDE_DOWNLOAD_TEMPLATE = (
-    "https://developers.eveonline.com/static-data/tranquility/"
-    "eve-online-static-data-{build_number}-jsonl.zip"
-)
-
-
-def get_sde_version() -> int:
-    """从客户端 build 信息获取当前 SDE 版本号"""
-    response = get("https://binaries.eveonline.com/eveclient_TQ.json")
-    data = response.json()
-    build = data.get("build_number") or data.get("buildNumber")
-    if build is None:
-        raise ValueError("未找到SDE版本信息")
-    return int(build)
-
-
-def download_sde(dest_path: Path, build_number: int):
-    """按指定 build 号下载 SDE 数据包"""
-    url = SDE_DOWNLOAD_TEMPLATE.format(build_number=build_number)
-    response = get(url, stream=True, timeout=120, verify=False)
-    with open(dest_path, 'wb') as f:
-        for chunk in response.iter_content(chunk_size=8192):
-            if chunk:
-                f.write(chunk)
-
-
-def parse_version(content: str) -> int:
-    """解析版本信息"""
-    for line in content.strip().split('\n'):
-        data = json.loads(line)
-        if data.get('_key') == 'sde':
-            return int(data.get('build_number', data.get('buildNumber')))
-    raise ValueError("未找到SDE版本信息")
-
-
-def update_sde(
-    silent_mode: bool = False,
-    build_number: Optional[int] = None,
-    source_zip: Optional[Path] = None,
-) -> ZipFile:
-    """打开指定版本的 SDE 数据，返回 ZIP 文件对象"""
-    if source_zip and source_zip.exists():
-        if not silent_mode:
-            print(f"[+] 使用已下载的 SDE: {source_zip.name}")
-        return ZipFile(source_zip, 'r')
-
-    cache_dir = Path("./cache")
-    cache_dir.mkdir(exist_ok=True)
-    sde_path = cache_dir / "sde.zip"
-
-    target_build = int(build_number) if build_number else get_sde_version()
-    download = True
-
-    if sde_path.exists():
-        with ZipFile(sde_path, 'r') as zf:
-            current_version = parse_version(zf.read('_sde.jsonl').decode('utf-8'))
-            download = current_version != target_build
-
-    if download:
-        if not silent_mode:
-            print(f"[+] 下载 SDE build {target_build}...")
-        download_sde(sde_path, target_build)
-    elif not silent_mode:
-        print("[+] SDE 数据已是最新")
-
-    return ZipFile(sde_path, 'r')
+def update_sde(silent_mode=False, build_number=None, source_zip=None) -> ZipFile:
+    """主流水线直接传入同次下载的压缩包；开发入口复用公共下载器。"""
+    if source_zip is not None:
+        return ZipFile(source_zip)
+    config = load_config()
+    if build_number is None:
+        from evesde.build_prep import get_latest_sde_info
+        info = get_latest_sde_info(config)
+        if not info:
+            raise RuntimeError("无法获取 SDE 版本")
+        build_number = info["build_number"]
+    success, filename = download_sde_archive(config, build_number)
+    if not success:
+        raise RuntimeError("SDE 下载失败")
+    return ZipFile(filename)
 
 
 def read_types(sde: ZipFile, silent_mode: bool = False) -> Dict[int, TypeInfo]:
@@ -211,3 +161,15 @@ def read_skin_materials(sde: ZipFile, silent_mode: bool = False) -> Dict[int, in
             license_materials[license_id] = skin_materials[skin_id]
     
     return license_materials
+
+
+def read_build_data(sde: ZipFile, silent_mode=False):
+    """项目流水线与图标开发入口共用同一套 SDE 解析。"""
+    from evesde.icon_builder.icons import IconBuildData
+    return IconBuildData(
+        types=read_types(sde, silent_mode),
+        group_categories=read_group_categories(sde, silent_mode),
+        icon_files=read_icons(sde, silent_mode),
+        graphics_folders=read_graphics(sde, silent_mode),
+        skin_materials=read_skin_materials(sde, silent_mode),
+    )

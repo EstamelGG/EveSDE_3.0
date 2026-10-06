@@ -11,15 +11,8 @@ from pathlib import Path
 from datetime import datetime
 
 from evesde.icon_builder.cache import CacheDownloader, CacheError
-from evesde.icon_builder.sde import (
-    update_sde,
-    read_types,
-    read_group_categories,
-    read_icons,
-    read_graphics,
-    read_skin_materials,
-)
-from evesde.icon_builder.icons import IconBuildData, build_icon_export, IconError
+from evesde.icon_builder.sde import update_sde, read_build_data
+from evesde.icon_builder.icons import build_icon_export, IconError
 
 
 def main():
@@ -156,17 +149,8 @@ def main():
         if log_file:
             log_file.write("加载SDE...\n")
         
-        sde = update_sde(silent_mode)
-        
-        icon_build_data = IconBuildData(
-            types=read_types(sde, silent_mode),
-            group_categories=read_group_categories(sde, silent_mode),
-            icon_files=read_icons(sde, silent_mode),
-            graphics_folders=read_graphics(sde, silent_mode),
-            skin_materials=read_skin_materials(sde, silent_mode)
-        )
-        
-        sde.close()
+        with update_sde(silent_mode) as sde:
+            icon_build_data = read_build_data(sde, silent_mode)
         data_load_duration = time.time() - data_load_start
         
         # 构建图标

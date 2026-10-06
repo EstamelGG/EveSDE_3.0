@@ -7,27 +7,10 @@ from __future__ import annotations
 import json
 import shutil
 from datetime import datetime
-from pathlib import Path
 from typing import Any, Dict, Optional
 
-from evesde.paths import PROJECT_ROOT, ensure_dirs
-from evesde.utils.http_client import get, create_session
-
-
-def load_config() -> Optional[Dict[str, Any]]:
-    config_path = PROJECT_ROOT / "config.json"
-    if not config_path.exists():
-        print("[x] 配置文件不存在: config.json")
-        return None
-    try:
-        with config_path.open("r", encoding="utf-8") as f:
-            return json.load(f)
-    except json.JSONDecodeError as e:
-        print(f"[x] 配置文件格式错误: {e}")
-        return None
-    except Exception as e:
-        print(f"[x] 加载配置文件失败: {e}")
-        return None
+from evesde.paths import PROJECT_ROOT, ensure_dirs, path
+from evesde.utils.http_client import get
 
 
 def get_latest_sde_info(config: Dict[str, Any], skip_version_check: bool = False) -> Optional[Dict[str, Any]]:
@@ -73,6 +56,7 @@ def get_latest_sde_info(config: Dict[str, Any], skip_version_check: bool = False
             "build_number": update_build_number,
             "release_date": update_data.get("releaseDate"),
             "key": update_data.get("_key"),
+            "client_data": binary_data,
         }
     except KeyError as e:
         print(f"[x] 配置文件中缺少必要的URL配置: {e}")
@@ -82,90 +66,26 @@ def get_latest_sde_info(config: Dict[str, Any], skip_version_check: bool = False
         return None
 
 
-def resolve_build_numbers(latest_sde_info: Dict[str, Any]) -> tuple:
-    """返回 (ccp_build_number, display_build_number, patch_version)。"""
-    import os
-
-    current_build_number = latest_sde_info["build_number"]
-    ccp_build_number = str(current_build_number).split(".", 1)[0]
-    final_build_number = os.environ.get("FINAL_BUILD_NUMBER") or ccp_build_number
-    patch_version = os.environ.get("PATCH_VERSION", "0")
-    return ccp_build_number, final_build_number, patch_version
-
-
-def check_existing_version() -> Optional[Any]:
-    latest_log_path = PROJECT_ROOT / "output" / "sde" / "latest.log"
-    if not latest_log_path.exists():
-        return None
-    try:
-        with latest_log_path.open("r", encoding="utf-8") as f:
-            data = json.load(f)
-        return data.get("build_number", data.get("buildNumber"))
-    except Exception as e:
-        print(f"[x] 读取现有版本信息失败: {e}")
-        return None
-
-
-def write_latest_log(build_number, release_date) -> None:
-    sde_output_dir = PROJECT_ROOT / "output/sde"
-    sde_output_dir.mkdir(exist_ok=True)
-    latest_log_path = sde_output_dir / "latest.log"
-    log_data = {
+def write_latest_log(build_number, release_date, config) -> None:
+    destination = path("sde_output", config) / "latest.log"
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    destination.write_text(json.dumps({
         "completion_time": datetime.now().isoformat(),
         "build_number": build_number,
         "release_date": release_date,
-    }
-    try:
-        with latest_log_path.open("w", encoding="utf-8") as f:
-            json.dump(log_data, f, ensure_ascii=False, indent=2)
-        print(f"[+] 已写入版本日志: {latest_log_path}")
-    except Exception as e:
-        print(f"[x] 写入版本日志失败: {e}")
-
-
-def check_network_connectivity() -> bool:
-    print("[+] 开始网络连接检查...")
-    test_urls = [
-        "https://images.evetech.net/corporations/500001/logo",
-        "https://binaries.eveonline.com/eveclient_TQ.json",
-        "https://esi.evetech.net/status",
-    ]
-    failed_urls = []
-    session = create_session(default_timeout=10, verify=False)
-    for url in test_urls:
-        try:
-            print(f"[+] 检查URL: {url}")
-            response = session.get(url, allow_redirects=True)
-            if response.status_code == 200:
-                print(f"[+] URL可访问: {url}")
-            else:
-                print(f"[-] URL不可访问: {url} (状态码: {response.status_code})")
-                failed_urls.append(url)
-        except Exception as e:
-            print(f"[x] 请求失败: {url} - {str(e)}")
-            failed_urls.append(url)
-    session.close()
-    if failed_urls:
-        print("\n[x] 网络检查失败，以下URL无法访问:")
-        for url in failed_urls:
-            print(f"    - {url}")
-        print("\n[!] 请检查网络连接或稍后重试")
-        print("[!] 如果问题持续存在，可能是服务器维护或SSL证书问题")
-        return False
-    print("\n[+] 网络检查完成，所有关键URL都可以正常访问")
-    return True
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def rebuild_output_directory(config: Dict[str, Any]) -> None:
-    for rel in ("output/sde", "output/icons"):
-        path = PROJECT_ROOT / rel
-        if path.exists():
-            print(f"[+] 清理输出目录: {path}")
-            shutil.rmtree(path)
+    """每次从空的可再生输出开始；已跟踪的历史和详情由对应阶段管理。"""
+    for key in ("sde_output", "icons_output", "release_output"):
+        target = path(key, config)
+        if target == PROJECT_ROOT or PROJECT_ROOT not in target.parents:
+            raise ValueError(f"构建输出必须位于项目子目录: {target}")
+        if target.exists():
+            shutil.rmtree(target)
 
 
 def ensure_directories(config: Dict[str, Any]) -> None:
     ensure_dirs(config)
-    sde_localization_dir = PROJECT_ROOT / "output" / "sde" / "localization"
-    sde_localization_dir.mkdir(parents=True, exist_ok=True)
-    print(f"[+] 确保目录存在: {sde_localization_dir}")
+    (path("sde_output", config) / "localization").mkdir(parents=True, exist_ok=True)

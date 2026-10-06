@@ -60,7 +60,7 @@ def get_eve_client(cache_dir: Optional[Path] = None, **kwargs) -> "EveClient":
     return _client_instance
 
 
-def set_eve_client(client: "EveClient") -> None:
+def set_eve_client(client: Optional["EveClient"]) -> None:
     global _client_instance
     _client_instance = client
 
@@ -75,6 +75,7 @@ class EveClient(SharedCache):
         use_macos_build: bool = False,
         session: Optional[RetryableHTTPClient] = None,
         download_concurrency: int = 32,
+        client_data: Optional[dict] = None,
     ):
         self.cache_dir = Path(cache_dir)
         self.cache_dir.mkdir(parents=True, exist_ok=True)
@@ -89,7 +90,11 @@ class EveClient(SharedCache):
 
         self.app_index: Dict[str, IndexEntry] = {}
         self.res_index: Dict[str, IndexEntry] = {}
-        self._client_version = self._load_indexes(use_macos_build)
+        try:
+            self._client_version = self._load_indexes(use_macos_build, client_data)
+        except Exception:
+            self.close()
+            raise
 
     @classmethod
     def from_tq(cls, cache_dir: Path, **kwargs) -> "EveClient":
@@ -170,9 +175,9 @@ class EveClient(SharedCache):
                 pass
         return self.ensure_files(items, concurrency=concurrency, label=label)
 
-    def _load_indexes(self, use_macos_build: bool) -> int:
-        response = self.session.get(TQ_JSON_URL, timeout=30)
-        client_data = response.json()
+    def _load_indexes(self, use_macos_build: bool, client_data=None) -> int:
+        if client_data is None:
+            client_data = self.session.get(TQ_JSON_URL, timeout=30).json()
         if client_data.get("protected"):
             raise EveClientError("游戏服务器处于保护状态")
 
@@ -193,6 +198,9 @@ class EveClient(SharedCache):
         self._load_index_text(res_index_content.decode("utf-8"), self.res_index)
         print(f"[+] 客户端资源索引就绪 (build {build}, {len(self.res_index)} 条)")
         return build
+
+    def close(self):
+        self.session.close()
 
     def client_version(self) -> str:
         return str(self._client_version)

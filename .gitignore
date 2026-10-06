@@ -34,3 +34,8 @@ tools/sqlite_comparison_report_*.txt
 tools/sqlite_field_diff_*.txt
 tools/sqlite_sync_*.sql
 schema_change.md
+
+# Python 开发环境和包构建元数据
+.venv/
+*.egg-info/
+build/

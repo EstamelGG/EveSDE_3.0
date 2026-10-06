@@ -4,7 +4,7 @@
 技能需求数据处理器模块
 """
 
-from evesde.paths import PROJECT_ROOT
+from evesde.paths import load_config, PROJECT_ROOT
 from evesde.utils.single_db import get_db_path
 from evesde.utils.wide_i18n import LANGS, names_row, names_ddl, name_cols_sql
 import sqlite3
@@ -132,10 +132,7 @@ class SkillRequirementsProcessor:
 def main(config=None):
     print("[+] 技能需求数据处理器启动")
     if config is None:
-        import json
-        config_path = PROJECT_ROOT / "config.json"
-        with open(config_path, 'r', encoding='utf-8') as f:
-            config = json.load(f)
+        config = load_config()
     processor = SkillRequirementsProcessor(config)
     processor.process_all_languages()
     print("\n[+] 技能需求数据处理器完成")

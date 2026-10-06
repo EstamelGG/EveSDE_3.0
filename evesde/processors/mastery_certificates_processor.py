@@ -7,7 +7,7 @@
 - masteries：物品专精等级所需认证（masteryLevel 1-5）
 """
 
-from evesde.paths import PROJECT_ROOT
+from evesde.paths import load_config, PROJECT_ROOT
 from evesde.utils.single_db import get_db_path
 from evesde.utils.wide_i18n import NAME_COLS, DESC_COLS, names_ddl, descs_ddl, wide_texts, names_row
 import sqlite3
@@ -156,10 +156,7 @@ class MasteryCertificatesProcessor:
 def main(config=None):
     print("[+] 专精认证处理器启动")
     if config is None:
-        import json
-        config_path = PROJECT_ROOT / "config.json"
-        with open(config_path, 'r', encoding='utf-8') as f:
-            config = json.load(f)
+        config = load_config()
     processor = MasteryCertificatesProcessor(config)
     processor.update_database(config)
     print("\n[+] 专精认证处理器完成")

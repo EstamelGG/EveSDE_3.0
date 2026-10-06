@@ -1,0 +1,367 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Release比较处理器
+用于比较当前构建与最新Release的差异
+"""
+
+from evesde.paths import PROJECT_ROOT
+import re
+import subprocess
+import difflib
+import tempfile
+import shutil
+from pathlib import Path
+from evesde.github import GitHub, repository_name
+from evesde.release.baseline import ReleaseBaseline
+from datetime import datetime
+from typing import Dict, Any, Union
+
+# 复用 item_changes_analyzer 中的图标对比逻辑，保证两份报告输出格式一致
+from evesde.processors.item_changes_analyzer import (
+    compare_icon_zips,
+    format_icon_changes_markdown,
+)
+
+
+# types 表的 8 个描述文本 ID 列；当 UPDATE types 仅修改这些列时，表示仅描述文本内容
+# 变化而物品其他属性未变——在差异样例中视为噪声予以过滤。
+_DESC_ID_COLUMNS = frozenset({
+    "de_desc_id", "en_desc_id", "es_desc_id", "fr_desc_id",
+    "ja_desc_id", "ko_desc_id", "ru_desc_id", "zh_desc_id",
+})
+
+# 匹配 UPDATE <table> SET <cols...> WHERE ...，捕获表名与 SET 子句
+_UPDATE_RE = re.compile(r'^UPDATE\s+"?(?P<table>\w+)"?\s+SET\s+(?P<set>.+?)\s+WHERE\s', re.IGNORECASE)
+
+# 从 SET 子句提取列名（仅在子句起始或逗号后出现，避免匹配值内的 =）
+_SET_COL_RE = re.compile(r'(?:^|,\s*)"?(?P<col>\w+)"?\s*=', re.IGNORECASE)
+
+# 匹配 INSERT INTO / UPDATE / DELETE FROM <table>，用于按表分组统计
+_TABLE_RE = re.compile(
+    r'^(?:INSERT\s+INTO|UPDATE|DELETE\s+FROM)\s+"?(?P<table>\w+)"?',
+    re.IGNORECASE,
+)
+
+
+class ReleaseCompareProcessor:
+    """Release比较处理器"""
+    
+    def __init__(self, config: Dict[str, Any], build_number: Union[int, str], baseline=None):
+        """初始化Release比较处理器"""
+        self.baseline = baseline
+        self.old_icons_zip = None
+        self.config = config
+        self.build_number = build_number
+        self.project_root = PROJECT_ROOT
+        paths = config.get("paths", {})
+        self.output_sde_path = self.project_root / paths.get("sde_output", "output/sde")
+        self.output_icons_path = self.project_root / paths.get("icons_output", "output/icons")
+        self.tools_path = self.project_root / "tools"
+        # Release比较仅对 en 和 zh 版本执行
+        self.languages = ["en", "zh"]
+        
+        # 比较报告写到 output/release/
+        release_dir = self.project_root / paths.get("release_output", "output/release")
+        release_dir.mkdir(parents=True, exist_ok=True)
+        self.compare_md_path = release_dir / f"release_compare_{build_number}.md"
+        
+        # 临时目录用于下载和解压旧版本
+        self.temp_dir = None
+        
+    def __enter__(self):
+        """上下文管理器入口"""
+        self.temp_dir = Path(tempfile.mkdtemp())
+        return self
+        
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        """上下文管理器出口，清理临时文件"""
+        if self.temp_dir and self.temp_dir.exists():
+            shutil.rmtree(self.temp_dir)
+    
+    def write_md(self, content: str):
+        """直接写入Markdown内容"""
+        with open(self.compare_md_path, 'a', encoding='utf-8') as f:
+            f.write(content)
+    
+    def get_latest_release_info(self):
+        if self.baseline is None:
+            repository = repository_name(self.config)
+            self.baseline = ReleaseBaseline(repository, GitHub(repository).latest_release(), self.temp_dir)
+        return self.baseline.release
+
+    def download_release_assets(self, release_info):
+        try:
+            self.old_icons_zip = self.baseline.asset("icons.zip")
+            self.old_sde_path = self.baseline.sde_directory()
+            return True
+        except Exception as exc:
+            self.write_md(f"下载上一版附件失败: {exc}\n\n")
+            return False
+
+    def compare_icons(self) -> bool:
+        """比较图标文件差异（基于 PNG 内容 SHA256，能识别同名文件内容修改）"""
+        try:
+            current_icons_zip = self.output_icons_path / "icons.zip"
+            old_icons_zip = self.old_icons_zip
+
+            if not current_icons_zip.exists():
+                self.write_md("## 图标文件比较\n\n")
+                self.write_md("当前版本图标ZIP文件不存在\n\n")
+                return False
+
+            if old_icons_zip is None or not old_icons_zip.exists():
+                self.write_md("## 图标文件比较\n\n")
+                self.write_md("旧版本图标ZIP文件不存在\n\n")
+                return False
+
+            # 复用统一的 SHA256 内容对比逻辑
+            changes = compare_icon_zips(old_icons_zip, current_icons_zip)
+            # release_compare 的顶层标题用 ##（# 留给报告标题），子标题用 ###
+            md = format_icon_changes_markdown(
+                changes,
+                top_heading="## 图标文件比较",
+                sub_heading_prefix="###",
+            )
+            self.write_md(md)
+            return True
+
+        except Exception as e:
+            return False
+    
+    def compare_databases(self) -> bool:
+        """比较数据库差异"""
+        try:
+            self.write_md("## 数据库比较\n\n")
+            
+            sqldiff_path = shutil.which("sqldiff")
+            if not sqldiff_path:
+                local_tool = self.tools_path / "sqldiff"
+                sqldiff_path = str(local_tool) if local_tool.is_file() else None
+            if not sqldiff_path:
+                self.write_md("sqldiff工具不存在\n\n")
+                return False
+            
+            from evesde.utils.single_db import get_db_path
+
+            current_db = get_db_path(self.config)
+            old_db = self.old_sde_path / "db" / current_db.name
+            # 兼容旧版多库命名
+            if not old_db.exists():
+                old_db = self.old_sde_path / "db" / "item_db_en.sqlite"
+
+            self.write_md("### 单库 (item_db.sqlite)\n\n")
+
+            if not current_db.exists():
+                self.write_md("当前版本数据库不存在\n\n")
+                return False
+
+            if not old_db.exists():
+                self.write_md("旧版本数据库不存在\n\n")
+                return False
+
+            try:
+                result = subprocess.run(
+                    [str(sqldiff_path), '--primarykey', str(old_db), str(current_db)],
+                    capture_output=True,
+                    text=True,
+                    timeout=300
+                )
+
+                if result.returncode == 0:
+                    if result.stdout.strip():
+                        lines = result.stdout.strip().split("\n")
+
+                        # 过滤：UPDATE types 仅修改 *_desc_id 列的语句——表示仅描述文本
+                        # 内容变化而物品其他属性未变，在差异样例中视为噪声
+                        filtered_lines = []
+                        desc_only_count = 0
+                        for line in lines:
+                            m = _UPDATE_RE.match(line)
+                            if m and m.group("table").lower() == "types":
+                                set_cols = set(
+                                    c.lower()
+                                    for c in _SET_COL_RE.findall(m.group("set"))
+                                )
+                                if set_cols and set_cols.issubset(_DESC_ID_COLUMNS):
+                                    desc_only_count += 1
+                                    continue
+                            filtered_lines.append(line)
+
+                        # 原始摘要统计（反映真实变化规模）
+                        inserts = sum(1 for L in lines if L.startswith("INSERT"))
+                        updates = sum(1 for L in lines if L.startswith("UPDATE"))
+                        deletes = sum(1 for L in lines if L.startswith("DELETE"))
+                        other = len(lines) - inserts - updates - deletes
+                        self.write_md("**数据库差异摘要**:\n")
+                        self.write_md(f"- 语句总数: {len(lines)}\n")
+                        self.write_md(f"- INSERT: {inserts} / UPDATE: {updates} / DELETE: {deletes}")
+                        if other:
+                            self.write_md(f" / 其他: {other}")
+                        self.write_md("\n")
+                        if desc_only_count:
+                            self.write_md(
+                                f"- 其中 **{desc_only_count}** 条仅为描述文本 ID 变化"
+                                f"（UPDATE types 仅含 *_desc_id 列，已从下方样例与表统计中过滤）\n"
+                            )
+                        self.write_md("\n")
+
+                        # 按表分组统计（基于过滤后的语句，聚焦有意义的变化）
+                        table_stats: Dict[str, Dict[str, int]] = {}
+                        for line in filtered_lines:
+                            m = _TABLE_RE.match(line)
+                            if m:
+                                table = m.group("table")
+                                op = line.split()[0].upper()
+                                if op not in ("INSERT", "UPDATE", "DELETE"):
+                                    continue
+                                table_stats.setdefault(
+                                    table, {"INSERT": 0, "UPDATE": 0, "DELETE": 0}
+                                )
+                                table_stats[table][op] += 1
+
+                        if table_stats:
+                            label = "已过滤 desc_id-only" if desc_only_count else "差异"
+                            self.write_md(f"**按表统计**（{label}）:\n\n")
+                            self.write_md("| 表 | INSERT | UPDATE | DELETE | 合计 |\n")
+                            self.write_md("|---|---|---|---|---|\n")
+                            for table in sorted(table_stats.keys()):
+                                s = table_stats[table]
+                                total = s["INSERT"] + s["UPDATE"] + s["DELETE"]
+                                self.write_md(
+                                    f"| {table} | {s['INSERT']} | {s['UPDATE']} | {s['DELETE']} | {total} |\n"
+                                )
+                            self.write_md("\n")
+
+                        # 差异样例（过滤后）
+                        max_sql_lines = 200
+                        sample_label = (
+                            "已过滤 desc_id-only" if desc_only_count else "前"
+                        )
+                        self.write_md(
+                            f"**差异样例**（{sample_label} {min(max_sql_lines, len(filtered_lines))} 行）:\n"
+                        )
+                        self.write_md("```sql\n")
+                        for line in filtered_lines[:max_sql_lines]:
+                            self.write_md(f"{line}\n")
+                        if len(filtered_lines) > max_sql_lines:
+                            self.write_md(
+                                f"-- ... 另有 {len(filtered_lines) - max_sql_lines} 行未列出\n"
+                            )
+                        self.write_md("```\n\n")
+                    else:
+                        self.write_md("数据库无差异\n\n")
+                else:
+                    self.write_md(f"sqldiff执行失败: {result.stderr}\n\n")
+                    return False
+
+            except subprocess.TimeoutExpired:
+                self.write_md("sqldiff执行超时\n\n")
+                return False
+            except Exception as e:
+                self.write_md(f"sqldiff执行异常: {e}\n\n")
+                return False
+            
+            return True
+            
+        except Exception as e:
+            return False
+    
+    def _compare_text_files(self, current_dir, old_dir, filenames, *, full_paths=False):
+        for filename in filenames:
+            self.write_md(f"### {filename}\n\n")
+            current, old = current_dir / filename, old_dir / filename
+            if not current.exists() or not old.exists():
+                missing = "当前" if not current.exists() else "旧"
+                self.write_md(f"{missing}版本文件不存在\n\n")
+                continue
+            try:
+                with current.open(encoding="utf-8") as new_file, old.open(encoding="utf-8") as old_file:
+                    diff = difflib.unified_diff(
+                        old_file.readlines(), new_file.readlines(),
+                        fromfile=str(old) if full_paths else f"old_{filename}",
+                        tofile=str(current) if full_paths else f"new_{filename}", lineterm="",
+                    )
+                    sample, total = [], 0
+                    for total, line in enumerate(diff, 1):
+                        if total <= 50:
+                            sample.append(line)
+                if not total:
+                    self.write_md("文件无差异\n\n")
+                    continue
+                self.write_md("**文件差异**:\n```diff\n")
+                self.write_md("".join(f"{line}\n" for line in sample))
+                if total > 50:
+                    self.write_md(f"... (还有 {total - 50} 行差异)\n")
+                self.write_md("```\n\n")
+            except Exception as exc:
+                self.write_md(f"比较失败: {exc}\n\n")
+
+    def compare_json(self) -> bool:
+        self.write_md("## 地图和本地化文件比较\n\n")
+        current_maps = self.output_sde_path / "maps"
+        if not current_maps.exists():
+            self.write_md("当前版本地图目录不存在\n\n")
+            return False
+        self._compare_text_files(
+            current_maps, self.old_sde_path / "maps",
+            ("regions_data.json", "systems_data.json", "neighbors_data.json"),
+        )
+        self.write_md("## 本地化文件比较\n\n")
+        self._compare_text_files(
+            self.output_sde_path / "localization", self.old_sde_path / "localization",
+            ("accountingentrytypes_localized.json",), full_paths=True,
+        )
+        return True
+
+    def process_release_compare(self) -> bool:
+        """执行完整的Release比较流程"""
+        try:
+            # 初始化Markdown文件
+            with open(self.compare_md_path, 'w', encoding='utf-8') as f:
+                f.write(f"# EVE SDE Build {self.build_number} - 版本比较报告\n\n")
+                f.write(f"**构建时间**: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
+            
+            # 1. 获取最新Release信息
+            release_info = self.get_latest_release_info()
+            if not release_info:
+                # 添加首次构建说明到Markdown
+                self.write_md("## 首次构建\n\n")
+                self.write_md("这是首次构建，无历史版本可比较。\n\n")
+                self.write_md("## 下载文件\n\n")
+                self.write_md("- **icons.zip**: 图标压缩包\n")
+                self.write_md("- **sde.zip**: SDE数据压缩包\n")
+                self.write_md("- **release_compare_{}.md**: 详细比较报告\n".format(self.build_number))
+                
+                return True
+            
+            # 2. 下载Release资源
+            if not self.download_release_assets(release_info):
+                self.write_md("## 下载失败\n\n")
+                self.write_md("下载Release资源失败，跳过比较\n\n")
+                return False
+            
+            results = [self.compare_icons(), self.compare_databases(), self.compare_json()]
+            
+            # 添加下载文件说明到Markdown
+            self.write_md("\n## 下载文件\n\n")
+            self.write_md("- **icons.zip**: 图标压缩包\n")
+            self.write_md("- **sde.zip**: SDE数据压缩包\n")
+            self.write_md("- **release_compare_{}.md**: 详细比较报告\n".format(self.build_number))
+            
+            return all(results)
+            
+        except Exception as e:
+            return False
+
+
+def main(config: Dict[str, Any], build_number: Union[int, str], baseline=None) -> bool:
+    """主函数"""
+    with ReleaseCompareProcessor(config, build_number, baseline) as processor:
+        return processor.process_release_compare()
+
+
+if __name__ == "__main__":
+    from evesde.cli import main as cli
+    import sys
+    raise SystemExit(cli(["reports", *sys.argv[1:]]))

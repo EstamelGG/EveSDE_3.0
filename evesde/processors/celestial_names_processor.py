@@ -15,7 +15,7 @@
 - orbitIndex: 轨道索引（NULL = 行星，非 NULL = 月球）
 """
 
-from evesde.paths import PROJECT_ROOT
+from evesde.paths import load_config, PROJECT_ROOT
 from evesde.utils.single_db import get_db_path
 import json
 import sqlite3
@@ -146,9 +146,7 @@ class CelestialsProcessor:
 def main(config=None):
     print("[+] 天体数据处理器启动")
     if config is None:
-        config_path = PROJECT_ROOT / "config.json"
-        with open(config_path, 'r', encoding='utf-8') as f:
-            config = json.load(f)
+        config = load_config()
     processor = CelestialsProcessor(config)
     processor.process()
     print("\n[+] 天体数据处理器完成")

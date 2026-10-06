@@ -5,7 +5,7 @@
 处理EVE宇宙中的星域、星座、星系名称并存储到数据库
 """
 
-from evesde.paths import PROJECT_ROOT
+from evesde.paths import load_config, PROJECT_ROOT
 from evesde.utils.single_db import get_db_path
 from evesde.utils.wide_i18n import wide_texts, names_row, names_ddl, name_cols_sql
 import sqlite3
@@ -141,10 +141,7 @@ class UniverseNamesProcessor:
 def main(config=None):
     print("[+] 宇宙名称处理器启动")
     if config is None:
-        import json
-        config_path = PROJECT_ROOT / "config.json"
-        with open(config_path, 'r', encoding='utf-8') as f:
-            config = json.load(f)
+        config = load_config()
     processor = UniverseNamesProcessor(config)
     processor.update_all_databases(config)
     print("\n[+] 宇宙名称处理器完成")

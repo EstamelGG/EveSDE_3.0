@@ -1,7 +1,2 @@
-requests>=2.31.0
-orjson>=3.9.0
-Pillow>=10.0.0
-numpy>=1.24.0
-roman>=4.0
-aiohttp>=3.8.0
-jsondiff>=2.0.0
+# 依赖统一定义在 pyproject.toml；以源码工作区模式安装。
+-e .

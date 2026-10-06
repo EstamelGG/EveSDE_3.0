@@ -7,7 +7,7 @@
 解决macOS和Windows上生成的SQLite数据库MD5不同的问题
 """
 
-from evesde.paths import PROJECT_ROOT
+from evesde.paths import load_config, PROJECT_ROOT
 from evesde.utils.single_db import get_db_path
 import sqlite3
 import tempfile
@@ -167,10 +167,7 @@ def main(config: Dict[str, Any] = None):
     if not config:
         # 如果没有传入配置，则尝试加载本地配置
         try:
-            import json
-            config_path = PROJECT_ROOT / "config.json"
-            with open(config_path, 'r', encoding='utf-8') as f:
-                config = json.load(f)
+            config = load_config()
         except Exception as e:
             print(f"[x] 无法加载配置文件: {e}")
             return False

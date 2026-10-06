@@ -21,6 +21,7 @@ class ItemDetailExtractor:
         self.db_path = Path(db_path)
         self.output_dir = Path(output_dir)
         self.lang = lang
+        self._shared_connection = None
 
         # 检查数据库文件是否存在
         if not self.db_path.exists():
@@ -59,7 +60,7 @@ class ItemDetailExtractor:
         """
         print("[+] 开始检索已发布物品...")
         
-        conn = sqlite3.connect(str(self.db_path))
+        conn = self._shared_connection or sqlite3.connect(str(self.db_path))
         cursor = conn.cursor()
         
         try:
@@ -81,7 +82,8 @@ class ItemDetailExtractor:
             print(f"[x] 检索已发布物品失败: {e}")
             return []
         finally:
-            conn.close()
+            if self._shared_connection is None:
+                conn.close()
     
     def get_item_detail(self, type_id: int) -> Optional[Dict[str, Any]]:
         """
@@ -93,7 +95,7 @@ class ItemDetailExtractor:
         Returns:
             dict: 物品详细信息字典，如果未找到则返回None
         """
-        conn = sqlite3.connect(str(self.db_path))
+        conn = self._shared_connection or sqlite3.connect(str(self.db_path))
         conn.row_factory = sqlite3.Row
         cursor = conn.cursor()
 
@@ -182,7 +184,8 @@ class ItemDetailExtractor:
             print(f"[!] 查询物品 {type_id} 失败: {e}")
             return None
         finally:
-            conn.close()
+            if self._shared_connection is None:
+                conn.close()
     
     def save_item_detail(self, item_data: Dict[str, Any]) -> bool:
         """
@@ -209,6 +212,15 @@ class ItemDetailExtractor:
             return False
     
     def extract_all_items(self) -> bool:
+        """批量导出复用一个连接，单物品查询仍可独立调用。"""
+        self._shared_connection = sqlite3.connect(str(self.db_path))
+        try:
+            return self._extract_all_items()
+        finally:
+            self._shared_connection.close()
+            self._shared_connection = None
+
+    def _extract_all_items(self) -> bool:
         """
         提取所有已发布物品的详细信息
         
@@ -253,7 +265,7 @@ class ItemDetailExtractor:
         print(f"[+] 失败: {failed_count} 个")
         print(f"[+] 成功率: {success_count/(success_count+failed_count)*100:.1f}%")
         
-        return success_count > 0
+        return success_count > 0 and failed_count == 0
     
 
 

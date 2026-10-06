@@ -32,8 +32,8 @@ def ensure_dirs(config: Dict[str, Any] | None = None) -> None:
     cfg = config if config is not None else load_config()
     for key in cfg.get("paths", {}):
         p = path(key, cfg)
-        # 带后缀的视为文件路径，只保证父目录存在
-        if p.suffix:
+        # 目录名允许包含点，不能根据 suffix 猜测路径类型。
+        if key == "brackets_output":
             p.parent.mkdir(parents=True, exist_ok=True)
         else:
             p.mkdir(parents=True, exist_ok=True)

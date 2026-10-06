@@ -1,177 +1,52 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-SDE下载器模块
-从EVE Online官方下载最新的SDE数据并解压
-"""
-
-from evesde.paths import PROJECT_ROOT
-import json
-import zipfile
+"""SDE 数据准备：下载指定构建并解压，版本由应用层决定。"""
 import shutil
-from pathlib import Path
-from evesde.utils.http_client import get
+import zipfile
 
-def get_latest_build_info(config):
-    """获取最新的SDE构建信息"""
-    try:
-        sde_update_url = config["urls"]["sde_update"]
-        print(f"[+] 获取最新SDE构建信息: {sde_update_url}")
-        response = get(sde_update_url, timeout=30, verify=False)
-        
-        build_info = response.json()
-        build_number = build_info.get('build_number', build_info.get('buildNumber'))
-        release_date = build_info.get("releaseDate")
-        
-        print(f"[+] 最新构建信息:")
-        print(f"    构建编号: {build_number}")
-        print(f"    发布时间: {release_date}")
-        
-        return build_number, release_date
-    
-    except Exception as e:
-        print(f"[x] 获取构建信息失败: {e}")
-        return None, None
-    except json.JSONDecodeError as e:
-        print(f"[x] 解析构建信息失败: {e}")
-        return None, None
+from evesde.paths import load_config, path
+from evesde.utils.downloads import download_file, validate_zip
 
-def check_existing_download(config, build_number):
-    """检查是否已经下载过指定构建版本的SDE"""
-    project_root = PROJECT_ROOT
-    sde_zip_path = project_root / config["paths"]["sde_zip"]
+
+def archive_path(config, build_number):
     build_number = str(build_number).split(".", 1)[0]
-    zip_filename = f"eve-online-static-data-{build_number}-jsonl.zip"
-    zip_path = sde_zip_path / zip_filename
-    
-    if zip_path.exists():
-        print(f"[+] 发现已存在该版本的SDE压缩包: {zip_path}")
-        
-        # 检查ZIP文件是否损坏
-        try:
-            with zipfile.ZipFile(zip_path, 'r') as test_zip:
-                test_zip.testzip()  # 测试ZIP文件完整性
-            print("[+] SDE压缩包完整，可以使用")
-            return True, zip_path
-        except (zipfile.BadZipFile, zipfile.LargeZipFile) as e:
-            print(f"[!] SDE压缩包损坏: {e}")
-            print("[+] 将重新下载SDE压缩包")
-            zip_path.unlink()  # 删除损坏的文件
-            return False, zip_path
-        except Exception as e:
-            print(f"[!] 检查SDE压缩包时出错: {e}")
-            print("[+] 将重新下载SDE压缩包")
-            zip_path.unlink()  # 删除可能有问题的文件
-            return False, zip_path
-    
-    return False, zip_path
+    return path("sde_zip", config) / f"eve-online-static-data-{build_number}-jsonl.zip"
+
 
 def download_sde(config, build_number):
-    """下载SDE压缩包。build_number 必须是 CCP 原始号（不含补丁后缀）。"""
-    project_root = PROJECT_ROOT
-    sde_zip_path = project_root / config["paths"]["sde_zip"]
-    # 防御：补丁展示号 3430261.01 不能用于官方下载 URL
     build_number = str(build_number).split(".", 1)[0]
-    download_url = config["urls"]["sde_download_template"].format(build_number=build_number)
-    zip_filename = f"eve-online-static-data-{build_number}-jsonl.zip"
-    zip_path = sde_zip_path / zip_filename
-    
+    url = config["urls"]["sde_download_template"].format(build_number=build_number)
     try:
-        print(f"[+] 开始下载SDE: {download_url}")
-        
-        response = get(download_url, stream=True, timeout=60, verify=False)
-        
-        with open(zip_path, 'wb') as f:
-            for chunk in response.iter_content(chunk_size=8192):
-                if chunk:
-                    f.write(chunk)
-        
-        print(f"[+] SDE下载完成: {zip_path}")
-        return True, zip_path
-        
-    except Exception as e:
-        print(f"[x] SDE下载失败: {e}")
-        if zip_path.exists():
-            zip_path.unlink()  # 删除不完整的文件
+        destination = download_file(url, archive_path(config, build_number), validate=validate_zip, timeout=60)
+        return True, destination
+    except Exception as exc:
+        print(f"[x] SDE下载失败: {exc}")
         return False, None
 
-def extract_sde(config, zip_path):
-    """解压SDE到指定目录"""
+
+def extract_sde(config, filename):
     try:
-        project_root = PROJECT_ROOT
-        sde_input_path = project_root / config["paths"]["sde_input"]
-        
-        print(f"[+] 开始解压SDE: {zip_path}")
-        
-        # 清理旧的解压目录
-        if sde_input_path.exists():
-            print(f"[+] 清理旧的SDE数据: {sde_input_path}")
-            shutil.rmtree(sde_input_path)
-        
-        sde_input_path.mkdir(parents=True, exist_ok=True)
-        
-        with zipfile.ZipFile(zip_path, 'r') as zip_ref:
-            zip_ref.extractall(sde_input_path)
-        
-        print(f"[+] SDE解压完成: {sde_input_path}")
-        return sde_input_path
-        
-    except zipfile.BadZipFile as e:
-        print(f"[x] 压缩包损坏: {e}")
+        destination = path("sde_input", config)
+        if destination.exists():
+            shutil.rmtree(destination)
+        destination.mkdir(parents=True, exist_ok=True)
+        with zipfile.ZipFile(filename) as archive:
+            archive.extractall(destination)
+        return destination
+    except Exception as exc:
+        print(f"[x] SDE解压失败: {exc}")
         return False
-    except Exception as e:
-        print(f"[x] 解压失败: {e}")
-        return False
+
 
 def main(config=None, build_number=None):
-    """
-    主函数
-    
-    Args:
-        config: 配置字典
-        build_number: 已确定的 SDE 构建号（由 main.py 版本比对后传入）
-    
-    Returns:
-        bool: True表示SDE下载和解压成功，False表示失败
-    """
-    print("[+] SDE下载器启动")
-    
-    if config is None:
-        config_path = PROJECT_ROOT / "config.json"
-        try:
-            with open(config_path, 'r', encoding='utf-8') as f:
-                config = json.load(f)
-        except Exception as e:
-            print(f"[x] 加载配置文件失败: {e}")
+    config = config if config is not None else load_config()
+    if build_number is None:
+        from evesde.build_prep import get_latest_sde_info
+        info = get_latest_sde_info(config)
+        if not info:
             return False
-    
-    if not build_number:
-        build_number, _ = get_latest_build_info(config)
-        if not build_number:
-            print("[x] 无法获取构建信息，退出")
-            return False
-    else:
-        print(f"[+] 使用已确定的 SDE 构建号: {build_number}")
-    
-    exists, zip_path = check_existing_download(config, build_number)
-    
-    if not exists:
-        # 下载SDE
-        success, zip_path = download_sde(config, build_number)
-        if not success:
-            print("[x] SDE下载失败，退出")
-            return False
-    else:
-        print("[+] 跳过下载，使用现有文件")
-    
-    # 解压SDE
-    sde_input_path = extract_sde(config, zip_path)
-    if sde_input_path:
-        print("[+] SDE下载和解压完成")
-        return True
-    else:
-        print("[x] SDE解压失败")
-        return False
+        build_number = info["build_number"]
+    success, filename = download_sde(config, build_number)
+    return bool(success and extract_sde(config, filename))
+
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(0 if main() else 1)

@@ -3,11 +3,11 @@
 """
 物品变更分析器
 用于分析新增物品、属性变更、蓝图变更等，生成详细的变更报告
-完全按照 tmp 项目的格式生成
+Markdown 与机器可读 JSON 共用同一次分析
 从 JSONL 文件读取数据，而不是从数据库
 """
 
-from evesde.paths import PROJECT_ROOT
+from evesde.paths import load_config, PROJECT_ROOT
 import json
 import re
 import zipfile
@@ -16,6 +16,7 @@ from pathlib import Path
 from typing import Dict, List, Any, Optional, Set, Tuple
 from collections import defaultdict
 import evesde.processors.jsonl_loader as jsonl_loader
+from evesde.release.report_json import build_report
 
 
 # 每类最多列出的图标数（避免报告过长无法入库）
@@ -57,6 +58,10 @@ def compare_icon_zips(old_zip: Optional[Path], new_zip: Optional[Path]) -> Dict[
     old_hashes = _read_zip_png_hashes(Path(old_zip))
     new_hashes = _read_zip_png_hashes(Path(new_zip))
 
+    return compare_icon_hashes(old_hashes, new_hashes)
+
+
+def compare_icon_hashes(old_hashes, new_hashes):
     old_keys = set(old_hashes.keys())
     new_keys = set(new_hashes.keys())
 
@@ -141,6 +146,7 @@ class ItemChangesAnalyzer:
         self.project_root = PROJECT_ROOT
         self.old_icons_zip = old_icons_zip
         self.current_icons_zip = current_icons_zip
+        self.icon_hashes = ({}, {})
         
         # 缓存数据
         self.current_types_data = {}
@@ -165,8 +171,10 @@ class ItemChangesAnalyzer:
             items = jsonl_loader.load_jsonl(str(file_path))
             for item in items:
                 # 优先使用 _key，如果没有则使用 id
-                key = item.get('_key') or item.get('id')
-                if key:
+                key = item.get('_key')
+                if key is None:
+                    key = item.get('id')
+                if key is not None:
                     data[str(key)] = item
         except Exception as e:
             print(f"[!] 加载文件失败 {file_path}: {e}")
@@ -375,7 +383,7 @@ class ItemChangesAnalyzer:
             new_value = new_attrs.get(attr_id, 0)
             
             # 只关注有变化的属性
-            if old_value != new_value:
+            if old_value != new_value or (attr_id in old_attrs) != (attr_id in new_attrs):
                 attr_name = self.get_attribute_name(attr_id)
                 changes.append({
                     'attributeID': attr_id,
@@ -431,7 +439,12 @@ class ItemChangesAnalyzer:
     
     def analyze_icon_changes(self) -> Dict[str, List[str]]:
         """对比新旧 icons.zip，返回新增/删除/修改的图标文件列表（基于内容 SHA256）"""
-        return compare_icon_zips(self.old_icons_zip, self.current_icons_zip)
+        if not self.old_icons_zip or not self.current_icons_zip:
+            self.icon_hashes = ({}, {})
+            return {"added": [], "removed": [], "modified": []}
+        self.icon_hashes = (_read_zip_png_hashes(Path(self.old_icons_zip)),
+                            _read_zip_png_hashes(Path(self.current_icons_zip)))
+        return compare_icon_hashes(*self.icon_hashes)
 
     def create_icon_changes_markdown(self, icon_changes: Dict[str, List[str]]) -> str:
         """生成图标变更 Markdown"""
@@ -852,7 +865,7 @@ class ItemChangesAnalyzer:
         
         return analysis
     
-    def generate_markdown_report(self, output_path: Path) -> bool:
+    def generate_markdown_report(self, output_path: Path, *, old_version=None, new_version=None) -> bool:
         """生成 Markdown 格式的变更报告（完全按照 tmp 项目的格式）"""
         try:
             print("[+] 生成变更报告...")
@@ -903,7 +916,7 @@ class ItemChangesAnalyzer:
                     grouped_items[category_id][group_id].append(item)
                 
                 # 按 categoryID 排序并输出
-                for category_id in sorted(grouped_items.keys()):
+                for category_id in sorted(grouped_items, key=lambda value: (value is None, value or 0)):
                     category_items = grouped_items[category_id]
                     
                     # 获取类别名称（从第一个物品中获取）
@@ -913,7 +926,7 @@ class ItemChangesAnalyzer:
                     lines.append(f"## {category_display_name}\n\n")
                     
                     # 按 groupID 排序并输出
-                    for group_id in sorted(category_items.keys()):
+                    for group_id in sorted(category_items, key=lambda value: (value is None, value or 0)):
                         group_items = category_items[group_id]
                         
                         # 获取组别名称
@@ -977,8 +990,15 @@ class ItemChangesAnalyzer:
             if icon_changes.get('added') or icon_changes.get('removed') or icon_changes.get('modified'):
                 lines.append(self.create_icon_changes_markdown(icon_changes))
             
-            # 保存报告
+            json_report = build_report(
+                self, all_new_items, ship_blueprints, blueprint_changes,
+                items_with_attribute_changes, icon_changes,
+                old_version=old_version, new_version=new_version,
+            )
+            json_text = json.dumps(json_report, ensure_ascii=False, indent=2, sort_keys=True, allow_nan=False) + "\n"
+            # 两种格式都生成成功才返回成功；调用方会检查配对文件。
             output_path.parent.mkdir(parents=True, exist_ok=True)
+            output_path.with_suffix(".json").write_text(json_text, encoding="utf-8")
             with open(output_path, 'w', encoding='utf-8') as f:
                 f.write(''.join(lines))
             
@@ -993,7 +1013,8 @@ class ItemChangesAnalyzer:
 
 
 def main(config: Dict[str, Any], old_jsonl_path: Path, current_jsonl_path: Path, output_path: Path,
-         old_icons_zip: Optional[Path] = None, current_icons_zip: Optional[Path] = None) -> bool:
+         old_icons_zip: Optional[Path] = None, current_icons_zip: Optional[Path] = None,
+         *, old_version=None, new_version=None) -> bool:
     """主函数
     
     Args:
@@ -1006,14 +1027,12 @@ def main(config: Dict[str, Any], old_jsonl_path: Path, current_jsonl_path: Path,
     """
     analyzer = ItemChangesAnalyzer(config, old_jsonl_path, current_jsonl_path,
                                    old_icons_zip=old_icons_zip, current_icons_zip=current_icons_zip)
-    return analyzer.generate_markdown_report(output_path)
+    return analyzer.generate_markdown_report(output_path, old_version=old_version, new_version=new_version)
 
 
 if __name__ == "__main__":
     # 测试代码
-    config_path = PROJECT_ROOT / "config.json"
-    with open(config_path, 'r', encoding='utf-8') as f:
-        config = json.load(f)
+    config = load_config()
     
     # 测试
     old_path = Path("/tmp/old_jsonl")

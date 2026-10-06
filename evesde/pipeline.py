@@ -96,6 +96,19 @@ def iter_pipeline() -> Iterator[PipelineStep]:
     yield from PIPELINE_STEPS
 
 
+def execute_processor(fn: StepFn, name: str, config: Dict[str, Any]) -> bool:
+    """统一处理 None/真值成功、假值失败的处理器约定。"""
+    print(f"\n[+] 开始处理{name}")
+    try:
+        result = fn(config)
+    except Exception as exc:
+        raise RuntimeError(f"{name}处理时发生异常: {exc}") from exc
+    if result is not None and not result:
+        raise RuntimeError(f"{name}处理失败")
+    print(f"[+] {name}处理完成")
+    return True
+
+
 def run_pipeline(
     config: Dict[str, Any],
     on_step: Optional[Callable[[str, str, StepFn], None]] = None,
@@ -109,8 +122,4 @@ def run_pipeline(
         if on_step is not None:
             on_step(stage, name, fn)
         else:
-            print(f"\n[+] 开始处理{name}")
-            result = fn(config)
-            if result is not None and not result:
-                raise RuntimeError(f"{name}处理失败")
-            print(f"[+] {name}处理完成")
+            execute_processor(fn, name, config)

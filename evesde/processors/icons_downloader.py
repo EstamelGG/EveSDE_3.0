@@ -5,7 +5,7 @@
 下载并解压EVE图标包，支持版本检查和智能缓存
 """
 
-from evesde.paths import PROJECT_ROOT
+from evesde.paths import load_config, PROJECT_ROOT
 import json
 import zipfile
 import shutil
@@ -108,12 +108,12 @@ def download_icons_zip(config):
     if need_download:
         try:
             print(f"[+] 开始下载图标包: {icons_zip_url}")
-            response = get(icons_zip_url, stream=True, timeout=60)
+            with get(icons_zip_url, stream=True, timeout=60) as response:
             
-            with open(icons_zip_path, 'wb') as f:
-                for chunk in response.iter_content(chunk_size=8192):
-                    if chunk:
-                        f.write(chunk)
+                with open(icons_zip_path, 'wb') as f:
+                    for chunk in response.iter_content(chunk_size=8192):
+                        if chunk:
+                            f.write(chunk)
             
             print(f"[+] 图标包下载完成: {icons_zip_path}")
             
@@ -176,10 +176,7 @@ def main(config=None):
     
     # 如果没有传入配置，则尝试加载本地配置（用于独立运行）
     if config is None:
-        import json
-        config_path = PROJECT_ROOT / "config.json"
-        with open(config_path, 'r', encoding='utf-8') as f:
-            config = json.load(f)
+        config = load_config()
     
     # 下载并解压图标包
     success = download_icons_zip(config)

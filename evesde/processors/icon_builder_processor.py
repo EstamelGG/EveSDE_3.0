@@ -10,7 +10,7 @@
 3. 统计处理结果
 """
 
-from evesde.paths import PROJECT_ROOT
+from evesde.paths import load_config, PROJECT_ROOT
 import zipfile
 import shutil
 from pathlib import Path
@@ -18,15 +18,8 @@ from typing import Dict, Any
 import time
 
 from evesde.icon_builder.cache import CacheError
-from evesde.icon_builder.sde import (
-    update_sde,
-    read_types,
-    read_group_categories,
-    read_icons,
-    read_graphics,
-    read_skin_materials,
-)
-from evesde.icon_builder.icons import IconBuildData, build_icon_export, IconError
+from evesde.icon_builder.sde import update_sde, read_build_data
+from evesde.icon_builder.icons import build_icon_export, IconError
 
 
 class IconBuilderProcessor:
@@ -37,7 +30,7 @@ class IconBuilderProcessor:
         self.project_root = PROJECT_ROOT
         self.icons_input_path = self.project_root / config["paths"]["icons_input"]
         self.icons_input_path.mkdir(parents=True, exist_ok=True)
-        self.icon_builder_dir = Path(__file__).resolve().parent.parent / "icon_builder"
+        self.icon_dir = self.project_root / config["paths"]["icon_builder_cache"] / "icons"
         self.output_zip = self.project_root / config["paths"]["icons_output"] / "icons.zip"
         self.output_zip.parent.mkdir(parents=True, exist_ok=True)
         self.stats = {
@@ -68,20 +61,8 @@ class IconBuilderProcessor:
             source_zip = None
             if build_number:
                 source_zip = sde_zip_dir / f"eve-online-static-data-{build_number}-jsonl.zip"
-            sde = update_sde(
-                silent_mode=False,
-                build_number=build_number,
-                source_zip=source_zip,
-            )
-
-            icon_build_data = IconBuildData(
-                types=read_types(sde, silent_mode=False),
-                group_categories=read_group_categories(sde, silent_mode=False),
-                icon_files=read_icons(sde, silent_mode=False),
-                graphics_folders=read_graphics(sde, silent_mode=False),
-                skin_materials=read_skin_materials(sde, silent_mode=False),
-            )
-            sde.close()
+            with update_sde(silent_mode=False, build_number=build_number, source_zip=source_zip) as sde:
+                icon_build_data = read_build_data(sde)
 
             print("[+] 开始构造图标...")
             added, removed = build_icon_export(
@@ -89,7 +70,7 @@ class IconBuilderProcessor:
                 skip_output_if_fresh=False,
                 data=icon_build_data,
                 cache=cache,
-                icon_dir=self.icon_builder_dir / "icons",
+                icon_dir=self.icon_dir,
                 force_rebuild=False,
                 silent_mode=False,
                 log_file=None,
@@ -106,8 +87,6 @@ class IconBuilderProcessor:
 
             print(f"[+] 图标构造完成: {added} 新增, {removed} 删除")
             print(f"[+] 构造耗时: {self.stats['build_duration']:.1f} 秒")
-
-            cache.purge(["sde.zip", "checksum.txt"])
 
             if not self.output_zip.exists():
                 print("[x] 图标包生成失败")
@@ -164,8 +143,5 @@ def main(config: Dict[str, Any]) -> bool:
 
 
 if __name__ == "__main__":
-    import json
-    config_path = PROJECT_ROOT / "config.json"
-    with open(config_path, "r", encoding="utf-8") as f:
-        cfg = json.load(f)
+    cfg = load_config()
     main(cfg)

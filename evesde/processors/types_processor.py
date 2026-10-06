@@ -8,7 +8,7 @@
 完全按照old版本的逻辑实现，确保数据库结构一致
 """
 
-from evesde.paths import PROJECT_ROOT
+from evesde.paths import load_config, PROJECT_ROOT
 from evesde.utils.single_db import get_db_path
 from evesde.utils.wide_i18n import wide_texts, names_row, name_cols_sql, LANGS
 import json
@@ -761,10 +761,7 @@ def main(config=None):
     
     # 如果没有传入配置，则尝试加载本地配置（用于独立运行）
     if config is None:
-        import json
-        config_path = PROJECT_ROOT / "config.json"
-        with open(config_path, 'r', encoding='utf-8') as f:
-            config = json.load(f)
+        config = load_config()
     
     # 创建处理器并执行
     processor = TypesProcessor(config)

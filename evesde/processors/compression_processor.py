@@ -10,7 +10,7 @@
 3. 压缩所有数据库文件
 """
 
-from evesde.paths import PROJECT_ROOT
+from evesde.paths import load_config, PROJECT_ROOT
 import os
 import zipfile
 import shutil
@@ -223,10 +223,7 @@ def main(config=None):
     print("[+] 压缩处理器启动")
     
     if config is None:
-        import json
-        config_path = PROJECT_ROOT / "config.json"
-        with open(config_path, 'r', encoding='utf-8') as f:
-            config = json.load(f)
+        config = load_config()
     
     processor = CompressionProcessor(config)
     ok = processor.process_compression()

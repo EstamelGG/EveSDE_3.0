@@ -10,7 +10,7 @@
 - industryTargetFilters.jsonl
 """
 
-from evesde.paths import PROJECT_ROOT
+from evesde.paths import load_config, PROJECT_ROOT
 from evesde.utils.single_db import get_db_path
 import sqlite3
 from typing import Dict, List, Tuple, Any
@@ -158,10 +158,7 @@ class FacilityRigEffectsProcessor:
 def main(config=None):
     print("[+] 设施装配效果数据处理器启动")
     if config is None:
-        import json
-        config_path = PROJECT_ROOT / "config.json"
-        with open(config_path, "r", encoding="utf-8") as f:
-            config = json.load(f)
+        config = load_config()
     processor = FacilityRigEffectsProcessor(config)
     ok = processor.process_all_languages()
     print("\n[+] 设施装配效果数据处理器完成")
