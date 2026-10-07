@@ -15,14 +15,15 @@ JSON 位于 `sde.zip` 根目录，固定命名为 `whats_new.json`。只含 `new
 每个条目包含：
 
 - `kind`：`item` 或 `blueprint`。新旧任一版本含对应 blueprints 记录即视为蓝图。
+- `name`、`description`：可选，语言代码 → `before/after`，普通物品和蓝图均支持。逐语言比较原始 SDE 文本，只记录改变、新增或删除的语言分支；无语言回退，不清理 HTML、换行或空白。缺失一侧用 `null`，空字符串保留。
 - `attributes`：可选，attributeID → old/new。记录 typeDogma 属性的新增、删除和修改，无类别限制；已有物品首次获得属性也会记录。
 - `blueprint`：可选，蓝图字段的嵌套差异。仅记录各活动中 materials 的材料新增、删除和数量变化，忽略技能、时间、产品、概率及 maxProductionLimit 等字段。只输出变化的字段。
 
-蓝图不记录 dogma 属性变化；只有材料发生变化才输出。已有物品获得或失去蓝图材料数据时，记录对应材料的新增或删除。typeID 已是键，不重复输出 _key、blueprintTypeID 或显示名称。
+蓝图不记录 dogma 属性变化；材料、名称或描述发生变化才输出。已有物品获得或失去蓝图材料数据时，记录对应材料的新增或删除。typeID 已是键，不重复输出 _key、blueprintTypeID 。
 
 ## 值与嵌套结构
 
-变化叶子固定为 `{"old": "旧值", "new": "新值"}`，数值也用字符串；整数值浮点数规范化为整数文本。缺失一侧为 null，不能与字符串 "0" 或空字符串混淆。
+属性和材料的变化叶子为 `{"old": "旧值", "new": "新值"}`，数值也用字符串；整数值浮点数规范化为整数文本。缺失一侧为 null，不能与字符串 "0" 或空字符串混淆。
 
 蓝图保留 activities → 活动名 → 字段的结构。materials 从列表转为材料 typeID 字符串键的对象，记录 quantity。仅列表重排不视为变化，未变化的材料或字段不输出。
 
@@ -48,6 +49,8 @@ JSON 位于 `sde.zip` 根目录，固定命名为 `whats_new.json`。只含 `new
   "modify": {
     "587": {
       "kind": "item",
+      "name": {"zh": {"before": "旧名称", "after": "新名称"}},
+      "description": {"en": {"before": null, "after": "New description"}},
       "attributes": {
         "20": {"old": "10", "new": "12.5"},
         "21": {"old": null, "new": "0"},

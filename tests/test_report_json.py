@@ -78,6 +78,42 @@ class JSONReportTests(unittest.TestCase):
         self.assertNotIn("200", report["modify"])
         self.assertNotIn("  - 属性:", self.destination.read_text())
 
+    def test_localized_text_changes_include_only_changed_languages(self):
+        old, new = self.item(1), self.item(1)
+        old["name"] = {"zh": "旧名", "en": "Same", "ja": "削除"}
+        new["name"] = {"zh": "新名", "en": "Same", "de": "Neu"}
+        old["description"] = {"zh": "<b>旧</b>\n", "en": ""}
+        new["description"] = {"zh": "<b>新</b>\n", "fr": ""}
+        self.write_both("types", [old], [new, self.item(2)])
+        item = self.generate()["modify"]["1"]
+        self.assertEqual(item["name"], {
+            "zh": {"before": "旧名", "after": "新名"},
+            "ja": {"before": "削除", "after": None},
+            "de": {"before": None, "after": "Neu"},
+        })
+        self.assertEqual(item["description"], {
+            "zh": {"before": "<b>旧</b>\n", "after": "<b>新</b>\n"},
+            "en": {"before": "", "after": None},
+            "fr": {"before": None, "after": ""},
+        })
+        self.assertIn("attributes", item)
+        self.assertNotIn("2", self.generate()["modify"])
+
+    def test_text_only_changes_include_items_and_blueprints(self):
+        old_item, new_item = self.item(1), self.item(1)
+        old_bp, new_bp = self.item(100), self.item(100)
+        new_item["name"] = {"zh": "新名称"}
+        old_bp.pop("description")
+        new_bp["description"] = {"en": "Blueprint description"}
+        self.write_both("types", [old_item, old_bp], [new_item, new_bp])
+        self.write_both("typeDogma", [])
+        self.write_both("blueprints", [{"_key": 100}])
+        modified = self.generate()["modify"]
+        self.assertEqual(modified["1"], {"kind": "item", "name": {
+            "zh": {"before": "中文物品名", "after": "新名称"}}})
+        self.assertEqual(modified["100"], {"kind": "blueprint", "description": {
+            "en": {"before": None, "after": "Blueprint description"}}})
+
     def test_all_blueprint_changes_keep_ids_without_names(self):
         report = self.generate()
         self.assertEqual(report["modify"]["100"]["kind"], "blueprint")

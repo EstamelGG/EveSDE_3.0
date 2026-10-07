@@ -58,6 +58,14 @@ def blueprint_materials(blueprint):
     }}
 
 
+def localized_changes(old, new):
+    """逐语言比较原始文本，不回退到其他语言，也不清理标记或空白。"""
+    old, new = old or {}, new or {}
+    return {language: {"before": old.get(language), "after": new.get(language)}
+            for language in sorted(old.keys() | new.keys())
+            if old.get(language) != new.get(language)}
+
+
 def build_report(analyzer):
     old_ids = set(analyzer.old_types_data)
     new_ids = set(analyzer.current_types_data)
@@ -66,6 +74,11 @@ def build_report(analyzer):
         is_blueprint = (type_id in analyzer.old_blueprints_data
                         or type_id in analyzer.current_blueprints_data)
         changes = {}
+        for field in ("name", "description"):
+            localized = localized_changes(analyzer.old_types_data[type_id].get(field),
+                                          analyzer.current_types_data[type_id].get(field))
+            if localized:
+                changes[field] = localized
         if is_blueprint:
             old = blueprint_materials(analyzer.old_blueprints_data.get(type_id, {}))
             new = blueprint_materials(analyzer.current_blueprints_data.get(type_id, {}))

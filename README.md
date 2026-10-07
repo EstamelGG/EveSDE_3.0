@@ -107,7 +107,7 @@ python -m evesde sync-history \
 
 ## 机器可读物品变更
 
-存在实际更新和上一版比较基线时，同时生成 Markdown 和固定名称的 `whats_new.json`。Markdown 加入 Release、全量包及历史提交；JSON 仅打包到 `sde.zip` 根目录。JSON 只有两个字段：`new` 是全部新增 typeID 的整数数组，`modify` 按 typeID 记录已有物品的实际变化，通过 `kind` 区分物品和蓝图。物品记录属性变化，蓝图仅记录各活动的材料变化；值沿用 `old/new` 文本和 `null`。新增物品不重复进入 `modify`，未变化内容不输出，不再包含版本号、图标、名称或描述。
+存在实际更新和上一版比较基线时，同时生成 Markdown 和固定名称的 `whats_new.json`。Markdown 加入 Release、全量包及历史提交；JSON 仅打包到 `sde.zip` 根目录。JSON 只有两个字段：`new` 是全部新增 typeID 的整数数组，`modify` 按 typeID 记录已有物品的实际变化，通过 `kind` 区分物品和蓝图。物品记录属性变化，蓝图仅记录各活动的材料变化；值沿用 `old/new` 文本和 `null`。新增物品不重复进入 `modify`，未变化内容不输出，不包含版本号和图标。名称、描述变化按语言分支记录在 `name`、`description` 中，使用 `before/after` 原文；只输出变化的语言，缺失一侧为 `null`，普通物品和蓝图均适用。
 
 字段定义和完整例子见 [whats_new JSON 格式](docs/whats-new-json.md)。这项输出遵循现有发布内容检测：无实际变化时仍跳过报告生成及发布。
 
