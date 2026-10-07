@@ -1,4 +1,4 @@
-"""whats_new JSON v1：实体 ID 为键，变更值为 old/new 文本，不包含显示名称。"""
+"""物品级变更报告：new 为新增 ID，modify 为已有物品的稀疏差异。"""
 import json
 
 _MISSING = object()
@@ -57,47 +57,27 @@ def dogma_values(analyzer, type_id, *, old=False):
             for attr in source.get(type_id, {}).get("dogmaAttributes", [])}
 
 
-def build_report(analyzer, new_items, ship_blueprints, blueprint_changes, attribute_changes,
-                 icon_changes, *, old_version=None, new_version=None):
-    items = {}
-    for item in sorted(new_items, key=lambda item: item["type_id"]):
-        type_id = item["type_id"]
-        items[type_id] = {
-            "group_id": value_text(item["group_id"]),
-            "category_id": value_text(item["category_id"]),
-            "description": change(new=item["description"]),
-        }
-    ships = {}
-    for type_id, blueprint in sorted(ship_blueprints.items()):
-        ships[type_id] = {
-            "blueprint_id": value_text(blueprint["blueprint_id"]),
-            "materials": {str(item["typeID"]): change(new=item.get("quantity", 0))
-                          for item in blueprint["materials"]},
-        }
-    blueprints = {}
-    for status, records in blueprint_changes.items():
-        for blueprint_id in sorted(records):
-            old = normalize_blueprint(analyzer.old_blueprints_data.get(blueprint_id, {}))
-            new = normalize_blueprint(analyzer.current_blueprints_data.get(blueprint_id, {}))
-            differences = field_changes(old, new)
-            if differences or status != "changed":
-                blueprints[blueprint_id] = {"status": status, "changes": differences or {}}
-    attributes = {}
-    for type_id, item in sorted(attribute_changes.items()):
-        old, new = dogma_values(analyzer, type_id, old=True), dogma_values(analyzer, type_id)
-        attributes[type_id] = {
-            attr["attributeID"]: change(old.get(attr["attributeID"], _MISSING), new.get(attr["attributeID"], _MISSING))
-            for attr in sorted(item["changes"], key=lambda attr: attr["attributeID"])
-        }
-    old_icons, new_icons = analyzer.icon_hashes
-    icons = {name: change(old_icons.get(name, _MISSING), new_icons.get(name, _MISSING))
-             for name in sorted(set().union(*icon_changes.values()))}
-    return {
-        "schema_version": 1,
-        "versions": {"old": old_version, "new": new_version},
-        "new_items": items,
-        "new_ships": ships,
-        "blueprint_changes": blueprints,
-        "attribute_changes": attributes,
-        "icon_changes": icons,
-    }
+def build_report(analyzer):
+    old_ids = set(analyzer.old_types_data)
+    new_ids = set(analyzer.current_types_data)
+    modified = {}
+    for type_id in sorted(old_ids & new_ids, key=int):
+        attributes = field_changes(dogma_values(analyzer, type_id, old=True),
+                                   dogma_values(analyzer, type_id))
+        is_blueprint = (type_id in analyzer.old_blueprints_data
+                        or type_id in analyzer.current_blueprints_data)
+        changes = {}
+        if attributes:
+            changes["attributes"] = attributes
+        if is_blueprint:
+            old = normalize_blueprint(analyzer.old_blueprints_data.get(type_id, {}))
+            new = normalize_blueprint(analyzer.current_blueprints_data.get(type_id, {}))
+            # typeID 已是实体键，不把蓝图身份字段重复当作变化。
+            old.pop("blueprintTypeID", None)
+            new.pop("blueprintTypeID", None)
+            blueprint = field_changes(old, new)
+            if blueprint:
+                changes["blueprint"] = blueprint
+        if changes:
+            modified[type_id] = {"kind": "blueprint" if is_blueprint else "item", **changes}
+    return {"new": sorted(map(int, new_ids - old_ids)), "modify": modified}

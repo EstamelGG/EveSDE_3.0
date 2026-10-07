@@ -260,7 +260,7 @@ class ReleaseIntegrationTests(unittest.TestCase):
         report.parent.mkdir(parents=True)
         report.write_text("report")
         json_report = report.with_name("whats_new.json")
-        json_report.write_text('{"schema_version":1,"attribute_changes":{}}')
+        json_report.write_text('{"new":[],"modify":{}}')
         result = assets.prepare_release(self.config, plan(), self.baseline, report)
         self.assertFalse(any(name.endswith("whats_new.json") for name in result["files"]))
         with zipfile.ZipFile(self.root / "output/release/sde.zip") as archive:
@@ -307,7 +307,7 @@ class ReportTests(unittest.TestCase):
             def analyze(config, old, current, output, **kwargs):
                 self.assertEqual(old, current)
                 output.write_text("report")
-                output.with_name("whats_new.json").write_text('{"schema_version":1}')
+                output.with_name("whats_new.json").write_text('{"new":[],"modify":{}}')
                 self.assertEqual(kwargs["old_version"], "123")
                 self.assertEqual(kwargs["new_version"], "123.01")
                 return True

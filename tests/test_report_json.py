@@ -18,7 +18,8 @@ class JSONReportTests(unittest.TestCase):
         self.old.mkdir()
         self.new.mkdir()
         self.destination = self.root / "whats_new_122_123.md"
-        self.write_both("types", [self.item(1)], [self.item(1), self.item(2), self.item(3, group=999)])
+        self.write_both("types", [self.item(1), self.item(100), self.item(300)],
+                        [self.item(1), self.item(2), self.item(3, group=999), self.item(100), self.item(200), self.item(300)])
         self.write_both("groups", [{"_key": 10, "categoryID": 6, "name": {"zh": "中文组名"}}])
         self.write_both("categories", [{"_key": 6, "name": {"zh": "中文类别名"}}])
         self.write_both("dogmaAttributes", [{"_key": i, "displayName": {"zh": "中文属性名"}} for i in range(10, 16)])
@@ -67,43 +68,52 @@ class JSONReportTests(unittest.TestCase):
         for name in ("中文物品名", "中文属性名", "中文组名", "中文类别名"):
             self.assertNotIn(name, raw)
         self.assertIn("中文物品名", self.destination.read_text())
-        self.assertEqual(report["schema_version"], 1)
-        self.assertEqual(report["versions"], {"old": "122.01", "new": "123.02"})
-        self.assertEqual(report["attribute_changes"]["1"], {
+        self.assertEqual(set(report), {"new", "modify"})
+        self.assertEqual(report["new"], [2, 3, 200])
+        self.assertEqual(report["modify"]["1"]["kind"], "item")
+        self.assertEqual(report["modify"]["1"]["attributes"], {
             "10": {"old": "10", "new": "12.5"}, "11": {"old": "0", "new": None},
             "12": {"old": "4", "new": None}, "13": {"old": None, "new": "0"},
         })
-        self.assertNotIn("attributes", report["new_items"]["2"])
-        self.assertNotIn("2", report["attribute_changes"])
+        self.assertNotIn("2", report["modify"])
+        self.assertNotIn("200", report["modify"])
         self.assertNotIn("  - 属性:", self.destination.read_text())
-        self.assertEqual(report["new_items"]["2"]["description"]["new"], "保留描述文本")
-        self.assertIsNone(report["new_items"]["3"]["category_id"])
-        self.assertEqual(report["new_ships"]["2"], {"blueprint_id": "200", "materials": {"34": {"old": None, "new": "2"}}})
 
     def test_all_blueprint_changes_keep_ids_without_names(self):
         report = self.generate()
-        blueprints = report["blueprint_changes"]
-        self.assertEqual(blueprints["200"]["status"], "added")
-        self.assertEqual(blueprints["300"]["status"], "removed")
-        changes = blueprints["100"]["changes"]
+        self.assertEqual(report["modify"]["100"]["kind"], "blueprint")
+        changes = report["modify"]["100"]["blueprint"]
         self.assertEqual(changes["maxProductionLimit"], {"old": "10", "new": "20"})
         manufacturing = changes["activities"]["manufacturing"]
         self.assertEqual(manufacturing["materials"]["34"]["quantity"], {"old": "100", "new": None})
         self.assertEqual(manufacturing["materials"]["35"]["quantity"], {"old": None, "new": "200"})
         self.assertEqual(manufacturing["products"]["1"]["probability"], {"old": "0.5", "new": "0.8"})
         self.assertEqual(changes["activities"]["research_time"]["skills"]["3402"]["level"], {"old": None, "new": "3"})
+        self.assertNotIn("blueprintTypeID", changes)
+        self.assertEqual(report["modify"]["300"]["blueprint"]["activities"]["reaction"]["time"],
+                         {"old": "10", "new": None})
 
-    def test_icon_values_are_old_new_hashes_and_not_truncated(self):
+    def test_attributes_are_not_restricted_to_markdown_categories(self):
+        self.write_both("types", [self.item(1, group=999)])
+        self.assertIn("1", self.generate()["modify"])
+
+    def test_existing_item_can_gain_its_first_attribute(self):
+        self.write_both("typeDogma", [], [self.dogma(1, {10: 0})])
+        self.assertEqual(self.generate()["modify"]["1"]["attributes"],
+                         {"10": {"old": None, "new": "0"}})
+
+    def test_blueprint_can_also_have_attribute_changes(self):
+        self.write_both("typeDogma", [self.dogma(100, {10: 1})], [self.dogma(100, {10: 2})])
+        item = self.generate()["modify"]["100"]
+        self.assertEqual(item["kind"], "blueprint")
+        self.assertIn("attributes", item)
+        self.assertIn("blueprint", item)
+
+    def test_icons_do_not_change_machine_report(self):
+        first = self.generate()
         with zipfile.ZipFile(self.new_icons, "a") as archive:
-            for i in range(1000, 1201):
-                archive.writestr(f"{i}.png", str(i))
-        report = self.generate()
-        icons = report["icon_changes"]
-        self.assertEqual(len(icons), 204)
-        self.assertEqual(len(icons["1.png"]["old"]), 64)
-        self.assertNotEqual(icons["1.png"]["old"], icons["1.png"]["new"])
-        self.assertIsNone(icons["2.png"]["old"])
-        self.assertIsNone(icons["3.png"]["new"])
+            archive.writestr("999.png", b"changed")
+        self.assertEqual(first, self.generate())
 
     def test_json_output_is_deterministic(self):
         self.generate()
@@ -127,8 +137,8 @@ class JSONReportTests(unittest.TestCase):
     def test_unchanged_report_sections_are_empty_objects(self):
         self.assertTrue(main({}, self.old, self.old, self.destination, old_version="122", new_version="122"))
         report = json.loads(self.destination.with_name("whats_new.json").read_text())
-        for key in ("new_items", "new_ships", "blueprint_changes", "attribute_changes", "icon_changes"):
-            self.assertEqual(report[key], {})
+        self.assertEqual(report, {"new": [], "modify": {}})
+
 
 
 if __name__ == "__main__":

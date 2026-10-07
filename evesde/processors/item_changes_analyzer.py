@@ -944,11 +944,7 @@ class ItemChangesAnalyzer:
             if icon_changes.get('added') or icon_changes.get('removed') or icon_changes.get('modified'):
                 lines.append(self.create_icon_changes_markdown(icon_changes))
             
-            json_report = build_report(
-                self, all_new_items, ship_blueprints, blueprint_changes,
-                items_with_attribute_changes, icon_changes,
-                old_version=old_version, new_version=new_version,
-            )
+            json_report = build_report(self)
             json_text = json.dumps(json_report, ensure_ascii=False, indent=2, sort_keys=True, allow_nan=False) + "\n"
             # 两种格式都生成成功才返回成功；调用方会检查配对文件。
             output_path.parent.mkdir(parents=True, exist_ok=True)
