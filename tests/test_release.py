@@ -308,8 +308,6 @@ class ReportTests(unittest.TestCase):
                 self.assertEqual(old, current)
                 output.write_text("report")
                 output.with_name("whats_new.json").write_text('{"new":[],"modify":{}}')
-                self.assertEqual(kwargs["old_version"], "123")
-                self.assertEqual(kwargs["new_version"], "123.01")
                 return True
             with patch.object(reports, "download_and_extract_jsonl") as download, patch.object(reports.item_changes_analyzer, "main", side_effect=analyze):
                 result = reports.generate_report(config, plan(final_build_number="123.01", patch_version="1"), baseline)

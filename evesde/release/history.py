@@ -38,7 +38,7 @@ def sync_history(manifest_path: Path, checkout: Path, *, branch="main", push=Fal
         is_detail = relative.as_posix() in ("output/item_detail/en", "output/item_detail/zh")
         allowed_report = (
             (relative.parent.as_posix() == "history" and relative.suffix == ".md")
-            or (relative.parent.as_posix() == "output/whats_new" and relative.suffix in (".md", ".json"))
+            or (relative.parent.as_posix() == "output/whats_new" and relative.suffix == ".md")
         )
         if not is_detail and not allowed_report:
             raise ValueError(f"不支持的历史目标: {relative}")

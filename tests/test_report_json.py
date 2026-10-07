@@ -6,7 +6,7 @@ import unittest
 import zipfile
 
 from evesde.processors.item_changes_analyzer import main
-from evesde.release.report_json import field_changes, normalize_blueprint
+from evesde.release.report_json import field_changes, material_values
 
 
 class JSONReportTests(unittest.TestCase):
@@ -58,8 +58,7 @@ class JSONReportTests(unittest.TestCase):
 
     def generate(self):
         self.assertTrue(main({}, self.old, self.new, self.destination,
-                             old_icons_zip=self.old_icons, current_icons_zip=self.new_icons,
-                             old_version="122.01", new_version="123.02"))
+                             old_icons_zip=self.old_icons, current_icons_zip=self.new_icons))
         return json.loads(self.destination.with_name("whats_new.json").read_text(encoding="utf-8"))
 
     def test_names_omitted_and_before_after_values_are_text(self):
@@ -83,15 +82,11 @@ class JSONReportTests(unittest.TestCase):
         report = self.generate()
         self.assertEqual(report["modify"]["100"]["kind"], "blueprint")
         changes = report["modify"]["100"]["blueprint"]
-        self.assertEqual(changes["maxProductionLimit"], {"old": "10", "new": "20"})
-        manufacturing = changes["activities"]["manufacturing"]
-        self.assertEqual(manufacturing["materials"]["34"]["quantity"], {"old": "100", "new": None})
-        self.assertEqual(manufacturing["materials"]["35"]["quantity"], {"old": None, "new": "200"})
-        self.assertEqual(manufacturing["products"]["1"]["probability"], {"old": "0.5", "new": "0.8"})
-        self.assertEqual(changes["activities"]["research_time"]["skills"]["3402"]["level"], {"old": None, "new": "3"})
-        self.assertNotIn("blueprintTypeID", changes)
-        self.assertEqual(report["modify"]["300"]["blueprint"]["activities"]["reaction"]["time"],
-                         {"old": "10", "new": None})
+        self.assertEqual(changes, {"activities": {"manufacturing": {"materials": {
+            "34": {"quantity": {"old": "100", "new": None}},
+            "35": {"quantity": {"old": None, "new": "200"}},
+        }}}})
+        self.assertNotIn("300", report["modify"])
 
     def test_attributes_are_not_restricted_to_markdown_categories(self):
         self.write_both("types", [self.item(1, group=999)])
@@ -102,11 +97,11 @@ class JSONReportTests(unittest.TestCase):
         self.assertEqual(self.generate()["modify"]["1"]["attributes"],
                          {"10": {"old": None, "new": "0"}})
 
-    def test_blueprint_can_also_have_attribute_changes(self):
+    def test_blueprint_ignores_attribute_changes(self):
         self.write_both("typeDogma", [self.dogma(100, {10: 1})], [self.dogma(100, {10: 2})])
         item = self.generate()["modify"]["100"]
         self.assertEqual(item["kind"], "blueprint")
-        self.assertIn("attributes", item)
+        self.assertNotIn("attributes", item)
         self.assertIn("blueprint", item)
 
     def test_icons_do_not_change_machine_report(self):
@@ -124,18 +119,42 @@ class JSONReportTests(unittest.TestCase):
     def test_blueprint_list_reordering_is_not_a_change(self):
         old = {"materials": [{"typeID": 34, "quantity": 1}, {"typeID": 35, "quantity": 2}]}
         new = {"materials": list(reversed(old["materials"]))}
-        self.assertIsNone(field_changes(normalize_blueprint(old), normalize_blueprint(new)))
+        self.assertIsNone(field_changes(material_values(old["materials"]), material_values(new["materials"])))
 
     def test_field_structure_change_preserves_both_values(self):
         self.assertEqual(field_changes({"value": 1}, "replacement"),
                          {"old": '{"value":1}', "new": "replacement"})
 
-    def test_duplicate_material_ids_fail_instead_of_overwriting(self):
-        with self.assertRaisesRegex(ValueError, "重复"):
-            normalize_blueprint({"materials": [{"typeID": 34, "quantity": 1}, {"typeID": 34, "quantity": 2}]})
+    def test_duplicate_material_quantities_preserve_count_and_ignore_order(self):
+        row = {"typeID": 34, "quantity": 1}
+        other = {"typeID": 34, "quantity": 2}
+        one, two = material_values([row]), material_values([row, row])
+        changed = material_values([row, other])
+        self.assertIsNone(field_changes(changed, material_values([other, row])))
+        self.assertEqual(field_changes(one, two)["34"],
+                         {"old": '{"quantity":1}', "new": '[{"quantity":1},{"quantity":1}]'})
+        self.assertEqual(field_changes(two, changed)["34"],
+                         {"old": '[{"quantity":1},{"quantity":1}]', "new": '[{"quantity":1},{"quantity":2}]'})
+
+    def test_non_material_blueprint_changes_are_ignored(self):
+        old = {"_key": 100, "activities": {"manufacturing": {"skills": [
+            {"typeID": 11442, "level": 1}, {"typeID": 11442, "level": 2}]}}}
+        new = {"_key": 100, "activities": {"manufacturing": {"skills": [
+            {"typeID": 11442, "level": 1}, {"typeID": 11442, "level": 3}]}}}
+        self.write_both("blueprints", [old], [new])
+        self.write_both("typeDogma", [self.dogma(100, {10: 1})], [self.dogma(100, {10: 2})])
+        self.assertNotIn("100", self.generate()["modify"])
+
+    def test_reaction_material_addition_and_removal(self):
+        old = {"_key": 100, "activities": {"reaction": {"materials": [{"typeID": 34, "quantity": 5}]}}}
+        new = {"_key": 100, "activities": {"manufacturing": {"materials": [{"typeID": 35, "quantity": 6}]}}}
+        self.write_both("blueprints", [old], [new])
+        activities = self.generate()["modify"]["100"]["blueprint"]["activities"]
+        self.assertEqual(activities["reaction"]["materials"]["34"]["quantity"], {"old": "5", "new": None})
+        self.assertEqual(activities["manufacturing"]["materials"]["35"]["quantity"], {"old": None, "new": "6"})
 
     def test_unchanged_report_sections_are_empty_objects(self):
-        self.assertTrue(main({}, self.old, self.old, self.destination, old_version="122", new_version="122"))
+        self.assertTrue(main({}, self.old, self.old, self.destination))
         report = json.loads(self.destination.with_name("whats_new.json").read_text())
         self.assertEqual(report, {"new": [], "modify": {}})
 

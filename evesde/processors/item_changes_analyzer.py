@@ -146,7 +146,6 @@ class ItemChangesAnalyzer:
         self.project_root = PROJECT_ROOT
         self.old_icons_zip = old_icons_zip
         self.current_icons_zip = current_icons_zip
-        self.icon_hashes = ({}, {})
         
         # 缓存数据
         self.current_types_data = {}
@@ -244,10 +243,8 @@ class ItemChangesAnalyzer:
         
         return f"AttributeID {attribute_id}"
     
-    def analyze_new_items(self, target_categories: Set[int] = None) -> List[Dict[str, Any]]:
-        """分析所有新增物品，获取类别和组别信息，对指定类别的物品收集属性信息"""
-        if target_categories is None:
-            target_categories = {4, 6, 7, 18, 20, 65, 66, 87}
+    def analyze_new_items(self) -> List[Dict[str, Any]]:
+        """分析所有新增物品，获取描述、类别和组别信息。"""
         
         print("[+] 分析新增物品...")
         
@@ -403,11 +400,10 @@ class ItemChangesAnalyzer:
     def analyze_icon_changes(self) -> Dict[str, List[str]]:
         """对比新旧 icons.zip，返回新增/删除/修改的图标文件列表（基于内容 SHA256）"""
         if not self.old_icons_zip or not self.current_icons_zip:
-            self.icon_hashes = ({}, {})
             return {"added": [], "removed": [], "modified": []}
-        self.icon_hashes = (_read_zip_png_hashes(Path(self.old_icons_zip)),
-                            _read_zip_png_hashes(Path(self.current_icons_zip)))
-        return compare_icon_hashes(*self.icon_hashes)
+        icon_hashes = (_read_zip_png_hashes(Path(self.old_icons_zip)),
+                       _read_zip_png_hashes(Path(self.current_icons_zip)))
+        return compare_icon_hashes(*icon_hashes)
 
     def create_icon_changes_markdown(self, icon_changes: Dict[str, List[str]]) -> str:
         """生成图标变更 Markdown"""
@@ -828,7 +824,7 @@ class ItemChangesAnalyzer:
         
         return analysis
     
-    def generate_markdown_report(self, output_path: Path, *, old_version=None, new_version=None) -> bool:
+    def generate_markdown_report(self, output_path: Path) -> bool:
         """生成 Markdown 格式的变更报告（完全按照 tmp 项目的格式）"""
         try:
             print("[+] 生成变更报告...")
@@ -838,7 +834,7 @@ class ItemChangesAnalyzer:
             
             # 分析新增物品
             target_categories = {4, 6, 7, 18, 20, 65, 66, 87}
-            all_new_items = self.analyze_new_items(target_categories)
+            all_new_items = self.analyze_new_items()
             
             # 分析新增飞船（categoryID == 6）
             new_ships = {}
@@ -963,8 +959,7 @@ class ItemChangesAnalyzer:
 
 
 def main(config: Dict[str, Any], old_jsonl_path: Path, current_jsonl_path: Path, output_path: Path,
-         old_icons_zip: Optional[Path] = None, current_icons_zip: Optional[Path] = None,
-         *, old_version=None, new_version=None) -> bool:
+         old_icons_zip: Optional[Path] = None, current_icons_zip: Optional[Path] = None) -> bool:
     """主函数
     
     Args:
@@ -977,7 +972,7 @@ def main(config: Dict[str, Any], old_jsonl_path: Path, current_jsonl_path: Path,
     """
     analyzer = ItemChangesAnalyzer(config, old_jsonl_path, current_jsonl_path,
                                    old_icons_zip=old_icons_zip, current_icons_zip=current_icons_zip)
-    return analyzer.generate_markdown_report(output_path, old_version=old_version, new_version=new_version)
+    return analyzer.generate_markdown_report(output_path)
 
 
 if __name__ == "__main__":

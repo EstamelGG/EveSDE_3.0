@@ -62,8 +62,6 @@ def generate_report(config, plan, baseline) -> Path | None:
     success = item_changes_analyzer.main(
         config, old, current, destination,
         old_icons_zip=old_icons, current_icons_zip=current_icons if current_icons.exists() else None,
-        old_version=baseline.release["tag_name"].removeprefix("sde-build-"),
-        new_version=plan.final_build_number,
     )
     if not success or not destination.is_file() or not destination.with_name("whats_new.json").is_file():
         raise RuntimeError("物品变更报告生成失败")

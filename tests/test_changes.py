@@ -74,9 +74,9 @@ class ContentChangesTests(unittest.TestCase):
         self.assertFalse(saved["has_changes"])
 
     def test_derived_report_does_not_trigger_publication(self):
-        (self.old / "whats_new.json").write_text('{"versions":{"old":"121","new":"122"}}')
+        (self.old / "whats_new.json").write_text('{"new":[1],"modify":{}}')
         self.assertFalse(self.decision().has_changes)
-        (self.new / "whats_new.json").write_text('{"versions":{"old":"122","new":"123"}}')
+        (self.new / "whats_new.json").write_text('{"new":[2],"modify":{}}')
         self.assertFalse(self.decision().has_changes)
 
     def test_row_order_and_sqlite_statistics_do_not_publish(self):
