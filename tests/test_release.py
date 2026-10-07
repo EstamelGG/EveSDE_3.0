@@ -255,23 +255,25 @@ class ReleaseIntegrationTests(unittest.TestCase):
         self.assertEqual(len(list((checkout / "history").glob("*.md"))), 1)
         self.assertIn("history/release_compare_123_", (self.root / result["notes"]).read_text())
 
-    def test_json_report_is_in_release_tarball_and_history(self):
+    def test_json_report_is_only_inside_sde_zip(self):
         report = self.root / "output/whats_new/whats_new_122_123.md"
         report.parent.mkdir(parents=True)
         report.write_text("report")
-        json_report = report.with_suffix(".json")
+        json_report = report.with_name("whats_new.json")
         json_report.write_text('{"schema_version":1,"attribute_changes":{}}')
         result = assets.prepare_release(self.config, plan(), self.baseline, report)
-        self.assertIn("output/whats_new/whats_new_122_123.json", result["files"])
+        self.assertFalse(any(name.endswith("whats_new.json") for name in result["files"]))
+        with zipfile.ZipFile(self.root / "output/release/sde.zip") as archive:
+            self.assertEqual(archive.read("whats_new.json"), json_report.read_bytes())
         with tarfile.open(self.root / "output/release/sde-build-123-all.tar.gz") as archive:
-            self.assertIn(json_report.name, archive.getnames())
-            self.assertEqual(archive.extractfile(json_report.name).read(), json_report.read_bytes())
+            self.assertNotIn(json_report.name, archive.getnames())
         self.assertIn(json_report.name, (self.root / result["notes"]).read_text())
         checkout = self.root / "repo"
         subprocess.run(["git", "init", "-b", "main", str(checkout)], check=True, capture_output=True)
         with patch.object(history, "PROJECT_ROOT", self.root):
             history.sync_history(self.root / "output/release/release-manifest.json", checkout)
-        self.assertEqual((checkout / "output/whats_new" / json_report.name).read_bytes(), json_report.read_bytes())
+        self.assertFalse((checkout / "output/whats_new" / json_report.name).exists())
+        self.assertTrue((checkout / "output/whats_new" / report.name).is_file())
 
     def test_markdown_without_json_cannot_be_published(self):
         report = self.root / "whats_new_122_123.md"
@@ -305,7 +307,7 @@ class ReportTests(unittest.TestCase):
             def analyze(config, old, current, output, **kwargs):
                 self.assertEqual(old, current)
                 output.write_text("report")
-                output.with_suffix(".json").write_text('{"schema_version":1}')
+                output.with_name("whats_new.json").write_text('{"schema_version":1}')
                 self.assertEqual(kwargs["old_version"], "123")
                 self.assertEqual(kwargs["new_version"], "123.01")
                 return True

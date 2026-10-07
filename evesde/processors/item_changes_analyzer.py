@@ -315,45 +315,6 @@ class ItemChangesAnalyzer:
                 'category_name': category_name
             }
             
-            # 只对指定类别的物品收集属性信息
-            if category_id in target_categories:
-                # 从完整的 typedogma_data 获取
-                item_typedogma = self.current_typedogma_data.get(type_id, {})
-                
-                if item_typedogma:
-                    attributes = []
-                    dogma_attributes = item_typedogma.get('dogmaAttributes', [])
-                    
-                    for attr in dogma_attributes:
-                        attribute_id = str(attr.get('attributeID'))
-                        attribute_value = attr.get('value', 0)
-                        
-                        # 跳过值为 0 的属性（通常表示未设置）
-                        if attribute_value == 0:
-                            continue
-                        
-                        # 获取属性名称
-                        attribute_name = self.get_attribute_name(attribute_id)
-                        
-                        # 格式化数值显示
-                        if isinstance(attribute_value, float) and attribute_value.is_integer():
-                            attribute_value = int(attribute_value)
-                        
-                        attributes.append({
-                            'attributeID': attribute_id,
-                            'attributeName': attribute_name,
-                            'value': attribute_value
-                        })
-                    
-                    # 按属性名称排序
-                    attributes.sort(key=lambda x: x['attributeName'])
-                    item_info['attributes'] = attributes
-                else:
-                    item_info['attributes'] = []
-            else:
-                # 非目标类别，不收集属性
-                item_info['attributes'] = None
-            
             new_items.append(item_info)
         
         return new_items
@@ -408,6 +369,8 @@ class ItemChangesAnalyzer:
         all_type_ids = set(self.current_typedogma_data.keys()) | set(self.old_typedogma_data.keys())
         
         for type_id in all_type_ids:
+            if type_id not in self.old_types_data:
+                continue  # 新增物品的初始属性不属于属性变更。
             # 检查物品类别
             if type_id in self.current_types_data:
                 type_data = self.current_types_data[type_id]
@@ -937,7 +900,6 @@ class ItemChangesAnalyzer:
                         # 输出该组别的所有物品
                         for item in group_items:
                             description = item.get('description', '')
-                            attributes = item.get('attributes')
                             # 名称后追加 (type_id) 便于快速定位
                             item_title = f"{item['name']}({item['type_id']})"
                             
@@ -946,14 +908,6 @@ class ItemChangesAnalyzer:
                                 lines.append(f"  - {description}\n")
                             else:
                                 lines.append(f"- **{item_title}**\n")
-                            
-                            # 如果是目标类别且有属性信息，显示属性
-                            if attributes is not None and attributes:
-                                lines.append(f"  - 属性:\n")
-                                for attr in attributes:
-                                    attr_name = attr.get('attributeName', f"AttributeID {attr.get('attributeID')}")
-                                    attr_value = attr.get('value', 0)
-                                    lines.append(f"    - {attr_name}: {attr_value}\n")
                             
                             lines.append("\n")
             
@@ -998,7 +952,7 @@ class ItemChangesAnalyzer:
             json_text = json.dumps(json_report, ensure_ascii=False, indent=2, sort_keys=True, allow_nan=False) + "\n"
             # 两种格式都生成成功才返回成功；调用方会检查配对文件。
             output_path.parent.mkdir(parents=True, exist_ok=True)
-            output_path.with_suffix(".json").write_text(json_text, encoding="utf-8")
+            output_path.with_name("whats_new.json").write_text(json_text, encoding="utf-8")
             with open(output_path, 'w', encoding='utf-8') as f:
                 f.write(''.join(lines))
             

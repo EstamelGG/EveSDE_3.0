@@ -59,11 +59,11 @@ class JSONReportTests(unittest.TestCase):
         self.assertTrue(main({}, self.old, self.new, self.destination,
                              old_icons_zip=self.old_icons, current_icons_zip=self.new_icons,
                              old_version="122.01", new_version="123.02"))
-        return json.loads(self.destination.with_suffix(".json").read_text(encoding="utf-8"))
+        return json.loads(self.destination.with_name("whats_new.json").read_text(encoding="utf-8"))
 
     def test_names_omitted_and_before_after_values_are_text(self):
         report = self.generate()
-        raw = self.destination.with_suffix(".json").read_text()
+        raw = self.destination.with_name("whats_new.json").read_text()
         for name in ("中文物品名", "中文属性名", "中文组名", "中文类别名"):
             self.assertNotIn(name, raw)
         self.assertIn("中文物品名", self.destination.read_text())
@@ -73,7 +73,9 @@ class JSONReportTests(unittest.TestCase):
             "10": {"old": "10", "new": "12.5"}, "11": {"old": "0", "new": None},
             "12": {"old": "4", "new": None}, "13": {"old": None, "new": "0"},
         })
-        self.assertEqual(report["new_items"]["2"]["attributes"]["14"], {"old": None, "new": "0"})
+        self.assertNotIn("attributes", report["new_items"]["2"])
+        self.assertNotIn("2", report["attribute_changes"])
+        self.assertNotIn("  - 属性:", self.destination.read_text())
         self.assertEqual(report["new_items"]["2"]["description"]["new"], "保留描述文本")
         self.assertIsNone(report["new_items"]["3"]["category_id"])
         self.assertEqual(report["new_ships"]["2"], {"blueprint_id": "200", "materials": {"34": {"old": None, "new": "2"}}})
@@ -105,9 +107,9 @@ class JSONReportTests(unittest.TestCase):
 
     def test_json_output_is_deterministic(self):
         self.generate()
-        first = self.destination.with_suffix(".json").read_bytes()
+        first = self.destination.with_name("whats_new.json").read_bytes()
         self.generate()
-        self.assertEqual(first, self.destination.with_suffix(".json").read_bytes())
+        self.assertEqual(first, self.destination.with_name("whats_new.json").read_bytes())
 
     def test_blueprint_list_reordering_is_not_a_change(self):
         old = {"materials": [{"typeID": 34, "quantity": 1}, {"typeID": 35, "quantity": 2}]}
@@ -124,7 +126,7 @@ class JSONReportTests(unittest.TestCase):
 
     def test_unchanged_report_sections_are_empty_objects(self):
         self.assertTrue(main({}, self.old, self.old, self.destination, old_version="122", new_version="122"))
-        report = json.loads(self.destination.with_suffix(".json").read_text())
+        report = json.loads(self.destination.with_name("whats_new.json").read_text())
         for key in ("new_items", "new_ships", "blueprint_changes", "attribute_changes", "icon_changes"):
             self.assertEqual(report[key], {})
 

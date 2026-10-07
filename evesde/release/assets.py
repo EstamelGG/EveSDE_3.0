@@ -54,7 +54,7 @@ def add_directory_to_zip(zipf: zipfile.ZipFile, root: Path, excludes: Iterable[P
         zipf.write(path, path.relative_to(root).as_posix())
 
 
-def create_release_archives(config: Dict[str, Any]) -> Dict[str, Path]:
+def create_release_archives(config: Dict[str, Any], json_report: Optional[Path] = None) -> Dict[str, Path]:
     """从 output/ 读取制品，在 output/release/ 写出 sde.zip。"""
     paths = config["paths"]
     out = release_dir(config)
@@ -80,7 +80,9 @@ def create_release_archives(config: Dict[str, Any]) -> Dict[str, Path]:
             raise RuntimeError(f"物品详情目录缺失或为空: {directory}")
 
     with zipfile.ZipFile(sde_zip, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as zipf:
-        add_directory_to_zip(zipf, sde_dir, excludes=())
+        add_directory_to_zip(zipf, sde_dir, excludes=(sde_dir / "whats_new.json",))
+        if json_report is not None:
+            zipf.write(json_report, "whats_new.json")
 
     assets = {"icons": icons_source, "sde": sde_zip}
     ensure_zip(icons_source, min_size_mb=1)
@@ -192,7 +194,7 @@ def write_release_notes(
     ])
     if whats_new:
         lines.append(f"- **{whats_new.name}**: 物品变更报告")
-        lines.append(f"- **{whats_new.with_suffix('.json').name}**: 机器可读变更（ID 与 old/new 文本）")
+        lines.append("- **sde.zip 内的 whats_new.json**: 机器可读变更（ID 与 old/new 文本）")
 
     notes_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     return notes_path
@@ -207,13 +209,14 @@ def create_tarball(final_build_number: str, files: List[Path], out_dir: Path) ->
 
 
 def prepare_release(config, plan, baseline, whats_new=None):
-    report_files = [whats_new, whats_new.with_suffix(".json")] if whats_new else []
-    for report in report_files:
+    report_files = [whats_new] if whats_new else []
+    json_report = whats_new.with_name("whats_new.json") if whats_new else None
+    for report in report_files + ([json_report] if json_report else []):
         if not report.is_file():
             raise FileNotFoundError(f"变更报告未完整生成: {report}")
     timestamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
     out = release_dir(config)
-    assets = create_release_archives(config)
+    assets = create_release_archives(config, json_report)
     metadata = write_metadata(plan, baseline, assets)
     compare_file = out / f"release_compare_{plan.final_build_number}.md"
     # 超过仓库单文件限制的报告不生成指向 main 的失效链接。

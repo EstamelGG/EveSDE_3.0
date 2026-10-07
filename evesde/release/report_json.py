@@ -62,13 +62,10 @@ def build_report(analyzer, new_items, ship_blueprints, blueprint_changes, attrib
     items = {}
     for item in sorted(new_items, key=lambda item: item["type_id"]):
         type_id = item["type_id"]
-        # JSON 保留 0 值；Markdown 可以继续省略新物品的零值属性。
-        attributes = dogma_values(analyzer, type_id) if item["attributes"] is not None else {}
         items[type_id] = {
             "group_id": value_text(item["group_id"]),
             "category_id": value_text(item["category_id"]),
             "description": change(new=item["description"]),
-            "attributes": {key: change(new=value) for key, value in sorted(attributes.items())},
         }
     ships = {}
     for type_id, blueprint in sorted(ship_blueprints.items()):

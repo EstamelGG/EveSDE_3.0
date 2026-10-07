@@ -4,10 +4,10 @@
 
 ```text
 output/whats_new/whats_new_<旧CCP版本>_<新发布版本>.md
-output/whats_new/whats_new_<旧CCP版本>_<新发布版本>.json
+output/whats_new/whats_new.json  # 打包暂存，交付路径为 sde.zip 内的 whats_new.json
 ```
 
-两个文件同时作为 Release 附件、全量 tar 包成员和仓库历史文件保存。缺少其中任何一个都不能打包发布。只有版本号变化的运行仍在报告生成前退出，不会为了生成 JSON 而创建无效发布。首次发布没有比较基线，因此不生成这对报告。
+Markdown 作为 Release 附件、全量 tar 包成员和仓库历史文件保存。JSON 使用固定文件名 `whats_new.json`，仅放入 `sde.zip` 根目录，不再作为独立 Release 附件、tar 根目录成员或仓库历史文件；版本信息保留在 JSON 的 `versions` 字段中。缺少其中任何一个都不能打包发布。只有版本号变化的运行仍在报告生成前退出，不会为了生成 JSON 而创建无效发布。首次发布没有比较基线，因此不生成这对报告。
 
 ## 通用约定
 
@@ -25,13 +25,13 @@ output/whats_new/whats_new_<旧CCP版本>_<新发布版本>.json
 | --- | --- |
 | `schema_version` | 格式版本，当前为 `1` |
 | `versions` | `old`、`new` 为实际发布版本字符串，保留补丁号；不从文件名推断 |
-| `new_items` | `typeID` → 新物品的 `group_id`、`category_id`、描述和属性 |
+| `new_items` | `typeID` → 新物品的 `group_id`、`category_id` 和描述 |
 | `new_ships` | 新飞船 `typeID` → `blueprint_id` 及材料数量；找不到蓝图时 ID 为 `null`、材料为 `{}` |
 | `blueprint_changes` | 蓝图 ID → `status` 和嵌套字段差异 `changes` |
 | `attribute_changes` | `typeID` → `attributeID` → `old` / `new` |
 | `icon_changes` | 图标文件名 → 新旧内容 SHA256 文本；新增/删除的一侧为 `null` |
 
-`new_items` 的 `group_id`、`category_id` 和 `new_ships` 的 `blueprint_id` 是 ID 字符串或 `null`。`new_items.attributes` 和 `new_ships.materials` 的值同样使用 `old` / `new`，新增项的 `old` 为 `null`。新物品的零值属性保留在 JSON 中，即使 Markdown 为简洁而未展示。
+`new_items` 的 `group_id`、`category_id` 和 `new_ships` 的 `blueprint_id` 是 ID 字符串或 `null`。`new_ships.materials` 的值同样使用 `old` / `new`，新增项的 `old` 为 `null`。新增物品的初始属性不记录到 Markdown 或 JSON，也不进入 `attribute_changes`；已有物品增加、删除或修改属性仍正常记录。
 
 物品属性的类别范围沿用现有分析器：`4、6、7、18、20、65、66、87`。这是物品变更报告，范围不等同于整个 SDE 的所有数据差异；例如仅地图更新时，物品相关分类可能为空。
 

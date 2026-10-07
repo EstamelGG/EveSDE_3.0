@@ -54,7 +54,7 @@ sudo apt-get install -y sqlite3-tools
 - SQLite：比较表、索引和视图结构，以及各表全部记录；保留重复行数量和值类型。只忽略 `version_info` 中的 `id`、`build_number`、`patch_number`、`release_date`、`build_key` 数据，不忽略该表的结构和其他字段。
 - 图标和长文本 ZIP：比较解压后的文件名与内容，忽略 ZIP 时间戳、压缩方式和文件排列顺序。
 - 地图、本地化及其他 SDE 文件：比较内容并检测文件新增、删除；JSON 忽略对象键顺序和缩进，数组顺序仍参与比较。
-- 忽略运行记录 `latest.log`、SQLite 内部统计和物理页布局，不以数据库文件哈希或报告文本决定是否发布。
+- 忽略运行记录 `latest.log`、派生报告 `whats_new.json`、SQLite 内部统计和物理页布局，不以数据库文件哈希或报告文本决定是否发布。
 
 只有全部内容一致时才认定为无效更新。该次运行正常结束，但不导出物品详情、不生成发布包、不提交历史、不创建 Release。Actions 仅保留 `publish-decision.json` 和构建计划，并在运行摘要中说明“仅版本信息变化，跳过发布”。首次发布照常进行；补丁构建也采用相同的内容检查。附件下载、数据库或 ZIP 比较失败时构建报错，不会误判为没有变化。
 
@@ -73,7 +73,7 @@ output/
   icons/icons.zip
   item_detail/en/           # 每个物品一个 JSON
   item_detail/zh/
-  whats_new/                # 同名 .md / .json 物品变更报告
+  whats_new/                # 带版本号的 .md 与暂存的 whats_new.json
   release/
     sde.zip
     metadata.json          # 构建/补丁号、图标版本、SHA256
@@ -107,7 +107,7 @@ python -m evesde sync-history \
 
 ## 机器可读物品变更
 
-存在实际更新和上一版比较基线时，`whats_new_<old>_<new>.md` 会同时生成同名 `.json`，并共同加入 Release、全量包及历史提交。JSON 使用物品/属性/蓝图 ID 作为键，不包含显示名称；变化值为 `{"old":"10","new":"20"}`，新增或删除的一侧用 `null`，零值保留为 `"0"`。
+存在实际更新和上一版比较基线时，`whats_new_<old>_<new>.md` 会同时生成固定名称的 `whats_new.json`。Markdown 加入 Release、全量包及历史提交；JSON 仅打包到 `sde.zip` 根目录，文件名不含版本号，`versions` 字段保留比较版本。新增物品的初始属性不记录，已有物品的属性变更正常保留。JSON 使用物品/属性/蓝图 ID 作为键，不包含显示名称；变化值为 `{"old":"10","new":"20"}`，新增或删除的一侧用 `null`，零值保留为 `"0"`。
 
 字段定义和完整例子见 [whats_new JSON 格式](docs/whats-new-json.md)。这项输出遵循现有发布内容检测：无实际变化时仍跳过报告生成及发布。
 

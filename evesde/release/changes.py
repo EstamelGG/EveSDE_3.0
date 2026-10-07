@@ -118,10 +118,10 @@ def detect_changes(config, plan, baseline) -> ReleaseDecision:
     changes = []
     if not files_equal(old_icons, new_icons):
         changes.append("图标文件变化")
-    # latest.log 为运行记录；其余所有输出都纳入比较，包含新增/删除文件。
+    # 运行记录和派生变更报告不参与内容判断，避免报告本身触发发布。
     def inventory(root):
         return {file.relative_to(root).as_posix(): file for file in root.rglob("*")
-                if file.is_file() and file.relative_to(root).as_posix() != "latest.log"}
+                if file.is_file() and file.relative_to(root).as_posix() not in {"latest.log", "whats_new.json"}}
     previous, current = inventory(old_root), inventory(new_root)
     for name in sorted(previous.keys() | current.keys()):
         if name not in previous or name not in current:
