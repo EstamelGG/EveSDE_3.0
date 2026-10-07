@@ -1,7 +1,7 @@
 {
   "type_id": 97710,
-  "name": "Sarikusa’s Capital Energy Nosferatu",
-  "description": "Drains energy from the target ship and adds it to your own.\n\nNote: A Nosferatu module will not drain your target's capacitor below your own capacitor level. May only be fitted to capital ships.",
+  "name": "萨利库萨旗舰级掠能器",
+  "description": "吸取对方舰船的能量为自己所用。注：所有能量吸噬装备都不会将目标的电容值降低至低于你的电容值。只能装配在旗舰级舰船上。",
   "volume": 4000.0,
   "repackaged_volume": 1000.0,
   "capacity": null,

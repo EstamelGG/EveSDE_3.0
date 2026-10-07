@@ -1,7 +1,7 @@
 {
   "type_id": 96543,
-  "name": "Potent 'Radiance' Cerebral Accelerator",
-  "description": "This cerebral accelerator has been produced and distributed by the Deathglow Hunters in conjunction with their partners in the Blood Raider Covenant. When consumed by a capsuleer, this booster will increase the rate at which they train skills for a short time.\n\nVolatile compounds were used to create this cerebral accelerator, limiting its shelf life. It will cease to function after November 10, YC128.",
+  "name": "强效“光辉”大脑加速器",
+  "description": "这款大脑加速器由死亡之辉猎手与血袭者同盟联合生产并推广。使用后，它可以在短时间内提高克隆飞行员训练技能的速度。这款大脑加速器使用了不稳定化合物制造，效能持续时间有限。它的有效期至YC128年11月10日。",
   "volume": 1.0,
   "repackaged_volume": 1.0,
   "capacity": null,

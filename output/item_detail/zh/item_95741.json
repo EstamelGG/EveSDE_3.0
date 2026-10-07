@@ -1,7 +1,7 @@
 {
   "type_id": 95741,
-  "name": "Akoman",
-  "description": "In YC128, as the stability of Pochven wavered, the Blood Raiders saw an opportunity to plunder the region for the secrets of Triglavian biotech. The Akoman was constructed to help them take advantage of that opportunity.\n\nFacing off against an inarguably more advanced foe, the Blood Raiders needed a vessel that represented the best of their own technical prowess. This attack battlecruiser allowed Blood Raider fleets to form stronger frontline assaults as they struck at the heart of Triglavian territory.",
+  "name": "阿科曼级",
+  "description": "YC128年，随着波赫文的稳定局势开始动摇，血袭者看到了可乘之机，企图掠夺这片区域，窃取三神裔生物科技的秘密。阿科曼级正是在这种背景下建造的，旨在帮助他们抓住这一机会。面对实力远胜于己的敌人，血袭者需要一艘能够代表自身最高技术水平的战舰。这艘攻击型战列巡洋舰使血袭者舰队能够发起更强大的前线攻势，直捣三神裔的核心地带。",
   "volume": 234000.0,
   "repackaged_volume": 15000.0,
   "capacity": 500.0,
@@ -663,31 +663,31 @@
   ],
   "traits": [
     {
-      "content": "<a href=showinfo:3423>Energy Nosferatu</a> fitted to this ship will drain targeted ship's capacitor regardless of your own capacitor level"
+      "content": "装配于该舰的<a href=showinfo:3423>掠能器</a>无论自身电容处于何种水平，都能吸取目标舰船的电容。"
     },
     {
-      "content": "<b>125%</b> bonus to <a href=showinfo:3306>Large Energy Turret</a> damage"
+      "content": "<b>125%</b> <a href=showinfo:3306>大型能量炮台</a>伤害加成"
     },
     {
-      "content": "<b>95%</b> reduction in <a href=showinfo:3309>Large Energy Turret</a> powergrid requirement"
+      "content": "<b>95%</b> <a href=showinfo:3309>大型能量炮台</a>电网需求降低"
     },
     {
-      "content": "<b>50%</b> reduction in <a href=showinfo:3309>Large Energy Turret</a> CPU requirement"
+      "content": "<b>50%</b> <a href=showinfo:3309>大型能量炮台</a>CPU需求降低"
     },
     {
-      "content": "<b>50%</b> reduction in <a href=showinfo:3309>Large Energy Turret</a> activation cost"
+      "content": "<b>50%</b> <a href=showinfo:3309>大型能量炮台</a>启动消耗降低"
     },
     {
-      "content": "<b>15%</b> bonus to <a href=showinfo:3423>Energy Nosferatu</a> and <a href=showinfo:3423>Energy Neutralizer</a> drain amount"
+      "content": "<b>15%</b> <a href=showinfo:3423>掠能器</a>和<a href=showinfo:3423>能量中和器</a>吸取量加成"
     },
     {
-      "content": "<b>20%</b> bonus to <a href=showinfo:3423>Energy Nosferatu</a> and <a href=showinfo:3423>Energy Neutralizer</a> optimal range"
+      "content": "<b>20%</b> <a href=showinfo:3423>掠能器</a>和<a href=showinfo:3423>能量中和器</a>最佳射程加成"
     },
     {
-      "content": "<b>10%</b> bonus to <a href=showinfo:3423>Energy Nosferatu</a> and <a href=showinfo:3423>Energy Neutralizer</a> falloff range"
+      "content": "<b>10%</b> <a href=showinfo:3423>掠能器</a>和<a href=showinfo:3423>能量中和器</a>失准范围加成"
     },
     {
-      "content": "<b>20%</b> bonus to <a href=showinfo:526>Stasis Webifier</a> range"
+      "content": "<b>20%</b> <a href=showinfo:526>停滞缠绕光束</a>射程加成"
     }
   ]
 }

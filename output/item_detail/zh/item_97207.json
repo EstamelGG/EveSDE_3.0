@@ -1,7 +1,7 @@
 {
   "type_id": 97207,
-  "name": "Crimson Gauntlet Shortcut Keypass",
-  "description": "This keypass grants single-use access to private shortcut acceleration gate within Crimson Gauntlet and Dark Blood Gauntlet complexes.",
+  "name": "血色试炼捷径钥匙卡",
+  "description": "这张钥匙卡可以激活通往血色试炼和黑暗血袭者试炼复合体的加速轨道，仅限单次使用。",
   "volume": 0.1,
   "repackaged_volume": 0.1,
   "capacity": null,

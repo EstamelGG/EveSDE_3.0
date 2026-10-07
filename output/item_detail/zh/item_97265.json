@@ -1,7 +1,7 @@
 {
   "type_id": 97265,
-  "name": "Criterion Cipher",
-  "description": "A decryption key that allows access to the Fitness Criterion. It includes a message, which translates as:\n\n<i>Ancient Domains counter-flow dissonance are in conflict with stability. Only through fitness can now-time stabilization be realized. Face the Criterion to determine istina fitness and attempt glorification.</i>",
+  "name": "标准密码",
+  "description": "用于进入适应性标准试炼的解密钥匙。其中包含一则讯息，译文如下：<i>古老领域的逆流失谐与稳定性相冲突。唯有通过适应性，才能实现当下的稳定。面对标准试炼，判定真正的适应性，并尝试赢得荣耀。</i>",
   "volume": 0.1,
   "repackaged_volume": 0.1,
   "capacity": null,

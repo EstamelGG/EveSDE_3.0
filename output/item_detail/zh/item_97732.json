@@ -1,7 +1,7 @@
 {
   "type_id": 97732,
-  "name": "Imperial Navy Heat Sink Blueprint Crate",
-  "description": "Contains an Imperial Navy Heat Sink blueprint copy with a single run.",
+  "name": "帝国海军散热槽蓝图箱",
+  "description": "包含一份帝国海军散热槽蓝图拷贝，可运行一次。",
   "volume": 1.0,
   "repackaged_volume": 1.0,
   "capacity": null,

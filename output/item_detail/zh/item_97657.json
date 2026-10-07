@@ -1,7 +1,7 @@
 {
   "type_id": 97657,
-  "name": "Large Abyssal Remote Armor Repairer",
-  "description": "This module uses nano-assemblers to repair damage done to the armor of the Target ship.",
+  "name": "大型深渊远程装甲维修器",
+  "description": "该装备使用纳米级装配器来修复对目标舰船装甲造成的损伤，",
   "volume": 25.0,
   "repackaged_volume": 25.0,
   "capacity": null,

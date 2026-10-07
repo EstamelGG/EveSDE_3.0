@@ -1,7 +1,7 @@
 {
   "type_id": 97516,
-  "name": "Akoman Blueprint Crate",
-  "description": "Contains a Akoman blueprint copy with a single run.",
+  "name": "阿科曼级蓝图箱",
+  "description": "包含一份阿科曼级蓝图拷贝，仅运行过一次。",
   "volume": 1.0,
   "repackaged_volume": 1.0,
   "capacity": null,

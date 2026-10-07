@@ -1,7 +1,7 @@
 {
   "type_id": 96789,
-  "name": "Mutated Blood Sample",
-  "description": "This canister contains the blood of a human who has been subject to long-term exposure to Abyssal energies.\n\nItem Traders working for the Blood Raiders will want to acquire it, those working for St. Tetrimon will want to destroy it, and the Triglavians will wish to recover it.",
+  "name": "变异血液样本",
+  "description": "该罐内装有人类血液，其主人曾长期暴露于深渊能量之中。为血袭者效力的物品贸易官会设法收购它，为圣特里蒙效力的人想将其摧毁，而三神裔则希望将其回收。",
   "volume": 0.01,
   "repackaged_volume": 0.01,
   "capacity": null,

@@ -1,7 +1,7 @@
 {
   "type_id": 96592,
-  "name": "Chemal Tech Repair Booster II",
-  "description": "<b>-8% Armor Repairer Cycle Time.</b>\n<b>-8% Shield Booster Cycle Time.</b>\n\nBase Duration: 3 Hours\n\n<b>Expiry date: November 10, YC128</b>",
+  "name": "切玛科技修复增效剂2",
+  "description": "<b>-8%装甲维修器循环周期。</b><b>-8%护盾回充增量器循环周期。</b>基础持续时间：3小时<b>过期时间：YC128年11月10日</b>",
   "volume": 1.0,
   "repackaged_volume": 1.0,
   "capacity": null,

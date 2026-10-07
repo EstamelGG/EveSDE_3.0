@@ -1,7 +1,7 @@
 {
   "type_id": 97206,
-  "name": "Crimson Harvest Cerebral Accelerator Crate",
-  "description": "Contains one randomly selected 'Radiance' Cerebral Accelerator.",
+  "name": "血色收割大脑加速器箱",
+  "description": "包含一个随机的精选“光辉”大脑加速器。",
   "volume": 1.0,
   "repackaged_volume": 1.0,
   "capacity": null,

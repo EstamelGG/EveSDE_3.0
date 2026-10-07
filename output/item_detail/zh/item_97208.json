@@ -1,7 +1,7 @@
 {
   "type_id": 97208,
-  "name": "Tetrimon Base Shortcut Keypass",
-  "description": "This keypass grants single-use access to private shortcut acceleration gate within Tetrimon Base and Tetrimon Frontline Base complexes.",
+  "name": "特里蒙基地捷径钥匙卡",
+  "description": "这张钥匙卡可以激活通往特里蒙基地和特里蒙前线基地复合体的加速轨道，仅限单次使用。",
   "volume": 0.1,
   "repackaged_volume": 0.1,
   "capacity": null,

@@ -1,7 +1,7 @@
 {
   "type_id": 40662,
   "name": "旗舰级能量中和器 II",
-  "description": "中和目标舰船电容器的部分能量。\n\n注：只能用于旗舰级舰船。",
+  "description": "中和目标舰船电容器的部分能量。注：只能用于旗舰级舰船。",
   "volume": 4000.0,
   "repackaged_volume": 1000.0,
   "capacity": null,

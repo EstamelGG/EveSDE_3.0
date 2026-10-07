@@ -1,7 +1,7 @@
 {
   "type_id": 97722,
-  "name": "Mobile Sanguine Harvester Blueprint Crate",
-  "description": "Contains a Mobile Sanguine Harvester blueprint copy with a single run.",
+  "name": "移动式生物质收割者蓝图",
+  "description": "包含一份移动式生物质收割者蓝图副本，可运行一次。",
   "volume": 1.0,
   "repackaged_volume": 1.0,
   "capacity": null,

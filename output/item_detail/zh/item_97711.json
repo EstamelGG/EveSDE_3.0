@@ -1,7 +1,7 @@
 {
   "type_id": 97711,
-  "name": "Horm’s Capital Energy Neutralizer",
-  "description": "Neutralizes a portion of the energy in the target ship's capacitor.\n\nNote: May only be fitted to capital class ships.",
+  "name": "霍姆旗舰级能量中和器",
+  "description": "中和目标舰船电容器的部分能量。注：只能用于旗舰级舰船。",
   "volume": 4000.0,
   "repackaged_volume": 1000.0,
   "capacity": null,
