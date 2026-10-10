@@ -4,8 +4,10 @@ import json
 from pathlib import Path
 import re
 
-from evesde.build_prep import get_latest_sde_info
+from evesde.build_prep import SdeVersionMismatch, fetch_latest_sde_info
 from evesde.github import GitHub, repository_name
+
+SKIP_VERSION_MISMATCH = "version-mismatch"
 
 
 @dataclass(frozen=True)
@@ -20,6 +22,7 @@ class BuildPlan:
     client_data: dict
     should_build: bool = True
     debug: bool = False
+    skip_reason: str | None = None
 
     def __post_init__(self):
         if not re.fullmatch(r"[0-9]+", self.build_number):
@@ -28,8 +31,12 @@ class BuildPlan:
         expected = f"{self.build_number}.{patch:02d}" if patch else self.build_number
         if not 0 <= patch <= 99 or self.final_build_number != expected:
             raise ValueError("补丁号与最终构建号不一致")
-        if not self.release_date:
+        if not self.release_date and not self.skip_reason:
             raise ValueError("SDE 版本信息缺少 releaseDate")
+
+    @property
+    def skipped(self) -> bool:
+        return self.skip_reason is not None
 
     def save(self, filename: Path):
         filename.parent.mkdir(parents=True, exist_ok=True)
@@ -41,7 +48,13 @@ class BuildPlan:
 
 
 def create_plan(config, *, patch=False, debug=False, skip_version_check=False, check_release=True):
-    info = get_latest_sde_info(config, skip_version_check=skip_version_check)
+    try:
+        info = fetch_latest_sde_info(config, skip_version_check=skip_version_check)
+    except SdeVersionMismatch as mismatch:
+        info = mismatch.info
+        build = str(info["build_number"]).split(".", 1)[0]
+        return BuildPlan(build, build, "0", info.get("release_date") or "", info.get("key"),
+                         repository_name(config), None, info["client_data"], False, debug, SKIP_VERSION_MISMATCH)
     if not info:
         raise RuntimeError("无法确定 SDE 版本信息")
     build = str(info["build_number"]).split(".", 1)[0]

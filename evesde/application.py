@@ -25,7 +25,8 @@ def generate_reports(config, plan, baseline):
 def run_build(config, plan, *, package=False):
     output("should-publish", False)
     if not plan.should_build:
-        print(f"[+] Release {plan.final_build_number} 已存在，跳过构建")
+        reason = "版本尚未同步" if plan.skipped else "Release 已存在"
+        print(f"[+] {plan.final_build_number} {reason}，跳过构建")
         return None
     config = dict(config)
     config["sde_build_number"] = plan.build_number

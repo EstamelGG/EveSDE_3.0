@@ -51,6 +51,10 @@ jobs:
         id: plan
         run: python -m evesde plan
 
+      - name: 提示版本不一致已跳过
+        if: steps.plan.outputs.skipped == 'true'
+        run: echo "::notice title=SDE 版本尚未同步::游戏与 SDE 版本号不一致，本次运行跳过构建与发布。"
+
       - name: 安装数据库比较工具
         if: steps.plan.outputs.should-build == 'true'
         run: sudo apt-get update && sudo apt-get install -y sqlite3-tools
