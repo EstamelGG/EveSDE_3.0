@@ -13,7 +13,18 @@ from evesde.paths import PROJECT_ROOT, ensure_dirs, path
 from evesde.utils.http_client import get
 
 
-def get_latest_sde_info(config: Dict[str, Any], skip_version_check: bool = False) -> Optional[Dict[str, Any]]:
+class SdeVersionMismatch(RuntimeError):
+    """sde_binary 与 sde_update 版本号不一致：数据尚未同步完成，本次构建应跳过而非失败。"""
+
+    def __init__(self, info: Dict[str, Any]):
+        super().__init__(
+            f"SDE 版本不一致：sde_binary={info['binary_build_number']}, sde_update={info['build_number']}"
+        )
+        self.info = info
+
+
+def fetch_latest_sde_info(config: Dict[str, Any], skip_version_check: bool = False) -> Optional[Dict[str, Any]]:
+    """查询最新 SDE 版本信息；版本不一致且未跳过检查时抛出 SdeVersionMismatch。"""
     try:
         print("[+] 获取最新SDE版本信息...")
         sde_binary_url = config["urls"]["sde_binary"]
@@ -46,9 +57,15 @@ def get_latest_sde_info(config: Dict[str, Any], skip_version_check: bool = False
             if skip_version_check:
                 print(f"[!] 已跳过版本一致性检查，使用 sde_update 版本号: {update_build_number}")
             else:
-                print("[x] 数据尚未同步完成，程序退出")
+                print("[!] 数据尚未同步完成，本次构建跳过")
                 print("[!] 如需强制构建，请使用 --skip-version-check 参数")
-                return None
+                raise SdeVersionMismatch({
+                    "build_number": update_build_number,
+                    "release_date": update_data.get("releaseDate"),
+                    "key": update_data.get("_key"),
+                    "client_data": binary_data,
+                    "binary_build_number": binary_build_number,
+                })
         else:
             print(f"[+] 版本号一致: {binary_build_number}")
 
@@ -58,11 +75,21 @@ def get_latest_sde_info(config: Dict[str, Any], skip_version_check: bool = False
             "key": update_data.get("_key"),
             "client_data": binary_data,
         }
+    except SdeVersionMismatch:
+        raise
     except KeyError as e:
         print(f"[x] 配置文件中缺少必要的URL配置: {e}")
         return None
     except Exception as e:
         print(f"[x] 获取SDE版本信息失败: {e}")
+        return None
+
+
+def get_latest_sde_info(config: Dict[str, Any], skip_version_check: bool = False) -> Optional[Dict[str, Any]]:
+    """开发入口使用：版本不一致时返回 None，由调用方提前结束。"""
+    try:
+        return fetch_latest_sde_info(config, skip_version_check=skip_version_check)
+    except SdeVersionMismatch:
         return None
 
 

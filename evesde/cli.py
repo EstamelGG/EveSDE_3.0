@@ -54,16 +54,18 @@ def main(argv=None):
 
 def dispatch(args):
     from evesde.github import output, repository_name
-    from evesde.release.plan import BuildPlan, create_plan
+    from evesde.release.plan import SKIP_VERSION_MISMATCH, BuildPlan, create_plan
 
     if args.command == "summary":
         plan = BuildPlan.load(args.plan) if args.plan.is_file() else None
         version = plan.final_build_number if plan else "未确定"
         mode = "调试（未发布）" if plan and plan.debug else "构建与发布"
-        if plan and not plan.should_build:
+        if plan and plan.skip_reason == SKIP_VERSION_MISMATCH:
+            mode = "游戏与 SDE 版本不一致，跳过"
+        elif plan and not plan.should_build:
             mode = "相同版本已发布，跳过"
         decision_path = Path("output/release/publish-decision.json")
-        if plan and decision_path.is_file():
+        if plan and not plan.skipped and decision_path.is_file():
             decision = json.loads(decision_path.read_text(encoding="utf-8"))
             if decision.get("build_number") == plan.final_build_number and not decision["has_changes"]:
                 mode = "仅版本信息变化，跳过发布"
@@ -89,13 +91,17 @@ def dispatch(args):
         output("should-build", plan.should_build)
         output("final-build-number", plan.final_build_number)
         output("debug", plan.debug)
-        print(f"[+] 版本 {plan.final_build_number}，构建={plan.should_build}，计划={args.output}")
+        output("skipped", plan.skipped)
+        if plan.skipped:
+            print(f"[!] 版本不一致，跳过本次构建（版本 {plan.final_build_number}），计划={args.output}")
+        else:
+            print(f"[+] 版本 {plan.final_build_number}，构建={plan.should_build}，计划={args.output}")
         return 0
     plan = BuildPlan.load(args.plan) if args.plan else create_plan(
         config, check_release=False, skip_version_check=args.skip_version_check
     )
     if not plan.should_build:
-        print("[+] 此计划无需构建")
+        print("[+] 版本尚未同步，此计划无需构建" if plan.skipped else "[+] 此计划无需构建")
         return 0
     if args.command == "build":
         from evesde.application import run_build

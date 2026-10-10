@@ -18,9 +18,10 @@ import requests
 
 from evesde.github import GitHub, output
 from evesde.maintenance import clean_artifacts
+from evesde.build_prep import SdeVersionMismatch
 from evesde.release import assets, history, reports
 from evesde.release.baseline import ReleaseBaseline
-from evesde.release.plan import BuildPlan, create_plan
+from evesde.release.plan import SKIP_VERSION_MISMATCH, BuildPlan, create_plan
 
 
 def plan(**changes):
@@ -31,7 +32,7 @@ def plan(**changes):
 
 class PlanTests(unittest.TestCase):
     def setUp(self):
-        self.info = patch("evesde.release.plan.get_latest_sde_info", return_value={
+        self.info = patch("evesde.release.plan.fetch_latest_sde_info", return_value={
             "build_number": 123, "release_date": "2026-10-07", "key": "sde", "client_data": {"build_number": 123}
         }).start()
         self.github = patch("evesde.release.plan.GitHub").start().return_value
@@ -71,7 +72,18 @@ class PlanTests(unittest.TestCase):
         self.assertEqual(result.final_build_number, "123")
         self.github.release.assert_not_called()
 
-    def test_version_mismatch_stops_before_github(self):
+    def test_version_mismatch_returns_skipped_plan(self):
+        self.info.side_effect = SdeVersionMismatch({
+            "build_number": 123, "release_date": "2026-10-07", "key": "sde",
+            "client_data": {"build_number": 124}, "binary_build_number": 124,
+        })
+        result = create_plan({})
+        self.assertFalse(result.should_build)
+        self.assertEqual(result.skip_reason, SKIP_VERSION_MISMATCH)
+        self.assertEqual(result.final_build_number, "123")
+        self.github.release.assert_not_called()
+
+    def test_missing_version_info_stops_before_github(self):
         self.info.return_value = None
         with self.assertRaises(RuntimeError):
             create_plan({})

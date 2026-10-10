@@ -33,6 +33,7 @@ python -m evesde build --plan tmp/build-plan.json --package
 - `plan --patch`：选择首个未使用的 `.01`～`.99` 补丁号。
 - `plan --debug`：始终构建基础版本。Actions 保存检查产物，但不提交历史、不推送、不发布。
 - `plan --skip-version-check`：允许客户端与 SDE 构建号不一致，仍记录并使用各自的确定版本。
+- 版本尚未同步：`sde_binary` 与 `sde_update` 构建号不一致时，`plan` 以退出码 0 正常结束，把计划标记为跳过（`should-build=false`、`skipped=true`、`skip_reason=version-mismatch`），不构建也不发布。只有真正的查询失败才报错。
 
 手动触发工作流的三个选项分别映射为 `BUILD_PATCH`、`DEBUG_MODE` 和 `SKIP_VERSION_CHECK`。GitHub API 使用 `GH_TOKEN`，其次使用 `GITHUB_TOKEN`；目标仓库优先取 `GITHUB_REPOSITORY`，否则取 `config.json` 的 `github_repo`。
 
@@ -46,6 +47,16 @@ sudo apt-get install -y sqlite3-tools
 ```
 
 工作流已包含此步骤。其他环境优先从 PATH 查找 `sqldiff`，也兼容仓库中的 `tools/sqldiff`。工具不可用时，版本比较报告会注明；SQLite 数据构建本身不依赖它。
+
+## 版本尚未同步时跳过
+
+上游 `sde_binary` 与 `sde_update` 的构建号在发布间隙可能不一致，表示游戏客户端与 SDE 数据尚未同步完成。此时 `plan` 不再视为失败：
+
+- `plan` 正常结束（退出码 0），写出 `should-build=false`、`skipped=true` 的构建计划，并记录 `skip_reason=version-mismatch`。
+- 工作流据此跳过安装比较工具、构建、上传、历史同步和 Release，只保留运行摘要，摘要中显示“游戏与 SDE 版本不一致，跳过”，并输出一条 Actions notice。
+- 需要忽略该检查强制构建时，使用 `plan --skip-version-check`（Actions 手动触发的 `skip_version_check` 选项）。
+
+因为版本查询本身失败（网络错误、响应缺少构建号）时仍按错误退出，不会被误判为跳过。
 
 ## 跳过只有版本号变化的发布
 

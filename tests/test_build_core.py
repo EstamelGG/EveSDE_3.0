@@ -1,5 +1,6 @@
 """公共构建逻辑的离线回归测试；不访问网络或现有 output。"""
 import io
+import json
 import tempfile
 import unittest
 import zipfile
@@ -8,7 +9,8 @@ from unittest.mock import Mock, patch
 
 import requests
 
-from evesde import pipeline
+from evesde import build_prep, pipeline
+from evesde.build_prep import SdeVersionMismatch
 from evesde.release import reports as generate_whats_new
 from evesde.processors import sde_downloader
 from evesde.utils.http_client import RetryableHTTPClient
@@ -181,6 +183,34 @@ class PipelineTests(unittest.TestCase):
             pipeline.run_pipeline({}, on_step=callback)
         callback.assert_called_once_with("a", "步骤", fn)
         fn.assert_not_called()
+
+
+class SdeVersionInfoTests(unittest.TestCase):
+    config = {"urls": {"sde_binary": "https://example.test/binary", "sde_update": "https://example.test/update"}}
+
+    def response(self, payload):
+        response = Mock()
+        response.text = json.dumps(payload)
+        return response
+
+    def test_mismatch_raises_and_carries_update_version(self):
+        with patch("evesde.build_prep.get", side_effect=[self.response({"build_number": 124}),
+                                                         self.response({"buildNumber": 123, "releaseDate": "2026-10-07"})]):
+            with self.assertRaises(SdeVersionMismatch) as caught:
+                build_prep.fetch_latest_sde_info(self.config)
+        self.assertEqual(caught.exception.info["build_number"], 123)
+        self.assertEqual(caught.exception.info["binary_build_number"], 124)
+
+    def test_mismatch_returns_none_for_legacy_callers(self):
+        with patch("evesde.build_prep.get", side_effect=[self.response({"build_number": 124}),
+                                                         self.response({"buildNumber": 123})]):
+            self.assertIsNone(build_prep.get_latest_sde_info(self.config))
+
+    def test_skip_version_check_uses_update_version(self):
+        with patch("evesde.build_prep.get", side_effect=[self.response({"build_number": 124}),
+                                                         self.response({"buildNumber": 123, "releaseDate": "2026-10-07"})]):
+            info = build_prep.fetch_latest_sde_info(self.config, skip_version_check=True)
+        self.assertEqual(info["build_number"], 123)
 
 
 if __name__ == "__main__":
