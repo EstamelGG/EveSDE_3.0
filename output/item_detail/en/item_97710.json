@@ -1,6 +1,6 @@
 {
   "type_id": 97710,
-  "name": "Sarikusa’s Capital Energy Nosferatu",
+  "name": "Sarikusa's Capital Energy Nosferatu",
   "description": "Drains energy from the target ship and adds it to your own.\n\nNote: A Nosferatu module will not drain your target's capacitor below your own capacitor level. May only be fitted to capital ships.",
   "volume": 4000.0,
   "repackaged_volume": 1000.0,
