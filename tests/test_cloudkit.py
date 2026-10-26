@@ -11,6 +11,26 @@ from evesde.cloudkit import CloudKit, latest_release, sync, version
 
 
 class CloudKitTests(unittest.TestCase):
+    def test_http_error_includes_redacted_cloudkit_diagnostics(self):
+        client = object.__new__(CloudKit)
+        client.path = '/database/1/iCloud.test/development/public/'
+        client.key_id = 'test-key'
+        client.key = ec.generate_private_key(ec.SECP256R1())
+        response = Mock(ok=False, status_code=400)
+        response.json.return_value = {
+            'serverErrorCode': 'BAD_REQUEST',
+            'reason': 'Invalid field type ASSET https://example.com/?receipt=secret',
+            'uuid': 'request-id', 'receipt': 'never-log-this'}
+        with patch('evesde.cloudkit.requests.post', return_value=response):
+            with self.assertRaises(RuntimeError) as caught:
+                client.call('records/modify', {})
+        message = str(caught.exception)
+        self.assertIn('BAD_REQUEST', message)
+        self.assertIn('Invalid field type ASSET', message)
+        self.assertIn('request-id', message)
+        self.assertNotIn('receipt=secret', message)
+        self.assertNotIn('never-log-this', message)
+
     def test_signature_covers_exact_request_body_and_path(self):
         client = object.__new__(CloudKit)
         client.path = '/database/1/iCloud.test/development/public/'
@@ -48,6 +68,8 @@ class CloudKitTests(unittest.TestCase):
             if operation == 'records/modify':
                 self.assertEqual(cloudkit.upload.call_count, 2)
                 saved.update(payload['operations'][0]['record'])
+                for field in saved['fields'].values():
+                    self.assertEqual(set(field), {'value'})
                 return {'records': [saved]}
             self.assertEqual(operation, 'records/lookup')
             return {'records': [saved]}

@@ -19,6 +19,19 @@ from cryptography.hazmat.primitives.asymmetric import ec
 from evesde.github import GitHub
 
 
+def error_detail(result):
+    """Expose useful diagnostics without asset receipts or signed URLs."""
+    parts = []
+    for key in ('serverErrorCode', 'reason', 'uuid'):
+        value = result.get(key)
+        if not isinstance(value, str):
+            continue
+        value = re.sub(r'https?://\S+', '[URL redacted]', value)
+        value = re.sub(r'[A-Za-z0-9_+/=-]{48,}', '[token redacted]', value)
+        parts.append(f'{key}={value[:500]}')
+    return '; '.join(parts)
+
+
 def version(metadata):
     build, patch = metadata['build_number'], metadata.get('patch_number', 0)
     if isinstance(build, bool) or isinstance(patch, bool):
@@ -63,13 +76,19 @@ class CloudKit:
             'X-Apple-CloudKit-Request-ISO8601Date': date,
             'X-Apple-CloudKit-Request-SignatureV1': base64.b64encode(signature).decode(),
         }, timeout=(30, 180))
-        # Do not include signed URLs, credentials or server response bodies in errors.
+        try:
+            result = response.json()
+        except ValueError:
+            result = {}
+        if not isinstance(result, dict):
+            result = {}
         if not response.ok:
-            raise RuntimeError(f'CloudKit {operation}: HTTP {response.status_code}')
-        result = response.json()
+            detail = error_detail(result)
+            raise RuntimeError(f'CloudKit {operation}: HTTP {response.status_code}'
+                               + (f'; {detail}' if detail else ''))
         for item in [result, *result.get('records', [])]:
             if item.get('serverErrorCode'):
-                raise RuntimeError(f'CloudKit {operation}: {item["serverErrorCode"]}')
+                raise RuntimeError(f'CloudKit {operation}: {error_detail(item)}')
         return result
 
     def latest(self):
@@ -141,12 +160,14 @@ def sync(github, cloudkit, minimum_app_version, check_only=False):
             return 'CloudKit advanced during download; skipped'
         name = release['tag_name']
         fields = {
-            'metadata': {'value': metadata_text, 'type': 'STRING'},
-            'sde_version': {'value': float(target[0]), 'type': 'DOUBLE'},
-            'minimum_app_version': {'value': minimum_app_version, 'type': 'STRING'},
+            'metadata': {'value': metadata_text},
+            'sde_version': {'value': float(target[0])},
+            'minimum_app_version': {'value': minimum_app_version},
         }
         for field in ('icons', 'sde'):
-            fields[field] = {'value': cloudkit.upload(name, field, root / (field + '.zip')), 'type': 'ASSET'}
+            # Existing schema determines the type. Use the documented Asset
+            # receipt dictionary rather than a response-side type discriminator.
+            fields[field] = {'value': cloudkit.upload(name, field, root / (field + '.zip'))}
         cloudkit.call('records/modify', {'operations': [{'operationType': 'create', 'record': {
             'recordName': name, 'recordType': 'SDE_v3', 'fields': fields}}]})
         result = cloudkit.call('records/lookup', {'records': [{'recordName': name}]})

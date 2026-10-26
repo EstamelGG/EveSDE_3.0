@@ -16,14 +16,14 @@ on:
         description: Minimum compatible app version (empty uses repository variable)
         type: string
         default: ''
-  schedule:
-    - cron: '15 * * * *'
 
 permissions:
   contents: read
 
 concurrency:
-  group: cloudkit-sde-${{ inputs.environment || vars.CLOUDKIT_ENVIRONMENT || 'development' }}
+  # Read-only checks never wait for uploads or other checks. Uploads remain
+  # serialized per environment to avoid creating the same version twice.
+  group: cloudkit-sde-${{ inputs.environment }}-${{ inputs.check_only && format('check-{0}', github.run_id) || 'upload' }}
   cancel-in-progress: false
 
 jobs:
@@ -34,7 +34,7 @@ jobs:
       GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
       CLOUDKIT_KEY_ID: ${{ secrets.CLOUDKIT_KEY_ID }}
       CLOUDKIT_PRIVATE_KEY: ${{ secrets.CLOUDKIT_PRIVATE_KEY }}
-      TARGET_ENVIRONMENT: ${{ inputs.environment || vars.CLOUDKIT_ENVIRONMENT || 'development' }}
+      TARGET_ENVIRONMENT: ${{ inputs.environment }}
       MINIMUM_APP_VERSION: ${{ inputs.minimum_app_version || vars.CLOUDKIT_MINIMUM_APP_VERSION }}
       CHECK_ONLY: ${{ inputs.check_only || false }}
     steps:

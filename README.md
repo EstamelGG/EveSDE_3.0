@@ -154,7 +154,9 @@ tests/                     # 离线单元与集成测试
 
 ### 独立同步到 CloudKit
 
-`sync-cloudkit.yml` 独立于构建流程，每小时 UTC 第 15 分钟检查一次，也可手动运行。
+`sync-cloudkit.yml` 独立于构建流程，只能手动运行，不定时执行。
+只检查模式使用每次运行独立的并发组，不等待上传任务或其他检查任务；
+实际上传按目标环境串行执行，避免重复创建同一版本。
 按构建号、两位补丁号的数值顺序选取最高的正式 `sde-build-*` Release（排除草稿和预发布），
 分页读取目标 CloudKit 公共数据库中全部 `SDE_v3` 记录，从 metadata 比较版本。
 只有 GitHub 版本更高时才下载 `metadata.json`、`sde.zip`、`icons.zip`，校验版本及两个 ZIP 的 SHA256，
@@ -166,7 +168,6 @@ tests/                     # 离线单元与集成测试
 - Secrets：`CLOUDKIT_KEY_ID`、`CLOUDKIT_PRIVATE_KEY`（完整 PEM 格式的 P-256 私钥）。
   先在容器的 Tokens & Keys 中登记对应公钥并获得 Server-to-Server Key ID。
 - Variables：`CLOUDKIT_MINIMUM_APP_VERSION`（必填，例如 `1.14`）。它是兼容性要求，需由维护者确定。
-- Variables：`CLOUDKIT_ENVIRONMENT`（可选，默认 `development`，可设为 `production`）。
 
 容器固定默认 `iCloud.secgg.EVE-Nexus`，数据库为 public/default zone，记录类型为 `SDE_v3`。
 `sde_version` 沿用现有 Double 类型，仅保存构建号；补丁号保存在 metadata 中。
@@ -176,7 +177,7 @@ tests/                     # 离线单元与集成测试
 Development 与 Production 的记录独立，部署 Schema 不会复制数据。
 
 首次建议手动选择 development 并勾选 `check_only`，确认版本比较后再执行上传。
-手动运行可以覆盖目标环境和最低 App 版本；定时运行使用仓库变量。
+手动运行选择目标环境（默认 development），最低 App 版本可覆盖仓库变量。
 旧版 Apple Web Services 文档的 Asset 大小限制描述不一致，当前约 89 MB 图标包仍需实际 API 上传验证；
 已有 Dashboard 记录不代表 Web Services 大文件上传已经验证通过。
 本地可先安装 `python -m pip install -e '.[cloudkit]'`，然后运行：
