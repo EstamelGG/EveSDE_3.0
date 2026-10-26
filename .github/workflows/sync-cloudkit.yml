@@ -32,7 +32,7 @@ jobs:
     timeout-minutes: 45
     env:
       GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
-      CLOUDKIT_KEY_ID: ${{ secrets.CLOUDKIT_KEY_ID }}
+      CLOUDKIT_KEY_ID: ${{ secrets[format('CLOUDKIT_KEY_ID_{0}', inputs.environment)] }}
       CLOUDKIT_PRIVATE_KEY: ${{ secrets.CLOUDKIT_PRIVATE_KEY }}
       TARGET_ENVIRONMENT: ${{ inputs.environment }}
       MINIMUM_APP_VERSION: ${{ inputs.minimum_app_version || vars.CLOUDKIT_MINIMUM_APP_VERSION }}
@@ -48,7 +48,10 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          : "${CLOUDKIT_KEY_ID:?Set CLOUDKIT_KEY_ID secret}"
+          if [[ -z "$CLOUDKIT_KEY_ID" ]]; then
+            echo "::error::Set CLOUDKIT_KEY_ID_${TARGET_ENVIRONMENT^^} secret for the selected environment."
+            exit 1
+          fi
           : "${CLOUDKIT_PRIVATE_KEY:?Set CLOUDKIT_PRIVATE_KEY secret}"
           : "${MINIMUM_APP_VERSION:?Set CLOUDKIT_MINIMUM_APP_VERSION variable or manual input}"
           args=()

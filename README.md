@@ -165,7 +165,8 @@ tests/                     # 离线单元与集成测试
 
 仓库 Settings → Secrets and variables → Actions 中配置：
 
-- Secrets：`CLOUDKIT_KEY_ID`、`CLOUDKIT_PRIVATE_KEY`（完整 PEM 格式的 P-256 私钥）。
+- Secrets：`CLOUDKIT_KEY_ID_DEVELOPMENT`、`CLOUDKIT_KEY_ID_PRODUCTION`，工作流按所选环境读取对应 Key ID，缺失时直接报错。
+- Secrets：`CLOUDKIT_PRIVATE_KEY`（两个环境共用的完整 PEM 格式 P-256 私钥）。
   先在容器的 Tokens & Keys 中登记对应公钥并获得 Server-to-Server Key ID。
 - Variables：`CLOUDKIT_MINIMUM_APP_VERSION`（必填，例如 `1.14`）。它是兼容性要求，需由维护者确定。
 
