@@ -1,0 +1,56 @@
+name: Sync SDE Release to CloudKit
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: CloudKit target environment
+        type: choice
+        options: [development, production]
+        default: development
+      check_only:
+        description: Compare versions without uploading
+        type: boolean
+        default: false
+      minimum_app_version:
+        description: Minimum compatible app version (empty uses repository variable)
+        type: string
+        default: ''
+  schedule:
+    - cron: '15 * * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cloudkit-sde-${{ inputs.environment || vars.CLOUDKIT_ENVIRONMENT || 'development' }}
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    env:
+      GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
+      CLOUDKIT_KEY_ID: ${{ secrets.CLOUDKIT_KEY_ID }}
+      CLOUDKIT_PRIVATE_KEY: ${{ secrets.CLOUDKIT_PRIVATE_KEY }}
+      TARGET_ENVIRONMENT: ${{ inputs.environment || vars.CLOUDKIT_ENVIRONMENT || 'development' }}
+      MINIMUM_APP_VERSION: ${{ inputs.minimum_app_version || vars.CLOUDKIT_MINIMUM_APP_VERSION }}
+      CHECK_ONLY: ${{ inputs.check_only || false }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+      - name: Install publisher dependencies
+        run: python -m pip install requests cryptography
+      - name: Compare and sync latest SDE
+        shell: bash
+        run: |
+          set -euo pipefail
+          : "${CLOUDKIT_KEY_ID:?Set CLOUDKIT_KEY_ID secret}"
+          : "${CLOUDKIT_PRIVATE_KEY:?Set CLOUDKIT_PRIVATE_KEY secret}"
+          : "${MINIMUM_APP_VERSION:?Set CLOUDKIT_MINIMUM_APP_VERSION variable or manual input}"
+          args=()
+          if [[ "$CHECK_ONLY" == "true" ]]; then args+=(--check-only); fi
+          python -m evesde.cloudkit --environment "$TARGET_ENVIRONMENT" --minimum-app-version "$MINIMUM_APP_VERSION" "${args[@]}"

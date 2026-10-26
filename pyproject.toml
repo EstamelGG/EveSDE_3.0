@@ -21,5 +21,8 @@ dependencies = [
 [project.scripts]
 evesde = "evesde.cli:main"
 
+[project.optional-dependencies]
+cloudkit = ["cryptography>=42.0"]
+
 [tool.setuptools.packages.find]
 include = ["evesde*"]
