@@ -1,0 +1,13 @@
+{
+  "type_id": 98145,
+  "name": "Blood Raider Blueprint Crate",
+  "description": "Includes a randomly selected Blood Raider ship blueprint copy with a single run.",
+  "volume": 1.0,
+  "repackaged_volume": 1.0,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}
