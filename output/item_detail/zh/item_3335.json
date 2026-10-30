@@ -71,6 +71,13 @@
       "categoryID": 9,
       "display_name": null,
       "unit_name": null
+    },
+    {
+      "attribute_name": "canNotBeTrainedOnTrial",
+      "value": 0.0,
+      "categoryID": 9,
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": []

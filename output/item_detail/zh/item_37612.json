@@ -192,6 +192,13 @@
       "unit_name": "组别ID"
     },
     {
+      "attribute_name": "canFitShipType1",
+      "value": 97904.0,
+      "categoryID": 1,
+      "display_name": "只能装配在",
+      "unit_name": "类别ID"
+    },
+    {
       "attribute_name": "activationBlockedStrenght",
       "value": 1.0,
       "categoryID": 27,
