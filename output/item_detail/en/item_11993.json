@@ -556,6 +556,13 @@
       "unit_name": "AU/s"
     },
     {
+      "attribute_name": "shipBonusCC3",
+      "value": 5.0,
+      "categoryID": 9,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
       "attribute_name": "rigSize",
       "value": 2.0,
       "categoryID": 7,
@@ -634,7 +641,10 @@
       "content": "Can fit <a href=showinfo:47254>Assault Damage Controls</a>"
     },
     {
-      "content": "<b>2.5%</b> bonus to <a href=showinfo:3321>Light Missile</a>, <a href=showinfo:3324>Heavy Missile</a> and <a href=showinfo:25719>Heavy Assault Missile</a> damage"
+      "content": "<b>5%</b> bonus to Kinetic <a href=showinfo:3321>Light Missile</a>, <a href=showinfo:3324>Heavy Missile</a> and <a href=showinfo:25719>Heavy Assault Missile</a> damage"
+    },
+    {
+      "content": "<b>2.5%</b> bonus to EM, explosive, thermal <a href=showinfo:3321>Light Missile</a>, <a href=showinfo:3324>Heavy Missile</a> and <a href=showinfo:25719>Heavy Assault Missile</a> damage"
     },
     {
       "content": "<b>20%</b> bonus to <a href=showinfo:25719>Heavy Assault Missile</a> max velocity"

@@ -1,7 +1,7 @@
 {
   "type_id": 31662,
   "name": "Small Projectile Ambit Extension II",
-  "description": "This ship modification is designed to increase a ship's projectile turret accuracy falloff range at the expense of increased power grid need for projectile weapons.\n\nThe drawbacks of fitting this rig may be reduced by training the <a href=showinfo:26257>Projectile Weapon Rigging</a> skill.",
+  "description": "This ship modification is designed to increase a ship's projectile turret accuracy falloff range at the expense of increased power grid need for projectile weapons.\n\nPenalty: Using more than one type of this module or similar modules that affect the same attribute on the ship will be penalized.\n\nThe drawbacks of fitting this rig may be reduced by training the <a href=showinfo:26257>Projectile Weapon Rigging</a> skill.",
   "volume": 5.0,
   "repackaged_volume": 5.0,
   "capacity": null,

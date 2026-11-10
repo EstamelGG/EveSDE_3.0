@@ -1,0 +1,13 @@
+{
+  "type_id": 97546,
+  "name": "Rogue Anoikis Telemetry",
+  "description": "The Federation will reward anyone who accepts their campaign objective and delivers this to their item trader outside the Federation Navy Anchorage in <url=showinfo:5//30003788>Intaki</url>.\n\nCollected by Rogue Drones that have infested Anoikis, this telemetry includes evidence of hyperspace fluctuations. Mapping these could help identify the details of the Emergent Artifact’s manifestation.",
+  "volume": 0.1,
+  "repackaged_volume": 0.1,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

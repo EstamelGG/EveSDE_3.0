@@ -18,7 +18,7 @@
     },
     {
       "attribute_name": "maxVelocity",
-      "value": 743.0,
+      "value": 780.0,
       "categoryID": 17,
       "display_name": "Maximum Velocity",
       "unit_name": "m/sec"
@@ -74,7 +74,7 @@
     },
     {
       "attribute_name": "scanMagnetometricStrength",
-      "value": 7.0,
+      "value": 10.0,
       "categoryID": 6,
       "display_name": "Magnetometric Sensor Strength",
       "unit_name": "points"
@@ -88,7 +88,7 @@
     },
     {
       "attribute_name": "shieldCapacity",
-      "value": 5445.0,
+      "value": 7260.0,
       "categoryID": 2,
       "display_name": "Shield Capacity",
       "unit_name": "HP"
@@ -249,7 +249,7 @@
     },
     {
       "attribute_name": "fighterAbilityMissilesDamageTherm",
-      "value": 217.5,
+      "value": 228.0,
       "categoryID": 34,
       "display_name": "Thermal Damage (Per Fighter)",
       "unit_name": "HP"
@@ -354,7 +354,7 @@
     },
     {
       "attribute_name": "fighterAbilityAttackMissileDamageTherm",
-      "value": 118.5,
+      "value": 124.5,
       "categoryID": 34,
       "display_name": "Thermal Damage (Per Fighter)",
       "unit_name": "HP"

@@ -162,6 +162,13 @@
       "categoryID": 0,
       "display_name": null,
       "unit_name": null
+    },
+    {
+      "attribute_name": "rigSetDominationAngelModule",
+      "value": 1.0,
+      "categoryID": 37,
+      "display_name": null,
+      "unit_name": "units"
     }
   ],
   "traits": []

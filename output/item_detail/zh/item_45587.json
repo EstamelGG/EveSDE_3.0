@@ -53,7 +53,7 @@
     },
     {
       "attribute_name": "armorHPBonusAdd",
-      "value": 1000.0,
+      "value": 1500.0,
       "categoryID": 3,
       "display_name": "装甲值加成",
       "unit_name": "HP"
@@ -123,7 +123,7 @@
       "content": "中槽+1，低槽+3"
     },
     {
-      "content": "装甲值+1000"
+      "content": "装甲值+1500"
     },
     {
       "content": "信号半径+10m"

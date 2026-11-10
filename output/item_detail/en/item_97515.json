@@ -1,0 +1,13 @@
+{
+  "type_id": 97515,
+  "name": "Aberrant Kangite",
+  "description": "Aberrant molecules of Kangite mineral that have been altered by exposure to hyperdimensional forces. The Minmatar Republic needs this aberrant material to build connections between conventional and Drifter hyperspace communication systems.\n\nThe Republic will reward anyone who accepts their campaign objective and delivers this to their item trader outside the Republic Fleet Anchorage in <url=showinfo:5//30002055>Amo</url>.",
+  "volume": 0.01,
+  "repackaged_volume": 0.01,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Material",
+  "group_name": "Mineral",
+  "attributes": [],
+  "traits": []
+}

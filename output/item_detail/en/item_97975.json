@@ -1,0 +1,119 @@
+{
+  "type_id": 97975,
+  "name": "'Vigilant' Vital Shield Boost Amplifier",
+  "description": "Focuses and amplifies the efficiency of shield boosting modules.\n\nThe vital variant includes an active mode. Drifter nanites reconfigure the module to unlock increased benefits for a limited time. It can no longer be modified by mutaplasmids.\n\nPenalty: Using more than one type of this module or similar modules that affect the same attribute on the ship will be penalized.",
+  "volume": 5.0,
+  "repackaged_volume": 5.0,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Module",
+  "group_name": "Shield Boost Amplifier",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 24.0,
+      "categoryID": 5,
+      "display_name": "Activation Cost",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 1.0,
+      "categoryID": 1,
+      "display_name": "Powergrid Usage",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 50.0,
+      "categoryID": 1,
+      "display_name": "CPU usage",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 20000.0,
+      "categoryID": 7,
+      "display_name": "Activation time / duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3419.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "shieldBoostMultiplier",
+      "value": 24.0,
+      "categoryID": 2,
+      "display_name": "Shield Boost Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "moduleReactivationDelay",
+      "value": 120000.0,
+      "categoryID": 7,
+      "display_name": "Reactivation Delay",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "disallowRepeatingActivation",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Cannot Auto Repeat",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "heatDamageBonus",
+      "value": 100.0,
+      "categoryID": 52,
+      "display_name": "Heat damage penalty",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "maxTypeFitted",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Max Modules Of This Type Allowed",
+      "unit_name": null
+    },
+    {
+      "attribute_name": "moduleAberrantShieldBoostAmplifierShieldBoosterBonusEffect",
+      "value": 43.2,
+      "categoryID": 2,
+      "display_name": "Active Shield Booster Amount",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

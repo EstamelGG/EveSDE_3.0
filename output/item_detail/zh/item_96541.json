@@ -1,0 +1,138 @@
+{
+  "type_id": 96541,
+  "name": "小型黑暗血袭者同步器",
+  "description": "这种改装件由血袭者工程师利用艾玛与米玛塔尔同步器组合制造而成，可提升掠能器、能量中和器和能量炮台的性能。然而，这种以蛮力驱动的组合方式会显著降低舰船电容的回充速度。它还能连通加黑暗血袭者技术体系，将各项装备的效果串联起来。安装的黑暗血袭者装备越多，性能提升就越明显。惩罚：在一艘舰船上使用多个这类装备或多个与该装备作用一致的类似装备将削弱实际使用效果。可通过训练<a href=showinfo:96100>同步改装</a>技能来降低装配该改装件所带来的CPU影响。",
+  "volume": 5.0,
+  "repackaged_volume": 5.0,
+  "capacity": null,
+  "mass": 200.0,
+  "category_name": "装备",
+  "group_name": "改装件同步器",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "drawback",
+      "value": -10.0,
+      "categoryID": 7,
+      "display_name": "缺陷",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "upgradeCost",
+      "value": 250.0,
+      "categoryID": 1,
+      "display_name": "校准值消耗",
+      "unit_name": null
+    },
+    {
+      "attribute_name": "maxGroupFitted",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "该武器组所允许的最大装备数量",
+      "unit_name": null
+    },
+    {
+      "attribute_name": "rigSize",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "改装件尺寸",
+      "unit_name": "1=小型  2=中型  3=大型"
+    },
+    {
+      "attribute_name": "rigSetDarkBloodBonus",
+      "value": 0.0,
+      "categoryID": 37,
+      "display_name": "已装配的黑暗血袭者装备",
+      "unit_name": null
+    },
+    {
+      "attribute_name": "rigNosferatuNeutralizerDrainAmount",
+      "value": 10.0,
+      "categoryID": 5,
+      "display_name": "掠能器和能量中和器吸取量加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "rigNosferatuNeutralizerDrainAmountOverheatingBonus",
+      "value": 10.0,
+      "categoryID": 52,
+      "display_name": "掠能器和能量中和器超载加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "rigNosferatuNeutralizerOptimalRange",
+      "value": 5.0,
+      "categoryID": 5,
+      "display_name": "掠能器和能量中和器最佳射程加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "rigNosferatuNeutralizerFalloffRange",
+      "value": 5.0,
+      "categoryID": 5,
+      "display_name": "掠能器和能量中和器失准范围加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "rigCapRechargeTimePenalty",
+      "value": 200.0,
+      "categoryID": 5,
+      "display_name": "电容回充时间惩罚",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "rigEnergyTurretDamageBonus",
+      "value": 5.0,
+      "categoryID": 29,
+      "display_name": "能量炮台伤害加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "rigHiddenTurretDamageMultiplier",
+      "value": 1.0,
+      "categoryID": 0,
+      "display_name": null,
+      "unit_name": "x"
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b>200%</b> 舰船电容回充速率惩罚"
+    },
+    {
+      "content": "<b>10%</b> <a href=showinfo:3423>掠能器</a>和<a href=showinfo:533>能量中和器</a>吸取量加成"
+    },
+    {
+      "content": "<b>10%</b> <a href=showinfo:3423>掠能器</a>和<a href=showinfo:533>能量中和器</a>装备过载效果加成"
+    },
+    {
+      "content": "<b>5%</b> <a href=showinfo:3423>掠能器</a>和<a href=showinfo:533>能量中和器</a>最佳射程及效能失准范围加成"
+    },
+    {
+      "content": "<b>5%</b> <a href=showinfo:453>能量炮台</a>伤害加成"
+    },
+    {
+      "content": "每装配一个<b>黑暗血袭者</b>装备，此改装件提供的加成会固定提高1%"
+    }
+  ]
+}

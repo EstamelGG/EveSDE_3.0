@@ -1,0 +1,13 @@
+{
+  "type_id": 97551,
+  "name": "Imperial Strategic Intel",
+  "description": "The Republic will reward anyone who participates in their campaign objective and delivers this to their item trader outside the Republic Fleet Anchorage in <url=showinfo:5//30002055>Amo</url>.\n\nThis document contains operational secrets of the Imperial Navy. It could help fill in gaps in the republic’s knowledge of the Emergent Artifact, as well as provide key tactical information.",
+  "volume": 0.1,
+  "repackaged_volume": 0.1,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

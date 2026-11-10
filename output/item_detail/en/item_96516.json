@@ -1,0 +1,13 @@
+{
+  "type_id": 96516,
+  "name": "Federal Equilibrium Token",
+  "description": "A trade token that shows the bearer has supported the Gallente Federation’s “Equilibrium” campaign.\n\nTrade it in at their item trader outside the Federation Navy Anchorage in <url=showinfo:5//30003788>Intaki</url>.",
+  "volume": 0.001,
+  "repackaged_volume": 0.001,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

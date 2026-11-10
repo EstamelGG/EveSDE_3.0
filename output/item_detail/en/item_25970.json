@@ -1,7 +1,7 @@
 {
   "type_id": 25970,
   "name": "Large Energy Ambit Extension I",
-  "description": "This ship modification is designed to increase the accuracy falloff range of a ship's energy turrets at the expense of increased power grid need for them.\n\nThe drawbacks of fitting this rig may be reduced by training the <a href=showinfo:26258>Energy Weapon Rigging</a> skill.",
+  "description": "This ship modification is designed to increase the accuracy falloff range of a ship's energy turrets at the expense of increased power grid need for them.\n\nPenalty: Using more than one type of this module or similar modules that affect the same attribute on the ship will be penalized.\n\nThe drawbacks of fitting this rig may be reduced by training the <a href=showinfo:26258>Energy Weapon Rigging</a> skill.",
   "volume": 20.0,
   "repackaged_volume": 20.0,
   "capacity": null,

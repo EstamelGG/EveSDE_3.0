@@ -78,6 +78,13 @@
       "categoryID": 36,
       "display_name": "电容战抗性加成",
       "unit_name": "%"
+    },
+    {
+      "attribute_name": "rigSetMinmatarFleetModule",
+      "value": 1.0,
+      "categoryID": 37,
+      "display_name": null,
+      "unit_name": "单位"
     }
   ],
   "traits": []

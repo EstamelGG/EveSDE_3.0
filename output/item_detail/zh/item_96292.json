@@ -1,0 +1,84 @@
+{
+  "type_id": 96292,
+  "name": "高密度复稀金矿（Z级）",
+  "description": "这种富集的复稀金矿可以用在大规模建造项目中，大受加达里工程师的欢迎。遗憾的是，目前已知的大部分Z级复稀金矿矿床都位于加达里-盖伦特战区中的争夺空间。与普通复稀金矿矿石不同，Z级复稀金矿更加稳定，无需专用设备即可提炼为<a href=showinfo:36>类银超金属</a>和<a href=showinfo:38>超新星诺克石</a>，同时还能产出<a href=showinfo:97513>异变复稀金矿</a>。接受加达里合众国的活动目标，并将这种异变矿物交给位于<url=showinfo:5//30045324>欧拿蒙</url>的加达里海军锚地外的物品贸易官，即可获得奖励。这种矿物被压缩过，比它的原始形态紧密得多。",
+  "volume": 0.01,
+  "repackaged_volume": 0.01,
+  "capacity": null,
+  "mass": 1e+35,
+  "category_name": "小行星",
+  "group_name": "复稀金矿",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 60377.0,
+      "categoryID": 7,
+      "display_name": "回收再生技能",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "asteroidRadiusGrowthFactor",
+      "value": 0.35,
+      "categoryID": 31,
+      "display_name": "小行星半径系数",
+      "unit_name": null
+    },
+    {
+      "attribute_name": "asteroidRadiusUnitSize",
+      "value": 600.0,
+      "categoryID": 31,
+      "display_name": "小行星单位半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "停滞缠绕抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 1228.0,
+      "categoryID": 7,
+      "display_name": null,
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "ignoreMiningWaste",
+      "value": 0.0,
+      "categoryID": 51,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "ignoreMiningCrits",
+      "value": 0.0,
+      "categoryID": 51,
+      "display_name": null,
+      "unit_name": null
+    }
+  ],
+  "traits": []
+}

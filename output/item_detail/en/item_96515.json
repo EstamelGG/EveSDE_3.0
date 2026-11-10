@@ -1,0 +1,13 @@
+{
+  "type_id": 96515,
+  "name": "Imperial Light Token",
+  "description": "A trade token that shows the bearer has supported the Amarr Empire’s “Into the Light” campaign.\n\nTrade it in at their item trader outside the Amarr Navy Anchorage in <url=showinfo:5//30002974>Mehatoor</url> to receive blessed rewards.",
+  "volume": 0.001,
+  "repackaged_volume": 0.001,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

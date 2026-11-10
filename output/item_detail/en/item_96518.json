@@ -1,0 +1,13 @@
+{
+  "type_id": 96518,
+  "name": "Republic Silence Token",
+  "description": "A trade token that shows the bearer has supported the Minmatar Republic’s “Trail of Silence” campaign.\n\nTrade it in at their item trader outside the Republic Fleet Anchorage in <url=showinfo:5//30002055>Amo</url>.",
+  "volume": 0.001,
+  "repackaged_volume": 0.001,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

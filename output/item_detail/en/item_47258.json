@@ -211,6 +211,13 @@
       "categoryID": 37,
       "display_name": "Activated Damage Resistance",
       "unit_name": "%"
+    },
+    {
+      "attribute_name": "rigSetShadowSerpentisModule",
+      "value": 1.0,
+      "categoryID": 37,
+      "display_name": null,
+      "unit_name": "units"
     }
   ],
   "traits": []

@@ -354,7 +354,7 @@
     },
     {
       "attribute_name": "capacitorCapacity",
-      "value": 2900.0,
+      "value": 3000.0,
       "categoryID": 5,
       "display_name": "Capacitor Capacity",
       "unit_name": "GJ"

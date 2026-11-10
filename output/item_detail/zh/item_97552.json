@@ -1,0 +1,13 @@
+{
+  "type_id": 97552,
+  "name": "超球形外壳",
+  "description": "接受他们的活动目标，并将此物品交给位于<url=showinfo:5//30002974>莫哈托尔</url>艾玛海军锚地外的物品贸易官，即可获得奖励。这些原型组件是某项实验的一部分，旨在为流浪者的高维球体提供容器，使其能够用于能量聚焦装置。",
+  "volume": 0.1,
+  "repackaged_volume": 0.1,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

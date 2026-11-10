@@ -1,0 +1,13 @@
+{
+  "type_id": 98165,
+  "name": "Outbreak Initiation Thread",
+  "description": "A data thread that contains traces of how this particular outbreak began.\n\nIt would be valuable to the Federal Intelligence Office, Federation Navy, and CreoDron, but interested foreign buyers include Lai Dai, the House of Records, the Ministry of Internal Order, and Republic Security Services.",
+  "volume": 0.01,
+  "repackaged_volume": 0.01,
+  "capacity": null,
+  "mass": 0.1,
+  "category_name": "Commodity",
+  "group_name": "Limited Rarities",
+  "attributes": [],
+  "traits": []
+}

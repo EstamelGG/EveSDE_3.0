@@ -1,0 +1,112 @@
+{
+  "type_id": 97976,
+  "name": "“警惕级”活力无人机导航计算机",
+  "description": "提高无人机的微型跃迁推进器速度。提高铁骑舰载机的速度。其活力变体包含主动模式。流浪者纳米体会重构该装备，在有限时间内解锁更高的增益。该装备无法再通过突变质体进行改造。惩罚：在一艘舰船上使用多个这类装备或多个与该装备作用一致的类似装备将削弱实际使用效果。",
+  "volume": 25.0,
+  "repackaged_volume": 25.0,
+  "capacity": null,
+  "mass": 200.0,
+  "category_name": "装备",
+  "group_name": "无人机导航电脑",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 24.0,
+      "categoryID": 5,
+      "display_name": "启用耗电量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "speedFactor",
+      "value": 20.0,
+      "categoryID": 28,
+      "display_name": "最大速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "power",
+      "value": 1.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 30.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 20000.0,
+      "categoryID": 7,
+      "display_name": "作用时间/单次运转时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 12305.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 5.0,
+      "categoryID": 8,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "moduleReactivationDelay",
+      "value": 120000.0,
+      "categoryID": 7,
+      "display_name": "重启延迟",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "disallowRepeatingActivation",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "无法自动重复",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "maxTypeFitted",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "该类型装备使用上限",
+      "unit_name": null
+    },
+    {
+      "attribute_name": "moduleAberrantDroneNavigationComputerBonusEffect",
+      "value": 36.0,
+      "categoryID": 10,
+      "display_name": "主动无人机和铁骑舰载机最大速度加成",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

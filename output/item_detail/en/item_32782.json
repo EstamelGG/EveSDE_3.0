@@ -81,7 +81,7 @@
     },
     {
       "attribute_name": "explosionDelay",
-      "value": 3000.0,
+      "value": 5000.0,
       "categoryID": 7,
       "display_name": "Maximum Flight Time",
       "unit_name": "s"

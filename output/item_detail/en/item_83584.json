@@ -18,7 +18,7 @@
     },
     {
       "attribute_name": "maxVelocity",
-      "value": 908.0,
+      "value": 953.0,
       "categoryID": 17,
       "display_name": "Maximum Velocity",
       "unit_name": "m/sec"
@@ -67,7 +67,7 @@
     },
     {
       "attribute_name": "scanLadarStrength",
-      "value": 7.0,
+      "value": 10.0,
       "categoryID": 6,
       "display_name": "Ladar Sensor Strength",
       "unit_name": "points"
@@ -88,7 +88,7 @@
     },
     {
       "attribute_name": "shieldCapacity",
-      "value": 5445.0,
+      "value": 7260.0,
       "categoryID": 2,
       "display_name": "Shield Capacity",
       "unit_name": "HP"
@@ -263,7 +263,7 @@
     },
     {
       "attribute_name": "fighterAbilityMissilesDamageExp",
-      "value": 178.0,
+      "value": 186.0,
       "categoryID": 34,
       "display_name": "Explosive Damage (Per Fighter)",
       "unit_name": "HP"
@@ -368,7 +368,7 @@
     },
     {
       "attribute_name": "fighterAbilityAttackMissileDamageExp",
-      "value": 97.5,
+      "value": 102.0,
       "categoryID": 34,
       "display_name": "Explosive Damage (Per Fighter)",
       "unit_name": "HP"

@@ -218,6 +218,13 @@
       "categoryID": 1,
       "display_name": "Can be fitted to",
       "unit_name": "groupID"
+    },
+    {
+      "attribute_name": "rigSetDominationAngelModule",
+      "value": 1.0,
+      "categoryID": 37,
+      "display_name": null,
+      "unit_name": "units"
     }
   ],
   "traits": []

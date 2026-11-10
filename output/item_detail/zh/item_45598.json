@@ -18,7 +18,7 @@
     },
     {
       "attribute_name": "powerOutput",
-      "value": 400.0,
+      "value": 430.0,
       "categoryID": 1,
       "display_name": "能量栅格输出",
       "unit_name": "MW"
@@ -175,7 +175,7 @@
       "content": "高槽+7，炮台+6"
     },
     {
-      "content": "能量栅格+400 CPU+90"
+      "content": "能量栅格+430，CPU+90"
     },
     {
       "content": "电容器电容量+100GJ"

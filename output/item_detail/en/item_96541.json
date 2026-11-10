@@ -1,0 +1,138 @@
+{
+  "type_id": 96541,
+  "name": "Small Dark Blood Synchronizer",
+  "description": "Built by Blood Raider engineers from combined Amarr and Minmatar synchronizers, this rig improves Energy Nosferatu, Energy Neutralizer and Energy Turret performance. However, the brute force combination that powers this synchronizer takes a significant toll on its capacitor recharge. It also integrates the pathways between Dark Blood technology. This unlocks even greater performance the more Dark Blood modules are installed.\n\nPenalty: Using more than one type of this module or similar modules that affect the same attribute on the ship will be penalized.\n\nThe CPU drawbacks of fitting this rig may be reduced by training the <a href=showinfo:96100>Synchronization Rigging</a> skill.",
+  "volume": 5.0,
+  "repackaged_volume": 5.0,
+  "capacity": null,
+  "mass": 200.0,
+  "category_name": "Module",
+  "group_name": "Rig Synchronizer",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "Structure Hitpoints",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Tech Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "Meta Level",
+      "unit_name": "Level"
+    },
+    {
+      "attribute_name": "drawback",
+      "value": -10.0,
+      "categoryID": 7,
+      "display_name": "Drawback",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "upgradeCost",
+      "value": 250.0,
+      "categoryID": 1,
+      "display_name": "Calibration cost",
+      "unit_name": null
+    },
+    {
+      "attribute_name": "maxGroupFitted",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "Max Modules Of This Group Allowed",
+      "unit_name": null
+    },
+    {
+      "attribute_name": "rigSize",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "Rig Size",
+      "unit_name": "1=small 2=medium 3=l"
+    },
+    {
+      "attribute_name": "rigSetDarkBloodBonus",
+      "value": 0.0,
+      "categoryID": 37,
+      "display_name": "Dark Blood Modules Fitted",
+      "unit_name": null
+    },
+    {
+      "attribute_name": "rigNosferatuNeutralizerDrainAmount",
+      "value": 10.0,
+      "categoryID": 5,
+      "display_name": "Nosferatu and Energy Neutralizer Drain Amount Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "rigNosferatuNeutralizerDrainAmountOverheatingBonus",
+      "value": 10.0,
+      "categoryID": 52,
+      "display_name": "Nosferatu and Energy Neutralizer Overheat Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "rigNosferatuNeutralizerOptimalRange",
+      "value": 5.0,
+      "categoryID": 5,
+      "display_name": "Nosferatu and Energy Neutralizer Optimal Range Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "rigNosferatuNeutralizerFalloffRange",
+      "value": 5.0,
+      "categoryID": 5,
+      "display_name": "Nosferatu and Energy Neutralizer Falloff Range Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "rigCapRechargeTimePenalty",
+      "value": 200.0,
+      "categoryID": 5,
+      "display_name": "Cap Recharge Time Penalty",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "rigEnergyTurretDamageBonus",
+      "value": 5.0,
+      "categoryID": 29,
+      "display_name": "Energy Turret Damage Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "rigHiddenTurretDamageMultiplier",
+      "value": 1.0,
+      "categoryID": 0,
+      "display_name": null,
+      "unit_name": "x"
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b>200%</b> penalty to ship capacitor recharge rate"
+    },
+    {
+      "content": "<b>10%</b> bonus to <a href=showinfo:3423>Energy Nosferatu</a> and <a href=showinfo:533>Energy Neutralizer</a> drain amount"
+    },
+    {
+      "content": "<b>10%</b> bonus to the benefits of overheating <a href=showinfo:3423>Energy Nosferatu</a> and <a href=showinfo:533>Energy Neutralizer</a> modules"
+    },
+    {
+      "content": "<b>5%</b> bonus to <a href=showinfo:3423>Energy Nosferatu</a> and <a href=showinfo:533>Energy Neutralizer</a> optimal range and effectiveness falloff"
+    },
+    {
+      "content": "<b>5%</b> bonus to <a href=showinfo:453>energy turret</a> damage"
+    },
+    {
+      "content": "the bonuses provided by this rig increase by a flat +1% for every <b>Dark Blood</b> module fitted to this ship"
+    }
+  ]
+}

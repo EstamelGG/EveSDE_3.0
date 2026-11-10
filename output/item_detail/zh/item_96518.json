@@ -1,0 +1,13 @@
+{
+  "type_id": 96518,
+  "name": "共和国静默凭证",
+  "description": "一种兑换凭证，表明持有者曾支持米玛塔尔共和国的“静默之路”活动。可前往位于<url=showinfo:5//30002055>阿莫</url>的共和舰队锚地外的物品贸易官处兑换。",
+  "volume": 0.001,
+  "repackaged_volume": 0.001,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

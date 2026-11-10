@@ -25,7 +25,7 @@
     },
     {
       "attribute_name": "powerOutput",
-      "value": 625.0,
+      "value": 650.0,
       "categoryID": 1,
       "display_name": "能量栅格输出",
       "unit_name": "MW"
@@ -74,7 +74,7 @@
     },
     {
       "attribute_name": "maxVelocity",
-      "value": 185.0,
+      "value": 200.0,
       "categoryID": 17,
       "display_name": "最大速度",
       "unit_name": "m/s"

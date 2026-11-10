@@ -148,6 +148,13 @@
       "categoryID": 7,
       "display_name": "Activation time / duration",
       "unit_name": "s"
+    },
+    {
+      "attribute_name": "rigSetDominationAngelModule",
+      "value": 1.0,
+      "categoryID": 37,
+      "display_name": null,
+      "unit_name": "units"
     }
   ],
   "traits": []

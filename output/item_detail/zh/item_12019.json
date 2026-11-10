@@ -361,7 +361,7 @@
     },
     {
       "attribute_name": "shipBonusAC",
-      "value": 5.0,
+      "value": 7.5,
       "categoryID": 9,
       "display_name": null,
       "unit_name": null
@@ -445,7 +445,7 @@
     },
     {
       "attribute_name": "eliteBonusHeavyGunship2",
-      "value": -7.5,
+      "value": -5.0,
       "categoryID": 9,
       "display_name": null,
       "unit_name": null
@@ -634,7 +634,7 @@
       "content": "可以装配<a href=showinfo:47254>突击损伤控制</a>装备"
     },
     {
-      "content": "<b>5%</b> <a href=\"showinfo:3324\">重型导弹</a>和<a href=\"showinfo:25719\">重型攻击导弹</a>伤害加成"
+      "content": "<b>7.5%</b> <a href=\"showinfo:3324\">重型导弹</a>和<a href=\"showinfo:25719\">重型攻击导弹</a>伤害加成"
     },
     {
       "content": "<b>5%</b> 装甲抗性加成"
@@ -643,7 +643,7 @@
       "content": "<b>7.5%</b> <a href=\"showinfo:3324\">重型导弹</a>和<a href=\"showinfo:25719\">重型攻击导弹</a>最大速度加成"
     },
     {
-      "content": "<b>7.5%</b> <a href=\"showinfo:3324\">重型导弹发射器</a> 、<a href=\"showinfo:25719\">重型攻击导弹发射器</a>和<a href=\"showinfo:3321\">轻型快速导弹发射器</a>射速加成"
+      "content": "<b>5%</b> <a href=\"showinfo:3324\">重型导弹发射器</a> 、<a href=\"showinfo:25719\">重型攻击导弹发射器</a>和<a href=\"showinfo:3321\">轻型快速导弹发射器</a>射速加成"
     }
   ]
 }

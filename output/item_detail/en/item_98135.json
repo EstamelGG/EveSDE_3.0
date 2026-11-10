@@ -1,0 +1,56 @@
+{
+  "type_id": 98135,
+  "name": "SARO Pursuit Booster",
+  "description": "This booster has been produced by the SARO to assist with their investigations into Vanguard activity.\n\n<b>+20% bonus to the benefits of overheating Warp Scrambler modules.\n+20% bonus to the benefits of overheating Microwarpdrive modules.</b>\nBase Duration: 2 Hours.\n\nNote: This bonus only applies to Warp Scramblers and not to Warp Disruptors.\n\n<b>Expiry date: February 2nd YC129</b>",
+  "volume": 1.0,
+  "repackaged_volume": 1.0,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Implant",
+  "group_name": "Booster",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3405.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 7200000.0,
+      "categoryID": 7,
+      "display_name": "Booster Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 16.0,
+      "categoryID": 7,
+      "display_name": "Booster Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "boosterLastInjectionDatetime",
+      "value": 20851.4576388889,
+      "categoryID": 7,
+      "display_name": "Expiry Date",
+      "unit_name": null
+    },
+    {
+      "attribute_name": "boosterOverheatMicrowarpScramBenefits",
+      "value": 20.0,
+      "categoryID": 52,
+      "display_name": "bonus to the benefits of overheating warp scrambler and microwarpdrive modules.",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

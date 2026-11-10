@@ -137,7 +137,7 @@
     },
     {
       "attribute_name": "subsystemBonusCaldariOffensive2",
-      "value": 5.0,
+      "value": 7.5,
       "categoryID": 7,
       "display_name": null,
       "unit_name": null
@@ -174,7 +174,7 @@
       "content": "电容器电容量+100GJ"
     },
     {
-      "content": "<b>5%</b> <a href=showinfo:3304>中型混合炮台</a>伤害加成"
+      "content": "<b>7.5%</b> <a href=showinfo:3304>中型混合炮台</a>伤害加成"
     },
     {
       "content": "<b>20%</b> <a href=showinfo:3304>中型混合炮台</a>最佳射程加成"

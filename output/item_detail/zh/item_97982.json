@@ -1,0 +1,119 @@
+{
+  "type_id": 97982,
+  "name": "“警惕级”活力电容回充器",
+  "description": "提升电容回充速度其活力变体包含主动模式。流浪者纳米体会重构该装备，在有限时间内解锁更高的增益。该装备无法再通过突变质体进行改造。",
+  "volume": 5.0,
+  "repackaged_volume": 5.0,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "装备",
+  "group_name": "电容器回充设备",
+  "attributes": [
+    {
+      "attribute_name": "capacitorNeed",
+      "value": 1.0,
+      "categoryID": 5,
+      "display_name": "启用耗电量",
+      "unit_name": "GJ"
+    },
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "power",
+      "value": 1.0,
+      "categoryID": 1,
+      "display_name": "能量栅格占用",
+      "unit_name": "MW"
+    },
+    {
+      "attribute_name": "cpu",
+      "value": 10.0,
+      "categoryID": 1,
+      "display_name": "CPU使用量",
+      "unit_name": "tf"
+    },
+    {
+      "attribute_name": "duration",
+      "value": 20000.0,
+      "categoryID": 7,
+      "display_name": "作用时间/单次运转时间",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "capacitorRechargeRateMultiplier",
+      "value": 0.88,
+      "categoryID": 5,
+      "display_name": "电容回充速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3424.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 2.0,
+      "categoryID": 8,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "moduleReactivationDelay",
+      "value": 120000.0,
+      "categoryID": 7,
+      "display_name": "重启延迟",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "disallowRepeatingActivation",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "无法自动重复",
+      "unit_name": "1=True 0=False"
+    },
+    {
+      "attribute_name": "metaGroupID",
+      "value": 0.0,
+      "categoryID": 0,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "maxTypeFitted",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "该类型装备使用上限",
+      "unit_name": null
+    },
+    {
+      "attribute_name": "moduleAberrantCapRechargerBonusEffect",
+      "value": 0.75,
+      "categoryID": 5,
+      "display_name": "主动电容回充速度加成",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

@@ -1,0 +1,13 @@
+{
+  "type_id": 97512,
+  "name": "异变斜钨铅矿",
+  "description": "受到超维力量影响而发生变异的斜钨铅矿，其分子结构已发生异常变化。艾玛帝国需要这种异常材料，研究如何提高流浪者的能量利用效率。接受他们的活动目标，并将此物品交给位于<url=showinfo:5//30002974>莫哈托尔</url>艾玛海军锚地外的物品贸易官。",
+  "volume": 0.01,
+  "repackaged_volume": 0.01,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "矿物",
+  "attributes": [],
+  "traits": []
+}

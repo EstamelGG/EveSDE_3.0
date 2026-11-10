@@ -92,6 +92,13 @@
       "categoryID": 10,
       "display_name": "Drone Damage Bonus",
       "unit_name": "%"
+    },
+    {
+      "attribute_name": "rigSetGallenteNavyModule",
+      "value": 1.0,
+      "categoryID": 37,
+      "display_name": null,
+      "unit_name": "units"
     }
   ],
   "traits": []

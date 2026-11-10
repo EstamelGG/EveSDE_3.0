@@ -1,0 +1,49 @@
+{
+  "type_id": 97916,
+  "name": "暴君专制统治集团“绪斯同级”装甲系统改装技术AR-1020",
+  "description": "一种神经接口升级大脑植入体，可提升飞行员安装舰船系统临时改装件的技能，并减轻此类改装带来的负面影响。装甲改装件的负面影响降低20%。",
+  "volume": 1.0,
+  "repackaged_volume": 1.0,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "赛博改装技术",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3411.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 2.0,
+      "categoryID": 8,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "implantness",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "植入体槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "rigDrawbackBonus",
+      "value": -20.0,
+      "categoryID": 7,
+      "display_name": "改装件缺陷减少值",
+      "unit_name": "%"
+    }
+  ],
+  "traits": []
+}

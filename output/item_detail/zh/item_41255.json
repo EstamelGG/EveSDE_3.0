@@ -218,6 +218,13 @@
       "categoryID": 1,
       "display_name": "可装配至",
       "unit_name": "组别ID"
+    },
+    {
+      "attribute_name": "rigSetShadowSerpentisModule",
+      "value": 1.0,
+      "categoryID": 37,
+      "display_name": null,
+      "unit_name": "单位"
     }
   ],
   "traits": []

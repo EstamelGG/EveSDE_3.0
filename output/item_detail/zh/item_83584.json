@@ -18,7 +18,7 @@
     },
     {
       "attribute_name": "maxVelocity",
-      "value": 908.0,
+      "value": 953.0,
       "categoryID": 17,
       "display_name": "最大速度",
       "unit_name": "m/s"
@@ -67,7 +67,7 @@
     },
     {
       "attribute_name": "scanLadarStrength",
-      "value": 7.0,
+      "value": 10.0,
       "categoryID": 6,
       "display_name": "光雷达感应强度",
       "unit_name": "点"
@@ -88,7 +88,7 @@
     },
     {
       "attribute_name": "shieldCapacity",
-      "value": 5445.0,
+      "value": 7260.0,
       "categoryID": 2,
       "display_name": "护盾容量",
       "unit_name": "HP"
@@ -263,7 +263,7 @@
     },
     {
       "attribute_name": "fighterAbilityMissilesDamageExp",
-      "value": 178.0,
+      "value": 186.0,
       "categoryID": 34,
       "display_name": "爆炸伤害（每架铁骑舰载机）",
       "unit_name": "HP"
@@ -368,7 +368,7 @@
     },
     {
       "attribute_name": "fighterAbilityAttackMissileDamageExp",
-      "value": 97.5,
+      "value": 102.0,
       "categoryID": 34,
       "display_name": "爆炸伤害（每架铁骑舰载机）",
       "unit_name": "HP"

@@ -99,6 +99,13 @@
       "categoryID": 51,
       "display_name": "Residue Probability Reduction",
       "unit_name": "%"
+    },
+    {
+      "attribute_name": "rigSetMinmatarFleetModule",
+      "value": 1.0,
+      "categoryID": 37,
+      "display_name": null,
+      "unit_name": "units"
     }
   ],
   "traits": []

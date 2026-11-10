@@ -1,0 +1,121 @@
+{
+  "type_id": 96144,
+  "name": "中型加达里海军同步器",
+  "description": "该改装件由加达里海军开发，可提升导弹、护盾和瞄准性能。它还能连通加达里海军技术体系，将各项装备的效果串联起来。装配的加达里海军装备越多，性能提升就越显著。惩罚：在一艘舰船上使用多个这类装备或多个与该装备作用一致的类似装备将削弱实际使用效果。可通过训练<a href=showinfo:96100>同步改装技术</a>技能来降低装配该改装件所带来的CPU影响。",
+  "volume": 5.0,
+  "repackaged_volume": 5.0,
+  "capacity": null,
+  "mass": 200.0,
+  "category_name": "装备",
+  "group_name": "改装件同步器",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "speedFactor",
+      "value": 5.0,
+      "categoryID": 28,
+      "display_name": "最大速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "maxTargetRangeBonus",
+      "value": 5.0,
+      "categoryID": 37,
+      "display_name": "最大锁定范围加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "shieldCapacityBonus",
+      "value": 5.0,
+      "categoryID": 2,
+      "display_name": "护盾容量加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "drawback",
+      "value": -10.0,
+      "categoryID": 7,
+      "display_name": "缺陷",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "upgradeCost",
+      "value": 250.0,
+      "categoryID": 1,
+      "display_name": "校准值消耗",
+      "unit_name": null
+    },
+    {
+      "attribute_name": "maxGroupFitted",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "该武器组所允许的最大装备数量",
+      "unit_name": null
+    },
+    {
+      "attribute_name": "rigSize",
+      "value": 2.0,
+      "categoryID": 7,
+      "display_name": "改装件尺寸",
+      "unit_name": "1=小型  2=中型  3=大型"
+    },
+    {
+      "attribute_name": "rigSetCaldariNavyBonus",
+      "value": 0.0,
+      "categoryID": 37,
+      "display_name": "已装配加达里海军装备",
+      "unit_name": null
+    },
+    {
+      "attribute_name": "rigMissileLauncherDamageBonus",
+      "value": 5.0,
+      "categoryID": 30,
+      "display_name": "导弹伤害加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "rigHiddenMissileDamageMultiplier",
+      "value": 1.0,
+      "categoryID": 0,
+      "display_name": null,
+      "unit_name": "x"
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b>5%</b> 导弹伤害加成"
+    },
+    {
+      "content": "<b>5%</b> 导弹最大速度加成"
+    },
+    {
+      "content": "<b>5%</b> 护盾值加成"
+    },
+    {
+      "content": "<b>5%</b> 最大锁定距离加成"
+    },
+    {
+      "content": "每为该舰船装配一件<b>加达里海军</b>装备，这款改装件提供的加成就会固定提高1%"
+    }
+  ]
+}

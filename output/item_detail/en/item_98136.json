@@ -1,0 +1,63 @@
+{
+  "type_id": 98136,
+  "name": "SARO Forensic Booster",
+  "description": "This booster has been produced by the SARO to assist with their investigations into Vanguard activity.\n\n<b>+10 bonus to chance of salvage retrieval\n+10 bonus to Data and Relic analyzer virus coherence</b>\nBase Duration: 2 Hours.\n\n<b>Expiry date: February 2nd YC129</b>",
+  "volume": 1.0,
+  "repackaged_volume": 1.0,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Implant",
+  "group_name": "Booster",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3405.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 7200000.0,
+      "categoryID": 7,
+      "display_name": "Booster Duration",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "accessDifficultyBonus",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "Access Difficulty Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 15.0,
+      "categoryID": 7,
+      "display_name": "Booster Slot",
+      "unit_name": "Slot"
+    },
+    {
+      "attribute_name": "boosterLastInjectionDatetime",
+      "value": 20851.4576388889,
+      "categoryID": 7,
+      "display_name": "Expiry Date",
+      "unit_name": null
+    },
+    {
+      "attribute_name": "boosterHackingVirusCoherenceModifier",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "Virus Coherence Bonus",
+      "unit_name": "+"
+    }
+  ],
+  "traits": []
+}

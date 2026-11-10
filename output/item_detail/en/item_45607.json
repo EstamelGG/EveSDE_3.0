@@ -18,7 +18,7 @@
     },
     {
       "attribute_name": "powerOutput",
-      "value": 300.0,
+      "value": 330.0,
       "categoryID": 1,
       "display_name": "Powergrid Output",
       "unit_name": "MW"
@@ -168,7 +168,7 @@
       "content": "+7 High Slots, +5 Turret Hardpoints, +2 Launcher Hardpoints"
     },
     {
-      "content": "+300 PWG, +30 CPU"
+      "content": "+330 PWG, +30 CPU"
     },
     {
       "content": "+25mbit Drone Bandwidth, +25m3 Drone Bay"

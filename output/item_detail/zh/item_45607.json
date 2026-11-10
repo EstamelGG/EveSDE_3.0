@@ -18,7 +18,7 @@
     },
     {
       "attribute_name": "powerOutput",
-      "value": 300.0,
+      "value": 330.0,
       "categoryID": 1,
       "display_name": "能量栅格输出",
       "unit_name": "MW"
@@ -168,7 +168,7 @@
       "content": "高槽+7，炮台+5，发射器+2"
     },
     {
-      "content": "能量栅格+300，CPU+30"
+      "content": "能量栅格+330，CPU+30"
     },
     {
       "content": "无人机带宽+25mbit，无人机挂舱+25m³"

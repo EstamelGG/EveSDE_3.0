@@ -410,7 +410,7 @@
     },
     {
       "attribute_name": "signatureRadius",
-      "value": 190.0,
+      "value": 165.0,
       "categoryID": 6,
       "display_name": "信号半径",
       "unit_name": "m"

@@ -162,6 +162,13 @@
       "categoryID": 7,
       "display_name": "重新装填时间",
       "unit_name": "s"
+    },
+    {
+      "attribute_name": "rigSetCaldariNavyModule",
+      "value": 1.0,
+      "categoryID": 37,
+      "display_name": null,
+      "unit_name": "单位"
     }
   ],
   "traits": []

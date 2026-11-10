@@ -53,7 +53,7 @@
     },
     {
       "attribute_name": "armorHPBonusAdd",
-      "value": 1000.0,
+      "value": 1500.0,
       "categoryID": 3,
       "display_name": "Armor Hitpoint Bonus",
       "unit_name": "HP"
@@ -123,7 +123,7 @@
       "content": "+1 Mid Slot, +3 Low Slots"
     },
     {
-      "content": "+1000 Armor HP"
+      "content": "+1500 Armor HP"
     },
     {
       "content": "+10m Signature Radius"

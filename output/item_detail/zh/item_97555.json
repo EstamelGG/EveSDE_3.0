@@ -1,0 +1,13 @@
+{
+  "type_id": 97555,
+  "name": "超跃连接器",
+  "description": "接受他们的活动目标，并将此物品交给位于<url=showinfo:5//30002055>阿莫</url>共和舰队锚地外的物品贸易官，即可获得奖励。这些接收器和变压器是早期原型装置的组成组件。它们旨在将复杂的超空间数据降阶转换为常规二进制数据。",
+  "volume": 0.1,
+  "repackaged_volume": 0.1,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

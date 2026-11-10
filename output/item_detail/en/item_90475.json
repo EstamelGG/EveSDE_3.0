@@ -204,6 +204,20 @@
       "categoryID": 37,
       "display_name": "Armor Repairer / Shield Booster Capacitor Need Bonus",
       "unit_name": "%"
+    },
+    {
+      "attribute_name": "ISAFighterExplosionRadiusReductionBonusActive",
+      "value": 0.9,
+      "categoryID": 38,
+      "display_name": "Fighter Explosion Radius Reduction Bonus",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "ISAFighterExplosionVelocityBonusActive",
+      "value": 1.2,
+      "categoryID": 38,
+      "display_name": "Fighter Explosion Velocity Bonus",
+      "unit_name": "%"
     }
   ],
   "traits": []

@@ -353,6 +353,13 @@
       "unit_name": "%"
     },
     {
+      "attribute_name": "rigSetCaldariNavyModule",
+      "value": 1.0,
+      "categoryID": 37,
+      "display_name": null,
+      "unit_name": "units"
+    },
+    {
       "attribute_name": "remoteCapacitorImpedanceBonus",
       "value": -99.9999,
       "categoryID": 37,

@@ -18,7 +18,7 @@
     },
     {
       "attribute_name": "maxVelocity",
-      "value": 785.0,
+      "value": 824.0,
       "categoryID": 17,
       "display_name": "Maximum Velocity",
       "unit_name": "m/sec"
@@ -81,14 +81,14 @@
     },
     {
       "attribute_name": "scanGravimetricStrength",
-      "value": 7.0,
+      "value": 10.0,
       "categoryID": 6,
       "display_name": "Gravimetric Sensor Strength",
       "unit_name": "points"
     },
     {
       "attribute_name": "shieldCapacity",
-      "value": 5445.0,
+      "value": 7260.0,
       "categoryID": 2,
       "display_name": "Shield Capacity",
       "unit_name": "HP"
@@ -256,7 +256,7 @@
     },
     {
       "attribute_name": "fighterAbilityMissilesDamageKin",
-      "value": 208.0,
+      "value": 219.0,
       "categoryID": 34,
       "display_name": "Kinetic Damage (Per Fighter)",
       "unit_name": "HP"
@@ -361,7 +361,7 @@
     },
     {
       "attribute_name": "fighterAbilityAttackMissileDamageKin",
-      "value": 113.5,
+      "value": 118.5,
       "categoryID": 34,
       "display_name": "Kinetic Damage (Per Fighter)",
       "unit_name": "HP"

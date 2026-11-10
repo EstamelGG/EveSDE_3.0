@@ -1,7 +1,7 @@
 {
   "type_id": 92565,
-  "name": "Raspite X-Grade",
-  "description": "This variant of Raspite ore is especially prized by Amarr engineers for use in large-scale construction projects. Deposits have been held in reserve until such a time as the Empire needed them.\n\nUnlike regular Raspite ore, X-Grade is more stable and can be reprocessed without specialized equipment into <a href=showinfo:34>Tritanium</a> and <a href=showinfo:35>Pyerite</a>, as well as providing <a href=showinfo:92569>Crystalline Raspite</a>, which is valuable to the Amarr Empire.",
+  "name": "Flawed Raspite",
+  "description": "This variant of Raspite ore is especially prized by Amarr engineers for use in large-scale construction projects. Deposits have been held in reserve until such a time as the Empire needed them. Unfortunately, the crystals within this asteroid are flawed and have limited value although It can still be reprocessed without specialized equipment into <a href=showinfo:34>Tritanium</a> and <a href=showinfo:35>Pyerite</a>, as well as providing <a href=showinfo:92569>Flawed Crystalline Raspite</a>.",
   "volume": 1.0,
   "repackaged_volume": 1.0,
   "capacity": null,

@@ -95,7 +95,7 @@
     },
     {
       "attribute_name": "rechargeRate",
-      "value": 187500.0,
+      "value": 140625.0,
       "categoryID": 5,
       "display_name": "Capacitor Recharge time",
       "unit_name": "s"
@@ -263,14 +263,14 @@
     },
     {
       "attribute_name": "shieldCapacity",
-      "value": 664.0,
+      "value": 464.0,
       "categoryID": 2,
       "display_name": "Shield Capacity",
       "unit_name": "HP"
     },
     {
       "attribute_name": "armorHP",
-      "value": 816.0,
+      "value": 1016.0,
       "categoryID": 3,
       "display_name": "Armor Hitpoints",
       "unit_name": "HP"
@@ -389,7 +389,7 @@
     },
     {
       "attribute_name": "shipBonus2AF",
-      "value": -5.0,
+      "value": 3.0,
       "categoryID": 9,
       "display_name": null,
       "unit_name": null
@@ -466,7 +466,7 @@
     },
     {
       "attribute_name": "eliteBonusGunship2",
-      "value": -5.0,
+      "value": 3.0,
       "categoryID": 9,
       "display_name": null,
       "unit_name": null
@@ -671,7 +671,7 @@
       "content": "<b>4%</b> bonus to all armor resistances"
     },
     {
-      "content": "<b>5%</b> bonus to ship capacitor recharge rate"
+      "content": "<b>3%</b> bonus to ship armor hitpoints"
     }
   ]
 }

@@ -45,6 +45,13 @@
       "unit_name": "Level"
     },
     {
+      "attribute_name": "armorHPBonusAdd",
+      "value": 500.0,
+      "categoryID": 3,
+      "display_name": "Armor Hitpoint Bonus",
+      "unit_name": "HP"
+    },
+    {
       "attribute_name": "subSystemSlot",
       "value": 125.0,
       "categoryID": 0,
@@ -88,7 +95,7 @@
     },
     {
       "attribute_name": "subsystemBonusCaldariCore2",
-      "value": 10.0,
+      "value": 12.5,
       "categoryID": 7,
       "display_name": null,
       "unit_name": null
@@ -109,7 +116,10 @@
       "content": "+3 Mid Slots, +1 Low Slot"
     },
     {
-      "content": "<b>10%</b> bonus to <a href=showinfo:3427>ECM Target Jammer</a> strength and optimal range"
+      "content": "+500 Armor HP"
+    },
+    {
+      "content": "<b>12.5%</b> bonus to <a href=showinfo:3427>ECM Target Jammer</a> strength and optimal range"
     },
     {
       "content": "<b>15%</b> bonus to the benefits of overheating <a href=showinfo:3427>ECM Target Jammer</a> modules"

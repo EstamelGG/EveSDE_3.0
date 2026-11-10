@@ -99,6 +99,13 @@
       "categoryID": 51,
       "display_name": "产生残渣几率降低",
       "unit_name": "%"
+    },
+    {
+      "attribute_name": "rigSetMinmatarFleetModule",
+      "value": 1.0,
+      "categoryID": 37,
+      "display_name": null,
+      "unit_name": "单位"
     }
   ],
   "traits": []

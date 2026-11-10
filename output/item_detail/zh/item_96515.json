@@ -1,0 +1,13 @@
+{
+  "type_id": 96515,
+  "name": "帝国之光凭证",
+  "description": "一种兑换凭证，表明持有者曾支持艾玛帝国的“步入光明”活动。可前往位于<url=showinfo:5//30002974>莫哈托尔</url>的艾玛海军锚地外的物品贸易官处兑换，领取神赐奖励。",
+  "volume": 0.001,
+  "repackaged_volume": 0.001,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

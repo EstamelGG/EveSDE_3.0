@@ -18,7 +18,7 @@
     },
     {
       "attribute_name": "maxVelocity",
-      "value": 4000.0,
+      "value": 2500.0,
       "categoryID": 17,
       "display_name": "最大速度",
       "unit_name": "m/s"
@@ -116,7 +116,7 @@
     },
     {
       "attribute_name": "explosionDelay",
-      "value": 7500.0,
+      "value": 12000.0,
       "categoryID": 7,
       "display_name": "最长飞行时间",
       "unit_name": "s"

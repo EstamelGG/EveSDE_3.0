@@ -1,0 +1,13 @@
+{
+  "type_id": 97548,
+  "name": "共和国战略情报",
+  "description": "接受他们的活动目标，并将此物品交给位于<url=showinfo:5//30002974>莫哈托尔</url>艾玛海军锚地外的物品贸易官，即可获得奖励。本文件包含共和舰队的作战机密。它不仅有助于弥补帝国对突创神器认知方面的空白，还可能提供关键的战术情报。",
+  "volume": 0.1,
+  "repackaged_volume": 0.1,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

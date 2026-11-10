@@ -1,0 +1,13 @@
+{
+  "type_id": 98458,
+  "name": "Gallente Conquest Booster Crate",
+  "description": "Contains randomly selected Federation boosters.",
+  "volume": 1.0,
+  "repackaged_volume": 1.0,
+  "capacity": null,
+  "mass": null,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

@@ -134,6 +134,13 @@
       "categoryID": 0,
       "display_name": null,
       "unit_name": null
+    },
+    {
+      "attribute_name": "rigSetDreadGuristasModule",
+      "value": 1.0,
+      "categoryID": 37,
+      "display_name": null,
+      "unit_name": "单位"
     }
   ],
   "traits": []

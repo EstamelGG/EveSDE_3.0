@@ -1,0 +1,13 @@
+{
+  "type_id": 97545,
+  "name": "Shield Failover Report",
+  "description": "The State will reward anyone who accepts their campaign objective and delivers this to their item trader outside the Caldari Navy Anchorage in <url=showinfo:5//30045324>Onnamon</url>.\n\nFailover data from the loss of Sleeper shields or the overshields of their Drifter masters could help isolate the time component of the Emergent Artifact's manifestation. It also may expose key information about how shielding technology could come back online quickly after a Conquest attack.",
+  "volume": 0.1,
+  "repackaged_volume": 0.1,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

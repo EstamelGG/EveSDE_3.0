@@ -1,0 +1,84 @@
+{
+  "type_id": 97570,
+  "name": "高密度钪原矿（5级）",
+  "description": "这种钪原矿可以用在大规模建造项目中，大受米玛塔尔工程师的欢迎。共和国此前一直封存着这类矿床，以备不时之需。与普通钪原矿不同，X级钪原矿更加稳定，无需专用设备即可提炼为<a href=showinfo:34>三钛合金</a>和<a href=showinfo:35>类晶体胶矿</a>，同时还能产出<a href=showinfo:97515>异变钪原矿</a>。接受米玛塔尔共和国的活动目标，并将这种异变矿物交给位于<url=showinfo:5//30002055>阿莫</url>的共和舰队锚地外的物品贸易官，即可获得奖励。这种矿物被压缩过，比它的原始形态紧密得多。",
+  "volume": 0.01,
+  "repackaged_volume": 0.01,
+  "capacity": null,
+  "mass": 1e+35,
+  "category_name": "小行星",
+  "group_name": "钪原矿",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 60377.0,
+      "categoryID": 7,
+      "display_name": "回收再生技能",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "asteroidRadiusGrowthFactor",
+      "value": 0.35,
+      "categoryID": 31,
+      "display_name": "小行星半径系数",
+      "unit_name": null
+    },
+    {
+      "attribute_name": "asteroidRadiusUnitSize",
+      "value": 600.0,
+      "categoryID": 31,
+      "display_name": "小行星单位半径",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "停滞缠绕抗性",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 1228.0,
+      "categoryID": 7,
+      "display_name": null,
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "ignoreMiningWaste",
+      "value": 0.0,
+      "categoryID": 51,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "ignoreMiningCrits",
+      "value": 0.0,
+      "categoryID": 51,
+      "display_name": null,
+      "unit_name": null
+    }
+  ],
+  "traits": []
+}

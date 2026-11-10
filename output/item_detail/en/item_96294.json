@@ -1,0 +1,84 @@
+{
+  "type_id": 96294,
+  "name": "Compressed Kangite Z-Grade",
+  "description": "This rich variant of Kangite ore is especially prized by Minmatar engineers for use in large-scale construction projects. Unfortunately, most known deposits of Kangite Z-Grade are found in the contested space of the Amarr and Minmatar warzone.\n\nUnlike regular Kangite ore, Z-Grade is more stable and can be reprocessed without specialized equipment into <a href=showinfo:36>Mexallon</a> and <a href=showinfo:38>Nocxium</a>.\n\nReprocessing will also produce <a href=showinfo:97515>Aberrant Kangite</a>. The Republic will reward anyone who accepts their campaign objective and delivers this Aberrant material to their item trader outside the Republic Fleet Anchorage in <url=showinfo:5//30002055>Amo</url>.\n\nThis material is compressed and a much more compact form of the original material.",
+  "volume": 0.01,
+  "repackaged_volume": 0.01,
+  "capacity": null,
+  "mass": 1e+35,
+  "category_name": "Asteroid",
+  "group_name": "Kangite",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3386.0,
+      "categoryID": 8,
+      "display_name": "Primary Skill required",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "reprocessingSkillType",
+      "value": 60377.0,
+      "categoryID": 7,
+      "display_name": "Reprocessing Skill",
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "asteroidRadiusGrowthFactor",
+      "value": 0.35,
+      "categoryID": 31,
+      "display_name": "Asteroid radius size multiplier",
+      "unit_name": null
+    },
+    {
+      "attribute_name": "asteroidRadiusUnitSize",
+      "value": 600.0,
+      "categoryID": 31,
+      "display_name": "Asteroid unit radius",
+      "unit_name": "m"
+    },
+    {
+      "attribute_name": "stasisWebifierResistance",
+      "value": 0.0,
+      "categoryID": 36,
+      "display_name": "Stasis Webifier Resistance",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "asteroidMetaLevel",
+      "value": 4.0,
+      "categoryID": 7,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "oreBasicType",
+      "value": 1228.0,
+      "categoryID": 7,
+      "display_name": null,
+      "unit_name": "typeID"
+    },
+    {
+      "attribute_name": "ignoreMiningWaste",
+      "value": 0.0,
+      "categoryID": 51,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "ignoreMiningCrits",
+      "value": 0.0,
+      "categoryID": 51,
+      "display_name": null,
+      "unit_name": null
+    }
+  ],
+  "traits": []
+}

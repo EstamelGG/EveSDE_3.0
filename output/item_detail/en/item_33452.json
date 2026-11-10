@@ -162,6 +162,13 @@
       "categoryID": 7,
       "display_name": "Reload Time",
       "unit_name": "s"
+    },
+    {
+      "attribute_name": "rigSetDominationAngelModule",
+      "value": 1.0,
+      "categoryID": 37,
+      "display_name": null,
+      "unit_name": "units"
     }
   ],
   "traits": []

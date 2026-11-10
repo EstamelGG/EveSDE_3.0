@@ -556,6 +556,13 @@
       "unit_name": "AU/s"
     },
     {
+      "attribute_name": "shipBonusCC3",
+      "value": 5.0,
+      "categoryID": 9,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
       "attribute_name": "rigSize",
       "value": 2.0,
       "categoryID": 7,
@@ -634,7 +641,10 @@
       "content": "可以装配<a href=showinfo:47254>突击损伤控制</a>装备"
     },
     {
-      "content": "<b>2.5%</b> <a href=showinfo:3321>轻型导弹</a>、<a href=showinfo:3324>重型导弹</a>和<a href=showinfo:25719>重型攻击导弹</a>伤害加成"
+      "content": "<b>5%</b> <a href=showinfo:3321>轻型导弹</a>、<a href=showinfo:3324>重型导弹</a>和<a href=showinfo:25719>重型攻击导弹</a>动能伤害加成"
+    },
+    {
+      "content": "<b>2.5%</b> <a href=showinfo:3321>轻型导弹</a>，<a href=showinfo:3324>重型导弹</a>与<a href=showinfo:25719>重型攻击导弹</a>电磁、爆炸和热能伤害加成"
     },
     {
       "content": "<b>20%</b> <a href=showinfo:25719>重型攻击导弹</a>最大速度加成"

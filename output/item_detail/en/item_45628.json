@@ -106,6 +106,13 @@
       "categoryID": 7,
       "display_name": null,
       "unit_name": null
+    },
+    {
+      "attribute_name": "subsystemBonusGallenteCore3",
+      "value": -3.0,
+      "categoryID": 7,
+      "display_name": null,
+      "unit_name": null
     }
   ],
   "traits": [
@@ -126,6 +133,9 @@
     },
     {
       "content": "<b>5%</b> bonus to max targeting range"
+    },
+    {
+      "content": "<b>3%</b> bonus to <a href=showinfo:3433>Sensor Warfare Resistance</a> and <a href=showinfo:3434>Weapon Disruption</a> resistance"
     }
   ]
 }

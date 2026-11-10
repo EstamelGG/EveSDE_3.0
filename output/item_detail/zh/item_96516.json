@@ -1,0 +1,13 @@
+{
+  "type_id": 96516,
+  "name": "联邦均衡凭证",
+  "description": "一种兑换凭证，表明持有者曾支持盖伦特联邦的“均衡”活动。可前往位于<url=showinfo:5//30003788>印塔基</url>的联邦海军锚地外的物品贸易官处兑换。",
+  "volume": 0.001,
+  "repackaged_volume": 0.001,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

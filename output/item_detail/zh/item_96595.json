@@ -1,0 +1,131 @@
+{
+  "type_id": 96595,
+  "name": "大型萨沙爱国者同步器",
+  "description": "忠实制造的顶尖人才通过逆向工程，将艾玛与加达里同步器结合，制造出了这种改装件，可提升<a href=showinfo:3450>加力燃烧器</a>以及能量炮台的性能。然而，其强大的设计会产生极端的运行条件，大幅增加加力燃烧器的启动消耗。它还能连通萨沙爱国者技术体系，将各项装备的效果串联起来。安装的萨沙爱国者装备越多，性能提升就越明显。惩罚：在一艘舰船上使用多个这类装备或多个与该装备作用一致的类似装备将削弱实际使用效果。可通过训练<a href=showinfo:96100>同步改装</a>技能来降低装配该改装件所带来的CPU影响。",
+  "volume": 5.0,
+  "repackaged_volume": 5.0,
+  "capacity": null,
+  "mass": 200.0,
+  "category_name": "装备",
+  "group_name": "改装件同步器",
+  "attributes": [
+    {
+      "attribute_name": "hp",
+      "value": 40.0,
+      "categoryID": 4,
+      "display_name": "结构值",
+      "unit_name": "HP"
+    },
+    {
+      "attribute_name": "techLevel",
+      "value": 1.0,
+      "categoryID": 7,
+      "display_name": "科技等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "metaLevelOld",
+      "value": 0.0,
+      "categoryID": 7,
+      "display_name": "衍生等级",
+      "unit_name": "等级"
+    },
+    {
+      "attribute_name": "trackingSpeedBonus",
+      "value": 5.0,
+      "categoryID": 37,
+      "display_name": "跟踪速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "drawback",
+      "value": -10.0,
+      "categoryID": 7,
+      "display_name": "缺陷",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "upgradeCost",
+      "value": 250.0,
+      "categoryID": 1,
+      "display_name": "校准值消耗",
+      "unit_name": null
+    },
+    {
+      "attribute_name": "maxGroupFitted",
+      "value": 1.0,
+      "categoryID": 9,
+      "display_name": "该武器组所允许的最大装备数量",
+      "unit_name": null
+    },
+    {
+      "attribute_name": "rigSize",
+      "value": 3.0,
+      "categoryID": 7,
+      "display_name": "改装件尺寸",
+      "unit_name": "1=小型  2=中型  3=大型"
+    },
+    {
+      "attribute_name": "rigSetTrueSanshaBonus",
+      "value": 0.0,
+      "categoryID": 37,
+      "display_name": "已装配的萨沙爱国者装备",
+      "unit_name": null
+    },
+    {
+      "attribute_name": "rigAfterburnerSpeedBonus",
+      "value": 10.0,
+      "categoryID": 17,
+      "display_name": "加力燃烧器速度加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "rigAfterburnerOverloadingBonus",
+      "value": 10.0,
+      "categoryID": 52,
+      "display_name": "加力燃烧器过载加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "rigAfterburnerCapacitorCostPenalty",
+      "value": 400.0,
+      "categoryID": 5,
+      "display_name": "加力燃烧器启用耗电量惩罚",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "rigEnergyTurretDamageBonus",
+      "value": 5.0,
+      "categoryID": 29,
+      "display_name": "能量炮台伤害加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "rigHiddenTurretDamageMultiplier",
+      "value": 1.0,
+      "categoryID": 0,
+      "display_name": null,
+      "unit_name": "x"
+    }
+  ],
+  "traits": [
+    {
+      "content": "<b>400%</b> <a href=showinfo:3450>加力燃烧器</a>装备电容器启用耗电量惩罚"
+    },
+    {
+      "content": "<b>10%</b> <a href=showinfo:3450>加力燃烧器</a>速度增益加成"
+    },
+    {
+      "content": "<b>10%</b> <a href=showinfo:3450>加力燃烧器</a>装备过载效果加成"
+    },
+    {
+      "content": "<b>5%</b> <a href=showinfo:453>能量炮台</a>伤害加成"
+    },
+    {
+      "content": "<b>5%</b> <a href=showinfo:453>能量炮台</a>追踪加成"
+    },
+    {
+      "content": "每为该舰船装配一个<b>萨沙爱国者</b>装备，此改装件提供的加成就会固定提高1%"
+    }
+  ]
+}

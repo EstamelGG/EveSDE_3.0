@@ -1,0 +1,13 @@
+{
+  "type_id": 97513,
+  "name": "异变复稀金矿",
+  "description": "受到超维力量影响而发生变异的复稀金矿，其分子结构已发生异常变化。加达里合众国需要这种异常材料，研发能够抵御征服引擎启动的民用护盾。接受他们的活动目标，并将此物品交给位于<url=showinfo:5//30045324>欧拿蒙</url>加达里海军锚地外的物品贸易官，即可获得奖励。",
+  "volume": 0.01,
+  "repackaged_volume": 0.01,
+  "capacity": null,
+  "mass": null,
+  "category_name": "材料",
+  "group_name": "矿物",
+  "attributes": [],
+  "traits": []
+}

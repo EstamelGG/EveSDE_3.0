@@ -901,7 +901,7 @@
     {
       "attribute_name": "angelCartelProjectileReloadingSpeed",
       "value": -75.0,
-      "categoryID": 0,
+      "categoryID": 37,
       "display_name": null,
       "unit_name": "%"
     },

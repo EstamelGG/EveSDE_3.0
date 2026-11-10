@@ -211,6 +211,13 @@
       "categoryID": 37,
       "display_name": "已激活伤害抗性",
       "unit_name": "%"
+    },
+    {
+      "attribute_name": "rigSetShadowSerpentisModule",
+      "value": 1.0,
+      "categoryID": 37,
+      "display_name": null,
+      "unit_name": "单位"
     }
   ],
   "traits": []

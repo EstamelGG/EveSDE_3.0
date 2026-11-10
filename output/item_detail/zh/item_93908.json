@@ -85,6 +85,13 @@
       "categoryID": 37,
       "display_name": "爆炸半径加成",
       "unit_name": "%"
+    },
+    {
+      "attribute_name": "rigSetCaldariNavyModule",
+      "value": 1.0,
+      "categoryID": 37,
+      "display_name": null,
+      "unit_name": "单位"
     }
   ],
   "traits": []

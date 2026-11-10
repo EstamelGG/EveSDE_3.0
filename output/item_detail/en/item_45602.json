@@ -137,7 +137,7 @@
     },
     {
       "attribute_name": "subsystemBonusCaldariOffensive2",
-      "value": 5.0,
+      "value": 7.5,
       "categoryID": 7,
       "display_name": null,
       "unit_name": null
@@ -174,7 +174,7 @@
       "content": "+100GJ Capacitor Capacity"
     },
     {
-      "content": "<b>5%</b> bonus to <a href=showinfo:3304>Medium Hybrid Turret</a> damage"
+      "content": "<b>7.5%</b> bonus to <a href=showinfo:3304>Medium Hybrid Turret</a> damage"
     },
     {
       "content": "<b>20%</b> bonus to <a href=showinfo:3304>Medium Hybrid Turret</a> optimal range"

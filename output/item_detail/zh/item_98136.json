@@ -1,0 +1,63 @@
+{
+  "type_id": 98136,
+  "name": "法序局鉴定增效剂",
+  "description": "这款增效剂由法序局生产，旨在协助其调查先锋活动。<b>打捞回收几率加成+10，数据和遗迹分析仪病毒同步率加成+10</b>基础持续时间：2小时。<b>过期时间：YC129年2月2日</b>",
+  "volume": 1.0,
+  "repackaged_volume": 1.0,
+  "capacity": null,
+  "mass": null,
+  "category_name": "植入体",
+  "group_name": "增效剂",
+  "attributes": [
+    {
+      "attribute_name": "requiredSkill1",
+      "value": 3405.0,
+      "categoryID": 8,
+      "display_name": "主技能需求",
+      "unit_name": "类别ID"
+    },
+    {
+      "attribute_name": "requiredSkill1Level",
+      "value": 1.0,
+      "categoryID": 8,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "boosterDuration",
+      "value": 7200000.0,
+      "categoryID": 7,
+      "display_name": "增效剂时效",
+      "unit_name": "s"
+    },
+    {
+      "attribute_name": "accessDifficultyBonus",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "获取成功率",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "boosterness",
+      "value": 15.0,
+      "categoryID": 7,
+      "display_name": "增效剂槽位",
+      "unit_name": "槽位"
+    },
+    {
+      "attribute_name": "boosterLastInjectionDatetime",
+      "value": 20851.4576388889,
+      "categoryID": 7,
+      "display_name": "有效期",
+      "unit_name": null
+    },
+    {
+      "attribute_name": "boosterHackingVirusCoherenceModifier",
+      "value": 10.0,
+      "categoryID": 7,
+      "display_name": "病毒同步率加成",
+      "unit_name": "+"
+    }
+  ],
+  "traits": []
+}

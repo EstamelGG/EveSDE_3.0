@@ -1,0 +1,13 @@
+{
+  "type_id": 97547,
+  "name": "Stereo-Collapse Signal",
+  "description": "The Republic will reward anyone who accepts their campaign objective and delivers this to their item trader outside the Republic Fleet Anchorage in <url=showinfo:5//30002055>Amo</url>.\n\nThis Sleeper data is a hyperspace communication from their Drifter masters that has collapsed into lower-dimensional spacetime upon being received. Not only could these messages contain information that is key to locating the Emergent Artifact, but they could also help unlock the secrets of how to connect hyperspace communications to conventional technology.",
+  "volume": 0.1,
+  "repackaged_volume": 0.1,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

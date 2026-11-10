@@ -1,0 +1,13 @@
+{
+  "type_id": 96517,
+  "name": "State Security Token",
+  "description": "A trade token that shows the bearer has supported the Caldari State’s “Secure Strength” campaign.\n\nTrade it in at their item trader outside the Caldari Navy Anchorage in <url=showinfo:5//30045324>Onnamon</url>.",
+  "volume": 0.001,
+  "repackaged_volume": 0.001,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

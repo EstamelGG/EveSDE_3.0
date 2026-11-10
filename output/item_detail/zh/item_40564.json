@@ -52,6 +52,13 @@
       "unit_name": "类别ID"
     },
     {
+      "attribute_name": "requiredSkill3",
+      "value": 92399.0,
+      "categoryID": 8,
+      "display_name": "三级技能需求",
+      "unit_name": "类别ID"
+    },
+    {
       "attribute_name": "maxLockedTargets",
       "value": 6.0,
       "categoryID": 6,
@@ -131,6 +138,13 @@
     {
       "attribute_name": "requiredSkill2Level",
       "value": 5.0,
+      "categoryID": 8,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
+      "attribute_name": "requiredSkill3Level",
+      "value": 1.0,
       "categoryID": 8,
       "display_name": null,
       "unit_name": null

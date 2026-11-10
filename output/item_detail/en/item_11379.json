@@ -361,7 +361,7 @@
     },
     {
       "attribute_name": "shipBonusCF",
-      "value": 7.5,
+      "value": 5.0,
       "categoryID": 37,
       "display_name": null,
       "unit_name": null
@@ -598,6 +598,13 @@
       "unit_name": null
     },
     {
+      "attribute_name": "shipBonus3CF",
+      "value": 10.0,
+      "categoryID": 9,
+      "display_name": null,
+      "unit_name": null
+    },
+    {
       "attribute_name": "typeColorScheme",
       "value": 11412.0,
       "categoryID": 7,
@@ -662,7 +669,10 @@
       "content": "Can fit <a href=showinfo:47254>Assault Damage Controls</a>"
     },
     {
-      "content": "<b>7.5%</b> bonus to <a href=showinfo:3321>Light Missile</a> and <a href=showinfo:3320>Rocket</a> damage"
+      "content": "<b>10%</b> bonus to kinetic <a href=showinfo:3321>Light Missile</a> and <a href=showinfo:3320>Rocket</a> damage"
+    },
+    {
+      "content": "<b>5%</b> bonus to EM, explosive, thermal <a href=showinfo:3321>Light Missile</a> and <a href=showinfo:3320>Rocket</a> damage"
     },
     {
       "content": "<b>5%</b> bonus to <a href=showinfo:3321>Light Missile</a> and <a href=showinfo:3320>Rocket</a> Launcher rate of fire"

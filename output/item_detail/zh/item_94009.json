@@ -353,6 +353,13 @@
       "unit_name": "%"
     },
     {
+      "attribute_name": "rigSetGallenteNavyModule",
+      "value": 1.0,
+      "categoryID": 37,
+      "display_name": null,
+      "unit_name": "单位"
+    },
+    {
       "attribute_name": "remoteCapacitorImpedanceBonus",
       "value": -99.9999,
       "categoryID": 37,

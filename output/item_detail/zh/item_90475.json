@@ -204,6 +204,20 @@
       "categoryID": 37,
       "display_name": "装甲维修器/护盾回充增量器电容需求加成",
       "unit_name": "%"
+    },
+    {
+      "attribute_name": "ISAFighterExplosionRadiusReductionBonusActive",
+      "value": 0.9,
+      "categoryID": 38,
+      "display_name": "铁骑舰载机爆炸半径缩减加成",
+      "unit_name": "%"
+    },
+    {
+      "attribute_name": "ISAFighterExplosionVelocityBonusActive",
+      "value": 1.2,
+      "categoryID": 38,
+      "display_name": "铁骑舰载机爆炸速度加成",
+      "unit_name": "%"
     }
   ],
   "traits": []

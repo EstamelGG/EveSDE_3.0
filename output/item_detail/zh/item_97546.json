@@ -1,0 +1,13 @@
+{
+  "type_id": 97546,
+  "name": "自由无人机阿诺基斯遥测数据",
+  "description": "接受他们的活动目标，并将此物品交给位于<url=showinfo:5//30003788>印塔基</url>联邦海军锚地外的物品贸易官，即可获得奖励。这些遥测数据由侵入阿诺基斯的自由无人机收集，其中包含超空间波动的相关证据。绘制这些波动的分布图，或许有助于确定突创神器显现过程的具体细节。",
+  "volume": 0.1,
+  "repackaged_volume": 0.1,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "特别版用品",
+  "group_name": "特别版商品",
+  "attributes": [],
+  "traits": []
+}

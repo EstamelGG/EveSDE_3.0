@@ -18,7 +18,7 @@
     },
     {
       "attribute_name": "maxVelocity",
-      "value": 867.0,
+      "value": 910.0,
       "categoryID": 17,
       "display_name": "Maximum Velocity",
       "unit_name": "m/sec"
@@ -60,7 +60,7 @@
     },
     {
       "attribute_name": "scanRadarStrength",
-      "value": 7.0,
+      "value": 10.0,
       "categoryID": 6,
       "display_name": "RADAR Sensor Strength",
       "unit_name": "points"
@@ -88,7 +88,7 @@
     },
     {
       "attribute_name": "shieldCapacity",
-      "value": 5445.0,
+      "value": 7260.0,
       "categoryID": 2,
       "display_name": "Shield Capacity",
       "unit_name": "HP"
@@ -242,7 +242,7 @@
     },
     {
       "attribute_name": "fighterAbilityMissilesDamageEM",
-      "value": 187.5,
+      "value": 196.5,
       "categoryID": 34,
       "display_name": "EM Damage (Per Fighter)",
       "unit_name": "HP"
@@ -347,7 +347,7 @@
     },
     {
       "attribute_name": "fighterAbilityAttackMissileDamageEM",
-      "value": 103.0,
+      "value": 108.0,
       "categoryID": 34,
       "display_name": "EM Damage (Per Fighter)",
       "unit_name": "HP"

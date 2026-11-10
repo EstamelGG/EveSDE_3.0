@@ -1,7 +1,7 @@
 {
   "type_id": 92568,
-  "name": "Kangite X-Grade",
-  "description": "This variant of Kangite ore is especially prized by Minmatar engineers for use in large-scale construction projects. Deposits have been held in reserve until such a time as the Republic needed them.\n\nUnlike regular Kangite ore, X-Grade is more stable and can be reprocessed without specialized equipment into <a href=showinfo:34>Tritanium</a> and <a href=showinfo:35>Pyerite</a>, as well as providing <a href=showinfo:92572>Crystalline Kangite</a>, which is valuable to the Minmatar Republic.",
+  "name": "Flawed Kangite",
+  "description": "This variant of Kangite ore is especially prized by Minmatar engineers for use in large-scale construction projects. Deposits have been held in reserve until such a time as the Republic needed them. Unfortunately, the crystals within this asteroid are flawed and have limited value although It can still be reprocessed without specialized equipment into <a href=showinfo:34>Tritanium</a> and <a href=showinfo:35>Pyerite</a>, as well as providing <a href=showinfo:92572>Flawed Crystalline Kangite</a>.",
   "volume": 1.0,
   "repackaged_volume": 1.0,
   "capacity": null,

@@ -1,0 +1,13 @@
+{
+  "type_id": 97544,
+  "name": "Thermoelectric Flux Log",
+  "description": "The Empire will reward anyone who accepts their campaign objective and delivers this to their item trader outside the Amarr Navy Anchorage in <url=showinfo:5//30002974>Mehatoor</url>.\n\nInside this log are Sleeper records about the transfer of thermoelectric energy across the Drifter Hyperspace Network. With enough data of that type, it should be possible to identify their connection to the Emergent Artifact, as well as help the Empire unlock the secrets of superior energy transfer.",
+  "volume": 0.1,
+  "repackaged_volume": 0.1,
+  "capacity": null,
+  "mass": 1.0,
+  "category_name": "Special Edition Assets",
+  "group_name": "Special Edition Commodities",
+  "attributes": [],
+  "traits": []
+}

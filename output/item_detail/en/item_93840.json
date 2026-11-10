@@ -141,6 +141,13 @@
       "categoryID": 20,
       "display_name": "Maximum Repair Multiplier Bonus",
       "unit_name": "%"
+    },
+    {
+      "attribute_name": "rigSetAmarrNavyModule",
+      "value": 1.0,
+      "categoryID": 37,
+      "display_name": null,
+      "unit_name": "units"
     }
   ],
   "traits": []

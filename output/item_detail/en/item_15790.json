@@ -99,6 +99,13 @@
       "categoryID": 7,
       "display_name": "Stabilize Cloak Duration",
       "unit_name": "sec"
+    },
+    {
+      "attribute_name": "rigSetCaldariNavyModule",
+      "value": 1.0,
+      "categoryID": 37,
+      "display_name": null,
+      "unit_name": "units"
     }
   ],
   "traits": []
