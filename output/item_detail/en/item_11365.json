@@ -389,7 +389,7 @@
     },
     {
       "attribute_name": "shipBonus2AF",
-      "value": 3.0,
+      "value": -5.0,
       "categoryID": 9,
       "display_name": null,
       "unit_name": null
