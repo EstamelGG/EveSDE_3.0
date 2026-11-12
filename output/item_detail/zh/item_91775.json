@@ -628,19 +628,19 @@
   ],
   "traits": [
     {
-      "content": "<b>25%</b> bonus to <a href=showinfo:3436>Drone</a> max velocity"
+      "content": "<b>25%</b> <a href=\"showinfo:3436\">无人机</a>最大速度加成"
     },
     {
-      "content": "<b>10%</b> bonus to <a href=showinfo:3436>Drone</a> hitpoints and damage"
+      "content": "<b>10%</b> <a href=\"showinfo:3436\">无人机</a>伤害和HP加成"
     },
     {
-      "content": "<b>10%</b> bonus to <a href=showinfo:3303>Small Energy Turret</a>, <a href=showinfo:3321>Light Missile</a> and <a href=showinfo:3320>Rocket</a> damage"
+      "content": "<b>10%</b> <a href=showinfo:3303>小型能量炮台</a>, <a href=showinfo:3321>轻型导弹</a>和<a href=showinfo:3320>火箭</a>伤害加成"
     },
     {
-      "content": "<b>20%</b> bonus to <a href=showinfo:3423>Energy Nosferatu</a> and <a href=showinfo:3423>Energy Neutralizer</a> optimal range"
+      "content": "<b>20%</b> <a href=showinfo:3423>掠能器</a>和<a href=showinfo:3423>能量中和器</a>最佳射程加成"
     },
     {
-      "content": "<b>10%</b> bonus to <a href=showinfo:3423>Energy Nosferatu</a> and <a href=showinfo:3423>Energy Neutralizer</a> falloff range"
+      "content": "<b>10%</b> <a href=showinfo:3423>掠能器</a>和<a href=showinfo:3423>能量中和器</a>失准范围加成"
     }
   ]
 }

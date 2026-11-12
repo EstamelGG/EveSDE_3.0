@@ -621,16 +621,16 @@
   ],
   "traits": [
     {
-      "content": "<b>25%</b> bonus to <a href=showinfo:3436>Drone</a> max velocity"
+      "content": "<b>25%</b> <a href=\"showinfo:3436\">无人机</a>最大速度加成"
     },
     {
-      "content": "<b>10%</b> bonus to <a href=showinfo:3436>Drone</a> hitpoints and damage"
+      "content": "<b>10%</b> <a href=\"showinfo:3436\">无人机</a>伤害和HP加成"
     },
     {
-      "content": "<b>10%</b> bonus to <a href=showinfo:3301>Small Hybrid Turret</a> damage and tracking speed"
+      "content": "<b>10%</b> <a href=showinfo:3301>小型混合炮台</a>伤害和跟踪速度加成"
     },
     {
-      "content": "<b>10%</b> bonus to <a href=showinfo:3436>Stasis Webifier Drone</a> factor of velocity decrease and hitpoints"
+      "content": "<b>10%</b> <a href=showinfo:3436>停滞缠绕无人机</a>最大速度影响系数和HP加成"
     }
   ]
 }

@@ -628,16 +628,16 @@
   ],
   "traits": [
     {
-      "content": "<b>50%</b> bonus to <a href=showinfo:3321>Light Missile</a> and <a href=showinfo:3320>Rocket</a> max velocity"
+      "content": "<b>50%</b> <a href=\"showinfo:3321\">轻型导弹</a>和<a href=\"showinfo:3320\">火箭</a>飞行速度加成"
     },
     {
-      "content": "<b>10%</b> bonus to kinetic <a href=showinfo:3321>Light Missile</a> and <a href=showinfo:3320>Rocket</a> damage"
+      "content": "<b>10%</b> <a href=\"showinfo:3321\">轻型导弹</a>和<a href=\"showinfo:3320\">火箭</a>动能伤害加成"
     },
     {
-      "content": "<b>5%</b> bonus to EM, explosive, thermal <a href=showinfo:3321>Light Missile</a> and <a href=showinfo:3320>Rocket</a> damage"
+      "content": "<b>5%</b> <a href=\"showinfo:3321\">轻型导弹</a>和<a href=\"showinfo:3320\">火箭</a>电磁、爆炸和热能伤害加成"
     },
     {
-      "content": "<b>5%</b> bonus to <a href=showinfo:3321>Light Missile</a> and <a href=showinfo:3320>Rocket</a> explosion radius"
+      "content": "<b>5%</b> <a href=showinfo:3321>轻型导弹</a>和<a href=showinfo:3320>火箭</a>爆炸半径加成"
     }
   ]
 }
