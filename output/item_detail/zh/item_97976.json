@@ -1,6 +1,6 @@
 {
   "type_id": 97976,
-  "name": "“警惕级”活力无人机导航计算机",
+  "name": "“警戒”活力无人机导航计算机",
   "description": "提高无人机的微型跃迁推进器速度。提高铁骑舰载机的速度。其活力变体包含主动模式。流浪者纳米体会重构该装备，在有限时间内解锁更高的增益。该装备无法再通过突变质体进行改造。惩罚：在一艘舰船上使用多个这类装备或多个与该装备作用一致的类似装备将削弱实际使用效果。",
   "volume": 25.0,
   "repackaged_volume": 25.0,
@@ -102,10 +102,10 @@
     },
     {
       "attribute_name": "moduleAberrantDroneNavigationComputerBonusEffect",
-      "value": 36.0,
+      "value": 3.0,
       "categoryID": 10,
       "display_name": "主动无人机和铁骑舰载机最大速度加成",
-      "unit_name": "%"
+      "unit_name": "x"
     }
   ],
   "traits": []

@@ -1,6 +1,6 @@
 {
   "type_id": 97982,
-  "name": "“警惕级”活力电容回充器",
+  "name": "“警戒”活力电容回充器",
   "description": "提升电容回充速度其活力变体包含主动模式。流浪者纳米体会重构该装备，在有限时间内解锁更高的增益。该装备无法再通过突变质体进行改造。",
   "volume": 5.0,
   "repackaged_volume": 5.0,
@@ -108,10 +108,17 @@
       "unit_name": null
     },
     {
-      "attribute_name": "moduleAberrantCapRechargerBonusEffect",
-      "value": 0.75,
+      "attribute_name": "moduleAberrantCapRechargerBonusEffectFAKE",
+      "value": 3.0,
       "categoryID": 5,
       "display_name": "主动电容回充速度加成",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "ModuleAberrantCapacitorRechargeRatePostAssignmentHidden",
+      "value": 0.64,
+      "categoryID": 5,
+      "display_name": "Capacitor recharge rate bonus",
       "unit_name": "%"
     }
   ],

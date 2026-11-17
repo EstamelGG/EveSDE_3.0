@@ -776,7 +776,7 @@
       "attribute_name": "fighterSupportSlots",
       "value": 4.0,
       "categoryID": 38,
-      "display_name": "后勤铁骑舰载机中队限制",
+      "display_name": "支援铁骑舰载机中队限制",
       "unit_name": null
     },
     {
@@ -970,13 +970,13 @@
       "content": "<b>5x</b> <a href=showinfo:34593>侵噬链接</a>运转周期惩罚"
     },
     {
-      "content": "<b>30%</b> <a href=showinfo:40573>后勤铁骑舰载机</a>护盾值加成"
+      "content": "<b>30%</b> <a href=showinfo:40573>支援铁骑舰载机</a>护盾值加成"
     },
     {
-      "content": "<b>10%</b> <a href=showinfo:40346>塞壬</a><a href=showinfo:40573>后勤铁骑舰载机</a>跃迁干扰范围加成"
+      "content": "<b>10%</b> <a href=showinfo:40346>塞壬</a><a href=showinfo:40573>支援铁骑舰载机</a>跃迁干扰范围加成"
     },
     {
-      "content": "<b>10%</b> <a href=showinfo:40346>塞壬</a><a href=showinfo:40573>后勤铁骑舰载机</a>加力燃烧器速度加成"
+      "content": "<b>10%</b> <a href=showinfo:40346>塞壬</a><a href=showinfo:40573>支援铁骑舰载机</a>加力燃烧器速度加成"
     },
     {
       "content": "<b>20%</b> <a href=showinfo:83094>导管跳跃</a>容量增加"

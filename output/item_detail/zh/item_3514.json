@@ -790,7 +790,7 @@
       "attribute_name": "fighterSupportSlots",
       "value": 0.0,
       "categoryID": 38,
-      "display_name": "后勤铁骑舰载机中队限制",
+      "display_name": "支援铁骑舰载机中队限制",
       "unit_name": null
     },
     {

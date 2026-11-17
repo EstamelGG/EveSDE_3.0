@@ -258,7 +258,7 @@
       "attribute_name": "remoteCapacitorImpedanceBonus",
       "value": -99.9999,
       "categoryID": 37,
-      "display_name": "Remote Capacitor Transmitter Impedance Bonus",
+      "display_name": "远程电容传输阻扰加成",
       "unit_name": "%"
     }
   ],

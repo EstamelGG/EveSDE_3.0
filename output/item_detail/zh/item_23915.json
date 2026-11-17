@@ -762,7 +762,7 @@
       "attribute_name": "fighterSupportSlots",
       "value": 2.0,
       "categoryID": 38,
-      "display_name": "后勤铁骑舰载机中队限制",
+      "display_name": "支援铁骑舰载机中队限制",
       "unit_name": null
     },
     {
@@ -935,10 +935,10 @@
       "content": "<b>4%</b> 护盾抗性加成"
     },
     {
-      "content": "<b>5%</b> 圣甲虫<a href=showinfo:40573>后勤铁骑舰载机</a>ECM最佳射程加成"
+      "content": "<b>5%</b> 圣甲虫<a href=showinfo:40573>支援铁骑舰载机</a>ECM最佳射程加成"
     },
     {
-      "content": "<b>2%</b> 圣甲虫<a href=showinfo:40573>后勤铁骑舰载机</a>ECM强度加成"
+      "content": "<b>2%</b> 圣甲虫<a href=showinfo:40573>支援铁骑舰载机</a>ECM强度加成"
     },
     {
       "content": "<b>1%</b> <a href=showinfo:3350>护盾指挥</a>和<a href=showinfo:20495>信息战指挥</a>脉冲波强度和持续时间加成"

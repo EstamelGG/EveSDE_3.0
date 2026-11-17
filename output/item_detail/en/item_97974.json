@@ -95,10 +95,10 @@
     },
     {
       "attribute_name": "moduleAberrantOverdriveActiveSpeedBoostAmount",
-      "value": 15.0,
+      "value": 3.0,
       "categoryID": 17,
-      "display_name": "Active Speed Boost Amount",
-      "unit_name": "%"
+      "display_name": "Active Speed Boost Multiplier",
+      "unit_name": "x"
     }
   ],
   "traits": []

@@ -1,7 +1,7 @@
 {
   "type_id": 40573,
-  "name": "后勤铁骑舰载机操控理论",
-  "description": "操作后勤铁骑舰载机的技能。每升一级，后勤铁骑舰载机的HP提高5%。",
+  "name": "支援铁骑舰载机操控理论",
+  "description": "操作支援铁骑舰载机的技能。每升一级，支援铁骑舰载机的HP提高5%。",
   "volume": 0.01,
   "repackaged_volume": 0.01,
   "capacity": null,

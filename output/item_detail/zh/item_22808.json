@@ -1,7 +1,7 @@
 {
   "type_id": 22808,
   "name": "动能装甲补偿理论",
-  "description": "每升一级，装甲附甲和电压薄膜的动能抗性提高5%。",
+  "description": "每升一级，装甲抗性涂层和电压薄膜的动能抗性提高5%。",
   "volume": 0.01,
   "repackaged_volume": 0.01,
   "capacity": null,

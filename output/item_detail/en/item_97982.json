@@ -108,10 +108,17 @@
       "unit_name": null
     },
     {
-      "attribute_name": "moduleAberrantCapRechargerBonusEffect",
-      "value": 0.75,
+      "attribute_name": "moduleAberrantCapRechargerBonusEffectFAKE",
+      "value": 3.0,
       "categoryID": 5,
-      "display_name": "Active Capacitor recharge rate bonus",
+      "display_name": "Active Recharge Rate Multiplier",
+      "unit_name": "x"
+    },
+    {
+      "attribute_name": "ModuleAberrantCapacitorRechargeRatePostAssignmentHidden",
+      "value": 0.64,
+      "categoryID": 5,
+      "display_name": "Capacitor recharge rate bonus",
       "unit_name": "%"
     }
   ],

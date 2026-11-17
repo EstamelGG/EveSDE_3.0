@@ -102,10 +102,10 @@
     },
     {
       "attribute_name": "moduleAberrantDroneNavigationComputerBonusEffect",
-      "value": 36.0,
+      "value": 3.0,
       "categoryID": 10,
-      "display_name": "Active Drone and Fighter Maximum Velocity Bonus",
-      "unit_name": "%"
+      "display_name": "Drone and Fighter Maximum Velocity Bonus Multiplier",
+      "unit_name": "x"
     }
   ],
   "traits": []

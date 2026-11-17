@@ -1,7 +1,7 @@
 {
   "type_id": 86263,
   "name": "突破者座舱投射",
-  "description": "操作突破者座舱发射器的专业技能。每升一级，突破者逃生舱最大速度提高10%。",
+  "description": "操作突破者座舱发射器的专业技能。每升一级，突破者座舱最大速度提高10%。",
   "volume": 0.01,
   "repackaged_volume": 0.01,
   "capacity": null,

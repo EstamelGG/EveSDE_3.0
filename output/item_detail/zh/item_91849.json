@@ -1,7 +1,7 @@
 {
   "type_id": 91849,
   "name": "阿尔格斯级海军型",
-  "description": "The election of Alix Moreau in YC128 brought a new focus on research and development to the Gallente Federation. In their role as a science advisor prior to winning the election, Moreau had tagged a number of innovative new patents submitted by CreoDron for further development. As President, they were able to ensure they entered production. \n\nThe Algos was identified as an ideal design to iterate from. Superior weapon systems, web-drone linkages, and a tougher shell were just some of the systemic improvements integrated into the new Navy Issue variant.",
+  "description": "YC128年，阿利克斯·莫罗当选总统，为盖伦特联邦的科研与开发带来了新的方向。在赢得大选之前，莫罗曾担任科学顾问，并将西顿工业提交的多项创新专利列为值得进一步开发的项目。就任总统后，莫罗得以推动这些技术正式投入生产。\n\n\n 阿尔格斯级被选定为最适合进行迭代升级的舰船设计。更先进的武器系统、与停滞缠绕无人机的联动机制，以及更为坚固的舰体外壳……这些仅仅是新型海军型系统性改进的一小部分。",
   "volume": 55000.0,
   "repackaged_volume": 5000.0,
   "capacity": 350.0,

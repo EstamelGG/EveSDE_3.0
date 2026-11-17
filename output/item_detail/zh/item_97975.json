@@ -1,6 +1,6 @@
 {
   "type_id": 97975,
-  "name": "“警惕级”活力护盾回充增量增效器",
+  "name": "“警戒”活力护盾回充增量增效器",
   "description": "集中并增强护盾回充增量设备的效能。其活力变体包含主动模式。流浪者纳米体会重构该装备，在有限时间内解锁更高的增益。该装备无法再通过突变质体进行改造。惩罚：在一艘舰船上使用多个这类装备或多个与该装备作用一致的类似装备将削弱实际使用效果。",
   "volume": 5.0,
   "repackaged_volume": 5.0,
@@ -109,10 +109,10 @@
     },
     {
       "attribute_name": "moduleAberrantShieldBoostAmplifierShieldBoosterBonusEffect",
-      "value": 43.2,
+      "value": 3.0,
       "categoryID": 2,
       "display_name": "主动护盾回充增量器回充量",
-      "unit_name": "%"
+      "unit_name": "x"
     }
   ],
   "traits": []

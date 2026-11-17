@@ -762,7 +762,7 @@
       "attribute_name": "fighterSupportSlots",
       "value": 2.0,
       "categoryID": 38,
-      "display_name": "后勤铁骑舰载机中队限制",
+      "display_name": "支援铁骑舰载机中队限制",
       "unit_name": null
     },
     {
@@ -938,10 +938,10 @@
       "content": "<b>2.5%</b> <a href=showinfo:23069>铁骑舰载机</a>HP加成"
     },
     {
-      "content": "<b>5%</b> 塞壬<a href=showinfo:40573>后勤铁骑舰载机</a>跃迁干扰范围加成"
+      "content": "<b>5%</b> 塞壬<a href=showinfo:40573>支援铁骑舰载机</a>跃迁干扰范围加成"
     },
     {
-      "content": "<b>2%</b> 塞壬<a href=showinfo:40573>后勤铁骑舰载机</a>加力燃烧器速度加成"
+      "content": "<b>2%</b> 塞壬<a href=showinfo:40573>支援铁骑舰载机</a>加力燃烧器速度加成"
     },
     {
       "content": "<b>1%</b> <a href=showinfo:20494>装甲指挥</a>和<a href=showinfo:3349>游击战指挥</a>脉冲波强度和持续时间加成"

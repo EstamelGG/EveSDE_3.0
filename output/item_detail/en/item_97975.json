@@ -109,10 +109,10 @@
     },
     {
       "attribute_name": "moduleAberrantShieldBoostAmplifierShieldBoosterBonusEffect",
-      "value": 43.2,
+      "value": 3.0,
       "categoryID": 2,
-      "display_name": "Active Shield Booster Amount",
-      "unit_name": "%"
+      "display_name": "Active Shield Boost Bonus Multiplier",
+      "unit_name": "x"
     }
   ],
   "traits": []

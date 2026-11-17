@@ -1,6 +1,6 @@
 {
   "type_id": 97974,
-  "name": "“警惕级”活力超载喷注系统",
+  "name": "“警戒”活力超载喷注系统",
   "description": "这台强力装置能大幅提升引擎功率，代价是货舱容量减少。其活力变体包含主动模式。流浪者纳米体会重构该装备，在有限时间内解锁更高的增益。惩罚：在一艘舰船上使用多个这类装备或多个与该装备作用一致的类似装备将削弱实际使用效果。",
   "volume": 5.0,
   "repackaged_volume": 5.0,
@@ -95,10 +95,10 @@
     },
     {
       "attribute_name": "moduleAberrantOverdriveActiveSpeedBoostAmount",
-      "value": 15.0,
+      "value": 3.0,
       "categoryID": 17,
       "display_name": "主动加速量",
-      "unit_name": "%"
+      "unit_name": "x"
     }
   ],
   "traits": []
