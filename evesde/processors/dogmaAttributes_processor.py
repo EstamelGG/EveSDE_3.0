@@ -209,8 +209,7 @@ class DogmaAttributesProcessor:
         for key, attr_data in attributes_data.items():
             # 新版本：attributeID字段已移除，使用_key作为attribute_id
             attribute_id = key  # 使用_key作为attribute_id
-            # 新版本：categoryID重命名为attributeCategoryID
-            category_id = attr_data.get('attributeCategoryID', attr_data.get('categoryID', 0))
+            category_id = attr_data.get('attributeCategoryID', 0)
             attribute_key = str(attr_data.get('name') or '')
             names = wide_texts(attr_data.get('displayName'))
             tooltips = wide_texts(attr_data.get('tooltipDescription'))
@@ -311,9 +310,13 @@ def main(config=None):
     
     # 创建处理器并执行
     processor = DogmaAttributesProcessor(config)
-    processor.process_all_languages()
-    
-    print("\n[+] 物品属性数据处理器完成")
+    success = processor.process_all_languages()
+
+    if success:
+        print("\n[+] 物品属性数据处理器完成")
+    else:
+        print("\n[x] 物品属性数据处理器失败")
+    return success
 
 
 if __name__ == "__main__":

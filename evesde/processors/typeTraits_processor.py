@@ -115,7 +115,7 @@ class TypeTraitsProcessor:
         cursor.execute('SELECT COUNT(*) FROM traits')
         print(f"[+] traits数据处理完成: {cursor.fetchone()[0]} 个")
 
-    def update_all_databases(self, config):
+    def update_all_databases(self, config) -> bool:
         self.load_type_bonus_data()
         db_file = get_db_path(config)
         db_file.parent.mkdir(parents=True, exist_ok=True)
@@ -129,6 +129,8 @@ class TypeTraitsProcessor:
             print("[+] 单库更新完成")
         except Exception as e:
             print(f"[x] 处理数据库 {db_file} 时出错: {e}")
+            raise
+        return True
 
 
 def main(config=None):
@@ -136,8 +138,12 @@ def main(config=None):
     if config is None:
         config = load_config()
     processor = TypeTraitsProcessor(config)
-    processor.update_all_databases(config)
-    print("\n[+] 类型特性处理器完成")
+    success = processor.update_all_databases(config)
+    if success:
+        print("\n[+] 类型特性处理器完成")
+    else:
+        print("\n[x] 类型特性处理器失败")
+    return success
 
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
-from evesde import build_prep
+from evesde import build_prep, sde_schema
 from evesde.github import output
 from evesde.release.changes import detect_changes
 from evesde.brackets.parse_brackets_standalone import main as parse_brackets
@@ -38,6 +38,7 @@ def run_build(config, plan, *, package=False):
     config["eve_client"] = client
     try:
         execute_processor(lambda cfg: sde_downloader.main(cfg, build_number=plan.build_number), "SDE下载", config)
+        execute_processor(sde_schema.validate_input, "SDE schema校验", config)
         execute_processor(lambda cfg: AccountingTypesLocalizer(PROJECT_ROOT, cfg).localize_accounting_types(),
                           "会计条目类型", config)
         parse_brackets(eve_client=client)

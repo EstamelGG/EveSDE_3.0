@@ -161,7 +161,7 @@ class ItemChangesAnalyzer:
         self.current_dogma_attributes_data = {}
     
     def load_jsonl_dict(self, file_path: Path) -> Dict[str, Any]:
-        """加载 JSONL 文件并返回字典（使用 _key 作为键，兼容 id）"""
+        """加载 JSONL 文件并返回以 _key 为键的字典。"""
         if not file_path.exists():
             return {}
         
@@ -169,12 +169,8 @@ class ItemChangesAnalyzer:
         try:
             items = jsonl_loader.load_jsonl(str(file_path))
             for item in items:
-                # 优先使用 _key，如果没有则使用 id
-                key = item.get('_key')
-                if key is None:
-                    key = item.get('id')
-                if key is not None:
-                    data[str(key)] = item
+                key = item["_key"]
+                data[str(key)] = item
         except Exception as e:
             print(f"[!] 加载文件失败 {file_path}: {e}")
         
@@ -587,8 +583,7 @@ class ItemChangesAnalyzer:
         if added_blueprints:
             lines.append("## 新增蓝图\n\n")
             for blueprint_id, blueprint_data in sorted(added_blueprints.items()):
-                # 获取蓝图名称（通过 blueprintTypeID）
-                blueprint_type_id = str(blueprint_data.get('blueprintTypeID', blueprint_id))
+                blueprint_type_id = str(blueprint_data['_key'])
                 blueprint_name = self.get_type_name(blueprint_type_id, self.current_types_data)
                 lines.append(f"### {blueprint_name} (Blueprint ID: {blueprint_id})\n\n")
                 
@@ -654,7 +649,7 @@ class ItemChangesAnalyzer:
                 # 获取旧蓝图数据
                 old_blueprint_data = self.old_blueprints_data.get(blueprint_id, {}) if self.old_blueprints_data else {}
                 
-                blueprint_type_id = str(new_blueprint_data.get('blueprintTypeID', blueprint_id))
+                blueprint_type_id = str(new_blueprint_data['_key'])
                 blueprint_name = self.get_type_name(blueprint_type_id, self.current_types_data)
                 lines.append(f"### {blueprint_name} (Blueprint ID: {blueprint_id})\n\n")
                 

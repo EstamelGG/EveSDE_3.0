@@ -105,7 +105,7 @@ class MetaGroupsProcessor:
         end_time = time.time()
         print(f"[+] MetaGroups数据处理完成，耗时: {end_time - start_time:.2f} 秒")
     
-    def update_all_databases(self, config):
+    def update_all_databases(self, config) -> bool:
         """更新所有语言的数据库"""
         project_root = PROJECT_ROOT
         db_output_path = project_root / config["paths"]["db_output"]
@@ -126,6 +126,8 @@ class MetaGroupsProcessor:
             print("[+] 单库更新完成")
         except Exception as e:
             print(f"[x] 处理数据库 {db_file} 时出错: {e}")
+            raise
+        return True
 
 
 def main(config=None):
@@ -138,9 +140,13 @@ def main(config=None):
     
     # 创建处理器并执行
     processor = MetaGroupsProcessor(config)
-    processor.update_all_databases(config)
-    
-    print("\n[+] MetaGroups处理器完成")
+    success = processor.update_all_databases(config)
+
+    if success:
+        print("\n[+] MetaGroups处理器完成")
+    else:
+        print("\n[x] MetaGroups处理器失败")
+    return success
 
 
 if __name__ == "__main__":

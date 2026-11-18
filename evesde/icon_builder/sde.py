@@ -143,9 +143,9 @@ def read_skin_materials(sde: ZipFile, silent_mode: bool = False) -> Dict[int, in
         skin_id = data.get('skinID')
         if skin_id is not None:
             license_skins[license_id] = skin_id
-    
+
     skin_materials = {}
-    content = sde.read('skinMaterials.jsonl').decode('utf-8')
+    content = sde.read('skins.jsonl').decode('utf-8')
     for line in content.strip().split('\n'):
         if not line.strip():
             continue
@@ -154,11 +154,23 @@ def read_skin_materials(sde: ZipFile, silent_mode: bool = False) -> Dict[int, in
         material_id = data.get('skinMaterialID')
         if material_id is not None:
             skin_materials[skin_id] = material_id
+
+    material_sets = {}
+    content = sde.read('skinMaterials.jsonl').decode('utf-8')
+    for line in content.strip().split('\n'):
+        if not line.strip():
+            continue
+        data = json.loads(line)
+        material_id = data['_key']
+        material_set_id = data.get('materialSetID')
+        if material_set_id is not None:
+            material_sets[material_id] = material_set_id
     
     license_materials = {}
     for license_id, skin_id in license_skins.items():
-        if skin_id in skin_materials:
-            license_materials[license_id] = skin_materials[skin_id]
+        material_id = skin_materials.get(skin_id)
+        if material_id in material_sets:
+            license_materials[license_id] = material_sets[material_id]
     
     return license_materials
 

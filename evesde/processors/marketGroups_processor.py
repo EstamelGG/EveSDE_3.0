@@ -429,9 +429,13 @@ def main(config=None):
     
     # 创建处理器并执行
     processor = MarketGroupsProcessor(config)
-    processor.process_all_languages()
-    
-    print("\n[+] 市场分组数据处理器完成")
+    success = processor.process_all_languages()
+
+    if success:
+        print("\n[+] 市场分组数据处理器完成")
+    else:
+        print("\n[x] 市场分组数据处理器失败")
+    return success
 
 
 if __name__ == "__main__":

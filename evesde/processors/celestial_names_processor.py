@@ -148,8 +148,12 @@ def main(config=None):
     if config is None:
         config = load_config()
     processor = CelestialsProcessor(config)
-    processor.process()
-    print("\n[+] 天体数据处理器完成")
+    success = processor.process()
+    if success:
+        print("\n[+] 天体数据处理器完成")
+    else:
+        print("\n[x] 天体数据处理器失败")
+    return success
 
 
 if __name__ == "__main__":

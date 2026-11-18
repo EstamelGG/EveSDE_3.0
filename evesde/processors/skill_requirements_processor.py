@@ -134,8 +134,12 @@ def main(config=None):
     if config is None:
         config = load_config()
     processor = SkillRequirementsProcessor(config)
-    processor.process_all_languages()
-    print("\n[+] 技能需求数据处理器完成")
+    success = processor.process_all_languages()
+    if success:
+        print("\n[+] 技能需求数据处理器完成")
+    else:
+        print("\n[x] 技能需求数据处理器失败")
+    return success
 
 
 if __name__ == "__main__":

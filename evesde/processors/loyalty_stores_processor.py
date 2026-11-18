@@ -20,6 +20,10 @@ from pathlib import Path
 from typing import Dict, Any, List, Optional, Tuple
 
 
+class LoyaltyStoreError(RuntimeError):
+    """ESI 请求失败或返回结构不符合预期。"""
+
+
 class LoyaltyStoresProcessor:
     """忠诚点商店数据处理器"""
     
@@ -53,7 +57,8 @@ class LoyaltyStoresProcessor:
         self, 
         session: aiohttp.ClientSession,
         url: str, 
-        max_retries: Optional[int] = None
+        max_retries: Optional[int] = None,
+        missing_ok: bool = False,
     ) -> Optional[Any]:
         """
         带重试机制的异步API请求
@@ -62,9 +67,10 @@ class LoyaltyStoresProcessor:
             session: aiohttp会话
             url: 请求的URL
             max_retries: 最大重试次数，默认使用self.max_retries
+            missing_ok: 是否把404视为合法的不存在资源
         
         Returns:
-            响应数据（JSON），失败返回None
+            响应数据（JSON）；仅在 missing_ok=True 且响应404时返回None
         """
         if max_retries is None:
             max_retries = self.max_retries
@@ -73,50 +79,56 @@ class LoyaltyStoresProcessor:
             try:
                 async with session.get(url) as response:
                     if response.status == 404:
-                        # 404表示该军团没有LP商店，这是正常的
-                        return None
+                        if missing_ok:
+                            return None
+                        raise LoyaltyStoreError(f"ESI资源不存在 (HTTP 404): {url}")
                     elif response.status == 429:
-                        # 429表示请求过多，需要等待
-                        retry_after = int(response.headers.get('Retry-After', 60))
+                        try:
+                            retry_after = int(response.headers.get('Retry-After', 60))
+                        except (TypeError, ValueError):
+                            retry_after = 60
                         if attempt < max_retries - 1:
                             print(f"    [!] 请求频率限制，等待 {retry_after} 秒...")
                             await asyncio.sleep(retry_after)
                             continue
-                        else:
-                            print(f"    [x] 请求频率限制，已达到最大重试次数")
-                            return None
-                    elif response.status >= 400:
+                        raise LoyaltyStoreError(f"ESI请求频率限制，重试已耗尽: {url}")
+                    elif response.status >= 500 or response.status == 408:
                         if attempt < max_retries - 1:
                             wait_time = self.retry_delay * (attempt + 1)
                             print(f"    [-] HTTP错误 {response.status}，{wait_time:.1f}秒后重试 ({attempt+1}/{max_retries})")
                             await asyncio.sleep(wait_time)
                             continue
-                        else:
-                            print(f"    [x] HTTP错误 {response.status}，已达到最大重试次数")
-                            return None
+                        raise LoyaltyStoreError(f"ESI请求失败 (HTTP {response.status}): {url}")
+                    elif response.status >= 400:
+                        raise LoyaltyStoreError(f"ESI请求失败 (HTTP {response.status}): {url}")
                     
                     # 成功响应
-                    return await response.json()
+                    try:
+                        return await response.json()
+                    except (aiohttp.ContentTypeError, ValueError) as exc:
+                        raise LoyaltyStoreError(f"ESI返回的JSON无效: {url}: {exc}") from exc
                     
-            except asyncio.TimeoutError:
+            except LoyaltyStoreError:
+                raise
+            except asyncio.TimeoutError as exc:
                 if attempt < max_retries - 1:
                     wait_time = self.retry_delay * (attempt + 1)
                     print(f"    [-] 请求超时，{wait_time:.1f}秒后重试 ({attempt+1}/{max_retries})")
                     await asyncio.sleep(wait_time)
                 else:
-                    print(f"    [x] 请求超时，已达到最大重试次数")
-                    return None
+                    raise LoyaltyStoreError(f"ESI请求超时，重试已耗尽: {url}") from exc
                     
-            except aiohttp.ClientError as e:
+            except aiohttp.ClientError as exc:
                 if attempt < max_retries - 1:
                     wait_time = self.retry_delay * (attempt + 1)
-                    print(f"    [-] 请求失败: {str(e)}，{wait_time:.1f}秒后重试 ({attempt+1}/{max_retries})")
+                    print(f"    [-] 请求失败: {str(exc)}，{wait_time:.1f}秒后重试 ({attempt+1}/{max_retries})")
                     await asyncio.sleep(wait_time)
                 else:
-                    print(f"    [x] 请求失败: {str(e)}，已达到最大重试次数")
-                    return None
+                    raise LoyaltyStoreError(
+                        f"ESI请求失败，重试已耗尽: {url}: {exc}"
+                    ) from exc
         
-        return None
+        raise LoyaltyStoreError(f"ESI请求失败: {url}")
     
     async def fetch_npc_corporations(self, session: aiohttp.ClientSession) -> List[int]:
         """
@@ -130,7 +142,7 @@ class LoyaltyStoresProcessor:
         """
         print(f"[+] 获取NPC军团列表: {self.npccorps_url}")
         
-        corporations = await self.fetch_with_retry(session, self.npccorps_url)
+        corporations = await self.fetch_with_retry(session, self.npccorps_url, missing_ok=False)
         
         if corporations is None:
             print("[x] 获取NPC军团列表失败")
@@ -160,7 +172,7 @@ class LoyaltyStoresProcessor:
             LP商店offer列表，失败返回None
         """
         url = f"{self.esi_base_url}/loyalty/stores/{corporation_id}/offers"
-        return await self.fetch_with_retry(session, url)
+        return await self.fetch_with_retry(session, url, missing_ok=True)
     
     def create_tables(self, cursor: sqlite3.Cursor):
         """
@@ -265,8 +277,11 @@ class LoyaltyStoresProcessor:
             # 404是正常的，不是所有军团都有LP商店
             return None
         
-        if not isinstance(offers, list) or len(offers) == 0:
-            # 空列表表示该军团没有LP商店
+        if not isinstance(offers, list):
+            raise LoyaltyStoreError(
+                f"军团 {corporation_id} 的LP商店响应不是列表"
+            )
+        if len(offers) == 0:
             return None
         
         # 批量准备数据
@@ -275,13 +290,23 @@ class LoyaltyStoresProcessor:
         requirements_batch = []  # 表1：offer的需求
         
         for offer in offers:
+            if not isinstance(offer, dict):
+                raise LoyaltyStoreError(f"军团 {corporation_id} 的LP商品不是对象")
             offer_id = offer.get('offer_id')
             type_id = offer.get('type_id')
+            if offer_id is None or type_id is None:
+                raise LoyaltyStoreError(
+                    f"军团 {corporation_id} 的LP商品缺少 offer_id/type_id: {offer}"
+                )
             quantity = offer.get('quantity', 1)
             isk_cost = offer.get('isk_cost', 0)
             lp_cost = offer.get('lp_cost', 0)
             ak_cost = offer.get('ak_cost', 0)
             required_items = offer.get('required_items', [])
+            if not isinstance(required_items, list):
+                raise LoyaltyStoreError(
+                    f"军团 {corporation_id} 的LP商品 {offer_id} required_items 不是列表"
+                )
             
             # 准备offer数据（仅存储军团和offer的关系）
             offers_batch.append((
@@ -301,8 +326,16 @@ class LoyaltyStoresProcessor:
             
             # 准备requirements数据（表1：每个offer_id对应的需求物品）
             for req_item in required_items:
+                if not isinstance(req_item, dict):
+                    raise LoyaltyStoreError(
+                        f"军团 {corporation_id} 的LP商品 {offer_id} 需求物品不是对象"
+                    )
                 required_type_id = req_item.get('type_id')
                 required_quantity = req_item.get('quantity', 1)
+                if required_type_id is None:
+                    raise LoyaltyStoreError(
+                        f"军团 {corporation_id} 的LP商品 {offer_id} 需求物品缺少 type_id"
+                    )
                 requirements_batch.append((
                     offer_id,
                     required_type_id,
@@ -377,12 +410,8 @@ class LoyaltyStoresProcessor:
             (corporation_id, offers) 元组
         """
         async with semaphore:
-            try:
-                offers = await self.fetch_loyalty_offers(session, corporation_id)
-                return (corporation_id, offers)
-            except Exception as e:
-                print(f"    [!] 处理军团 {corporation_id} 时出错: {e}")
-                return (corporation_id, None)
+            offers = await self.fetch_loyalty_offers(session, corporation_id)
+            return (corporation_id, offers)
     
     async def process_all_corporations_async(self) -> List[Tuple[int, Optional[List[Dict[str, Any]]]]]:
         """

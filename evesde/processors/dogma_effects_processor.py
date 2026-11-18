@@ -105,8 +105,7 @@ class DogmaEffectsProcessor:
 
         for effect_id, effect_data in self.dogma_effects_data.items():
             # 获取基本字段
-            # 新版本：effectName重命名为name
-            effect_name = effect_data.get('name', effect_data.get('effectName', None))
+            effect_name = effect_data['name']
             if isinstance(effect_name, dict):
                 effect_name = effect_name.get('en', '')
 
@@ -117,8 +116,7 @@ class DogmaEffectsProcessor:
             if effect_name == "online":  # 打补丁修复
                 effect_category = 4
             else:
-                # 新版本：effectCategory重命名为effectCategoryID
-                effect_category = effect_data.get('effectCategoryID', effect_data.get('effectCategory', None))
+                effect_category = effect_data['effectCategoryID']
             
             published = effect_data.get('published', False)
             is_assistance = effect_data.get('isAssistance', False)
@@ -153,7 +151,7 @@ class DogmaEffectsProcessor:
         print(f"    - 效果: {effects_count} 个")
         print(f"    - 耗时: {end_time - start_time:.2f} 秒")
     
-    def update_all_databases(self, config):
+    def update_all_databases(self, config) -> bool:
         """更新所有语言的数据库"""
         project_root = PROJECT_ROOT
         db_output_path = project_root / config["paths"]["db_output"]
@@ -172,6 +170,8 @@ class DogmaEffectsProcessor:
             print("[+] 单库更新完成")
         except Exception as e:
             print(f"[x] 处理数据库 {db_file} 时出错: {e}")
+            raise
+        return True
 
     def _apply_effect_patches(self, cursor: sqlite3.Cursor) -> None:
         """应用 data/dogma_effect_patches.json（原独立回填步骤）。"""
@@ -203,9 +203,13 @@ def main(config=None):
     
     # 创建处理器并执行
     processor = DogmaEffectsProcessor(config)
-    processor.update_all_databases(config)
-    
-    print("\n[+] Dogma效果处理器完成")
+    success = processor.update_all_databases(config)
+
+    if success:
+        print("\n[+] Dogma效果处理器完成")
+    else:
+        print("\n[x] Dogma效果处理器失败")
+    return success
 
 
 if __name__ == "__main__":

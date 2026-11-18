@@ -679,9 +679,13 @@ def main(config=None):
     
     # 创建处理器并执行
     classifier = NPCShipClassifier(config)
-    classifier.classify_all_languages()
-    
-    print("\n[+] NPC船只分类处理器完成")
+    success = classifier.classify_all_languages()
+
+    if success:
+        print("\n[+] NPC船只分类处理器完成")
+    else:
+        print("\n[x] NPC船只分类处理器失败")
+    return success
 
 
 if __name__ == "__main__":

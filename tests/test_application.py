@@ -22,7 +22,8 @@ class ApplicationTests(unittest.TestCase):
         self.config = {"paths": {name: str(root / name) for name in
                                 ("client_cache", "db_output", "item_detail_en", "item_detail_zh", "release_output")}}
         self.patches = {}
-        for name in ("build_prep", "EveClient", "set_eve_client", "sde_downloader", "AccountingTypesLocalizer",
+        for name in ("build_prep", "EveClient", "set_eve_client", "sde_downloader", "sde_schema",
+                     "AccountingTypesLocalizer",
                      "parse_brackets", "run_pipeline", "version_info_processor", "compression_processor",
                      "item_detail_extractor", "generate_reports", "assets", "detect_changes", "output"):
             mock = patch.object(application, name)
@@ -33,6 +34,7 @@ class ApplicationTests(unittest.TestCase):
         for name in ("sde_downloader", "version_info_processor", "compression_processor"):
             self.patches[name].main.return_value = True
         self.patches["item_detail_extractor"].item_detail_extract.return_value = True
+        self.patches["sde_schema"].validate_input.return_value = True
 
     def test_build_uses_plan_without_requery_and_releases_client(self):
         selected = plan()
@@ -41,6 +43,7 @@ class ApplicationTests(unittest.TestCase):
             Path(self.config["paths"]["client_cache"]), client_data=selected.client_data)
         self.patches["sde_downloader"].main.assert_called_once()
         self.assertEqual(self.patches["sde_downloader"].main.call_args.kwargs["build_number"], "123")
+        self.patches["sde_schema"].validate_input.assert_called_once()
         self.patches["generate_reports"].assert_called_once()
         self.patches["assets"].prepare_release.assert_called_once()
         self.patches["EveClient"].from_tq.return_value.close.assert_called_once()
@@ -83,6 +86,13 @@ class ApplicationTests(unittest.TestCase):
             application.run_build(self.config, plan(), package=True)
         self.patches["assets"].prepare_release.assert_not_called()
         self.patches["EveClient"].from_tq.return_value.close.assert_called_once()
+
+    def test_schema_error_stops_before_pipeline(self):
+        self.patches["sde_schema"].validate_input.side_effect = RuntimeError("schema broken")
+        with self.assertRaisesRegex(RuntimeError, "SDE schema校验.*schema broken"):
+            application.run_build(self.config, plan(), package=True)
+        self.patches["run_pipeline"].assert_not_called()
+        self.patches["assets"].prepare_release.assert_not_called()
 
     def test_dotted_directory_is_created_as_directory(self):
         destination = Path(self.temp.name) / "data.v1"

@@ -291,9 +291,13 @@ def main(config=None):
     
     # 创建处理器并执行
     processor = DogmaAttributeCategoriesProcessor(config)
-    processor.process_all_languages()
-    
-    print("\n[+] 物品属性目录数据处理器完成")
+    success = processor.process_all_languages()
+
+    if success:
+        print("\n[+] 物品属性目录数据处理器完成")
+    else:
+        print("\n[x] 物品属性目录数据处理器失败")
+    return success
 
 
 if __name__ == "__main__":

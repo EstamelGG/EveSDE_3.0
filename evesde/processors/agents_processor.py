@@ -158,7 +158,7 @@ class AgentsProcessor:
         end_time = time.time()
         print(f"[+] 代理人数据处理完成，耗时: {end_time - start_time:.2f} 秒")
     
-    def update_all_databases(self, config):
+    def update_all_databases(self, config) -> bool:
         """更新所有语言的数据库"""
         project_root = PROJECT_ROOT
         db_output_path = project_root / config["paths"]["db_output"]
@@ -175,6 +175,8 @@ class AgentsProcessor:
             print("[+] 单库更新完成")
         except Exception as e:
             print(f"[x] 处理数据库 {db_file} 时出错: {e}")
+            raise
+        return True
 
 
 def main(config=None):
@@ -187,14 +189,18 @@ def main(config=None):
     
     # 创建处理器并执行
     processor = AgentsProcessor(config)
-    processor.update_all_databases(config)
+    success = processor.update_all_databases(config)
 
     # 代理人写入后再补本地化（原独立回填步骤）
     from evesde.processors.agent_localization_processor import AgentLocalizationProcessor
     print("[+] 回填代理人本地化...")
-    AgentLocalizationProcessor(config).update_agents_localization()
-    
-    print("\n[+] 代理人处理器完成")
+    localized = AgentLocalizationProcessor(config).update_agents_localization()
+
+    if success and localized:
+        print("\n[+] 代理人处理器完成")
+        return True
+    print("\n[x] 代理人处理器失败")
+    return False
 
 
 if __name__ == "__main__":

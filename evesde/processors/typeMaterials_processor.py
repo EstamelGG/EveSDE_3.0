@@ -275,9 +275,13 @@ def main(config=None):
     
     # 创建处理器并执行
     processor = TypeMaterialsProcessor(config)
-    processor.process_all_languages()
-    
-    print("\n[+] 物品材料产出数据处理器完成")
+    success = processor.process_all_languages()
+
+    if success:
+        print("\n[+] 物品材料产出数据处理器完成")
+    else:
+        print("\n[x] 物品材料产出数据处理器失败")
+    return success
 
 
 if __name__ == "__main__":

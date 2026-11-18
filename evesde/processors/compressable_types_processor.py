@@ -142,9 +142,13 @@ def main(config=None):
     
     # 创建处理器并执行
     processor = CompressableTypesProcessor(config)
-    processor.process_all_languages()
-    
-    print("\n[+] 可压缩物品类型数据处理器完成")
+    success = processor.process_all_languages()
+
+    if success:
+        print("\n[+] 可压缩物品类型数据处理器完成")
+    else:
+        print("\n[x] 可压缩物品类型数据处理器失败")
+    return success
 
 
 if __name__ == "__main__":

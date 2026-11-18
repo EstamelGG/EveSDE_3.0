@@ -135,7 +135,7 @@ class MasteryCertificatesProcessor:
             cursor.execute(f'SELECT COUNT(*) FROM {table}')
             print(f"[+] {table}: {cursor.fetchone()[0]} 行")
 
-    def update_database(self, config):
+    def update_database(self, config) -> bool:
         self.load_data()
         db_file = get_db_path(config)
         db_file.parent.mkdir(parents=True, exist_ok=True)
@@ -151,6 +151,7 @@ class MasteryCertificatesProcessor:
             raise
         finally:
             conn.close()
+        return True
 
 
 def main(config=None):
@@ -158,8 +159,12 @@ def main(config=None):
     if config is None:
         config = load_config()
     processor = MasteryCertificatesProcessor(config)
-    processor.update_database(config)
-    print("\n[+] 专精认证处理器完成")
+    success = processor.update_database(config)
+    if success:
+        print("\n[+] 专精认证处理器完成")
+    else:
+        print("\n[x] 专精认证处理器失败")
+    return success
 
 
 if __name__ == "__main__":

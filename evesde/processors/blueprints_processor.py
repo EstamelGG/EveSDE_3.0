@@ -9,6 +9,7 @@
 """
 
 from evesde.paths import load_config, PROJECT_ROOT
+from evesde.sde_schema import SdeSchemaError
 from evesde.utils.single_db import get_db_path
 import json
 import sqlite3
@@ -32,8 +33,7 @@ class BlueprintsProcessor:
         jsonl_file = self.sde_jsonl_path / "blueprints.jsonl"
 
         if not jsonl_file.exists():
-            print(f"[x] 找不到blueprints JSONL文件: {jsonl_file}")
-            return {}
+            raise SdeSchemaError(f"SDE 必需文件不存在: {jsonl_file}")
 
         print(f"[+] 读取blueprints JSONL文件: {jsonl_file}")
 
@@ -47,21 +47,30 @@ class BlueprintsProcessor:
 
                     try:
                         data = json.loads(line)
+                        if not isinstance(data, dict):
+                            raise SdeSchemaError(f"blueprints.jsonl 第{line_num}行不是JSON对象")
+                        missing = [
+                            field for field in ("_key", "activities", "maxProductionLimit")
+                            if field not in data
+                        ]
+                        if missing:
+                            raise SdeSchemaError(
+                                f"blueprints.jsonl 第{line_num}行缺少字段: {', '.join(missing)}"
+                            )
                         blueprint_id = data['_key']
                         blueprints_data[blueprint_id] = data
                     except json.JSONDecodeError as e:
-                        print(f"[!] 第{line_num}行JSON解析错误: {e}")
-                        continue
-                    except KeyError as e:
-                        print(f"[!] 第{line_num}行缺少必要字段: {e}")
-                        continue
+                        raise SdeSchemaError(
+                            f"blueprints.jsonl 第{line_num}行JSON解析错误: {e}"
+                        ) from e
 
             print(f"[+] 成功读取 {len(blueprints_data)} 个blueprints记录")
             return blueprints_data
 
+        except SdeSchemaError:
+            raise
         except Exception as e:
-            print(f"[x] 读取blueprints JSONL文件时出错: {e}")
-            return {}
+            raise SdeSchemaError(f"读取blueprints JSONL文件时出错: {e}") from e
 
     def insert_row(
         self,
@@ -145,7 +154,7 @@ class BlueprintsProcessor:
 
             for blueprint_id, blueprint_data in blueprints_data.items():
                 try:
-                    blueprint_type_id = blueprint_data['blueprintTypeID']
+                    blueprint_type_id = blueprint_data['_key']
                     activities = blueprint_data.get('activities', {})
                     maxProductionLimit = blueprint_data.get('maxProductionLimit', 0)
 
@@ -235,9 +244,10 @@ class BlueprintsProcessor:
                                 add_row('blueprint_invention_skills', skill['typeID'],
                                         'level', (skill.get("level", -1),))
 
+                except SdeSchemaError:
+                    raise
                 except Exception as e:
-                    print(f"[!] 处理蓝图 {blueprint_id} 时出错: {str(e)}")
-                    continue
+                    raise SdeSchemaError(f"处理蓝图 {blueprint_id} 时出错: {e}") from e
 
             print(f"[+] 已处理 {len(blueprints_data)} 个蓝图数据")
 
@@ -287,9 +297,13 @@ def main(config=None):
         config = load_config()
 
     processor = BlueprintsProcessor(config)
-    processor.process_all_languages()
+    success = processor.process_all_languages()
 
-    print("\n[+] 蓝图数据处理器完成")
+    if success:
+        print("\n[+] 蓝图数据处理器完成")
+    else:
+        print("\n[x] 蓝图数据处理器失败")
+    return success
 
 
 if __name__ == "__main__":

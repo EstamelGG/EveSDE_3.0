@@ -25,10 +25,10 @@ class JSONReportTests(unittest.TestCase):
         self.write_both("dogmaAttributes", [{"_key": i, "displayName": {"zh": "中文属性名"}} for i in range(10, 16)])
         self.write_both("typeDogma", [self.dogma(1, {10: 10.0, 11: 0, 12: 4})],
                         [self.dogma(1, {10: 12.5, 13: 0}), self.dogma(2, {14: 0, 15: 5})])
-        blueprint_old = {"_key": 100, "blueprintTypeID": 100, "maxProductionLimit": 10, "activities": {
+        blueprint_old = {"_key": 100, "maxProductionLimit": 10, "activities": {
             "manufacturing": {"time": 10, "materials": [{"typeID": 34, "quantity": 100}],
                               "products": [{"typeID": 1, "quantity": 1, "probability": 0.5}]}}}
-        blueprint_new = {"_key": 100, "blueprintTypeID": 100, "maxProductionLimit": 20, "activities": {
+        blueprint_new = {"_key": 100, "maxProductionLimit": 20, "activities": {
             "manufacturing": {"time": 12, "materials": [{"typeID": 35, "quantity": 200}],
                               "products": [{"typeID": 1, "quantity": 1, "probability": 0.8}]},
             "research_time": {"time": 50, "skills": [{"typeID": 3402, "level": 3}]}}}

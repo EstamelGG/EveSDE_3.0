@@ -175,7 +175,7 @@ def process_dynamic_items_to_db(data: List[Dict[str, Any]], cursor: sqlite3.Curs
     print(f"    - 耗时: {end_time - start_time:.2f} 秒")
 
 
-def update_all_databases(config):
+def update_all_databases(config) -> bool:
     """更新所有语言的数据库"""
     project_root = PROJECT_ROOT
     db_output_path = project_root / config["paths"]["db_output"]
@@ -184,8 +184,8 @@ def update_all_databases(config):
     # 获取动态物品数据
     dynamic_data = load_dynamic_items_from_sde(config)
     if not dynamic_data:
-        print("[x] 无法获取动态物品数据，跳过处理")
-        return
+        print("[x] 无法获取动态物品数据")
+        return False
     
     db_file = get_db_path(config)
     db_file.parent.mkdir(parents=True, exist_ok=True)
@@ -199,6 +199,8 @@ def update_all_databases(config):
         print("[+] 动态物品单库更新完成")
     except Exception as e:
         print(f"[x] 处理数据库 {db_file} 时出错: {e}")
+        raise
+    return True
 
 
 def main(config=None):
@@ -210,9 +212,13 @@ def main(config=None):
         config = load_config()
     
     # 更新所有数据库
-    update_all_databases(config)
-    
-    print("\n[+] 动态物品数据更新器完成")
+    success = update_all_databases(config)
+
+    if success:
+        print("\n[+] 动态物品数据更新器完成")
+    else:
+        print("\n[x] 动态物品数据更新器失败")
+    return success
 
 
 if __name__ == "__main__":

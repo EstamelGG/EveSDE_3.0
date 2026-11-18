@@ -219,7 +219,7 @@ class GroupsProcessor:
         total, default_icons, filled = cursor.fetchone()
         print(f"[+] 分组图标回填完成: 总计 {total}, 默认 {default_icons}, 已填 {filled}")
 
-    def update_all_databases(self, config):
+    def update_all_databases(self, config) -> bool:
         """更新所有语言的数据库"""
         project_root = PROJECT_ROOT
         db_output_path = project_root / config["paths"]["db_output"]
@@ -236,6 +236,8 @@ class GroupsProcessor:
             print("[+] 单库更新完成")
         except Exception as e:
             print(f"[x] 处理数据库 {db_file} 时出错: {e}")
+            raise
+        return True
 
 
 def backfill_group_icons(config: Optional[Dict[str, Any]] = None) -> bool:
@@ -257,9 +259,13 @@ def main(config=None):
     
     # 创建处理器并执行
     processor = GroupsProcessor(config)
-    processor.update_all_databases(config)
-    
-    print("\n[+] 物品组处理器完成")
+    success = processor.update_all_databases(config)
+
+    if success:
+        print("\n[+] 物品组处理器完成")
+    else:
+        print("\n[x] 物品组处理器失败")
+    return success
 
 
 if __name__ == "__main__":

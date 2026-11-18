@@ -336,9 +336,13 @@ def main(config=None):
     
     # 创建处理器并执行
     processor = DbuffCollectionsProcessor(config)
-    processor.process_all_languages()
-    
-    print("\n[+] dbuff集合数据处理器完成")
+    success = processor.process_all_languages()
+
+    if success:
+        print("\n[+] dbuff集合数据处理器完成")
+    else:
+        print("\n[x] dbuff集合数据处理器失败")
+    return success
 
 
 if __name__ == "__main__":
