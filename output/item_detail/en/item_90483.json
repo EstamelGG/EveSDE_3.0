@@ -1,7 +1,7 @@
 {
   "type_id": 90483,
   "name": "Abyssal Deep Core Mining Laser",
-  "description": "A basic mining laser for deep core mining ore such as mercoxit. Very inefficient but does get the job done ... eventually",
+  "description": "A basic mining laser for mining deep core ore such as mercoxit. Very inefficient but does get the job done... eventually",
   "volume": 5.0,
   "repackaged_volume": 5.0,
   "capacity": null,
