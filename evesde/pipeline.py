@@ -46,7 +46,7 @@ StepFn = Callable[[Dict[str, Any]], Any]
 # (stage, name, fn)
 PipelineStep = Tuple[str, str, StepFn]
 
-# 阶段仅作文档/日志分组；顺序严禁改动
+# 阶段仅作文档/日志分组；执行顺序存在数据依赖，调整前需同步检查
 PIPELINE_STEPS: List[PipelineStep] = [
     # icons
     ("icons", "图标构造", icon_builder_processor.main),
@@ -55,7 +55,6 @@ PIPELINE_STEPS: List[PipelineStep] = [
     # dimensions
     ("dimensions", "宇宙数据", universe_processor.main),
     ("dimensions", "宇宙名称", universe_names_processor.main),
-    ("dimensions", "Dogma效果数据", dogma_effects_processor.main),
     ("dimensions", "行星制造数据", planet_schematics_processor.main),
     ("dimensions", "物品分类数据", categories_processor.main),
     ("dimensions", "物品组数据", groups_processor.main),
@@ -71,6 +70,8 @@ PIPELINE_STEPS: List[PipelineStep] = [
     ("dimensions", "物品属性详情数据", typeDogma_processor.main),
     # core
     ("core", "物品详情数据", types_processor.main),
+    # 补丁校验依赖 groups、dogmaAttributes、types，必须在其后执行
+    ("core", "Dogma效果数据", dogma_effects_processor.main),
     ("core", "分组图标回填", groups_processor.backfill_group_icons),
     # enrich
     ("enrich", "NPC船只分类数据", npc_ship_classifier.main),

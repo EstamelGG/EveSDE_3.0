@@ -10,6 +10,7 @@ from evesde.processors.dogma_effects_processor import (
     modifier_info_sha256,
     validate_effect_patches,
 )
+from evesde.pipeline import PIPELINE_STEPS
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 ACTUAL_PATCHES = PROJECT_ROOT / "data" / "dogma_effect_patches.json"
@@ -200,6 +201,12 @@ class DogmaEffectPatchTests(unittest.TestCase):
                 (patch["effect_id"],),
             ).fetchone()[0]
             self.assertEqual(json.loads(value), patch["modifier_info"])
+
+    def test_pipeline_builds_patch_dependencies_before_effects(self):
+        names = [name for _, name, _ in PIPELINE_STEPS]
+        effect_index = names.index("Dogma效果数据")
+        for dependency in ("物品组数据", "物品属性数据", "物品详情数据"):
+            self.assertLess(names.index(dependency), effect_index)
 
 
 if __name__ == "__main__":
