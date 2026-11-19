@@ -1,6 +1,9 @@
 [
     {
+        "effect_id": 1851,
         "effect_name": "selfRof",
+        "reason": "Skill effects must reach modules that require the source skill.",
+        "expected_modifier_info_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
         "modifier_info": [
             {
                 "domain": "shipID",
@@ -13,7 +16,10 @@
         ]
     },
     {
+        "effect_id": 1730,
         "effect_name": "droneDmgBonus",
+        "reason": "Drone damage skills must reach owner-modifiable drones and fighters.",
+        "expected_modifier_info_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
         "modifier_info": [
             {
                 "domain": "shipID",
@@ -26,7 +32,10 @@
         ]
     },
     {
+        "effect_id": 4921,
         "effect_name": "microJumpDrive",
+        "reason": "The SDE omits the mass multiplier used by micro jump drives.",
+        "expected_modifier_info_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
         "modifier_info": [
             {
                 "domain": "shipID",
@@ -38,7 +47,10 @@
         ]
     },
     {
+        "effect_id": 6730,
         "effect_name": "moduleBonusMicrowarpdrive",
+        "reason": "The SDE omits the MWD mass and signature modifiers.",
+        "expected_modifier_info_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
         "modifier_info": [
             {
                 "domain": "shipID",
@@ -57,7 +69,10 @@
         ]
     },
     {
+        "effect_id": 6731,
         "effect_name": "moduleBonusAfterburner",
+        "reason": "The SDE omits the afterburner signature modifier.",
+        "expected_modifier_info_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
         "modifier_info": [
             {
                 "domain": "shipID",
@@ -69,7 +84,10 @@
         ]
     },
     {
+        "effect_id": 4928,
         "effect_name": "adaptiveArmorHardener",
+        "reason": "The resist shift must start from the module attributes.",
+        "expected_modifier_info_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
         "modifier_info": [
             {
                 "domain": "shipID",
@@ -102,7 +120,10 @@
         ]
     },
     {
+        "effect_id": 3773,
         "effect_name": "hardPointModifierEffect",
+        "reason": "Hardpoint bonuses must add to the hull.",
+        "expected_modifier_info_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
         "modifier_info": [
             {
                 "domain": "shipID",
@@ -121,7 +142,10 @@
         ]
     },
     {
+        "effect_id": 3774,
         "effect_name": "slotModifier",
+        "reason": "Slot bonuses must add to the hull.",
+        "expected_modifier_info_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
         "modifier_info": [
             {
                 "domain": "shipID",
@@ -147,7 +171,10 @@
         ]
     },
     {
+        "effect_id": 660,
         "effect_name": "missileEMDmgBonus",
+        "reason": "Missile damage skills must reach the loaded charge.",
+        "expected_modifier_info_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
         "modifier_info": [
             {
                 "domain": "charID",
@@ -160,7 +187,10 @@
         ]
     },
     {
+        "effect_id": 661,
         "effect_name": "missileExplosiveDmgBonus",
+        "reason": "Missile damage skills must reach the loaded charge.",
+        "expected_modifier_info_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
         "modifier_info": [
             {
                 "domain": "charID",
@@ -173,7 +203,10 @@
         ]
     },
     {
+        "effect_id": 668,
         "effect_name": "missileKineticDmgBonus2",
+        "reason": "Missile damage skills must reach the loaded charge.",
+        "expected_modifier_info_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
         "modifier_info": [
             {
                 "domain": "charID",
@@ -186,7 +219,10 @@
         ]
     },
     {
+        "effect_id": 662,
         "effect_name": "missileThermalDmgBonus",
+        "reason": "Missile damage skills must reach the loaded charge.",
+        "expected_modifier_info_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
         "modifier_info": [
             {
                 "domain": "charID",
@@ -198,4 +234,4 @@
             }
         ]
     }
-] 
+]

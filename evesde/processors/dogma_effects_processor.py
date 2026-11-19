@@ -9,12 +9,186 @@ Dogma效果处理器模块
 from evesde.paths import load_config, PROJECT_ROOT
 from evesde.utils.single_db import get_db_path, open_item_db
 from evesde.utils.wide_i18n import wide_texts, names_row
+import hashlib
 import json
 import sqlite3
 import time
 from pathlib import Path
 from typing import Dict, Any, List
 import evesde.processors.jsonl_loader as jsonl_loader
+
+
+_MODIFIER_DOMAINS = {
+    "shipID", "itemID", "charID", "otherID",
+    "structureID", "targetID", "target",
+}
+_MODIFIER_FUNCS = {
+    "ItemModifier", "LocationModifier", "LocationGroupModifier",
+    "LocationRequiredSkillModifier", "OwnerRequiredSkillModifier",
+    "EffectStopper",
+}
+_MODIFIER_OPERATIONS = {-1, 0, 1, 2, 3, 4, 5, 6, 7, 9}
+
+
+def canonical_modifier_info(modifier_info: Any) -> str:
+    """Canonical JSON used for comparing the official and patched definitions."""
+    return json.dumps(
+        modifier_info,
+        sort_keys=True,
+        separators=(",", ":"),
+        ensure_ascii=False,
+    )
+
+
+def modifier_info_sha256(modifier_info: Any) -> str:
+    return hashlib.sha256(
+        canonical_modifier_info(modifier_info).encode("utf-8")
+    ).hexdigest()
+
+
+def load_effect_patches(path: Path) -> List[Dict[str, Any]]:
+    if not path.exists():
+        raise FileNotFoundError(f"Dogma effect patch file is missing: {path}")
+    with path.open("r", encoding="utf-8") as f:
+        patches = json.load(f)
+    if not isinstance(patches, list) or not patches:
+        raise ValueError(f"Dogma effect patch file must be a non-empty list: {path}")
+    return patches
+
+
+def _validate_reference(
+    cursor: sqlite3.Cursor,
+    table: str,
+    column: str,
+    value: int,
+    label: str,
+    effect_name: str,
+) -> None:
+    cursor.execute(f"SELECT 1 FROM {table} WHERE {column} = ?", (value,))
+    if cursor.fetchone() is None:
+        raise ValueError(
+            f"{effect_name}: unknown {label} {value} referenced by patch"
+        )
+
+
+def validate_effect_patches(
+    cursor: sqlite3.Cursor,
+    patches: List[Dict[str, Any]],
+) -> None:
+    """Validate every patch before changing the database."""
+    for index, patch in enumerate(patches):
+        label = f"dogma_effect_patches[{index}]"
+        if not isinstance(patch, dict):
+            raise ValueError(f"{label}: patch must be an object")
+
+        effect_id = patch.get("effect_id")
+        effect_name = patch.get("effect_name")
+        expected_hash = patch.get("expected_modifier_info_sha256")
+        modifier_info = patch.get("modifier_info")
+
+        if not isinstance(effect_id, int) or effect_id <= 0:
+            raise ValueError(f"{label}: effect_id must be a positive integer")
+        if not isinstance(effect_name, str) or not effect_name:
+            raise ValueError(f"{label}: effect_name must be a non-empty string")
+        if not isinstance(expected_hash, str) or len(expected_hash) != 64:
+            raise ValueError(
+                f"{label}: expected_modifier_info_sha256 must be a SHA-256 hex string"
+            )
+        if not isinstance(modifier_info, list) or not modifier_info:
+            raise ValueError(f"{label}: modifier_info must be a non-empty list")
+
+        cursor.execute(
+            "SELECT modifier_info FROM dogmaEffects "
+            "WHERE effect_id = ? AND effect_name = ?",
+            (effect_id, effect_name),
+        )
+        rows = cursor.fetchall()
+        if len(rows) != 1:
+            raise ValueError(
+                f"{effect_name}({effect_id}): patch must match exactly one "
+                f"dogmaEffects row, matched {len(rows)}"
+            )
+
+        raw_modifier_info = rows[0][0]
+        try:
+            actual_modifier_info = (
+                json.loads(raw_modifier_info)
+                if raw_modifier_info is not None
+                else None
+            )
+        except json.JSONDecodeError as exc:
+            raise ValueError(
+                f"{effect_name}({effect_id}): official modifier_info is invalid JSON"
+            ) from exc
+
+        actual_hash = modifier_info_sha256(actual_modifier_info)
+        if actual_hash != expected_hash:
+            raise ValueError(
+                f"{effect_name}({effect_id}): official modifier_info changed. "
+                f"expected {expected_hash}, got {actual_hash}. "
+                "Review the SDE change and update the patch deliberately."
+            )
+
+        for modifier in modifier_info:
+            if not isinstance(modifier, dict):
+                raise ValueError(
+                    f"{effect_name}({effect_id}): each modifier must be an object"
+                )
+            missing = {
+                "domain", "func", "operation",
+                "modifiedAttributeID", "modifyingAttributeID",
+            } - modifier.keys()
+            if missing:
+                raise ValueError(
+                    f"{effect_name}({effect_id}): modifier misses "
+                    f"{', '.join(sorted(missing))}"
+                )
+
+            domain = modifier["domain"]
+            func = modifier["func"]
+            operation = modifier["operation"]
+            modified_id = modifier["modifiedAttributeID"]
+            modifying_id = modifier["modifyingAttributeID"]
+
+            if domain not in _MODIFIER_DOMAINS:
+                raise ValueError(
+                    f"{effect_name}({effect_id}): unknown modifier domain {domain!r}"
+                )
+            if func not in _MODIFIER_FUNCS:
+                raise ValueError(
+                    f"{effect_name}({effect_id}): unknown modifier func {func!r}"
+                )
+            if operation not in _MODIFIER_OPERATIONS:
+                raise ValueError(
+                    f"{effect_name}({effect_id}): unknown modifier operation {operation!r}"
+                )
+            if not isinstance(modified_id, int) or not isinstance(modifying_id, int):
+                raise ValueError(
+                    f"{effect_name}({effect_id}): modifier attribute IDs must be integers"
+                )
+
+            _validate_reference(
+                cursor, "dogmaAttributes", "attribute_id", modified_id,
+                "modified attribute", effect_name,
+            )
+            _validate_reference(
+                cursor, "dogmaAttributes", "attribute_id", modifying_id,
+                "modifying attribute", effect_name,
+            )
+
+            group_id = modifier.get("groupID", 0)
+            if group_id:
+                _validate_reference(
+                    cursor, "groups", "group_id", group_id,
+                    "group", effect_name,
+                )
+
+            skill_type_id = modifier.get("skillTypeID", 0)
+            if skill_type_id and skill_type_id != -1:
+                _validate_reference(
+                    cursor, "types", "type_id", skill_type_id,
+                    "skill type", effect_name,
+                )
 
 
 class DogmaEffectsProcessor:
@@ -173,24 +347,34 @@ class DogmaEffectsProcessor:
             raise
         return True
 
-    def _apply_effect_patches(self, cursor: sqlite3.Cursor) -> None:
+    def _apply_effect_patches(
+        self,
+        cursor: sqlite3.Cursor,
+        patch_path: Path | None = None,
+    ) -> None:
         """应用 data/dogma_effect_patches.json（原独立回填步骤）。"""
-        patch_path = PROJECT_ROOT / "data" / "dogma_effect_patches.json"
-        if not patch_path.exists():
-            print(f"[!] 修补文件不存在，跳过: {patch_path}")
-            return
-        with patch_path.open("r", encoding="utf-8") as f:
-            patches = json.load(f)
-        if not patches:
-            return
+        patch_path = patch_path or (
+            PROJECT_ROOT / "data" / "dogma_effect_patches.json"
+        )
+        patches = load_effect_patches(patch_path)
+        validate_effect_patches(cursor, patches)
+
         for patch in patches:
+            effect_id = patch["effect_id"]
             effect_name = patch["effect_name"]
             modifier_info = json.dumps(patch["modifier_info"], separators=(",", ":"))
             cursor.execute(
-                "UPDATE dogmaEffects SET modifier_info = ? WHERE effect_name = ?",
-                (modifier_info, effect_name),
+                "UPDATE dogmaEffects SET modifier_info = ? "
+                "WHERE effect_id = ? AND effect_name = ?",
+                (modifier_info, effect_id, effect_name),
             )
-            print(f"[+] dogmaEffects 已修补 {cursor.rowcount} 条 {effect_name}")
+            if cursor.rowcount != 1:
+                raise ValueError(
+                    f"{effect_name}({effect_id}): expected one updated row, "
+                    f"updated {cursor.rowcount}"
+                )
+            print(f"[+] dogmaEffects 已修补 {effect_name}({effect_id})")
+        print(f"[+] dogmaEffects 共应用 {len(patches)} 条受控补丁")
 
 
 def main(config=None):
