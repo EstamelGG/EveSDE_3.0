@@ -1,6 +1,6 @@
 {
   "type_id": 93906,
-  "name": "菲尔米尔的改良型采矿激光器提升器",
+  "name": "菲尔米尔氏改良型采矿激光器提升器",
   "description": "增加采矿激光器的产出，但需占用更多CPU。",
   "volume": 5.0,
   "repackaged_volume": 5.0,
