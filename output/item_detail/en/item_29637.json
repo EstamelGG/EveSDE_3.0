@@ -1,7 +1,7 @@
 {
   "type_id": 29637,
   "name": "Industrial Command Ships",
-  "description": "Skill at operating industrial command ships.",
+  "description": "Skill for the operation of industrial command ships.",
   "volume": 0.01,
   "repackaged_volume": 0.01,
   "capacity": null,

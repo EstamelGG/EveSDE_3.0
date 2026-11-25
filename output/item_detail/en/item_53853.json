@@ -1,7 +1,7 @@
 {
   "type_id": 53853,
   "name": "Low-grade Nirvana Alpha",
-  "description": "This ocular filter appears to have been developed using Sansha's Nation technology and is likely to be used by elite pilots of Nation and related factions. It provides increasing shield hitpoint bonuses when plugged in alongside other implants from the same set.\n\nPrimary Effect: +2 bonus to Perception\n\nSecondary Effect: 1% bonus to shield hitpoints\n\nSet Effect: 2.5% bonus to the strength of all Nirvana implant secondary effects",
+  "description": "This ocular filter appears to have been developed using Sansha's Nation technology and is likely to be used by elite pilots of Nation and related factions. It provides increasing shield hitpoint bonuses when plugged in alongside other implants from the same set.\n\n<b>Primary Effect:</b> +2 bonus to Perception\n<b>Secondary Effect:</b> 1% bonus to shield hitpoints\n<b>Set Effect:</b> 2.5% bonus to the strength of all Nirvana implant secondary effects",
   "volume": 1.0,
   "repackaged_volume": 1.0,
   "capacity": null,

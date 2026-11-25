@@ -1,7 +1,7 @@
 {
   "type_id": 3335,
   "name": "Amarr Cruiser",
-  "description": "Skill at operating Amarr cruisers.",
+  "description": "Skill for the operation of Amarr cruisers.",
   "volume": 0.01,
   "repackaged_volume": 0.01,
   "capacity": null,

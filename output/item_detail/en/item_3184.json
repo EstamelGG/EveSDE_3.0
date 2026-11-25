@@ -1,7 +1,7 @@
 {
   "type_id": 3184,
   "name": "ORE Hauler",
-  "description": "Skill at operating ORE hauler ships.",
+  "description": "Skill for the operation of ORE hauler ships.",
   "volume": 0.01,
   "repackaged_volume": 0.01,
   "capacity": null,

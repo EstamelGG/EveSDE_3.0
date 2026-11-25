@@ -1,7 +1,7 @@
 {
   "type_id": 24314,
   "name": "Minmatar Carrier",
-  "description": "Skill at operating Minmatar carriers.",
+  "description": "Skill for the operation of Minmatar carriers.",
   "volume": 0.01,
   "repackaged_volume": 0.01,
   "capacity": null,

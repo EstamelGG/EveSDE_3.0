@@ -1,7 +1,7 @@
 {
   "type_id": 89241,
   "name": "Mining Destroyer",
-  "description": "Skill at operating ORE Mining Destroyers",
+  "description": "Skill for the operation of ORE Mining Destroyers",
   "volume": 0.01,
   "repackaged_volume": 0.01,
   "capacity": null,

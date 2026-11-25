@@ -1,7 +1,7 @@
 {
   "type_id": 20527,
   "name": "Gallente Freighter",
-  "description": "Skill at operating Gallente freighters.",
+  "description": "Skill for the operation of Gallente freighters.",
   "volume": 0.01,
   "repackaged_volume": 0.01,
   "capacity": null,

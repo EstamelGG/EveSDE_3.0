@@ -1,7 +1,7 @@
 {
   "type_id": 33092,
   "name": "Caldari Destroyer",
-  "description": "Skill at operating Caldari destroyers.",
+  "description": "Skill for the operation of Caldari destroyers.",
   "volume": 0.01,
   "repackaged_volume": 0.01,
   "capacity": null,

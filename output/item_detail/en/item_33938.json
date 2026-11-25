@@ -1,7 +1,7 @@
 {
   "type_id": 33938,
   "name": "Low-grade Halo Epsilon",
-  "description": "This social adaptation chip has been modified by Angel scientists for use by their elite officers.\n\nPrimary Effect: +2 Bonus to Charisma\n\nSecondary Effect: 2% reduction in ship's signature radius\n\nSet Effect: 2.5% bonus to the strength of all Halo implant secondary effects",
+  "description": "This social adaptation chip has been modified by Angel scientists for use by their elite officers.\n\n<b>Primary Effect:</b> +2 Bonus to Charisma\n<b>Secondary Effect:</b> 2% reduction in ship's signature radius\n<b>Set Effect:</b> 2.5% bonus to the strength of all Halo implant secondary effects",
   "volume": 1.0,
   "repackaged_volume": 1.0,
   "capacity": null,

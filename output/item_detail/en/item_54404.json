@@ -1,7 +1,7 @@
 {
   "type_id": 54404,
   "name": "Low-grade Hydra Alpha",
-  "description": "This ocular filter has been modified by Guristas scientists for use by their elite officers.\n\nPrimary Effect: +2 Bonus to Perception\n\nSecondary Effects: 1% bonus to drone tracking speed, drone optimal range, drone falloff range, missile flight time, and missile explosion velocity\n\nSet Effect: 2.5% bonus to the strength of all Hydra implant secondary effects\n\nNote: Has no effect on fighters",
+  "description": "This ocular filter has been modified by Guristas scientists for use by their elite officers.\n\n<b>Primary Effect:</b> +2 Bonus to Perception\n<b>Secondary Effects:</b> 1% bonus to drone tracking speed, drone optimal range, drone falloff range, missile flight time, and missile explosion velocity\n<b>Set Effect:</b> 2.5% bonus to the strength of all Hydra implant secondary effects\n\nNote: Has no effect on fighters",
   "volume": 1.0,
   "repackaged_volume": 1.0,
   "capacity": null,

@@ -1,7 +1,7 @@
 {
   "type_id": 33939,
   "name": "Low-grade Halo Gamma",
-  "description": "This neural boost has been modified by Angel scientists for use by their elite officers.\n\nPrimary Effect: +2 Bonus to Willpower\n\nSecondary Effect: 1.75% reduction in ship's signature radius\n\nSet Effect: 2.5% bonus to the strength of all Halo implant secondary effects",
+  "description": "This neural boost has been modified by Angel scientists for use by their elite officers.\n\n<b>Primary Effect:</b> +2 Bonus to Willpower\n<b>Secondary Effect:</b> 1.75% reduction in ship's signature radius\n<b>Set Effect:</b> 2.5% bonus to the strength of all Halo implant secondary effects",
   "volume": 1.0,
   "repackaged_volume": 1.0,
   "capacity": null,

@@ -1,7 +1,7 @@
 {
   "type_id": 81032,
   "name": "Upwell Hauler",
-  "description": "Skill at operating Upwell Consortium haulers.",
+  "description": "Skill for the operation of Upwell Consortium haulers.",
   "volume": 0.01,
   "repackaged_volume": 0.01,
   "capacity": null,

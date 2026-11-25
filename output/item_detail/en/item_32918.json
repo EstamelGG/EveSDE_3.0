@@ -1,7 +1,7 @@
 {
   "type_id": 32918,
   "name": "Mining Frigate",
-  "description": "Skill at operating ORE Mining Frigates.",
+  "description": "Skill for the operation of ORE Mining Frigates.",
   "volume": 0.01,
   "repackaged_volume": 0.01,
   "capacity": null,

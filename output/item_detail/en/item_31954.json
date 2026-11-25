@@ -1,7 +1,7 @@
 {
   "type_id": 31954,
   "name": "High-grade Grail Alpha",
-  "description": "This ocular filter has been modified by Amarr scientists for use by their elite officers.\n\nPrimary Effect: +4 Bonus to Perception\n\nSecondary Effect: 1% bonus to ship's radar sensor strength\n\nSet Effect: 15% bonus to the strength of all high-grade Grail implant secondary effects. Set effect not cumulative with low-grade Grail implants",
+  "description": "This ocular filter has been modified by Amarr scientists for use by their elite officers.\n\n<b>Primary Effect:</b> +4 Bonus to Perception\n<b>Secondary Effect:</b> 1% bonus to ship's radar sensor strength\n<b>Set Effect:</b> 15% bonus to the strength of all high-grade Grail implant secondary effects. Set effect not cumulative with low-grade Grail implants",
   "volume": 1.0,
   "repackaged_volume": 1.0,
   "capacity": null,

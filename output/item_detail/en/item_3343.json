@@ -1,7 +1,7 @@
 {
   "type_id": 3343,
   "name": "Amarr Hauler",
-  "description": "Skill at operating Amarr hauler ships.",
+  "description": "Skill for the operation of Amarr hauler ships.",
   "volume": 0.01,
   "repackaged_volume": 0.01,
   "capacity": null,

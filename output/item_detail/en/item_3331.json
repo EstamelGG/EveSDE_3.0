@@ -1,7 +1,7 @@
 {
   "type_id": 3331,
   "name": "Amarr Frigate",
-  "description": "Skill at operating Amarr frigates.",
+  "description": "Skill for the operation of Amarr frigates.",
   "volume": 0.01,
   "repackaged_volume": 0.01,
   "capacity": null,

@@ -1,7 +1,7 @@
 {
   "type_id": 22107,
   "name": "Mid-grade Crystal Alpha",
-  "description": "This ocular filter has been modified by Guristas scientists for use by their elite officers.\n\nPrimary Effect: +3 bonus to Perception \n\nSecondary Effect: 1% bonus to shield boost amount\n\nSet Effect: 10% bonus to the strength of all Crystal implant secondary effects\n\nNote: Has no effect on capital sized modules.",
+  "description": "This ocular filter has been modified by Guristas scientists for use by their elite officers.\n\n<b>Primary Effect:</b> +3 bonus to Perception \n<b>Secondary Effect:</b> 1% bonus to shield boost amount\n<b>Set Effect:</b> 10% bonus to the strength of all Crystal implant secondary effects\n\nNote: Has no effect on capital sized modules.",
   "volume": 1.0,
   "repackaged_volume": 1.0,
   "capacity": null,

@@ -1,7 +1,7 @@
 {
   "type_id": 33091,
   "name": "Amarr Destroyer",
-  "description": "Skill at operating Amarr destroyers.",
+  "description": "Skill for the operation of Amarr destroyers.",
   "volume": 0.01,
   "repackaged_volume": 0.01,
   "capacity": null,

@@ -1,7 +1,7 @@
 {
   "type_id": 20526,
   "name": "Caldari Freighter",
-  "description": "Skill at operating Caldari freighters.",
+  "description": "Skill for the operation of Caldari freighters.",
   "volume": 0.01,
   "repackaged_volume": 0.01,
   "capacity": null,

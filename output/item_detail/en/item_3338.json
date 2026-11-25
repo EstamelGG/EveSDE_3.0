@@ -1,7 +1,7 @@
 {
   "type_id": 3338,
   "name": "Caldari Battleship",
-  "description": "Skill at operating Caldari battleships.",
+  "description": "Skill for the operation of Caldari battleships.",
   "volume": 0.01,
   "repackaged_volume": 0.01,
   "capacity": null,

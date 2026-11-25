@@ -1,7 +1,7 @@
 {
   "type_id": 20530,
   "name": "Caldari Dreadnought",
-  "description": "Skill at operating Caldari dreadnoughts.",
+  "description": "Skill for the operation of Caldari dreadnoughts.",
   "volume": 0.01,
   "repackaged_volume": 0.01,
   "capacity": null,

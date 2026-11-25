@@ -1,7 +1,7 @@
 {
   "type_id": 33555,
   "name": "Mid-grade Ascendancy Alpha",
-  "description": "This ocular filter has been modified by Sisters of EVE scientists for use by their elite officers.\n\nPrimary Effect: +3 bonus to Perception\n\nSecondary Effect: 1% bonus to warp speed\n\nSet Effect: 10% bonus to the strength of all Ascendancy implant secondary effects",
+  "description": "This ocular filter has been modified by Sisters of EVE scientists for use by their elite officers.\n\n<b>Primary Effect:</b> +3 bonus to Perception\n<b>Secondary Effect:</b> 1% bonus to warp speed\n<b>Set Effect:</b> 10% bonus to the strength of all Ascendancy implant secondary effects",
   "volume": 1.0,
   "repackaged_volume": 1.0,
   "capacity": null,

@@ -1,7 +1,7 @@
 {
   "type_id": 93983,
   "name": "Command Carriers",
-  "description": "Skill at operating Command Carriers.",
+  "description": "Skill for the operation of Command Carriers.",
   "volume": 0.01,
   "repackaged_volume": 0.01,
   "capacity": null,

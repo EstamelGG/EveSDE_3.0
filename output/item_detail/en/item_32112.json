@@ -1,7 +1,7 @@
 {
   "type_id": 32112,
   "name": "Low-grade Talon Alpha",
-  "description": "This ocular filter has been modified by Caldari scientists for use by their elite officers. \n\nPrimary Effect: +2 Bonus to Perception\n\nSecondary Effect: Adds an additional 1 point of gravimetric sensor strength to piloted ship",
+  "description": "This ocular filter has been modified by Caldari scientists for use by their elite officers. \n\n<b>Primary Effect:</b> +2 Bonus to Perception\n<b>Secondary Effect:</b> Adds an additional 1 point of gravimetric sensor strength to piloted ship",
   "volume": 1.0,
   "repackaged_volume": 1.0,
   "capacity": null,

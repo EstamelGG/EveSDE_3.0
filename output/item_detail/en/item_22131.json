@@ -1,7 +1,7 @@
 {
   "type_id": 22131,
   "name": "Mid-grade Talisman Alpha",
-  "description": "This ocular filter has been modified by Blood Raider scientists for use by their elite officers.\n\nPrimary Effect: +3 bonus to Perception\n\nSecondary Effect: 1% reduction in the duration of modules requiring the Capacitor Emission Systems skill\n\nSet Effect: 10% bonus to the strength of all Talisman implant secondary effects",
+  "description": "This ocular filter has been modified by Blood Raider scientists for use by their elite officers.\n\n<b>Primary Effect:</b> +3 bonus to Perception\n<b>Secondary Effect:</b> 1% reduction in the duration of modules requiring the Capacitor Emission Systems skill\n<b>Set Effect:</b> 10% bonus to the strength of all Talisman implant secondary effects",
   "volume": 1.0,
   "repackaged_volume": 1.0,
   "capacity": null,

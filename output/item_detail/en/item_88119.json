@@ -1,7 +1,7 @@
 {
   "type_id": 88119,
   "name": "Low-grade Wedge Alpha",
-  "description": "This ocular filter has been modified by the Upwell Consortium for use by their elite security experts.\n\nPrimary Effect: +2 Bonus to Perception\n\nSecondary Effect: Adds an additional 1 point of Virus Coherence for Data and Relic Analyzers fitted to piloted ship",
+  "description": "This ocular filter has been modified by the Upwell Consortium for use by their elite security experts.\n\n<b>Primary Effect:</b> +2 Bonus to Perception\n<b>Secondary Effect:</b> Adds an additional 1 point of Virus Coherence for Data and Relic Analyzers fitted to piloted ship",
   "volume": 1.0,
   "repackaged_volume": 1.0,
   "capacity": null,

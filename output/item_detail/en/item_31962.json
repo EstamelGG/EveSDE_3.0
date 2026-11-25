@@ -1,7 +1,7 @@
 {
   "type_id": 31962,
   "name": "High-grade Talon Alpha",
-  "description": "This ocular filter has been modified by Caldari scientists for use by their elite officers. \n\nPrimary Effect: +4 bonus to Perception\n\nSecondary Effect: 1% bonus to ship's gravimetric sensor strength\n\nSet Effect: 15% bonus to the strength of all high-grade Talon implant secondary effects. Set effect not cumulative with low-grade Talon implants",
+  "description": "This ocular filter has been modified by Caldari scientists for use by their elite officers. \n\n<b>Primary Effect:</b> +4 bonus to Perception\n<b>Secondary Effect:</b> 1% bonus to ship's gravimetric sensor strength\n<b>Set Effect:</b> 15% bonus to the strength of all high-grade Talon implant secondary effects. Set effect not cumulative with low-grade Talon implants",
   "volume": 1.0,
   "repackaged_volume": 1.0,
   "capacity": null,

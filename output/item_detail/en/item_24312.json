@@ -1,7 +1,7 @@
 {
   "type_id": 24312,
   "name": "Caldari Carrier",
-  "description": "Skill at operating Caldari carriers.",
+  "description": "Skill for the operation of Caldari carriers.",
   "volume": 0.01,
   "repackaged_volume": 0.01,
   "capacity": null,

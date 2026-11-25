@@ -1,7 +1,7 @@
 {
   "type_id": 11395,
   "name": "Deep Core Mining",
-  "description": "Skill at operating mining lasers requiring Deep Core Mining. 10% reduction per skill level to the chance of a damage cloud forming while mining Mercoxit.",
+  "description": "Skill for the operation of mining lasers requiring Deep Core Mining. 10% reduction per skill level to the chance of a damage cloud forming while mining Mercoxit.",
   "volume": 0.01,
   "repackaged_volume": 0.01,
   "capacity": null,

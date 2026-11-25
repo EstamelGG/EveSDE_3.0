@@ -1,7 +1,7 @@
 {
   "type_id": 81044,
   "name": "Upwell Freighter",
-  "description": "Skill at operating Upwell freighters.",
+  "description": "Skill for the operation of Upwell freighters.",
   "volume": 0.01,
   "repackaged_volume": 0.01,
   "capacity": null,

@@ -1,7 +1,7 @@
 {
   "type_id": 3332,
   "name": "Gallente Cruiser",
-  "description": "Skill at operating Gallente cruisers.",
+  "description": "Skill for the operation of Gallente cruisers.",
   "volume": 0.01,
   "repackaged_volume": 0.01,
   "capacity": null,
